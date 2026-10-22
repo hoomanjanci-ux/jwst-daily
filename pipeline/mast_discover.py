@@ -53,13 +53,19 @@ def discover_jwst_products(instrument="NIRCAM*", calib_level=2, n_obs=6,
 
 
 def direct_urls(candidates):
-    """Two anonymous download paths per product (fallback order)."""
+    """Two anonymous download paths per product + official preview JPEG URL.
+    MAST previews live next to the science file with a .jpg extension
+    (verified live: Download/file?uri=mast:JWST/product/<stem>.jpg -> 200 image)."""
     urls = []
     for c in candidates:
+        stem = c["filename"]
+        if stem.lower().endswith(".fits"):
+            stem = stem[:-5]
         urls.append({
             **c,
             "url_s3": f"https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/{c['filename']}",
             "url_mast": f"https://mast.stsci.edu/api/v0.1/Download/file?uri={c['uri']}",
+            "url_preview": f"https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/{stem}.jpg",
         })
     return urls
 

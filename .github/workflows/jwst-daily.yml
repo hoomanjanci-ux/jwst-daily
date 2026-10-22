@@ -1,16 +1,19 @@
 name: jwst-daily
 
-# Zero-cost schedule: public repo => standard runners are free & unlimited (official).
-# cron on GitHub Actions: min 5-minute interval; runs on default branch; may be delayed
-# under load (documented). Keepalive below prevents the 60-day inactivity auto-disable.
+# One hourly cron drives EVERYTHING (public repo => standard runners free & unlimited):
+#   * every hour: publish top-2 pending analyses (4-image album, FA + EN)
+#   * every ~20h: discovery/processing batch inside the 1.1 GB byte budget
+# Scheduled runs may be delayed by GitHub under load (documented); the state ledger +
+# backlog design compensates automatically. workflow_dispatch = manual catch-up.
+# Keepalive: state/analyses commits prevent the 60-day inactivity auto-disable.
 
 on:
   schedule:
-    - cron: "23 4 * * *"   # daily, off-peak minute (UTC)
-  workflow_dispatch:        # manual trigger for first run/tests
+    - cron: "37 * * * *"   # hourly, off-peak minute (UTC)
+  workflow_dispatch:        # manual trigger (tests, recovery)
 
 permissions:
-  contents: write           # needed to commit state.json back (keepalive too)
+  contents: write           # commit state.json + analyses/ back
 
 concurrency:
   group: jwst-daily
@@ -31,25 +34,29 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
-      - name: Run daily pipeline (MAST -> FITS -> PNG -> Telegram x4)
+      - name: Run pipeline (batch if due -> publish top-2 hourly)
         env:
-          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_BOT_TOKEN:    ${{ secrets.TG_BOT_TOKEN }}
+          TG_TEST_CHANNEL: ${{ secrets.TG_TEST_CHANNEL }}
           TG_CH_FA_AI:  ${{ secrets.TG_CH_FA_AI }}
           TG_CH_EN_AI:  ${{ secrets.TG_CH_EN_AI }}
           TG_CH_FA_OFF: ${{ secrets.TG_CH_FA_OFF }}
           TG_CH_EN_OFF: ${{ secrets.TG_CH_EN_OFF }}
           MAX_BYTES: "1100000000"          # ~1 GB/day base scenario
+          PUBLISH_COUNT: "2"               # mission spec: 2 selected items per hour
+          BATCH_GAP_HOURS: "20"
         run: python pipeline/run_daily.py --max-bytes $MAX_BYTES
 
-      - name: Commit state (dedup ledger + keepalive)
+      - name: Commit state + analyses (ledger + keepalive)
         run: |
           git config user.name  "jwst-pipeline-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add pipeline/state.json
-          git commit -m "state: $(date -u +%F-%H:%M) [skip ci]" || echo "no state changes"
+          git add pipeline/state.json analyses/
+          git commit -m "state: $(date -u +%F-%H:%M) [skip ci]" || echo "no changes"
+          git pull --rebase origin main || true
           git push
 
-      - name: Upload PNG samples as artifact (90-day default retention, public repo = free)
+      - name: Upload PNG samples as artifact (90-day retention, public repo = free)
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -57,3 +64,15 @@ jobs:
           path: |
             /tmp/jwst_*/*.png
           if-no-files-found: ignore
+
+      - name: Auto-alert on failure (test channel)
+        if: failure()
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_TEST_CHANNEL: ${{ secrets.TG_TEST_CHANNEL }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot$TG_BOT_TOKEN/sendMessage" \
+            -d chat_id="$TG_TEST_CHANNEL" \
+            -d parse_mode="HTML" \
+            -d text="⚠️ jwst-daily run FAILED — <a href='${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'>open log</a>" \
+            || echo "alert failed (non-blocking)"

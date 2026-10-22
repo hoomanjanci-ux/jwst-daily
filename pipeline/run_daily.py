@@ -1,49 +1,62 @@
 """
-run_daily.py - Daily orchestrator for the zero-cost JWST -> Telegram pipeline.
-Design: GitHub Actions (public repo, free standard runner) -> MAST download -> astropy
-metadata/PNG -> Telegram Bot API fan-out to 4 channels. State = state.json committed back
-to the repo (no external DB needed; optional D1/KV later).
+run_daily.py - v0.2 orchestrator (hourly-cron driven, one workflow does everything).
 
-Rules implemented:
-  * byte budget per run (default ~1 GB; never exceeds)
-  * product dedup via unique product id + per-channel sent-status
-  * download validation: Content-Length match + sha256 recorded
-  * temp cleanup after each product (raw FITS is NOT kept permanently)
-  * explicit mock labeling for AI analysis (Vision runs outside, owner-provided)
+  1) BATCH (only if last batch > batch_gap_hours ago, default ~20h):
+     discover -> download -> render -> deterministic ROI detection -> score ->
+     store TEXT analysis JSON in analyses/ (committed to repo) -> free the FITS.
+  2) PUBLISH (every run): take top-N unpublished analyses by score -> re-download that
+     product (fast on the runner; nothing image-like is stored permanently) ->
+     build the 4-image album (FITS raw, FITS annotated, official MAST preview JPEG raw,
+     preview annotated with the same ROI) -> send FA album + EN album -> mark published.
+
+State = state.json committed back to the repo (persistence + keepalive).
+Raw FITS never persists beyond the run (mission rule). Analysis text persists forever
+(small) - that is the memory the future Vision step will condition on.
 """
 from __future__ import annotations
 
 import hashlib
 import json
 import os
+import random
 import shutil
 import sys
 import tempfile
-from datetime import datetime, timezone
+import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import numpy as np
 import requests
+from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).parent))
+import annotator  # noqa: E402
 import fits2png  # noqa: E402
 import mast_discover  # noqa: E402
 import telegram_publish  # noqa: E402
 
-STATE_PATH = Path(__file__).parent / "state.json"
-S3 = "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/"
-MAST_DL = "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/"
-UA = {"User-Agent": "jwst-free-pipeline/0.1 (public MAST data; low-volume daily batch)"}
+ROOT = Path(__file__).parent
+STATE_PATH = ROOT / "state.json"
+ANALYSES = ROOT.parent / "analyses"  # repo-root /analyses (text-only, committed)
+UA = {"User-Agent": "jwst-free-pipeline/0.2 (public MAST data; low-volume daily batch)"}
+
+
+def _iso_now():
+    return datetime.now(timezone.utc).isoformat()
 
 
 def load_state():
-    defaults = {"products": {}, "runs": []}
+    defaults = {"products": {}, "runs": [], "last_batch_utc": None}
     if STATE_PATH.exists():
         try:
             data = json.loads(STATE_PATH.read_text(encoding="utf-8"))
             if isinstance(data, dict):
                 defaults.update(data)
         except Exception:
-            pass  # corrupt/empty state -> start fresh, never crash the run
+            pass
+    for rec in defaults["products"].values():  # v0.1 ledger migration
+        rec.setdefault("status", "legacy_v01")
     return defaults
 
 
@@ -62,99 +75,265 @@ def sha256_file(path, chunk=1 << 20):
     return h.hexdigest()
 
 
-def download(url, dest, expected_bytes=None, hard_cap=None, max_seconds=240):
-    """Streaming download with byte cap + wall-clock cap; returns (path, n_bytes, seconds)."""
-    t0 = time_start = __import__("time").perf_counter()
-    n = 0
-    with requests.get(url, headers=UA, stream=True, timeout=(10, 60)) as r:
-        r.raise_for_status()
-        clen = r.headers.get("Content-Length")
-        if expected_bytes and clen and abs(int(clen) - expected_bytes) > 1024:
-            raise ValueError(f"size mismatch: header={clen} expected={expected_bytes}")
-        with open(dest, "wb") as f:
-            for chunk in r.iter_content(chunk_size=1 << 20):
-                f.write(chunk)
-                n += len(chunk)
-                if hard_cap and n > hard_cap:
-                    raise OverflowError("byte budget exceeded")
-                if __import__("time").perf_counter() - t0 > max_seconds:
-                    raise TimeoutError("download wall-clock cap exceeded")
-    return dest, n, __import__("time").perf_counter() - time_start
+def robust_download(url, dest, hard_cap=None, max_seconds=300, attempts=3):
+    """Streaming download with retry/backoff (429 obeys Retry-After), byte + wall caps.
+    Returns (n_bytes, seconds)."""
+    t0 = time.perf_counter()
+    last_err = None
+    for a in range(attempts):
+        n = 0
+        try:
+            with requests.get(url, headers=UA, stream=True, timeout=(10, 60)) as r:
+                r.raise_for_status()
+                with open(dest, "wb") as f:
+                    for chunk in r.iter_content(chunk_size=1 << 20):
+                        f.write(chunk)
+                        n += len(chunk)
+                        if hard_cap and n > hard_cap:
+                            raise OverflowError("byte budget exceeded")
+                        if time.perf_counter() - t0 > max_seconds:
+                            raise TimeoutError("download wall-clock cap exceeded")
+            return n, time.perf_counter() - t0
+        except Exception as e:  # noqa: BLE001 - retry any transport-level failure
+            last_err = e
+            time.sleep(min(2 ** a, 8) + random.uniform(0, 1))
+    raise last_err  # type: ignore[misc]
 
 
-def run(max_bytes=1_100_000_000, dry_run=False, max_products=6):
-    state = load_state()
-    state["runs"].append({"started_utc": datetime.now(timezone.utc).isoformat(),
-                          "max_bytes": max_bytes, "dry_run": dry_run})
-    token = os.environ.get("TG_BOT_TOKEN", "")
-    budget = max_bytes
-    published = 0
+def publish_targets():
+    """v0.2 roll-out: TG_TEST_CHANNEL set -> test mode (FA + EN both go to the test
+    channel). When the 4 real channels are configured and test channel removed,
+    production mode activates with zero code changes."""
+    targets = []
+    test = (os.environ.get("TG_TEST_CHANNEL", "") or "").strip()
+    if test:
+        targets += [("test_fa", test, "fa"), ("test_en", test, "en")]
+        return targets
+    for key, env_name in telegram_publish.CHANNELS.items():
+        chat = telegram_publish.resolve_chat(env_name)
+        if chat:
+            targets.append((key, chat, "fa" if key.startswith("fa") else "en"))
+    return targets
 
-    candidates = mast_discover.direct_urls(
+
+def _render_and_score(dest, tmp, pid):
+    """Render raw PNG + detect ROI + score. Returns (meta, raw_png, region, score)."""
+    meta = fits2png.metadata_summary(dest)
+    raw_png = tmp / f"{pid}.raw.png"
+    fits2png.to_png(dest, raw_png)
+    img8 = np.asarray(Image.open(raw_png).convert("L"))
+    regions = annotator.find_regions(img8, n_regions=1)
+    if not regions:
+        raise ValueError("no ROI found")
+    return meta, raw_png, regions[0], annotator.score_image(img8, regions)
+
+
+def process_batch(state, max_bytes, max_products, tmp):
+    cands = mast_discover.direct_urls(
         mast_discover.discover_jwst_products(min_mb=0.05, max_mb=400, n_obs=8))
-    tmp = Path(tempfile.mkdtemp(prefix="jwst_"))
-
-    for cand in candidates:
+    budget = max_bytes
+    processed = 0
+    for cand in cands:
         pid = cand["filename"]
         rec = state["products"].setdefault(pid, {"channels": {}})
-        if all(rec["channels"].get(k) == "sent" for k in telegram_publish.CHANNELS):
-            continue  # dedup: fully published already
-        if cand["size_mb"] * 1024 * 1024 > budget:
-            continue  # stays inside byte budget
+        if rec.get("status") in ("analyzed", "published_test", "published"):
+            continue
+        if cand["size_mb"] * 1048576 > budget:
+            continue
         dest = tmp / pid
         try:
             try:
-                _, n, secs = download(cand["url_s3"], dest, hard_cap=budget)
+                n, _ = robust_download(cand["url_s3"], dest, hard_cap=budget)
             except Exception:
-                _, n, secs = download(cand["url_mast"], dest, hard_cap=budget)
-        except Exception as e:
-            rec["last_error"] = f"{type(e).__name__}: {e}"
+                n, _ = robust_download(cand["url_mast"], dest, hard_cap=budget)
+        except Exception as e:  # noqa: BLE001
+            rec["last_error"] = f"download: {type(e).__name__}: {e}"
             continue
-
         budget -= n
         try:
-            meta = fits2png.metadata_summary(dest)
-            png_info = fits2png.to_png(dest, tmp / (pid + ".png"))
-        except Exception as e:  # unsuitable product (mission rule): record + skip, run continues
+            meta, raw_png, region, score = _render_and_score(dest, tmp, pid)
+        except Exception as e:  # noqa: BLE001 - unsuitable product: record + skip
             rec["last_error"] = f"render: {type(e).__name__}: {e}"
             dest.unlink(missing_ok=True)
-            save_state(state)
             if budget <= 0:
                 break
             continue
-        analysis_text = fits2png.analysis_payload(meta)  # explicitly mock-labeled
 
-        if dry_run or not token:
-            rec["would_publish"] = telegram_publish.CHANNELS
-        else:
-            cap_fa = f"جیمز وب | {meta.get('TARGNAME') or 'بدون نام'} | فیلتر {meta.get('FILTER', '?')}"
-            cap_en = f"JWST | {meta.get('TARGNAME') or 'Unnamed'} | filter {meta.get('FILTER', '?')}"
-            try:
-                rec["channels"] = telegram_publish.publish_to_all(
-                    token, png_info["png"], cap_fa, cap_en, analysis_text, analysis_text,
-                    already_sent={k for k, v in rec["channels"].items() if v == "sent"})
-            except Exception as e:  # publishing must never kill the run; per-channel retry next run
-                rec["channels"] = {"publish_error": f"{type(e).__name__}: {e}"}
-
-        rec.update({"published_utc": datetime.now(timezone.utc).isoformat(),
-                    "bytes": n, "sha256": sha256_file(dest), "png_bytes": png_info["bytes"],
-                    "source": "MAST public", "uri": cand["uri"]})
-        published += 1
-        dest.unlink(missing_ok=True)  # raw FITS cleanup right after use
+        target = str(meta.get("TARGNAME") or "")
+        prior = [p for p, r in state["products"].items()
+                 if r.get("meta_TARGNAME", "") == target and p != pid][:5]  # memory seeds
+        day = _iso_now()[:10].replace("-", "/")
+        adir = ANALYSES / day
+        adir.mkdir(parents=True, exist_ok=True)
+        analysis = {
+            "ts": _iso_now(), "product": pid, "uri": cand["uri"],
+            "proposal": str(cand.get("proposal") or ""), "meta": meta,
+            "region": region, "score": score,
+            "mock_analysis": json.loads(fits2png.analysis_payload(meta)),
+            "prior_refs": prior, "bytes": n, "sha256": sha256_file(dest),
+            "source": "MAST public data",
+        }
+        (adir / f"{pid}.json").write_text(
+            json.dumps(analysis, ensure_ascii=False, indent=1), encoding="utf-8")
+        rec.update({
+            "status": "analyzed", "score": score,
+            "analysis": f"analyses/{day}/{pid}.json",
+            "cand": {"filename": pid, "size_mb": cand["size_mb"], "uri": cand["uri"],
+                     "proposal": str(cand.get("proposal") or ""),
+                     "obs_id": str(cand.get("obs_id") or ""),
+                     "url_mast": cand["url_mast"], "url_s3": cand["url_s3"],
+                     "url_preview": cand["url_preview"]},
+            "meta_TARGNAME": target, "meta_FILTER": str(meta.get("FILTER") or ""),
+            "bytes": n, "published_utc": None,
+        })
+        dest.unlink(missing_ok=True)   # raw FITS freed immediately (mission rule)
+        raw_png.unlink(missing_ok=True)
         save_state(state)
-        if budget <= 0 or published >= max_products:
+        processed += 1
+        if budget <= 0 or processed >= max_products:
             break
+    return processed
 
-    shutil.rmtree(tmp, ignore_errors=True)  # temp cleanup (mission rule)
-    state["runs"][-1].update({"finished_utc": datetime.now(timezone.utc).isoformat(),
-                              "published": published, "budget_left_bytes": max(0, budget)})
-    save_state(state)
-    print(json.dumps(state["runs"][-1], indent=2))
+
+def _captions(meta, prop):
+    targ = str(meta.get("TARGNAME") or "-")
+    filt = str(meta.get("FILTER") or "?")
+    inst = str(meta.get("INSTRUME") or "?")
+    dateobs = str(meta.get("DATE-OBS") or "")[:10]
+    cap_fa = (f"🔭 جیمز وب | {targ}\n"
+              f"ابزار: {inst} | فیلتر: {filt} | تاریخ مشاهده: {dateobs}\n"
+              f"پروپوزال: {prop} | منبع: MAST/STScI (دادهٔ عمومی)\n"
+              f"کادر قرمز: ناحیهٔ منتخب (تشخیص قطعی - تحلیل AI به‌زودی)")
+    cap_en = (f"🔭 JWST | {targ}\n"
+              f"Instrument: {inst} | filter: {filt} | obs date: {dateobs}\n"
+              f"Proposal: {prop} | Source: MAST/STScI public data\n"
+              f"Red box: selected ROI (deterministic - AI analysis coming soon)")
+    return cap_fa, cap_en
+
+
+def publish_one(pid, state, token, targets, tmp):
+    rec = state["products"][pid]
+    cand = rec.get("cand") or {}
+    dest = tmp / pid
+    try:
+        try:
+            robust_download(cand["url_s3"], dest)
+        except Exception:
+            robust_download(cand["url_mast"], dest)
+    except Exception as e:  # noqa: BLE001
+        rec["last_error"] = f"re-download: {type(e).__name__}: {e}"
+        return False
+
+    try:
+        meta, raw_png, region_re, _score = _render_and_score(dest, tmp, pid)
+        region = region_re
+        analysis_path = ROOT.parent / (rec.get("analysis") or "")
+        if analysis_path.exists():  # stored ROI guarantees consistency with the ledger
+            try:
+                region = json.loads(analysis_path.read_text(encoding="utf-8"))["region"]
+            except Exception:
+                pass
+        ann_png = tmp / f"{pid}.ann.png"
+        annotator.annotate(raw_png, region, ann_png, label="ROI-1")
+        imgs = [raw_png, ann_png]
+
+        prev = tmp / (Path(pid).stem + ".jpg")
+        ok_prev = False
+        try:
+            r = requests.get(cand["url_preview"], headers=UA, timeout=90)
+            if r.status_code == 200 and len(r.content) > 20000:
+                prev.write_bytes(r.content)
+                ok_prev = True
+        except Exception:
+            pass
+        if ok_prev:
+            prev_ann = tmp / (Path(pid).stem + ".ann.jpg")
+            annotator.annotate(prev, region, prev_ann, label="ROI-1")
+            imgs += [prev, prev_ann]
+
+        prop = str(cand.get("proposal") or meta.get("PROPOSID") or "")
+        cap_fa, cap_en = _captions(meta, prop)
+        mock = json.loads(fits2png.analysis_payload(meta))
+        txt_fa = ("<pre>وضعیت: تحلیل هوش مصنوعی هنوز متصل نشده است (داده آزمایشی)\n"
+                  + json.dumps(mock, ensure_ascii=False, indent=1) + "</pre>")
+        txt_en = ("<pre>AI analysis not connected yet (mock payload)\n"
+                  + json.dumps(mock, ensure_ascii=False, indent=1) + "</pre>")
+
+        results = {}
+        for key, chat_id, lang in targets:
+            cap, txt = (cap_fa, txt_fa) if lang == "fa" else (cap_en, txt_en)
+            try:
+                telegram_publish.send_album(token, chat_id, imgs, cap)
+                telegram_publish.send_message(token, chat_id, txt)
+                results[key] = "sent"
+            except Exception as e:  # noqa: BLE001 - per-target isolation
+                results[key] = f"error: {type(e).__name__}"
+        rec["channels"] = {**rec.get("channels", {}), **results}
+        if any(v == "sent" for v in results.values()):
+            rec["status"] = "published_test" if any(k.startswith("test") for k, v in results.items() if v == "sent") else "published"
+            rec["published_utc"] = _iso_now()
+            return True
+        return False
+    except Exception as e:  # noqa: BLE001
+        rec["last_error"] = f"publish: {type(e).__name__}: {e}"
+        return False
+    finally:
+        dest.unlink(missing_ok=True)
+
+
+def run(max_bytes=1_100_000_000, max_products=6, publish_count=2, batch_gap_hours=20):
+    state = load_state()
+    token = os.environ.get("TG_BOT_TOKEN", "")
+    targets = publish_targets()
+    tmp = Path(tempfile.mkdtemp(prefix="jwst_"))
+    summary = {"started_utc": _iso_now()}
+    try:
+        need_batch = True
+        if state.get("last_batch_utc"):
+            try:
+                need_batch = (datetime.now(timezone.utc)
+                              - datetime.fromisoformat(state["last_batch_utc"])
+                              > timedelta(hours=batch_gap_hours))
+            except Exception:
+                need_batch = True
+        summary["batch_ran"] = bool(need_batch)
+        if need_batch:
+            summary["batch_processed"] = process_batch(state, max_bytes, max_products, tmp)
+            state["last_batch_utc"] = _iso_now()
+
+        pending = sorted(((pid, rec.get("score") or 0)
+                          for pid, rec in state["products"].items()
+                          if rec.get("status") == "analyzed"),
+                         key=lambda x: -x[1])
+        summary["pending_before"] = len(pending)
+        published = []
+        if token and targets:
+            for pid, _s in pending[:publish_count]:
+                if publish_one(pid, state, token, targets, tmp):
+                    published.append(pid)
+        else:
+            summary["note"] = "publish deferred (no token/targets configured)"
+        summary["published"] = published
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+        summary["finished_utc"] = _iso_now()
+        state.setdefault("runs", []).append(summary)
+        state["runs"] = state["runs"][-50:]
+        save_state(state)
+        print(json.dumps(summary, indent=1, ensure_ascii=False))
 
 
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("--max-bytes", type=int, default=int(os.environ.get("MAX_BYTES", 1_100_000_000)))
-    ap.add_argument("--dry-run", action="store_true", default=not bool(os.environ.get("TG_BOT_TOKEN")))
-    run(max_bytes=ap.parse_args().max_bytes, dry_run=ap.parse_args().dry_run)
+    ap.add_argument("--max-bytes", type=int,
+                    default=int(os.environ.get("MAX_BYTES", 1_100_000_000)))
+    ap.add_argument("--max-products", type=int,
+                    default=int(os.environ.get("MAX_PRODUCTS", 6)))
+    ap.add_argument("--publish-count", type=int,
+                    default=int(os.environ.get("PUBLISH_COUNT", 2)))
+    ap.add_argument("--batch-gap-hours", type=int,
+                    default=int(os.environ.get("BATCH_GAP_HOURS", 20)))
+    a = ap.parse_args()
+    run(max_bytes=a.max_bytes, max_products=a.max_products,
+        publish_count=a.publish_count, batch_gap_hours=a.batch_gap_hours)

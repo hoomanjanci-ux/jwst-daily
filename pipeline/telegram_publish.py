@@ -5,6 +5,7 @@ NOT executed in the research sandbox (no bot token here by design; token lives i
 """
 from __future__ import annotations
 
+import json
 import os
 import random
 import time
@@ -52,6 +53,47 @@ def send_photo(token, chat_id, png_path, caption, parse_mode="HTML", max_retry=5
             continue
         resp.raise_for_status()
     raise RuntimeError(f"sendPhoto failed after {max_retry} attempts: {resp.status_code} {resp.text[:200]}")
+
+
+def send_album(token, chat_id, image_paths, caption, parse_mode="HTML", max_retry=5):
+    """One album post via sendMediaGroup (up to 10 photos, caption on the first).
+    Used for the 4-image publication: FITS raw + FITS annotated + official JPEG raw
+    + official JPEG annotated. 429/5xx aware with backoff, like send_photo."""
+    if len(caption) > CAPTION_LIMIT:
+        caption = caption[:CAPTION_LIMIT - 1] + "\u2026"
+    files, media = {}, []
+    try:
+        for i, p in enumerate(image_paths[:10]):
+            key = f"file{i}"
+            files[key] = open(p, "rb")
+            item = {"type": "photo", "media": f"attach://{key}"}
+            if i == 0 and caption:
+                item["caption"] = caption
+                item["parse_mode"] = parse_mode
+            media.append(item)
+        wait = 2.0
+        resp = None
+        for attempt in range(max_retry):
+            for f in files.values():
+                f.seek(0)
+            resp = requests.post(API.format(token=token, method="sendMediaGroup"),
+                                 data={"media": json.dumps(media)}, files=files, timeout=120)
+            if resp.status_code == 200:
+                return resp.json()
+            if resp.status_code == 429:
+                time.sleep(int(resp.json().get("parameters", {}).get("retry_after", 5)) + 1)
+                continue
+            if resp.status_code >= 500:
+                time.sleep(wait + random.uniform(0, 1))
+                wait = min(wait * 2, 60)
+                continue
+            resp.raise_for_status()
+        raise RuntimeError(f"sendMediaGroup failed after {max_retry} attempts: "
+                           f"{resp.status_code if resp is not None else '?'} "
+                           f"{(resp.text[:200] if resp is not None else '')}")
+    finally:
+        for f in files.values():
+            f.close()
 
 
 def send_message(token, chat_id, text, parse_mode="HTML"):
