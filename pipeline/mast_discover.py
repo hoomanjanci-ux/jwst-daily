@@ -45,6 +45,10 @@ def discover_jwst_products(instrument="NIRCAM*", calib_level=2, n_obs=6,
             "proposal": str(row.get("proposal_id", "")),
         })
     out.sort(key=lambda x: x["size_mb"])
+    # Only displayable 2-D calibrated products (mission rule: defined behavior for
+    # unsuitable data). _uncal = raw 4-D ramps, *ints = 3-D cubes -> skipped at discovery.
+    good = ("_rate.fits", "_cal.fits", "_i2d.fits")
+    out = [c for c in out if c["filename"].lower().endswith(good)]
     return out
 
 

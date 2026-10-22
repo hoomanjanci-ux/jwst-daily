@@ -112,8 +112,16 @@ def run(max_bytes=1_100_000_000, dry_run=False, max_products=6):
             continue
 
         budget -= n
-        meta = fits2png.metadata_summary(dest)
-        png_info = fits2png.to_png(dest, tmp / (pid + ".png"))
+        try:
+            meta = fits2png.metadata_summary(dest)
+            png_info = fits2png.to_png(dest, tmp / (pid + ".png"))
+        except Exception as e:  # unsuitable product (mission rule): record + skip, run continues
+            rec["last_error"] = f"render: {type(e).__name__}: {e}"
+            dest.unlink(missing_ok=True)
+            save_state(state)
+            if budget <= 0:
+                break
+            continue
         analysis_text = fits2png.analysis_payload(meta)  # explicitly mock-labeled
 
         if dry_run or not token:

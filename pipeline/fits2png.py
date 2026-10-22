@@ -48,14 +48,23 @@ def classify_hdus(path):
 
 
 def pick_science_hdu(path):
-    """Return index of the first 2-D science image HDU (header-only; skips ERR/DQ/VAR planes)."""
+    """Index of the first 2-D science image HDU; if none exists, the first 3-D science
+    cube (caller collapses it to 2-D). Returns None when nothing usable (caller skips).
+    Header-only scan: skips ERR/DQ/VAR planes, never loads pixel data."""
     with fits.open(path, memmap=True) as hdul:
+        fallback3d = None
         for i, hdu in enumerate(hdul):
             hdr = hdu.header
-            if int(hdr.get("NAXIS", 0)) == 2 and (hdu.name or "PRIMARY") not in NON_IMAGE_EXT \
-                    and hdr.get("XTENSION", "PRIMARY") in ("PRIMARY", "IMAGE"):
+            if (hdu.name or "PRIMARY") in NON_IMAGE_EXT:
+                continue
+            if hdr.get("XTENSION", "PRIMARY") not in ("PRIMARY", "IMAGE"):
+                continue
+            naxis = int(hdr.get("NAXIS", 0))
+            if naxis == 2:
                 return i
-    raise ValueError(f"No 2-D science image HDU found in {path}")
+            if naxis >= 3 and fallback3d is None:
+                fallback3d = i
+        return fallback3d
 
 
 def metadata_summary(path):
@@ -82,10 +91,21 @@ def _to_uint8(norm_data):
 
 
 def to_png(path, out_path, hdu_index=None, max_side=4096, asinh_a=0.1):
-    """ZScale + asinh stretch -> 8-bit grayscale PNG. Returns artifact info."""
+    """ZScale + asinh stretch -> 8-bit grayscale PNG. 3-D cubes are collapsed to 2-D
+    (mean over leading axes). Raises ValueError when no usable plane exists (caller
+    records + skips the product; never crashes the run). Returns artifact info."""
     with fits.open(path, memmap=False) as hdul:  # memmap off: BZERO/BSCALE files need scaling
         idx = pick_science_hdu(path) if hdu_index is None else hdu_index
+        if idx is None:
+            raise ValueError(f"no usable science HDU in {path}")
         data = np.asarray(hdul[idx].data, dtype=np.float32)
+
+    if data.ndim > 2:  # collapse (integrations, groups) cube -> single 2-D frame
+        lead = tuple(range(data.ndim - 2))
+        with np.errstate(invalid="ignore"):
+            data = np.nanmean(data, axis=lead)
+    if data.ndim != 2 or data.size == 0:
+        raise ValueError(f"cannot reduce data to 2-D (shape={data.shape})")
 
     finite = data[np.isfinite(data)]
     if finite.size == 0:
