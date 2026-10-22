@@ -115,10 +115,10 @@
   },
   "jw01134001021_02101_00001_nrcb4_rate.fits": {
    "channels": {
-    "test_fa": "error: ValueError: could not convert string to float: ''",
-    "test_en": "error: ValueError: could not convert string to float: ''"
+    "test_fa": "sent",
+    "test_en": "sent"
    },
-   "status": "analyzed",
+   "status": "published_test",
    "score": 39.41,
    "analysis": "analyses/2026/10/22/jw01134001021_02101_00001_nrcb4_rate.fits.json",
    "cand": {
@@ -134,13 +134,33 @@
    "meta_TARGNAME": "HD 84406",
    "meta_FILTER": "F212N",
    "bytes": 83946240,
-   "published_utc": null,
+   "published_utc": "2026-10-22T12:34:44.295931+00:00",
    "quality_log": {
     "test_fa": {
-     "error_trace": "  File \"/home/runner/work/jwst-daily/jwst-daily/pipeline/quality.py\", line 155, in full_report |     \"ai_image\": None, \"min_score_gate\": float(os.environ.get(\"QAI_MIN_SCORE\", \"0\"))} |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | ValueError: could not convert string to float: ''"
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5204,
+      "brightness": 0.5341,
+      "range": 1.0,
+      "roi": 0.3941,
+      "score": 74.33
+     },
+     "ai_message": null,
+     "ai_image": null,
+     "min_score_gate": 0.0
     },
     "test_en": {
-     "error_trace": "  File \"/home/runner/work/jwst-daily/jwst-daily/pipeline/quality.py\", line 155, in full_report |     \"ai_image\": None, \"min_score_gate\": float(os.environ.get(\"QAI_MIN_SCORE\", \"0\"))} |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | ValueError: could not convert string to float: ''"
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5204,
+      "brightness": 0.5341,
+      "range": 1.0,
+      "roi": 0.3941,
+      "score": 74.33
+     },
+     "ai_message": null,
+     "ai_image": null,
+     "min_score_gate": 0.0
     }
    }
   },
@@ -189,10 +209,10 @@
   },
   "jw06627005001_07101_00007_nrcalong_cal.fits": {
    "channels": {
-    "test_fa": "error: ValueError: could not convert string to float: ''",
-    "test_en": "error: ValueError: could not convert string to float: ''"
+    "test_fa": "sent",
+    "test_en": "sent"
    },
-   "status": "analyzed",
+   "status": "published_test",
    "score": 56.65,
    "analysis": "analyses/2026/10/22/jw06627005001_07101_00007_nrcalong_cal.fits.json",
    "cand": {
@@ -208,13 +228,33 @@
    "meta_TARGNAME": "2MASS J05220207-6930388",
    "meta_FILTER": "F335M",
    "bytes": 117576000,
-   "published_utc": null,
+   "published_utc": "2026-10-22T12:34:22.513105+00:00",
    "quality_log": {
     "test_fa": {
-     "error_trace": "  File \"/home/runner/work/jwst-daily/jwst-daily/pipeline/quality.py\", line 155, in full_report |     \"ai_image\": None, \"min_score_gate\": float(os.environ.get(\"QAI_MIN_SCORE\", \"0\"))} |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | ValueError: could not convert string to float: ''"
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.7042,
+      "brightness": 0.7021,
+      "range": 1.0,
+      "roi": 0.5665,
+      "score": 83.11
+     },
+     "ai_message": null,
+     "ai_image": null,
+     "min_score_gate": 0.0
     },
     "test_en": {
-     "error_trace": "  File \"/home/runner/work/jwst-daily/jwst-daily/pipeline/quality.py\", line 155, in full_report |     \"ai_image\": None, \"min_score_gate\": float(os.environ.get(\"QAI_MIN_SCORE\", \"0\"))} |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | ValueError: could not convert string to float: ''"
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.7042,
+      "brightness": 0.7021,
+      "range": 1.0,
+      "roi": 0.5665,
+      "score": 83.11
+     },
+     "ai_message": null,
+     "ai_image": null,
+     "min_score_gate": 0.0
     }
    }
   }
@@ -263,6 +303,18 @@
    "published": [],
    "cloudflare": "off (waiting owner token)",
    "finished_utc": "2026-10-22T12:31:52.978837+00:00"
+  },
+  {
+   "started_utc": "2026-10-22T12:34:00.235726+00:00",
+   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
+   "batch_ran": false,
+   "pending_before": 3,
+   "published": [
+    "jw06627005001_07101_00007_nrcalong_cal.fits",
+    "jw01134001021_02101_00001_nrcb4_rate.fits"
+   ],
+   "cloudflare": "off (waiting owner token)",
+   "finished_utc": "2026-10-22T12:34:44.301781+00:00"
   }
  ],
  "last_batch_utc": "2026-10-22T11:55:34.533771+00:00"
