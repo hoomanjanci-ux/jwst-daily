@@ -277,6 +277,17 @@ def publish_one(pid, state, token, targets, tmp):
         if any(v == "sent" for v in results.values()):
             rec["status"] = "published_test" if any(k.startswith("test") for k, v in results.items() if v == "sent") else "published"
             rec["published_utc"] = _iso_now()
+            if cloudflare.configured():  # D1 mirror (non-blocking, owner phase-2)
+                try:
+                    qlog = rec.get("quality_log") or {}
+                    ai_s = next(((v.get("ai_message") or {}).get("score")
+                                 for v in qlog.values() if isinstance(v, dict)), None)
+                    ok_cf, det_cf = cloudflare.sync_analysis(
+                        pid, rec["published_utc"], meta, rec.get("score") or 0,
+                        ai_s, results, str(rec.get("analysis") or ""))
+                    rec["d1_sync"] = "ok" if ok_cf else f"failed: {str(det_cf)[:80]}"
+                except Exception as e:  # noqa: BLE001 - D1 mirror must never break publish
+                    rec["d1_sync"] = f"error: {type(e).__name__}"
             return True
         return False
     except Exception as e:  # noqa: BLE001

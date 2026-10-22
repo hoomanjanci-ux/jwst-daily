@@ -71,15 +71,24 @@ def _req(method, path, token, **kw):
 
 
 def probe() -> tuple[bool, str]:
-    """First live test once the owner's token arrives: token validity + D1 reach.
-    Works with token only (account id optional for /user/tokens/verify)."""
-    _, tok, _ = _cfg()
+    """First live test once the owner's token arrives.
+    Supports BOTH token kinds:
+      - user tokens   -> GET /user/tokens/verify
+      - account-owned tokens (cfat_ prefix, owner's kind) ->
+        GET /accounts/{account_id}/tokens/verify (requires CF_ACCOUNT_ID)
+    """
+    acct, tok, _ = _cfg()
     if not tok:
         return False, "CF_API_TOKEN not set"
-    ok, data = _req("GET", "/user/tokens/verify", tok)
+    if tok.startswith("cfat_"):  # account-owned token
+        if not acct:
+            return False, "cfat_ token needs CF_ACCOUNT_ID"
+        ok, data = _req("GET", f"/accounts/{acct}/tokens/verify", tok)
+    else:
+        ok, data = _req("GET", "/user/tokens/verify", tok)
     if not ok:
         return False, f"token verify failed: {json.dumps(data)[:200]}"
-    return True, "token valid"
+    return True, f"token valid (kind={'account-owned' if tok.startswith('cfat_') else 'user'})"
 
 
 def d1_query(sql, params=None) -> tuple[bool, object]:
