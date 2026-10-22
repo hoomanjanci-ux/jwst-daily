@@ -77,7 +77,8 @@ def send_album(token, chat_id, image_paths, caption, parse_mode="HTML", max_retr
             for f in files.values():
                 f.seek(0)
             resp = requests.post(API.format(token=token, method="sendMediaGroup"),
-                                 data={"media": json.dumps(media)}, files=files, timeout=120)
+                                 data={"chat_id": str(chat_id), "media": json.dumps(media)},
+                                 files=files, timeout=120)
             if resp.status_code == 200:
                 return resp.json()
             if resp.status_code == 429:
