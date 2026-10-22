@@ -1,0 +1,28 @@
+name: debug-updates
+
+# Owner-authorized debug tool (workflow_dispatch ONLY, never scheduled):
+# dumps the chat table the bot can self-discover (ids/titles/usernames - NO token).
+# Used to capture the private test channel id and, later, the 4 public channel ids
+# the moment the owner adds the bot to them.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover chats the bot can see
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+        run: python pipeline/tg_discover.py
