@@ -1,0 +1,46 @@
+{
+ "ts": "2026-10-22T11:55:14.092269+00:00",
+ "product": "jw06627005001_07101_00007_nrcalong_rate.fits",
+ "uri": "mast:JWST/product/jw06627005001_07101_00007_nrcalong_rate.fits",
+ "proposal": "6627",
+ "meta": {
+  "TELESCOP": "JWST",
+  "INSTRUME": "NIRCAM",
+  "DETECTOR": "NRCALONG",
+  "FILTER": "F335M",
+  "PUPIL": "MASKRND",
+  "DATE-OBS": "2024-11-09",
+  "TARGNAME": "2MASS J05220207-6930388",
+  "PROGRAM": "06627",
+  "n_hdus": 7
+ },
+ "region": {
+  "x0": 1407,
+  "y0": 1743,
+  "x1": 1569,
+  "y1": 1905,
+  "fx0": 0.687,
+  "fy0": 0.8511,
+  "fx1": 0.7661,
+  "fy1": 0.9302,
+  "score": 62.2
+ },
+ "score": 57.25,
+ "mock_analysis": {
+  "mock": true,
+  "warning": "MOCK ANALYSIS - not a scientific AI result",
+  "telescope": "JWST",
+  "instrument": "NIRCAM",
+  "detector": "NRCALONG",
+  "filter": "F335M",
+  "exptime_s": null,
+  "target": "2MASS J05220207-6930388",
+  "obs_date": "2024-11-09",
+  "proposal_id": null,
+  "note": "Vision model runs OUTSIDE this pipeline (owner-provided API). This stub keeps the release path testable."
+ },
+ "prior_refs": [],
+ "bytes": 83972160,
+ "sha256": "c8211803ceecbed1aa68ed1e51c197c8fea8d6287956f1e33cc81461e18fff6f",
+ "source": "MAST public data"
+}

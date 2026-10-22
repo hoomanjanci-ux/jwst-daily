@@ -1,0 +1,46 @@
+{
+ "ts": "2026-10-22T11:55:02.676357+00:00",
+ "product": "jw01134001021_02101_00001_nrcb4_rate.fits",
+ "uri": "mast:JWST/product/jw01134001021_02101_00001_nrcb4_rate.fits",
+ "proposal": "1134",
+ "meta": {
+  "TELESCOP": "JWST",
+  "INSTRUME": "NIRCAM",
+  "DETECTOR": "NRCB4",
+  "FILTER": "F212N",
+  "PUPIL": "CLEAR",
+  "DATE-OBS": "2022-02-03",
+  "TARGNAME": "HD 84406",
+  "PROGRAM": "01134",
+  "n_hdus": 7
+ },
+ "region": {
+  "x0": 927,
+  "y0": 111,
+  "x1": 1089,
+  "y1": 273,
+  "fx0": 0.4526,
+  "fy0": 0.0542,
+  "fx1": 0.5317,
+  "fy1": 0.1333,
+  "score": 42.08
+ },
+ "score": 39.41,
+ "mock_analysis": {
+  "mock": true,
+  "warning": "MOCK ANALYSIS - not a scientific AI result",
+  "telescope": "JWST",
+  "instrument": "NIRCAM",
+  "detector": "NRCB4",
+  "filter": "F212N",
+  "exptime_s": null,
+  "target": "HD 84406",
+  "obs_date": "2022-02-03",
+  "proposal_id": null,
+  "note": "Vision model runs OUTSIDE this pipeline (owner-provided API). This stub keeps the release path testable."
+ },
+ "prior_refs": [],
+ "bytes": 83946240,
+ "sha256": "739ba8a55f12ef83b2b84f6e85287e1dc7ec9cb223ddd61a3576dc953c7aa7ec",
+ "source": "MAST public data"
+}

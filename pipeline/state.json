@@ -12,7 +12,8 @@
    "sha256": "c54091e98cfb4ce485856375cee8d93f0f7bf3cbbddf4ef5bfa5744d66826bbe",
    "png_bytes": 3434893,
    "source": "MAST public",
-   "uri": "mast:JWST/product/jw06627005001_07101_00001_nrcalong_rate.fits"
+   "uri": "mast:JWST/product/jw06627005001_07101_00001_nrcalong_rate.fits",
+   "status": "legacy_v01"
   },
   "jw06627005001_07101_00003_nrcalong_rate.fits": {
    "channels": {
@@ -26,7 +27,8 @@
    "sha256": "1782ab7bce62b3c7572fbf18f1492154c54f4aabec3dcc41d21d6bacb70ad59b",
    "png_bytes": 3541646,
    "source": "MAST public",
-   "uri": "mast:JWST/product/jw06627005001_07101_00003_nrcalong_rate.fits"
+   "uri": "mast:JWST/product/jw06627005001_07101_00003_nrcalong_rate.fits",
+   "status": "legacy_v01"
   },
   "jw06627005001_07101_00006_nrcalong_rate.fits": {
    "channels": {
@@ -40,7 +42,8 @@
    "sha256": "4faecb409a04fdac6a1224d63a0398d8e2fbc7e58d78cf2792b5d2994b20548e",
    "png_bytes": 3407087,
    "source": "MAST public",
-   "uri": "mast:JWST/product/jw06627005001_07101_00006_nrcalong_rate.fits"
+   "uri": "mast:JWST/product/jw06627005001_07101_00006_nrcalong_rate.fits",
+   "status": "legacy_v01"
   },
   "jw07127040001_03105_00001_nrca1_rate.fits": {
    "channels": {
@@ -54,7 +57,8 @@
    "sha256": "a53e3f8146d92558f01d38f507e9fb12ab84490849217b1393601284aa912465",
    "png_bytes": 3637776,
    "source": "MAST public",
-   "uri": "mast:JWST/product/jw07127040001_03105_00001_nrca1_rate.fits"
+   "uri": "mast:JWST/product/jw07127040001_03105_00001_nrca1_rate.fits",
+   "status": "legacy_v01"
   },
   "jw07127040001_03105_00001_nrca1_cal.fits": {
    "channels": {
@@ -68,7 +72,8 @@
    "sha256": "9401964aeb77e5ea6afcaa9fc716de9c2a7d4d795e601923ec46cef60f83adc5",
    "png_bytes": 3672119,
    "source": "MAST public",
-   "uri": "mast:JWST/product/jw07127040001_03105_00001_nrca1_cal.fits"
+   "uri": "mast:JWST/product/jw07127040001_03105_00001_nrca1_cal.fits",
+   "status": "legacy_v01"
   },
   "jw06627005001_07101_00001_nrcalong_cal.fits": {
    "channels": {
@@ -82,7 +87,114 @@
    "sha256": "c790712f3fad33e900ee97c1c9ad32762db265a4a062e87461aa09498fadf586",
    "png_bytes": 3616697,
    "source": "MAST public",
-   "uri": "mast:JWST/product/jw06627005001_07101_00001_nrcalong_cal.fits"
+   "uri": "mast:JWST/product/jw06627005001_07101_00001_nrcalong_cal.fits",
+   "status": "legacy_v01"
+  },
+  "jw04535003001_03106_00001_nrca2_rate.fits": {
+   "channels": {
+    "test_fa": "error: HTTPError",
+    "test_en": "error: HTTPError"
+   },
+   "status": "analyzed",
+   "score": 68.79,
+   "analysis": "analyses/2026/10/22/jw04535003001_03106_00001_nrca2_rate.fits.json",
+   "cand": {
+    "filename": "jw04535003001_03106_00001_nrca2_rate.fits",
+    "size_mb": 2.035,
+    "uri": "mast:JWST/product/jw04535003001_03106_00001_nrca2_rate.fits",
+    "proposal": "4535",
+    "obs_id": "jw04535003001_03106_00001_nrca2",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw04535003001_03106_00001_nrca2_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw04535003001_03106_00001_nrca2_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw04535003001_03106_00001_nrca2_rate.jpg"
+   },
+   "meta_TARGNAME": "HD 218396",
+   "meta_FILTER": "F200W",
+   "bytes": 2136960,
+   "published_utc": null
+  },
+  "jw01134001021_02101_00001_nrcb4_rate.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 39.41,
+   "analysis": "analyses/2026/10/22/jw01134001021_02101_00001_nrcb4_rate.fits.json",
+   "cand": {
+    "filename": "jw01134001021_02101_00001_nrcb4_rate.fits",
+    "size_mb": 80.057,
+    "uri": "mast:JWST/product/jw01134001021_02101_00001_nrcb4_rate.fits",
+    "proposal": "1134",
+    "obs_id": "jw01134001021_02101_00001_nrcb4",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01134001021_02101_00001_nrcb4_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw01134001021_02101_00001_nrcb4_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01134001021_02101_00001_nrcb4_rate.jpg"
+   },
+   "meta_TARGNAME": "HD 84406",
+   "meta_FILTER": "F212N",
+   "bytes": 83946240,
+   "published_utc": null
+  },
+  "jw06627005001_07101_00007_nrcalong_rate.fits": {
+   "channels": {
+    "test_fa": "error: HTTPError",
+    "test_en": "error: HTTPError"
+   },
+   "status": "analyzed",
+   "score": 57.25,
+   "analysis": "analyses/2026/10/22/jw06627005001_07101_00007_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw06627005001_07101_00007_nrcalong_rate.fits",
+    "size_mb": 80.079,
+    "uri": "mast:JWST/product/jw06627005001_07101_00007_nrcalong_rate.fits",
+    "proposal": "6627",
+    "obs_id": "jw06627005001_07101_00007_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00007_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06627005001_07101_00007_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00007_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "2MASS J05220207-6930388",
+   "meta_FILTER": "F335M",
+   "bytes": 83972160,
+   "published_utc": null
+  },
+  "jw01134001021_02101_00001_nrcb4_cal.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 39.17,
+   "analysis": "analyses/2026/10/22/jw01134001021_02101_00001_nrcb4_cal.fits.json",
+   "cand": {
+    "filename": "jw01134001021_02101_00001_nrcb4_cal.fits",
+    "size_mb": 112.094,
+    "uri": "mast:JWST/product/jw01134001021_02101_00001_nrcb4_cal.fits",
+    "proposal": "1134",
+    "obs_id": "jw01134001021_02101_00001_nrcb4",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01134001021_02101_00001_nrcb4_cal.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw01134001021_02101_00001_nrcb4_cal.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01134001021_02101_00001_nrcb4_cal.jpg"
+   },
+   "meta_TARGNAME": "HD 84406",
+   "meta_FILTER": "F212N",
+   "bytes": 117538560,
+   "published_utc": null
+  },
+  "jw06627005001_07101_00007_nrcalong_cal.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 56.65,
+   "analysis": "analyses/2026/10/22/jw06627005001_07101_00007_nrcalong_cal.fits.json",
+   "cand": {
+    "filename": "jw06627005001_07101_00007_nrcalong_cal.fits",
+    "size_mb": 112.126,
+    "uri": "mast:JWST/product/jw06627005001_07101_00007_nrcalong_cal.fits",
+    "proposal": "6627",
+    "obs_id": "jw06627005001_07101_00007_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00007_nrcalong_cal.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06627005001_07101_00007_nrcalong_cal.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00007_nrcalong_cal.jpg"
+   },
+   "meta_TARGNAME": "2MASS J05220207-6930388",
+   "meta_FILTER": "F335M",
+   "bytes": 117576000,
+   "published_utc": null
   }
  },
  "runs": [
@@ -93,6 +205,15 @@
    "finished_utc": "2026-10-22T11:18:47.085092+00:00",
    "published": 6,
    "budget_left_bytes": 528968000
+  },
+  {
+   "started_utc": "2026-10-22T11:54:20.968830+00:00",
+   "batch_ran": true,
+   "batch_processed": 5,
+   "pending_before": 5,
+   "published": [],
+   "finished_utc": "2026-10-22T11:55:59.763140+00:00"
   }
- ]
+ ],
+ "last_batch_utc": "2026-10-22T11:55:34.533771+00:00"
 }
