@@ -556,8 +556,11 @@
    "published_utc": null
   },
   "jw01537030001_0210r_00002_nrcalong_rate.fits": {
-   "channels": {},
-   "status": "analyzed",
+   "channels": {
+    "test_fa": "sent",
+    "test_en": "sent"
+   },
+   "status": "published_test",
    "score": 41.66,
    "analysis": "analyses/2026/10/22/jw01537030001_0210r_00002_nrcalong_rate.fits.json",
    "cand": {
@@ -573,11 +576,67 @@
    "meta_TARGNAME": "G 191-B2B",
    "meta_FILTER": "F335M",
    "bytes": 83969280,
-   "published_utc": null
+   "published_utc": "2026-10-22T18:18:19.619101+00:00",
+   "quality_log": {
+    "test_fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5789,
+      "brightness": 0.4787,
+      "range": 1.0,
+      "roi": 0.4166,
+      "score": 75.01
+     },
+     "ai_message": {
+      "score": 42,
+      "clarity": 72,
+      "accuracy": 35,
+      "appeal": 60,
+      "notes": "Caption is clean and professional, but payload is mock data with null critical fields (exptime, proposal_id). Factual inconsistency: caption cites proposal 1537 but JSON has null. Not publishable in current form."
+     },
+     "ai_image": {
+      "score": 8,
+      "clarity": 5,
+      "accuracy": null,
+      "appeal": 3,
+      "notes": "Raw detector readout with cosmic ray streaks. No astronomical target visible. Unprocessed artifact frame unsuitable for public outreach."
+     },
+     "min_score_gate": 0.0
+    },
+    "test_en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5789,
+      "brightness": 0.4787,
+      "range": 1.0,
+      "roi": 0.4166,
+      "score": 75.01
+     },
+     "ai_message": {
+      "score": 38,
+      "clarity": 62,
+      "accuracy": 15,
+      "appeal": 50,
+      "notes": "Mock/test data dominates. Null exptime/proposal, explicit 'MOCK ANALYSIS' warnings. Caption metadata is solid but payload is non-functional. Fix before publishing."
+     },
+     "ai_image": {
+      "score": 15,
+      "clarity": 10,
+      "accuracy": null,
+      "appeal": 12,
+      "notes": "Raw detector frame, not processed; heavy noise and artifacts."
+     },
+     "min_score_gate": 0.0
+    }
+   },
+   "d1_sync": "ok"
   },
   "jw01537030001_0210t_00001_nrcalong_rate.fits": {
-   "channels": {},
-   "status": "analyzed",
+   "channels": {
+    "test_fa": "sent",
+    "test_en": "sent"
+   },
+   "status": "published_test",
    "score": 41.72,
    "analysis": "analyses/2026/10/22/jw01537030001_0210t_00001_nrcalong_rate.fits.json",
    "cand": {
@@ -593,7 +652,60 @@
    "meta_TARGNAME": "G 191-B2B",
    "meta_FILTER": "F360M",
    "bytes": 83969280,
-   "published_utc": null
+   "published_utc": "2026-10-22T18:09:13.653801+00:00",
+   "quality_log": {
+    "test_fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5769,
+      "brightness": 0.5544,
+      "range": 1.0,
+      "roi": 0.4172,
+      "score": 76.11
+     },
+     "ai_message": {
+      "score": 52,
+      "clarity": 78,
+      "accuracy": 30,
+      "appeal": 65,
+      "notes": "Mock/stub data leaked into payload — exposes unfinished pipeline note. Proposal ID appears in caption but is null in JSON. Missing exptime. Bilingual format and emoji are fine."
+     },
+     "ai_image": {
+      "score": 15,
+      "clarity": 12,
+      "accuracy": null,
+      "appeal": 10,
+      "notes": "Raw, unprocessed detector noise. Cosmic ray trails dominate; no astronomical subject visible. Requires significant processing before broadcast quality."
+     },
+     "min_score_gate": 0.0
+    },
+    "test_en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5769,
+      "brightness": 0.5544,
+      "range": 1.0,
+      "roi": 0.4172,
+      "score": 76.11
+     },
+     "ai_message": {
+      "score": 42,
+      "clarity": 70,
+      "accuracy": 55,
+      "appeal": 25,
+      "notes": "Mock/stub post with null fields and warnings. Confusing for audience. Proposal ID mismatch. Not publish-ready."
+     },
+     "ai_image": {
+      "score": 5,
+      "clarity": 10,
+      "accuracy": null,
+      "appeal": 2,
+      "notes": "Raw detector noise with cosmic ray streaks. Unusable for public release."
+     },
+     "min_score_gate": 0.0
+    }
+   },
+   "d1_sync": "ok"
   },
   "jw04498044001_02107_00002_nrcblong_rate.fits": {
    "channels": {
@@ -896,6 +1008,18 @@
    ],
    "cloudflare": "configured",
    "finished_utc": "2026-10-22T18:00:37.758412+00:00"
+  },
+  {
+   "started_utc": "2026-10-22T18:01:56.543296+00:00",
+   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
+   "batch_ran": false,
+   "pending_before": 6,
+   "published": [
+    "jw01537030001_0210t_00001_nrcalong_rate.fits",
+    "jw01537030001_0210r_00002_nrcalong_rate.fits"
+   ],
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-22T18:18:20.510088+00:00"
   }
  ],
  "last_batch_utc": "2026-10-22T17:11:48.252054+00:00"
