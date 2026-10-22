@@ -23,6 +23,7 @@ import shutil
 import sys
 import tempfile
 import time
+import traceback
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -268,7 +269,10 @@ def publish_one(pid, state, token, targets, tmp):
                 results[key] = "sent"
                 rec.setdefault("quality_log", {})[key] = q
             except Exception as e:  # noqa: BLE001 - per-target isolation
-                results[key] = f"error: {type(e).__name__}"
+                results[key] = f"error: {type(e).__name__}: {e}"
+                tb = traceback.format_exc().splitlines()[-4:]
+                rec.setdefault("quality_log", {})[key] = {"error_trace": " | ".join(tb)}
+                print(f"PUBLISH-ERROR {pid} {key}: {traceback.format_exc()}", flush=True)
         rec["channels"] = {**rec.get("channels", {}), **results}
         if any(v == "sent" for v in results.values()):
             rec["status"] = "published_test" if any(k.startswith("test") for k, v in results.items() if v == "sent") else "published"
