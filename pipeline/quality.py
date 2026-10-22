@@ -18,7 +18,7 @@ Two layers, both fail-safe (never block the pipeline, never raise):
      - ai_score_image():   vision scoring of the rendered PNG (base64 data URL)
      -> returns {"score": 0-100, "clarity":.., "accuracy":.., "appeal":.., "notes":..}
         or None when no API configured / any failure (timeouts, quota, bad JSON).
-     One retry, 45s timeout, response_format json_object when accepted, lenient parse.
+     One retry, 90s timeout, response_format json_object when accepted, lenient parse.
 
 Publication policy (test phase): quality is RECORDED only; QAI_MIN_SCORE filter
 activates automatically the day the owner sets it (default 0 = everything passes).
@@ -67,7 +67,7 @@ def qai_available() -> bool:
                 and (os.environ.get("QAI_API_KEY", "") or "").strip())
 
 
-def _chat(base, key, model, messages, vision=False, timeout=45):
+def _chat(base, key, model, messages, vision=False, timeout=90):
     url = base.rstrip("/") + "/chat/completions"
     body = {"model": model, "messages": messages, "temperature": 0.2,
             "max_tokens": 400}
