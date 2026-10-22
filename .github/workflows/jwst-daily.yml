@@ -1,0 +1,59 @@
+name: jwst-daily
+
+# Zero-cost schedule: public repo => standard runners are free & unlimited (official).
+# cron on GitHub Actions: min 5-minute interval; runs on default branch; may be delayed
+# under load (documented). Keepalive below prevents the 60-day inactivity auto-disable.
+
+on:
+  schedule:
+    - cron: "23 4 * * *"   # daily, off-peak minute (UTC)
+  workflow_dispatch:        # manual trigger for first run/tests
+
+permissions:
+  contents: write           # needed to commit state.json back (keepalive too)
+
+concurrency:
+  group: jwst-daily
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest   # public repo: 4 vCPU / 16 GB RAM / 14 GB SSD (official)
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run daily pipeline (MAST -> FITS -> PNG -> Telegram x4)
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CH_FA_AI:  ${{ secrets.TG_CH_FA_AI }}
+          TG_CH_EN_AI:  ${{ secrets.TG_CH_EN_AI }}
+          TG_CH_FA_OFF: ${{ secrets.TG_CH_FA_OFF }}
+          TG_CH_EN_OFF: ${{ secrets.TG_CH_EN_OFF }}
+          MAX_BYTES: "1100000000"          # ~1 GB/day base scenario
+        run: python pipeline/run_daily.py --max-bytes $MAX_BYTES
+
+      - name: Commit state (dedup ledger + keepalive)
+        run: |
+          git config user.name  "jwst-pipeline-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add pipeline/state.json
+          git commit -m "state: $(date -u +%F-%H:%M) [skip ci]" || echo "no state changes"
+          git push
+
+      - name: Upload PNG samples as artifact (90-day default retention, public repo = free)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: png-samples
+          path: |
+            /tmp/jwst_*/*.png
+          if-no-files-found: ignore

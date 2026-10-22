@@ -1,0 +1,99 @@
+"""
+telegram_publish.py - Telegram Bot API publisher with per-channel dedup hooks, 429 handling,
+exponential backoff + jitter, and 1024-char caption / 4096-char message chunking.
+NOT executed in the research sandbox (no bot token here by design; token lives in GitHub Secrets).
+"""
+from __future__ import annotations
+
+import random
+import time
+from pathlib import Path
+
+import requests
+
+API = "https://api.telegram.org/bot{token}/{method}"
+CAPTION_LIMIT = 1024   # sendPhoto/sendDocument caption hard limit (official Bot API)
+TEXT_LIMIT = 4096      # sendMessage hard limit
+
+
+def _post(token, method, **payload):
+    files = None
+    if "photo_path" in payload:
+        files = {"photo": open(payload.pop("photo_path"), "rb")}
+    if "document_path" in payload:
+        files = {"document": open(payload.pop("document_path"), "rb")}
+    try:
+        r = requests.post(API.format(token=token, method=method), data=payload,
+                          files=files, timeout=60)
+    finally:
+        if files:
+            for f in files.values():
+                f.close()
+    return r
+
+
+def send_photo(token, chat_id, png_path, caption, parse_mode="HTML", max_retry=5):
+    """Upload a PNG (<10 MB, official limit) with caption <=1024 chars. 429-aware."""
+    if len(caption) > CAPTION_LIMIT:
+        caption = caption[:CAPTION_LIMIT - 1] + "\u2026"
+    wait = 2.0
+    for attempt in range(max_retry):
+        resp = _post(token, "sendPhoto", chat_id=chat_id, photo_path=str(png_path),
+                     caption=caption, parse_mode=parse_mode)
+        if resp.status_code == 200:
+            return resp.json()
+        if resp.status_code == 429:  # rate limited: obey retry_after, then retry
+            time.sleep(int(resp.json().get("parameters", {}).get("retry_after", 5)) + 1)
+            continue
+        if resp.status_code >= 500:  # transient server error: exp backoff + jitter
+            time.sleep(wait + random.uniform(0, 1))
+            wait = min(wait * 2, 60)
+            continue
+        resp.raise_for_status()
+    raise RuntimeError(f"sendPhoto failed after {max_retry} attempts: {resp.status_code} {resp.text[:200]}")
+
+
+def send_message(token, chat_id, text, parse_mode="HTML"):
+    """Long analysis text -> chunked messages (4096 chars each)."""
+    chunks = [text[i:i + TEXT_LIMIT] for i in range(0, len(text), TEXT_LIMIT)] or [""]
+    results = []
+    for chunk in chunks:
+        wait = 2.0
+        for attempt in range(5):
+            resp = _post(token, "sendMessage", chat_id=chat_id, text=chunk, parse_mode=parse_mode)
+            if resp.status_code == 200:
+                results.append(resp.json())
+                break
+            if resp.status_code == 429:
+                time.sleep(int(resp.json().get("parameters", {}).get("retry_after", 5)) + 1)
+                continue
+            if resp.status_code >= 500:
+                time.sleep(wait + random.uniform(0, 1))
+                wait = min(wait * 2, 60)
+                continue
+            resp.raise_for_status()
+    return results
+
+
+CHANNELS = {  # placeholder targets - real chat IDs come from GitHub Secrets by the owner
+    "fa_ai": "TG_CH_FA_AI", "en_ai": "TG_CH_EN_AI",
+    "fa_official": "TG_CH_FA_OFF", "en_official": "TG_CH_EN_OFF",
+}
+
+
+def publish_to_all(token, png_path, caption_fa, caption_en, analysis_fa, analysis_en,
+                   already_sent=None):
+    """Fan-out to the 4 channels; per-channel state kept by the caller (dedup).
+    already_sent: set of channel keys already published for this product."""
+    already_sent = already_sent or set()
+    report = {}
+    for key, chat_env in CHANNELS.items():
+        if key in already_sent:
+            report[key] = "skipped (already sent)"
+            continue
+        cap, txt = (caption_fa, analysis_fa) if key.startswith("fa") else (caption_en, analysis_en)
+        send_photo(token, chat_env, png_path, cap)
+        if txt:
+            send_message(token, chat_env, txt)
+        report[key] = "sent"
+    return report

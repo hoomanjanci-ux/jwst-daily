@@ -1,0 +1,5 @@
+astropy>=6.0
+astroquery>=0.4.7
+numpy>=1.26
+pillow>=10.0
+requests>=2.31
