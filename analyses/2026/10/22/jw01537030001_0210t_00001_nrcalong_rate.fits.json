@@ -1,0 +1,56 @@
+{
+ "ts": "2026-10-22T17:11:08.364162+00:00",
+ "product": "jw01537030001_0210t_00001_nrcalong_rate.fits",
+ "uri": "mast:JWST/product/jw01537030001_0210t_00001_nrcalong_rate.fits",
+ "proposal": "1537",
+ "meta": {
+  "TELESCOP": "JWST",
+  "INSTRUME": "NIRCAM",
+  "DETECTOR": "NRCALONG",
+  "FILTER": "F360M",
+  "PUPIL": "GRISMC",
+  "DATE-OBS": "2022-09-13",
+  "TARGNAME": "G 191-B2B",
+  "PROGRAM": "01537",
+  "n_hdus": 7
+ },
+ "region": {
+  "x0": 1119,
+  "y0": 879,
+  "x1": 1281,
+  "y1": 1041,
+  "fx0": 0.5464,
+  "fy0": 0.4292,
+  "fx1": 0.6255,
+  "fy1": 0.5083,
+  "score": 43.83
+ },
+ "score": 41.72,
+ "quality": {
+  "sharp": 1.0,
+  "contrast": 0.5769,
+  "brightness": 0.5544,
+  "range": 1.0,
+  "roi": 0.4172,
+  "score": 76.11
+ },
+ "mock_analysis": {
+  "mock": true,
+  "warning": "MOCK ANALYSIS - not a scientific AI result",
+  "telescope": "JWST",
+  "instrument": "NIRCAM",
+  "detector": "NRCALONG",
+  "filter": "F360M",
+  "exptime_s": null,
+  "target": "G 191-B2B",
+  "obs_date": "2022-09-13",
+  "proposal_id": null,
+  "note": "Vision model runs OUTSIDE this pipeline (owner-provided API). This stub keeps the release path testable."
+ },
+ "prior_refs": [
+  "jw01537030001_0210r_00002_nrcalong_rate.fits"
+ ],
+ "bytes": 83969280,
+ "sha256": "81a8ed557dad7187c9c0eb465a13beabbb1874309ab128b46dcc384acab9539f",
+ "source": "MAST public data"
+}
