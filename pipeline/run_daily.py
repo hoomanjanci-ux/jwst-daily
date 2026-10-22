@@ -36,9 +36,15 @@ UA = {"User-Agent": "jwst-free-pipeline/0.1 (public MAST data; low-volume daily 
 
 
 def load_state():
+    defaults = {"products": {}, "runs": []}
     if STATE_PATH.exists():
-        return json.loads(STATE_PATH.read_text(encoding="utf-8"))
-    return {"products": {}, "runs": []}
+        try:
+            data = json.loads(STATE_PATH.read_text(encoding="utf-8"))
+            if isinstance(data, dict):
+                defaults.update(data)
+        except Exception:
+            pass  # corrupt/empty state -> start fresh, never crash the run
+    return defaults
 
 
 def save_state(state):
