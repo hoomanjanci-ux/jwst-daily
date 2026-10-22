@@ -596,8 +596,11 @@
    "published_utc": null
   },
   "jw04498044001_02107_00002_nrcblong_rate.fits": {
-   "channels": {},
-   "status": "analyzed",
+   "channels": {
+    "test_fa": "sent",
+    "test_en": "sent"
+   },
+   "status": "published_test",
    "score": 45.32,
    "analysis": "analyses/2026/10/22/jw04498044001_02107_00002_nrcblong_rate.fits.json",
    "cand": {
@@ -613,11 +616,49 @@
    "meta_TARGNAME": "GSPC P330-E",
    "meta_FILTER": "F356W",
    "bytes": 83969280,
-   "published_utc": null
+   "published_utc": "2026-10-22T18:00:36.850873+00:00",
+   "quality_log": {
+    "test_fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5945,
+      "brightness": 0.4346,
+      "range": 1.0,
+      "roi": 0.4532,
+      "score": 75.21
+     },
+     "ai_message": {
+      "score": 38,
+      "clarity": 72,
+      "accuracy": 15,
+      "appeal": 55,
+      "notes": "Mock data explicitly flagged; proposal ID inconsistent (4498 vs null). Avoid publishing unverified analysis as science."
+     },
+     "ai_image": null,
+     "min_score_gate": 0.0
+    },
+    "test_en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5945,
+      "brightness": 0.4346,
+      "range": 1.0,
+      "roi": 0.4532,
+      "score": 75.21
+     },
+     "ai_message": null,
+     "ai_image": null,
+     "min_score_gate": 0.0
+    }
+   },
+   "d1_sync": "ok"
   },
   "jw06627005001_07101_00008_nrcalong_rate.fits": {
-   "channels": {},
-   "status": "analyzed",
+   "channels": {
+    "test_fa": "sent",
+    "test_en": "sent"
+   },
+   "status": "published_test",
    "score": 48.52,
    "analysis": "analyses/2026/10/22/jw06627005001_07101_00008_nrcalong_rate.fits.json",
    "cand": {
@@ -633,7 +674,48 @@
    "meta_TARGNAME": "2MASS J05220207-6930388",
    "meta_FILTER": "F335M",
    "bytes": 83972160,
-   "published_utc": null
+   "published_utc": "2026-10-22T17:47:55.537341+00:00",
+   "quality_log": {
+    "test_fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6149,
+      "brightness": 0.5736,
+      "range": 1.0,
+      "roi": 0.4852,
+      "score": 78.18
+     },
+     "ai_message": {
+      "score": 42,
+      "clarity": 78,
+      "accuracy": 25,
+      "appeal": 65,
+      "notes": "Mock data explicitly flagged; proposal ID mismatch (caption vs payload). Publish-ready only after real data swap."
+     },
+     "ai_image": null,
+     "min_score_gate": 0.0
+    },
+    "test_en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6149,
+      "brightness": 0.5736,
+      "range": 1.0,
+      "roi": 0.4852,
+      "score": 78.18
+     },
+     "ai_message": {
+      "score": 38,
+      "clarity": 45,
+      "accuracy": 40,
+      "appeal": 35,
+      "notes": "Mock data payload kills credibility. Null exptime/proposal fields contradict caption. Internal dev-note sentence confuses non-experts. Remove mock metadata before publishing."
+     },
+     "ai_image": null,
+     "min_score_gate": 0.0
+    }
+   },
+   "d1_sync": "ok"
   },
   "jw06627005001_07101_00009_nrcalong_rate.fits": {
    "channels": {
@@ -802,6 +884,18 @@
    ],
    "cloudflare": "configured",
    "finished_utc": "2026-10-22T17:31:48.640975+00:00"
+  },
+  {
+   "started_utc": "2026-10-22T17:35:22.685456+00:00",
+   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
+   "batch_ran": false,
+   "pending_before": 8,
+   "published": [
+    "jw06627005001_07101_00008_nrcalong_rate.fits",
+    "jw04498044001_02107_00002_nrcblong_rate.fits"
+   ],
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-22T18:00:37.758412+00:00"
   }
  ],
  "last_batch_utc": "2026-10-22T17:11:48.252054+00:00"
