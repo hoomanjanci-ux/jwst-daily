@@ -114,7 +114,10 @@
    "published_utc": "2026-10-22T12:01:50.101065+00:00"
   },
   "jw01134001021_02101_00001_nrcb4_rate.fits": {
-   "channels": {},
+   "channels": {
+    "test_fa": "error: ValueError",
+    "test_en": "error: ValueError"
+   },
    "status": "analyzed",
    "score": 39.41,
    "analysis": "analyses/2026/10/22/jw01134001021_02101_00001_nrcb4_rate.fits.json",
@@ -177,7 +180,10 @@
    "published_utc": null
   },
   "jw06627005001_07101_00007_nrcalong_cal.fits": {
-   "channels": {},
+   "channels": {
+    "test_fa": "error: ValueError",
+    "test_en": "error: ValueError"
+   },
    "status": "analyzed",
    "score": 56.65,
    "analysis": "analyses/2026/10/22/jw06627005001_07101_00007_nrcalong_cal.fits.json",
@@ -223,6 +229,15 @@
     "jw06627005001_07101_00007_nrcalong_rate.fits"
    ],
    "finished_utc": "2026-10-22T12:02:12.383625+00:00"
+  },
+  {
+   "started_utc": "2026-10-22T12:27:29.717097+00:00",
+   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
+   "batch_ran": false,
+   "pending_before": 3,
+   "published": [],
+   "cloudflare": "off (waiting owner token)",
+   "finished_utc": "2026-10-22T12:28:01.829243+00:00"
   }
  ],
  "last_batch_utc": "2026-10-22T11:55:34.533771+00:00"
