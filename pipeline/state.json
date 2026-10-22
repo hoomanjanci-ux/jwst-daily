@@ -115,8 +115,8 @@
   },
   "jw01134001021_02101_00001_nrcb4_rate.fits": {
    "channels": {
-    "test_fa": "error: ValueError",
-    "test_en": "error: ValueError"
+    "test_fa": "error: ValueError: could not convert string to float: ''",
+    "test_en": "error: ValueError: could not convert string to float: ''"
    },
    "status": "analyzed",
    "score": 39.41,
@@ -134,7 +134,15 @@
    "meta_TARGNAME": "HD 84406",
    "meta_FILTER": "F212N",
    "bytes": 83946240,
-   "published_utc": null
+   "published_utc": null,
+   "quality_log": {
+    "test_fa": {
+     "error_trace": "  File \"/home/runner/work/jwst-daily/jwst-daily/pipeline/quality.py\", line 155, in full_report |     \"ai_image\": None, \"min_score_gate\": float(os.environ.get(\"QAI_MIN_SCORE\", \"0\"))} |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | ValueError: could not convert string to float: ''"
+    },
+    "test_en": {
+     "error_trace": "  File \"/home/runner/work/jwst-daily/jwst-daily/pipeline/quality.py\", line 155, in full_report |     \"ai_image\": None, \"min_score_gate\": float(os.environ.get(\"QAI_MIN_SCORE\", \"0\"))} |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | ValueError: could not convert string to float: ''"
+    }
+   }
   },
   "jw06627005001_07101_00007_nrcalong_rate.fits": {
    "channels": {
@@ -181,8 +189,8 @@
   },
   "jw06627005001_07101_00007_nrcalong_cal.fits": {
    "channels": {
-    "test_fa": "error: ValueError",
-    "test_en": "error: ValueError"
+    "test_fa": "error: ValueError: could not convert string to float: ''",
+    "test_en": "error: ValueError: could not convert string to float: ''"
    },
    "status": "analyzed",
    "score": 56.65,
@@ -200,7 +208,15 @@
    "meta_TARGNAME": "2MASS J05220207-6930388",
    "meta_FILTER": "F335M",
    "bytes": 117576000,
-   "published_utc": null
+   "published_utc": null,
+   "quality_log": {
+    "test_fa": {
+     "error_trace": "  File \"/home/runner/work/jwst-daily/jwst-daily/pipeline/quality.py\", line 155, in full_report |     \"ai_image\": None, \"min_score_gate\": float(os.environ.get(\"QAI_MIN_SCORE\", \"0\"))} |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | ValueError: could not convert string to float: ''"
+    },
+    "test_en": {
+     "error_trace": "  File \"/home/runner/work/jwst-daily/jwst-daily/pipeline/quality.py\", line 155, in full_report |     \"ai_image\": None, \"min_score_gate\": float(os.environ.get(\"QAI_MIN_SCORE\", \"0\"))} |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | ValueError: could not convert string to float: ''"
+    }
+   }
   }
  },
  "runs": [
@@ -238,6 +254,15 @@
    "published": [],
    "cloudflare": "off (waiting owner token)",
    "finished_utc": "2026-10-22T12:28:01.829243+00:00"
+  },
+  {
+   "started_utc": "2026-10-22T12:31:27.568158+00:00",
+   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
+   "batch_ran": false,
+   "pending_before": 3,
+   "published": [],
+   "cloudflare": "off (waiting owner token)",
+   "finished_utc": "2026-10-22T12:31:52.978837+00:00"
   }
  ],
  "last_batch_utc": "2026-10-22T11:55:34.533771+00:00"
