@@ -32,8 +32,11 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).parent))
 import annotator  # noqa: E402
+import cloudflare  # noqa: E402
 import fits2png  # noqa: E402
 import mast_discover  # noqa: E402
+import mode  # noqa: E402
+import quality  # noqa: E402
 import telegram_publish  # noqa: E402
 
 ROOT = Path(__file__).parent
@@ -101,23 +104,13 @@ def robust_download(url, dest, hard_cap=None, max_seconds=300, attempts=3):
 
 
 def publish_targets():
-    """v0.2 roll-out: TG_TEST_CHANNEL set -> test mode (FA + EN both go to the test
-    channel). When the 4 real channels are configured and test channel removed,
-    production mode activates with zero code changes."""
-    targets = []
-    test = (os.environ.get("TG_TEST_CHANNEL", "") or "").strip()
-    if test:
-        targets += [("test_fa", test, "fa"), ("test_en", test, "en")]
-        return targets
-    for key, env_name in telegram_publish.CHANNELS.items():
-        chat = telegram_publish.resolve_chat(env_name)
-        if chat:
-            targets.append((key, chat, "fa" if key.startswith("fa") else "en"))
-    return targets
+    """Delegates to mode.py (owner directive: TEST-ONLY until explicit go-ahead).
+    Public channels activate ONLY with their 4 secrets set AND PROD_UNLOCKED=yes."""
+    return mode.publish_targets()
 
 
 def _render_and_score(dest, tmp, pid):
-    """Render raw PNG + detect ROI + score. Returns (meta, raw_png, region, score)."""
+    """Render raw PNG + detect ROI + score. Returns (meta, raw_png, region, score, img8)."""
     meta = fits2png.metadata_summary(dest)
     raw_png = tmp / f"{pid}.raw.png"
     fits2png.to_png(dest, raw_png)
@@ -125,7 +118,7 @@ def _render_and_score(dest, tmp, pid):
     regions = annotator.find_regions(img8, n_regions=1)
     if not regions:
         raise ValueError("no ROI found")
-    return meta, raw_png, regions[0], annotator.score_image(img8, regions)
+    return meta, raw_png, regions[0], annotator.score_image(img8, regions), img8
 
 
 def process_batch(state, max_bytes, max_products, tmp):
@@ -151,7 +144,7 @@ def process_batch(state, max_bytes, max_products, tmp):
             continue
         budget -= n
         try:
-            meta, raw_png, region, score = _render_and_score(dest, tmp, pid)
+            meta, raw_png, region, score, img8 = _render_and_score(dest, tmp, pid)
         except Exception as e:  # noqa: BLE001 - unsuitable product: record + skip
             rec["last_error"] = f"render: {type(e).__name__}: {e}"
             dest.unlink(missing_ok=True)
@@ -169,6 +162,7 @@ def process_batch(state, max_bytes, max_products, tmp):
             "ts": _iso_now(), "product": pid, "uri": cand["uri"],
             "proposal": str(cand.get("proposal") or ""), "meta": meta,
             "region": region, "score": score,
+            "quality": quality.heuristic_scores(img8, score),
             "mock_analysis": json.loads(fits2png.analysis_payload(meta)),
             "prior_refs": prior, "bytes": n, "sha256": sha256_file(dest),
             "source": "MAST public data",
@@ -225,7 +219,7 @@ def publish_one(pid, state, token, targets, tmp):
         return False
 
     try:
-        meta, raw_png, region_re, _score = _render_and_score(dest, tmp, pid)
+        meta, raw_png, region_re, _score, _img8 = _render_and_score(dest, tmp, pid)
         region = region_re
         analysis_path = ROOT.parent / (rec.get("analysis") or "")
         if analysis_path.exists():  # stored ROI guarantees consistency with the ledger
@@ -263,9 +257,16 @@ def publish_one(pid, state, token, targets, tmp):
         for key, chat_id, lang in targets:
             cap, txt = (cap_fa, txt_fa) if lang == "fa" else (cap_en, txt_en)
             try:
+                q = quality.full_report(np.asarray(Image.open(imgs[0]).convert("L")),
+                                        rec.get("score") or 0, cap, mock, raw_png)
+                if not quality.passes_gate(q):
+                    results[key] = "held (quality gate)"
+                    rec.setdefault("quality_log", {})[key] = q
+                    continue
                 telegram_publish.send_album(token, chat_id, imgs, cap)
                 telegram_publish.send_message(token, chat_id, txt)
                 results[key] = "sent"
+                rec.setdefault("quality_log", {})[key] = q
             except Exception as e:  # noqa: BLE001 - per-target isolation
                 results[key] = f"error: {type(e).__name__}"
         rec["channels"] = {**rec.get("channels", {}), **results}
@@ -286,7 +287,7 @@ def run(max_bytes=1_100_000_000, max_products=6, publish_count=2, batch_gap_hour
     token = os.environ.get("TG_BOT_TOKEN", "")
     targets = publish_targets()
     tmp = Path(tempfile.mkdtemp(prefix="jwst_"))
-    summary = {"started_utc": _iso_now()}
+    summary = {"started_utc": _iso_now(), "mode": mode.status_line()}
     try:
         need_batch = True
         if state.get("last_batch_utc"):
@@ -314,6 +315,7 @@ def run(max_bytes=1_100_000_000, max_products=6, publish_count=2, batch_gap_hour
         else:
             summary["note"] = "publish deferred (no token/targets configured)"
         summary["published"] = published
+        summary["cloudflare"] = "configured" if cloudflare.configured() else "off (waiting owner token)"
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
         summary["finished_utc"] = _iso_now()
