@@ -5,6 +5,7 @@ NOT executed in the research sandbox (no bot token here by design; token lives i
 """
 from __future__ import annotations
 
+import os
 import random
 import time
 from pathlib import Path
@@ -81,19 +82,30 @@ CHANNELS = {  # placeholder targets - real chat IDs come from GitHub Secrets by 
 }
 
 
+def resolve_chat(env_name):
+    """Read the real chat id from the environment (GitHub Secrets are injected as env vars).
+    Returns empty string when not configured -> caller skips that channel safely."""
+    return (os.environ.get(env_name, "") or "").strip()
+
+
 def publish_to_all(token, png_path, caption_fa, caption_en, analysis_fa, analysis_en,
                    already_sent=None):
     """Fan-out to the 4 channels; per-channel state kept by the caller (dedup).
-    already_sent: set of channel keys already published for this product."""
+    already_sent: set of channel keys already published for this product.
+    Channels whose env var is empty/missing are skipped (safe partial rollout)."""
     already_sent = already_sent or set()
     report = {}
-    for key, chat_env in CHANNELS.items():
+    for key, env_name in CHANNELS.items():
         if key in already_sent:
             report[key] = "skipped (already sent)"
             continue
+        chat_id = resolve_chat(env_name)
+        if not chat_id:
+            report[key] = "skipped (chat id not configured)"
+            continue
         cap, txt = (caption_fa, analysis_fa) if key.startswith("fa") else (caption_en, analysis_en)
-        send_photo(token, chat_env, png_path, cap)
+        send_photo(token, chat_id, png_path, cap)
         if txt:
-            send_message(token, chat_env, txt)
+            send_message(token, chat_id, txt)
         report[key] = "sent"
     return report

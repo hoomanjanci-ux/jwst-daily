@@ -115,9 +115,12 @@ def run(max_bytes=1_100_000_000, dry_run=False, max_products=6):
         else:
             cap_fa = f"جیمز وب | {meta.get('TARGNAME') or 'بدون نام'} | فیلتر {meta.get('FILTER', '?')}"
             cap_en = f"JWST | {meta.get('TARGNAME') or 'Unnamed'} | filter {meta.get('FILTER', '?')}"
-            rec["channels"] = telegram_publish.publish_to_all(
-                token, png_info["png"], cap_fa, cap_en, analysis_text, analysis_text,
-                already_sent={k for k, v in rec["channels"].items() if v == "sent"})
+            try:
+                rec["channels"] = telegram_publish.publish_to_all(
+                    token, png_info["png"], cap_fa, cap_en, analysis_text, analysis_text,
+                    already_sent={k for k, v in rec["channels"].items() if v == "sent"})
+            except Exception as e:  # publishing must never kill the run; per-channel retry next run
+                rec["channels"] = {"publish_error": f"{type(e).__name__}: {e}"}
 
         rec.update({"published_utc": datetime.now(timezone.utc).isoformat(),
                     "bytes": n, "sha256": sha256_file(dest), "png_bytes": png_info["bytes"],
