@@ -127,20 +127,38 @@ def ai_score_message(caption: str, payload: dict) -> dict | None:
 
 
 def ai_score_image(png_path) -> dict | None:
-    """L2 vision scoring of the rendered PNG. Skips silently when not configured
-    or when QAI_VISION_MODEL is absent (text-only free tiers are common)."""
+    """L2 vision scoring of the rendered PNG.
+    Two transports, auto-detected from QAI_BASE_URL:
+      - Cloudflare Workers AI (base ends with /ai/v1): llava's OpenAI-compat layer
+        returns empty content (verified live), so we use the NATIVE /ai/run/<model>
+        format {"prompt", "image": [byte ints]} and parse result.description.
+      - generic OpenAI-compatible: data-URL image parts (Gemini free tier etc.).
+    Both degrade to None on any failure."""
     vmodel = (os.environ.get("QAI_VISION_MODEL", "") or "").strip()
-    if not (qai_available() and vmodel and png_path and str(png_path).endswith((".png", ".jpg", ".jpeg"))):
+    if not (qai_available() and vmodel and png_path
+            and str(png_path).endswith((".png", ".jpg", ".jpeg"))):
         return None
+    base = os.environ["QAI_BASE_URL"].strip()
+    key = os.environ["QAI_API_KEY"].strip()
     try:
+        if base.rstrip("/").endswith("/ai/v1"):  # Cloudflare native
+            raw = open(png_path, "rb").read()
+            r = requests.post(base.rstrip("/").replace("/ai/v1", "") + "/ai/run/" + vmodel,
+                              json={"prompt": VISION_PROMPT, "image": list(raw)},
+                              headers={"Authorization": f"Bearer {key}"}, timeout=180)
+            r.raise_for_status()
+            desc = (r.json().get("result") or {}).get("description") or ""
+            if not desc:
+                return None
+            # llava-class models cannot reliably emit our JSON schema; store the
+            # description as a low-weight advisory field instead of a fake score
+            return {"score": None, "clarity": None, "accuracy": None, "appeal": None,
+                    "notes": desc[:300], "transport": "cf-native"}
         b64 = base64.b64encode(open(png_path, "rb").read()).decode()
-        url = ("data:image/png;base64," + b64) if str(png_path).endswith(".png") \
-            else ("data:image/jpeg;base64," + b64)
-        base = os.environ["QAI_BASE_URL"].strip()
-        key = os.environ["QAI_API_KEY"].strip()
+        mime = "image/png" if str(png_path).endswith(".png") else "image/jpeg"
         msgs = [{"role": "user", "content": [
             {"type": "text", "text": VISION_PROMPT},
-            {"type": "image_url", "image_url": {"url": url}}]}]
+            {"type": "image_url", "image_url": {"url": f"data:{mime};base64," + b64}}]}]
         return _parse_json(_chat(base, key, vmodel, msgs, vision=True, timeout=60))
     except Exception:  # noqa: BLE001
         return None
