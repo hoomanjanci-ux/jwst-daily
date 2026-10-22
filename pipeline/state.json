@@ -188,8 +188,11 @@
    "published_utc": "2026-10-22T12:02:12.377027+00:00"
   },
   "jw01134001021_02101_00001_nrcb4_cal.fits": {
-   "channels": {},
-   "status": "analyzed",
+   "channels": {
+    "test_fa": "sent",
+    "test_en": "sent"
+   },
+   "status": "published_test",
    "score": 39.17,
    "analysis": "analyses/2026/10/22/jw01134001021_02101_00001_nrcb4_cal.fits.json",
    "cand": {
@@ -205,7 +208,36 @@
    "meta_TARGNAME": "HD 84406",
    "meta_FILTER": "F212N",
    "bytes": 117538560,
-   "published_utc": null
+   "published_utc": "2026-10-22T12:41:32.197694+00:00",
+   "quality_log": {
+    "test_fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5198,
+      "brightness": 0.531,
+      "range": 1.0,
+      "roi": 0.3917,
+      "score": 74.24
+     },
+     "ai_message": null,
+     "ai_image": null,
+     "min_score_gate": 0.0
+    },
+    "test_en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5198,
+      "brightness": 0.531,
+      "range": 1.0,
+      "roi": 0.3917,
+      "score": 74.24
+     },
+     "ai_message": null,
+     "ai_image": null,
+     "min_score_gate": 0.0
+    }
+   },
+   "d1_sync": "ok"
   },
   "jw06627005001_07101_00007_nrcalong_cal.fits": {
    "channels": {
@@ -315,6 +347,17 @@
    ],
    "cloudflare": "off (waiting owner token)",
    "finished_utc": "2026-10-22T12:34:44.301781+00:00"
+  },
+  {
+   "started_utc": "2026-10-22T12:41:08.886971+00:00",
+   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
+   "batch_ran": false,
+   "pending_before": 1,
+   "published": [
+    "jw01134001021_02101_00001_nrcb4_cal.fits"
+   ],
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-22T12:41:33.019780+00:00"
   }
  ],
  "last_batch_utc": "2026-10-22T11:55:34.533771+00:00"
