@@ -26,6 +26,7 @@ activates automatically the day the owner sets it (default 0 = everything passes
 from __future__ import annotations
 
 import base64
+import io
 import json
 import os
 
@@ -154,12 +155,17 @@ def ai_score_image(png_path) -> dict | None:
             # description as a low-weight advisory field instead of a fake score
             return {"score": None, "clarity": None, "accuracy": None, "appeal": None,
                     "notes": desc[:300], "transport": "cf-native"}
-        b64 = base64.b64encode(open(png_path, "rb").read()).decode()
-        mime = "image/png" if str(png_path).endswith(".png") else "image/jpeg"
+        # agnes-class vision is slow (~140s on a 335KB PNG, measured live);
+        # downscale to <=1024px JPEG to cut latency + payload, and allow 240s
+        img = Image.open(png_path)
+        img.thumbnail((1024, 1024))
+        buf = io.BytesIO()
+        img.convert("RGB").save(buf, format="JPEG", quality=85)
+        b64 = base64.b64encode(buf.getvalue()).decode()
         msgs = [{"role": "user", "content": [
             {"type": "text", "text": VISION_PROMPT},
-            {"type": "image_url", "image_url": {"url": f"data:{mime};base64," + b64}}]}]
-        return _parse_json(_chat(base, key, vmodel, msgs, vision=True, timeout=60))
+            {"type": "image_url", "image_url": {"url": "data:image/jpeg;base64," + b64}}]}]
+        return _parse_json(_chat(base, key, vmodel, msgs, vision=True, timeout=240))
     except Exception:  # noqa: BLE001
         return None
 
