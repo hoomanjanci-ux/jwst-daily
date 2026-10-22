@@ -92,10 +92,10 @@
   },
   "jw04535003001_03106_00001_nrca2_rate.fits": {
    "channels": {
-    "test_fa": "error: HTTPError",
-    "test_en": "error: HTTPError"
+    "test_fa": "sent",
+    "test_en": "sent"
    },
-   "status": "analyzed",
+   "status": "published_test",
    "score": 68.79,
    "analysis": "analyses/2026/10/22/jw04535003001_03106_00001_nrca2_rate.fits.json",
    "cand": {
@@ -111,7 +111,7 @@
    "meta_TARGNAME": "HD 218396",
    "meta_FILTER": "F200W",
    "bytes": 2136960,
-   "published_utc": null
+   "published_utc": "2026-10-22T12:01:50.101065+00:00"
   },
   "jw01134001021_02101_00001_nrcb4_rate.fits": {
    "channels": {},
@@ -135,10 +135,10 @@
   },
   "jw06627005001_07101_00007_nrcalong_rate.fits": {
    "channels": {
-    "test_fa": "error: HTTPError",
-    "test_en": "error: HTTPError"
+    "test_fa": "sent",
+    "test_en": "sent"
    },
-   "status": "analyzed",
+   "status": "published_test",
    "score": 57.25,
    "analysis": "analyses/2026/10/22/jw06627005001_07101_00007_nrcalong_rate.fits.json",
    "cand": {
@@ -154,7 +154,7 @@
    "meta_TARGNAME": "2MASS J05220207-6930388",
    "meta_FILTER": "F335M",
    "bytes": 83972160,
-   "published_utc": null
+   "published_utc": "2026-10-22T12:02:12.377027+00:00"
   },
   "jw01134001021_02101_00001_nrcb4_cal.fits": {
    "channels": {},
@@ -213,6 +213,16 @@
    "pending_before": 5,
    "published": [],
    "finished_utc": "2026-10-22T11:55:59.763140+00:00"
+  },
+  {
+   "started_utc": "2026-10-22T12:01:35.826214+00:00",
+   "batch_ran": false,
+   "pending_before": 5,
+   "published": [
+    "jw04535003001_03106_00001_nrca2_rate.fits",
+    "jw06627005001_07101_00007_nrcalong_rate.fits"
+   ],
+   "finished_utc": "2026-10-22T12:02:12.383625+00:00"
   }
  ],
  "last_batch_utc": "2026-10-22T11:55:34.533771+00:00"
