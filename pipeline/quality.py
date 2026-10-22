@@ -152,7 +152,8 @@ def full_report(img8: np.ndarray, roi_score: float, caption: str, payload: dict,
     """Everything the ledger stores about one candidate post's quality.
     AI parts degrade to None when no API is configured (test phase today)."""
     rep = {"heuristic": heuristic_scores(img8, roi_score), "ai_message": None,
-           "ai_image": None, "min_score_gate": float(os.environ.get("QAI_MIN_SCORE", "0"))}
+           "ai_image": None,
+           "min_score_gate": float(os.environ.get("QAI_MIN_SCORE", "") or 0)}
     if qai_available():
         rep["ai_message"] = ai_score_message(caption, payload)
         rep["ai_image"] = ai_score_image(raw_png)
