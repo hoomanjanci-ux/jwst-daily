@@ -358,6 +358,15 @@
    ],
    "cloudflare": "configured",
    "finished_utc": "2026-10-22T12:41:33.019780+00:00"
+  },
+  {
+   "started_utc": "2026-10-22T12:49:55.831810+00:00",
+   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-22T12:49:55.831924+00:00"
   }
  ],
  "last_batch_utc": "2026-10-22T11:55:34.533771+00:00"
