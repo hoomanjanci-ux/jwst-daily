@@ -30,6 +30,7 @@ export type Analysis = {
 export type NewsItem = {
   slug: string;
   title: string;
+  title_en?: string | null;
   summary: string;
   link: string;
   source: string;

@@ -174,12 +174,12 @@ def _href(link: str) -> str:
     return html.escape(link or "", quote=True)
 
 
-def _post_text(item: dict, lang: str, archive: bool) -> str:
+def _post_text(item: dict, lang: str, archive: bool, fa_rw: dict | None = None) -> str:
     date = (item.get("date") or "")[:10]
     footer = ai_message.build_footer(lang, "news")
     link = _href(item.get("link") or "")
     if lang == "fa":
-        rw = _fa_rewrite(item)
+        rw = fa_rw if fa_rw is not None else _fa_rewrite(item)
         title = html.escape(rw["title"]) if rw else html.escape(item.get("title") or "")
         body = html.escape(rw["body"]) if rw else html.escape(_trim(item.get("summary"), 420))
         src = item.get("source_fa") or item.get("source") or ""
@@ -241,17 +241,39 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
 
     for it in chosen:
         archive = it not in fresh
+        fa_rw: dict | None = None  # computed once, reused by post + site archive
         for lang in ("fa", "en"):
             if not eligible(it, lang):
                 continue
             try:
-                text = _post_text(it, lang, archive=archive)
+                if lang == "fa" and fa_rw is None:
+                    fa_rw = _fa_rewrite(it)
+                text = _post_text(it, lang, archive=archive, fa_rw=fa_rw)
                 if official:
                     key = "fa_official" if lang == "fa" else "en_official"
                     chat, _l = official[key]
                     telegram_publish.send_message(token, chat, text)
                     seen.setdefault(it["id"], {})[lang] = now.isoformat()
                     out[lang].append(it["link"])
+                    # site archive (additive; website feed reads this; posting ignores it)
+                    if lang == "fa":
+                        try:
+                            arch = state.setdefault("news_archive", {})
+                            arch[it["id"]] = {
+                                "title": (fa_rw or {}).get("title") or it.get("title") or "",
+                                "summary": (fa_rw or {}).get("body") or _trim(it.get("summary"), 420),
+                                "link": it.get("link") or "",
+                                "source": it.get("source") or "",
+                                "source_fa": it.get("source_fa") or "",
+                                "date": it.get("date") or "",
+                                "ts": now.isoformat(),
+                            }
+                            if len(arch) > 150:  # bound memory: keep newest
+                                keep = sorted(arch.items(), key=lambda kv: (kv[1] or {}).get("ts", ""),
+                                              reverse=True)[:150]
+                                state["news_archive"] = dict(keep)
+                        except Exception:  # noqa: BLE001 - archive must never break posting
+                            pass
                 else:  # TEST-ONLY: preview to the test channel, do NOT mark seen
                     for c, _l in tests:
                         telegram_publish.send_message(token, c, text)

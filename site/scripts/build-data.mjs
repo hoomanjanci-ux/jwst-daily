@@ -6,6 +6,7 @@
  *   ../analyses  (recursive) .fits.json  analysis metadata (MAST products)
  *   ../analyses  (recursive) .post.json  rendered Telegram content (fa/en) - future posts
  *   ../analyses  (recursive) .jpg        archived MAST preview images - future posts
+ *   ../pipeline/state.json   news_archive (FA titles/summaries written by news_rss.py)
  *   3 official RSS feeds: NASA news-release / ESA-Webb / NASA Blogs
  *                         (same topic filter as pipeline/news_rss.py)
  *
@@ -147,6 +148,12 @@ const tag = (block, names) => {
 async function buildNews() {
   const seen = new Set();
   const items = [];
+  // FA archive written by the Telegram pipeline (news_rss.py) — Persian titles
+  // for the website, keyed by link. Missing/empty archive changes nothing.
+  let faArchive = {};
+  try {
+    faArchive = JSON.parse(readFileSync(join(REPO_DIR, "pipeline", "state.json"), "utf-8")).news_archive || {};
+  } catch { /* offline / first run */ }
   await Promise.all(FEEDS.map(async (f) => {
     try {
       const res = await fetch(f.url, { ...UA, signal: AbortSignal.timeout(20000) });
@@ -170,10 +177,12 @@ async function buildNews() {
         if (!isTopic(title + " " + (summary || ""))) continue;
         seen.add(link);
         const host = new URL(link).hostname.replace(/^www\./, "");
+        const fa = faArchive[link] || null;
         items.push({
           slug: host.split(".")[0] + "-" + stableHash(link),
-          title,
-          summary: (summary || "").slice(0, 320),
+          title: fa?.title || title,
+          title_en: fa ? title : null,
+          summary: (fa?.summary || summary || "").slice(0, 320),
           link,
           source: f.source,
           source_fa: f.source_fa,
