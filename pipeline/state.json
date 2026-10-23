@@ -1692,6 +1692,29 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T21:46:17.047065+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T21:58:09.859311+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {
+     "NASA": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.nasa.gov/news-release/f"
+    },
+    "fa": [
+     "https://esawebb.org/news/weic2621/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2621/"
+    ],
+    "mode": "archive (labeled)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T21:59:12.793715+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1767,6 +1790,10 @@
   "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/": {
    "fa": "2026-10-23T21:44:28.317848+00:00",
    "en": "2026-10-23T21:44:28.317848+00:00"
+  },
+  "https://esawebb.org/news/weic2621/": {
+   "fa": "2026-10-23T21:58:10.567696+00:00",
+   "en": "2026-10-23T21:58:10.567696+00:00"
   }
  },
  "news_archive": {
@@ -1913,6 +1940,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-23T18:44:14+00:00",
    "ts": "2026-10-23T21:44:28.317848+00:00"
+  },
+  "https://esawebb.org/news/weic2621/": {
+   "title": "اندازه‌گیری فاصله دورترین انفجار سریع رادیویی با تلسکوپ جیمز وب",
+   "summary": "انفجارهای سریع رادیویی نخستین بار در سال ۲۰۰۷ کشف شدند؛ پدیده‌هایی مرموز به‌شکل вспышки‌های میلی‌ثانیه‌ای رادیویی از کیهان دوردست که منشأ آن‌ها نامعلوم است، زیرا بیشتر تنها یک‌بار دیده می‌شوند. اخترشناسان با تلسکوپ فضایی جیمز وب کهکشان میزبان دورترین انفجار سریع رادیویی مشاهده‌شده تاکنون را شناسایی کردند. این کشف اطلاعاتی درباره نوع رویداد پرتوان ایجادکننده این انفجارها ارائه می‌دهد.",
+   "link": "https://esawebb.org/news/weic2621/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-10-08T18:00:00+00:00",
+   "ts": "2026-10-23T21:58:10.567696+00:00"
   }
  },
  "news_title_fp": {
@@ -1929,6 +1965,10 @@
    "en": "2026-10-23"
   },
   "0f848975f669d0fc": {
+   "fa": "2026-10-23",
+   "en": "2026-10-23"
+  },
+  "b0aae0f2c99dd5f7": {
    "fa": "2026-10-23",
    "en": "2026-10-23"
   }
@@ -1949,6 +1989,10 @@
   [
    "0f848975f669d0fc",
    "nasa s dragonfly completes first simulated flight"
+  ],
+  [
+   "b0aae0f2c99dd5f7",
+   "science release webb measures distance to farthest fast radio burst suggesting o"
   ]
  ]
 }
