@@ -26,6 +26,7 @@ import html
 import json
 import os
 import re
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -88,6 +89,12 @@ def _clean_summary(raw: str) -> str:
         s = re.sub(p, "", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s.replace("[…]", "…").strip(" …-–")
+
+
+def _log(msg):
+    """Live progress line for the news phase (2026-10-23: 40 silent minutes were
+    undiagnosable because this module never printed anything)."""
+    print(f"[jwst-news {time.strftime('%H:%M:%S', time.gmtime())} UTC] {msg}", flush=True)
 
 
 def fetch_feed(url: str) -> list[dict]:
@@ -220,6 +227,7 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
         except Exception as e:  # noqa: BLE001 - one dead feed never blocks the rest
             out["feed_errors"][f["source"]] = f"{type(e).__name__}: {str(e)[:80]}"
     pool = [it for it in pool if it.get("id") and it.get("dt") and it.get("title")]
+    _log(f"feeds done: pool={len(pool)} items, feed_errors={len(out['feed_errors'])}")
 
     seen = state.setdefault("news_seen", {})
 
@@ -238,8 +246,10 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
         chosen, out["mode"] = candidates[:1], "archive (labeled)"
     else:
         chosen = []
+    _log(f"chosen {len(chosen)} items (mode={out['mode']})")
 
     for it in chosen:
+        _log(f"item: {(it.get('title') or '')[:60]}")
         archive = it not in fresh
         fa_rw: dict | None = None  # computed once, reused by post + site archive
         for lang in ("fa", "en"):
@@ -253,6 +263,7 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
                     key = "fa_official" if lang == "fa" else "en_official"
                     chat, _l = official[key]
                     telegram_publish.send_message(token, chat, text)
+                    _log(f"SENT {lang} -> {key} | {(it.get('title') or '')[:50]}")
                     seen.setdefault(it["id"], {})[lang] = now.isoformat()
                     out[lang].append(it["link"])
                     # site archive (additive; website feed reads this; posting ignores it)

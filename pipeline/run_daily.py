@@ -135,27 +135,41 @@ def _discover_with_watchdog():
     must never eat the whole job (observed 2026-10-23: batch hung 115 min and the
     run died at timeout BEFORE publishing anything). Hard cap: 240 s, then give up
     and let the publish phase proceed (empty batch -> next hourly run retries).
-    daemon=True + join(timeout): a hung astroquery thread never blocks the run."""
-    holder: dict = {}
+    daemon=True + join(timeout): a hung astroquery thread never blocks the run.
+    2026-10-23 addendum: the portal can also return a transient EMPTY result
+    (observed 16:05 UTC, same query returned 16 products minutes later) ->
+    one 45s-spaced retry before accepting an empty discovery."""
+    def _once():
+        holder: dict = {}
 
-    def _work():
-        try:
-            holder["cands"] = mast_discover.direct_urls(
-                mast_discover.discover_jwst_products(min_mb=0.05, max_mb=400, n_obs=8))
-        except Exception as e:  # noqa: BLE001 - discovery is best-effort
-            holder["err"] = f"{type(e).__name__}: {str(e)[:120]}"
+        def _work():
+            try:
+                holder["cands"] = mast_discover.direct_urls(
+                    mast_discover.discover_jwst_products(min_mb=0.05, max_mb=400, n_obs=8))
+            except Exception as e:  # noqa: BLE001 - discovery is best-effort
+                holder["err"] = f"{type(e).__name__}: {str(e)[:120]}"
 
-    th = threading.Thread(target=_work, daemon=True)
-    th.start()
-    th.join(timeout=240)
-    if th.is_alive():
-        log("DISCOVERY TIMEOUT after 240s - skipping batch, publish continues "
-            "(batch auto-retries next hourly run)")
-        return [], False
-    if "err" in holder:
-        log(f"DISCOVERY FAILED: {holder['err']}")
-        return [], False
-    return holder.get("cands", []), True
+        th = threading.Thread(target=_work, daemon=True)
+        th.start()
+        th.join(timeout=240)
+        if th.is_alive():
+            return None, False  # timeout signal
+        if "err" in holder:
+            log(f"DISCOVERY FAILED: {holder['err']}")
+            return [], False
+        return holder.get("cands", []), True
+
+    cands, ok = _once()
+    if cands is None:  # timeout signal -> normalize to empty list (never None)
+        cands = []
+    if ok and not cands:  # transient empty portal result -> retry once
+        log("DISCOVERY returned 0 candidates - retrying once after 45s "
+            "(portal hiccup observed 2026-10-23 16:05 UTC)")
+        time.sleep(45)
+        cands, ok = _once()
+        if ok and not cands:
+            log("DISCOVERY retry still 0 candidates - accepting empty batch")
+    return cands, ok
 
 
 def process_batch(state, max_bytes, max_products, tmp, wall_seconds=2100):
