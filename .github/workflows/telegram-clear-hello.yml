@@ -1,0 +1,49 @@
+name: telegram-clear-hello
+
+# Owner-ordered ONE-SHOT (chat approval 2026-10-23):
+#   1) wipe ALL existing messages in the 4 public channels (full history clear);
+#   2) post ONE welcome "hello" message per channel.
+# The owner then writes her/his own intro messages under the hello.
+# workflow_dispatch ONLY - never scheduled. Double confirmation rails.
+# Does NOT touch titles/avatars/descriptions; does NOT enable the hourly
+# pipeline (jwst-daily stays disabled until the owner's explicit go-ahead).
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type YES to wipe history + send hello in all 4 channels'
+        required: true
+        default: 'NO'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: telegram-clear-hello
+  cancel-in-progress: false
+
+jobs:
+  clear-and-hello:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Clear history + send hello (owner-ordered)
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CH_FA_OFF: ${{ secrets.TG_CH_FA_OFF }}
+          TG_CH_FA_AI:  ${{ secrets.TG_CH_FA_AI }}
+          TG_CH_EN_OFF: ${{ secrets.TG_CH_EN_OFF }}
+          TG_CH_EN_AI:  ${{ secrets.TG_CH_EN_AI }}
+          HELLO_CONFIRM: OWNER_ORDERED_2026-10-23
+          INPUT_CONFIRM: ${{ github.event.inputs.confirm }}
+        run: python pipeline/clear_and_hello.py
