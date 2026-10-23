@@ -1577,6 +1577,29 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T18:15:10.988258+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T18:30:13.657030+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/",
+     "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/",
+     "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/"
+    ],
+    "mode": "fresh (9 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T18:31:20.829776+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1612,6 +1635,14 @@
   "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/": {
    "fa": "2026-10-23T18:13:32.896110+00:00",
    "en": "2026-10-23T18:13:32.896110+00:00"
+  },
+  "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/": {
+   "fa": "2026-10-23T18:30:14.111719+00:00",
+   "en": "2026-10-23T18:30:14.111719+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/": {
+   "fa": "2026-10-23T18:30:14.111719+00:00",
+   "en": "2026-10-23T18:30:14.111719+00:00"
   }
  },
  "news_archive": {
@@ -1668,6 +1699,24 @@
    "source_fa": "ناسا",
    "date": "2026-10-22T16:20:37+00:00",
    "ts": "2026-10-23T18:13:32.896110+00:00"
+  },
+  "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/": {
+   "title": "پیشرانه‌های فضاپیمای سایکو به سوی کمربند سیارک‌ها",
+   "summary": "فضاپیمای سایکوی ناسا پس از عبور موفقیت‌آمیز از کنار مریخ، موتورهای خود را فعال کرد و به سمت سیارک فلزی‌فام سایکو شتاب می‌گیرد. این مأموریت با پرتاب در اکتبر ۲۰۲۳، در بخش نخست سفرش از پیشرانش الکتریکی خود به‌صورت تناوبی برای قرارگیری در مسیر درست استفاده کرد.",
+   "link": "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-22T16:16:58+00:00",
+   "ts": "2026-10-23T18:30:14.111719+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/": {
+   "title": "رصد ستارهٔ سبز نخست؛ تصویر روز کیهان‌شناسی ناسا",
+   "summary": "ناسا در چارچوب برنامهٔ تصویر روز نجوم (APOD) عکس وید J1330+6435 را منتشر کرد؛ این اختر به عنوان نخستین ستارهٔ سبز شناخته می‌شود. این پروژه هر روز تصویری از جهان هستی را به همراه توضیحی کوتاه از سوی ستاره‌شناسی حرفه‌ای منتشر می‌کند.",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-22T04:05:00+00:00",
+   "ts": "2026-10-23T18:30:14.111719+00:00"
   }
  }
 }
