@@ -1,0 +1,30 @@
+name: telegram-setup
+
+# ONE-SHOT owner-ordered channel profile setup (2026-10-23):
+# applies avatars + titles + descriptions to the 4 public channels (NO messages).
+# workflow_dispatch ONLY - never scheduled, never publishes posts (red line #2).
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Apply channel profiles (avatar/title/description)
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+        run: python pipeline/tg_setup.py

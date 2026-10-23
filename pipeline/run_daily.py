@@ -32,6 +32,7 @@ import requests
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).parent))
+import ai_message  # noqa: E402
 import annotator  # noqa: E402
 import cloudflare  # noqa: E402
 import fits2png  # noqa: E402
@@ -190,22 +191,6 @@ def process_batch(state, max_bytes, max_products, tmp):
     return processed
 
 
-def _captions(meta, prop):
-    targ = str(meta.get("TARGNAME") or "-")
-    filt = str(meta.get("FILTER") or "?")
-    inst = str(meta.get("INSTRUME") or "?")
-    dateobs = str(meta.get("DATE-OBS") or "")[:10]
-    cap_fa = (f"🔭 جیمز وب | {targ}\n"
-              f"ابزار: {inst} | فیلتر: {filt} | تاریخ مشاهده: {dateobs}\n"
-              f"پروپوزال: {prop} | منبع: MAST/STScI (دادهٔ عمومی)\n"
-              f"کادر قرمز: ناحیهٔ منتخب (تشخیص قطعی - تحلیل AI به‌زودی)")
-    cap_en = (f"🔭 JWST | {targ}\n"
-              f"Instrument: {inst} | filter: {filt} | obs date: {dateobs}\n"
-              f"Proposal: {prop} | Source: MAST/STScI public data\n"
-              f"Red box: selected ROI (deterministic - AI analysis coming soon)")
-    return cap_fa, cap_en
-
-
 def publish_one(pid, state, token, targets, tmp):
     rec = state["products"][pid]
     cand = rec.get("cand") or {}
@@ -247,19 +232,29 @@ def publish_one(pid, state, token, targets, tmp):
             imgs += [prev, prev_ann]
 
         prop = str(cand.get("proposal") or meta.get("PROPOSID") or "")
-        cap_fa, cap_en = _captions(meta, prop)
         mock = json.loads(fits2png.analysis_payload(meta))
-        txt_fa = ("<pre>وضعیت: تحلیل هوش مصنوعی هنوز متصل نشده است (داده آزمایشی)\n"
-                  + json.dumps(mock, ensure_ascii=False, indent=1) + "</pre>")
-        txt_en = ("<pre>AI analysis not connected yet (mock payload)\n"
-                  + json.dumps(mock, ensure_ascii=False, indent=1) + "</pre>")
+
+        # Beautiful per-(kind, lang) content (style package 2026-10-23), built ONCE
+        # per product: AI channels get the full labeled analysis, news channels a
+        # data-only note, test channel the full preview. AI narrative is cached per
+        # kind/lang so one product costs at most 4 generator calls, never 4 per channel.
+        contents: dict[tuple[str, str], tuple[str, str, str]] = {}
+
+        def _content(kind: str, lang: str):
+            ck = (kind, lang)
+            if ck not in contents:
+                contents[ck] = ai_message.build_post(meta, prop, mock, kind, lang)
+            return contents[ck]
 
         results = {}
         for key, chat_id, lang in targets:
-            cap, txt = (cap_fa, txt_fa) if lang == "fa" else (cap_en, txt_en)
+            kind = ("news" if key.endswith("official")
+                    else "ai" if key.endswith("ai") else "test")
+            cap, txt, _gen = _content(kind, lang)
             try:
                 q = quality.full_report(np.asarray(Image.open(imgs[0]).convert("L")),
                                         rec.get("score") or 0, cap, mock, raw_png)
+                q["post_generator"] = _gen  # 'ai' | 'template' - style audit trail
                 if not quality.passes_gate(q):
                     results[key] = "held (quality gate)"
                     rec.setdefault("quality_log", {})[key] = q
