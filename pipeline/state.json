@@ -412,8 +412,11 @@
    "d1_sync": "ok"
   },
   "jw01134001023_02103_00001_nrca4_rate.fits": {
-   "channels": {},
-   "status": "analyzed",
+   "channels": {
+    "test_fa": "sent",
+    "test_en": "sent"
+   },
+   "status": "published_test",
    "score": 32.66,
    "analysis": "analyses/2026/10/22/jw01134001023_02103_00001_nrca4_rate.fits.json",
    "cand": {
@@ -429,7 +432,60 @@
    "meta_TARGNAME": "HD 84406",
    "meta_FILTER": "F212N",
    "bytes": 83946240,
-   "published_utc": null
+   "published_utc": "2026-10-23T00:12:38.717041+00:00",
+   "quality_log": {
+    "test_fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4357,
+      "brightness": 0.4614,
+      "range": 0.8443,
+      "roi": 0.3266,
+      "score": 68.2
+     },
+     "ai_message": {
+      "score": 52,
+      "clarity": 75,
+      "accuracy": 55,
+      "appeal": 42,
+      "notes": "F212N is not a JWST/NIRCam filter — likely meant F2100C or similar. Proposal 1134 unverified. Lacks engaging context about the target. Good Persian structure but too dry/technical for casual audience."
+     },
+     "ai_image": {
+      "score": 5,
+      "clarity": 2,
+      "accuracy": null,
+      "appeal": 1,
+      "notes": "Raw unprocessed detector frame with no visible celestial objects. Only sensor noise and banding."
+     },
+     "min_score_gate": 0.0
+    },
+    "test_en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4357,
+      "brightness": 0.4614,
+      "range": 0.8443,
+      "roi": 0.3266,
+      "score": 68.2
+     },
+     "ai_message": {
+      "score": 28,
+      "clarity": 52,
+      "accuracy": 25,
+      "appeal": 20,
+      "notes": "Mock data invalid for posting. Proposal ID mismatch (1134 vs null). Excessive jargon for non-experts. Missing target description. Reject until replaced with real science."
+     },
+     "ai_image": {
+      "score": 5,
+      "clarity": 5,
+      "accuracy": null,
+      "appeal": 5,
+      "notes": "Raw sensor data with heavy horizontal banding; no astronomical object visible. Unprocessed calibration frame."
+     },
+     "min_score_gate": 0.0
+    }
+   },
+   "d1_sync": "ok"
   },
   "jw01134001005_02107_00001_nrcb1_rate.fits": {
    "channels": {
@@ -573,8 +629,11 @@
    "d1_sync": "ok"
   },
   "jw01134001023_02103_00001_nrca4_cal.fits": {
-   "channels": {},
-   "status": "analyzed",
+   "channels": {
+    "test_fa": "sent",
+    "test_en": "sent"
+   },
+   "status": "published_test",
    "score": 32.5,
    "analysis": "analyses/2026/10/22/jw01134001023_02103_00001_nrca4_cal.fits.json",
    "cand": {
@@ -590,7 +649,60 @@
    "meta_TARGNAME": "HD 84406",
    "meta_FILTER": "F212N",
    "bytes": 117538560,
-   "published_utc": null
+   "published_utc": "2026-10-23T00:14:44.324977+00:00",
+   "quality_log": {
+    "test_fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4331,
+      "brightness": 0.4574,
+      "range": 0.8351,
+      "roi": 0.325,
+      "score": 67.92
+     },
+     "ai_message": {
+      "score": 38,
+      "clarity": 72,
+      "accuracy": 12,
+      "appeal": 55,
+      "notes": "Mock/stub data in a scientific channel post is unacceptable. Proposal ID missing, exposure time null, and explicit warning labels undermine credibility. Fix before publishing."
+     },
+     "ai_image": {
+      "score": 8,
+      "clarity": 12,
+      "accuracy": "raw detector frame, needs calibration",
+      "appeal": 5,
+      "notes": "Raw unprocessed detector frame. Horizontal scan lines dominate; no celestial subject visible. Requires calibration, stacking, and color mapping before broadcast use."
+     },
+     "min_score_gate": 0.0
+    },
+    "test_en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4331,
+      "brightness": 0.4574,
+      "range": 0.8351,
+      "roi": 0.325,
+      "score": 67.92
+     },
+     "ai_message": {
+      "score": 15,
+      "clarity": 40,
+      "accuracy": 10,
+      "appeal": 20,
+      "notes": "Mock/test stub published as post. Null proposal ID conflicts with caption. Missing exposure time. Internal dev warnings visible. Unpublishable in this state."
+     },
+     "ai_image": {
+      "score": 5,
+      "clarity": 8,
+      "accuracy": null,
+      "appeal": 3,
+      "notes": "Raw detector noise; no astronomical object captured. Horizontal banding dominates. Show as 'before processing' example only."
+     },
+     "min_score_gate": 0.0
+    }
+   },
+   "d1_sync": "ok"
   },
   "jw01134001005_02107_00001_nrcb1_cal.fits": {
    "channels": {
@@ -1145,6 +1257,18 @@
    ],
    "cloudflare": "configured",
    "finished_utc": "2026-10-22T20:58:47.503522+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T00:08:16.472550+00:00",
+   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
+   "batch_ran": false,
+   "pending_before": 2,
+   "published": [
+    "jw01134001023_02103_00001_nrca4_rate.fits",
+    "jw01134001023_02103_00001_nrca4_cal.fits"
+   ],
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T00:14:45.059260+00:00"
   }
  ],
  "last_batch_utc": "2026-10-22T17:11:48.252054+00:00"
