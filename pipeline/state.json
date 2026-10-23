@@ -1669,6 +1669,29 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T20:08:54.531170+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T21:44:27.573630+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/",
+     "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/",
+     "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T21:46:17.047065+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1736,6 +1759,14 @@
   "https://www.nasa.gov/blogs/smallsatellites/2026/10/20/two-nasa-commercial-satellite-communication-demonstrations-launch/": {
    "fa": "2026-10-23T20:07:18.781033+00:00",
    "en": "2026-10-23T20:07:18.781033+00:00"
+  },
+  "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/": {
+   "fa": "2026-10-23T21:44:28.317848+00:00",
+   "en": "2026-10-23T21:44:28.317848+00:00"
+  },
+  "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/": {
+   "fa": "2026-10-23T21:44:28.317848+00:00",
+   "en": "2026-10-23T21:44:28.317848+00:00"
   }
  },
  "news_archive": {
@@ -1864,6 +1895,24 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-20T15:40:56+00:00",
    "ts": "2026-10-23T20:07:18.781033+00:00"
+  },
+  "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/": {
+   "title": "ناسا طرح‌های تسریع مأموریت‌های ماهانه را معرفی کرد",
+   "summary": "ناسا در به‌روزرسانی ۲۳ اکتبر، مسیر بازگشت فضانوردان آمریکایی به سطح ماه در سال ۲۰۲۸ را ترسیم کرد. مأموریت آرتمیس سوم چهار فضانورد را سال آینده به مدار پایین زمین خواهد فرستاد تا سیستم‌های حیاتی لازم برای مأموریت‌های آتی را آزمایش کند.",
+   "link": "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-23T20:15:28+00:00",
+   "ts": "2026-10-23T21:44:28.317848+00:00"
+  },
+  "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/": {
+   "title": "ناسا: درگن‌فلی نخستین پرواز آزمایشی خود را با موفقیت پشت سر گذاشت",
+   "summary": "دوربین پرندهٔ ناسا پس از جدا شدن از محفظهٔ محافظ، به‌صورت مستقل بر فراز تپک‌های شن تیتان پرواز کرد. این فضاپیما سرزمین زیرین را پیمایش و مکان امنی برای فرود شناسایی نمود. سپس نشست و برای نخستین بار بر سطح بزرگ‌ترین قمر زحل فرود آمد.",
+   "link": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-23T18:44:14+00:00",
+   "ts": "2026-10-23T21:44:28.317848+00:00"
   }
  },
  "news_title_fp": {
@@ -1872,6 +1921,14 @@
    "en": "2026-10-23"
   },
   "1dac54cb9646acff": {
+   "fa": "2026-10-23",
+   "en": "2026-10-23"
+  },
+  "63f011a8fd165dc1": {
+   "fa": "2026-10-23",
+   "en": "2026-10-23"
+  },
+  "0f848975f669d0fc": {
    "fa": "2026-10-23",
    "en": "2026-10-23"
   }
@@ -1884,6 +1941,14 @@
   [
    "1dac54cb9646acff",
    "two nasa commercial satellite communication demonstrations launch"
+  ],
+  [
+   "63f011a8fd165dc1",
+   "nasa shares artemis acceleration plans for moon missions"
+  ],
+  [
+   "0f848975f669d0fc",
+   "nasa s dragonfly completes first simulated flight"
   ]
  ]
 }
