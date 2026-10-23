@@ -1757,6 +1757,29 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T22:35:39.258580+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T23:00:36.452960+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+     "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/"
+    ],
+    "en": [
+     "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+     "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/"
+    ],
+    "mode": "fresh (4 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T23:02:11.476515+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1844,6 +1867,14 @@
   "https://esawebb.org/news/weic2620/": {
    "fa": "2026-10-23T22:34:45.525578+00:00",
    "en": "2026-10-23T22:34:45.525578+00:00"
+  },
+  "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/": {
+   "fa": "2026-10-23T23:00:36.708212+00:00",
+   "en": "2026-10-23T23:00:36.708212+00:00"
+  },
+  "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/": {
+   "fa": "2026-10-23T23:00:36.708212+00:00",
+   "en": "2026-10-23T23:00:36.708212+00:00"
   }
  },
  "news_archive": {
@@ -2017,6 +2048,24 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-10-06T13:00:00+00:00",
    "ts": "2026-10-23T22:34:45.525578+00:00"
+  },
+  "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/": {
+   "title": "تسریع توسعه فرودگرهای ماه توسط ناسا و شرکایش برای مأموریت‌های ۲۰۲۸",
+   "summary": "ناسا و شرکت‌های بلو اورجین و اسپیس‌اکس با هدف بازگرداندن انسان به سطح ماه و تأسیس حضور بلندمدت، توسعه فرودگرهای سرنشین‌دار را تسریع کرده‌اند. بر اساس قراردادهای اولیه ناسا، هر دو شرکت طراحی‌های خود را ساده‌سازی و مفهوم عملیاتی فرودگرها را تغییر داده‌اند. این تلاش‌ها برای آماده‌سازی مأموریت‌های سرنشین‌دار به ماه در سال ۲۰۲۸ انجام می‌شود.",
+   "link": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-23T22:39:39+00:00",
+   "ts": "2026-10-23T23:00:36.708212+00:00"
+  },
+  "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/": {
+   "title": "آرتمیس ۳؛ پرتاب مأموریت آزمایشی ناسا به سمت ماه در ۲۰۲۷",
+   "summary": "ناسا پیش از بازگشت فضانوردان به سطح ماه، یکی از پیچیده‌ترین مأموریت‌های آزمایشی تاریخ خود را با پرتاب آرتمیس ۳ در سال ۲۰۲۷ کلید می‌زند. چهار فضانورد ناسا به نام‌های رندی برسنیک، فرانک rubio، اندره دوگلاس و فضانورد آژانس فضایی اروپا لوکا پارمیتانو سوار بر سفینه اورایون به مدار پایین زمین ارسال خواهند شد.",
+   "link": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-23T22:37:53+00:00",
+   "ts": "2026-10-23T23:00:36.708212+00:00"
   }
  },
  "news_title_fp": {
@@ -2045,6 +2094,14 @@
    "en": "2026-10-23"
   },
   "780799a033ec3ec3": {
+   "fa": "2026-10-23",
+   "en": "2026-10-23"
+  },
+  "e69dd6bc53416f51": {
+   "fa": "2026-10-23",
+   "en": "2026-10-23"
+  },
+  "6d184d2ca7672425": {
    "fa": "2026-10-23",
    "en": "2026-10-23"
   }
@@ -2077,6 +2134,14 @@
   [
    "780799a033ec3ec3",
    "photo release webb captures commotion from nebula s stellar jets"
+  ],
+  [
+   "e69dd6bc53416f51",
+   "nasa partners accelerate lander development for 2028 moon missions"
+  ],
+  [
+   "6d184d2ca7672425",
+   "nasa s artemis iii mission to test future moon lander operations"
   ]
  ]
 }
