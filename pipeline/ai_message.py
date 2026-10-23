@@ -50,7 +50,12 @@ SELF_LINK = {  # own-channel signature: beautiful self link under EVERY post (ow
 def build_footer(lang: str, kind: str) -> str:
     """Signature tail modeled on the owner's reference-channel rhythm (tagline + t.me
     link + emoji) WITHOUT its advertising tone. Sibling username comes from the ONE
-    central COMPANION config (section 8) - never hard-coded at call sites."""
+    central COMPANION config (section 8) - never hard-coded at call sites.
+
+    Owner order 2026-10-23 (applies to FUTURE posts only - past posts are frozen):
+    after the tagline + companion lines, the LAST line must show the channel's own
+    t.me address EXPLICITLY as visible text («لینکش کامل مشخص باشه»), not only as
+    the clickable tagline."""
     kind = "news" if kind == "news" else "ai"
     name, user, emoji, tagline = SELF_LINK[lang][kind]
     other = "ai" if kind == "news" else "news"
@@ -62,6 +67,7 @@ def build_footer(lang: str, kind: str) -> str:
         "———",
         f"{emoji} <b><a href=\"https://t.me/{user}\">{name}</a></b> | {tagline}",
         f"{oemoji} <a href=\"https://t.me/{ouser}\">{label}: {oname}</a> ✨",
+        f"🌐 <a href=\"https://t.me/{user}\">t.me/{user}</a>",
     ])
 
 
