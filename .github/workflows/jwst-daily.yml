@@ -63,7 +63,8 @@ jobs:
           MAX_PRODUCTS: "3"                # bounded batch: 3 products per ~20h cycle
           PUBLISH_COUNT: "2"               # mission spec: 2 selected items per hour
           BATCH_GAP_HOURS: "20"
-        run: python pipeline/run_daily.py --max-bytes $MAX_BYTES --max-products $MAX_PRODUCTS
+          BATCH_WALL_MINUTES: "35"         # batch NEVER eats the publish window; publish runs every run (fix 2026-10-23)
+        run: python -u pipeline/run_daily.py --max-bytes $MAX_BYTES --max-products $MAX_PRODUCTS
 
       - name: Commit state + analyses (ledger + keepalive)
         run: |

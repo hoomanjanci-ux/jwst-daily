@@ -22,6 +22,7 @@ import random
 import shutil
 import sys
 import tempfile
+import threading
 import time
 import traceback
 from datetime import datetime, timedelta, timezone
@@ -81,6 +82,11 @@ def sha256_file(path, chunk=1 << 20):
     return h.hexdigest()
 
 
+def log(msg):
+    """Live progress line - always flushed (GH Actions buffers otherwise)."""
+    print(f"[jwst {time.strftime('%H:%M:%S', time.gmtime())} UTC] {msg}", flush=True)
+
+
 def robust_download(url, dest, hard_cap=None, max_seconds=300, attempts=3):
     """Streaming download with retry/backoff (429 obeys Retry-After), byte + wall caps.
     Returns (n_bytes, seconds)."""
@@ -124,13 +130,51 @@ def _render_and_score(dest, tmp, pid):
     return meta, raw_png, regions[0], annotator.score_image(img8, regions), img8
 
 
-def process_batch(state, max_bytes, max_products, tmp):
-    cands = mast_discover.direct_urls(
-        mast_discover.discover_jwst_products(min_mb=0.05, max_mb=400, n_obs=8))
+def _discover_with_watchdog():
+    """astroquery has no controllable end-to-end timeout; a stalled MAST portal
+    must never eat the whole job (observed 2026-10-23: batch hung 115 min and the
+    run died at timeout BEFORE publishing anything). Hard cap: 240 s, then give up
+    and let the publish phase proceed (empty batch -> next hourly run retries).
+    daemon=True + join(timeout): a hung astroquery thread never blocks the run."""
+    holder: dict = {}
+
+    def _work():
+        try:
+            holder["cands"] = mast_discover.direct_urls(
+                mast_discover.discover_jwst_products(min_mb=0.05, max_mb=400, n_obs=8))
+        except Exception as e:  # noqa: BLE001 - discovery is best-effort
+            holder["err"] = f"{type(e).__name__}: {str(e)[:120]}"
+
+    th = threading.Thread(target=_work, daemon=True)
+    th.start()
+    th.join(timeout=240)
+    if th.is_alive():
+        log("DISCOVERY TIMEOUT after 240s - skipping batch, publish continues "
+            "(batch auto-retries next hourly run)")
+        return [], False
+    if "err" in holder:
+        log(f"DISCOVERY FAILED: {holder['err']}")
+        return [], False
+    return holder.get("cands", []), True
+
+
+def process_batch(state, max_bytes, max_products, tmp, wall_seconds=2100):
+    t0 = time.perf_counter()
+    cands, discovery_ok = _discover_with_watchdog()
+    log(f"BATCH: discovered {len(cands)} candidates (discovery_ok={discovery_ok})")
     budget = max_bytes
     processed = 0
-    for cand in cands:
+    completed_naturally = discovery_ok
+    for i, cand in enumerate(cands, 1):
         pid = cand["filename"]
+        elapsed = time.perf_counter() - t0
+        if elapsed > wall_seconds:
+            log(f"BATCH: wall budget {wall_seconds}s reached ({elapsed:.0f}s) "
+                f"- stopping batch, proceeding to publish")
+            completed_naturally = True  # time-boxed stop is a NORMAL completion
+            break
+        log(f"BATCH {i}/{len(cands)}: {pid} ({cand['size_mb']:.1f} MB, "
+            f"budget {budget/1048576:.0f} MB left, elapsed {elapsed:.0f}s)")
         rec = state["products"].setdefault(pid, {"channels": {}})
         if rec.get("status") in ("analyzed", "published_test", "published"):
             continue
@@ -139,15 +183,20 @@ def process_batch(state, max_bytes, max_products, tmp):
         dest = tmp / pid
         try:
             try:
-                n, _ = robust_download(cand["url_s3"], dest, hard_cap=budget)
+                n, dl_s = robust_download(cand["url_s3"], dest, hard_cap=budget,
+                                          max_seconds=180)
             except Exception:
-                n, _ = robust_download(cand["url_mast"], dest, hard_cap=budget)
+                n, dl_s = robust_download(cand["url_mast"], dest, hard_cap=budget,
+                                          max_seconds=180)
+            log(f"BATCH: downloaded {pid} ({n/1048576:.1f} MB in {dl_s:.0f}s)")
         except Exception as e:  # noqa: BLE001
             rec["last_error"] = f"download: {type(e).__name__}: {e}"
+            log(f"BATCH: download FAILED {pid}: {type(e).__name__}")
             continue
         budget -= n
         try:
             meta, raw_png, region, score, img8 = _render_and_score(dest, tmp, pid)
+            log(f"BATCH: rendered+scored {pid} (score={score})")
         except Exception as e:  # noqa: BLE001 - unsuitable product: record + skip
             rec["last_error"] = f"render: {type(e).__name__}: {e}"
             dest.unlink(missing_ok=True)
@@ -187,9 +236,11 @@ def process_batch(state, max_bytes, max_products, tmp):
         raw_png.unlink(missing_ok=True)
         save_state(state)
         processed += 1
+        log(f"BATCH: ANALYZED {processed}/{max_products}: {pid} -> ledger")
         if budget <= 0 or processed >= max_products:
             break
-    return processed
+    log(f"BATCH DONE: processed={processed}, elapsed={time.perf_counter()-t0:.0f}s")
+    return processed, completed_naturally
 
 
 def publish_one(pid, state, token, targets, tmp):
@@ -249,21 +300,31 @@ def publish_one(pid, state, token, targets, tmp):
 
         results = {}
         sent_contents: dict[tuple[str, str], tuple[str, str, str]] = {}
+        # Quality report is memoized per (kind, lang): identical inputs otherwise
+        # cost up to (90s x2 attempts + 240s vision) x 5 targets per product,
+        # which alone could eat the whole job budget (fix 2026-10-23).
+        qcache: dict[tuple[str, str], dict] = {}
         for key, chat_id, lang in targets:
             kind = ("news" if key.endswith("official")
                     else "ai" if key.endswith("ai") else "test")
             cap, txt, _gen = _content(kind, lang)
             try:
-                q = quality.full_report(np.asarray(Image.open(imgs[0]).convert("L")),
-                                        rec.get("score") or 0, cap, mock, raw_png)
+                ck = (kind, lang)
+                if ck not in qcache:
+                    qcache[ck] = quality.full_report(
+                        np.asarray(Image.open(imgs[0]).convert("L")),
+                        rec.get("score") or 0, cap, mock, raw_png)
+                q = qcache[ck]
                 q["post_generator"] = _gen  # 'ai' | 'template' - style audit trail
                 if not quality.passes_gate(q):
                     results[key] = "held (quality gate)"
                     rec.setdefault("quality_log", {})[key] = q
                     continue
+                log(f"PUBLISH {pid}: sending album+text to {key} ({chat_id})")
                 telegram_publish.send_album(token, chat_id, imgs, cap)
                 telegram_publish.send_message(token, chat_id, txt)
                 results[key] = "sent"
+                log(f"PUBLISH {pid}: SENT -> {key}")
                 sent_contents[(kind, lang)] = (cap, txt, _gen)
                 rec.setdefault("quality_log", {})[key] = q
             except Exception as e:  # noqa: BLE001 - per-target isolation
@@ -327,19 +388,34 @@ def run(max_bytes=1_100_000_000, max_products=6, publish_count=2, batch_gap_hour
                 need_batch = True
         summary["batch_ran"] = bool(need_batch)
         if need_batch:
-            summary["batch_processed"] = process_batch(state, max_bytes, max_products, tmp)
-            state["last_batch_utc"] = _iso_now()
+            wall = int(os.environ.get("BATCH_WALL_MINUTES", "35")) * 60
+            processed, natural = process_batch(state, max_bytes, max_products, tmp,
+                                               wall_seconds=wall)
+            summary["batch_processed"] = processed
+            # last_batch updates ONLY on a real completion; a discovery failure
+            # must be retried by the NEXT hourly run (publish still runs now).
+            if natural:
+                state["last_batch_utc"] = _iso_now()
+            else:
+                summary["batch_retry_next_run"] = True
 
         pending = sorted(((pid, rec.get("score") or 0)
                           for pid, rec in state["products"].items()
                           if rec.get("status") == "analyzed"),
                          key=lambda x: -x[1])
         summary["pending_before"] = len(pending)
+        log(f"PUBLISH: {len(pending)} analyzed products pending, "
+            f"publishing top {min(publish_count, len(pending))} -> "
+            f"{[t[1] for t in targets]}")
         published = []
         if token and targets:
             for pid, _s in pending[:publish_count]:
+                log(f"PUBLISH: building album for {pid}")
                 if publish_one(pid, state, token, targets, tmp):
                     published.append(pid)
+                    log(f"PUBLISH: OK {pid}")
+                else:
+                    log(f"PUBLISH: FAILED {pid} (see ledger last_error)")
         else:
             summary["note"] = "publish deferred (no token/targets configured)"
         summary["published"] = published
