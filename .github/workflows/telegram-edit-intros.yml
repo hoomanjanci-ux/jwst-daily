@@ -1,0 +1,48 @@
+name: telegram-edit-intros
+
+# Owner-ordered ONE-SHOT (chat approval 2026-10-23): append the beautiful link
+# signature (own channel + same-language companion) to the 4 intro messages the
+# bot already posted. Edits only the bot's OWN messages; deletes nothing.
+# workflow_dispatch ONLY - never scheduled. Double confirmation rails.
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type YES to append the link signature to the 4 intro messages'
+        required: true
+        default: 'NO'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: telegram-edit-intros
+  cancel-in-progress: false
+
+jobs:
+  edit-intros:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Append link signature to intros (owner-ordered)
+        working-directory: pipeline
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CH_FA_OFF: ${{ secrets.TG_CH_FA_OFF }}
+          TG_CH_FA_AI:  ${{ secrets.TG_CH_FA_AI }}
+          TG_CH_EN_OFF: ${{ secrets.TG_CH_EN_OFF }}
+          TG_CH_EN_AI:  ${{ secrets.TG_CH_EN_AI }}
+          INTRO_MSG_ID: "5"
+          OWNER_CONFIRM: OWNER_ORDERED_2026-10-23
+          INPUT_CONFIRM: ${{ github.event.inputs.confirm }}
+        run: python edit_intros.py

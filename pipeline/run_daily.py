@@ -38,6 +38,7 @@ import cloudflare  # noqa: E402
 import fits2png  # noqa: E402
 import mast_discover  # noqa: E402
 import mode  # noqa: E402
+import news_rss  # noqa: E402
 import quality  # noqa: E402
 import telegram_publish  # noqa: E402
 
@@ -325,6 +326,10 @@ def run(max_bytes=1_100_000_000, max_products=6, publish_count=2, batch_gap_hour
         else:
             summary["note"] = "publish deferred (no token/targets configured)"
         summary["published"] = published
+        try:  # official news feeds -> news channels (never breaks the main pipeline)
+            summary["news"] = news_rss.publish(state, token, targets)
+        except Exception as e:  # noqa: BLE001
+            summary["news"] = {"error": f"{type(e).__name__}: {str(e)[:120]}"}
         summary["cloudflare"] = "configured" if cloudflare.configured() else "off (waiting owner token)"
     finally:
         shutil.rmtree(tmp, ignore_errors=True)

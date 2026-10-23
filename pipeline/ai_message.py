@@ -39,6 +39,31 @@ BRAND = {  # channel display names (section 3 mapping)
     "en": {"news": "COSMIC NEWS", "ai": "COSMIC INSIGHT"},
 }
 
+SELF_LINK = {  # own-channel signature: beautiful self link under EVERY post (owner 2026-10-23)
+    "fa": {"news": ("نبض کیهان", "NabzeKeyhan1", "🛰", "تپش قلب کیهان"),
+           "ai": ("راز کیهان", "RazKeyhan", "🔭", "رازهای هستی، یک به یک")},
+    "en": {"news": ("COSMIC NEWS", "CosmicNewsJWST", "🛰", "Verified, sourced, awe-inspiring"),
+           "ai": ("COSMIC INSIGHT", "CosmicInsightJWST", "🔭", "See deeper, understand more")},
+}
+
+
+def build_footer(lang: str, kind: str) -> str:
+    """Signature tail modeled on the owner's reference-channel rhythm (tagline + t.me
+    link + emoji) WITHOUT its advertising tone. Sibling username comes from the ONE
+    central COMPANION config (section 8) - never hard-coded at call sites."""
+    kind = "news" if kind == "news" else "ai"
+    name, user, emoji, tagline = SELF_LINK[lang][kind]
+    other = "ai" if kind == "news" else "news"
+    oname, _ouser, oemoji, _tag = SELF_LINK[lang][other]
+    ouser = _companion(lang, kind).lstrip("@")  # sibling of THIS channel (central config)
+    label = (("تحلیل هوش مصنوعی" if other == "ai" else "اخبار رسمی") if lang == "fa"
+             else ("AI analysis" if other == "ai" else "Official news"))
+    return "\n".join([
+        "———",
+        f"{emoji} <b><a href=\"https://t.me/{user}\">{name}</a></b> | {tagline}",
+        f"{oemoji} <a href=\"https://t.me/{ouser}\">{label}: {oname}</a> ✨",
+    ])
+
 
 def _companion(lang: str, kind: str) -> str:
     raw = (os.environ.get("TG_COMPANION_JSON", "") or "").strip()
@@ -170,7 +195,7 @@ def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str):
         tag_ai = "🏷 نوع: تحلیل هوش مصنوعی (AI-assisted)"
         roi_note = "🔲 کادر قرمز: ناحیهٔ منتخب پایپ‌لاین (تشخیص قطعی)"
         news_note = ("🔬 این پست فقط دادهٔ رسمی و پیش‌نمایش است؛ تحلیل هوش مصنوعی "
-                     f"در کانال همراه: {_companion(lang, 'news')}")
+                     "در کانال همراه ما منتشر می‌شود.")
         ai_label = ("⚠️ <i>این تحلیل با هوش مصنوعی تولید شده است — تفسیر داده است، "
                     "نه گفتهٔ منبع رسمی؛ عدم‌قطعیت‌ها را جدی بگیرید.</i>")
         src = f"📡 <b>منبع:</b> MAST/STScI (دادهٔ عمومی) · 📅 {dateobs}"
@@ -181,7 +206,7 @@ def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str):
         tag_ai = "🏷 Type: AI-assisted analysis"
         roi_note = "🔲 Red box: pipeline-selected ROI (deterministic)"
         news_note = ("🔬 Official data & preview only; AI-assisted analysis lives in "
-                     f"our companion channel: {_companion(lang, 'news')}")
+                     "our companion channel.")
         ai_label = ("⚠️ <i>AI-generated analysis — interpretation of the data, not an "
                     "official statement; uncertainties matter.</i>")
         src = f"📡 <b>Source:</b> MAST/STScI public data · 📅 {dateobs}"
@@ -194,9 +219,16 @@ def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str):
         cap_lines += [("", "❓ <b>چرا مهم است؟</b> " + why if lang == "fa"
                       else "❓ <b>Why it matters:</b> " + why)[1]]
     cap_lines += ["", src, tag_ai if kind in ("ai", "test") else tag_news, roi_note]
+    footer = build_footer(lang, kind)  # signature tail: own + companion link
     caption = "\n".join(cap_lines)
-    if len(caption) > 1020:  # Bot API hard limit 1024
-        caption = caption[:1019] + "…"
+    budget = 1020 - len(footer) - 1  # Bot API hard limit 1024; footer is never cut
+    if len(caption) > budget:
+        cut = caption.rfind(">", 0, budget - 1)
+        if cut > 0 and "<" in caption[cut:budget]:
+            caption = caption[:cut + 1] + "…"   # never tear an HTML tag
+        else:
+            caption = caption[:budget - 1] + "…"
+    caption = caption + "\n" + footer
 
     # ---- follow-up message ----
     if kind == "news":
@@ -208,6 +240,4 @@ def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str):
         msg = (f"{ai_head}\n<blockquote>{body}</blockquote>\n\n"
                f"🔎 <b>{'واقعیت‌ها از متادیتا:' if lang == 'fa' else 'Facts from metadata:'}</b>\n"
                f"{facts}\n\n{ai_label}")
-        if kind == "ai":  # same-language companion link, related-analysis only (section 8)
-            msg += f"\n\n🔗 {'اخبار رسمی: ' if lang == 'fa' else 'Official news: '}{_companion(lang, 'ai')}"
-    return caption, msg, gen
+    return caption, msg + "\n\n" + footer, gen
