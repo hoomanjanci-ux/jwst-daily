@@ -1121,11 +1121,19 @@
   },
   "jw06627005001_07101_00002_nrcalong_rate.fits": {
    "channels": {},
-   "last_error": "download: TimeoutError: download wall-clock cap exceeded"
+   "last_error": "download: TimeoutError: download wall-clock cap exceeded",
+   "status": "legacy_v01"
   },
   "jw06627005001_07101_00004_nrcalong_rate.fits": {
-   "channels": {},
-   "status": "analyzed",
+   "channels": {
+    "test_fa": "sent",
+    "test_en": "sent",
+    "fa_ai": "sent",
+    "en_ai": "sent",
+    "fa_official": "sent",
+    "en_official": "sent"
+   },
+   "status": "published_test",
    "score": 52.26,
    "analysis": "analyses/2026/10/23/jw06627005001_07101_00004_nrcalong_rate.fits.json",
    "cand": {
@@ -1141,7 +1149,142 @@
    "meta_TARGNAME": "2MASS J05220207-6930388",
    "meta_FILTER": "F335M",
    "bytes": 83972160,
-   "published_utc": null
+   "published_utc": "2026-10-23T17:48:30.482055+00:00",
+   "quality_log": {
+    "test_fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6713,
+      "brightness": 0.6501,
+      "range": 1.0,
+      "roi": 0.5226,
+      "score": 81.02
+     },
+     "ai_message": {
+      "score": 42,
+      "clarity": 55,
+      "accuracy": 20,
+      "appeal": 60,
+      "notes": "Caption claims processed data but payload is explicitly MOCK. Misleading for non-experts. Add explicit disclaimer in caption: 'نمونه/آزمایشی'. Object exists; JWST filters valid. Fix before publishing."
+     },
+     "ai_image": null,
+     "min_score_gate": 0.0,
+     "post_generator": "template"
+    },
+    "test_en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6713,
+      "brightness": 0.6501,
+      "range": 1.0,
+      "roi": 0.5226,
+      "score": 81.02
+     },
+     "ai_message": {
+      "score": 38,
+      "clarity": 55,
+      "accuracy": 20,
+      "appeal": 42,
+      "notes": "Mock data posted publicly — misleading and potentially harmful. Cut off mid-sentence. \"Alien world\" misleads for a known brown dwarf. Remove before publishing."
+     },
+     "ai_image": null,
+     "min_score_gate": 0.0,
+     "post_generator": "ai"
+    },
+    "fa_ai": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6713,
+      "brightness": 0.6501,
+      "range": 1.0,
+      "roi": 0.5226,
+      "score": 81.02
+     },
+     "ai_message": {
+      "score": 52,
+      "clarity": 72,
+      "accuracy": 30,
+      "appeal": 68,
+      "notes": "2MASS J0522-6930 is a known Y-dwarf (cool brown dwarf), not an unknown type — stating uncertainty is misleading. Missing exptime/proposal. Mock/placeholder flag visible. Good formatting and tone otherwise."
+     },
+     "ai_image": {
+      "score": 38,
+      "clarity": 52,
+      "accuracy": null,
+      "appeal": 30,
+      "notes": "High noise, horizontal banding, monochrome raw data aesthetic. Lack of color processing and composition reduces visual impact."
+     },
+     "min_score_gate": 0.0,
+     "post_generator": "ai"
+    },
+    "en_ai": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6713,
+      "brightness": 0.6501,
+      "range": 1.0,
+      "roi": 0.5226,
+      "score": 81.02
+     },
+     "ai_message": {
+      "score": 67,
+      "clarity": 72,
+      "accuracy": 82,
+      "appeal": 58,
+      "notes": "F335M is correct (NIRCam coronagraphic filter). Uncertainty phrasing weakens impact. Source link truncated. Dry tone; leads with confusion rather than a hook. Fix ending."
+     },
+     "ai_image": {
+      "score": 46,
+      "clarity": 30,
+      "accuracy": 85,
+      "appeal": 25,
+      "notes": "Raw detection image; heavy horizontal banding and noise dominate. No color processing or compositional focus. Accurate to instrument data but unsuitable for public outreach without extensive post-processing."
+     },
+     "min_score_gate": 0.0,
+     "post_generator": "ai"
+    },
+    "fa_official": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6713,
+      "brightness": 0.6501,
+      "range": 1.0,
+      "roi": 0.5226,
+      "score": 81.02
+     },
+     "ai_message": {
+      "score": 72,
+      "clarity": 85,
+      "accuracy": 70,
+      "appeal": 75,
+      "notes": "Remove mock/warning/dev stub text from payload before publishing. Observation date may be release, not actual. Good bilingual format otherwise."
+     },
+     "ai_image": null,
+     "min_score_gate": 0.0,
+     "post_generator": "ai"
+    },
+    "en_official": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6713,
+      "brightness": 0.6501,
+      "range": 1.0,
+      "roi": 0.5226,
+      "score": 81.02
+     },
+     "ai_message": {
+      "score": 72,
+      "clarity": 75,
+      "accuracy": 85,
+      "appeal": 68,
+      "notes": "Good structure. Penalize: F335M/NRCALONG jargon too raw for non-experts; add Persian subtitle; mock data payload exposed"
+     },
+     "ai_image": null,
+     "min_score_gate": 0.0,
+     "post_generator": "ai"
+    }
+   },
+   "d1_sync": "ok"
   }
  },
  "runs": [
@@ -1386,6 +1529,31 @@
    },
    "cloudflare": "off (waiting owner token)",
    "finished_utc": "2026-10-23T17:07:23.059090+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T17:08:14.060912+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 1,
+   "published": [
+    "jw06627005001_07101_00004_nrcalong_rate.fits"
+   ],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/23/advanced-research-spacewalk-preps-end-week-as-nasa-announces-artemis-status/",
+     "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/23/advanced-research-spacewalk-preps-end-week-as-nasa-announces-artemis-status/",
+     "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/"
+    ],
+    "mode": "fresh (13 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T17:50:45.894848+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1405,6 +1573,14 @@
   "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/": {
    "fa": "2026-10-23T16:05:56.023982+00:00",
    "en": "2026-10-23T16:05:56.023982+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/23/advanced-research-spacewalk-preps-end-week-as-nasa-announces-artemis-status/": {
+   "fa": "2026-10-23T17:48:31.941956+00:00",
+   "en": "2026-10-23T17:48:31.941956+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/": {
+   "fa": "2026-10-23T17:48:31.941956+00:00",
+   "en": "2026-10-23T17:48:31.941956+00:00"
   }
  },
  "news_archive": {
@@ -1425,6 +1601,24 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-22T19:43:51+00:00",
    "ts": "2026-10-23T16:05:56.023982+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/23/advanced-research-spacewalk-preps-end-week-as-nasa-announces-artemis-status/": {
+   "title": "در ایستگاه فضایی: پژوهش‌های زیستی و فیزیک دمای بالا، آماده‌سازی برای پیاده‌روی فضایی و اعلام وضعیت مأموریت‌های ماهانه ناسا",
+   "summary": "تیم سفره هفتمین ایستگاه فضایی بین‌المللی در پایان هفته بر روی چاپگر زیستی سه‌بعدی و کوره مغناطیسی کار کردند تا به پیشرفت فیزیک سلامت و دماهای بالا کمک کنند. دو فضانورد نیز در حال آماده‌سازی برای پیاده‌روی فضایی در ایستگاه هستند. ناسا همزمان وضعیت مأموریت‌های آینده ماه را اعلام کرد.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/23/advanced-research-spacewalk-preps-end-week-as-nasa-announces-artemis-status/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-23T16:11:23+00:00",
+   "ts": "2026-10-23T17:48:31.941956+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/": {
+   "title": "روز پرتلاش تیم چشمه هفتادوپنج در ایستاده فضایی: زیستی‌چاپ رگ خونی، نصب لباس فضانوردی و تمرین رباتیک",
+   "summary": "تیم چشمه هفتادوپنج روز پنج‌شنبه را به زیستی‌چاپ رگ‌های خونی و امتحان کردن لباس فضانوردی در ایستاده فضایی بین‌المللی اختصاص داد. فضانوردان همچنین به کار با بازوهای رباتیک تمرین کردند و Sessions عکس‌برداری از زمین را برای تکمیل روز در مدار پایین زمین ترتیب دادند.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-22T17:37:14+00:00",
+   "ts": "2026-10-23T17:48:31.941956+00:00"
   }
  }
 }
