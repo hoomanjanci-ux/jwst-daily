@@ -1,0 +1,46 @@
+name: telegram-fix-post
+
+# Owner-visible one-shot (2026-10-23): correct the glitched FA AI rewrite
+# (stray CJK token) in the Von Braun symposium post (NabzeKeyhan1 #7).
+# workflow_dispatch ONLY - never scheduled. Double confirmation rails.
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type YES to apply the post correction'
+        required: true
+        default: 'NO'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: telegram-fix-post
+  cancel-in-progress: false
+
+jobs:
+  fix-post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Apply the post correction (owner-ordered)
+        working-directory: pipeline
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CH_FA_OFF: ${{ secrets.TG_CH_FA_OFF }}
+          TG_CH_FA_AI:  ${{ secrets.TG_CH_FA_AI }}
+          TG_CH_EN_OFF: ${{ secrets.TG_CH_EN_OFF }}
+          TG_CH_EN_AI:  ${{ secrets.TG_CH_EN_AI }}
+          OWNER_CONFIRM: OWNER_ORDERED_2026-10-23
+          INPUT_CONFIRM: ${{ github.event.inputs.confirm }}
+        run: python owner_fix_post.py

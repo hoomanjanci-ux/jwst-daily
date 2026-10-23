@@ -143,6 +143,15 @@ FA_NEWS_PROMPT = (
 )
 
 
+def _glitched(text: str) -> bool:
+    """Guard against AI script glitches (e.g. stray CJK tokens inside Persian text).
+    Seen in the wild 2026-10-23: «بازم人間の بازگشت» - the run posted it before this
+    guard existed; a one-shot fix edited that post, this check prevents a repeat."""
+    if re.search(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]", text):
+        return True  # kana / CJK / hangul can never be valid inside FA posts
+    return len(re.findall(r"[\u0600-\u06FF]", text)) < 10  # no real Persian letters
+
+
 def _fa_rewrite(item: dict) -> dict | None:
     slim = {"title": item.get("title"), "summary": item.get("summary"),
             "source": item.get("source"), "date": item.get("date")}
@@ -152,7 +161,10 @@ def _fa_rewrite(item: dict) -> dict | None:
         try:
             data = ai_message._lenient_json(ai_message._qai_chat(msgs))
             if data and data.get("title") and data.get("body"):
-                return {"title": str(data["title"])[:160], "body": str(data["body"])[:600]}
+                title, body = str(data["title"])[:160], str(data["body"])[:600]
+                if _glitched(title) or _glitched(body):
+                    continue  # garbled AI output -> retry, else honest fallback below
+                return {"title": title, "body": body}
         except Exception:  # noqa: BLE001 - AI failure -> deterministic fallback
             continue
     return None
