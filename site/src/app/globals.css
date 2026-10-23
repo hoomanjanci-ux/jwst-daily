@@ -1,0 +1,218 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #04060f;
+  --color-deep: #080d1d;
+  --color-panel: #0b1226;
+  --color-line: #1b2647;
+  --color-ink: #e9eefc;
+  --color-muted: #94a1c0;
+  --color-star: #6fb7ff;
+  --color-gold: #f2c76e;
+  --color-nebula: #9d7bff;
+  --font-sans: "Vazirmatn", "Segoe UI", Tahoma, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(1200px 700px at 85% -10%, rgba(109, 123, 255, 0.14), transparent 60%),
+    radial-gradient(900px 600px at 10% 0%, rgba(111, 183, 255, 0.10), transparent 55%),
+    var(--color-void);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(111, 183, 255, 0.35);
+}
+
+/* ---------- scrollbar ---------- */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #05080f; }
+::-webkit-scrollbar-thumb { background: #1c2a52; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #2a3d75; }
+
+/* ---------- 3D hero title ---------- */
+.hero-3d-wrap {
+  perspective: 900px;
+}
+.hero-3d {
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform 0.25s ease-out;
+  background: linear-gradient(180deg, #ffffff 8%, #cfe4ff 38%, #7db4f8 62%, #4d7fd6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter:
+    drop-shadow(0 1px 0 #2a4a8f)
+    drop-shadow(0 2px 0 #223c77)
+    drop-shadow(0 3px 0 #1b3064)
+    drop-shadow(0 4px 0 #142351)
+    drop-shadow(0 6px 18px rgba(111, 183, 255, 0.45));
+  animation: heroFloat 7s ease-in-out infinite;
+}
+@keyframes heroFloat {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -8px; }
+}
+
+/* ---------- motion buttons ---------- */
+.btn-cosmic {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.8rem 1.6rem;
+  font-weight: 700;
+  transition: transform 0.2s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  overflow: hidden;
+}
+.btn-cosmic:hover { transform: translateY(-2px) scale(1.02); }
+.btn-cosmic:active { transform: translateY(0) scale(0.98); }
+.btn-primary {
+  background: linear-gradient(135deg, #2f6fdb, #6fb7ff 55%, #9d7bff);
+  color: #04060f;
+  box-shadow: 0 8px 30px rgba(80, 140, 255, 0.35);
+}
+.btn-primary:hover { box-shadow: 0 12px 42px rgba(120, 170, 255, 0.5); }
+.btn-primary::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg, transparent 30%, rgba(255, 255, 255, 0.55) 50%, transparent 70%);
+  translate: -120% 0;
+  animation: shimmer 3.2s ease-in-out infinite;
+}
+@keyframes shimmer {
+  0%, 55% { translate: -120% 0; }
+  85%, 100% { translate: 120% 0; }
+}
+.btn-ghost {
+  border: 1px solid rgba(111, 183, 255, 0.35);
+  background: rgba(11, 18, 38, 0.55);
+  color: var(--color-ink);
+  backdrop-filter: blur(8px);
+}
+.btn-ghost:hover {
+  border-color: rgba(111, 183, 255, 0.8);
+  box-shadow: 0 8px 26px rgba(111, 183, 255, 0.18);
+}
+
+/* ---------- glass cards ---------- */
+.card-cosmic {
+  background: linear-gradient(160deg, rgba(13, 20, 42, 0.85), rgba(8, 12, 26, 0.9));
+  border: 1px solid rgba(27, 38, 71, 0.9);
+  border-radius: 1.1rem;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.card-cosmic:hover {
+  transform: translateY(-4px);
+  border-color: rgba(111, 183, 255, 0.55);
+  box-shadow: 0 14px 40px rgba(3, 6, 18, 0.7), 0 0 0 1px rgba(111, 183, 255, 0.18);
+}
+
+/* ---------- feed tiles (YouTube-like) ---------- */
+.tile-thumb {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 0.8rem 0.8rem 0 0;
+  background:
+    radial-gradient(120% 120% at 20% 15%, rgba(157, 123, 255, 0.30), transparent 55%),
+    radial-gradient(120% 130% at 85% 80%, rgba(111, 183, 255, 0.26), transparent 60%),
+    linear-gradient(160deg, #0c1430, #060a18);
+}
+.tile-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.45s ease;
+}
+.group:hover .tile-thumb img { transform: scale(1.06); }
+.tile-thumb::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 55%, rgba(4, 6, 15, 0.55));
+  pointer-events: none;
+}
+
+/* ---------- section titles ---------- */
+.sec-title {
+  font-weight: 900;
+  letter-spacing: -0.01em;
+}
+.sec-title .bar {
+  display: inline-block;
+  width: 4px;
+  height: 1.1em;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #6fb7ff, #9d7bff);
+  margin-inline-start: 0.6rem;
+  vertical-align: -0.15em;
+}
+
+/* ---------- solar system overlays ---------- */
+.hud-pill {
+  border: 1px solid rgba(111, 183, 255, 0.3);
+  background: rgba(5, 9, 20, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 9999px;
+}
+.hud-btn {
+  border-radius: 9999px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.hud-btn:hover { color: var(--color-ink); }
+.hud-btn[data-active="true"] {
+  background: linear-gradient(135deg, #2f6fdb, #6fb7ff);
+  color: #04060f;
+  box-shadow: 0 4px 18px rgba(80, 140, 255, 0.4);
+}
+
+/* ---------- fade-in on scroll ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- article prose ---------- */
+.article-body {
+  line-height: 2.05;
+  font-size: 1.02rem;
+  color: #d6def3;
+}
+.article-body p { margin-bottom: 1.1rem; text-align: justify; }
+
+/* ---------- misc ---------- */
+.ticker-line {
+  background: linear-gradient(90deg, transparent, rgba(111, 183, 255, 0.5), rgba(157, 123, 255, 0.5), transparent);
+  height: 1px;
+}
+.num-fa {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-3d { animation: none; }
+  .btn-primary::after { animation: none; display: none; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+}

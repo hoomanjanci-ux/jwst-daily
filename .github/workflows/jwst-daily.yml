@@ -9,7 +9,14 @@ name: jwst-daily
 
 on:
   schedule:
-    - cron: "37 * * * *"   # hourly, off-peak minute (UTC)
+    # 4 slots/hour (2026-10-23): GitHub's free scheduler drops/defers hourly
+    # crons (observed: 4-of-21 runs executed on 10-23). More slots = more
+    # pickup chances. Safe: state ledger dedupes everything; public repo =>
+    # unlimited free minutes.
+    - cron: "7 * * * *"
+    - cron: "22 * * * *"
+    - cron: "37 * * * *"
+    - cron: "52 * * * *"
   workflow_dispatch:        # manual trigger (tests, recovery)
 
 permissions:
