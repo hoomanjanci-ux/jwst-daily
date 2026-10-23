@@ -1,0 +1,49 @@
+name: telegram-intros
+
+# Owner-ordered ONE-SHOT (chat approval 2026-10-23 + owner TXT file):
+#   1) wipe ALL existing messages in the 4 public channels (incl. bot hellos);
+#   2) post the OWNER'S OWN channel introductions verbatim, one per channel.
+# workflow_dispatch ONLY - never scheduled. Double confirmation rails.
+# Does NOT touch titles/avatars/descriptions; does NOT enable the hourly
+# pipeline (PROD unlock + enable happen separately after this succeeds).
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type YES to wipe history + post owner intros in all 4 channels'
+        required: true
+        default: 'NO'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: telegram-intros
+  cancel-in-progress: false
+
+jobs:
+  post-intros:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Wipe + post owner intros (owner-ordered)
+        working-directory: pipeline
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CH_FA_OFF: ${{ secrets.TG_CH_FA_OFF }}
+          TG_CH_FA_AI:  ${{ secrets.TG_CH_FA_AI }}
+          TG_CH_EN_OFF: ${{ secrets.TG_CH_EN_OFF }}
+          TG_CH_EN_AI:  ${{ secrets.TG_CH_EN_AI }}
+          OWNER_CONFIRM: OWNER_ORDERED_2026-10-23
+          INPUT_CONFIRM: ${{ github.event.inputs.confirm }}
+        run: python post_intros.py
