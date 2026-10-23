@@ -22,6 +22,7 @@ Owner directives implemented here:
 """
 from __future__ import annotations
 
+import hashlib
 import html
 import json
 import os
@@ -29,6 +30,7 @@ import re
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+from difflib import SequenceMatcher
 from email.utils import parsedate_to_datetime
 
 import requests
@@ -61,6 +63,27 @@ TOPIC_KEYWORDS = ["jwst", "webb", "james webb", "space", "telescope", "galaxy",
 
 MAX_AGE_DAYS = 10          # fresh-news window; older unseen items -> archive label
 SEEN_CAP = 800             # dedupe memory bound (keep newest 500 when exceeded)
+
+# ---- L5 anti-duplicate (owner directive 2026-10-24, TOP priority) -------------
+# The same story reaches us through DIFFERENT official feeds with different URLs
+# (e.g. one release on nasa.gov/news-release AND on the blogs feed), and SEEN_CAP
+# eviction could theoretically re-surface a years-old URL. Two extra permanent
+# layers close both holes:
+#   news_title_fp      exact title fingerprint, kept ~2+ years (cap 6000 entries,
+#                      ~60 B each -> a few hundred KB in state.json - bounded)
+#   news_title_recent  recent normalized titles for FUZZY matching (cap 300):
+#                      near-identical title from another feed = same story -> skipped
+TITLE_FP_CAP = 6000
+RECENT_TITLES_CAP = 300
+FUZZY_TITLE_RATIO = 0.80
+
+
+def _norm_title(t: str) -> str:
+    return re.sub(r"[^a-z0-9\u0600-\u06ff]+", " ", (t or "").lower()).strip()
+
+
+def _title_fp(t: str) -> str:
+    return hashlib.sha1(_norm_title(t).encode("utf-8")).hexdigest()[:16]
 
 
 def _strip_html(raw: str) -> str:
@@ -230,12 +253,40 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
     _log(f"feeds done: pool={len(pool)} items, feed_errors={len(out['feed_errors'])}")
 
     seen = state.setdefault("news_seen", {})
+    tfp = state.setdefault("news_title_fp", {})        # L5 exact-title layer
+    recent = state.setdefault("news_title_recent", [])  # L5 fuzzy-title layer
 
     def eligible(it: dict, lang: str) -> bool:
         return not (seen.get(it["id"]) or {}).get(lang)
 
-    candidates = [it for it in pool if on_topic(it)
-                  and any(eligible(it, l) for l in ("fa", "en"))]
+    def _exact_langs(it: dict) -> set:
+        return set((tfp.get(_title_fp(it.get("title") or "")) or {}).keys())
+
+    def _near_dup(it: dict) -> bool:
+        fp_self = _title_fp(it.get("title") or "")
+        nt = _norm_title(it.get("title") or "")
+        if not nt:
+            return False
+        for f, t80 in recent[-RECENT_TITLES_CAP:]:
+            if f == fp_self:
+                # own story identity (e.g. fa retry after only en went out) -
+                # the same story re-surfacing is handled by the exact layer
+                continue
+            if t80 and SequenceMatcher(None, nt, t80).ratio() >= FUZZY_TITLE_RATIO:
+                return True
+        return False
+
+    candidates = []
+    for it in pool:
+        if not on_topic(it):
+            continue
+        if not any(eligible(it, l) and l not in _exact_langs(it)
+                   for l in ("fa", "en")):
+            continue
+        if _near_dup(it):  # same story via another official feed/URL
+            _log(f"NEAR-DUPLICATE title skipped: {(it.get('title') or '')[:60]}")
+            continue
+        candidates.append(it)
     candidates.sort(key=lambda x: x["dt"], reverse=True)
     now = datetime.now(timezone.utc)
     fresh = [it for it in candidates
@@ -251,9 +302,12 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
     for it in chosen:
         _log(f"item: {(it.get('title') or '')[:60]}")
         archive = it not in fresh
+        fp = _title_fp(it.get("title") or "")  # L5 story identity
+        if not any(f == fp for f, _t in recent[-RECENT_TITLES_CAP:]):
+            recent.append([fp, _norm_title(it.get("title") or "")[:80]])
         fa_rw: dict | None = None  # computed once, reused by post + site archive
         for lang in ("fa", "en"):
-            if not eligible(it, lang):
+            if not eligible(it, lang) or lang in _exact_langs(it):
                 continue
             try:
                 if lang == "fa" and fa_rw is None:
@@ -265,6 +319,7 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
                     telegram_publish.send_message(token, chat, text)
                     _log(f"SENT {lang} -> {key} | {(it.get('title') or '')[:50]}")
                     seen.setdefault(it["id"], {})[lang] = now.isoformat()
+                    tfp.setdefault(fp, {})[lang] = now.isoformat()[:10]  # L5 mark
                     out[lang].append(it["link"])
                     # site archive (additive; website feed reads this; posting ignores it)
                     if lang == "fa":
@@ -297,4 +352,11 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
                         key=lambda kv: max((kv[1] or {}).values() or ["0"]),
                         reverse=True)[:500]
         state["news_seen"] = dict(newest)
+    if len(tfp) > TITLE_FP_CAP:  # L5: ~2+ years of titles; keep the newest
+        newest = sorted(tfp.items(),
+                        key=lambda kv: max((kv[1] or {}).values() or ["0"]),
+                        reverse=True)[:TITLE_FP_CAP - 1000]
+        state["news_title_fp"] = dict(newest)
+    if len(recent) > RECENT_TITLES_CAP:
+        state["news_title_recent"] = recent[-RECENT_TITLES_CAP:]
     return out

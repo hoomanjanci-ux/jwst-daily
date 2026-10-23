@@ -19,6 +19,7 @@ import hashlib
 import json
 import os
 import random
+import re
 import shutil
 import sys
 import tempfile
@@ -47,6 +48,48 @@ ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state.json"
 ANALYSES = ROOT.parent / "analyses"  # repo-root /analyses (text-only, committed)
 UA = {"User-Agent": "jwst-free-pipeline/0.2 (public MAST data; low-volume daily batch)"}
+
+# ---------------------------------------------------------------- anti-duplicate
+# Owner directive 2026-10-24 (top priority): a post must NEVER repeat - not after a
+# crash, not for a renamed/reprocessed MAST file, not for the same target posted
+# back-to-back, not even years from now. Layers implemented here:
+#   L1 product ledger (permanent, never evicted - only trimmed) -> same pid never twice
+#   L2 sha256 ledger (permanent)       -> same bytes under a new filename never twice
+#   L3 combo cooldown (COMBO_MIN_DAYS) -> same TARGNAME|INSTRUME|FILTER not spammed
+#   L4 two-phase publish intent        -> a crash can never cause a re-send
+#   L5 news title fingerprints (news_rss.py) -> same story via another feed never twice
+COMBO_MIN_DAYS = int(os.environ.get("COMBO_MIN_DAYS", "14"))
+
+
+def _trim_rec(rec):
+    """Keep only the dedupe/audit fields of a finished record. The product ledger is
+    permanent (owner rule: no repeats even 2+ years later), so every entry must stay
+    tiny (~0.3 KB): cand URLs and quality reports are single-run data and are freed
+    here. 2 years at ~10 analyzed/day => ~2 MB state.json - far below any limit."""
+    for k in ("cand", "quality_log", "last_error", "publish_intent"):
+        rec.pop(k, None)
+
+
+def _combo_of(rec):
+    return "|".join([str(rec.get("meta_TARGNAME") or ""),
+                     str(rec.get("meta_INSTRUME") or ""),
+                     str(rec.get("meta_FILTER") or "")])
+
+
+def _combo_blocked(state, rec, now=None):
+    """True while another product of the same target/instrument/filter combo was
+    published within COMBO_MIN_DAYS (channel must not look repetitive)."""
+    combo = rec.get("combo") or _combo_of(rec)
+    if not combo.strip("|"):
+        return False
+    ts = (state.get("combo_seen") or {}).get(combo)
+    if not ts:
+        return False
+    try:
+        now = now or datetime.now(timezone.utc)
+        return (now - datetime.fromisoformat(ts)) < timedelta(days=COMBO_MIN_DAYS)
+    except Exception:
+        return False
 
 
 def _iso_now():
@@ -218,7 +261,36 @@ def process_batch(state, max_bytes, max_products, tmp, wall_seconds=2100):
                 break
             continue
 
+        # L2 anti-duplicate: MAST reprocesses files under NEW filenames - identical
+        # bytes must never be analyzed/posted twice (owner rule 2026-10-24).
+        sha = sha256_file(dest)
+        dup = next((p for p, r in state["products"].items()
+                    if p != pid and r.get("sha256") == sha), None)
+        if dup:
+            rec.update({"status": "duplicate_sha", "sha256": sha, "duplicate_of": dup})
+            log(f"BATCH: DUPLICATE bytes {pid} == {dup} - skipped (never-repeat rule)")
+            dest.unlink(missing_ok=True)
+            raw_png.unlink(missing_ok=True)
+            if budget <= 0:
+                break
+            continue
+
         target = str(meta.get("TARGNAME") or "")
+        combo = "|".join([target, str(meta.get("INSTRUME") or ""),
+                          str(meta.get("FILTER") or "")])
+        # L3 anti-duplicate: same TARGNAME|INSTRUME|FILTER combo within the cooldown
+        # window is skipped BEFORE analysis (saves AI cost + keeps the feed varied).
+        if _combo_blocked(state, {"meta_TARGNAME": target,
+                                  "meta_INSTRUME": str(meta.get("INSTRUME") or ""),
+                                  "meta_FILTER": str(meta.get("FILTER") or "")}):
+            rec.update({"status": "combo_cooldown", "combo": combo, "sha256": sha})
+            log(f"BATCH: combo cooldown hit for {target} - skipped "
+                f"(published within last {COMBO_MIN_DAYS}d)")
+            dest.unlink(missing_ok=True)
+            raw_png.unlink(missing_ok=True)
+            if budget <= 0:
+                break
+            continue
         prior = [p for p, r in state["products"].items()
                  if r.get("meta_TARGNAME", "") == target and p != pid][:5]  # memory seeds
         day = _iso_now()[:10].replace("-", "/")
@@ -244,6 +316,8 @@ def process_batch(state, max_bytes, max_products, tmp, wall_seconds=2100):
                      "url_mast": cand["url_mast"], "url_s3": cand["url_s3"],
                      "url_preview": cand["url_preview"]},
             "meta_TARGNAME": target, "meta_FILTER": str(meta.get("FILTER") or ""),
+            "meta_INSTRUME": str(meta.get("INSTRUME") or ""),
+            "combo": combo, "sha256": sha,
             "bytes": n, "published_utc": None,
         })
         dest.unlink(missing_ok=True)   # raw FITS freed immediately (mission rule)
@@ -261,6 +335,34 @@ def publish_one(pid, state, token, targets, tmp):
     rec = state["products"][pid]
     cand = rec.get("cand") or {}
     dest = tmp / pid
+
+    # ---- L4 anti-duplicate: two-phase publish (crash guard) --------------------
+    # Owner rule 2026-10-24: duplicates are ABSOLUTELY forbidden. Observed risk:
+    # a run that dies BETWEEN a Telegram send and the state commit would re-send
+    # on the next run (this actually happened 2026-10-23 15:19 UTC - album went
+    # out, run cancelled, ledger never recorded it). Fix: the publish intent is
+    # written to state BEFORE the first send and every per-target result is
+    # committed immediately after its send. On retry, any intended target whose
+    # outcome is AMBIGUOUS (no record, or a send-phase error) is skipped FOREVER:
+    # under-posting is recoverable, a duplicate is not.
+    intent = rec.get("publish_intent") or {}
+    intended = set(intent.get("targets") or [])
+    prior = rec.get("channels") or {}
+
+    def _ambiguous(k):
+        v = prior.get(k)
+        if v == "sent":
+            return False          # verified delivered -> never send again
+        if v is None:
+            return True           # intent existed, no record -> may be live
+        s = str(v)
+        return s.startswith("error") or "unverified" in s  # send-phase ambiguity
+
+    guarded_keys = {k for k in intended if _ambiguous(k)}
+    verified_sent = {k for k, v in prior.items() if v == "sent"}
+    if guarded_keys:
+        log(f"PUBLISH {pid}: crash-guard active for {sorted(guarded_keys)} "
+            f"(prior attempt unverified - these will NEVER be resent)")
     try:
         try:
             robust_download(cand["url_s3"], dest)
@@ -268,6 +370,13 @@ def publish_one(pid, state, token, targets, tmp):
             robust_download(cand["url_mast"], dest)
     except Exception as e:  # noqa: BLE001
         rec["last_error"] = f"re-download: {type(e).__name__}: {e}"
+        rec["redl_fails"] = int(rec.get("redl_fails") or 0) + 1
+        if rec["redl_fails"] >= 3:
+            # MAST URLs expire; after 3 failed attempts stop retrying so the
+            # publish queue cannot be blocked forever by one dead product.
+            rec["status"] = "stale_unrecoverable"
+            log(f"PUBLISH {pid}: re-download failed {rec['redl_fails']}x -> "
+                f"parked as stale_unrecoverable (queue unblocked)")
         return False
 
     try:
@@ -314,13 +423,32 @@ def publish_one(pid, state, token, targets, tmp):
 
         results = {}
         sent_contents: dict[tuple[str, str], tuple[str, str, str]] = {}
+
+        def _mark(key: str, val: str):
+            """Record one target outcome AND commit it immediately (phase-2 of the
+            crash guard: a crash after a real send leaves a durable 'sent' mark,
+            so the next run can never duplicate it)."""
+            results[key] = val
+            rec["channels"] = {**rec.get("channels", {}), key: val}
+            save_state(state)
+
         # Quality report is memoized per (kind, lang): identical inputs otherwise
         # cost up to (90s x2 attempts + 240s vision) x 5 targets per product,
         # which alone could eat the whole job budget (fix 2026-10-23).
         qcache: dict[tuple[str, str], dict] = {}
+        # Phase-1: publish intent recorded BEFORE any send (see L4 comment above).
+        rec["publish_intent"] = {"utc": _iso_now(),
+                                 "targets": [k for k, _c, _l in targets]}
+        save_state(state)
         for key, chat_id, lang in targets:
             kind = ("news" if key.endswith("official")
                     else "ai" if key.endswith("ai") else "test")
+            if prior.get(key) == "sent":  # defense-in-depth: already verified
+                _mark(key, "skipped (already verified sent)")
+                continue
+            if key in guarded_keys:  # ambiguous prior attempt -> never resend
+                _mark(key, "crash-guard (unverified prior attempt - never resent)")
+                continue
             cap, txt, _gen = _content(kind, lang)
             try:
                 ck = (kind, lang)
@@ -331,25 +459,32 @@ def publish_one(pid, state, token, targets, tmp):
                 q = qcache[ck]
                 q["post_generator"] = _gen  # 'ai' | 'template' - style audit trail
                 if not quality.passes_gate(q):
-                    results[key] = "held (quality gate)"
+                    _mark(key, "held (quality gate)")
                     rec.setdefault("quality_log", {})[key] = q
                     continue
                 log(f"PUBLISH {pid}: sending album+text to {key} ({chat_id})")
                 telegram_publish.send_album(token, chat_id, imgs, cap)
                 telegram_publish.send_message(token, chat_id, txt)
-                results[key] = "sent"
+                _mark(key, "sent")
                 log(f"PUBLISH {pid}: SENT -> {key}")
                 sent_contents[(kind, lang)] = (cap, txt, _gen)
                 rec.setdefault("quality_log", {})[key] = q
+                save_state(state)
             except Exception as e:  # noqa: BLE001 - per-target isolation
-                results[key] = f"error: {type(e).__name__}: {e}"
+                _mark(key, f"error: {type(e).__name__}: {e}")
                 tb = traceback.format_exc().splitlines()[-4:]
                 rec.setdefault("quality_log", {})[key] = {"error_trace": " | ".join(tb)}
                 print(f"PUBLISH-ERROR {pid} {key}: {traceback.format_exc()}", flush=True)
         rec["channels"] = {**rec.get("channels", {}), **results}
-        if any(v == "sent" for v in results.values()):
-            rec["status"] = "published_test" if any(k.startswith("test") for k, v in results.items() if v == "sent") else "published"
-            rec["published_utc"] = _iso_now()
+        any_sent_now = any(v == "sent" for v in results.values())
+        if any_sent_now or verified_sent:  # verified_sent: prior-run sends count too
+            rec.pop("publish_intent", None)
+            effective_sent = ({k for k, v in results.items() if v == "sent"}
+                              or verified_sent)
+            rec["status"] = ("published_test"
+                             if all(k.startswith("test") for k in effective_sent)
+                             else "published")
+            rec["published_utc"] = rec.get("published_utc") or _iso_now()
             # SITE-ARCHIVE (owner-approved 2026-10-23, future posts only): persist the
             # rendered Telegram content + preview image next to the analysis JSON so the
             # website (site/) can show the full post. Additive-only; must NEVER break
@@ -376,7 +511,25 @@ def publish_one(pid, state, token, targets, tmp):
                     rec["d1_sync"] = "ok" if ok_cf else f"failed: {str(det_cf)[:80]}"
                 except Exception as e:  # noqa: BLE001 - D1 mirror must never break publish
                     rec["d1_sync"] = f"error: {type(e).__name__}"
+            # L3 anti-duplicate: register the combo AFTER a real publish, then trim
+            # the record to its permanent dedupe/audit core (ledger stays tiny).
+            state.setdefault("combo_seen", {})[_combo_of(rec)] = _iso_now()
+            _trim_rec(rec)
+            save_state(state)
             return True
+        # Nothing was sent now and nothing was verified before: if every target is
+        # ambiguous (crash-guard), park the product permanently - owner rule:
+        # resending MIGHT duplicate, and duplicates are absolutely forbidden.
+        actionable = [k for k, v in results.items()
+                      if not str(v).startswith(("crash-guard", "skipped"))]
+        if (not actionable and not verified_sent
+                and any(str(v).startswith("crash-guard") for v in results.values())):
+            rec.pop("publish_intent", None)
+            rec["status"] = "publish_unverified"
+            rec["unverified_utc"] = _iso_now()
+            save_state(state)
+            log(f"PUBLISH {pid}: ALL targets unverified -> parked as publish_unverified "
+                f"(never auto-resent; manual review required)")
         return False
     except Exception as e:  # noqa: BLE001
         rec["last_error"] = f"publish: {type(e).__name__}: {e}"
@@ -413,10 +566,19 @@ def run(max_bytes=1_100_000_000, max_products=6, publish_count=2, batch_gap_hour
             else:
                 summary["batch_retry_next_run"] = True
 
-        pending = sorted(((pid, rec.get("score") or 0)
-                          for pid, rec in state["products"].items()
-                          if rec.get("status") == "analyzed"),
+        all_pending = [(pid, rec.get("score") or 0)
+                       for pid, rec in state["products"].items()
+                       if rec.get("status") == "analyzed"]
+        # L3 anti-duplicate: products whose target/instrument/filter combo was
+        # published within COMBO_MIN_DAYS wait here (never deleted - data kept).
+        blocked = [(pid, s) for pid, s in all_pending
+                   if _combo_blocked(state, state["products"][(pid)])]
+        pending = sorted((p for p in all_pending if p not in blocked),
                          key=lambda x: -x[1])
+        if blocked:
+            summary["combo_cooldown_blocked"] = [p for p, _s in blocked]
+            log(f"PUBLISH: {len(blocked)} product(s) held by combo cooldown: "
+                f"{[p for p, _s in blocked]}")
         summary["pending_before"] = len(pending)
         log(f"PUBLISH: {len(pending)} analyzed products pending, "
             f"publishing top {min(publish_count, len(pending))} -> "
