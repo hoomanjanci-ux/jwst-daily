@@ -78,7 +78,21 @@ def main():
         print("TG_SETUP: TG_BOT_TOKEN missing - abort (no-op)")
         return
     code, me = call(token, "getMe")
-    print("TG_SETUP bot:", me.get("result", {}).get("username") if code == 200 else me)
+    bot = me.get("result", {}) if code == 200 else {}
+    print("TG_SETUP bot:", bot.get("username"), "| display name:", bot.get("first_name"))
+
+    # ---- bot display profile (Bot API CAN set these; photo needs BotFather /setuserpic) ----
+    bot_steps = {}
+    c, _ = call(token, "setMyName", name="COSMIC BOT")
+    bot_steps["name"] = f"{c} {'ok' if c == 200 else 'fail'}"
+    c, _ = call(token, "setMyDescription", description=(
+        "دستیار انتشار و مدیریت محتوای شبکهٔ کانال‌های فضایی COSMIC؛ خبر معتبر، "
+        "تحلیل شفاف و ارجاع دقیق به منابع."))
+    bot_steps["description"] = f"{c} {'ok' if c == 200 else 'fail'}"
+    c, _ = call(token, "setMyShortDescription", short_description=(
+        "COSMIC space network bot - verified news, transparent AI analysis."))
+    bot_steps["short_description"] = f"{c} {'ok' if c == 200 else 'fail'}"
+    print("BOT PROFILE STEPS:", bot_steps)
 
     report = []
     for ch in CHANNELS:
@@ -97,13 +111,20 @@ def main():
         # 2) description
         c, d = call(token, "setChatDescription", chat_id=cid, description=ch["desc"])
         steps["description"] = f"{c} {'ok' if d.get('ok') else d.get('description', d)}"
-        # 3) avatar
-        photo = ROOT / ch["photo"]
-        if not photo.exists():
-            steps["photo"] = f"MISSING FILE {photo}"
+        # 3) avatar (idempotent: skip when already set from a previous run)
+        if before.get("has_photo"):
+            steps["photo"] = "already set (skip)"
+            continue_photo = True
         else:
-            c, d = call(token, "setChatPhoto", chat_id=cid, photo_path=str(photo))
-            steps["photo"] = f"{c} {'ok' if d.get('ok') else d.get('description', d)}"
+            photo = ROOT / ch["photo"]
+            if not photo.exists():
+                steps["photo"] = f"MISSING FILE {photo}"
+                continue_photo = True
+            else:
+                c, d = call(token, "setChatPhoto", chat_id=cid, photo_path=str(photo))
+                steps["photo"] = f"{c} {'ok' if d.get('ok') else d.get('description', d)}"
+                continue_photo = False
+        del continue_photo  # noqa: F841 - reserved for future conditional logic
         print("STEPS:", steps)
 
         after = chat_snapshot(token, cid)
