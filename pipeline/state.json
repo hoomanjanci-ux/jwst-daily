@@ -1310,9 +1310,33 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T10:21:28.797803+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T16:05:51.699284+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": true,
+   "batch_processed": 0,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/image-article/spirals-edge/",
+     "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/"
+    ],
+    "en": [
+     "https://www.nasa.gov/image-article/spirals-edge/",
+     "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/"
+    ],
+    "mode": "fresh (15 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T16:46:05.108183+00:00"
   }
  ],
- "last_batch_utc": "2026-10-22T17:11:48.252054+00:00",
+ "last_batch_utc": "2026-10-23T16:05:55.646316+00:00",
  "news_seen": {
   "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/": {
    "fa": "2026-10-23T10:20:28.932062+00:00",
@@ -1321,6 +1345,34 @@
   "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/": {
    "fa": "2026-10-23T10:20:28.932062+00:00",
    "en": "2026-10-23T10:20:28.932062+00:00"
+  },
+  "https://www.nasa.gov/image-article/spirals-edge/": {
+   "fa": "2026-10-23T16:05:56.023982+00:00",
+   "en": "2026-10-23T16:05:56.023982+00:00"
+  },
+  "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/": {
+   "fa": "2026-10-23T16:05:56.023982+00:00",
+   "en": "2026-10-23T16:05:56.023982+00:00"
+  }
+ },
+ "news_archive": {
+  "https://www.nasa.gov/image-article/spirals-edge/": {
+   "title": "Spiral’s Edge",
+   "summary": "This NASA Hubble Space Telescope image released on Oct. 16, 2026, features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove. Hubble captured the image as part of a survey looking at 260 satellite galaxies around 22 Milky Way-like host galaxies within a radius of",
+   "link": "https://www.nasa.gov/image-article/spirals-edge/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-22T21:35:38+00:00",
+   "ts": "2026-10-23T16:05:56.023982+00:00"
+  },
+  "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/": {
+   "title": "NASA’s Roman Space Telescope Enters Final Commissioning Phase",
+   "summary": "NASA’s Nancy Grace Roman Space Telescope mission has now entered the science commissioning phase, having successfully completed a comprehensive checkout and refinement of the observatory and primary instrument performance. “We’ve established that the observatory is fully functional,” said Julie McEnery, Roman’s senior project scientist at NASA’s Goddard Space Flight Center in Greenbelt, Maryland. “The telescope",
+   "link": "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-22T19:43:51+00:00",
+   "ts": "2026-10-23T16:05:56.023982+00:00"
   }
  }
 }
