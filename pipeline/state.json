@@ -1287,7 +1287,40 @@
    "published": [],
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T09:51:27.504900+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T10:20:28.613626+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/",
+     "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/",
+     "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/"
+    ],
+    "mode": "fresh (17 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T10:21:28.797803+00:00"
   }
  ],
- "last_batch_utc": "2026-10-22T17:11:48.252054+00:00"
+ "last_batch_utc": "2026-10-22T17:11:48.252054+00:00",
+ "news_seen": {
+  "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/": {
+   "fa": "2026-10-23T10:20:28.932062+00:00",
+   "en": "2026-10-23T10:20:28.932062+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/": {
+   "fa": "2026-10-23T10:20:28.932062+00:00",
+   "en": "2026-10-23T10:20:28.932062+00:00"
+  }
+ }
 }
