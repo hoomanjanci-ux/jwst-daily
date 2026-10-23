@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 import time
 
 from clear_and_hello import CHANNELS, call, wipe_history
@@ -57,10 +58,10 @@ def main():
     confirm_env = (os.environ.get("OWNER_CONFIRM") or "").strip()
     if not token:
         print("ABORT: TG_BOT_TOKEN missing")
-        return
+        sys.exit(1)
     if confirm_in != "YES" or confirm_env != OWNER_STAMP:
         print(f"ABORT: confirmation rails not satisfied (input={confirm_in!r})")
-        return
+        sys.exit(1)
 
     _, me = call(token, "getMe")
     print(f"BOT: @{(me.get('result') or {}).get('username')}")
