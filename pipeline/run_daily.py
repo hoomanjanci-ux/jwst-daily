@@ -248,6 +248,7 @@ def publish_one(pid, state, token, targets, tmp):
             return contents[ck]
 
         results = {}
+        sent_contents: dict[tuple[str, str], tuple[str, str, str]] = {}
         for key, chat_id, lang in targets:
             kind = ("news" if key.endswith("official")
                     else "ai" if key.endswith("ai") else "test")
@@ -263,6 +264,7 @@ def publish_one(pid, state, token, targets, tmp):
                 telegram_publish.send_album(token, chat_id, imgs, cap)
                 telegram_publish.send_message(token, chat_id, txt)
                 results[key] = "sent"
+                sent_contents[(kind, lang)] = (cap, txt, _gen)
                 rec.setdefault("quality_log", {})[key] = q
             except Exception as e:  # noqa: BLE001 - per-target isolation
                 results[key] = f"error: {type(e).__name__}: {e}"
@@ -273,6 +275,21 @@ def publish_one(pid, state, token, targets, tmp):
         if any(v == "sent" for v in results.values()):
             rec["status"] = "published_test" if any(k.startswith("test") for k, v in results.items() if v == "sent") else "published"
             rec["published_utc"] = _iso_now()
+            # SITE-ARCHIVE (owner-approved 2026-10-23, future posts only): persist the
+            # rendered Telegram content + preview image next to the analysis JSON so the
+            # website (site/) can show the full post. Additive-only; must NEVER break
+            # publishing -> fully wrapped in try/except.
+            try:
+                arch_dir = analysis_path.parent
+                doc = {"product": pid, "published_utc": rec["published_utc"], "items": {}}
+                for (k_, l_), (c_, t_, g_) in sent_contents.items():
+                    doc["items"][f"{k_}_{l_}"] = {"caption": c_, "text": t_, "generator": g_}
+                (arch_dir / (Path(pid).stem + ".post.json")).write_text(
+                    json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+                if ok_prev and prev.exists():
+                    (arch_dir / (Path(pid).stem + ".jpg")).write_bytes(prev.read_bytes())
+            except Exception:
+                pass
             if cloudflare.configured():  # D1 mirror (non-blocking, owner phase-2)
                 try:
                     qlog = rec.get("quality_log") or {}
