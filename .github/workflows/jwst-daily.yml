@@ -29,7 +29,7 @@ concurrency:
 jobs:
   pipeline:
     runs-on: ubuntu-latest   # public repo: 4 vCPU / 16 GB RAM / 14 GB SSD (official)
-    timeout-minutes: 120
+    timeout-minutes: 200     # 2026-10-23: batch hit 120-min cap when MAST was slow (run 39966020689 cancelled)
     steps:
       - uses: actions/checkout@v4
 
@@ -43,6 +43,7 @@ jobs:
 
       - name: Run pipeline (batch if due -> publish top-2 hourly)
         env:
+          PYTHONUNBUFFERED: "1"   # live logs: 2026-10-23 batch died silent (stdout block-buffered)
           TG_BOT_TOKEN:    ${{ secrets.TG_BOT_TOKEN }}
           TG_TEST_CHANNEL: ${{ secrets.TG_TEST_CHANNEL }}
           TG_CH_FA_AI:  ${{ secrets.TG_CH_FA_AI }}
@@ -58,10 +59,11 @@ jobs:
           CF_ACCOUNT_ID:     ${{ secrets.CF_ACCOUNT_ID }}    # Cloudflare D1 - owner provisioning
           CF_API_TOKEN:      ${{ secrets.CF_API_TOKEN }}
           CF_D1_DATABASE_ID: ${{ secrets.CF_D1_DATABASE_ID }}
-          MAX_BYTES: "1100000000"          # ~1 GB/day base scenario
+          MAX_BYTES: "450000000"           # 2026-10-23: 1.1GB blew the old 120-min cap on a slow MAST day; 450MB fits comfortably
+          MAX_PRODUCTS: "3"                # bounded batch: 3 products per ~20h cycle
           PUBLISH_COUNT: "2"               # mission spec: 2 selected items per hour
           BATCH_GAP_HOURS: "20"
-        run: python pipeline/run_daily.py --max-bytes $MAX_BYTES
+        run: python pipeline/run_daily.py --max-bytes $MAX_BYTES --max-products $MAX_PRODUCTS
 
       - name: Commit state + analyses (ledger + keepalive)
         run: |
