@@ -1554,6 +1554,29 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T17:50:45.894848+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T18:13:32.303543+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
+     "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/"
+    ],
+    "en": [
+     "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
+     "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/"
+    ],
+    "mode": "fresh (12 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T18:15:10.988258+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1581,6 +1604,14 @@
   "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/": {
    "fa": "2026-10-23T17:48:31.941956+00:00",
    "en": "2026-10-23T17:48:31.941956+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/": {
+   "fa": "2026-10-23T18:13:32.896110+00:00",
+   "en": "2026-10-23T18:13:32.896110+00:00"
+  },
+  "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/": {
+   "fa": "2026-10-23T18:13:32.896110+00:00",
+   "en": "2026-10-23T18:13:32.896110+00:00"
   }
  },
  "news_archive": {
@@ -1619,6 +1650,24 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-22T17:37:14+00:00",
    "ts": "2026-10-23T17:48:31.941956+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/": {
+   "title": "راه‌اندازی پیمان همکاری ناسا و ویرجینیا برای امنیت انرژی",
+   "summary": "ناسا با هدف تقویت امنیت انرژی بلندمدت ویرجینیا پا به این مسیر گذاشته است. مرکز تحقیقات لانگلی ناسا در همپتون، ویرجینیا، با وزارت انرژی این ایالت مشارکت کرده تا با ارائه داده‌های خورشیدی، هواشناسی و ریسک‌های آب‌وهوایی آتی، به مدل‌سازی و برنامه‌ریزی سیستم‌های انرژی کمک کند. این همکاری از تصمیم‌گیری آگاهانه در زمینه تولید، توزیع و بهره‌برداری مؤثر انرژی پشتیبانی می‌کند.",
+   "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-23T17:50:21+00:00",
+   "ts": "2026-10-23T18:13:32.896110+00:00"
+  },
+  "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/": {
+   "title": "تلسکوپ هابل، مسیر تلسکوپ رومن را با عدسی‌های گرانشی نقشه‌برداری کرد",
+   "summary": "تلسکوپ فضایی هابل یکی از تصاویر متعددی را ثبت کرده است که در آن پدیدهٔ عدسی گرانشی مشاهده می‌شود. این مشاهدات در راستای آمادگی برای پژوهش‌های تلسکوپ فضایی جدید نانسی گریس رومن انجام شده‌اند.",
+   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-22T16:20:37+00:00",
+   "ts": "2026-10-23T18:13:32.896110+00:00"
   }
  }
 }
