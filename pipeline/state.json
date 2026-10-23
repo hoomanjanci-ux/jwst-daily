@@ -1715,6 +1715,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T21:59:12.793715+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T22:22:41.116490+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T22:23:32.635561+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1794,6 +1815,10 @@
   "https://esawebb.org/news/weic2621/": {
    "fa": "2026-10-23T21:58:10.567696+00:00",
    "en": "2026-10-23T21:58:10.567696+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/": {
+   "fa": "2026-10-23T22:22:41.370637+00:00",
+   "en": "2026-10-23T22:22:41.370637+00:00"
   }
  },
  "news_archive": {
@@ -1949,6 +1974,15 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-10-08T18:00:00+00:00",
    "ts": "2026-10-23T21:58:10.567696+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/": {
+   "title": "پیش‌درآمدهای خروج فضایی و پژوهش‌های پیشرفته زیستی-پزشکی آغاز شد",
+   "summary": "دو فضانورد در ایستگاه فضایی بین‌المللی آماده نصب آرایه خورشیدی قابل باز شدن در اواخر اکتبر هستند. نمونه‌گیری زیستی قابل حمل در شرایط میکروگرavity و چاپ سه‌بعدی سلول، ازجمله پژوهش‌های برجسته برنامه علمی مأموریت اکسپدیشن ۷۵ بوده است.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-19T16:22:09+00:00",
+   "ts": "2026-10-23T22:22:41.370637+00:00"
   }
  },
  "news_title_fp": {
@@ -1969,6 +2003,10 @@
    "en": "2026-10-23"
   },
   "b0aae0f2c99dd5f7": {
+   "fa": "2026-10-23",
+   "en": "2026-10-23"
+  },
+  "17cc2984963b2a6e": {
    "fa": "2026-10-23",
    "en": "2026-10-23"
   }
@@ -1993,6 +2031,10 @@
   [
    "b0aae0f2c99dd5f7",
    "science release webb measures distance to farthest fast radio burst suggesting o"
+  ],
+  [
+   "17cc2984963b2a6e",
+   "spacewalk preps and advanced biomedical research begin week"
   ]
  ]
 }
