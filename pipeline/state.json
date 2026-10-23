@@ -1600,6 +1600,29 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T18:31:20.829776+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T18:45:58.975599+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
+     "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/"
+    ],
+    "en": [
+     "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
+     "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/"
+    ],
+    "mode": "fresh (7 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T18:48:11.540828+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1643,6 +1666,14 @@
   "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/": {
    "fa": "2026-10-23T18:30:14.111719+00:00",
    "en": "2026-10-23T18:30:14.111719+00:00"
+  },
+  "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/": {
+   "fa": "2026-10-23T18:45:59.993456+00:00",
+   "en": "2026-10-23T18:45:59.993456+00:00"
+  },
+  "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/": {
+   "fa": "2026-10-23T18:45:59.993456+00:00",
+   "en": "2026-10-23T18:45:59.993456+00:00"
   }
  },
  "news_archive": {
@@ -1717,6 +1748,24 @@
    "source_fa": "ناسا",
    "date": "2026-10-22T04:05:00+00:00",
    "ts": "2026-10-23T18:30:14.111719+00:00"
+  },
+  "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/": {
+   "title": "آتش‌سوزی‌های نیوگینه؛ غباری بر فراز جزیره",
+   "summary": "آتش‌سوزی‌های عمدی در هر دو سوی جزیره نیوگینه در حال گسترش است. این آتش‌ها به‌خاطر خشک‌سالی شدید در منطقه با شدت بیشتری شعله‌ور شده‌اند. سطح آلاینده‌های هوا در اطراف جزیره به‌طرز غیرعادی بالا رفته است.",
+   "link": "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-22T04:01:00+00:00",
+   "ts": "2026-10-23T18:45:59.993456+00:00"
+  },
+  "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/": {
+   "title": "ناسا برای تسریع نتایج علمی، روش انتخاب مأموریت‌ها را تغییر می‌دهد",
+   "summary": "ادارهٔ علوم ناسا اعلام کرده است برای رساندن سریع‌تر یافته‌های علمی به جامعه، شیوهٔ رقابت و انتخاب مأموریت‌های فضایی را تغییر خواهد داد. این اداره روز دوشنبه ۴ آبان ماه تالار گفت‌وگوی مجازی برگزار می‌کند.",
+   "link": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-22T00:00:16+00:00",
+   "ts": "2026-10-23T18:45:59.993456+00:00"
   }
  }
 }
