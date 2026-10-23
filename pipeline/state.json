@@ -1623,6 +1623,29 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T18:48:11.540828+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T19:31:24.697482+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
+     "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/"
+    ],
+    "en": [
+     "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
+     "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/"
+    ],
+    "mode": "fresh (5 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T19:32:51.316333+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1674,6 +1697,14 @@
   "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/": {
    "fa": "2026-10-23T18:45:59.993456+00:00",
    "en": "2026-10-23T18:45:59.993456+00:00"
+  },
+  "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/": {
+   "fa": "2026-10-23T19:31:24.988501+00:00",
+   "en": "2026-10-23T19:31:24.988501+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/": {
+   "fa": "2026-10-23T19:31:24.988501+00:00",
+   "en": "2026-10-23T19:31:24.988501+00:00"
   }
  },
  "news_archive": {
@@ -1766,6 +1797,24 @@
    "source_fa": "ناسا",
    "date": "2026-10-22T00:00:16+00:00",
    "ts": "2026-10-23T18:45:59.993456+00:00"
+  },
+  "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/": {
+   "title": "تست موفق موتور RS-25 در مرکز فضایی ناسا استنس",
+   "summary": "تیم‌های ناسا در مرکز فضایی استنس میسی‌سیپی، موتور RS-25 شماره ۱۰۰۰۱ را در تاریخ ۲۱ اکتبر ۲۰۲۶ آزمایش کردند. آتش آزمایشی این موتور به مدت تقریباً ۸ دقیقه و نیم (۵۰۰ ثانیه) با سطح توان ۱۱۱ درصد انجام شد؛ همان مدت‌زمانی که موتورهای RS-25 در پرتاب موشک SLS ناسا فعال هستند.",
+   "link": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-23T18:57:04+00:00",
+   "ts": "2026-10-23T19:31:24.988501+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/": {
+   "title": "چکاپ لباس‌های فضانوردی، کشاورزی در فضا و تحقیقات تنفسی، برنامهٔ اصلی چهارشنبه",
+   "summary": "دو فضانورد ایستگاه فضایی بین‌المللی برای پیاده‌روی فضایی هفتهٔ آینده، تست لباس‌های فضانوردی خود را انجام دادند. خدمهٔ اردو ۷۵ همچنین تحقیقات پیشرفته‌ای دربارهٔ کشاورزی در فضا و سیستم تنفسی در محیط میکروگرانشی به پیش برد.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-21T16:22:01+00:00",
+   "ts": "2026-10-23T19:31:24.988501+00:00"
   }
  }
 }
