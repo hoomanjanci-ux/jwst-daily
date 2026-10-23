@@ -1736,6 +1736,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T22:23:32.635561+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T22:34:44.885284+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://esawebb.org/news/weic2620/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2620/"
+    ],
+    "mode": "archive (labeled)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T22:35:39.258580+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1819,6 +1840,10 @@
   "https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/": {
    "fa": "2026-10-23T22:22:41.370637+00:00",
    "en": "2026-10-23T22:22:41.370637+00:00"
+  },
+  "https://esawebb.org/news/weic2620/": {
+   "fa": "2026-10-23T22:34:45.525578+00:00",
+   "en": "2026-10-23T22:34:45.525578+00:00"
   }
  },
  "news_archive": {
@@ -1983,6 +2008,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-19T16:22:09+00:00",
    "ts": "2026-10-23T22:22:41.370637+00:00"
+  },
+  "https://esawebb.org/news/weic2620/": {
+   "title": "تصویر جدید تلسکوپ وبب از هرج‌ومرج ستاره‌زای سحابی NGC 7129",
+   "summary": "تلسکوپ فضایی وبب تصویری رنگارنگ از ناحیه ستاره‌زای NGC 7129 ثبت کرده است. این سحابی سرشار از پیش‌ستاره‌ها و ستاره‌های جوان در میان گاز و غبار چگال است. نور مادون‌قرمز وبب از لایه‌های غبار عبور می‌کند و فرصتی برای مطالعه چگونگی شکل‌گیری ستاره‌ها بر محیط پیرامونی‌شان فراهم می‌آورد.",
+   "link": "https://esawebb.org/news/weic2620/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-10-06T13:00:00+00:00",
+   "ts": "2026-10-23T22:34:45.525578+00:00"
   }
  },
  "news_title_fp": {
@@ -2007,6 +2041,10 @@
    "en": "2026-10-23"
   },
   "17cc2984963b2a6e": {
+   "fa": "2026-10-23",
+   "en": "2026-10-23"
+  },
+  "780799a033ec3ec3": {
    "fa": "2026-10-23",
    "en": "2026-10-23"
   }
@@ -2035,6 +2073,10 @@
   [
    "17cc2984963b2a6e",
    "spacewalk preps and advanced biomedical research begin week"
+  ],
+  [
+   "780799a033ec3ec3",
+   "photo release webb captures commotion from nebula s stellar jets"
   ]
  ]
 }
