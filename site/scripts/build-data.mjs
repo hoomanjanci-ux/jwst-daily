@@ -196,6 +196,16 @@ async function buildNews() {
 }
 
 // ---------- main ----------
+// Guard: CLI deployments upload only site/ (no ../analyses, no ../pipeline).
+// If the repo data is not reachable AND a committed content.json exists,
+// keep the committed data instead of regenerating an analyses-empty site.
+// (With Git integration at Root Directory=site the full repo IS present,
+//  so this guard never triggers there and data stays freshly generated.)
+if (!existsSync(ANALYSES_DIR) && !existsSync(join(REPO_DIR, "pipeline", "state.json"))
+    && existsSync(join(DATA_DIR, "content.json"))) {
+  console.log("build-data: repo data not reachable (CLI deploy) -> using committed content.json");
+  process.exit(0);
+}
 mkdirSync(DATA_DIR, { recursive: true });
 mkdirSync(IMG_DIR, { recursive: true });
 
