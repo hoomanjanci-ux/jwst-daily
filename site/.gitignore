@@ -7,5 +7,6 @@ dev.log
 next-env.d.ts
 bun.lock
 bun.lockb
-.vercel
+.vercel/*
+!.vercel/project.json
 .env*

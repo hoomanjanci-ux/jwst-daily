@@ -66,14 +66,32 @@ jobs:
           BATCH_WALL_MINUTES: "35"         # batch NEVER eats the publish window; publish runs every run (fix 2026-10-23)
         run: python -u pipeline/run_daily.py --max-bytes $MAX_BYTES --max-products $MAX_PRODUCTS
 
-      - name: Commit state + analyses (ledger + keepalive)
+      - name: Website Persian news translations (owner 2026-10-24, bounded)
+        env:
+          QAI_BASE_URL: ${{ secrets.QAI_BASE_URL }}
+          QAI_API_KEY:  ${{ secrets.QAI_API_KEY }}
+          QAI_MODEL:    ${{ vars.QAI_MODEL }}
+        run: python -u pipeline/site_news_fa.py --cap 6
+
+      - name: Commit state + analyses + site caches (ledger + keepalive)
         run: |
           git config user.name  "jwst-pipeline-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add pipeline/state.json analyses/
+          git add pipeline/state.json analyses/ pipeline/news_site_fa.json site/data/news_img_cache.json
           git commit -m "state: $(date -u +%F-%H:%M) [skip ci]" || echo "no changes"
           git pull --rebase origin main || true
           git push
+
+      - name: Deploy website to Vercel (auto, owner 2026-10-24)
+        if: success()
+        env:
+          VERCEL_TOKEN:     ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID:    ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          # site/ carries its own package.json + build (static export).
+          # VERCEL_ORG_ID / VERCEL_PROJECT_ID link the CLI to the project.
+          npx --yes vercel@latest deploy --prod --yes --token="$VERCEL_TOKEN" --cwd site 2>&1 | tail -20
 
       - name: Upload PNG samples as artifact (90-day retention, public repo = free)
         if: always()

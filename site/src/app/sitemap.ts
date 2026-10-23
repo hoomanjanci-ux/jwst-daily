@@ -12,6 +12,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "hourly",
       priority: 1,
     },
+    {
+      url: `${SITE_URL}/solar-real`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
   ];
   const posts: MetadataRoute.Sitemap = analyses.map((a) => ({
     url: `${SITE_URL}/post/${a.slug}`,

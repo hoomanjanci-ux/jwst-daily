@@ -93,7 +93,9 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const title = a.target
     ? `تحلیل دادهٔ JWST — ${a.target}`
     : `تحلیل دادهٔ جیمز وب — ${a.product}`;
-  const body = (a.text_fa || a.text_en || "").trim();
+  const bodyFa = (a.text_fa || "").trim();
+  const bodyEn = (a.text_en || "").trim();
+  const body = bodyFa || bodyEn;
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -151,7 +153,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
         {body ? (
           <article className="article-body mb-10">
-            {body.split(/\n{2,}|\n/).map((p, i) =>
+            {(bodyFa || bodyEn).split(/\n{2,}|\n/).map((p, i) =>
               p.trim() ? <p key={i}>{p}</p> : null
             )}
           </article>
@@ -162,11 +164,23 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           </p>
         )}
 
+        {/* English version (secondary, owner: analysis posts exist in both languages) */}
+        {bodyFa && bodyEn && (
+          <section className="mb-10" aria-label="نسخهٔ انگلیسی">
+            <h2 className="sec-title mb-4 text-xl">English version<span className="bar" /></h2>
+            <article className="article-body card-cosmic p-5 sm:p-7" dir="ltr">
+              {bodyEn.split(/\n{2,}|\n/).map((p, i) =>
+                p.trim() ? <p key={i} style={{ textAlign: "start" }}>{p}</p> : null
+              )}
+            </article>
+          </section>
+        )}
+
         {/* metadata table */}
         <section className="mb-10" aria-label="مشخصات فنی داده">
           <h2 className="sec-title mb-4 text-xl">مشخصات فنی داده<span className="bar" /></h2>
           <div className="card-cosmic overflow-hidden">
-            <table className="w-full text-sm">
+            <table className="meta-table w-full text-sm">
               <tbody>
                 {metaRows.map(([k, v]) => (
                   <tr key={k} className="border-b border-line/50 last:border-0">

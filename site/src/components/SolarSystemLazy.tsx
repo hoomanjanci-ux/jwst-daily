@@ -4,8 +4,11 @@ import dynamic from "next/dynamic";
 
 /**
  * Client bridge: Next 16 forbids `ssr:false` dynamic imports from Server
- * Components, so the hero mounts this client component which in turn lazily
+ * Components, so pages mount this client component which in turn lazily
  * loads the WebGL scene (kept off the server bundle, fast text-first LCP).
+ *
+ * mode="cinematic" → homepage hero: pure beautiful animation, pauses on touch.
+ * mode="real"      → /solar-real: wall-clock synced real positions.
  */
 const SolarSystem = dynamic(() => import("./SolarSystem"), {
   ssr: false,
@@ -19,6 +22,6 @@ const SolarSystem = dynamic(() => import("./SolarSystem"), {
   ),
 });
 
-export default function SolarSystemLazy() {
-  return <SolarSystem />;
+export default function SolarSystemLazy({ mode = "real" }: { mode?: "cinematic" | "real" }) {
+  return <SolarSystem mode={mode} />;
 }

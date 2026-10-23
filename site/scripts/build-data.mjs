@@ -107,6 +107,9 @@ function buildAnalyses() {
         image = "/img/" + slug + ".jpg";
       }
 
+      const text_fa = pick("fa");
+      const text_en = pick("en");
+
       out.push({
         slug,
         product: j.product || stem + ".fits",
@@ -120,9 +123,12 @@ function buildAnalyses() {
         score: typeof j.score === "number" ? j.score : null,
         quality_score: j.quality?.score ?? null,
         image,
-        text_fa: pick("fa"),
-        text_en: pick("en"),
-        is_mock: Boolean(j.mock_analysis?.mock),
+        text_fa,
+        text_en,
+        // "mock" = metadata-only entry with NO rendered post content archived.
+        // Real analyses (site-archive .post.json + .jpg) are shown on the site;
+        // legacy metadata-only ones stay hidden (owner: "don't dump old research").
+        is_mock: !(text_fa || text_en || image),
       });
     } catch { /* one bad file must not kill the build */ }
   }
@@ -145,15 +151,59 @@ const tag = (block, names) => {
   return null;
 };
 
+const FA_RE = /[\u0600-\u06FF]/;
+
+/** Pull the first <img src> out of an RSS description/content block. */
+function feedImage(block) {
+  const raw = /<img[^>]+src=["']([^"']+)["']/i.exec(block);
+  if (!raw) return null;
+  const url = decode(raw[1]);
+  return /^https?:\/\//.test(url) ? url : null;
+}
+
+/** og:image of the article page (browser UA; short timeout; best-effort). */
+async function pageOgImage(link) {
+  try {
+    const res = await fetch(link, {
+      headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36" },
+      signal: AbortSignal.timeout(12000),
+    });
+    if (!res.ok) return null;
+    const m = /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i.exec(await res.text())
+      || /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i.exec(await res.text());
+    const url = m ? decode(m[1]) : null;
+    return url && /^https?:\/\//.test(url) ? url : null;
+  } catch { return null; }
+}
+
+/**
+ * Persian title/summary for the website, from pipeline/news_site_fa.json
+ * (written by pipeline/site_news_fa.py, committed by the hourly state commit).
+ * Falls back to the Telegram news_archive when that entry is genuinely Persian.
+ */
+function loadSiteFa() {
+  const fa = {};
+  try {
+    const j = JSON.parse(readFileSync(join(REPO_DIR, "pipeline", "news_site_fa.json"), "utf-8"));
+    for (const [link, v] of Object.entries(j.items || {})) {
+      if (v && (v.title_fa || v.summary_fa)) fa[link] = v;
+    }
+  } catch { /* first run / missing */ }
+  try {
+    const arch = JSON.parse(readFileSync(join(REPO_DIR, "pipeline", "state.json"), "utf-8")).news_archive || {};
+    for (const [link, v] of Object.entries(arch)) {
+      if (!fa[link] && v && FA_RE.test(v.title || "") && FA_RE.test(v.summary || "")) {
+        fa[link] = { title_fa: v.title, summary_fa: v.summary };
+      }
+    }
+  } catch { /* offline / first run */ }
+  return fa;
+}
+
 async function buildNews() {
   const seen = new Set();
   const items = [];
-  // FA archive written by the Telegram pipeline (news_rss.py) — Persian titles
-  // for the website, keyed by link. Missing/empty archive changes nothing.
-  let faArchive = {};
-  try {
-    faArchive = JSON.parse(readFileSync(join(REPO_DIR, "pipeline", "state.json"), "utf-8")).news_archive || {};
-  } catch { /* offline / first run */ }
+  const siteFa = loadSiteFa();
   await Promise.all(FEEDS.map(async (f) => {
     try {
       const res = await fetch(f.url, { ...UA, signal: AbortSignal.timeout(20000) });
@@ -177,12 +227,14 @@ async function buildNews() {
         if (!isTopic(title + " " + (summary || ""))) continue;
         seen.add(link);
         const host = new URL(link).hostname.replace(/^www\./, "");
-        const fa = faArchive[link] || null;
+        const fa = siteFa[link] || null;
         items.push({
           slug: host.split(".")[0] + "-" + stableHash(link),
-          title: fa?.title || title,
-          title_en: fa ? title : null,
-          summary: (fa?.summary || summary || "").slice(0, 320),
+          title,                                   // English title (owner: keep NASA's own wording)
+          title_fa: fa?.title_fa || null,          // Persian translation (inside the post)
+          summary: (summary || "").slice(0, 420),
+          summary_fa: fa?.summary_fa || null,
+          image: feedImage(block),                 // refined below (og:image pass)
           link,
           source: f.source,
           source_fa: f.source_fa,
@@ -192,7 +244,24 @@ async function buildNews() {
     } catch { /* feed down / offline -> skip silently */ }
   }));
   items.sort((a, b) => String(b.date_utc || "").localeCompare(String(a.date_utc || "")));
-  return items.slice(0, 30);
+  const top = items.slice(0, 30);
+
+  // ---- images: committed cache first, then og:image pass (capped, parallel) ----
+  const cachePath = join(DATA_DIR, "news_img_cache.json");
+  let cache = {};
+  try { cache = JSON.parse(readFileSync(cachePath, "utf-8")); } catch { /* first run */ }
+  let fetched = 0;
+  const CAP = 10; // per build — keeps Vercel build fast; cache grows over runs
+  await Promise.all(top.map(async (n) => {
+    if (cache[n.link]) { n.image = cache[n.link]; return; }
+    if (n.image || fetched >= CAP) return;
+    fetched++;
+    const img = await pageOgImage(n.link);
+    if (img) { cache[n.link] = img; n.image = img; }
+  }));
+  try { writeFileSync(cachePath, JSON.stringify(cache, null, 1), "utf-8"); } catch { /* cache is optional */ }
+
+  return top;
 }
 
 // ---------- main ----------

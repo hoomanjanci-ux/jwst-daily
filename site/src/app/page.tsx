@@ -22,23 +22,28 @@ export default function HomePage() {
       <main>
         {/* ================= HERO + 3D SOLAR SYSTEM ================= */}
         <section className="relative flex min-h-[100svh] flex-col overflow-hidden" aria-label="معرفی">
-          {/* 3D canvas fills the hero */}
+          {/* 3D canvas fills the hero — cinematic animation mode (owner 2026-10-24):
+              pure beautiful motion, pauses while the user is rotating it */}
           <div className="absolute inset-0">
-            <SolarSystemLazy />
+            <SolarSystemLazy mode="cinematic" />
           </div>
           {/* readability gradients */}
           <div className="pointer-events-none absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-void/90 to-transparent" />
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-void to-transparent" />
 
+          {/* link to the real-time mode (the accurate tab lives on its own page) */}
+          <Link
+            href="/solar-real"
+            className="hud-pill absolute bottom-20 left-1/2 z-10 -translate-x-1/2 px-4 py-1.5 text-[11px] text-muted transition-colors hover:text-ink sm:bottom-6 sm:left-6 sm:translate-x-0"
+          >
+            🌍 چرخش منظومهٔ شمسی در حالت واقعی ←
+          </Link>
+
           {/* hero copy */}
           <div className="relative z-10 mx-auto flex w-full max-w-4xl flex-1 flex-col items-center justify-center px-4 pt-28 text-center">
             <HeroTitle />
-            <p className="mt-7 max-w-2xl text-base leading-8 text-ink/85 sm:text-lg">
-              اخبار رسمی فضا و تحلیل هوش مصنوعی از داده‌های خام تلسکوپ جیمز وب — به فارسی.
-            </p>
-            <p className="mt-1 text-sm text-muted">
-              منظومهٔ شمسی زیر همین متن، زنده و هم‌گام با زمان واقعی است؛ همین حالا زمین دقیقاً
-              همان‌جایی می‌چرخد که در واقعیت است.
+            <p className="mt-7 max-w-2xl text-base leading-8 text-ink/90 sm:text-lg">
+              اخبار رسمی فضا، تحلیل نجومی، داده‌های خام تلسکوپ جیمز، به زبان فارسی.
             </p>
             <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
               <a href="#tazeha" className="btn-cosmic btn-primary">

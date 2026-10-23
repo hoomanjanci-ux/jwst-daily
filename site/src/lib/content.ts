@@ -29,9 +29,11 @@ export type Analysis = {
 
 export type NewsItem = {
   slug: string;
-  title: string;
-  title_en?: string | null;
-  summary: string;
+  title: string; // English title (NASA's own wording)
+  title_fa?: string | null; // Persian translation — shown inside the post
+  summary: string; // English summary
+  summary_fa?: string | null; // Persian summary — shown inside the post
+  image?: string | null; // article image (feed or og:image)
   link: string;
   source: string;
   source_fa: string;

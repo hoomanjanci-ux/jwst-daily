@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+/* ---------- Estedad — Persian display font (owner font upgrade 2026-10-24) ---------- */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/Estedad-Variable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
 @theme {
   --color-void: #04060f;
   --color-deep: #080d1d;
@@ -11,6 +20,7 @@
   --color-gold: #f2c76e;
   --color-nebula: #9d7bff;
   --font-sans: "Vazirmatn", "Segoe UI", Tahoma, sans-serif;
+  --font-display: "Estedad", "Vazirmatn", "Segoe UI", Tahoma, sans-serif;
 }
 
 html {
@@ -25,6 +35,71 @@ body {
   color: var(--color-ink);
   font-family: var(--font-sans);
   overflow-x: hidden;
+}
+
+/* Display font for headings + brand + buttons (Estedad) */
+h1, h2, h3, .sec-title, .btn-cosmic, .font-display {
+  font-family: var(--font-display);
+}
+h1 { letter-spacing: -0.015em; }
+
+/* ---------- mobile-first polish (owner directive 2026-10-24) ---------- */
+@media (max-width: 640px) {
+  body { font-size: 15.5px; }
+  .card-cosmic { border-radius: 0.95rem; }
+  .btn-cosmic { padding: 0.72rem 1.25rem; font-size: 0.92rem; }
+  .article-body p { text-align: start; } /* RTL justify looks broken in narrow phones */
+}
+
+/* hamburger drawer */
+.drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(2, 4, 10, 0.6);
+  backdrop-filter: blur(3px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+.drawer-backdrop[data-open="true"] { opacity: 1; pointer-events: auto; }
+.drawer-panel {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 70;
+  width: min(84vw, 320px);
+  background: linear-gradient(165deg, #0a1124 0%, #060a18 100%);
+  border-inline-start: 1px solid rgba(27, 38, 71, 0.9);
+  box-shadow: -18px 0 50px rgba(0, 0, 0, 0.55);
+  transform: translateX(105%);
+  transition: transform 0.28s cubic-bezier(0.32, 0.72, 0.3, 1);
+  overscroll-behavior: contain;
+}
+.drawer-panel[data-open="true"] { transform: translateX(0); }
+.drawer-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 0.9rem;
+  padding: 0.85rem 1rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.drawer-link:hover { background: rgba(111, 183, 255, 0.08); }
+.drawer-link:active { background: rgba(111, 183, 255, 0.14); }
+.drawer-group {
+  margin-top: 0.9rem;
+  padding-inline: 1rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--color-muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  .drawer-panel, .drawer-backdrop { transition: none; }
 }
 
 ::selection {
@@ -200,6 +275,20 @@ body {
   color: #d6def3;
 }
 .article-body p { margin-bottom: 1.1rem; text-align: justify; }
+
+/* news image hero */
+.news-hero-img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+/* meta rows on narrow screens: stacked, no wide table */
+@media (max-width: 560px) {
+  .meta-table tr { display: flex; flex-direction: column; padding: 0.65rem 1rem; }
+  .meta-table th { width: auto !important; padding: 0 0 0.2rem !important; background: transparent !important; }
+  .meta-table td { padding: 0 !important; }
+}
 
 /* ---------- misc ---------- */
 .ticker-line {

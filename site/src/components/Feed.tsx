@@ -1,12 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { analyses, news, faAgo, instrumentFa, type Analysis, type NewsItem } from "@/lib/content";
 
 type Tab = "all" | "analysis" | "news";
 
-function Thumb({ image, alt, code }: { image: string | null; alt: string; code: string }) {
+function Thumb({ image, alt, code, kind }: { image: string | null; alt: string; code: string; kind: "analysis" | "news" }) {
   if (image) {
     return (
       <div className="tile-thumb">
@@ -30,7 +30,7 @@ function Thumb({ image, alt, code }: { image: string | null; alt: string; code: 
         {code.slice(0, 22)}
       </span>
       <span className="absolute bottom-2 left-2 z-10 rounded-full bg-void/60 px-2 py-0.5 text-[10px] text-star">
-        JWST
+        {kind === "analysis" ? "JWST" : "NASA"}
       </span>
     </div>
   );
@@ -46,7 +46,7 @@ function AnalysisCard({ a }: { a: Analysis }) {
       className="group card-cosmic flex flex-col overflow-hidden"
       aria-label={title}
     >
-      <Thumb image={a.image} alt={title} code={a.product} />
+      <Thumb image={a.image} alt={title} code={a.product} kind="analysis" />
       <div className="flex flex-1 flex-col p-4">
         <h3 className="mb-2 line-clamp-2 font-bold leading-7 transition-colors group-hover:text-star">{title}</h3>
         <div className="mt-auto flex flex-wrap items-center gap-2 text-[11px] text-muted">
@@ -67,14 +67,19 @@ function NewsCard({ n }: { n: NewsItem }) {
       className="group card-cosmic flex flex-col overflow-hidden"
       aria-label={n.title}
     >
-      <Thumb image={null} alt={n.title} code={n.source} />
+      <Thumb image={n.image || null} alt={n.title} code={n.source} kind="news" />
       <div className="flex flex-1 flex-col p-4">
-        <h3 className="mb-2 line-clamp-2 font-bold leading-7 transition-colors group-hover:text-star">{n.title}</h3>
-        {n.summary && <p className="mb-3 line-clamp-2 text-xs leading-6 text-muted">{n.summary}</p>}
-        <div className="mt-auto flex flex-wrap items-center gap-2 text-[11px] text-muted">
+        {/* English title (owner: keep NASA's own wording on the card) */}
+        <h3 className="mb-2 line-clamp-2 text-start font-bold leading-7 transition-colors group-hover:text-star" dir="ltr">
+          {n.title}
+        </h3>
+        {n.summary && <p className="mb-3 line-clamp-2 text-xs leading-6 text-muted" dir="ltr">{n.summary}</p>}
+        <div className="mt-auto flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] text-muted">
           <span className="rounded-full bg-star/15 px-2 py-0.5 text-star">نبض کیهان · خبر</span>
           <span>{n.source_fa}</span>
           {n.date_utc && <span className="num-fa">{faAgo(n.date_utc)}</span>}
+          {/* owner 2026-10-24: the parenthesis promise — full Persian explanation inside */}
+          <span className="w-full text-gold/90">(توضیحات فارسی کامل داخل خود پست)</span>
         </div>
       </div>
     </Link>
@@ -83,6 +88,21 @@ function NewsCard({ n }: { n: NewsItem }) {
 
 export default function Feed() {
   const [tab, setTab] = useState<Tab>("all");
+
+  // deep-linkable tabs: /?tab=analysis#tazeha (mobile drawer links to these)
+  useEffect(() => {
+    const apply = () => {
+      const t = new URLSearchParams(window.location.search).get("tab");
+      if (t === "analysis" || t === "news" || t === "all") setTab(t);
+    };
+    apply();
+    window.addEventListener("hashchange", apply);
+    window.addEventListener("popstate", apply);
+    return () => {
+      window.removeEventListener("hashchange", apply);
+      window.removeEventListener("popstate", apply);
+    };
+  }, []);
 
   const { aList, nList } = useMemo(() => ({ aList: analyses, nList: news }), []);
 
@@ -138,7 +158,7 @@ export default function Feed() {
           <p className="mb-2 text-4xl">🔭</p>
           <p className="mb-1 font-bold">به‌زودی</p>
           <p className="mb-6 text-sm leading-7 text-muted">
-            اولین تحلیل‌ها و اخبار در همین بخش ظاهر می‌شوند. تا آن زمان، در تلگرام همراه ما باشید.
+            تحلیل‌ها و اخبار در همین بخش ظاهر می‌شوند. تا آن زمان، در تلگرام همراه ما باشید.
           </p>
           <a
             href="https://t.me/RazKeyhan"
@@ -150,7 +170,7 @@ export default function Feed() {
           </a>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
           {shown.map((it) => (
             <div key={it.key}>{it.el}</div>
           ))}

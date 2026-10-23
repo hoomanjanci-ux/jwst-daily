@@ -51,9 +51,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     if (news.length === 0) return { title: "اخبار — به‌زودی", robots: { index: false, follow: true } };
     return {};
   }
-  const desc = (n.summary || n.title).slice(0, 155);
+  const desc = (n.summary_fa || n.summary || n.title).slice(0, 155);
   return {
-    title: n.title,
+    title: n.title_fa || n.title,
     description: desc,
     alternates: { canonical: `/news/${n.slug}` },
     openGraph: {
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: `${n.title} | نبض کیهان`,
       description: desc,
       url: `${SITE_URL}/news/${n.slug}`,
-      images: [{ url: "/og-default.jpg" }],
+      images: [{ url: n.image || "/og-default.jpg" }],
     },
   };
 }
@@ -79,10 +79,11 @@ export default async function NewsPage({ params }: { params: Promise<{ slug: str
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     headline: n.title,
-    description: n.summary || undefined,
+    alternativeHeadline: n.title_fa || undefined,
+    description: n.summary_fa || n.summary || undefined,
     inLanguage: "fa-IR",
     datePublished: n.date_utc || undefined,
-    image: SITE_URL + "/og-default.jpg",
+    image: (n.image || SITE_URL + "/og-default.jpg") as string,
     author: { "@type": "Organization", name: n.source_fa, url: n.link },
     publisher: { "@type": "Organization", name: "نبض کیهان", url: SITE_URL },
     isBasedOn: n.link,
@@ -95,21 +96,63 @@ export default async function NewsPage({ params }: { params: Promise<{ slug: str
         <nav className="mb-6 text-xs text-muted" aria-label="مسیر">
           <Link href="/" className="hover:text-star">خانه</Link>
           <span className="mx-2">/</span>
-          <Link href="/#tazeha" className="hover:text-star">اخبار</Link>
+          <Link href="/?tab=news#tazeha" className="hover:text-star">اخبار</Link>
         </nav>
 
-        <h1 className="mb-4 text-2xl font-black leading-relaxed sm:text-3xl sm:leading-relaxed">{n.title}</h1>
+        {/* English headline (owner: NASA's own wording) */}
+        <h1 className="mb-3 text-2xl font-black leading-relaxed sm:text-3xl sm:leading-relaxed" dir="ltr" style={{ textAlign: "start" }}>
+          {n.title}
+        </h1>
+        {n.title_fa && (
+          <p className="mb-4 text-lg font-bold leading-8 text-ink/90 sm:text-xl">{n.title_fa}</p>
+        )}
         <div className="mb-8 flex flex-wrap items-center gap-3 text-xs text-muted">
           <span className="rounded-full bg-star/15 px-3 py-1 text-star">نبض کیهان · خبر</span>
           <span>منبع: {n.source_fa}</span>
           {n.date_utc && <span className="num-fa">{faDateTime(n.date_utc)}</span>}
+          {/* owner 2026-10-24: the promise in parentheses */}
+          <span className="rounded-full bg-gold/10 px-3 py-1 text-gold/90">
+            (توضیحات فارسی کامل داخل همین پست)
+          </span>
         </div>
 
-        {n.summary && (
-          <article className="article-body mb-10">
-            <p>{n.summary}</p>
-          </article>
+        {n.image && (
+          <figure className="mb-8 overflow-hidden rounded-2xl border border-line">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={n.image} alt={n.title_fa || n.title} className="news-hero-img" loading="eager" />
+            <figcaption className="bg-panel/60 px-4 py-2 text-center text-[11px] text-muted">
+              تصویر: {n.source} (اعتبار: NASA)
+            </figcaption>
+          </figure>
         )}
+
+        {/* English original (owner: English first, we keep it as the source) */}
+        {n.summary && (
+          <section className="mb-8" aria-label="متن اصلی خبر">
+            <h2 className="mb-3 text-xs font-bold tracking-wider text-muted" dir="ltr">— ORIGINAL (ENGLISH) —</h2>
+            <article className="article-body" dir="ltr">
+              <p style={{ textAlign: "start" }}>{n.summary}</p>
+            </article>
+          </section>
+        )}
+
+        {/* Persian translation — below the English (owner directive) */}
+        <section className="mb-10" aria-label="ترجمهٔ فارسی">
+          <h2 className="sec-title mb-4 text-xl">
+            ترجمهٔ فارسی<span className="bar" />
+          </h2>
+          {n.summary_fa ? (
+            <article className="article-body card-cosmic p-5 sm:p-7">
+              {n.title_fa && <p className="mb-3 text-base font-black text-ink">{n.title_fa}</p>}
+              <p>{n.summary_fa}</p>
+            </article>
+          ) : (
+            <p className="card-cosmic p-5 text-sm leading-8 text-muted">
+              ترجمهٔ فارسی این خبر به‌زودی به همین صفحه اضافه می‌شود؛ نسخهٔ فارسی آن هم‌اکنون در
+              کانال تلگرام «نبض کیهان» منتشر شده است.
+            </p>
+          )}
+        </section>
 
         <div className="card-cosmic mb-10 flex flex-col items-start gap-4 p-6">
           <p className="text-sm leading-7 text-muted">

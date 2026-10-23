@@ -20,6 +20,8 @@ import { useEffect, useRef, useState, useCallback } from "react";
  */
 
 type Speed = 1 | 3600 | 43200;
+
+type Mode = "cinematic" | "real";
 import type * as ThreeNS from "three";
 
 const J2000 = 946728000000; // 2000-01-01T12:00Z
@@ -115,20 +117,22 @@ function glowTexture(inner: string, outer: string): HTMLCanvasElement {
   return c;
 }
 
-export default function SolarSystem() {
+export default function SolarSystem({ mode = "real" }: { mode?: Mode }) {
   const mountRef = useRef<HTMLDivElement>(null);
   const [speed, setSpeed] = useState<Speed>(1);
   const speedRef = useRef<Speed>(1);
   const [failed, setFailed] = useState(false);
   const [clock, setClock] = useState("--:--:--");
   const [hintOn, setHintOn] = useState(true);
+  const cine = mode === "cinematic";
 
   useEffect(() => {
     speedRef.current = speed;
   }, [speed]);
 
-  // Tehran clock (updates every second)
+  // Tehran clock (updates every second) — real-time mode only
   useEffect(() => {
+    if (cine) return;
     const fmt = new Intl.DateTimeFormat("fa-IR", {
       timeZone: "Asia/Tehran",
       hour: "2-digit",
@@ -139,7 +143,7 @@ export default function SolarSystem() {
     tick();
     const id = setInterval(tick, 1000);
     return () => clearInterval(id);
-  }, []);
+  }, [cine]);
 
   useEffect(() => {
     const t = setTimeout(() => setHintOn(false), 7000);
@@ -151,6 +155,15 @@ export default function SolarSystem() {
     // request the scene to re-sync to wall-clock when returning to real time
     (window as unknown as { __nkResync?: boolean }).__nkResync = s === 1;
   }, []);
+
+  const speedCtl = (
+    <div className="absolute bottom-3 right-3 flex items-center gap-1 hud-pill p-1">
+      <span className="px-2 text-[11px] text-muted">سرعت زمان:</span>
+      <button className="hud-btn" data-active={speed === 1} onClick={() => setSpeedAndReset(1)}>واقعی</button>
+      <button className="hud-btn" data-active={speed === 3600} onClick={() => setSpeedAndReset(3600)}>سریع</button>
+      <button className="hud-btn" data-active={speed === 43200} onClick={() => setSpeedAndReset(43200)}>خیلی سریع</button>
+    </div>
+  );
 
   useEffect(() => {
     let disposed = false;
@@ -195,6 +208,38 @@ export default function SolarSystem() {
         controls.maxDistance = 340;
         controls.rotateSpeed = 0.55;
         controls.zoomSpeed = 0.9;
+
+        // ---------- interaction detection (owner 2026-10-24) ----------
+        // Cinematic: the scene is alive by itself (planets spin & orbit, camera
+        // slowly orbits). The moment the user grabs it (touch / mouse / wheel)
+        // auto-motion pauses so the user is in full control; ~3s after release
+        // the animation gracefully resumes.
+        let interacting = false;
+        let resumeTimer: ReturnType<typeof setTimeout> | null = null;
+        const onInteractStart = () => {
+          interacting = true;
+          if (cine) controls.autoRotate = false;
+          if (resumeTimer) { clearTimeout(resumeTimer); resumeTimer = null; }
+        };
+        const onInteractEnd = () => {
+          if (resumeTimer) clearTimeout(resumeTimer);
+          resumeTimer = setTimeout(() => {
+            interacting = false;
+            if (cine && !reduced) controls.autoRotate = true;
+          }, 3000);
+        };
+        if (cine) {
+          controls.autoRotate = !reduced;
+          controls.autoRotateSpeed = 0.4;
+          controls.addEventListener("start", onInteractStart);
+          controls.addEventListener("end", onInteractEnd);
+          renderer.domElement.addEventListener("pointerdown", onInteractStart);
+          renderer.domElement.addEventListener("wheel", onInteractStart, { passive: true });
+          renderer.domElement.addEventListener("pointerup", onInteractEnd);
+          renderer.domElement.addEventListener("pointercancel", onInteractEnd);
+          renderer.domElement.addEventListener("touchend", onInteractEnd);
+          renderer.domElement.addEventListener("touchcancel", onInteractEnd);
+        }
 
         // ---------- lights ----------
         scene.add(new THREE.AmbientLight(0x8fa8d8, 0.35));
@@ -405,43 +450,84 @@ export default function SolarSystem() {
         let lastFrame = performance.now();
         let raf = 0;
 
+        // cinematic angles (radians) — seeded from the REAL current positions,
+        // then advanced at pleasing animation rates (owner: pure animation mode)
+        const d0 = Date.now() / 86400000 - 10957.5;
+        let aEarth = deg(LON.earth.l0, LON.earth.n, d0);
+        let aMoon = deg(LON.moon.l0, LON.moon.n, d0);
+        let aMars = deg(LON.mars.l0, LON.mars.n, d0);
+        let aJup = deg(LON.jupiter.l0, LON.jupiter.n, d0);
+        let aSat = deg(LON.saturn.l0, LON.saturn.n, d0);
+        let spinEarth = aEarth + Math.PI; // visual seeds
+        let spinMars = aMars + Math.PI;
+        let spinJup = aJup + Math.PI;
+        let spinSat = aSat + Math.PI;
+        const ORBIT_RATE = { moon: 2.4, earth: 0.75, mars: 0.42, jupiter: 0.20, saturn: 0.15 }; // rad/s
+        const SPIN_RATE = { earth: 0.35, mars: 0.33, jupiter: 0.75, saturn: 0.7 }; // rad/s
+
         const renderLoop = () => {
           raf = requestAnimationFrame(renderLoop);
           const nowPerf = performance.now();
           const dt = Math.min(0.1, (nowPerf - lastFrame) / 1000);
           lastFrame = nowPerf;
 
-          const w = window as unknown as { __nkResync?: boolean };
-          if (w.__nkResync) {
-            simMs = Date.now();
-            w.__nkResync = false;
+          if (cine) {
+            // ---- cinematic animation mode ----
+            if (!interacting) {
+              aMoon += ORBIT_RATE.moon * dt;
+              aEarth += ORBIT_RATE.earth * dt;
+              aMars += ORBIT_RATE.mars * dt;
+              aJup += ORBIT_RATE.jupiter * dt;
+              aSat += ORBIT_RATE.saturn * dt;
+              spinEarth += SPIN_RATE.earth * dt;
+              spinMars += SPIN_RATE.mars * dt;
+              spinJup += SPIN_RATE.jupiter * dt;
+              spinSat += SPIN_RATE.saturn * dt;
+            }
+            earthOrbit.position.set(Math.cos(aEarth) * R_EARTH, 0, -Math.sin(aEarth) * R_EARTH);
+            earth.rotation.y = spinEarth;
+            clouds.rotation.y = spinEarth * 1.12;
+            moon.position.set(Math.cos(aMoon) * 8.6, 0, -Math.sin(aMoon) * 8.6);
+            marsOrbit.position.set(Math.cos(aMars) * R_MARS, 0, -Math.sin(aMars) * R_MARS);
+            mars.rotation.y = spinMars;
+            jupOrbit.position.set(Math.cos(aJup) * R_JUP, 0, -Math.sin(aJup) * R_JUP);
+            jup.rotation.y = spinJup;
+            satOrbit.position.set(Math.cos(aSat) * R_SAT, 0, -Math.sin(aSat) * R_SAT);
+            sat.rotation.y = spinSat;
+          } else {
+            // ---- real-time mode (wall-clock synced) ----
+            const w = window as unknown as { __nkResync?: boolean };
+            if (w.__nkResync) {
+              simMs = Date.now();
+              w.__nkResync = false;
+            }
+            if (speedRef.current === 1) simMs = Date.now();
+            else simMs += dt * speedRef.current * 1000;
+
+            const d = simMs / 86400000 - 10957.5; // days since J2000
+            const utcHours = ((simMs / 3600000) % 24 + 24) % 24;
+
+            // Earth: orbit position + true rotation
+            const Le = deg(LON.earth.l0, LON.earth.n, d);
+            earthOrbit.position.set(Math.cos(Le) * R_EARTH, 0, -Math.sin(Le) * R_EARTH);
+            earth.rotation.y = Le + Math.PI + (utcHours / 24) * Math.PI * 2;
+            clouds.rotation.y = earth.rotation.y * 1.08;
+
+            // Moon
+            const Lm = deg(LON.moon.l0, LON.moon.n, d);
+            moon.position.set(Math.cos(Lm) * 8.6, 0, -Math.sin(Lm) * 8.6);
+
+            // Mars / Jupiter / Saturn
+            const Lma = deg(LON.mars.l0, LON.mars.n, d);
+            marsOrbit.position.set(Math.cos(Lma) * R_MARS, 0, -Math.sin(Lma) * R_MARS);
+            mars.rotation.y = Lma + Math.PI + (utcHours / 24.62) * Math.PI * 2;
+            const Lj = deg(LON.jupiter.l0, LON.jupiter.n, d);
+            jupOrbit.position.set(Math.cos(Lj) * R_JUP, 0, -Math.sin(Lj) * R_JUP);
+            jup.rotation.y = Lj + Math.PI + (utcHours / 9.93) * Math.PI * 2;
+            const Ls = deg(LON.saturn.l0, LON.saturn.n, d);
+            satOrbit.position.set(Math.cos(Ls) * R_SAT, 0, -Math.sin(Ls) * R_SAT);
+            sat.rotation.y = Ls + Math.PI + (utcHours / 10.7) * Math.PI * 2;
           }
-          if (speedRef.current === 1) simMs = Date.now();
-          else simMs += dt * speedRef.current * 1000;
-
-          const d = simMs / 86400000 - 10957.5; // days since J2000
-          const utcHours = ((simMs / 3600000) % 24 + 24) % 24;
-
-          // Earth: orbit position + true rotation
-          const Le = deg(LON.earth.l0, LON.earth.n, d);
-          earthOrbit.position.set(Math.cos(Le) * R_EARTH, 0, -Math.sin(Le) * R_EARTH);
-          earth.rotation.y = Le + Math.PI + (utcHours / 24) * Math.PI * 2;
-          clouds.rotation.y = earth.rotation.y * 1.08;
-
-          // Moon
-          const Lm = deg(LON.moon.l0, LON.moon.n, d);
-          moon.position.set(Math.cos(Lm) * 8.6, 0, -Math.sin(Lm) * 8.6);
-
-          // Mars / Jupiter / Saturn
-          const Lma = deg(LON.mars.l0, LON.mars.n, d);
-          marsOrbit.position.set(Math.cos(Lma) * R_MARS, 0, -Math.sin(Lma) * R_MARS);
-          mars.rotation.y = Lma + Math.PI + (utcHours / 24.62) * Math.PI * 2;
-          const Lj = deg(LON.jupiter.l0, LON.jupiter.n, d);
-          jupOrbit.position.set(Math.cos(Lj) * R_JUP, 0, -Math.sin(Lj) * R_JUP);
-          jup.rotation.y = Lj + Math.PI + (utcHours / 9.93) * Math.PI * 2;
-          const Ls = deg(LON.saturn.l0, LON.saturn.n, d);
-          satOrbit.position.set(Math.cos(Ls) * R_SAT, 0, -Math.sin(Ls) * R_SAT);
-          sat.rotation.y = Ls + Math.PI + (utcHours / 10.7) * Math.PI * 2;
 
           // sun spin + subtle breathing
           sun.rotation.y += dt * 0.02;
@@ -467,6 +553,9 @@ export default function SolarSystem() {
         cleanup = () => {
           cancelAnimationFrame(raf);
           ro.disconnect();
+          if (resumeTimer) clearTimeout(resumeTimer);
+          controls.removeEventListener("start", onInteractStart);
+          controls.removeEventListener("end", onInteractEnd);
           controls.dispose();
           scene.traverse((obj) => {
             const mesh = obj as import("three").Mesh;
@@ -502,33 +591,32 @@ export default function SolarSystem() {
 
       {/* top hint */}
       <div
-        className={`pointer-events-none absolute inset-x-0 top-3 flex justify-center transition-opacity duration-1000 ${hintOn ? "opacity-100" : "opacity-0"}`}
+        className={`pointer-events-none absolute inset-x-0 top-3 flex justify-center px-3 transition-opacity duration-1000 ${hintOn ? "opacity-100" : "opacity-0"}`}
       >
-        <span className="hud-pill px-4 py-1.5 text-xs text-muted">
-          بچرخانید • با اسکرول یا پینچ زوم کنید
+        <span className="hud-pill px-4 py-1.5 text-center text-xs text-muted">
+          {cine ? "بچرخانید • با لمس، انیمیشن موقتاً می‌ایستد" : "بچرخانید • با اسکرول یا پینچ زوم کنید"}
         </span>
       </div>
 
-      {/* Tehran clock + reality badge */}
-      <div className="absolute bottom-3 left-3 flex flex-col items-start gap-1.5">
-        <span className="hud-pill px-3 py-1 text-[11px] text-muted">
-          ساعت تهران: <span className="num-fa text-ink">{clock}</span>
-        </span>
-        <span
-          className="hud-pill px-3 py-1 text-[11px]"
-          style={{ color: speed === 1 ? "#7fe3a8" : "#f2c76e" }}
-        >
-          {speed === 1 ? "● هم‌گام با زمان واقعی" : `▲ شتاب زمان ×${speed.toLocaleString("fa-IR")}`}
-        </span>
-      </div>
+      {mode === "real" && (
+        <>
+          {/* Tehran clock + reality badge */}
+          <div className="absolute bottom-3 left-3 flex flex-col items-start gap-1.5">
+            <span className="hud-pill px-3 py-1 text-[11px] text-muted">
+              ساعت تهران: <span className="num-fa text-ink">{clock}</span>
+            </span>
+            <span
+              className="hud-pill px-3 py-1 text-[11px]"
+              style={{ color: speed === 1 ? "#7fe3a8" : "#f2c76e" }}
+            >
+              {speed === 1 ? "● هم‌گام با زمان واقعی" : `▲ شتاب زمان ×${speed.toLocaleString("fa-IR")}`}
+            </span>
+          </div>
 
-      {/* speed control */}
-      <div className="absolute bottom-3 right-3 flex items-center gap-1 hud-pill p-1">
-        <span className="px-2 text-[11px] text-muted">سرعت زمان:</span>
-        <button className="hud-btn" data-active={speed === 1} onClick={() => setSpeedAndReset(1)}>واقعی</button>
-        <button className="hud-btn" data-active={speed === 3600} onClick={() => setSpeedAndReset(3600)}>سریع</button>
-        <button className="hud-btn" data-active={speed === 43200} onClick={() => setSpeedAndReset(43200)}>خیلی سریع</button>
-      </div>
+          {/* speed control */}
+          {speedCtl}
+        </>
+      )}
     </div>
   );
 }
