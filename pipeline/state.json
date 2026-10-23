@@ -1646,6 +1646,29 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T19:32:51.316333+00:00"
+  },
+  {
+   "started_utc": "2026-10-23T20:07:17.933823+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/20/blood-vessel-printing-cancer-research-and-spacewalk-preps-keep-crew-busy/",
+     "https://www.nasa.gov/blogs/smallsatellites/2026/10/20/two-nasa-commercial-satellite-communication-demonstrations-launch/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/20/blood-vessel-printing-cancer-research-and-spacewalk-preps-keep-crew-busy/",
+     "https://www.nasa.gov/blogs/smallsatellites/2026/10/20/two-nasa-commercial-satellite-communication-demonstrations-launch/"
+    ],
+    "mode": "fresh (3 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-23T20:08:54.531170+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1705,6 +1728,14 @@
   "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/": {
    "fa": "2026-10-23T19:31:24.988501+00:00",
    "en": "2026-10-23T19:31:24.988501+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/20/blood-vessel-printing-cancer-research-and-spacewalk-preps-keep-crew-busy/": {
+   "fa": "2026-10-23T20:07:18.781033+00:00",
+   "en": "2026-10-23T20:07:18.781033+00:00"
+  },
+  "https://www.nasa.gov/blogs/smallsatellites/2026/10/20/two-nasa-commercial-satellite-communication-demonstrations-launch/": {
+   "fa": "2026-10-23T20:07:18.781033+00:00",
+   "en": "2026-10-23T20:07:18.781033+00:00"
   }
  },
  "news_archive": {
@@ -1815,6 +1846,44 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-21T16:22:01+00:00",
    "ts": "2026-10-23T19:31:24.988501+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/20/blood-vessel-printing-cancer-research-and-spacewalk-preps-keep-crew-busy/": {
+   "title": "چاپ رگ خونی، پژوهش سرطانی و آماده‌سازی خروج فضایی خدمه را مشغول کرد",
+   "summary": "در روز سه‌شنبه، مأموران اکسپدیشن ۷۵ به پیشبرد سلامت انسان بر فراز و فراتر از زمین پرداختند. فعالیت‌ها شامل چاپ زیستی سه‌بعدی، پژوهش سرطانی و مطالعات ورزشی بود. هم‌زمان، آماده‌سازی خروج فضایی برای افزایش توان تولید برق ایستگاه ادامه دارد.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/20/blood-vessel-printing-cancer-research-and-spacewalk-preps-keep-crew-busy/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-20T20:43:18+00:00",
+   "ts": "2026-10-23T20:07:18.781033+00:00"
+  },
+  "https://www.nasa.gov/blogs/smallsatellites/2026/10/20/two-nasa-commercial-satellite-communication-demonstrations-launch/": {
+   "title": "پرتاب دو نمایش ماهوارهٔ ارتباطی ناسا به مدار پایین زمین",
+   "summary": "دو آزمایش ارتباطی ماهواره‌ایِ حمایت‌شده توسط ناسا با پرتاب‌سُفرهٔ اسپیس‌اکس Bandwagon-5 به مدار پایین زمین پیوستند. پس از پرتاب سه‌شنبه، شرکای ناسا یعنی ویاست و SES Space and Defense به آزمون ارتباطات با نرخ بالا و پایین می‌پردازند.",
+   "link": "https://www.nasa.gov/blogs/smallsatellites/2026/10/20/two-nasa-commercial-satellite-communication-demonstrations-launch/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-20T15:40:56+00:00",
+   "ts": "2026-10-23T20:07:18.781033+00:00"
   }
- }
+ },
+ "news_title_fp": {
+  "b072b6fc6d80db6b": {
+   "fa": "2026-10-23",
+   "en": "2026-10-23"
+  },
+  "1dac54cb9646acff": {
+   "fa": "2026-10-23",
+   "en": "2026-10-23"
+  }
+ },
+ "news_title_recent": [
+  [
+   "b072b6fc6d80db6b",
+   "blood vessel printing cancer research and spacewalk preps keep crew busy"
+  ],
+  [
+   "1dac54cb9646acff",
+   "two nasa commercial satellite communication demonstrations launch"
+  ]
+ ]
 }
