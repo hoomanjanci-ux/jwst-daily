@@ -1822,6 +1822,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T00:26:15.820153+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T01:01:24.498981+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://esawebb.org/news/weic2618/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2618/"
+    ],
+    "mode": "archive (labeled)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T01:01:34.100738+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1925,6 +1946,10 @@
   "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/": {
    "fa": "2026-10-24T00:26:10.087551+00:00",
    "en": "2026-10-24T00:26:10.087551+00:00"
+  },
+  "https://esawebb.org/news/weic2618/": {
+   "fa": "2026-10-24T01:01:25.181823+00:00",
+   "en": "2026-10-24T01:01:25.181823+00:00"
   }
  },
  "news_archive": {
@@ -2134,6 +2159,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-23T21:58:32+00:00",
    "ts": "2026-10-24T00:26:10.087551+00:00"
+  },
+  "https://esawebb.org/news/weic2618/": {
+   "title": "تلسکوپ جیمز وب برخورد سرامه‌وار سیاره‌ها را کاوش می‌کند",
+   "summary": "در آغاز تاریخ منظومه شمسی، جسمی به اندازه مریخ به نام تیا با زمین جوان برخورد کرد و بخشی از مصالح آن به ماه تبدیل شد. ستاره‌شناسان اکنون با تلسکوپ جیمز وب، سیستم‌های ستاره‌ای جوانی را بررسی می‌کنند که نشانه‌هایsimilar چنین فروپاشی‌هایی را نشان می‌دهند. نتایج این پژوهش اطلاعاتی درباره انرژی برخوردها، ترکیب و تکامل این سیستم‌های پرتلاطم ارائه می‌دهد.",
+   "link": "https://esawebb.org/news/weic2618/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-10-01T14:00:00+00:00",
+   "ts": "2026-10-24T01:01:25.181823+00:00"
   }
  },
  "news_title_fp": {
@@ -2178,6 +2212,10 @@
    "en": "2026-10-24"
   },
   "24fa6fb786f1684d": {
+   "fa": "2026-10-24",
+   "en": "2026-10-24"
+  },
+  "46eec26156f3194d": {
    "fa": "2026-10-24",
    "en": "2026-10-24"
   }
@@ -2226,6 +2264,10 @@
   [
    "24fa6fb786f1684d",
    "nasa s swift mission ends ahead of re entry"
+  ],
+  [
+   "46eec26156f3194d",
+   "science release webb provides crash course on planet shattering collisions"
   ]
  ]
 }
