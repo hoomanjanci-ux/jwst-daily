@@ -1948,6 +1948,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T07:26:15.539037+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T09:51:59.056933+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://esawebb.org/news/weic2614/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2614/"
+    ],
+    "mode": "archive (labeled)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T09:52:33.943082+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -2075,6 +2096,10 @@
   "https://esawebb.org/news/weic2615/": {
    "fa": "2026-10-24T07:25:44.135608+00:00",
    "en": "2026-10-24T07:25:44.135608+00:00"
+  },
+  "https://esawebb.org/news/weic2614/": {
+   "fa": "2026-10-24T09:51:59.670494+00:00",
+   "en": "2026-10-24T09:51:59.670494+00:00"
   }
  },
  "news_archive": {
@@ -2338,6 +2363,15 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-07-06T14:00:00+00:00",
    "ts": "2026-10-24T07:25:44.135608+00:00"
+  },
+  "https://esawebb.org/news/weic2614/": {
+   "title": "مرکز تاب‌سنجی جیمز وب: سرنوشت سياره‌اي پس از مرگ ستاره‌اش",
+   "summary": "تلسکوپ جیمز وب با گذر WD 1856 b از روي کوتوله سفيد مادرش، جرم و دماي اين سياره مشتي‌اندازه را اندازه‌گيري کرد و درهاي دريافت اتمسفر آن نيز باز شد. دانشمندان كشف كردند كه اين سياره به‌طور قابل‌توجهي گرم‌تر از آن‌چه انتظار داشتند است و چگونگي رسيدن به مدار بسيار تنگ اطراف ستاره‌اش را تبئين نمودند.",
+   "link": "https://esawebb.org/news/weic2614/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-07-01T15:00:00+00:00",
+   "ts": "2026-10-24T09:51:59.670494+00:00"
   }
  },
  "news_title_fp": {
@@ -2406,6 +2440,10 @@
    "en": "2026-10-24"
   },
   "bc6ec60e83926b4f": {
+   "fa": "2026-10-24",
+   "en": "2026-10-24"
+  },
+  "dbb33e796a2a1cac": {
    "fa": "2026-10-24",
    "en": "2026-10-24"
   }
@@ -2478,6 +2516,10 @@
   [
    "bc6ec60e83926b4f",
    "photo release webb uncovers unusual galaxy shaped by cosmic collision"
+  ],
+  [
+   "dbb33e796a2a1cac",
+   "science release webb studies how a planet survived death of its star"
   ]
  ]
 }
