@@ -1927,6 +1927,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T06:23:48.579879+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T07:25:43.550253+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://esawebb.org/news/weic2615/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2615/"
+    ],
+    "mode": "archive (labeled)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T07:26:15.539037+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -2050,6 +2071,10 @@
   "https://esawebb.org/news/weic2616/": {
    "fa": "2026-10-24T06:23:31.870941+00:00",
    "en": "2026-10-24T06:23:31.870941+00:00"
+  },
+  "https://esawebb.org/news/weic2615/": {
+   "fa": "2026-10-24T07:25:44.135608+00:00",
+   "en": "2026-10-24T07:25:44.135608+00:00"
   }
  },
  "news_archive": {
@@ -2304,6 +2329,15 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-08-10T14:00:00+00:00",
    "ts": "2026-10-24T06:23:31.870941+00:00"
+  },
+  "https://esawebb.org/news/weic2615/": {
+   "title": "تلسکوپ جیمز وب، کهکشانی ناشناخته را پس از برخورد کیهانی آشکار کرد",
+   "summary": "تصاویر جدید تلسکوپ جیمز وب از کهکشان سانتوروس آ، لایه‌های غبار پنهان‌کنندهٔ مرکز آن را در نواحی مادون‌قرمز نزدیک و میانه پشت سر گذاشته و شبکه‌ای متراکم از ستاره‌های منفرد را نمایش می‌دهد. این مشاهده نشان می‌دهد که سانتوروس آ کهکشانی پویا و در حال تحول است که شکل‌گیری آن تحت تأثیر برخورد کیهانی بوده است. تصاویر همزمان چهارمین سالگرد عملکرد علمی این تلسکوپ را گرامی می‌دارند؛ عملکردی فراتر از انتظار و درخشان‌ترین تلسکوپ فضایی تاریخ.",
+   "link": "https://esawebb.org/news/weic2615/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-07-06T14:00:00+00:00",
+   "ts": "2026-10-24T07:25:44.135608+00:00"
   }
  },
  "news_title_fp": {
@@ -2368,6 +2402,10 @@
    "en": "2026-10-24"
   },
   "23e9d9a80497f743": {
+   "fa": "2026-10-24",
+   "en": "2026-10-24"
+  },
+  "bc6ec60e83926b4f": {
    "fa": "2026-10-24",
    "en": "2026-10-24"
   }
@@ -2436,6 +2474,10 @@
   [
    "23e9d9a80497f743",
    "photo release lion nebula roars to life for webb"
+  ],
+  [
+   "bc6ec60e83926b4f",
+   "photo release webb uncovers unusual galaxy shaped by cosmic collision"
   ]
  ]
 }
