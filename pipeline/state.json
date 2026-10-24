@@ -1801,6 +1801,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T00:05:43.991238+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T00:26:09.641768+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T00:26:15.820153+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1900,6 +1921,10 @@
   "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/": {
    "fa": "2026-10-24T00:05:30.496308+00:00",
    "en": "2026-10-24T00:05:30.496308+00:00"
+  },
+  "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/": {
+   "fa": "2026-10-24T00:26:10.087551+00:00",
+   "en": "2026-10-24T00:26:10.087551+00:00"
   }
  },
  "news_archive": {
@@ -2100,6 +2125,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-23T21:51:19+00:00",
    "ts": "2026-10-24T00:05:30.496308+00:00"
+  },
+  "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/": {
+   "title": "مأموریت سفید ناسا پیش از بازگشت به جوّ زمین پایان یافت",
+   "summary": "ماموریت ماهوارهٔ سفید ناسا به پایان رسید و عملیات آن متوقف شد. این فضاپیما پیش از بازگشت به جوّ زمین، میراثی از نوآوری و گنجینه‌ای از مشاهدات علمی را به جای گذاشته است.",
+   "link": "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-23T21:58:32+00:00",
+   "ts": "2026-10-24T00:26:10.087551+00:00"
   }
  },
  "news_title_fp": {
@@ -2140,6 +2174,10 @@
    "en": "2026-10-23"
   },
   "0669aecfcc0b6025": {
+   "fa": "2026-10-24",
+   "en": "2026-10-24"
+  },
+  "24fa6fb786f1684d": {
    "fa": "2026-10-24",
    "en": "2026-10-24"
   }
@@ -2184,6 +2222,10 @@
   [
    "0669aecfcc0b6025",
    "nasa s swift mission ends leaves behind scientific bonanza"
+  ],
+  [
+   "24fa6fb786f1684d",
+   "nasa s swift mission ends ahead of re entry"
   ]
  ]
 }
