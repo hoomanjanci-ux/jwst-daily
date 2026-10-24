@@ -1906,6 +1906,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T05:37:42.385344+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T06:23:31.330709+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://esawebb.org/news/weic2616/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2616/"
+    ],
+    "mode": "archive (labeled)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T06:23:48.579879+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -2025,6 +2046,10 @@
   "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/": {
    "fa": "2026-10-24T05:37:21.617899+00:00",
    "en": "2026-10-24T05:37:21.617899+00:00"
+  },
+  "https://esawebb.org/news/weic2616/": {
+   "fa": "2026-10-24T06:23:31.870941+00:00",
+   "en": "2026-10-24T06:23:31.870941+00:00"
   }
  },
  "news_archive": {
@@ -2270,6 +2295,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-24T04:05:00+00:00",
    "ts": "2026-10-24T05:37:21.617899+00:00"
+  },
+  "https://esawebb.org/news/weic2616/": {
+   "title": "سحابی شیر توسط تلسکوپ جیمز وب تصویربرداری شد",
+   "summary": "تلسکوپ فضایی جیمز وب، پروژه‌ای مشترک ناسا، آژانس فضایی اروپا و کانادا، تصویری از NGC 2392 ثبت کرده است. این سحابی که به سحابی شیر معروف است، در فلات ستاره‌ای کهکشان قرار دارد. این تصاویر در دهه جدید رصد فضایی منتشر شده‌اند.",
+   "link": "https://esawebb.org/news/weic2616/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-08-10T14:00:00+00:00",
+   "ts": "2026-10-24T06:23:31.870941+00:00"
   }
  },
  "news_title_fp": {
@@ -2330,6 +2364,10 @@
    "en": "2026-10-24"
   },
   "a0d6dca350f15e83": {
+   "fa": "2026-10-24",
+   "en": "2026-10-24"
+  },
+  "23e9d9a80497f743": {
    "fa": "2026-10-24",
    "en": "2026-10-24"
   }
@@ -2394,6 +2432,10 @@
   [
    "a0d6dca350f15e83",
    "apod 2026 october 24 rosetta s selfie"
+  ],
+  [
+   "23e9d9a80497f743",
+   "photo release lion nebula roars to life for webb"
   ]
  ]
 }
