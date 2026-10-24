@@ -1453,22 +1453,81 @@
    "published_utc": "2026-10-24T22:43:26.156564+00:00",
    "site_archive": "ok",
    "d1_sync": "ok"
+  },
+  "jw01189013001_0310b_00001_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 43.83,
+   "analyzed_utc": "2026-10-24T23:03:51.711987+00:00",
+   "analysis": "analyses/2026/10/24/jw01189013001_0310b_00001_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw01189013001_0310b_00001_nrcalong_rate.fits",
+    "size_mb": 2.035,
+    "uri": "mast:JWST/product/jw01189013001_0310b_00001_nrcalong_rate.fits",
+    "proposal": "1189",
+    "obs_id": "jw01189013001_0310b_00001_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01189013001_0310b_00001_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw01189013001_0310b_00001_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01189013001_0310b_00001_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "HD 19467",
+   "meta_FILTER": "F430M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "HD 19467|NIRCAM|F430M",
+   "sha256": "98752ac7d152f926d729a407844ce7cb2c37891e906f26f62cbf1f770af0c7c0",
+   "bytes": 2136960,
+   "published_utc": null
+  },
+  "jw01189013001_03103_00001_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 35.1,
+   "analyzed_utc": "2026-10-24T23:04:01.064389+00:00",
+   "analysis": "analyses/2026/10/24/jw01189013001_03103_00001_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw01189013001_03103_00001_nrcalong_rate.fits",
+    "size_mb": 2.035,
+    "uri": "mast:JWST/product/jw01189013001_03103_00001_nrcalong_rate.fits",
+    "proposal": "1189",
+    "obs_id": "jw01189013001_03103_00001_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01189013001_03103_00001_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw01189013001_03103_00001_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01189013001_03103_00001_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "HD 19467",
+   "meta_FILTER": "F250M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "HD 19467|NIRCAM|F250M",
+   "sha256": "dde1956582d2df68888a82154d5d9a85abeb19411207e57fa72a38e71578c0cd",
+   "bytes": 2136960,
+   "published_utc": null
+  },
+  "jw01189012001_03104_00001_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 42.72,
+   "analyzed_utc": "2026-10-24T23:04:11.302006+00:00",
+   "analysis": "analyses/2026/10/24/jw01189012001_03104_00001_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw01189012001_03104_00001_nrcalong_rate.fits",
+    "size_mb": 80.079,
+    "uri": "mast:JWST/product/jw01189012001_03104_00001_nrcalong_rate.fits",
+    "proposal": "1189",
+    "obs_id": "jw01189012001_03104_00001_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01189012001_03104_00001_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw01189012001_03104_00001_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01189012001_03104_00001_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "HD 19467",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "HD 19467|NIRCAM|F335M",
+   "sha256": "3d326bdd833f94d78e9425323fcf19434795ca85c1eb49e99cc19899433c2b75",
+   "bytes": 83972160,
+   "published_utc": null
   }
  },
  "runs": [
-  {
-   "started_utc": "2026-10-22T17:09:17.482633+00:00",
-   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
-   "batch_ran": true,
-   "batch_processed": 6,
-   "pending_before": 10,
-   "published": [
-    "jw06627005001_07101_00009_nrcalong_rate.fits",
-    "jw06627005001_07101_00003_nrcalong_rate.fits"
-   ],
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-22T17:31:48.640975+00:00"
-  },
   {
    "started_utc": "2026-10-22T17:35:22.685456+00:00",
    "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
@@ -2462,9 +2521,36 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T22:43:27.516932+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T23:03:06.288567+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "batch_ran": true,
+   "batch_processed": 3,
+   "pending_before": 4,
+   "analysis_cadence": {
+    "ready": 4,
+    "interval_hours": 6,
+    "publish_due": false,
+    "next_publish_not_before_utc": "2026-10-25T13:56:17.645356+00:00",
+    "refill_due": false,
+    "remaining_batch_bytes": 723507840,
+    "daily_limit": 4
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T23:04:11.651177+00:00"
   }
  ],
- "last_batch_utc": "2026-10-24T19:02:57.320550+00:00",
+ "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
  "news_seen": {
   "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/": {
    "fa": "2026-10-23T10:20:28.932062+00:00",
@@ -3063,10 +3149,10 @@
   "HD 55677|NIRCAM|F480M": "2026-10-24T14:31:49.171014+00:00",
   "HD 218396|NIRCAM|F356W": "2026-10-24T22:43:27.302965+00:00"
  },
- "analysis_refill_attempt_utc": "2026-10-24T19:01:49.583169+00:00",
+ "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-10-24",
-  "bytes": 88246080
+  "bytes": 176492160
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00"
 }
