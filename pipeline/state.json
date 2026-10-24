@@ -1529,18 +1529,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-22T17:35:22.685456+00:00",
-   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
-   "batch_ran": false,
-   "pending_before": 8,
-   "published": [
-    "jw06627005001_07101_00008_nrcalong_rate.fits",
-    "jw04498044001_02107_00002_nrcblong_rate.fits"
-   ],
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-22T18:00:37.758412+00:00"
-  },
-  {
    "started_utc": "2026-10-22T18:01:56.543296+00:00",
    "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
    "batch_ran": false,
@@ -2548,6 +2536,32 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T23:04:11.651177+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T23:37:05.321550+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "batch_ran": false,
+   "pending_before": 4,
+   "analysis_cadence": {
+    "ready": 4,
+    "interval_hours": 6,
+    "publish_due": false,
+    "next_publish_not_before_utc": "2026-10-25T13:56:17.645356+00:00",
+    "refill_due": false,
+    "remaining_batch_bytes": 723507840,
+    "daily_limit": 4
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T23:37:06.620770+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
