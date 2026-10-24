@@ -76,6 +76,14 @@ jobs:
           QAI_MODEL:    ${{ vars.QAI_MODEL }}
         run: python -u pipeline/site_news_fa.py --cap 6
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Materialize fresh website data before site-only CLI upload
+        working-directory: site
+        run: node scripts/build-data.mjs
+
       - name: Commit state + analyses + site caches (ledger + keepalive)
         run: |
           SITE_CHANGED=$(python3 - <<'PY'
@@ -103,7 +111,7 @@ jobs:
           echo "SITE_CHANGED=$SITE_CHANGED"
           git config user.name  "jwst-pipeline-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add pipeline/state.json pipeline/site_sync.json analyses/ pipeline/news_site_fa.json site/data/news_img_cache.json
+          git add pipeline/state.json pipeline/site_sync.json analyses/ pipeline/news_site_fa.json site/data/news_img_cache.json site/data/content.json site/public/img/ site/public/og.jpg
           git commit -m "state: $(date -u +%F-%H:%M) [skip ci]" || echo "no changes"
           git pull --rebase origin main
           git push
@@ -118,6 +126,10 @@ jobs:
           set -o pipefail
           # Only runs when analyses/news actually changed (protects Vercel Hobby 100/day cap).
           npx --yes vercel@latest deploy --prod --yes --token="$VERCEL_TOKEN" --cwd site 2>&1 | tail -25
+
+      - name: Verify live analysis pages and sitemap
+        if: success() && (env.SITE_CHANGED == 'yes' || github.event_name == 'workflow_dispatch')
+        run: python pipeline/verify_site.py
 
       - name: Acknowledge successful website sync
         if: success() && (env.SITE_CHANGED == 'yes' || github.event_name == 'workflow_dispatch')

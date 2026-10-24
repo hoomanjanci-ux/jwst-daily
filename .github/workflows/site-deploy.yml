@@ -55,3 +55,12 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
           npx vercel@latest deploy --prod --yes --token="$VERCEL_TOKEN"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify live analysis pages and sitemap
+        run: |
+          pip install requests
+          python pipeline/verify_site.py

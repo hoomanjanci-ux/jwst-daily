@@ -17,6 +17,9 @@ Owner authorised an automatic, quality-first cadence, not an hourly quota.
 - Existing official-news path is unchanged. Deleted test channel remains banned.
 - Site archive contains both successfully sent texts and JPEG. If official JPEG
   unavailable, use rendered FITS JPEG. Use actual publication timestamp on site.
+- Materialize content.json and images from the FULL repository before uploading
+  site/ to Vercel. Otherwise CLI builds silently use an old committed cache.
+- Smoke-test live published analysis pages and sitemap after deployment.
 - `pipeline/site_sync.json` remains pending until successful deployment. A failed
   deploy is visible as CI failure, and the next scheduled pipeline retries sync
   even when no new analysis is published. No Telegram resend is needed.
