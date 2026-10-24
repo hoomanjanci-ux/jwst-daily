@@ -1843,6 +1843,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T01:01:34.100738+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T01:42:48.760496+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://esawebb.org/news/weic2619/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2619/"
+    ],
+    "mode": "archive (labeled)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T01:43:05.916528+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1950,6 +1971,10 @@
   "https://esawebb.org/news/weic2618/": {
    "fa": "2026-10-24T01:01:25.181823+00:00",
    "en": "2026-10-24T01:01:25.181823+00:00"
+  },
+  "https://esawebb.org/news/weic2619/": {
+   "fa": "2026-10-24T01:42:49.362766+00:00",
+   "en": "2026-10-24T01:42:49.362766+00:00"
   }
  },
  "news_archive": {
@@ -2168,6 +2193,15 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-10-01T14:00:00+00:00",
    "ts": "2026-10-24T01:01:25.181823+00:00"
+  },
+  "https://esawebb.org/news/weic2619/": {
+   "title": "تصویربرداری وب: پانورامای خیره‌کننده از زایش ستارگان",
+   "summary": "تلسکوپ فضایی جیمز وب، بزرگ‌ترین تصویر منتشرشده تاکنون از منطقه ستاره‌زای IC 348 را ثبت کرده است. با کمک این تلسکوپ، اخترشناسان در جستجوی کوتوله‌های قهوه‌ای بودند—اجرامی کم‌جرم‌تر از کوچک‌ترین ستاره‌ها. پژوهشگران کوتوله‌های قهوه‌ای با جرمی دو برابر مشتری کشف کردند و دامنه مطالعات این اجرام را به محدوده‌ای نو گستراند.",
+   "link": "https://esawebb.org/news/weic2619/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-09-15T14:00:00+00:00",
+   "ts": "2026-10-24T01:42:49.362766+00:00"
   }
  },
  "news_title_fp": {
@@ -2216,6 +2250,10 @@
    "en": "2026-10-24"
   },
   "46eec26156f3194d": {
+   "fa": "2026-10-24",
+   "en": "2026-10-24"
+  },
+  "962bd9fdbc95615f": {
    "fa": "2026-10-24",
    "en": "2026-10-24"
   }
@@ -2268,6 +2306,10 @@
   [
    "46eec26156f3194d",
    "science release webb provides crash course on planet shattering collisions"
+  ],
+  [
+   "962bd9fdbc95615f",
+   "photo release webb reveals stunning panorama of star formation"
   ]
  ]
 }
