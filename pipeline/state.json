@@ -1864,6 +1864,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T01:43:05.916528+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T05:07:32.988987+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://esawebb.org/news/weic2617/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2617/"
+    ],
+    "mode": "archive (labeled)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T05:08:19.130635+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1975,6 +1996,10 @@
   "https://esawebb.org/news/weic2619/": {
    "fa": "2026-10-24T01:42:49.362766+00:00",
    "en": "2026-10-24T01:42:49.362766+00:00"
+  },
+  "https://esawebb.org/news/weic2617/": {
+   "fa": "2026-10-24T05:07:33.682956+00:00",
+   "en": "2026-10-24T05:07:33.682956+00:00"
   }
  },
  "news_archive": {
@@ -2202,6 +2227,15 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-09-15T14:00:00+00:00",
    "ts": "2026-10-24T01:42:49.362766+00:00"
+  },
+  "https://esawebb.org/news/weic2617/": {
+   "title": "تلسکوپ جیمز وب بقای گرد و غبار و آب را در نزدیکی سیاهچالهٔ مرکزی کهکشان آشکار کرد",
+   "summary": "تیم بین‌المللی ستاره‌شناسان با تلسکوپ فضایی جیمز وب ناسا/ESA/CSA کشف کرده‌اند که گرد و غبار و آب می‌توانند در نزدیکی خارق‌العاده‌ای به سیاهچالهٔ عظیم‌الجثهٔ مرکز کهکشان راه شیری شکل بگیرند و دوام بیاورند. ستارهٔ تکامل‌یافتهٔ IRS 3 با وجود تشعشعات شدید محیطی اطراف قوس A*، همچنان مواد تازه‌ای تولید و محیط پیرامون خود را غنی می‌سازد. این یافته‌ها در گزارش رسمی ESA/Webb در تاریخ ۱۱ اوت ۲۰۲۶ منتشر شد.",
+   "link": "https://esawebb.org/news/weic2617/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-08-11T08:00:00+00:00",
+   "ts": "2026-10-24T05:07:33.682956+00:00"
   }
  },
  "news_title_fp": {
@@ -2254,6 +2288,10 @@
    "en": "2026-10-24"
   },
   "962bd9fdbc95615f": {
+   "fa": "2026-10-24",
+   "en": "2026-10-24"
+  },
+  "5e13542ab5ce515b": {
    "fa": "2026-10-24",
    "en": "2026-10-24"
   }
@@ -2310,6 +2348,10 @@
   [
    "962bd9fdbc95615f",
    "photo release webb reveals stunning panorama of star formation"
+  ],
+  [
+   "5e13542ab5ce515b",
+   "science release webb reveals dust and water surviving in the extreme environment"
   ]
  ]
 }
