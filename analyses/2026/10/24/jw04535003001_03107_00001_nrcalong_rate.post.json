@@ -1,0 +1,11 @@
+{
+ "product": "jw04535003001_03107_00001_nrcalong_rate.fits",
+ "published_utc": "2026-10-24T22:43:26.156564+00:00",
+ "items": {
+  "ai_en": {
+   "caption": "🔭 <b>COSMIC INSIGHT | HD 218396</b>\n<i>JWST captures HD 218396 through its mid-infrared eye.</i>\n\nOn 2025-06-26, JWST observed the star HD 218396 using the NIRCam instrument and the F356W filter. This mid-infrared view allows astronomers to study the star's thermal emission and any surrounding material. The science goals behind this observation, tied to proposal 4535, remain unspecified in the current dataset.\n❓ <b>Why it matters:</b> Each JWST observation of individual stars expands our catalog of mid-infrared measurements, helping refine models of stellar atmospheres and circumstellar environments.\n\n📡 <b>Source:</b> MAST/STScI public data · 📅 2025-06-26\n🏷 Type: AI-assisted analysis\n🔲 Red box: pipeline-selected ROI (deterministic)\n———\n🔭 <b><a href=\"https://t.me/CosmicInsightJWST\">COSMIC INSIGHT</a></b> | See deeper, understand more\n🛰 <a href=\"https://t.me/CosmicNewsJWST\">Official news: COSMIC NEWS</a> ✨\n🌐 <a href=\"https://t.me/CosmicInsightJWST\">t.me/CosmicInsightJWST</a>",
+   "text": "🤖 <b>AI analysis — COSMIC INSIGHT</b>\n<blockquote>On 2025-06-26, JWST observed the star HD 218396 using the NIRCam instrument and the F356W filter. This mid-infrared view allows astronomers to study the star's thermal emission and any surrounding material. The science goals behind this observation, tied to proposal 4535, remain unspecified in the current dataset.</blockquote>\n\n🔎 <b>Facts from metadata:</b>\n🎯 Target: <b>HD 218396</b>\n🛰 Instrument: NIRCAM · filter: F356W\n📅 Obs date: 2025-06-26 · proposal: 4535\n\n⚠️ <i>AI-generated analysis — interpretation of the data, not an official statement; uncertainties matter.</i>\n\n———\n🔭 <b><a href=\"https://t.me/CosmicInsightJWST\">COSMIC INSIGHT</a></b> | See deeper, understand more\n🛰 <a href=\"https://t.me/CosmicNewsJWST\">Official news: COSMIC NEWS</a> ✨\n🌐 <a href=\"https://t.me/CosmicInsightJWST\">t.me/CosmicInsightJWST</a>",
+   "generator": "ai"
+  }
+ }
+}

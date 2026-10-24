@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T22:10:07.403Z",
+ "generated_utc": "2026-10-24T22:43:28.870Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -23,6 +23,23 @@
  },
  "analyses": [
   {
+   "slug": "jw04535003001-03107-00001-nrcalong-rate",
+   "product": "jw04535003001_03107_00001_nrcalong_rate.fits",
+   "published_utc": "2026-10-24T22:43:26.156564+00:00",
+   "target": "HD 218396",
+   "instrument": "NIRCAM",
+   "detector": "NRCALONG",
+   "filter": "F356W",
+   "obs_date": "2025-06-26",
+   "proposal": "4535",
+   "score": 43.59,
+   "quality_score": 78.43,
+   "image": "/img/jw04535003001-03107-00001-nrcalong-rate.jpg",
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": false
+  },
+  {
    "slug": "jw06627005001-07101-00006-nrcalong-rate",
    "product": "jw06627005001_07101_00006_nrcalong_rate.fits",
    "published_utc": "2026-10-24T19:02:57.181554+00:00",
@@ -34,23 +51,6 @@
    "proposal": "6627",
    "score": 43.28,
    "quality_score": 75.47,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
-   "slug": "jw04535003001-03107-00001-nrcalong-rate",
-   "product": "jw04535003001_03107_00001_nrcalong_rate.fits",
-   "published_utc": "2026-10-24T19:02:45.160907+00:00",
-   "target": "HD 218396",
-   "instrument": "NIRCAM",
-   "detector": "NRCALONG",
-   "filter": "F356W",
-   "obs_date": "2025-06-26",
-   "proposal": "4535",
-   "score": 43.59,
-   "quality_score": 78.43,
    "image": null,
    "text_fa": null,
    "text_en": null,

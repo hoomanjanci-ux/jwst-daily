@@ -1436,44 +1436,26 @@
    }
   },
   "jw04535003001_03107_00001_nrcalong_rate.fits": {
-   "channels": {},
-   "status": "analyzed",
+   "channels": {
+    "fa_ai": "held (quality gate)",
+    "en_ai": "sent"
+   },
+   "status": "published",
    "score": 43.59,
    "analyzed_utc": "2026-10-24T19:02:45.166020+00:00",
    "analysis": "analyses/2026/10/24/jw04535003001_03107_00001_nrcalong_rate.fits.json",
-   "cand": {
-    "filename": "jw04535003001_03107_00001_nrcalong_rate.fits",
-    "size_mb": 2.035,
-    "uri": "mast:JWST/product/jw04535003001_03107_00001_nrcalong_rate.fits",
-    "proposal": "4535",
-    "obs_id": "jw04535003001_03107_00001_nrcalong",
-    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw04535003001_03107_00001_nrcalong_rate.fits",
-    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw04535003001_03107_00001_nrcalong_rate.fits",
-    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw04535003001_03107_00001_nrcalong_rate.jpg"
-   },
    "meta_TARGNAME": "HD 218396",
    "meta_FILTER": "F356W",
    "meta_INSTRUME": "NIRCAM",
    "combo": "HD 218396|NIRCAM|F356W",
    "sha256": "94ab364c913cef14a2bd442bdd5aba1bbe75819874e557176a4c6dec1ac63939",
    "bytes": 2136960,
-   "published_utc": null
+   "published_utc": "2026-10-24T22:43:26.156564+00:00",
+   "site_archive": "ok",
+   "d1_sync": "ok"
   }
  },
  "runs": [
-  {
-   "started_utc": "2026-10-22T12:52:42.776412+00:00",
-   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
-   "batch_ran": true,
-   "batch_processed": 6,
-   "pending_before": 6,
-   "published": [
-    "jw01134001005_02105_00001_nrcblong_rate.fits",
-    "jw01163002001_03102_00001_nrca3_rate.fits"
-   ],
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-22T12:55:04.229595+00:00"
-  },
   {
    "started_utc": "2026-10-22T17:09:17.482633+00:00",
    "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
@@ -2452,6 +2434,34 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T22:10:05.395811+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T22:35:05.220538+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "batch_ran": false,
+   "pending_before": 2,
+   "analysis_cadence": {
+    "ready": 2,
+    "interval_hours": 8,
+    "publish_due": true,
+    "next_publish_not_before_utc": "2026-10-24T22:31:48.414699+00:00",
+    "refill_due": false,
+    "remaining_batch_bytes": 811753920,
+    "daily_limit": 4
+   },
+   "published": [
+    "jw04535003001_03107_00001_nrcalong_rate.fits"
+   ],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T22:43:27.516932+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T19:02:57.320550+00:00",
@@ -3050,12 +3060,13 @@
  "combo_seen": {
   "HD 218396|NIRCAM|F200W": "2026-10-24T13:56:19.126981+00:00",
   "HD 218396|NIRCAM|F444W": "2026-10-24T14:05:02.138260+00:00",
-  "HD 55677|NIRCAM|F480M": "2026-10-24T14:31:49.171014+00:00"
+  "HD 55677|NIRCAM|F480M": "2026-10-24T14:31:49.171014+00:00",
+  "HD 218396|NIRCAM|F356W": "2026-10-24T22:43:27.302965+00:00"
  },
  "analysis_refill_attempt_utc": "2026-10-24T19:01:49.583169+00:00",
  "analysis_byte_budget": {
   "day": "2026-10-24",
   "bytes": 88246080
  },
- "analysis_publish_attempt_utc": "2026-10-24T20:33:57.177713+00:00"
+ "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00"
 }
