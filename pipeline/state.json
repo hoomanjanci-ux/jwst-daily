@@ -1780,6 +1780,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-23T23:02:11.476515+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T00:05:30.031983+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+    ],
+    "en": [
+     "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T00:05:43.991238+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -1875,6 +1896,10 @@
   "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/": {
    "fa": "2026-10-23T23:00:36.708212+00:00",
    "en": "2026-10-23T23:00:36.708212+00:00"
+  },
+  "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/": {
+   "fa": "2026-10-24T00:05:30.496308+00:00",
+   "en": "2026-10-24T00:05:30.496308+00:00"
   }
  },
  "news_archive": {
@@ -2066,6 +2091,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-23T22:37:53+00:00",
    "ts": "2026-10-23T23:00:36.708212+00:00"
+  },
+  "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/": {
+   "title": "پایان مأموریت رصدخانهٔ اسمیت ناسا؛ میراثی از دستاوردهای علمی",
+   "summary": "رصدخانهٔ اسمیت ناسا پس از آنکه ارتفاع مداری‌اش به کمتر از ۲۷۵ کیلومتر کاهش یافت و کشش جوّی مانع از پایدار نگه داشتن نگاه تلسکوپ‌ها شد، مأموریت علمی خود را پایان داد. این فضاپیمای فضایی آخرین مشاهدهٔ خود را در ۲۹ مهر انجام داد و انتظار می‌رود به زودی وارد جوّ زمین شده و بسوزد.",
+   "link": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-23T21:51:19+00:00",
+   "ts": "2026-10-24T00:05:30.496308+00:00"
   }
  },
  "news_title_fp": {
@@ -2104,6 +2138,10 @@
   "6d184d2ca7672425": {
    "fa": "2026-10-23",
    "en": "2026-10-23"
+  },
+  "0669aecfcc0b6025": {
+   "fa": "2026-10-24",
+   "en": "2026-10-24"
   }
  },
  "news_title_recent": [
@@ -2142,6 +2180,10 @@
   [
    "6d184d2ca7672425",
    "nasa s artemis iii mission to test future moon lander operations"
+  ],
+  [
+   "0669aecfcc0b6025",
+   "nasa s swift mission ends leaves behind scientific bonanza"
   ]
  ]
 }
