@@ -185,14 +185,18 @@ def full_report(img8: np.ndarray, roi_score: float, caption: str, payload: dict,
 
 
 def passes_gate(quality: dict) -> bool:
-    """QAI_MIN_SCORE filter - inactive (always True) until the owner sets a threshold."""
+    """Respect the AI assessment when present; otherwise use the image heuristic.
+    A high image score must not override an explicit low text-quality score.
+    """
+    import math
     try:
-        gate = float(os.environ.get("QAI_MIN_SCORE", "0") or 0)
-    except ValueError:
-        return True
-    if gate <= 0:
-        return True
-    ai = quality.get("ai_message") or {}
-    h = quality.get("heuristic") or {}
-    best = max(float(ai.get("score") or 0), float(h.get("score") or 0))
-    return best >= gate
+        gate = float(os.environ.get("QAI_MIN_SCORE", "60") or 60)
+        if not math.isfinite(gate) or gate <= 0:
+            gate = 60.0
+        h = float((quality.get("heuristic") or {}).get("score") or 0)
+        ai = (quality.get("ai_message") or {}).get("score")
+        return (math.isfinite(h) and h >= 40 and
+                (math.isfinite(float(ai)) and float(ai) >= gate if ai is not None
+                 else h >= gate))
+    except (TypeError, ValueError):
+        return False

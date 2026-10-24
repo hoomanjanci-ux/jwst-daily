@@ -1,10 +1,10 @@
 """
 run_daily.py - v0.2 orchestrator (hourly-cron driven, one workflow does everything).
 
-  1) BATCH (only if last batch > batch_gap_hours ago, default ~20h):
+  1) BATCH (adaptive low-watermark refill, bounded budget + 4h backoff):
      discover -> download -> render -> deterministic ROI detection -> score ->
      store TEXT analysis JSON in analyses/ (committed to repo) -> free the FITS.
-  2) PUBLISH (every run): take top-N unpublished analyses by score -> re-download that
+  2) PUBLISH (adaptive 4-8h spacing, max 4/24h): take one ready analysis -> re-download that
      product (fast on the runner; nothing image-like is stored permanently) ->
      build the 4-image album (FITS raw, FITS annotated, official MAST preview JPEG raw,
      preview annotated with the same ROI) -> send FA album + EN album -> mark published.
@@ -34,6 +34,7 @@ import requests
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).parent))
+import cadence  # noqa: E402
 import ai_message  # noqa: E402
 import annotator  # noqa: E402
 import cloudflare  # noqa: E402
@@ -233,7 +234,7 @@ def process_batch(state, max_bytes, max_products, tmp, wall_seconds=2100):
         log(f"BATCH {i}/{len(cands)}: {pid} ({cand['size_mb']:.1f} MB, "
             f"budget {budget/1048576:.0f} MB left, elapsed {elapsed:.0f}s)")
         rec = state["products"].setdefault(pid, {"channels": {}})
-        if rec.get("status") in ("analyzed", "published_test", "published"):
+        if rec.get("status") in ("analyzed", "published_test", "published", "quality_held", "duplicate_sha"):
             continue
         if cand["size_mb"] * 1048576 > budget:
             continue
@@ -251,6 +252,8 @@ def process_batch(state, max_bytes, max_products, tmp, wall_seconds=2100):
             log(f"BATCH: download FAILED {pid}: {type(e).__name__}")
             continue
         budget -= n
+        cadence.account_bytes(state, n)
+        save_state(state)
         try:
             meta, raw_png, region, score, img8 = _render_and_score(dest, tmp, pid)
             log(f"BATCH: rendered+scored {pid} (score={score})")
@@ -308,7 +311,7 @@ def process_batch(state, max_bytes, max_products, tmp, wall_seconds=2100):
         (adir / f"{pid}.json").write_text(
             json.dumps(analysis, ensure_ascii=False, indent=1), encoding="utf-8")
         rec.update({
-            "status": "analyzed", "score": score,
+            "status": "analyzed", "score": score, "analyzed_utc": _iso_now(),
             "analysis": f"analyses/{day}/{pid}.json",
             "cand": {"filename": pid, "size_mb": cand["size_mb"], "uri": cand["uri"],
                      "proposal": str(cand.get("proposal") or ""),
@@ -461,7 +464,7 @@ def publish_one(pid, state, token, targets, tmp):
                 if ck not in qcache:
                     qcache[ck] = quality.full_report(
                         np.asarray(Image.open(imgs[0]).convert("L")),
-                        rec.get("score") or 0, cap, sci_payload, raw_png)
+                        rec.get("score") or 0, cap + "\n\n" + txt, sci_payload, raw_png)
                 q = qcache[ck]
                 q["post_generator"] = _gen  # 'ai' | 'template' - style audit trail
                 if not quality.passes_gate(q):
@@ -498,10 +501,19 @@ def publish_one(pid, state, token, targets, tmp):
                     doc["items"][f"{k_}_{l_}"] = {"caption": c_, "text": t_, "generator": g_}
                 (arch_dir / (Path(pid).stem + ".post.json")).write_text(
                     json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+                image_path = arch_dir / (Path(pid).stem + ".jpg")
                 if ok_prev and prev.exists():
-                    (arch_dir / (Path(pid).stem + ".jpg")).write_bytes(prev.read_bytes())
-            except Exception:
-                pass
+                    image_path.write_bytes(prev.read_bytes())
+                else:
+                    with Image.open(raw_png) as im:
+                        im.convert("RGB").save(image_path, "JPEG", quality=90)
+                rec["site_archive"] = "ok"
+                (ROOT / "site_sync.json").write_text(
+                    json.dumps({"pending": True, "product": pid, "utc": _iso_now()}),
+                    encoding="utf-8")
+            except Exception as e:
+                rec["site_archive"] = f"error: {type(e).__name__}"
+                log(f"SITE-ARCHIVE ERROR {pid}: {type(e).__name__}")
             if cloudflare.configured():  # D1 mirror (non-blocking, owner phase-2)
                 try:
                     qlog = rec.get("quality_log") or {}
@@ -532,6 +544,10 @@ def publish_one(pid, state, token, targets, tmp):
             save_state(state)
             log(f"PUBLISH {pid}: ALL targets unverified -> parked as publish_unverified "
                 f"(never auto-resent; manual review required)")
+        if results and all(str(v).startswith("held (quality") for v in results.values()):
+            rec["status"] = "quality_held"
+            rec.pop("publish_intent", None)
+            save_state(state)
         return False
     except Exception as e:  # noqa: BLE001
         rec["last_error"] = f"publish: {type(e).__name__}: {e}"
@@ -547,26 +563,24 @@ def run(max_bytes=1_100_000_000, max_products=6, publish_count=2, batch_gap_hour
     tmp = Path(tempfile.mkdtemp(prefix="jwst_"))
     summary = {"started_utc": _iso_now(), "mode": mode.status_line()}
     try:
-        need_batch = True
-        if state.get("last_batch_utc"):
-            try:
-                need_batch = (datetime.now(timezone.utc)
-                              - datetime.fromisoformat(state["last_batch_utc"])
-                              > timedelta(hours=batch_gap_hours))
-            except Exception:
-                need_batch = True
+        def ready_count():
+            return sum(r.get("status") == "analyzed" and not _combo_blocked(state, r)
+                       for r in state["products"].values())
+
+        before = cadence.plan(state, ready_count())
+        need_batch = before["refill_due"]
         summary["batch_ran"] = bool(need_batch)
         if need_batch:
-            wall = int(os.environ.get("BATCH_WALL_MINUTES", "35")) * 60
-            processed, natural = process_batch(state, max_bytes, max_products, tmp,
-                                               wall_seconds=wall)
+            # Persist BEFORE a network call: outages cannot hammer MAST every cron.
+            state["analysis_refill_attempt_utc"] = _iso_now()
+            save_state(state)
+            wall = int(os.environ.get("BATCH_WALL_MINUTES", "20")) * 60
+            processed, natural = process_batch(
+                state, min(max_bytes, before["remaining_batch_bytes"]),
+                min(max_products, max(0, 6 - ready_count())), tmp, wall_seconds=wall)
             summary["batch_processed"] = processed
-            # last_batch updates ONLY on a real completion; a discovery failure
-            # must be retried by the NEXT hourly run (publish still runs now).
             if natural:
                 state["last_batch_utc"] = _iso_now()
-            else:
-                summary["batch_retry_next_run"] = True
 
         all_pending = [(pid, rec.get("score") or 0)
                        for pid, rec in state["products"].items()
@@ -583,19 +597,22 @@ def run(max_bytes=1_100_000_000, max_products=6, publish_count=2, batch_gap_hour
                 f"{[p for p, _s in blocked]}")
         ai_only = mode.ai_targets()
         summary["pending_before"] = len(pending)
-        log(f"PUBLISH: {len(pending)} analyzed products pending, "
-            f"publishing top {min(publish_count, len(pending))} -> "
-            f"{[t[0] for t in ai_only]}")
+        decision = cadence.plan(state, len(pending))
+        summary["analysis_cadence"] = decision
+        log(f"PUBLISH: ready={len(pending)} due={decision['publish_due']} "
+            f"gap={decision['interval_hours']}h (maximum one product per wake-up)")
         published = []
-        if token and ai_only:
-            for pid, _s in pending[:publish_count]:
+        if token and ai_only and decision["publish_due"]:
+            for pid, _s in pending[:1]:
+                state["analysis_publish_attempt_utc"] = _iso_now()
+                save_state(state)
                 log(f"PUBLISH: building album for {pid}")
                 if publish_one(pid, state, token, ai_only, tmp):
                     published.append(pid)
                     log(f"PUBLISH: OK {pid}")
                 else:
-                    log(f"PUBLISH: FAILED {pid} (see ledger last_error)")
-        else:
+                    log(f"PUBLISH: held/failed {pid} (quality or transport; no burst)")
+        elif not token or not ai_only:
             summary["note"] = "publish deferred (no token/AI targets configured)"
         summary["published"] = published
         try:  # official news feeds -> news channels (never breaks the main pipeline)

@@ -1,8 +1,8 @@
 name: jwst-daily
 
 # One hourly cron drives EVERYTHING (public repo => standard runners free & unlimited):
-#   * every hour: publish top-2 pending analyses (4-image album, FA + EN)
-#   * every ~20h: discovery/processing batch inside the 1.1 GB byte budget
+#   * adaptive 4-8h analysis spacing; max 4 products per rolling 24h, no bursts
+#   * low-reserve refill, 4h backoff, 900MB/day successful batch-download budget
 # Scheduled runs may be delayed by GitHub under load (documented); the state ledger +
 # backlog design compensates automatically. workflow_dispatch = manual catch-up.
 # Keepalive: state/analyses commits prevent the 60-day inactivity auto-disable.
@@ -44,7 +44,7 @@ jobs:
       - name: Regression tests (offline channel isolation)
         run: python -m unittest discover -s tests -v
 
-      - name: Run pipeline (batch if due -> publish top-2 hourly)
+      - name: Run pipeline (adaptive reserve + spaced analysis publishing)
         env:
           PYTHONUNBUFFERED: "1"   # live logs: 2026-10-23 batch died silent (stdout block-buffered)
           TG_BOT_TOKEN:    ${{ secrets.TG_BOT_TOKEN }}
@@ -59,15 +59,14 @@ jobs:
           QAI_API_KEY:   ${{ secrets.QAI_API_KEY }}
           QAI_MODEL:     ${{ vars.QAI_MODEL }}
           QAI_VISION_MODEL: ${{ vars.QAI_VISION_MODEL }}
-          QAI_MIN_SCORE: ${{ vars.QAI_MIN_SCORE }}       # 0 = quality recorded only (test phase)
+          QAI_MIN_SCORE: "60"  # real publication gate; no lowering to fill a slot
           CF_ACCOUNT_ID:     ${{ secrets.CF_ACCOUNT_ID }}    # Cloudflare D1 - owner provisioning
           CF_API_TOKEN:      ${{ secrets.CF_API_TOKEN }}
           CF_D1_DATABASE_ID: ${{ secrets.CF_D1_DATABASE_ID }}
           MAX_BYTES: "450000000"           # 2026-10-23: 1.1GB blew the old 120-min cap on a slow MAST day; 450MB fits comfortably
-          MAX_PRODUCTS: "3"                # bounded batch: 3 products per ~20h cycle
-          PUBLISH_COUNT: "2"               # mission spec: 2 selected items per hour
-          BATCH_GAP_HOURS: "20"
-          BATCH_WALL_MINUTES: "35"         # batch NEVER eats the publish window; publish runs every run (fix 2026-10-23)
+          MAX_PRODUCTS: "3"                # refill at most 3 products; reserve capped at 6
+          PUBLISH_COUNT: "1"               # cadence.py controls when; never burst
+          BATCH_WALL_MINUTES: "20"         # batch NEVER eats the publish window; publish runs every run (fix 2026-10-23)
         run: python -u pipeline/run_daily.py --max-bytes $MAX_BYTES --max-products $MAX_PRODUCTS
 
       - name: Website Persian news translations (owner 2026-10-24, bounded)
@@ -85,6 +84,11 @@ jobs:
               ["git", "status", "--porcelain",
                "analyses/", "pipeline/news_site_fa.json", "site/data/news_img_cache.json"],
               text=True).strip()
+          pending = False
+          try:
+              pending = bool(json.load(open("pipeline/site_sync.json")).get("pending"))
+          except Exception:
+              pass
           pub = False
           try:
               s = json.load(open("pipeline/state.json", encoding="utf-8"))
@@ -92,21 +96,20 @@ jobs:
               pub = bool(r.get("published") or (r.get("news") or {}).get("fa"))
           except Exception:
               pass
-          print("yes" if (st or pub) else "no")
+          print("yes" if (st or pub or pending) else "no")
           PY
           )
           echo "SITE_CHANGED=$SITE_CHANGED" >> "$GITHUB_ENV"
           echo "SITE_CHANGED=$SITE_CHANGED"
           git config user.name  "jwst-pipeline-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add pipeline/state.json analyses/ pipeline/news_site_fa.json site/data/news_img_cache.json
+          git add pipeline/state.json pipeline/site_sync.json analyses/ pipeline/news_site_fa.json site/data/news_img_cache.json
           git commit -m "state: $(date -u +%F-%H:%M) [skip ci]" || echo "no changes"
-          git pull --rebase origin main || true
+          git pull --rebase origin main
           git push
 
       - name: Deploy website to Vercel (auto when content changed, owner 2026-10-24)
         if: success() && (env.SITE_CHANGED == 'yes' || github.event_name == 'workflow_dispatch')
-        continue-on-error: true
         env:
           VERCEL_TOKEN:      ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID:     ${{ secrets.VERCEL_ORG_ID }}
@@ -115,6 +118,22 @@ jobs:
           set -o pipefail
           # Only runs when analyses/news actually changed (protects Vercel Hobby 100/day cap).
           npx --yes vercel@latest deploy --prod --yes --token="$VERCEL_TOKEN" --cwd site 2>&1 | tail -25
+
+      - name: Acknowledge successful website sync
+        if: success() && (env.SITE_CHANGED == 'yes' || github.event_name == 'workflow_dispatch')
+        run: |
+          python - <<'PYCODE'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          Path("pipeline/site_sync.json").write_text(json.dumps({
+              "pending": False, "deployed_utc": datetime.now(timezone.utc).isoformat()
+          }), encoding="utf-8")
+          PYCODE
+          git add pipeline/site_sync.json
+          git commit -m "site: acknowledge content sync [skip ci]" || echo "no changes"
+          git pull --rebase origin main
+          git push
 
       - name: Upload PNG samples as artifact (90-day retention, public repo = free)
         if: always()

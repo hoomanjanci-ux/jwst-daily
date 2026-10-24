@@ -91,8 +91,10 @@ function buildAnalyses() {
       const imgLocal = join(IMG_DIR, slug + ".jpg");
 
       let items = null;
+      let post = null;
       if (existsSync(postPath)) {
-        items = (JSON.parse(readFileSync(postPath, "utf-8")).items) || null;
+        post = JSON.parse(readFileSync(postPath, "utf-8"));
+        items = post.items || null;
       }
       const pick = (k) => {
         if (!items) return null;
@@ -113,7 +115,7 @@ function buildAnalyses() {
       out.push({
         slug,
         product: j.product || stem + ".fits",
-        published_utc: (items && Object.values(items).length && j.ts) || j.ts || null,
+        published_utc: post?.published_utc || j.ts || null,
         target: j.meta?.TARGNAME || null,
         instrument: j.meta?.INSTRUME || null,
         detector: j.meta?.DETECTOR || null,
