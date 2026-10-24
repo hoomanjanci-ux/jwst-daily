@@ -1,7 +1,7 @@
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import HeroTitle from "@/components/HeroTitle";
+import HeroIntro from "@/components/HeroIntro";
 import Feed from "@/components/Feed";
 import Reveal from "@/components/Reveal";
 import TelegramFab from "@/components/TelegramFab";
@@ -39,12 +39,9 @@ export default function HomePage() {
             🌍 چرخش منظومهٔ شمسی در حالت واقعی ←
           </Link>
 
-          {/* hero copy */}
+          {/* hero copy — typed title + typed white subtitle (owner 2026-10-24) */}
           <div className="relative z-10 mx-auto flex w-full max-w-4xl flex-1 flex-col items-center justify-center px-4 pt-28 text-center">
-            <HeroTitle />
-            <p className="mt-7 max-w-2xl text-base leading-8 text-ink/90 sm:text-lg">
-              اخبار رسمی فضا، تحلیل نجومی، داده‌های خام تلسکوپ جیمز، به زبان فارسی.
-            </p>
+            <HeroIntro />
             <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
               <a href="#tazeha" className="btn-cosmic btn-primary">
                 تازه‌های کیهان ↓

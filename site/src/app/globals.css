@@ -112,14 +112,13 @@ h1 { letter-spacing: -0.015em; }
 ::-webkit-scrollbar-thumb { background: #1c2a52; border-radius: 8px; }
 ::-webkit-scrollbar-thumb:hover { background: #2a3d75; }
 
-/* ---------- 3D hero title ---------- */
+/* ---------- 3D hero title (typed — owner 2026-10-24) ---------- */
 .hero-3d-wrap {
   perspective: 900px;
 }
+/* gradient text surface — used by BOTH the invisible sizer and the typed overlay */
 .hero-3d {
   transform-style: preserve-3d;
-  will-change: transform;
-  transition: transform 0.25s ease-out;
   background: linear-gradient(180deg, #ffffff 8%, #cfe4ff 38%, #7db4f8 62%, #4d7fd6 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -130,11 +129,33 @@ h1 { letter-spacing: -0.015em; }
     drop-shadow(0 3px 0 #1b3064)
     drop-shadow(0 4px 0 #142351)
     drop-shadow(0 6px 18px rgba(111, 183, 255, 0.45));
+}
+/* float + tilt live on the <h1> itself (translate composes with the JS tilt transform) */
+.hero-float {
+  will-change: transform, translate;
+  transition: transform 0.25s ease-out;
   animation: heroFloat 7s ease-in-out infinite;
 }
 @keyframes heroFloat {
   0%, 100% { translate: 0 0; }
   50% { translate: 0 -8px; }
+}
+/* soft caret riding the writing head (typed hero) */
+.tw-caret {
+  display: inline-block;
+  width: 0.06em;
+  min-width: 3px;
+  height: 0.85em;
+  margin-inline-start: 0.09em;
+  border-radius: 2px;
+  background: #cfe4ff;
+  box-shadow: 0 0 14px rgba(140, 190, 255, 0.9);
+  vertical-align: -0.06em;
+  animation: twCaret 0.85s step-end infinite;
+}
+@keyframes twCaret {
+  0%, 55% { opacity: 1; }
+  56%, 100% { opacity: 0; }
 }
 
 /* ---------- motion buttons ---------- */
@@ -300,7 +321,8 @@ h1 { letter-spacing: -0.015em; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-3d { animation: none; }
+  .hero-float { animation: none; }
+  .tw-caret { animation: none; }
   .btn-primary::after { animation: none; display: none; }
   .reveal { opacity: 1; transform: none; transition: none; }
   html { scroll-behavior: auto; }

@@ -1,0 +1,57 @@
+name: site-deploy
+
+# Deploys the static site (site/) to Vercel production.
+#
+# How to run: Repo → Actions → site-deploy → Run workflow.
+# It also auto-runs on pushes that touch site/** (note: the hourly
+# pipeline commits are marked [skip ci], so data-only commits do NOT
+# trigger builds — run this workflow manually to publish fresh data,
+# or remove the [skip ci] marker in the pipeline if auto-publish is
+# wanted every hour).
+#
+# Secrets used (repo → Settings → Secrets and variables → Actions):
+#   VERCEL_TOKEN        — Vercel access token (project: nabzekeyhan)
+#   VERCEL_ORG_ID       — team_WiECVk5flojuZQXkCkTgZifM
+#   VERCEL_PROJECT_ID   — prj_m6KVQwTHn3s516Id0IVt52SSbsXY
+# Project link is also committed at site/.vercel/project.json.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/site-deploy.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Build static site (data + Next.js export)
+        working-directory: site
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+
+      - name: Deploy to Vercel (production)
+        working-directory: site
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          npx vercel@latest deploy --prod --yes --token="$VERCEL_TOKEN"

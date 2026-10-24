@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-23T22:57:35.245Z",
+ "generated_utc": "2026-10-24T11:51:55.923Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -347,6 +347,18 @@
  ],
  "news": [
   {
+   "slug": "science-xeoj9a",
+   "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
+   "title_fa": "تصویر روز نجوم: سلفی روسeta",
+   "summary": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rosetta’s Selfie Explanation: […]",
+   "summary_fa": "تصویر روز نجوم (APOD) در ۲۴ اکتبر ۲۰۲۶ با عنوان «سلفی روسeta» منتشر شد. این تصویر به مأموریت روسeta می‌پردازد.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/ESA_Rosetta_Philae_CIVA_141007.png?w=1024&h=1024&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-24T04:05:00.000Z"
+  },
+  {
    "slug": "nasa-a3a2rt",
    "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
    "title_fa": "ناسا و شرکاء، توسعه فرودگر ماه ۲۰۲۸ را تسریع می‌کنند",
@@ -513,18 +525,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-22T17:37:14.000Z"
-  },
-  {
-   "slug": "science-1oln02z",
-   "title": "NASA’s Hubble Charts Path for Roman with Gravitational Lenses",
-   "title_fa": "هابل مسیر رومَن را با عدسی‌های گرانشی نقشه‌برداری کرد",
-   "summary": "This observation is one of many gravitational lensing images taken by Hubble in preparation for science with the new Nancy Grace Roman Space Telescope.",
-   "summary_fa": "این رصد یکی از بسیاری از تصاویر عدسی گرانشی است که توسط تلسکوپ فضایی هابل به‌منظور آماده‌سازی برای انجام پژوهش‌های علمی با تلسکوپ فضایی نانسی گریس رومَن ضبط شده است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_DESI194.5345+03.5358_74_flat_FINALok.tif?w=2048",
-   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-22T16:20:37.000Z"
   },
   {
    "slug": "science-zndkse",
