@@ -1287,27 +1287,21 @@
    "d1_sync": "ok"
   },
   "jw04496027001_03103_00001_nrcalong_rate.fits": {
-   "channels": {},
-   "status": "analyzed",
+   "channels": {
+    "fa_ai": "sent",
+    "en_ai": "sent"
+   },
+   "status": "published",
    "score": 34.54,
    "analysis": "analyses/2026/10/24/jw04496027001_03103_00001_nrcalong_rate.fits.json",
-   "cand": {
-    "filename": "jw04496027001_03103_00001_nrcalong_rate.fits",
-    "size_mb": 2.035,
-    "uri": "mast:JWST/product/jw04496027001_03103_00001_nrcalong_rate.fits",
-    "proposal": "4496",
-    "obs_id": "jw04496027001_03103_00001_nrcalong",
-    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw04496027001_03103_00001_nrcalong_rate.fits",
-    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw04496027001_03103_00001_nrcalong_rate.fits",
-    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw04496027001_03103_00001_nrcalong_rate.jpg"
-   },
    "meta_TARGNAME": "HD 55677",
    "meta_FILTER": "F480M",
    "meta_INSTRUME": "NIRCAM",
    "combo": "HD 55677|NIRCAM|F480M",
    "sha256": "bf7b5996ad2102e8b7fe1a6a643c89f68388ab5f4702e190d031fc6d9925fbb7",
    "bytes": 2136960,
-   "published_utc": null
+   "published_utc": "2026-10-24T14:31:48.414699+00:00",
+   "d1_sync": "ok"
   },
   "jw04535003001_03106_00001_nrcalong_rate.fits": {
    "channels": {
@@ -2123,6 +2117,25 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T14:05:03.197845+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T14:24:22.837540+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "batch_ran": false,
+   "pending_before": 1,
+   "published": [
+    "jw04496027001_03103_00001_nrcalong_rate.fits"
+   ],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T14:31:49.566892+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T13:48:42.474316+00:00",
@@ -2720,6 +2733,7 @@
  ],
  "combo_seen": {
   "HD 218396|NIRCAM|F200W": "2026-10-24T13:56:19.126981+00:00",
-  "HD 218396|NIRCAM|F444W": "2026-10-24T14:05:02.138260+00:00"
+  "HD 218396|NIRCAM|F444W": "2026-10-24T14:05:02.138260+00:00",
+  "HD 55677|NIRCAM|F480M": "2026-10-24T14:31:49.171014+00:00"
  }
 }
