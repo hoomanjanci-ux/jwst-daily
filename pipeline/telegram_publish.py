@@ -121,7 +121,6 @@ def send_message(token, chat_id, text, parse_mode="HTML"):
 
 CHANNELS = {  # placeholder targets - real chat IDs come from GitHub Secrets by the owner
     "fa_ai": "TG_CH_FA_AI", "en_ai": "TG_CH_EN_AI",
-    "fa_official": "TG_CH_FA_OFF", "en_official": "TG_CH_EN_OFF",
 }
 
 
@@ -133,7 +132,7 @@ def resolve_chat(env_name):
 
 def publish_to_all(token, png_path, caption_fa, caption_en, analysis_fa, analysis_en,
                    already_sent=None):
-    """Fan-out to the 4 channels; per-channel state kept by the caller (dedup).
+    """Fan-out to the 2 AI channels only; per-channel state kept by the caller (dedup).
     already_sent: set of channel keys already published for this product.
     Channels whose env var is empty/missing are skipped (safe partial rollout)."""
     already_sent = already_sent or set()

@@ -332,6 +332,10 @@ def process_batch(state, max_bytes, max_products, tmp, wall_seconds=2100):
 
 
 def publish_one(pid, state, token, targets, tmp):
+    # Defense at the send boundary: analyses must never reach news/test targets.
+    targets = [t for t in targets if t[0] in ("fa_ai", "en_ai")]
+    if not targets:
+        return False
     rec = state["products"][pid]
     cand = rec.get("cand") or {}
     dest = tmp / pid
@@ -410,9 +414,8 @@ def publish_one(pid, state, token, targets, tmp):
         mock = json.loads(fits2png.analysis_payload(meta))
 
         # Beautiful per-(kind, lang) content (style package 2026-10-23), built ONCE
-        # per product: AI channels get the full labeled analysis, news channels a
-        # data-only note, test channel the full preview. AI narrative is cached per
-        # kind/lang so one product costs at most 4 generator calls, never 4 per channel.
+        # per product: only AI channels receive analyses. Official news is handled
+        # separately by news_rss.publish; there is no test-channel fallback.
         contents: dict[tuple[str, str], tuple[str, str, str]] = {}
 
         def _content(kind: str, lang: str):
@@ -441,8 +444,7 @@ def publish_one(pid, state, token, targets, tmp):
                                  "targets": [k for k, _c, _l in targets]}
         save_state(state)
         for key, chat_id, lang in targets:
-            kind = ("news" if key.endswith("official")
-                    else "ai" if key.endswith("ai") else "test")
+            kind = "ai"
             if prior.get(key) == "sent":  # defense-in-depth: already verified
                 _mark(key, "skipped (already verified sent)")
                 continue
