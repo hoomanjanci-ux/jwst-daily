@@ -2187,6 +2187,23 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T17:02:15.553551+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T18:00:48.534852+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T18:00:49.588389+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T13:48:42.474316+00:00",
