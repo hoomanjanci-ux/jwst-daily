@@ -327,3 +327,37 @@ h1 { letter-spacing: -0.015em; }
   .reveal { opacity: 1; transform: none; transition: none; }
   html { scroll-behavior: auto; }
 }
+
+/* Analysis detail only: wrap long FITS identifiers/URLs instead of widening the
+   RTL layout viewport. Desktop and official-news pages retain their layout. */
+@media (max-width: 767px) {
+  .analysis-detail {
+    width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  .analysis-detail > *,
+  .analysis-detail .article-body,
+  .analysis-detail .meta-table {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .analysis-detail .article-body p { text-align: start; }
+  .analysis-detail .meta-table { table-layout: fixed; }
+  .analysis-detail .meta-table th,
+  .analysis-detail .meta-table td {
+    overflow-wrap: anywhere;
+    min-width: 0;
+  }
+}
+@media (max-width: 560px) {
+  .analysis-detail .meta-table,
+  .analysis-detail .meta-table tbody,
+  .analysis-detail .meta-table tr,
+  .analysis-detail .meta-table th,
+  .analysis-detail .meta-table td {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+}

@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     ? `تحلیل دادهٔ JWST — ${a.target}`
     : `تحلیل دادهٔ جیمز وب — ${a.product}`;
   const desc =
-    (a.text_fa || a.text_en || "").slice(0, 155) ||
+    (a.text_fa || "").slice(0, 155) ||
     `تحلیل هوش مصنوعی راز کیهان از دادهٔ خام ${a.product} رصدشده با دوربین ${instrumentFa(a.instrument)} تلسکوپ جیمز وب.`;
   return {
     title,
@@ -94,8 +94,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     ? `تحلیل دادهٔ JWST — ${a.target}`
     : `تحلیل دادهٔ جیمز وب — ${a.product}`;
   const bodyFa = (a.text_fa || "").trim();
-  const bodyEn = (a.text_en || "").trim();
-  const body = bodyFa || bodyEn;
+  const body = bodyFa;
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -128,7 +127,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   return (
     <>
       <SiteHeader />
-      <main className="mx-auto max-w-4xl px-4 pb-24 pt-28">
+      <main className="analysis-detail mx-auto max-w-4xl px-4 pb-24 pt-28">
         <nav className="mb-6 text-xs text-muted" aria-label="مسیر">
           <Link href="/" className="hover:text-star">خانه</Link>
           <span className="mx-2">/</span>
@@ -153,7 +152,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
         {body ? (
           <article className="article-body mb-10">
-            {(bodyFa || bodyEn).split(/\n{2,}|\n/).map((p, i) =>
+            {bodyFa.split(/\n{2,}|\n/).map((p, i) =>
               p.trim() ? <p key={i}>{p}</p> : null
             )}
           </article>
@@ -162,18 +161,6 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             متن کامل این تحلیل به‌زودی در سایت منتشر می‌شود؛ نسخهٔ کامل آن هم‌اکنون در کانال
             تلگرام «راز کیهان» در دسترس است.
           </p>
-        )}
-
-        {/* English version (secondary, owner: analysis posts exist in both languages) */}
-        {bodyFa && bodyEn && (
-          <section className="mb-10" aria-label="نسخهٔ انگلیسی">
-            <h2 className="sec-title mb-4 text-xl">English version<span className="bar" /></h2>
-            <article className="article-body card-cosmic p-5 sm:p-7" dir="ltr">
-              {bodyEn.split(/\n{2,}|\n/).map((p, i) =>
-                p.trim() ? <p key={i} style={{ textAlign: "start" }}>{p}</p> : null
-              )}
-            </article>
-          </section>
         )}
 
         {/* metadata table */}

@@ -13,7 +13,6 @@ import { siteChannels } from "@/lib/content";
 
 export default function HomePage() {
   const faChans = siteChannels.filter((c) => c.lang === "fa");
-  const enChans = siteChannels.filter((c) => c.lang === "en");
 
   return (
     <>
@@ -86,7 +85,7 @@ export default function HomePage() {
               کانال‌های ما<span className="bar" />
             </h2>
             <p className="mb-10 max-w-2xl text-sm leading-7 text-muted">
-              قلب تپندهٔ این پروژه در تلگرام می‌زند؛ چهار کانال، دو زبان، یک کیهان.
+              اخبار رسمی فضا در «نبض کیهان» و تحلیل داده‌های جیمز وب در «راز کیهان».
             </p>
           </Reveal>
 
@@ -117,25 +116,7 @@ export default function HomePage() {
             ))}
           </div>
 
-          <Reveal className="mt-5">
-            <div className="card-cosmic p-6">
-              <h3 className="mb-1 text-base font-black text-muted">نسخه‌های انگلیسی</h3>
-              <p className="mb-4 text-sm text-muted">برای مخاطبان جهانی — همان محتوا، به انگلیسی.</p>
-              <div className="flex flex-wrap gap-3">
-                {enChans.map((c) => (
-                  <a
-                    key={c.id}
-                    href={`https://t.me/${c.handle}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-cosmic btn-ghost !py-2 text-sm"
-                  >
-                    {c.name} <span className="text-xs opacity-60" dir="ltr">@{c.handle}</span>
-                  </a>
-                ))}
-              </div>
-            </div>
-          </Reveal>
+
         </section>
       </main>
 

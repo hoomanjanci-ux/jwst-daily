@@ -57,7 +57,7 @@ export const analysesWithText = analyses.filter((a) => a.text_fa || a.text_en);
 
 export const news: NewsItem[] = data.news || [];
 
-export const siteChannels: Channel[] = data.site?.channels || [];
+export const siteChannels: Channel[] = (data.site?.channels || []).filter((c) => c.lang === "fa");
 
 export const faChannels = siteChannels.filter((c) => c.lang === "fa");
 

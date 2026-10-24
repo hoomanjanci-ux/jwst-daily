@@ -51,8 +51,6 @@ const FEEDS = [
 const CHANNELS = [
   { id: "fa_news", name: "نبض کیهان", handle: "NabzeKeyhan1", lang: "fa", kind: "news", desc: "اخبار رسمی فضا از ناسا و اسا — به فارسی" },
   { id: "fa_ai", name: "راز کیهان", handle: "RazKeyhan", lang: "fa", kind: "analysis", desc: "تحلیل هوش مصنوعی از داده‌های خام جیمز وب" },
-  { id: "en_news", name: "COSMIC NEWS", handle: "CosmicNewsJWST", lang: "en", kind: "news", desc: "Official space news, in English" },
-  { id: "en_ai", name: "COSMIC INSIGHT", handle: "CosmicInsightJWST", lang: "en", kind: "analysis", desc: "AI analysis of raw JWST data, in English" },
 ];
 
 const slugify = (s) => s.toLowerCase().replace(/\.fits$/i, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
@@ -110,7 +108,7 @@ function buildAnalyses() {
       }
 
       const text_fa = pick("fa");
-      const text_en = pick("en");
+      const text_en = null; // Persian site: English publication stays in Telegram only.
 
       out.push({
         slug,

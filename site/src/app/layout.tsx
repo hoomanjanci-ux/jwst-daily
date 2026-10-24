@@ -68,12 +68,10 @@ const orgJsonLd = {
       "@id": SITE_URL + "/#org",
       name: "نبض کیهان",
       url: SITE_URL,
-      description: "اخبار فضا و تحلیل داده‌های جیمز وب به فارسی و انگلیسی",
+      description: "اخبار فضا و تحلیل داده‌های جیمز وب به فارسی",
       sameAs: [
         "https://t.me/NabzeKeyhan1",
         "https://t.me/RazKeyhan",
-        "https://t.me/CosmicNewsJWST",
-        "https://t.me/CosmicInsightJWST",
       ],
     },
   ],
