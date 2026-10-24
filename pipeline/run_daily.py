@@ -333,7 +333,7 @@ def process_batch(state, max_bytes, max_products, tmp, wall_seconds=2100):
 
 def publish_one(pid, state, token, targets, tmp):
     # Defense at the send boundary: analyses must never reach news/test targets.
-    targets = [t for t in targets if t[0] in ("fa_ai", "en_ai")]
+    targets = [t for t in targets if t[0] in ("fa_ai", "en_ai") and t[1] != "-1004335173102"]
     if not targets:
         return False
     rec = state["products"][pid]
@@ -412,6 +412,10 @@ def publish_one(pid, state, token, targets, tmp):
 
         prop = str(cand.get("proposal") or meta.get("PROPOSID") or "")
         mock = json.loads(fits2png.analysis_payload(meta))
+        sci_payload = {k: v for k, v in mock.items()
+                       if k not in ("mock", "warning", "note") and v is not None}
+        if prop and not sci_payload.get("proposal_id"):
+            sci_payload["proposal_id"] = prop
 
         # Beautiful per-(kind, lang) content (style package 2026-10-23), built ONCE
         # per product: only AI channels receive analyses. Official news is handled
@@ -421,7 +425,7 @@ def publish_one(pid, state, token, targets, tmp):
         def _content(kind: str, lang: str):
             ck = (kind, lang)
             if ck not in contents:
-                contents[ck] = ai_message.build_post(meta, prop, mock, kind, lang)
+                contents[ck] = ai_message.build_post(meta, prop, sci_payload, kind, lang)
             return contents[ck]
 
         results = {}
@@ -457,14 +461,14 @@ def publish_one(pid, state, token, targets, tmp):
                 if ck not in qcache:
                     qcache[ck] = quality.full_report(
                         np.asarray(Image.open(imgs[0]).convert("L")),
-                        rec.get("score") or 0, cap, mock, raw_png)
+                        rec.get("score") or 0, cap, sci_payload, raw_png)
                 q = qcache[ck]
                 q["post_generator"] = _gen  # 'ai' | 'template' - style audit trail
                 if not quality.passes_gate(q):
                     _mark(key, "held (quality gate)")
                     rec.setdefault("quality_log", {})[key] = q
                     continue
-                log(f"PUBLISH {pid}: sending album+text to {key} ({chat_id})")
+                log(f"PUBLISH {pid}: sending album+text to {key}")
                 telegram_publish.send_album(token, chat_id, imgs, cap)
                 telegram_publish.send_message(token, chat_id, txt)
                 _mark(key, "sent")
@@ -481,11 +485,7 @@ def publish_one(pid, state, token, targets, tmp):
         any_sent_now = any(v == "sent" for v in results.values())
         if any_sent_now or verified_sent:  # verified_sent: prior-run sends count too
             rec.pop("publish_intent", None)
-            effective_sent = ({k for k, v in results.items() if v == "sent"}
-                              or verified_sent)
-            rec["status"] = ("published_test"
-                             if all(k.startswith("test") for k in effective_sent)
-                             else "published")
+            rec["status"] = "published"
             rec["published_utc"] = rec.get("published_utc") or _iso_now()
             # SITE-ARCHIVE (owner-approved 2026-10-23, future posts only): persist the
             # rendered Telegram content + preview image next to the analysis JSON so the
@@ -581,21 +581,22 @@ def run(max_bytes=1_100_000_000, max_products=6, publish_count=2, batch_gap_hour
             summary["combo_cooldown_blocked"] = [p for p, _s in blocked]
             log(f"PUBLISH: {len(blocked)} product(s) held by combo cooldown: "
                 f"{[p for p, _s in blocked]}")
+        ai_only = mode.ai_targets()
         summary["pending_before"] = len(pending)
         log(f"PUBLISH: {len(pending)} analyzed products pending, "
             f"publishing top {min(publish_count, len(pending))} -> "
-            f"{[t[1] for t in targets]}")
+            f"{[t[0] for t in ai_only]}")
         published = []
-        if token and targets:
+        if token and ai_only:
             for pid, _s in pending[:publish_count]:
                 log(f"PUBLISH: building album for {pid}")
-                if publish_one(pid, state, token, targets, tmp):
+                if publish_one(pid, state, token, ai_only, tmp):
                     published.append(pid)
                     log(f"PUBLISH: OK {pid}")
                 else:
                     log(f"PUBLISH: FAILED {pid} (see ledger last_error)")
         else:
-            summary["note"] = "publish deferred (no token/targets configured)"
+            summary["note"] = "publish deferred (no token/AI targets configured)"
         summary["published"] = published
         try:  # official news feeds -> news channels (never breaks the main pipeline)
             summary["news"] = news_rss.publish(state, token, targets)

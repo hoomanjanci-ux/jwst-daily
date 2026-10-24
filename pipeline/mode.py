@@ -31,6 +31,10 @@ PUBLIC_CHANNEL_ENVS = {          # logical key -> env var carrying the chat id/@
     "en_official": "TG_CH_EN_OFF",
 }
 
+# Deleted private test channel ("Nancy test") — hard-blocked so even an accidental
+# env/secret misconfiguration can NEVER route posts to it again (owner 2026-10-24).
+BANNED_CHATS = {"-1004335173102"}
+
 
 def kill_switch() -> bool:
     """True only when the owner explicitly set PROD_UNLOCKED='no' (blocks all sends)."""
@@ -46,13 +50,25 @@ def publish_targets() -> list[tuple[str, str, str]]:
     targets: list[tuple[str, str, str]] = []
     for key, env in PUBLIC_CHANNEL_ENVS.items():
         chat = (os.environ.get(env, "") or "").strip()
-        if chat:
+        if chat and chat not in BANNED_CHATS:
             targets.append((key, chat, "fa" if key.startswith("fa") else "en"))
     return targets
+
+
+def ai_targets() -> list[tuple[str, str, str]]:
+    """Strictly AI-analysis channels ONLY (@RazKeyhan, @CosmicInsightJWST)."""
+    return [(k, c, l) for k, c, l in publish_targets() if k in ("fa_ai", "en_ai")]
+
+
+def official_targets() -> list[tuple[str, str, str]]:
+    """Strictly official NASA/ESA news channels ONLY (@NabzeKeyhan1, @CosmicNewsJWST)."""
+    return [(k, c, l) for k, c, l in publish_targets()
+            if k in ("fa_official", "en_official")]
 
 
 def status_line() -> str:
     """Human-readable mode for the run summary (NEVER includes chat ids:
     state.json is committed to the public repo)."""
     mode = "KILL-SWITCH" if kill_switch() else "LIVE"
-    return f"mode={mode} targets={[k for k, _c, _l in publish_targets()]}"
+    return (f"mode={mode} ai={[k for k, _c, _l in ai_targets()]} "
+            f"official={[k for k, _c, _l in official_targets()]}")

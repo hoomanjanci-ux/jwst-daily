@@ -313,8 +313,8 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
                 if lang == "fa" and fa_rw is None:
                     fa_rw = _fa_rewrite(it)
                 text = _post_text(it, lang, archive=archive, fa_rw=fa_rw)
-                if official:
-                    key = "fa_official" if lang == "fa" else "en_official"
+                key = "fa_official" if lang == "fa" else "en_official"
+                if key in official:
                     chat, _l = official[key]
                     telegram_publish.send_message(token, chat, text)
                     _log(f"SENT {lang} -> {key} | {(it.get('title') or '')[:50]}")

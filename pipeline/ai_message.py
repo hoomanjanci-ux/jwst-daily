@@ -139,8 +139,10 @@ def _ai_narrative(lang: str, payload: dict) -> dict | None:
     """Ask the free model for the 3-part narrative. None on any failure (fail-safe)."""
     prompt = WRITER_PROMPT_FA if lang == "fa" else WRITER_PROMPT_EN
     slim = {k: payload.get(k) for k in
-            ("target", "instrument", "filter", "date_obs", "description",
-             "proposal_id", "exptime", "title") if payload.get(k)}
+            ("telescope", "target", "instrument", "detector", "filter",
+             "obs_date", "date_obs", "exptime_s", "exptime",
+             "proposal_id", "description", "title")
+            if payload.get(k) is not None and payload.get(k) != ""}
     msgs = [{"role": "user", "content": prompt +
              "\n\nRAW PAYLOAD:\n" + json.dumps(slim, ensure_ascii=False)[:1200]}]
     for attempt in (1, 2):
@@ -187,12 +189,16 @@ def _facts_block(lang: str, meta: dict, proposal: str) -> str:
 
 def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str):
     """Return (caption_html, message_html, gen_note) for one channel kind/lang.
-    kind: 'news' | 'ai' | 'test'  (test channel gets the full preview)."""
+    kind: 'news' | 'ai' (no test channel exists anymore; owner directive 2026-10-24)."""
+    kind = "news" if kind == "news" else "ai"
     target = _esc(meta.get("TARGNAME") or "-")
     dateobs = _esc(str(meta.get("DATE-OBS") or "")[:10])
     brand = BRAND.get(lang, BRAND["en"])
 
-    narr = _ai_narrative(lang, payload) or _fallback_narrative(lang, payload)
+    narr_in = dict(payload or {})
+    if proposal and not narr_in.get("proposal_id"):
+        narr_in["proposal_id"] = proposal
+    narr = _ai_narrative(lang, narr_in) or _fallback_narrative(lang, narr_in)
     hook, body, why = narr["hook"], narr["body"], narr.get("why", "")
     gen = narr.get("generator", "template")
 
@@ -205,7 +211,7 @@ def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str):
         ai_label = ("⚠️ <i>این تحلیل با هوش مصنوعی تولید شده است — تفسیر داده است، "
                     "نه گفتهٔ منبع رسمی؛ عدم‌قطعیت‌ها را جدی بگیرید.</i>")
         src = f"📡 <b>منبع:</b> MAST/STScI (دادهٔ عمومی) · 📅 {dateobs}"
-        cap_brand = brand["ai"] if kind in ("ai", "test") else brand["news"]
+        cap_brand = brand["ai"] if kind == "ai" else brand["news"]
         cap_title = f"🔭 <b>{cap_brand} | {target}</b>"
     else:
         tag_news = "🏷 Type: official public data (MAST/STScI) — not analysis"
@@ -216,7 +222,7 @@ def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str):
         ai_label = ("⚠️ <i>AI-generated analysis — interpretation of the data, not an "
                     "official statement; uncertainties matter.</i>")
         src = f"📡 <b>Source:</b> MAST/STScI public data · 📅 {dateobs}"
-        cap_brand = brand["ai"] if kind in ("ai", "test") else brand["news"]
+        cap_brand = brand["ai"] if kind == "ai" else brand["news"]
         cap_title = f"🔭 <b>{cap_brand} | {target}</b>"
 
     # ---- album caption (shared skeleton, kind-specific tag) ----
@@ -224,7 +230,7 @@ def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str):
     if why:
         cap_lines += [("", "❓ <b>چرا مهم است؟</b> " + why if lang == "fa"
                       else "❓ <b>Why it matters:</b> " + why)[1]]
-    cap_lines += ["", src, tag_ai if kind in ("ai", "test") else tag_news, roi_note]
+    cap_lines += ["", src, tag_ai if kind == "ai" else tag_news, roi_note]
     footer = build_footer(lang, kind)  # signature tail: own + companion link
     caption = "\n".join(cap_lines)
     budget = 1020 - len(footer) - 1  # Bot API hard limit 1024; footer is never cut

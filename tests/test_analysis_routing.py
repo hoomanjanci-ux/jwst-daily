@@ -52,5 +52,22 @@ class AnalysisRoutingTests(unittest.TestCase):
         self.assertEqual([c.args[1] for c in photo.call_args_list],
                          ['@RazKeyhan', '@CosmicInsightJWST'])
 
+    def test_banned_deleted_test_chat_id_is_blocked_everywhere(self):
+        with patch.dict(os.environ, {'TG_CH_FA_AI': '-1004335173102',
+                                    'TG_CH_EN_AI': '@CosmicInsightJWST',
+                                    'TG_CH_FA_OFF': '@NabzeKeyhan1'}, clear=True):
+            self.assertEqual(mode.ai_targets(),
+                             [('en_ai', '@CosmicInsightJWST', 'en')])
+            self.assertEqual(mode.official_targets(),
+                             [('fa_official', '@NabzeKeyhan1', 'fa')])
+
+    def test_status_line_never_leaks_chat_ids(self):
+        with patch.dict(os.environ, {'TG_CH_FA_AI': '-1004366817797',
+                                    'TG_CH_FA_OFF': '-1004454481879'}, clear=True):
+            line = mode.status_line()
+            self.assertNotIn('-1004366817797', line)
+            self.assertNotIn('-1004454481879', line)
+
+
 if __name__ == '__main__':
     unittest.main()
