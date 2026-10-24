@@ -1,15 +1,24 @@
 """
-mode.py - HARD TEST-MODE GATE (owner directive, 2026-10-22).
+mode.py - PUBLISH TARGET ROUTING (owner directive 2026-10-24).
 
-Owner instruction (verbatim intent): "فعلاً سیستم خودکار نشه... تو فقط هنوز باید کد
-بنویسی... بعد که چیزهای مورد نیازت کامل فراهم شد، من خودم یه تأییدیه می‌دم".
-=> Publishing may ONLY go to the private test channel until BOTH conditions hold:
-   1) the 4 public-channel secrets are configured, AND
-   2) PROD_UNLOCKED == "yes" (GitHub Actions variable / env), flipped by the owner's
-      explicit go-ahead ("تأییدیه") - never by the pipeline itself.
+Owner instruction (2026-10-24, verbatim intent): "تحلیل‌های هوش مصنوعی به کانال تست
+میره... از این استفاده نکن، خودم هم حذفش می‌کنم... فقط تحلیل‌های هوش مصنوعی، نه
+خبرهای ناسا" — the old private TEST channel is DELETED by the owner and must never
+be used again: no mirror, no preview, nowhere. TG_TEST_CHANNEL is no longer read.
 
-This module is the single source of truth for the gate; run_daily consults it before
-any public-channel send. Fail-safe: on ANY ambiguity -> test-only.
+Routing model (per-channel, independent — bot verified administrator in all four):
+  * fa_ai        -> TG_CH_FA_AI  Persian AI analyses       (@RazKeyhan «راز کیهان»)
+  * en_ai        -> TG_CH_EN_AI  English AI analyses       (@CosmicInsightJWST)
+  * fa_official  -> TG_CH_FA_OFF Persian official NASA/ESA news (@NabzeKeyhan1)
+  * en_official  -> TG_CH_EN_OFF English official news     (@CosmicNewsJWST)
+NASA/ESA official news goes ONLY to the *_official channels; AI analyses ONLY to
+the *_ai channels — the two streams are never mixed (owner rule 2026-10-24).
+
+A channel receives posts as soon as its secret holds a chat id/@username; setting
+the secret IS the owner's go-ahead (only the owner can set repository secrets).
+Kill switch: repository variable PROD_UNLOCKED="no" blocks ALL public sends
+(owner brake, e.g. while on vacation); any other value incl. unset = active.
+Fail-safe: missing/empty env -> that channel is silently skipped, never an error.
 """
 from __future__ import annotations
 
@@ -23,35 +32,27 @@ PUBLIC_CHANNEL_ENVS = {          # logical key -> env var carrying the chat id/@
 }
 
 
-def prod_unlocked() -> bool:
-    """True only when the owner's explicit go-ahead flag is set to 'yes'
-    (case-insensitive; accepts GitHub variable or secret named PROD_UNLOCKED)."""
-    return (os.environ.get("PROD_UNLOCKED", "") or "").strip().lower() == "yes"
-
-
-def public_channels_ready() -> bool:
-    """True when ALL FOUR public channel env vars carry a value."""
-    return all((os.environ.get(env, "") or "").strip()
-               for env in PUBLIC_CHANNEL_ENVS.values())
+def kill_switch() -> bool:
+    """True only when the owner explicitly set PROD_UNLOCKED='no' (blocks all sends)."""
+    return (os.environ.get("PROD_UNLOCKED", "") or "").strip().lower() == "no"
 
 
 def publish_targets() -> list[tuple[str, str, str]]:
     """[(key, chat_id, lang)] the run may publish to RIGHT NOW.
-    Test mode  -> both FA+EN go to TG_TEST_CHANNEL.
-    Prod mode  -> test channel PLUS the 4 public channels (owner still watches the test one).
-    Ambiguity  -> test-only (fail-safe)."""
+    Per-channel: every configured public channel is a target, independently.
+    No test channel exists anymore (owner deleted it, directive 2026-10-24)."""
+    if kill_switch():
+        return []
     targets: list[tuple[str, str, str]] = []
-    test = (os.environ.get("TG_TEST_CHANNEL", "") or "").strip()
-    if test:
-        targets += [("test_fa", test, "fa"), ("test_en", test, "en")]
-    if prod_unlocked() and public_channels_ready():
-        for key, env in PUBLIC_CHANNEL_ENVS.items():
-            chat = (os.environ.get(env, "") or "").strip()
+    for key, env in PUBLIC_CHANNEL_ENVS.items():
+        chat = (os.environ.get(env, "") or "").strip()
+        if chat:
             targets.append((key, chat, "fa" if key.startswith("fa") else "en"))
     return targets
 
 
 def status_line() -> str:
-    mode = "PRODUCTION" if (prod_unlocked() and public_channels_ready()) else "TEST-ONLY"
-    return (f"mode={mode} prod_unlocked={prod_unlocked()} "
-            f"public_channels_ready={public_channels_ready()}")
+    """Human-readable mode for the run summary (NEVER includes chat ids:
+    state.json is committed to the public repo)."""
+    mode = "KILL-SWITCH" if kill_switch() else "LIVE"
+    return f"mode={mode} targets={[k for k, _c, _l in publish_targets()]}"

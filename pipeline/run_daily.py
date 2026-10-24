@@ -156,8 +156,8 @@ def robust_download(url, dest, hard_cap=None, max_seconds=300, attempts=3):
 
 
 def publish_targets():
-    """Delegates to mode.py (owner directive: TEST-ONLY until explicit go-ahead).
-    Public channels activate ONLY with their 4 secrets set AND PROD_UNLOCKED=yes."""
+    """Delegates to mode.py (owner directive 2026-10-24: no test channel anymore;
+    per-channel routing — each configured TG_CH_* secret is a live target)."""
     return mode.publish_targets()
 
 

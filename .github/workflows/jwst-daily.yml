@@ -45,12 +45,13 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"   # live logs: 2026-10-23 batch died silent (stdout block-buffered)
           TG_BOT_TOKEN:    ${{ secrets.TG_BOT_TOKEN }}
-          TG_TEST_CHANNEL: ${{ secrets.TG_TEST_CHANNEL }}
           TG_CH_FA_AI:  ${{ secrets.TG_CH_FA_AI }}
           TG_CH_EN_AI:  ${{ secrets.TG_CH_EN_AI }}
           TG_CH_FA_OFF: ${{ secrets.TG_CH_FA_OFF }}
           TG_CH_EN_OFF: ${{ secrets.TG_CH_EN_OFF }}
-          PROD_UNLOCKED: ${{ vars.PROD_UNLOCKED }}       # owner go-ahead flag (TEST-ONLY until then)
+          # 2026-10-24: TG_TEST_CHANNEL removed (owner deleted the test channel;
+          # mode.py routes per-channel, no test mirror). PROD_UNLOCKED="no" = kill switch.
+          PROD_UNLOCKED: ${{ vars.PROD_UNLOCKED }}
           QAI_BASE_URL:  ${{ secrets.QAI_BASE_URL }}     # free AI API (OpenAI-compatible) - owner provisioning
           QAI_API_KEY:   ${{ secrets.QAI_API_KEY }}
           QAI_MODEL:     ${{ vars.QAI_MODEL }}
@@ -102,14 +103,21 @@ jobs:
             /tmp/jwst_*/*.png
           if-no-files-found: ignore
 
-      - name: Auto-alert on failure (test channel)
+      - name: Auto-alert on failure (owner alert channel, 2026-10-24)
         if: failure()
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
-          TG_TEST_CHANNEL: ${{ secrets.TG_TEST_CHANNEL }}
+          TG_ALERT_CHANNEL: ${{ secrets.TG_ALERT_CHANNEL }}
         run: |
+          # Alert goes to the OWNER alert channel (TG_ALERT_CHANNEL secret).
+          # Delete that secret to silence alerts. Content channels stay clean:
+          # @RazKeyhan gets only AI analyses, official news only the *_OFF channels.
+          if [ -z "$TG_ALERT_CHANNEL" ]; then
+            echo "no TG_ALERT_CHANNEL secret - alert skipped"
+            exit 0
+          fi
           curl -s -X POST "https://api.telegram.org/bot$TG_BOT_TOKEN/sendMessage" \
-            -d chat_id="$TG_TEST_CHANNEL" \
+            -d chat_id="$TG_ALERT_CHANNEL" \
             -d parse_mode="HTML" \
             -d text="⚠️ jwst-daily run FAILED — <a href='${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'>open log</a>" \
             || echo "alert failed (non-blocking)"

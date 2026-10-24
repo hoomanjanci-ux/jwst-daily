@@ -232,14 +232,14 @@ def _post_text(item: dict, lang: str, archive: bool, fa_rw: dict | None = None) 
 
 def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dict:
     """Fetch feeds, dedupe, build FA/EN posts, deliver to the official news targets.
+    Official news NEVER goes to the AI-analysis channels (owner rule 2026-10-24).
     Never raises (all failures are recorded); marks seen ONLY after a real send."""
     out = {"feeds_checked": len(FEEDS), "feed_errors": {}, "fa": [], "en": [],
            "mode": None, "errors": {}}
     max_per_run = int(os.environ.get("NEWS_MAX_PER_RUN", "2"))
     official = {k: (c, l) for k, c, l in targets if k.endswith("official")}
-    tests = [(c, l) for k, c, l in targets if k.startswith("test")]
-    if not token or not (official or tests):
-        return {"note": "news skipped (no token / no targets)"}
+    if not token or not official:
+        return {"note": "news skipped (no token / no official-news channels configured)"}
 
     pool = []
     for f in FEEDS:
@@ -340,10 +340,6 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
                                 state["news_archive"] = dict(keep)
                         except Exception:  # noqa: BLE001 - archive must never break posting
                             pass
-                else:  # TEST-ONLY: preview to the test channel, do NOT mark seen
-                    for c, _l in tests:
-                        telegram_publish.send_message(token, c, text)
-                    out[lang].append("preview:" + it["link"])
             except Exception as e:  # noqa: BLE001 - per-item isolation
                 out["errors"][f"{it['id'][:60]}:{lang}"] = f"{type(e).__name__}: {str(e)[:100]}"
 
