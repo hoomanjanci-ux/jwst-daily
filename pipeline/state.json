@@ -1990,6 +1990,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T10:43:39.044416+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T11:30:48.570433+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://esawebb.org/news/weic2613/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2613/"
+    ],
+    "mode": "archive (labeled)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T11:31:50.864009+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -2125,6 +2146,10 @@
   "https://esawebb.org/news/weic2612/": {
    "fa": "2026-10-24T10:42:58.008306+00:00",
    "en": "2026-10-24T10:42:58.008306+00:00"
+  },
+  "https://esawebb.org/news/weic2613/": {
+   "fa": "2026-10-24T11:30:49.168115+00:00",
+   "en": "2026-10-24T11:30:49.168115+00:00"
   }
  },
  "news_archive": {
@@ -2406,6 +2431,15 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-06-23T14:00:00+00:00",
    "ts": "2026-10-24T10:42:58.008306+00:00"
+  },
+  "https://esawebb.org/news/weic2613/": {
+   "title": "تلسکوپ وب شواهدی از خاستگاه باستانی و دوردست دنباله‌دار بین‌ستاره‌ای 3I/ATLAS یافت",
+   "summary": "دنباله‌دار سوم شناخته‌شده بین‌ستاره‌ای در تاریخ بشر، ترکیب شیمیایی شگفت‌انگیزی دارد. این یافته پرسش‌هایی را درباره میزان فراوانی یا نادر بودن شرایط در منظومه شمسی خودمان برمی‌انگیزد.",
+   "link": "https://esawebb.org/news/weic2613/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-06-22T15:00:00+00:00",
+   "ts": "2026-10-24T11:30:49.168115+00:00"
   }
  },
  "news_title_fp": {
@@ -2482,6 +2516,10 @@
    "en": "2026-10-24"
   },
   "d6b53cb0d1fb52af": {
+   "fa": "2026-10-24",
+   "en": "2026-10-24"
+  },
+  "467708660da84c2d": {
    "fa": "2026-10-24",
    "en": "2026-10-24"
   }
@@ -2562,6 +2600,10 @@
   [
    "d6b53cb0d1fb52af",
    "photo release webb pinpoints millions of stars within cigar galaxy"
+  ],
+  [
+   "467708660da84c2d",
+   "science release webb finds clues to ancient distant origin of comet 3i atlas"
   ]
  ]
 }
