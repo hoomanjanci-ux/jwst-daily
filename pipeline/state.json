@@ -1969,6 +1969,27 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-24T09:52:33.943082+00:00"
+  },
+  {
+   "started_utc": "2026-10-24T10:42:57.506435+00:00",
+   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
+   "batch_ran": false,
+   "pending_before": 0,
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://esawebb.org/news/weic2612/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2612/"
+    ],
+    "mode": "archive (labeled)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-24T10:43:39.044416+00:00"
   }
  ],
  "last_batch_utc": "2026-10-23T17:07:23.058439+00:00",
@@ -2100,6 +2121,10 @@
   "https://esawebb.org/news/weic2614/": {
    "fa": "2026-10-24T09:51:59.670494+00:00",
    "en": "2026-10-24T09:51:59.670494+00:00"
+  },
+  "https://esawebb.org/news/weic2612/": {
+   "fa": "2026-10-24T10:42:58.008306+00:00",
+   "en": "2026-10-24T10:42:58.008306+00:00"
   }
  },
  "news_archive": {
@@ -2372,6 +2397,15 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-07-01T15:00:00+00:00",
    "ts": "2026-10-24T09:51:59.670494+00:00"
+  },
+  "https://esawebb.org/news/weic2612/": {
+   "title": "تلسکوپ جیمز وب میلیون‌ها ستاره در کهکشان سیگار را شناسایی کرد",
+   "summary": "کهکشان مارکیر ۸۲ (M82) با نام سیگار، در فاصله ۱۲ میلیون سال نوری واقع شده و تشکیل ستاره‌های جدید در آن به‌سرعت رخ می‌دهد. تلسکوپ فضایی جیمز وب جزئیاتی inédite از این کهکشان مارپیچی پهن‌نما را آشکار کرده است.",
+   "link": "https://esawebb.org/news/weic2612/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-06-23T14:00:00+00:00",
+   "ts": "2026-10-24T10:42:58.008306+00:00"
   }
  },
  "news_title_fp": {
@@ -2444,6 +2478,10 @@
    "en": "2026-10-24"
   },
   "dbb33e796a2a1cac": {
+   "fa": "2026-10-24",
+   "en": "2026-10-24"
+  },
+  "d6b53cb0d1fb52af": {
    "fa": "2026-10-24",
    "en": "2026-10-24"
   }
@@ -2520,6 +2558,10 @@
   [
    "dbb33e796a2a1cac",
    "science release webb studies how a planet survived death of its star"
+  ],
+  [
+   "d6b53cb0d1fb52af",
+   "photo release webb pinpoints millions of stars within cigar galaxy"
   ]
  ]
 }
