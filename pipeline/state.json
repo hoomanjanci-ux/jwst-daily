@@ -1682,7 +1682,7 @@
   },
   "jw06606007001_18101_00002_nrcblong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "quality_held",
    "score": 40.57,
    "analyzed_utc": "2026-10-25T22:23:37.214360+00:00",
    "analysis": "analyses/2026/10/25/jw06606007001_18101_00002_nrcblong_rate.fits.json",
@@ -1702,7 +1702,59 @@
    "combo": "GSPC P330-E|NIRCAM|F430M",
    "sha256": "6b3bc5777836031ae859f619fa17e7fdf8c9001120904fdab6b685c3167448a2",
    "bytes": 83969280,
-   "published_utc": null
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.512,
+      "brightness": 0.463,
+      "range": 1.0,
+      "roi": 0.4057,
+      "score": 73.27
+     },
+     "ai_message": {
+      "score": 52,
+      "clarity": 55,
+      "accuracy": 45,
+      "appeal": 52,
+      "notes": "Major error: NIRCam called a 'organization' (سازمان). Repetitive phrasing, heavy jargon without explanation for non-experts. Good disclaimer and formatting otherwise."
+     },
+     "ai_image": {
+      "score": 15,
+      "clarity": 20,
+      "accuracy": null,
+      "appeal": 8,
+      "notes": "Raw detector data, not a processed visualization. Extremely noisy, low contrast, and lacks color or detail."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.512,
+      "brightness": 0.463,
+      "range": 1.0,
+      "roi": 0.4057,
+      "score": 73.27
+     },
+     "ai_message": {
+      "score": 38,
+      "clarity": 72,
+      "accuracy": 82,
+      "appeal": 22,
+      "notes": "Metadata is correct but the prose is empty, repetitive filler with no real science. 'AI analysis' frame adds nothing. Needs a concrete finding or mystery to hook readers."
+     },
+     "ai_image": {
+      "score": 15,
+      "clarity": 20,
+      "accuracy": null,
+      "appeal": 8,
+      "notes": "Raw detector data, not a processed visualization. Extremely noisy, low contrast, and lacks color or detail."
+     },
+     "min_score_gate": 60.0
+    }
+   }
   },
   "jw06606003001_02107_00002_nrcalong_rate.fits": {
    "channels": {},
