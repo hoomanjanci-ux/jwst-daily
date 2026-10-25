@@ -1529,30 +1529,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-23T16:05:51.699284+00:00",
-   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
-   "batch_ran": true,
-   "batch_processed": 0,
-   "pending_before": 0,
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/image-article/spirals-edge/",
-     "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/"
-    ],
-    "en": [
-     "https://www.nasa.gov/image-article/spirals-edge/",
-     "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/"
-    ],
-    "mode": "fresh (15 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-23T16:46:05.108183+00:00"
-  },
-  {
    "started_utc": "2026-10-23T16:58:32.506444+00:00",
    "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
    "batch_ran": false,
@@ -2641,6 +2617,32 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-25T05:52:18.262977+00:00"
+  },
+  {
+   "started_utc": "2026-10-25T06:18:39.036923+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "batch_ran": false,
+   "pending_before": 4,
+   "analysis_cadence": {
+    "ready": 4,
+    "interval_hours": 6,
+    "publish_due": false,
+    "next_publish_not_before_utc": "2026-10-25T13:56:17.645356+00:00",
+    "refill_due": false,
+    "remaining_batch_bytes": 900000000,
+    "daily_limit": 4
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-25T06:18:39.349248+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
