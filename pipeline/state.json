@@ -1679,6 +1679,130 @@
    "research_sha256": "d2bdb8a6d60aadfd34c8de90e2d284127828d02cf6cc5ffc5b3ca81c816c93c7",
    "site_archive": "ok",
    "d1_sync": "ok"
+  },
+  "jw06606007001_18101_00002_nrcblong_rate.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 40.57,
+   "analyzed_utc": "2026-10-25T22:23:37.214360+00:00",
+   "analysis": "analyses/2026/10/25/jw06606007001_18101_00002_nrcblong_rate.fits.json",
+   "cand": {
+    "filename": "jw06606007001_18101_00002_nrcblong_rate.fits",
+    "size_mb": 80.077,
+    "uri": "mast:JWST/product/jw06606007001_18101_00002_nrcblong_rate.fits",
+    "proposal": "6606",
+    "obs_id": "jw06606007001_18101_00002_nrcblong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06606007001_18101_00002_nrcblong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06606007001_18101_00002_nrcblong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06606007001_18101_00002_nrcblong_rate.jpg"
+   },
+   "meta_TARGNAME": "GSPC P330-E",
+   "meta_FILTER": "F430M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "GSPC P330-E|NIRCAM|F430M",
+   "sha256": "6b3bc5777836031ae859f619fa17e7fdf8c9001120904fdab6b685c3167448a2",
+   "bytes": 83969280,
+   "published_utc": null
+  },
+  "jw06606003001_02107_00002_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 38.45,
+   "analyzed_utc": "2026-10-25T22:23:48.081971+00:00",
+   "analysis": "analyses/2026/10/25/jw06606003001_02107_00002_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw06606003001_02107_00002_nrcalong_rate.fits",
+    "size_mb": 80.077,
+    "uri": "mast:JWST/product/jw06606003001_02107_00002_nrcalong_rate.fits",
+    "proposal": "6606",
+    "obs_id": "jw06606003001_02107_00002_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06606003001_02107_00002_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06606003001_02107_00002_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06606003001_02107_00002_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "GSPC P330-E",
+   "meta_FILTER": "F430M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "GSPC P330-E|NIRCAM|F430M",
+   "sha256": "02f6d80cd998aceeb63a58ab8786526b4b441423191356c97f460b47276dd950",
+   "bytes": 83969280,
+   "published_utc": null
+  },
+  "jw06606003001_02109_00003_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "quality_held",
+   "score": 44.2,
+   "analyzed_utc": "2026-10-25T22:23:59.410047+00:00",
+   "analysis": "analyses/2026/10/25/jw06606003001_02109_00003_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw06606003001_02109_00003_nrcalong_rate.fits",
+    "size_mb": 80.077,
+    "uri": "mast:JWST/product/jw06606003001_02109_00003_nrcalong_rate.fits",
+    "proposal": "6606",
+    "obs_id": "jw06606003001_02109_00003_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06606003001_02109_00003_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06606003001_02109_00003_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06606003001_02109_00003_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "GSPC P330-E",
+   "meta_FILTER": "F460M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "GSPC P330-E|NIRCAM|F460M",
+   "sha256": "ce394ab24129d5e48bd2af42254096cc95a6a29d9acd56890b37604b0c174a10",
+   "bytes": 83969280,
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6226,
+      "brightness": 0.666,
+      "range": 0.9827,
+      "roi": 0.442,
+      "score": 78.81
+     },
+     "ai_message": {
+      "score": 73,
+      "clarity": 75,
+      "accuracy": 85,
+      "appeal": 62,
+      "notes": "Correct instruments/filter/proposal. Low appeal — admits no science came from the data. Lacks a cosmic narrative or striking JWST hook for non-experts."
+     },
+     "ai_image": {
+      "score": 15,
+      "clarity": 20,
+      "accuracy": null,
+      "appeal": 10,
+      "notes": "Raw unprocessed sensor data, not a rendered visualization. Heavy noise, horizontal banding, no color or composition."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6226,
+      "brightness": 0.666,
+      "range": 0.9827,
+      "roi": 0.442,
+      "score": 78.81
+     },
+     "ai_message": {
+      "score": 38,
+      "clarity": 72,
+      "accuracy": 68,
+      "appeal": 18,
+      "notes": "Empty result post: admits zero detections or measurements. Readers tune in for discoveries, not raw obs logs. Add context—why this target matters, what future science will come from it."
+     },
+     "ai_image": {
+      "score": 15,
+      "clarity": 20,
+      "accuracy": null,
+      "appeal": 10,
+      "notes": "Raw unprocessed sensor data, not a rendered visualization. Heavy noise, horizontal banding, no color or composition."
+     },
+     "min_score_gate": 60.0
+    }
+   }
   }
  },
  "runs": [
@@ -3541,8 +3665,8 @@
  },
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
-  "day": "2026-10-24",
-  "bytes": 176492160
+  "day": "2026-10-25",
+  "bytes": 251907840
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -3629,5 +3753,5 @@
    "status": "waiting"
   }
  },
- "paired_prepare_attempt_utc": "2026-10-25T17:46:22.837848+00:00"
+ "paired_prepare_attempt_utc": "2026-10-25T22:22:50.498313+00:00"
 }

@@ -1,0 +1,56 @@
+{
+ "ts": "2026-10-25T22:23:37.063339+00:00",
+ "product": "jw06606007001_18101_00002_nrcblong_rate.fits",
+ "uri": "mast:JWST/product/jw06606007001_18101_00002_nrcblong_rate.fits",
+ "proposal": "6606",
+ "meta": {
+  "TELESCOP": "JWST",
+  "INSTRUME": "NIRCAM",
+  "DETECTOR": "NRCBLONG",
+  "FILTER": "F430M",
+  "PUPIL": "GRISMC",
+  "DATE-OBS": "2024-07-02",
+  "TARGNAME": "GSPC P330-E",
+  "PROGRAM": "06606",
+  "n_hdus": 7
+ },
+ "region": {
+  "x0": 1503,
+  "y0": 63,
+  "x1": 1665,
+  "y1": 225,
+  "fx0": 0.7339,
+  "fy0": 0.0308,
+  "fx1": 0.813,
+  "fy1": 0.1099,
+  "score": 43.97
+ },
+ "score": 40.57,
+ "quality": {
+  "sharp": 1.0,
+  "contrast": 0.512,
+  "brightness": 0.463,
+  "range": 1.0,
+  "roi": 0.4057,
+  "score": 73.27
+ },
+ "mock_analysis": {
+  "mock": true,
+  "warning": "MOCK ANALYSIS - not a scientific AI result",
+  "telescope": "JWST",
+  "instrument": "NIRCAM",
+  "detector": "NRCBLONG",
+  "filter": "F430M",
+  "exptime_s": null,
+  "target": "GSPC P330-E",
+  "obs_date": "2024-07-02",
+  "proposal_id": null,
+  "note": "Vision model runs OUTSIDE this pipeline (owner-provided API). This stub keeps the release path testable."
+ },
+ "prior_refs": [
+  "jw04498044001_02107_00002_nrcblong_rate.fits"
+ ],
+ "bytes": 83969280,
+ "sha256": "6b3bc5777836031ae859f619fa17e7fdf8c9001120904fdab6b685c3167448a2",
+ "source": "MAST public data"
+}
