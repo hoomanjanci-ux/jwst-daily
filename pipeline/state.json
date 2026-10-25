@@ -101,7 +101,7 @@
    "png_bytes": 3407087,
    "source": "MAST public",
    "uri": "mast:JWST/product/jw06627005001_07101_00006_nrcalong_rate.fits",
-   "status": "analyzed",
+   "status": "quality_held",
    "score": 43.28,
    "analyzed_utc": "2026-10-24T19:02:57.313585+00:00",
    "analysis": "analyses/2026/10/24/jw06627005001_07101_00006_nrcalong_rate.fits.json",
@@ -118,7 +118,59 @@
    "meta_TARGNAME": "2MASS J05220207-6930388",
    "meta_FILTER": "F335M",
    "meta_INSTRUME": "NIRCAM",
-   "combo": "2MASS J05220207-6930388|NIRCAM|F335M"
+   "combo": "2MASS J05220207-6930388|NIRCAM|F335M",
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5806,
+      "brightness": 0.491,
+      "range": 1.0,
+      "roi": 0.4328,
+      "score": 75.47
+     },
+     "ai_message": {
+      "score": 55,
+      "clarity": 50,
+      "accuracy": 65,
+      "appeal": 45,
+      "notes": "Misleading 'AI analysis' claim; excessive jargon; missing data-reduction context; dry presentation."
+     },
+     "ai_image": {
+      "score": 42,
+      "clarity": 55,
+      "accuracy": null,
+      "appeal": 28,
+      "notes": "Raw monochrome data. Needs color calibration, noise reduction, and contrast stretching."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5806,
+      "brightness": 0.491,
+      "range": 1.0,
+      "roi": 0.4328,
+      "score": 75.47
+     },
+     "ai_message": {
+      "score": 38,
+      "clarity": 55,
+      "accuracy": 62,
+      "appeal": 22,
+      "notes": "Dry, repetitive emphasis on unknown nature; reads like a disclaimer, not a post. Technical jargon without payoff. Good metadata structure, but zero narrative hook or excitement. Audience will skim past."
+     },
+     "ai_image": {
+      "score": 18,
+      "clarity": 42,
+      "accuracy": null,
+      "appeal": 12,
+      "notes": "Raw single-frame data. High noise, low contrast, no color. Unpublishable for broadcast without extensive processing."
+     },
+     "min_score_gate": 60.0
+    }
+   }
   },
   "jw07127040001_03105_00001_nrca1_rate.fits": {
    "channels": {
@@ -1456,7 +1508,7 @@
   },
   "jw01189013001_0310b_00001_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "quality_held",
    "score": 43.83,
    "analyzed_utc": "2026-10-24T23:03:51.711987+00:00",
    "analysis": "analyses/2026/10/24/jw01189013001_0310b_00001_nrcalong_rate.fits.json",
@@ -1476,7 +1528,59 @@
    "combo": "HD 19467|NIRCAM|F430M",
    "sha256": "98752ac7d152f926d729a407844ce7cb2c37891e906f26f62cbf1f770af0c7c0",
    "bytes": 2136960,
-   "published_utc": null
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5972,
+      "brightness": 0.5907,
+      "range": 1.0,
+      "roi": 0.4383,
+      "score": 77.38
+     },
+     "ai_message": {
+      "score": 22,
+      "clarity": 30,
+      "accuracy": 45,
+      "appeal": 20,
+      "notes": "Dry, translation-stiff Persian; offers zero scientific insight. Disclaims 'no published results' yet presents as analysis. Misleading to call it an AI analysis of data it admits is blank."
+     },
+     "ai_image": {
+      "score": 42,
+      "clarity": 38,
+      "accuracy": null,
+      "appeal": 30,
+      "notes": "Raw grayscale data with heavy noise; lacks color processing and polish expected of JWST renders."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5972,
+      "brightness": 0.5907,
+      "range": 1.0,
+      "roi": 0.4383,
+      "score": 77.38
+     },
+     "ai_message": {
+      "score": 22,
+      "clarity": 55,
+      "accuracy": 8,
+      "appeal": 15,
+      "notes": "No real science — admits zero results exist. Suspicious \"F430M\" filter (likely non-existent for NIRCam). Detector field uses raw acronym. Target may not even be JWST-observed. Unpublishable as-is."
+     },
+     "ai_image": {
+      "score": 35,
+      "clarity": 30,
+      "accuracy": null,
+      "appeal": 25,
+      "notes": "Raw, grainy, low-contrast. Needs significant processing for public outreach quality."
+     },
+     "min_score_gate": 60.0
+    }
+   }
   },
   "jw01189013001_03103_00001_nrcalong_rate.fits": {
    "channels": {},
@@ -1504,7 +1608,7 @@
   },
   "jw01189012001_03104_00001_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 42.72,
    "analyzed_utc": "2026-10-24T23:04:11.302006+00:00",
    "analysis": "analyses/2026/10/24/jw01189012001_03104_00001_nrcalong_rate.fits.json",
@@ -1524,7 +1628,60 @@
    "combo": "HD 19467|NIRCAM|F335M",
    "sha256": "3d326bdd833f94d78e9425323fcf19434795ca85c1eb49e99cc19899433c2b75",
    "bytes": 83972160,
-   "published_utc": null
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6048,
+      "brightness": 0.4489,
+      "range": 1.0,
+      "roi": 0.4272,
+      "score": 75.24
+     },
+     "ai_message": {
+      "score": 62,
+      "clarity": 70,
+      "accuracy": 72,
+      "appeal": 50,
+      "notes": "Dry observation-log tone; heavy jargon without translation for casual readers; no image attached despite cosmic theme; needs a hook beyond \"we saw one star, here's what we missed.\""
+     },
+     "ai_image": {
+      "score": 12,
+      "clarity": 8,
+      "accuracy": null,
+      "appeal": 5,
+      "notes": "Raw sensor data with heavy noise and banding; requires significant processing before broadcast use."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6048,
+      "brightness": 0.4489,
+      "range": 1.0,
+      "roi": 0.4272,
+      "score": 75.24
+     },
+     "ai_message": {
+      "score": 76,
+      "clarity": 85,
+      "accuracy": 88,
+      "appeal": 58,
+      "notes": "Dry and overly technical for non-experts; lacks wonder/context about why HD 19467 matters. Good structure and accurate metadata. Add brief sci-pop hook."
+     },
+     "ai_image": {
+      "score": 12,
+      "clarity": 18,
+      "accuracy": null,
+      "appeal": 8,
+      "notes": "Raw, unprocessed instrumental data with severe banding noise, no visible astronomical structure, insufficient contrast or color for public release."
+     },
+     "min_score_gate": 60.0
+    }
+   },
+   "paired_ready_utc": "2026-10-25T13:37:49.094161+00:00"
   }
  },
  "runs": [
@@ -3306,5 +3463,28 @@
   "day": "2026-10-24",
   "bytes": 176492160
  },
- "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00"
+ "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
+ "analysis_slots": {
+  "2026-10-25/06": {
+   "start": "2026-10-25T06:00:00+03:30",
+   "end": "2026-10-25T07:00:00+03:30",
+   "status": "missed"
+  },
+  "2026-10-25/09": {
+   "start": "2026-10-25T09:00:00+03:30",
+   "end": "2026-10-25T10:00:00+03:30",
+   "status": "missed"
+  },
+  "2026-10-25/12": {
+   "start": "2026-10-25T12:00:00+03:30",
+   "end": "2026-10-25T13:00:00+03:30",
+   "status": "missed"
+  },
+  "2026-10-25/18": {
+   "start": "2026-10-25T18:00:00+03:30",
+   "end": "2026-10-25T19:00:00+03:30",
+   "status": "waiting"
+  }
+ },
+ "paired_prepare_attempt_utc": "2026-10-25T13:13:22.685366+00:00"
 }
