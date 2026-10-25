@@ -1631,29 +1631,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-23T19:31:24.697482+00:00",
-   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
-   "batch_ran": false,
-   "pending_before": 0,
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
-     "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/"
-    ],
-    "en": [
-     "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
-     "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/"
-    ],
-    "mode": "fresh (5 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-23T19:32:51.316333+00:00"
-  },
-  {
    "started_utc": "2026-10-23T20:07:17.933823+00:00",
    "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
    "batch_ran": false,
@@ -2783,6 +2760,39 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-25T13:37:51.938362+00:00"
+  },
+  {
+   "started_utc": "2026-10-25T14:35:57.532816+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-10-25/18",
+    "published": [
+     "jw01189012001_03104_00001_nrcalong_rate.fits"
+    ],
+    "slot_status": "sent",
+    "ready_pairs": 0,
+    "next_window": "2026-10-26T06:00:00+03:30"
+   },
+   "published": [
+    "jw01189012001_03104_00001_nrcalong_rate.fits"
+   ],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-25T14:36:21.248760+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
