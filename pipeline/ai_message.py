@@ -187,7 +187,7 @@ def _facts_block(lang: str, meta: dict, proposal: str) -> str:
     return "\n".join(rows)
 
 
-def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str):
+def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str, narrative=None):
     """Return (caption_html, message_html, gen_note) for one channel kind/lang.
     kind: 'news' | 'ai' (no test channel exists anymore; owner directive 2026-10-24)."""
     kind = "news" if kind == "news" else "ai"
@@ -198,7 +198,7 @@ def build_post(meta: dict, proposal: str, payload: dict, kind: str, lang: str):
     narr_in = dict(payload or {})
     if proposal and not narr_in.get("proposal_id"):
         narr_in["proposal_id"] = proposal
-    narr = _ai_narrative(lang, narr_in) or _fallback_narrative(lang, narr_in)
+    narr = narrative or _ai_narrative(lang, narr_in) or _fallback_narrative(lang, narr_in)
     hook, body, why = narr["hook"], narr["body"], narr.get("why", "")
     gen = narr.get("generator", "template")
 

@@ -1,10 +1,10 @@
 """
 run_daily.py - v0.2 orchestrator (hourly-cron driven, one workflow does everything).
 
-  1) BATCH (adaptive low-watermark refill, bounded budget + 4h backoff):
+  1) BATCH (prepare a paired bilingual reserve before fixed Tehran windows):
      discover -> download -> render -> deterministic ROI detection -> score ->
      store TEXT analysis JSON in analyses/ (committed to repo) -> free the FITS.
-  2) PUBLISH (adaptive 4-8h spacing, max 4/24h): take one ready analysis -> re-download that
+  2) PUBLISH (06-07, 09-10, 12-13, 18-19 Tehran): one paired product per slot; prepare that
      product (fast on the runner; nothing image-like is stored permanently) ->
      build the 4-image album (FITS raw, FITS annotated, official MAST preview JPEG raw,
      preview annotated with the same ROI) -> send FA album + EN album -> mark published.
@@ -35,6 +35,7 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).parent))
 import cadence  # noqa: E402
+import bilingual_analysis  # noqa: E402
 import ai_message  # noqa: E402
 import annotator  # noqa: E402
 import cloudflare  # noqa: E402
@@ -234,7 +235,7 @@ def process_batch(state, max_bytes, max_products, tmp, wall_seconds=2100):
         log(f"BATCH {i}/{len(cands)}: {pid} ({cand['size_mb']:.1f} MB, "
             f"budget {budget/1048576:.0f} MB left, elapsed {elapsed:.0f}s)")
         rec = state["products"].setdefault(pid, {"channels": {}})
-        if rec.get("status") in ("analyzed", "published_test", "published", "quality_held", "duplicate_sha"):
+        if rec.get("status") in ("analyzed", "ready", "paired_reserved", "publish_unverified", "published_test", "published", "quality_held", "duplicate_sha"):
             continue
         if cand["size_mb"] * 1048576 > budget:
             continue
@@ -420,135 +421,36 @@ def publish_one(pid, state, token, targets, tmp):
         if prop and not sci_payload.get("proposal_id"):
             sci_payload["proposal_id"] = prop
 
-        # Beautiful per-(kind, lang) content (style package 2026-10-23), built ONCE
-        # per product: only AI channels receive analyses. Official news is handled
-        # separately by news_rss.publish; there is no test-channel fallback.
-        contents: dict[tuple[str, str], tuple[str, str, str]] = {}
-
-        def _content(kind: str, lang: str):
-            ck = (kind, lang)
-            if ck not in contents:
-                contents[ck] = ai_message.build_post(meta, prop, sci_payload, kind, lang)
-            return contents[ck]
-
-        results = {}
-        sent_contents: dict[tuple[str, str], tuple[str, str, str]] = {}
-
-        def _mark(key: str, val: str):
-            """Record one target outcome AND commit it immediately (phase-2 of the
-            crash guard: a crash after a real send leaves a durable 'sent' mark,
-            so the next run can never duplicate it)."""
-            results[key] = val
-            rec["channels"] = {**rec.get("channels", {}), key: val}
-            save_state(state)
-
-        # Quality report is memoized per (kind, lang): identical inputs otherwise
-        # cost up to (90s x2 attempts + 240s vision) x 5 targets per product,
-        # which alone could eat the whole job budget (fix 2026-10-23).
-        qcache: dict[tuple[str, str], dict] = {}
-        # Phase-1: publish intent recorded BEFORE any send (see L4 comment above).
-        rec["publish_intent"] = {"utc": _iso_now(),
-                                 "targets": [k for k, _c, _l in targets]}
-        save_state(state)
-        for key, chat_id, lang in targets:
-            kind = "ai"
-            if prior.get(key) == "sent":  # defense-in-depth: already verified
-                _mark(key, "skipped (already verified sent)")
-                continue
-            if key in guarded_keys:  # ambiguous prior attempt -> never resend
-                _mark(key, "crash-guard (unverified prior attempt - never resent)")
-                continue
-            cap, txt, _gen = _content(kind, lang)
-            try:
-                ck = (kind, lang)
-                if ck not in qcache:
-                    qcache[ck] = quality.full_report(
-                        np.asarray(Image.open(imgs[0]).convert("L")),
-                        rec.get("score") or 0, cap + "\n\n" + txt, sci_payload, raw_png)
-                q = qcache[ck]
-                q["post_generator"] = _gen  # 'ai' | 'template' - style audit trail
-                if not quality.passes_gate(q):
-                    _mark(key, "held (quality gate)")
-                    rec.setdefault("quality_log", {})[key] = q
-                    continue
-                log(f"PUBLISH {pid}: sending album+text to {key}")
-                telegram_publish.send_album(token, chat_id, imgs, cap)
-                telegram_publish.send_message(token, chat_id, txt)
-                _mark(key, "sent")
-                log(f"PUBLISH {pid}: SENT -> {key}")
-                sent_contents[(kind, lang)] = (cap, txt, _gen)
-                rec.setdefault("quality_log", {})[key] = q
-                save_state(state)
-            except Exception as e:  # noqa: BLE001 - per-target isolation
-                _mark(key, f"error: {type(e).__name__}: {e}")
-                tb = traceback.format_exc().splitlines()[-4:]
-                rec.setdefault("quality_log", {})[key] = {"error_trace": " | ".join(tb)}
-                print(f"PUBLISH-ERROR {pid} {key}: {traceback.format_exc()}", flush=True)
-        rec["channels"] = {**rec.get("channels", {}), **results}
-        any_sent_now = any(v == "sent" for v in results.values())
-        if any_sent_now or verified_sent:  # verified_sent: prior-run sends count too
-            rec.pop("publish_intent", None)
-            rec["status"] = "published"
-            rec["published_utc"] = rec.get("published_utc") or _iso_now()
-            # SITE-ARCHIVE (owner-approved 2026-10-23, future posts only): persist the
-            # rendered Telegram content + preview image next to the analysis JSON so the
-            # website (site/) can show the full post. Additive-only; must NEVER break
-            # publishing -> fully wrapped in try/except.
-            try:
-                arch_dir = analysis_path.parent
-                doc = {"product": pid, "published_utc": rec["published_utc"], "items": {}}
-                for (k_, l_), (c_, t_, g_) in sent_contents.items():
-                    doc["items"][f"{k_}_{l_}"] = {"caption": c_, "text": t_, "generator": g_}
-                (arch_dir / (Path(pid).stem + ".post.json")).write_text(
-                    json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
-                image_path = arch_dir / (Path(pid).stem + ".jpg")
-                if ok_prev and prev.exists():
-                    image_path.write_bytes(prev.read_bytes())
-                else:
-                    with Image.open(raw_png) as im:
-                        im.convert("RGB").save(image_path, "JPEG", quality=90)
-                rec["site_archive"] = "ok"
-                (ROOT / "site_sync.json").write_text(
-                    json.dumps({"pending": True, "product": pid, "utc": _iso_now()}),
-                    encoding="utf-8")
-            except Exception as e:
-                rec["site_archive"] = f"error: {type(e).__name__}"
-                log(f"SITE-ARCHIVE ERROR {pid}: {type(e).__name__}")
-            if cloudflare.configured():  # D1 mirror (non-blocking, owner phase-2)
-                try:
-                    qlog = rec.get("quality_log") or {}
-                    ai_s = next(((v.get("ai_message") or {}).get("score")
-                                 for v in qlog.values() if isinstance(v, dict)), None)
-                    ok_cf, det_cf = cloudflare.sync_analysis(
-                        pid, rec["published_utc"], meta, rec.get("score") or 0,
-                        ai_s, results, str(rec.get("analysis") or ""))
-                    rec["d1_sync"] = "ok" if ok_cf else f"failed: {str(det_cf)[:80]}"
-                except Exception as e:  # noqa: BLE001 - D1 mirror must never break publish
-                    rec["d1_sync"] = f"error: {type(e).__name__}"
-            # L3 anti-duplicate: register the combo AFTER a real publish, then trim
-            # the record to its permanent dedupe/audit core (ledger stays tiny).
-            state.setdefault("combo_seen", {})[_combo_of(rec)] = _iso_now()
-            _trim_rec(rec)
-            save_state(state)
-            return True
-        # Nothing was sent now and nothing was verified before: if every target is
-        # ambiguous (crash-guard), park the product permanently - owner rule:
-        # resending MIGHT duplicate, and duplicates are absolutely forbidden.
-        actionable = [k for k, v in results.items()
-                      if not str(v).startswith(("crash-guard", "skipped"))]
-        if (not actionable and not verified_sent
-                and any(str(v).startswith("crash-guard") for v in results.values())):
-            rec.pop("publish_intent", None)
-            rec["status"] = "publish_unverified"
-            rec["unverified_utc"] = _iso_now()
-            save_state(state)
-            log(f"PUBLISH {pid}: ALL targets unverified -> parked as publish_unverified "
-                f"(never auto-resent; manual review required)")
-        if results and all(str(v).startswith("held (quality") for v in results.values()):
+        # Prepare and quality-check BOTH versions BEFORE any Telegram request.
+        bundle = bilingual_analysis.build_pair(meta, prop, sci_payload)
+        reports = {}
+        for lang in ("fa", "en"):
+            post = bundle["translations"][lang]
+            reports[lang] = quality.full_report(
+                np.asarray(Image.open(imgs[0]).convert("L")),
+                rec.get("score") or 0, post["text"], sci_payload, raw_png)
+        rec["quality_log"] = reports
+        if not all(quality.passes_gate(q) for q in reports.values()):
             rec["status"] = "quality_held"
             rec.pop("publish_intent", None)
             save_state(state)
-        return False
+            return False
+        cache = ROOT / "analysis_ready" / pid
+        cache.mkdir(parents=True, exist_ok=True)
+        bundle.update(product=pid, meta=meta, proposal=prop,
+                      analysis=rec.get("analysis"), quality=reports, images=[])
+        for i, image in enumerate(imgs):
+            out = cache / f"{i}.jpg"
+            with Image.open(image) as im:
+                im.thumbnail((1600,1600))
+                im.convert("RGB").save(out,"JPEG",quality=90)
+            bundle["images"].append(out.name)
+        (cache / "pair.json").write_text(json.dumps(bundle,ensure_ascii=False),encoding="utf-8")
+        rec["status"] = "ready"
+        rec["paired_ready_utc"] = _iso_now()
+        rec.pop("publish_intent", None)
+        save_state(state)
+        return True
     except Exception as e:  # noqa: BLE001
         rec["last_error"] = f"publish: {type(e).__name__}: {e}"
         return False
@@ -563,60 +465,21 @@ def run(max_bytes=1_100_000_000, max_products=6, publish_count=2, batch_gap_hour
     tmp = Path(tempfile.mkdtemp(prefix="jwst_"))
     summary = {"started_utc": _iso_now(), "mode": mode.status_line()}
     try:
-        def ready_count():
-            return sum(r.get("status") == "analyzed" and not _combo_blocked(state, r)
-                       for r in state["products"].values())
-
-        before = cadence.plan(state, ready_count())
-        need_batch = before["refill_due"]
-        summary["batch_ran"] = bool(need_batch)
-        if need_batch:
-            # Persist BEFORE a network call: outages cannot hammer MAST every cron.
-            state["analysis_refill_attempt_utc"] = _iso_now()
-            save_state(state)
-            wall = int(os.environ.get("BATCH_WALL_MINUTES", "20")) * 60
-            processed, natural = process_batch(
-                state, min(max_bytes, before["remaining_batch_bytes"]),
-                min(max_products, max(0, 6 - ready_count())), tmp, wall_seconds=wall)
-            summary["batch_processed"] = processed
-            if natural:
-                state["last_batch_utc"] = _iso_now()
-
-        all_pending = [(pid, rec.get("score") or 0)
-                       for pid, rec in state["products"].items()
-                       if rec.get("status") == "analyzed"]
-        # L3 anti-duplicate: products whose target/instrument/filter combo was
-        # published within COMBO_MIN_DAYS wait here (never deleted - data kept).
-        blocked = [(pid, s) for pid, s in all_pending
-                   if _combo_blocked(state, state["products"][(pid)])]
-        pending = sorted((p for p in all_pending if p not in blocked),
-                         key=lambda x: -x[1])
-        if blocked:
-            summary["combo_cooldown_blocked"] = [p for p, _s in blocked]
-            log(f"PUBLISH: {len(blocked)} product(s) held by combo cooldown: "
-                f"{[p for p, _s in blocked]}")
-        ai_only = mode.ai_targets()
-        summary["pending_before"] = len(pending)
-        decision = cadence.plan(state, len(pending))
-        summary["analysis_cadence"] = decision
-        log(f"PUBLISH: ready={len(pending)} due={decision['publish_due']} "
-            f"gap={decision['interval_hours']}h (maximum one product per wake-up)")
-        published = []
-        if token and ai_only and decision["publish_due"]:
-            for pid, _s in pending[:1]:
-                state["analysis_publish_attempt_utc"] = _iso_now()
-                save_state(state)
-                log(f"PUBLISH: building album for {pid}")
-                if publish_one(pid, state, token, ai_only, tmp):
-                    published.append(pid)
-                    log(f"PUBLISH: OK {pid}")
-                else:
-                    log(f"PUBLISH: held/failed {pid} (quality or transport; no burst)")
-        elif not token or not ai_only:
-            summary["note"] = "publish deferred (no token/AI targets configured)"
-        summary["published"] = published
+        import analysis_worker
+        try:
+            summary["analysis"] = analysis_worker.cycle(
+                state, token, tmp, sys.modules[__name__], max_bytes, max_products)
+        except Exception as e:
+            summary["analysis"] = {"error_type": type(e).__name__, "published": []}
+            # A problem in analysis must never prevent the existing news poll.
+            if os.environ.get("ANALYSIS_ONLY") == "1":
+                raise
+        summary["published"] = summary["analysis"].get("published", [])
         try:  # official news feeds -> news channels (never breaks the main pipeline)
-            summary["news"] = news_rss.publish(state, token, targets)
+            if os.environ.get("ANALYSIS_ONLY") == "1":
+                summary["news"] = {"note": "not invoked by analysis-only worker"}
+            else:
+                summary["news"] = news_rss.publish(state, token, targets)
         except Exception as e:  # noqa: BLE001
             summary["news"] = {"error": f"{type(e).__name__}: {str(e)[:120]}"}
         summary["cloudflare"] = "configured" if cloudflare.configured() else "off (waiting owner token)"

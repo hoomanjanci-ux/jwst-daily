@@ -1,0 +1,144 @@
+name: jwst-analysis
+
+# Analysis-only worker. Official-news workflow and its schedule are unchanged.
+# Shared concurrency lock serializes durable state writes with jwst-daily.
+# Cron is best-effort: expired windows are audited, never silently caught up.
+
+on:
+  schedule:
+    # Tehran UTC+03:30 (no DST): wake repeatedly inside each one-hour window.
+    - cron: "30,35,40,45,50,55 2,5,8,14 * * *"
+    - cron: "0,5,10,15,20,25 3,6,9,15 * * *"
+    # Prepare bilingual reserve before the windows; never publish out of window.
+    - cron: "0 0,4,7,13,20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write           # commit state.json + analyses/ back
+
+concurrency:
+  group: jwst-daily
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest   # public repo: 4 vCPU / 16 GB RAM / 14 GB SSD (official)
+    timeout-minutes: 45     # 2026-10-23: batch hit 120-min cap when MAST was slow (run 39966020689 cancelled)
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Regression tests (offline channel isolation)
+        run: python -m unittest discover -s tests -v
+
+      - name: Prepare/deliver shared research in fixed Tehran windows
+        env:
+          ANALYSIS_ONLY: "1"
+          PYTHONUNBUFFERED: "1"   # live logs: 2026-10-23 batch died silent (stdout block-buffered)
+          TG_BOT_TOKEN:    ${{ secrets.TG_BOT_TOKEN }}
+          TG_CH_FA_AI:  ${{ secrets.TG_CH_FA_AI }}
+          TG_CH_EN_AI:  ${{ secrets.TG_CH_EN_AI }}
+          # 2026-10-24: TG_TEST_CHANNEL removed (owner deleted the test channel;
+          # mode.py routes per-channel, no test mirror). PROD_UNLOCKED="no" = kill switch.
+          PROD_UNLOCKED: ${{ vars.PROD_UNLOCKED }}
+          QAI_BASE_URL:  ${{ secrets.QAI_BASE_URL }}     # free AI API (OpenAI-compatible) - owner provisioning
+          QAI_API_KEY:   ${{ secrets.QAI_API_KEY }}
+          QAI_MODEL:     ${{ vars.QAI_MODEL }}
+          QAI_VISION_MODEL: ${{ vars.QAI_VISION_MODEL }}
+          QAI_MIN_SCORE: "60"  # real publication gate; no lowering to fill a slot
+          CF_ACCOUNT_ID:     ${{ secrets.CF_ACCOUNT_ID }}    # Cloudflare D1 - owner provisioning
+          CF_API_TOKEN:      ${{ secrets.CF_API_TOKEN }}
+          CF_D1_DATABASE_ID: ${{ secrets.CF_D1_DATABASE_ID }}
+          MAX_BYTES: "450000000"           # 2026-10-23: 1.1GB blew the old 120-min cap on a slow MAST day; 450MB fits comfortably
+          MAX_PRODUCTS: "3"                # refill at most 3 products; reserve capped at 6
+          PUBLISH_COUNT: "1"               # cadence.py controls when; never burst
+          BATCH_WALL_MINUTES: "20"         # batch NEVER eats the publish window; publish runs every run (fix 2026-10-23)
+        run: python -u pipeline/run_daily.py --max-bytes $MAX_BYTES --max-products $MAX_PRODUCTS
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Materialize fresh website data before site-only CLI upload
+        working-directory: site
+        run: node scripts/build-data.mjs
+
+      - name: Commit state + analyses + site caches (ledger + keepalive)
+        run: |
+          SITE_CHANGED=$(python3 - <<'PY'
+          import json, subprocess
+          st = subprocess.check_output(
+              ["git", "status", "--porcelain",
+               "analyses/", "pipeline/news_site_fa.json", "site/data/news_img_cache.json"],
+              text=True).strip()
+          pending = False
+          try:
+              pending = bool(json.load(open("pipeline/site_sync.json")).get("pending"))
+          except Exception:
+              pass
+          pub = False
+          try:
+              s = json.load(open("pipeline/state.json", encoding="utf-8"))
+              r = (s.get("runs") or [{}])[-1]
+              pub = bool(r.get("published") or (r.get("news") or {}).get("fa"))
+          except Exception:
+              pass
+          print("yes" if (st or pub or pending) else "no")
+          PY
+          )
+          echo "SITE_CHANGED=$SITE_CHANGED" >> "$GITHUB_ENV"
+          echo "SITE_CHANGED=$SITE_CHANGED"
+          git config user.name  "jwst-pipeline-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A pipeline/analysis_ready/ pipeline/state.json pipeline/site_sync.json analyses/ pipeline/news_site_fa.json site/data/news_img_cache.json site/data/content.json site/public/img/ site/public/og.jpg
+          git commit -m "state: $(date -u +%F-%H:%M) [skip ci]" || echo "no changes"
+          git pull --rebase origin main
+          git push
+
+      - name: Deploy website to Vercel (auto when content changed, owner 2026-10-24)
+        if: success() && (env.SITE_CHANGED == 'yes' || github.event_name == 'workflow_dispatch')
+        env:
+          VERCEL_TOKEN:      ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID:     ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          set -o pipefail
+          # Only runs when analyses/news actually changed (protects Vercel Hobby 100/day cap).
+          npx --yes vercel@latest deploy --prod --yes --token="$VERCEL_TOKEN" --cwd site 2>&1 | tail -25
+
+      - name: Verify live analysis pages and sitemap
+        if: success() && (env.SITE_CHANGED == 'yes' || github.event_name == 'workflow_dispatch')
+        run: python pipeline/verify_site.py
+
+      - name: Acknowledge successful website sync
+        if: success() && (env.SITE_CHANGED == 'yes' || github.event_name == 'workflow_dispatch')
+        run: |
+          python - <<'PYCODE'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          Path("pipeline/site_sync.json").write_text(json.dumps({
+              "pending": False, "deployed_utc": datetime.now(timezone.utc).isoformat()
+          }), encoding="utf-8")
+          PYCODE
+          git add pipeline/site_sync.json
+          git commit -m "site: acknowledge content sync [skip ci]" || echo "no changes"
+          git pull --rebase origin main
+          git push
+
+      - name: Upload PNG samples as artifact (90-day retention, public repo = free)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: png-samples
+          path: |
+            /tmp/jwst_*/*.png
+          if-no-files-found: ignore
+
