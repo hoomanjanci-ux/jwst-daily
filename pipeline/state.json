@@ -1686,29 +1686,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-23T18:45:58.975599+00:00",
-   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
-   "batch_ran": false,
-   "pending_before": 0,
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
-     "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/"
-    ],
-    "en": [
-     "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
-     "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/"
-    ],
-    "mode": "fresh (7 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-23T18:48:11.540828+00:00"
-  },
-  {
    "started_utc": "2026-10-23T19:31:24.697482+00:00",
    "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
    "batch_ran": false,
@@ -2836,6 +2813,31 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-25T12:44:06.504308+00:00"
+  },
+  {
+   "started_utc": "2026-10-25T13:13:22.684014+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "prepared": 1,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 1,
+    "next_window": "2026-10-25T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "note": "not invoked by analysis-only worker"
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-25T13:37:51.938362+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
