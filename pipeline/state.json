@@ -1529,31 +1529,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-23T17:08:14.060912+00:00",
-   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
-   "batch_ran": false,
-   "pending_before": 1,
-   "published": [
-    "jw06627005001_07101_00004_nrcalong_rate.fits"
-   ],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/blogs/spacestation/2026/10/23/advanced-research-spacewalk-preps-end-week-as-nasa-announces-artemis-status/",
-     "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/"
-    ],
-    "en": [
-     "https://www.nasa.gov/blogs/spacestation/2026/10/23/advanced-research-spacewalk-preps-end-week-as-nasa-announces-artemis-status/",
-     "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/"
-    ],
-    "mode": "fresh (13 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-23T17:50:45.894848+00:00"
-  },
-  {
    "started_utc": "2026-10-23T18:13:32.303543+00:00",
    "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
    "batch_ran": false,
@@ -2672,6 +2647,32 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-25T10:12:47.531506+00:00"
+  },
+  {
+   "started_utc": "2026-10-25T11:08:32.208839+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "batch_ran": false,
+   "pending_before": 4,
+   "analysis_cadence": {
+    "ready": 4,
+    "interval_hours": 6,
+    "publish_due": false,
+    "next_publish_not_before_utc": "2026-10-25T13:56:17.645356+00:00",
+    "refill_due": false,
+    "remaining_batch_bytes": 900000000,
+    "daily_limit": 4
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-25T11:08:32.476432+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
