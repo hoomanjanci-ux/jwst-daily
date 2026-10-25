@@ -1611,80 +1611,22 @@
     "fa_ai": "sent",
     "en_ai": "sent"
    },
-   "status": "paired_reserved",
+   "status": "published",
    "score": 42.72,
    "analyzed_utc": "2026-10-24T23:04:11.302006+00:00",
    "analysis": "analyses/2026/10/24/jw01189012001_03104_00001_nrcalong_rate.fits.json",
-   "cand": {
-    "filename": "jw01189012001_03104_00001_nrcalong_rate.fits",
-    "size_mb": 80.079,
-    "uri": "mast:JWST/product/jw01189012001_03104_00001_nrcalong_rate.fits",
-    "proposal": "1189",
-    "obs_id": "jw01189012001_03104_00001_nrcalong",
-    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01189012001_03104_00001_nrcalong_rate.fits",
-    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw01189012001_03104_00001_nrcalong_rate.fits",
-    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01189012001_03104_00001_nrcalong_rate.jpg"
-   },
    "meta_TARGNAME": "HD 19467",
    "meta_FILTER": "F335M",
    "meta_INSTRUME": "NIRCAM",
    "combo": "HD 19467|NIRCAM|F335M",
    "sha256": "3d326bdd833f94d78e9425323fcf19434795ca85c1eb49e99cc19899433c2b75",
    "bytes": 83972160,
-   "published_utc": null,
-   "quality_log": {
-    "fa": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.6048,
-      "brightness": 0.4489,
-      "range": 1.0,
-      "roi": 0.4272,
-      "score": 75.24
-     },
-     "ai_message": {
-      "score": 62,
-      "clarity": 70,
-      "accuracy": 72,
-      "appeal": 50,
-      "notes": "Dry observation-log tone; heavy jargon without translation for casual readers; no image attached despite cosmic theme; needs a hook beyond \"we saw one star, here's what we missed.\""
-     },
-     "ai_image": {
-      "score": 12,
-      "clarity": 8,
-      "accuracy": null,
-      "appeal": 5,
-      "notes": "Raw sensor data with heavy noise and banding; requires significant processing before broadcast use."
-     },
-     "min_score_gate": 60.0
-    },
-    "en": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.6048,
-      "brightness": 0.4489,
-      "range": 1.0,
-      "roi": 0.4272,
-      "score": 75.24
-     },
-     "ai_message": {
-      "score": 76,
-      "clarity": 85,
-      "accuracy": 88,
-      "appeal": 58,
-      "notes": "Dry and overly technical for non-experts; lacks wonder/context about why HD 19467 matters. Good structure and accurate metadata. Add brief sci-pop hook."
-     },
-     "ai_image": {
-      "score": 12,
-      "clarity": 18,
-      "accuracy": null,
-      "appeal": 8,
-      "notes": "Raw, unprocessed instrumental data with severe banding noise, no visible astronomical structure, insufficient contrast or color for public release."
-     },
-     "min_score_gate": 60.0
-    }
-   },
-   "paired_ready_utc": "2026-10-25T13:37:49.094161+00:00"
+   "published_utc": "2026-10-25T14:36:17.773213+00:00",
+   "paired_ready_utc": "2026-10-25T13:37:49.094161+00:00",
+   "analysis_slot": "2026-10-25/18",
+   "research_sha256": "d2bdb8a6d60aadfd34c8de90e2d284127828d02cf6cc5ffc5b3ca81c816c93c7",
+   "site_archive": "ok",
+   "d1_sync": "ok"
   }
  },
  "runs": [
@@ -3461,7 +3403,8 @@
   "HD 218396|NIRCAM|F200W": "2026-10-24T13:56:19.126981+00:00",
   "HD 218396|NIRCAM|F444W": "2026-10-24T14:05:02.138260+00:00",
   "HD 55677|NIRCAM|F480M": "2026-10-24T14:31:49.171014+00:00",
-  "HD 218396|NIRCAM|F356W": "2026-10-24T22:43:27.302965+00:00"
+  "HD 218396|NIRCAM|F356W": "2026-10-24T22:43:27.302965+00:00",
+  "HD 19467|NIRCAM|F335M": "2026-10-25T14:36:17.773213+00:00"
  },
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
@@ -3488,7 +3431,7 @@
   "2026-10-25/18": {
    "start": "2026-10-25T18:00:00+03:30",
    "end": "2026-10-25T19:00:00+03:30",
-   "status": "reserved",
+   "status": "sent",
    "product": "jw01189012001_03104_00001_nrcalong_rate.fits",
    "delivery": {
     "fa": {
@@ -3529,7 +3472,8 @@
       "utc": "2026-10-25T14:36:16.141821+00:00"
      }
     }
-   }
+   },
+   "completed_utc": "2026-10-25T14:36:17.773213+00:00"
   }
  },
  "paired_prepare_attempt_utc": "2026-10-25T13:13:22.685366+00:00"
