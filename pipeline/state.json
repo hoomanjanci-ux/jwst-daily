@@ -1529,20 +1529,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-23T16:58:43.570051+00:00",
-   "mode": "mode=TEST-ONLY prod_unlocked=False public_channels_ready=False",
-   "batch_ran": true,
-   "batch_processed": 1,
-   "pending_before": 1,
-   "note": "publish deferred (no token/targets configured)",
-   "published": [],
-   "news": {
-    "note": "news skipped (no token / no targets)"
-   },
-   "cloudflare": "off (waiting owner token)",
-   "finished_utc": "2026-10-23T17:07:23.059090+00:00"
-  },
-  {
    "started_utc": "2026-10-23T17:08:14.060912+00:00",
    "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
    "batch_ran": false,
@@ -2656,6 +2642,36 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-25T06:48:18.408727+00:00"
+  },
+  {
+   "started_utc": "2026-10-25T10:12:09.467193+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "batch_ran": false,
+   "pending_before": 4,
+   "analysis_cadence": {
+    "ready": 4,
+    "interval_hours": 6,
+    "publish_due": false,
+    "next_publish_not_before_utc": "2026-10-25T13:56:17.645356+00:00",
+    "refill_due": false,
+    "remaining_batch_bytes": 900000000,
+    "daily_limit": 4
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-25T10:12:47.531506+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -2795,6 +2811,10 @@
   "https://esawebb.org/news/weic2613/": {
    "fa": "2026-10-24T11:30:49.168115+00:00",
    "en": "2026-10-24T11:30:49.168115+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/": {
+   "fa": "2026-10-25T10:12:09.937913+00:00",
+   "en": "2026-10-25T10:12:09.937913+00:00"
   }
  },
  "news_archive": {
@@ -3085,6 +3105,15 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-06-22T15:00:00+00:00",
    "ts": "2026-10-24T11:30:49.168115+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/": {
+   "title": "APOD ۲۵ اکتبر ۲۰۲۶: ماده تاریک در کیهانی شبیه‌سازی‌شده",
+   "summary": "تصویر نجومی روز ناسا به نمایش ماده تاریک در یک جهان شبیه‌سازی‌شده می‌پردازد. توضیحات این تصویر توسط اخترشناسی حرفه‌ای نوشته شده است.",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-25T08:19:48+00:00",
+   "ts": "2026-10-25T10:12:09.937913+00:00"
   }
  },
  "news_title_fp": {
@@ -3167,6 +3196,10 @@
   "467708660da84c2d": {
    "fa": "2026-10-24",
    "en": "2026-10-24"
+  },
+  "b420b17213b32887": {
+   "fa": "2026-10-25",
+   "en": "2026-10-25"
   }
  },
  "news_title_recent": [
@@ -3249,6 +3282,10 @@
   [
    "467708660da84c2d",
    "science release webb finds clues to ancient distant origin of comet 3i atlas"
+  ],
+  [
+   "b420b17213b32887",
+   "apod 2026 october 25 dark matter in a simulated universe"
   ]
  ],
  "combo_seen": {
