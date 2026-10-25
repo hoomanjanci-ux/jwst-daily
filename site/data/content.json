@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-25T21:36:50.076Z",
+ "generated_utc": "2026-10-25T22:35:38.108Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,57 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw06606003001-02109-00003-nrcalong-rate",
+   "product": "jw06606003001_02109_00003_nrcalong_rate.fits",
+   "published_utc": "2026-10-25T22:23:59.245660+00:00",
+   "target": "GSPC P330-E",
+   "instrument": "NIRCAM",
+   "detector": "NRCALONG",
+   "filter": "F460M",
+   "obs_date": "2024-08-18",
+   "proposal": "6606",
+   "score": 44.2,
+   "quality_score": 78.81,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
+  {
+   "slug": "jw06606003001-02107-00002-nrcalong-rate",
+   "product": "jw06606003001_02107_00002_nrcalong_rate.fits",
+   "published_utc": "2026-10-25T22:23:47.931940+00:00",
+   "target": "GSPC P330-E",
+   "instrument": "NIRCAM",
+   "detector": "NRCALONG",
+   "filter": "F430M",
+   "obs_date": "2024-08-18",
+   "proposal": "6606",
+   "score": 38.45,
+   "quality_score": 71.59,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
+  {
+   "slug": "jw06606007001-18101-00002-nrcblong-rate",
+   "product": "jw06606007001_18101_00002_nrcblong_rate.fits",
+   "published_utc": "2026-10-25T22:23:37.063339+00:00",
+   "target": "GSPC P330-E",
+   "instrument": "NIRCAM",
+   "detector": "NRCBLONG",
+   "filter": "F430M",
+   "obs_date": "2024-07-02",
+   "proposal": "6606",
+   "score": 40.57,
+   "quality_score": 73.27,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
   {
    "slug": "jw01189012001-03104-00001-nrcalong-rate",
    "product": "jw01189012001_03104_00001_nrcalong_rate.fits",
@@ -484,54 +535,6 @@
  ],
  "news": [
   {
-   "slug": "science-1yguhfs",
-   "title": "APOD: 2026 October 25 – Dark Matter in a Simulated Universe",
-   "title_fa": "ماده تاریک در جهان شبیه‌سازی‌شده — APOD ۲۵ اکتبر ۲۰۲۶",
-   "summary": "APOD Science APOD APOD: 2026 October 25 – Dark… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Dark Matter […]",
-   "summary_fa": "تصویر روز نجوم (APOD) منتشرشده در ۲۵ اکتبر ۲۰۲۶ به ماده تاریک در یک جهان شبیه‌سازی‌شده می‌پردازد. این تصویر همراه با توضیحی کوتاه از سوی یک اخترشناس حرفه‌ای ارائه می‌شود.",
-   "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2021/october/DarkMatter_KipacAmnh_1200.jpg?w=1200&h=900&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-25T08:19:48.000Z"
-  },
-  {
-   "slug": "science-xeoj9a",
-   "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
-   "title_fa": "تصویر روز نجوم: سلفی روسeta",
-   "summary": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rosetta’s Selfie Explanation: […]",
-   "summary_fa": "تصویر روز نجوم (APOD) در ۲۴ اکتبر ۲۰۲۶ با عنوان «سلفی روسeta» منتشر شد. این تصویر به مأموریت روسeta می‌پردازد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/ESA_Rosetta_Philae_CIVA_141007.png?w=1024&h=1024&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-24T04:05:00.000Z"
-  },
-  {
-   "slug": "nasa-a3a2rt",
-   "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
-   "title_fa": "ناسا و شرکاء، توسعه فرودگر ماه ۲۰۲۸ را تسریع می‌کنند",
-   "summary": "As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have streamlined the designs and changed both concepts of operations for its future crewed landers. Since NASA established initial contracts with Blue Origin and SpaceX […]",
-   "summary_fa": "ناسا در تلاش برای بازگرداندن انسان به سطح ماه و ایجاد حضور بلندمدت در نزدیک‌ترین همسایه آسمانی، طراحی‌های سامانه‌های فرود انسانی_Blue_Origin و_SpX_ را بهبود داده و مفاهیم عملیاتی هر دو سیستم فرودگر خلبان‌دار آینده را تغییر داده است. این تسریع پس از عقد قراردادهای اولیه ناسا با_Blue_Origin و_SpX_ آغاز شد.",
-   "image": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-23T22:39:39.000Z"
-  },
-  {
-   "slug": "nasa-108x538",
-   "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
-   "title_fa": "آزمون عملیات فرود آینده بر ماه در مأموریت آرتمیس ۳ ناسا",
-   "summary": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit […]",
-   "summary_fa": "ناسا پیش از بازگشت فضانوردان به سطح ماه، یکی از جاه‌طلبانه‌ترین آزمون‌های تاریخ خود را انجام خواهد داد. این مأموریت در سال ۲۰۲۷ پرتاب می‌شود و فضانوردان ناسا و آژانس فضایی اروپا را با سفینه اوران به مدار پایین زمین خواهد فرستاد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
-   "link": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-23T22:37:53.000Z"
-  },
-  {
    "slug": "science-lkjrv3",
    "title": "NASA’s Swift Mission Ends Ahead of Re-Entry",
    "title_fa": "پایان مأموریت تلسکوپ Swift ناسا پیش از بازگشت به زمین",
@@ -542,18 +545,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-23T21:58:32.000Z"
-  },
-  {
-   "slug": "science-14shdb",
-   "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
-   "title_fa": "پایان مأموریت تلسکوپ Swift ناسا با میراث علمی درخشان",
-   "summary": "NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface. The greater atmospheric drag at this height prevents the satellite’s telescopes from steadily gazing at their astronomical targets. Swift conducted its final observation on Oct. 20. It is expected to […]",
-   "summary_fa": "تلسکوپ فضایی نیل گیرلز سوئیفت ناسا پس از آنکه ارتفاع مداری آن به کمتر از ۲۷۵ کیلومتر کاهش یافت، کار خود را پایان داد؛ کشش جوی بیشتر در این ارتفاع مانع از عملکرد پایدار تلسکوپ‌ها شد. آخرین رصد این ماهواره در ۲۰ اکتبر انجام شد و انتظار می‌رود به‌زودی در جو زمین بسوزد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/swift-observatory/news/2026/end-of-mission/Swift_in_space_15_ac.jpg?w=2048&h=1084&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-23T21:51:19.000Z"
   },
   {
    "slug": "nasa-1gwcl25",
@@ -568,18 +559,6 @@
    "date_utc": "2026-10-23T20:15:28.000Z"
   },
   {
-   "slug": "nasa-5syocc",
-   "title": "RS-25 Engine Tests at NASA Stennis",
-   "title_fa": "آزمون موتور RS-25 در مرکز استنیس ناسا",
-   "summary": "Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA’s SLS (Space Launch System) rocket, with a 111% power level. For each […]",
-   "summary_fa": "تیم‌های مرکز فضایی استنیس ناسا در میسیسیپی، موتور RS-25 شماره 10001 را در 21 اکتبر 2026 آزمایش کردند. این آزمون آتش به مدت تقریباً هشت و نیم دقیقه (500 ثانیه) و در سطح قدرت 111 درصد انجام شد؛ همان مدت‌زمانی که موتورهای RS-25 در پرتاب موشک سامانه پرتابی SLS ناسا فعالیت می‌کنند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg?w=2048",
-   "link": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-23T18:57:04.000Z"
-  },
-  {
    "slug": "science-1netmou",
    "title": "NASA’s Dragonfly Completes First Simulated Flight",
    "title_fa": "ناسا نخستین پرواز آزمایشی پرندهٔ دراگون‌فالی را پشت سر گذاشت",
@@ -592,18 +571,6 @@
    "date_utc": "2026-10-23T18:44:14.000Z"
   },
   {
-   "slug": "nasa-1bd1ced",
-   "title": "NASA, Virginia Launch Power Partnership for Energy Security",
-   "title_fa": "شراکت ناسا و ویرجینیا برای امنیت انرژی",
-   "summary": "NASA is helping to foster long-term energy security in Virginia. NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energy generation, delivery and use by providing solar, meteorological, and future weather risk datasets for energy system modeling and planning purposes. Under a new […]",
-   "summary_fa": "مرکز پژوهشی لنگلی ناسا در همپتون، ویرجینیا با ادارهٔ انرژی این ایالت همکاری کرده تا تصمیم‌گیری‌های آگاهانه‌ای برای تولید، توزیع و بهره‌برداری بهینه از انرژی فراهم کند. این همکاری با ارائهٔ داده‌های خورشیدی، هواشناسی و ریسک‌های آب‌وهوایی آینده برای مدل‌سازی و برنامه‌ریزی سیستم‌های انرژی انجام می‌شود.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/lrc-2026-ocio-p-03524.jpg?w=2048",
-   "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-23T17:50:21.000Z"
-  },
-  {
    "slug": "nasa-1vm15nt",
    "title": "Advanced Research, Spacewalk Preps End Week as NASA Announces Artemis Status",
    "title_fa": "پایان هفته با تحقیقات پیشرفته و آمادگی پیاده‌روی فضایی؛ ناسا وضعیت آرتemis را اعلام کرد",
@@ -614,30 +581,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-23T16:11:23.000Z"
-  },
-  {
-   "slug": "science-sxunl",
-   "title": "APOD: 2026 October 23 – Andromeda in Southern Spring",
-   "title_fa": "APOD ۲۳ اکتبر ۲۰۲۶: آندرومدا در بهار جنوبی",
-   "summary": "APODScienceAPODAPOD: 2026 October 23 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Andromeda in Southern Spring Explanation: Looking toward the north from Mullion, New South Wales, Aus",
-   "summary_fa": "تصویر امروز ستاره‌شناسی، کهکشانی آندرومدا را در آسمان شمالی از شهر مولین در نیو ساوت ولز استرالیا نشان می‌دهد. این دیدگاه در فصل بهار نیمکرهٔ جنوبی ثبت شده است. تصویر کهکشانی آندرومدا، نزدیک‌ترین کهکشان بزرگ به راه‌شیری است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/APOD_Lucy.jpg?w=2048&h=1368&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-23T04:05:00.000Z"
-  },
-  {
-   "slug": "nasa-yvn2gl",
-   "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
-   "title_fa": "ناسا از رسانه‌ها برای سمپوزیوم ۲۰۲۶ فون براون دعوت کرد",
-   "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]",
-   "summary_fa": "ناسا از اعضای رسانه دعوت کرد تا در سمپوزیوم فضایی فون براون ۲۰۲۶، از دوشنبه ۲۶ تا چهارشنبه ۲۸ اکتبر، در دانشگاه آلاباما در هانتسوویل شرکت کنند. موضوعات این دوره شامل بازگشت بشر به ماه، زیرساخت پایدار ماهی، پیشرانش پیشرفته فضایی و نیروی کار در حال تحول در صنعت فضاست.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2019/11/nasa_meatball.jpg",
-   "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-22T21:39:58.000Z"
   },
   {
    "slug": "science-7wh8vy",
