@@ -1584,7 +1584,7 @@
   },
   "jw01189013001_03103_00001_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "quality_held",
    "score": 35.1,
    "analyzed_utc": "2026-10-24T23:04:01.064389+00:00",
    "analysis": "analyses/2026/10/24/jw01189013001_03103_00001_nrcalong_rate.fits.json",
@@ -1604,7 +1604,59 @@
    "combo": "HD 19467|NIRCAM|F250M",
    "sha256": "dde1956582d2df68888a82154d5d9a85abeb19411207e57fa72a38e71578c0cd",
    "bytes": 2136960,
-   "published_utc": null
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5395,
+      "brightness": 0.442,
+      "range": 1.0,
+      "roi": 0.351,
+      "score": 72.68
+     },
+     "ai_message": {
+      "score": 68,
+      "clarity": 74,
+      "accuracy": 78,
+      "appeal": 52,
+      "notes": "Filter name truncated (F250M vs F250M). Dry, near-nugatory conclusion hurts engagement. Honest disclaimer is good; redundant footer link. Mix of FA/EN acceptable for audience."
+     },
+     "ai_image": {
+      "score": 28,
+      "clarity": 35,
+      "accuracy": null,
+      "appeal": 22,
+      "notes": "Raw scientific frame; low contrast, heavy noise, no color processing. Lacks wow-factor compared to typical JWST public releases."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5395,
+      "brightness": 0.442,
+      "range": 1.0,
+      "roi": 0.351,
+      "score": 72.68
+     },
+     "ai_message": {
+      "score": 35,
+      "clarity": 80,
+      "accuracy": 75,
+      "appeal": 25,
+      "notes": "Honest but essentially a null result — no detection, no flux, no science. Dry for a public audience. Inconsistent 'NIRCam' vs 'NIRCAM'. F250M is a NIRCam long-array filter; detector name correct."
+     },
+     "ai_image": {
+      "score": 28,
+      "clarity": 35,
+      "accuracy": null,
+      "appeal": 22,
+      "notes": "Raw scientific frame; low contrast, heavy noise, no color processing. Lacks wow-factor compared to typical JWST public releases."
+     },
+     "min_score_gate": 60.0
+    }
+   }
   },
   "jw01189012001_03104_00001_nrcalong_rate.fits": {
    "channels": {
@@ -3504,5 +3556,5 @@
    "completed_utc": "2026-10-25T14:36:17.773213+00:00"
   }
  },
- "paired_prepare_attempt_utc": "2026-10-25T13:13:22.685366+00:00"
+ "paired_prepare_attempt_utc": "2026-10-25T17:46:22.837848+00:00"
 }
