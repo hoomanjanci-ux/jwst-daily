@@ -369,6 +369,13 @@ def publish_one(pid, state, token, targets, tmp):
     guarded_keys = {k for k in intended if _ambiguous(k)}
     verified_sent = {k for k, v in prior.items() if v == "sent"}
     if guarded_keys:
+        rec["status"] = "publish_unverified"
+        save_state(state)
+        return False
+    if verified_sent:
+        # A legacy one-language delivery is not fresh content for a new slot.
+        return False
+    if guarded_keys:
         log(f"PUBLISH {pid}: crash-guard active for {sorted(guarded_keys)} "
             f"(prior attempt unverified - these will NEVER be resent)")
     try:
@@ -426,9 +433,14 @@ def publish_one(pid, state, token, targets, tmp):
         reports = {}
         for lang in ("fa", "en"):
             post = bundle["translations"][lang]
-            reports[lang] = quality.full_report(
-                np.asarray(Image.open(imgs[0]).convert("L")),
-                rec.get("score") or 0, post["text"], sci_payload, raw_png)
+            if not reports:
+                reports[lang] = quality.full_report(
+                    np.asarray(Image.open(imgs[0]).convert("L")),
+                    rec.get("score") or 0, post["text"], sci_payload, raw_png)
+            else:
+                # Same research, same image: do not run the expensive vision judge twice.
+                reports[lang] = {**reports["fa"],
+                    "ai_message": quality.ai_score_message(post["text"], sci_payload)}
         rec["quality_log"] = reports
         if not all(quality.passes_gate(q) for q in reports.values()):
             rec["status"] = "quality_held"

@@ -185,7 +185,8 @@ def cycle(state,token,tmp,engine,max_bytes=450_000_000,max_products=3):
     now=utcnow()
     last=cadence.parse(state.get('paired_prepare_attempt_utc'))
     enough_time=not slot or datetime.fromisoformat(slot['end'])-now>timedelta(minutes=20)
-    if ready<6 and enough_time and (last is None or now-last>=timedelta(hours=1)):
+    # Heavy preparation is dedicated-worker only: never delay the existing RSS poll.
+    if os.environ.get('ANALYSIS_ONLY')=='1' and ready<6 and enough_time and (last is None or now-last>=timedelta(hours=1)):
         state['paired_prepare_attempt_utc']=now.isoformat();engine.save_state(state)
         candidates=lambda:[(pid,r) for pid,r in state['products'].items()
                            if r.get('status')=='analyzed' and not engine._combo_blocked(state,r)]
@@ -197,9 +198,10 @@ def cycle(state,token,tmp,engine,max_bytes=450_000_000,max_products=3):
                 engine.process_batch(state,min(max_bytes,remaining),min(max_products,3),tmp,
                                      wall_seconds=600)
         prepared=0
-        for pid,r in sorted(candidates(),key=lambda x:-(x[1].get('score') or 0))[:3]:
+        for pid,r in sorted(candidates(),key=lambda x:-(x[1].get('score') or 0))[:2]:
             if slot and datetime.fromisoformat(slot['end'])-utcnow()<timedelta(minutes=15):break
             if engine.publish_one(pid,state,token,engine.mode.ai_targets(),tmp):prepared+=1
+            checkpoint(engine,state) # Persist each prepared pair even if a later API stalls.
         out['prepared']=prepared
         checkpoint(engine,state)
     # Preparation may have filled an empty current slot; never publish outside it.
