@@ -3487,7 +3487,14 @@
    "end": "2026-10-25T19:00:00+03:30",
    "status": "reserved",
    "product": "jw01189012001_03104_00001_nrcalong_rate.fits",
-   "delivery": {}
+   "delivery": {
+    "fa": {
+     "album": {
+      "status": "sending",
+      "utc": "2026-10-25T14:35:59.349046+00:00"
+     }
+    }
+   }
   }
  },
  "paired_prepare_attempt_utc": "2026-10-25T13:13:22.685366+00:00"
