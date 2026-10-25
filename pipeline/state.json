@@ -1631,29 +1631,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-23T21:44:27.573630+00:00",
-   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
-   "batch_ran": false,
-   "pending_before": 0,
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/",
-     "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
-    ],
-    "en": [
-     "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/",
-     "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
-    ],
-    "mode": "fresh (2 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-23T21:46:17.047065+00:00"
-  },
-  {
    "started_utc": "2026-10-23T21:58:09.859311+00:00",
    "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
    "batch_ran": false,
@@ -2799,6 +2776,35 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-25T15:56:07.663447+00:00"
+  },
+  {
+   "started_utc": "2026-10-25T16:35:40.366990+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-10-26T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-25T16:35:40.789378+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
