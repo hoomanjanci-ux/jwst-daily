@@ -1529,29 +1529,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-23T18:30:13.657030+00:00",
-   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
-   "batch_ran": false,
-   "pending_before": 0,
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/",
-     "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/"
-    ],
-    "en": [
-     "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/",
-     "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/"
-    ],
-    "mode": "fresh (9 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-23T18:31:20.829776+00:00"
-  },
-  {
    "started_utc": "2026-10-23T18:45:58.975599+00:00",
    "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
    "batch_ran": false,
@@ -2676,6 +2653,32 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-25T11:48:19.058173+00:00"
+  },
+  {
+   "started_utc": "2026-10-25T12:44:05.917642+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "batch_ran": false,
+   "pending_before": 4,
+   "analysis_cadence": {
+    "ready": 4,
+    "interval_hours": 6,
+    "publish_due": false,
+    "next_publish_not_before_utc": "2026-10-25T13:56:17.645356+00:00",
+    "refill_due": false,
+    "remaining_batch_bytes": 900000000,
+    "daily_limit": 4
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-25T12:44:06.504308+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
