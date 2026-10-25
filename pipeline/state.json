@@ -1608,7 +1608,7 @@
   },
   "jw01189012001_03104_00001_nrcalong_rate.fits": {
    "channels": {},
-   "status": "ready",
+   "status": "paired_reserved",
    "score": 42.72,
    "analyzed_utc": "2026-10-24T23:04:11.302006+00:00",
    "analysis": "analyses/2026/10/24/jw01189012001_03104_00001_nrcalong_rate.fits.json",
@@ -3485,7 +3485,9 @@
   "2026-10-25/18": {
    "start": "2026-10-25T18:00:00+03:30",
    "end": "2026-10-25T19:00:00+03:30",
-   "status": "waiting"
+   "status": "reserved",
+   "product": "jw01189012001_03104_00001_nrcalong_rate.fits",
+   "delivery": {}
   }
  },
  "paired_prepare_attempt_utc": "2026-10-25T13:13:22.685366+00:00"
