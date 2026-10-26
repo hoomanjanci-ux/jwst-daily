@@ -1758,7 +1758,7 @@
   },
   "jw06606003001_02107_00002_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 38.45,
    "analyzed_utc": "2026-10-25T22:23:48.081971+00:00",
    "analysis": "analyses/2026/10/25/jw06606003001_02107_00002_nrcalong_rate.fits.json",
@@ -1778,7 +1778,60 @@
    "combo": "GSPC P330-E|NIRCAM|F430M",
    "sha256": "02f6d80cd998aceeb63a58ab8786526b4b441423191356c97f460b47276dd950",
    "bytes": 83969280,
-   "published_utc": null
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5002,
+      "brightness": 0.388,
+      "range": 1.0,
+      "roi": 0.3845,
+      "score": 71.59
+     },
+     "ai_message": {
+      "score": 68,
+      "clarity": 80,
+      "accuracy": 75,
+      "appeal": 58,
+      "notes": "Factual metadata-only analysis lacks scientific substance; no redshift or flux data provided. Good disclaimer and formatting, but dry and unremarkable for non-experts. F430M ~4.3μm correct."
+     },
+     "ai_image": {
+      "score": 18,
+      "clarity": 22,
+      "accuracy": null,
+      "appeal": 12,
+      "notes": "Raw detector readout: heavy noise, no color, vertical streaks from cosmic rays. Needs full pipeline processing."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5002,
+      "brightness": 0.388,
+      "range": 1.0,
+      "roi": 0.3845,
+      "score": 71.59
+     },
+     "ai_message": {
+      "score": 76,
+      "clarity": 82,
+      "accuracy": 75,
+      "appeal": 70,
+      "notes": "Overly hedged — no discovery despite real science. Links truncated. Heavy AI-labeling dampens intrigue. Good caveat practice."
+     },
+     "ai_image": {
+      "score": 18,
+      "clarity": 22,
+      "accuracy": null,
+      "appeal": 12,
+      "notes": "Raw detector readout: heavy noise, no color, vertical streaks from cosmic rays. Needs full pipeline processing."
+     },
+     "min_score_gate": 60.0
+    }
+   },
+   "paired_ready_utc": "2026-10-26T08:10:27.413891+00:00"
   },
   "jw06606003001_02109_00003_nrcalong_rate.fits": {
    "channels": {},
