@@ -1648,7 +1648,7 @@
   },
   "jw01189013001_03103_00001_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 35.1,
    "analyzed_utc": "2026-10-24T23:04:01.064389+00:00",
    "analysis": "analyses/2026/10/24/jw01189013001_03103_00001_nrcalong_rate.fits.json",
@@ -1679,21 +1679,21 @@
       "roi": 0.351,
       "score": 72.68
      },
-     "ai_message": {
-      "score": 68,
-      "clarity": 74,
-      "accuracy": 78,
-      "appeal": 52,
-      "notes": "Filter name truncated (F250M vs F250M). Dry, near-nugatory conclusion hurts engagement. Honest disclaimer is good; redundant footer link. Mix of FA/EN acceptable for audience."
+     "evidence": {
+      "bright_tail_pixel_count": 7547,
+      "brightest_quadrant_percent": 63.151,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100765,
+      "finite_fraction": 0.984033,
+      "median": 0.18477383255958557,
+      "robust_scatter": 0.03313213091790676,
+      "above_5scatter_percent": 7.4897,
+      "p99_above_median_scatter": 112.83,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 28,
-      "clarity": 35,
-      "accuracy": null,
-      "appeal": 22,
-      "notes": "Raw scientific frame; low contrast, heavy noise, no color processing. Lacks wow-factor compared to typical JWST public releases."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     },
     "en": {
      "heuristic": {
@@ -1704,23 +1704,25 @@
       "roi": 0.351,
       "score": 72.68
      },
-     "ai_message": {
-      "score": 35,
-      "clarity": 80,
-      "accuracy": 75,
-      "appeal": 25,
-      "notes": "Honest but essentially a null result — no detection, no flux, no science. Dry for a public audience. Inconsistent 'NIRCam' vs 'NIRCAM'. F250M is a NIRCam long-array filter; detector name correct."
+     "evidence": {
+      "bright_tail_pixel_count": 7547,
+      "brightest_quadrant_percent": 63.151,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100765,
+      "finite_fraction": 0.984033,
+      "median": 0.18477383255958557,
+      "robust_scatter": 0.03313213091790676,
+      "above_5scatter_percent": 7.4897,
+      "p99_above_median_scatter": 112.83,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 28,
-      "clarity": 35,
-      "accuracy": null,
-      "appeal": 22,
-      "notes": "Raw scientific frame; low contrast, heavy noise, no color processing. Lacks wow-factor compared to typical JWST public releases."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     }
-   }
+   },
+   "analysis_revision": 3,
+   "paired_ready_utc": "2026-10-26T20:27:10.372446+00:00"
   },
   "jw01189012001_03104_00001_nrcalong_rate.fits": {
    "channels": {
