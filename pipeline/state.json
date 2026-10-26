@@ -2286,34 +2286,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-24T22:35:05.220538+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "batch_ran": false,
-   "pending_before": 2,
-   "analysis_cadence": {
-    "ready": 2,
-    "interval_hours": 8,
-    "publish_due": true,
-    "next_publish_not_before_utc": "2026-10-24T22:31:48.414699+00:00",
-    "refill_due": false,
-    "remaining_batch_bytes": 811753920,
-    "daily_limit": 4
-   },
-   "published": [
-    "jw04535003001_03107_00001_nrcalong_rate.fits"
-   ],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-24T22:43:27.516932+00:00"
-  },
-  {
    "started_utc": "2026-10-24T23:03:06.288567+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "batch_ran": true,
@@ -3665,6 +3637,39 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-26T16:07:54.746909+00:00"
+  },
+  {
+   "started_utc": "2026-10-26T17:14:55.357974+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-10-27T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-26T17:15:38.355782+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -3812,6 +3817,10 @@
   "https://science.nasa.gov/image-article/2026-october-26-m42-the-great-nebula-in-orion/": {
    "fa": "2026-10-26T06:36:10.065350+00:00",
    "en": "2026-10-26T06:36:10.065350+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/": {
+   "fa": "2026-10-26T17:14:55.549788+00:00",
+   "en": "2026-10-26T17:14:55.549788+00:00"
   }
  },
  "news_archive": {
@@ -4120,6 +4129,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-26T04:05:00+00:00",
    "ts": "2026-10-26T06:36:10.065350+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/": {
+   "title": "شروع هفته با آمادگی برای پیاده‌روی فضایی و پژوهش‌های پیشرفته در ایستگاه فضایی",
+   "summary": "اعضای مأموریت اکسپدیشن ۷۵ صبح شنبه را به آماده‌سازی برای پیاده‌روی فضایی جهت ارتقای سیستم تولید برق ایستگاه فضایی اختصاص دادند. در کنار عملیات باربری، پژوهش‌هایی بر روی رگ‌های خونی زیستیِ چاپ‌شده و تکنیک‌های آرام‌سازی نیز انجام شد.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-26T15:48:51+00:00",
+   "ts": "2026-10-26T17:14:55.549788+00:00"
   }
  },
  "news_title_fp": {
@@ -4208,6 +4226,10 @@
    "en": "2026-10-25"
   },
   "3dd465c090bead20": {
+   "fa": "2026-10-26",
+   "en": "2026-10-26"
+  },
+  "dd8b69aefc3c2583": {
    "fa": "2026-10-26",
    "en": "2026-10-26"
   }
@@ -4300,6 +4322,10 @@
   [
    "3dd465c090bead20",
    "2026 october 26 m42 the great nebula in orion"
+  ],
+  [
+   "dd8b69aefc3c2583",
+   "week begins with robotics prep for spacewalk and advanced research"
   ]
  ],
  "combo_seen": {

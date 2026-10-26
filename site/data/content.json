@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T16:07:55.927Z",
+ "generated_utc": "2026-10-26T17:16:23.337Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -654,6 +654,30 @@
  ],
  "news": [
   {
+   "slug": "nasa-rso9j9",
+   "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
+   "title_fa": null,
+   "summary": "Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and Friday, Oct. 30.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-26T17:13:44.000Z"
+  },
+  {
+   "slug": "nasa-1l3ubc8",
+   "title": "Week Begins with Robotics Prep for Spacewalk and Advanced Research",
+   "title_fa": "آغاز هفته با آماده‌سازی پیاده‌روی فضایی و پژوهش‌های پیشرفته",
+   "summary": "Expedition 75 began the week gearing up for a spacewalk to upgrade the International Space Station’s power generation system. Research into bioprinted blood vessels and relaxation techniques, as well cargo operations rounded out Monday’s schedule.",
+   "summary_fa": "مأموریت اکسپدیشن ۷۵ هفته را با آماده‌سازی برای پیاده‌روی فضایی جهت ارتقای سیستم تولید برق ایستگاه فضایی بین‌المللی آغاز کرد. پژوهش درباره رگ‌های خونی زیستی‌چاپ‌شده و تکنیک‌های آرام‌سازی، همراه با عملیات بارگیری، برنامه یکشنبه را تکمیل کردند.",
+   "image": "https://images-assets.nasa.gov/image/iss073e0273067/iss073e0273067~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-26T15:48:51.000Z"
+  },
+  {
    "slug": "science-13b11wj",
    "title": "2026 October 26 – M42: The Great Nebula in Orion",
    "title_fa": "سحابی جبار؛ M42 در تصویر روز نجوم",
@@ -750,18 +774,6 @@
    "date_utc": "2026-10-23T20:15:28.000Z"
   },
   {
-   "slug": "nasa-5syocc",
-   "title": "RS-25 Engine Tests at NASA Stennis",
-   "title_fa": "آزمون موتور RS-25 در مرکز استنیس ناسا",
-   "summary": "Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA’s SLS (Space Launch System) rocket, with a 111% power level. For each […]",
-   "summary_fa": "تیم‌های مرکز فضایی استنیس ناسا در میسیسیپی، موتور RS-25 شماره 10001 را در 21 اکتبر 2026 آزمایش کردند. این آزمون آتش به مدت تقریباً هشت و نیم دقیقه (500 ثانیه) و در سطح قدرت 111 درصد انجام شد؛ همان مدت‌زمانی که موتورهای RS-25 در پرتاب موشک سامانه پرتابی SLS ناسا فعالیت می‌کنند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg?w=2048",
-   "link": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-23T18:57:04.000Z"
-  },
-  {
    "slug": "science-1netmou",
    "title": "NASA’s Dragonfly Completes First Simulated Flight",
    "title_fa": "ناسا نخستین پرواز آزمایشی پرندهٔ دراگون‌فالی را پشت سر گذاشت",
@@ -832,18 +844,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-21T16:22:01.000Z"
-  },
-  {
-   "slug": "nasa-19rm8ym",
-   "title": "Blood Vessel Printing, Cancer Research, and Spacewalk Preps Keep Crew Busy",
-   "title_fa": "چاپ رگ خونی، تحقیق سرطان و آمادگی پیاده‌روی فضایی",
-   "summary": "Expedition 75 spent Tuesday advancing human health on and off the Earth with 3D bioprinting, cancer research, and exercise studies. Meanwhile, spacewalk preparations continue aboard the International Space Station to augment its power generation system.",
-   "summary_fa": "مأموران مأموریت ۷۵ در روز سه‌شنبه به پیشبرد سلامت انسان، در فضا و روی زمین، پرداختند. آن‌ها با چاپ زیستی سه‌بعدی رگ‌های خونی، تحقیقات سرطانی و مطالعه‌های ورزشی فعالیت کردند. هم‌زمان، آماده‌سازی‌های پیاده‌روی فضایی در ایستگاه فضایی بین‌المللی برای افزایش سیستم تولید برق ایستگاه ادامه دارد.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0070083/iss075e0070083~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/20/blood-vessel-printing-cancer-research-and-spacewalk-preps-keep-crew-busy/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-20T20:43:18.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
