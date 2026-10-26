@@ -1,5 +1,5 @@
 """Provision only the named analysis Worker/tables. Never touches news resources."""
-import json,os,secrets
+import json,os,secrets,time
 from pathlib import Path
 import requests
 BASE='https://api.cloudflare.com/client/v4'
@@ -38,7 +38,12 @@ subdomain=api('GET',f'/accounts/{account}/workers/subdomain')['subdomain']
 url=f'https://{name}.{subdomain}.workers.dev'
 api('PUT',f'/accounts/{account}/workers/scripts/{name}/schedules',json=[{'cron':'*/5 * * * *'}])
 # Only activate the new sender after the Worker is reachable; no send during shadow probe.
-r=requests.get(url+'/status',headers={'Authorization':'Bearer '+admin},timeout=45);r.raise_for_status()
+for attempt in range(18):
+    r=requests.get(url+'/status',headers={'Authorization':'Bearer '+admin},timeout=45)
+    if r.status_code==200:break
+    if attempt==17:r.raise_for_status()
+    time.sleep(5) # Worker route/secret propagation is not instantaneous.
+r.raise_for_status()
 query("INSERT INTO ai_control(key,value) VALUES('sender','cloudflare') ON CONFLICT(key) DO UPDATE SET value=excluded.value")
 r=requests.post(url+'/tick',headers={'Authorization':'Bearer '+admin},timeout=60);r.raise_for_status()
 dispatch_status=query("SELECT value FROM ai_control WHERE key='dispatch_http'")
