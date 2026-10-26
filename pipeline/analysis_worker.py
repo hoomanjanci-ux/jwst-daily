@@ -193,6 +193,11 @@ def cycle(state,token,tmp,engine,max_bytes=450_000_000,max_products=3):
         state['evidence_revision']=3
     independent = cloud_queue.active()
     synced = cloud_queue.sync(engine,state,checkpoint,archive) if independent else []
+    if independent and state.get('cloud_reserve_revision') != 1:
+        # Reconcile old exposure-duplicate reserves before counting available pairs.
+        state['cloud_reserve_revision']=1
+        state['paired_prepare_attempt_utc']=None
+        cloud_queue.enqueue(engine,state,checkpoint)
     key,slot=analysis_slots.refresh(state)
     out={'timezone':'Asia/Tehran','windows':['06–07','09–10','12–13','18–19'],
          'active_slot':key,'published':synced,'sender':'cloudflare' if independent else 'github'}
