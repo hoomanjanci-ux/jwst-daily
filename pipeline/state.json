@@ -1190,7 +1190,7 @@
   },
   "jw06627005001_07101_00002_nrcalong_rate.fits": {
    "channels": {},
-   "last_error": "download: TimeoutError: download wall-clock cap exceeded",
+   "last_error": "publish: HTTPError: 503 Server Error: Service Unavailable for url: https://router.bynara.id/v1/chat/completions",
    "status": "analyzed",
    "score": 51.77,
    "analyzed_utc": "2026-10-26T19:06:06.957930+00:00",
