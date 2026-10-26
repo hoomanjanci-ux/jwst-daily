@@ -1859,27 +1859,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-24T10:42:57.506435+00:00",
-   "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
-   "batch_ran": false,
-   "pending_before": 0,
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://esawebb.org/news/weic2612/"
-    ],
-    "en": [
-     "https://esawebb.org/news/weic2612/"
-    ],
-    "mode": "archive (labeled)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-24T10:43:39.044416+00:00"
-  },
-  {
    "started_utc": "2026-10-24T11:30:48.570433+00:00",
    "mode": "mode=PRODUCTION prod_unlocked=True public_channels_ready=True",
    "batch_ran": false,
@@ -3120,6 +3099,35 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-25T23:37:30.160243+00:00"
+  },
+  {
+   "started_utc": "2026-10-26T00:01:58.579955+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-10-26T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-26T00:01:59.085544+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
