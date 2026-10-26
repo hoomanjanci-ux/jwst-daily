@@ -1574,7 +1574,7 @@
   },
   "jw01189013001_0310b_00001_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 43.83,
    "analyzed_utc": "2026-10-24T23:03:51.711987+00:00",
    "analysis": "analyses/2026/10/24/jw01189013001_0310b_00001_nrcalong_rate.fits.json",
@@ -1605,21 +1605,19 @@
       "roi": 0.4383,
       "score": 77.38
      },
-     "ai_message": {
-      "score": 22,
-      "clarity": 30,
-      "accuracy": 45,
-      "appeal": 20,
-      "notes": "Dry, translation-stiff Persian; offers zero scientific insight. Disclaims 'no published results' yet presents as analysis. Misleading to call it an AI analysis of data it admits is blank."
+     "evidence": {
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100881,
+      "finite_fraction": 0.985166,
+      "median": 0.11657281965017319,
+      "robust_scatter": 0.03260965524762869,
+      "above_5scatter_percent": 3.1096,
+      "p99_above_median_scatter": 22.131,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 42,
-      "clarity": 38,
-      "accuracy": null,
-      "appeal": 30,
-      "notes": "Raw grayscale data with heavy noise; lacks color processing and polish expected of JWST renders."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     },
     "en": {
      "heuristic": {
@@ -1630,23 +1628,23 @@
       "roi": 0.4383,
       "score": 77.38
      },
-     "ai_message": {
-      "score": 22,
-      "clarity": 55,
-      "accuracy": 8,
-      "appeal": 15,
-      "notes": "No real science — admits zero results exist. Suspicious \"F430M\" filter (likely non-existent for NIRCam). Detector field uses raw acronym. Target may not even be JWST-observed. Unpublishable as-is."
+     "evidence": {
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100881,
+      "finite_fraction": 0.985166,
+      "median": 0.11657281965017319,
+      "robust_scatter": 0.03260965524762869,
+      "above_5scatter_percent": 3.1096,
+      "p99_above_median_scatter": 22.131,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 35,
-      "clarity": 30,
-      "accuracy": null,
-      "appeal": 25,
-      "notes": "Raw, grainy, low-contrast. Needs significant processing for public outreach quality."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     }
-   }
+   },
+   "analysis_revision": 3,
+   "paired_ready_utc": "2026-10-26T19:30:16.973444+00:00"
   },
   "jw01189013001_03103_00001_nrcalong_rate.fits": {
    "channels": {},
