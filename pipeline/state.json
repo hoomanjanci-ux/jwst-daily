@@ -2007,6 +2007,106 @@
      "min_score_gate": 60.0
     }
    }
+  },
+  "jw06570017001_03106_00001_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "quality_held",
+   "score": 42.08,
+   "analyzed_utc": "2026-10-26T08:02:56.218026+00:00",
+   "analysis": "analyses/2026/10/26/jw06570017001_03106_00001_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw06570017001_03106_00001_nrcalong_rate.fits",
+    "size_mb": 2.035,
+    "uri": "mast:JWST/product/jw06570017001_03106_00001_nrcalong_rate.fits",
+    "proposal": "6570",
+    "obs_id": "jw06570017001_03106_00001_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06570017001_03106_00001_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06570017001_03106_00001_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06570017001_03106_00001_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "HD 45080",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "HD 45080|NIRCAM|F335M",
+   "sha256": "64a4bb1dda63b9fe87c9d0b88b4b759f4a1aee72623613e80ef6af487172d4f5",
+   "bytes": 2136960,
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5639,
+      "brightness": 0.4914,
+      "range": 1.0,
+      "roi": 0.4208,
+      "score": 74.96
+     },
+     "ai_message": {
+      "score": 62,
+      "clarity": 58,
+      "accuracy": 70,
+      "appeal": 55,
+      "notes": "Honest null-result disclaimer is refreshing but dry. Mix of Persian/English terms acceptable. Lacks visual hook or broader context for general audience."
+     },
+     "ai_image": {
+      "score": 18,
+      "clarity": 22,
+      "accuracy": null,
+      "appeal": 15,
+      "notes": "Severe grain and extreme overexposure. Resembles raw detector data rather than a processed visualization. Poor dynamic range."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5639,
+      "brightness": 0.4914,
+      "range": 1.0,
+      "roi": 0.4208,
+      "score": 74.96
+     },
+     "ai_message": {
+      "score": 42,
+      "clarity": 55,
+      "accuracy": 68,
+      "appeal": 22,
+      "notes": "Accurate metadata but reads like an empty template. Says 'no signals detected' with no science hook. Jargon-heavy yet says nothing. Non-experts will scroll past. Add context: what is HD 45080? Why observe it? Even uncertain data needs a narrative."
+     },
+     "ai_image": {
+      "score": 18,
+      "clarity": 22,
+      "accuracy": null,
+      "appeal": 15,
+      "notes": "Severe grain and extreme overexposure. Resembles raw detector data rather than a processed visualization. Poor dynamic range."
+     },
+     "min_score_gate": 60.0
+    }
+   }
+  },
+  "jw06570018001_03106_00004_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 37.71,
+   "analyzed_utc": "2026-10-26T08:03:05.984596+00:00",
+   "analysis": "analyses/2026/10/26/jw06570018001_03106_00004_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw06570018001_03106_00004_nrcalong_rate.fits",
+    "size_mb": 2.035,
+    "uri": "mast:JWST/product/jw06570018001_03106_00004_nrcalong_rate.fits",
+    "proposal": "6570",
+    "obs_id": "jw06570018001_03106_00004_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06570018001_03106_00004_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06570018001_03106_00004_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06570018001_03106_00004_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "HD 45080",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "HD 45080|NIRCAM|F335M",
+   "sha256": "63f6cf6904bba03b3b220daba64d799fb2a0e8cbd7e0b42c166fd317559193a2",
+   "bytes": 2136960,
+   "published_utc": null
   }
  },
  "runs": [
@@ -4013,7 +4113,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-10-26",
-  "bytes": 201548160
+  "bytes": 205822080
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -4100,5 +4200,5 @@
    "status": "waiting"
   }
  },
- "paired_prepare_attempt_utc": "2026-10-26T03:55:43.407570+00:00"
+ "paired_prepare_attempt_utc": "2026-10-26T08:01:49.721655+00:00"
 }
