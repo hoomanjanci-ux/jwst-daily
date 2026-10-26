@@ -1191,7 +1191,27 @@
   "jw06627005001_07101_00002_nrcalong_rate.fits": {
    "channels": {},
    "last_error": "download: TimeoutError: download wall-clock cap exceeded",
-   "status": "legacy_v01"
+   "status": "analyzed",
+   "score": 51.77,
+   "analyzed_utc": "2026-10-26T19:06:06.957930+00:00",
+   "analysis": "analyses/2026/10/26/jw06627005001_07101_00002_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw06627005001_07101_00002_nrcalong_rate.fits",
+    "size_mb": 80.079,
+    "uri": "mast:JWST/product/jw06627005001_07101_00002_nrcalong_rate.fits",
+    "proposal": "6627",
+    "obs_id": "jw06627005001_07101_00002_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00002_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06627005001_07101_00002_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00002_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "2MASS J05220207-6930388",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "2MASS J05220207-6930388|NIRCAM|F335M",
+   "sha256": "cc6c5552e7d0d3fa08b569963c8a121e8ad9b907f224bad2462318d69cd82f1f",
+   "bytes": 83972160,
+   "published_utc": null
   },
   "jw06627005001_07101_00004_nrcalong_rate.fits": {
    "channels": {
@@ -2181,7 +2201,7 @@
    "sha256": "3d49d436f904a69c10a302bb67d622a253bdaee841fcb176c0ff46ba8e00a9fc",
    "bytes": 117576000,
    "published_utc": null,
-   "last_error": "publish: ChunkedEncodingError: Response ended prematurely"
+   "last_error": "publish: HTTPError: 503 Server Error: Service Unavailable for url: https://router.bynara.id/v1/chat/completions"
   },
   "jw06627005001_07101_00003_nrcalong_cal.fits": {
    "channels": {},
@@ -2281,6 +2301,60 @@
    "combo": "2MASS J05220207-6930388|NIRCAM|F335M",
    "sha256": "6e03fb02ebba5b36dc8651517416f7fba083bcfd362eb556862552a097bc1ce6",
    "bytes": 117576000,
+   "published_utc": null
+  },
+  "jw02780018001_03107_00004_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 39.29,
+   "analyzed_utc": "2026-10-26T19:05:44.099976+00:00",
+   "analysis": "analyses/2026/10/26/jw02780018001_03107_00004_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw02780018001_03107_00004_nrcalong_rate.fits",
+    "size_mb": 2.035,
+    "uri": "mast:JWST/product/jw02780018001_03107_00004_nrcalong_rate.fits",
+    "proposal": "2780",
+    "obs_id": "jw02780018001_03107_00004_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw02780018001_03107_00004_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw02780018001_03107_00004_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw02780018001_03107_00004_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "HD 56161",
+   "meta_FILTER": "F300M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "HD 56161|NIRCAM|F300M",
+   "sha256": "27ab1c84c7524328afd3614f5d0b12ceb192895528d1e8ce063e477acccc60a5",
+   "bytes": 2136960,
+   "published_utc": null
+  },
+  "jw04535004001_03103_00001_nrca2_rate.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "HD 218396|NIRCAM|F200W",
+   "sha256": "e57c18bc2ce2ced96acfa7fe4fc071faaddab1b7f46277d42b1ce851f78824bb"
+  },
+  "jw01482050001_03105_00003_nrca4_rate.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 41.72,
+   "analyzed_utc": "2026-10-26T19:06:19.373489+00:00",
+   "analysis": "analyses/2026/10/26/jw01482050001_03105_00003_nrca4_rate.fits.json",
+   "cand": {
+    "filename": "jw01482050001_03105_00003_nrca4_rate.fits",
+    "size_mb": 80.082,
+    "uri": "mast:JWST/product/jw01482050001_03105_00003_nrca4_rate.fits",
+    "proposal": "1482",
+    "obs_id": "jw01482050001_03105_00003_nrca4",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01482050001_03105_00003_nrca4_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw01482050001_03105_00003_nrca4_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01482050001_03105_00003_nrca4_rate.jpg"
+   },
+   "meta_TARGNAME": "HD 147980",
+   "meta_FILTER": "F210M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "HD 147980|NIRCAM|F210M",
+   "sha256": "34967c1b8773d9cde7ebf8c9a7ac1954fcaadfe8315358ae3f67c9ec5b2b0e42",
+   "bytes": 83972160,
    "published_utc": null
   }
  },
@@ -4339,7 +4413,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-10-26",
-  "bytes": 558550080
+  "bytes": 730768320
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -4469,5 +4543,5 @@
    "note": "no quality-approved bilingual reserve"
   }
  },
- "paired_prepare_attempt_utc": "2026-10-26T15:58:58.496425+00:00"
+ "paired_prepare_attempt_utc": "2026-10-26T19:04:45.707661+00:00"
 }
