@@ -1846,7 +1846,7 @@
   },
   "jw06606003001_02109_00003_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 44.2,
    "analyzed_utc": "2026-10-25T22:23:59.410047+00:00",
    "analysis": "analyses/2026/10/25/jw06606003001_02109_00003_nrcalong_rate.fits.json",
@@ -1877,21 +1877,19 @@
       "roi": 0.442,
       "score": 78.81
      },
-     "ai_message": {
-      "score": 73,
-      "clarity": 75,
-      "accuracy": 85,
-      "appeal": 62,
-      "notes": "Correct instruments/filter/proposal. Low appeal — admits no science came from the data. Lacks a cosmic narrative or striking JWST hook for non-experts."
+     "evidence": {
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456693,
+      "finite_fraction": 0.979001,
+      "median": 0.10540792346000671,
+      "robust_scatter": 0.1436059711128473,
+      "above_5scatter_percent": 0.2045,
+      "p99_above_median_scatter": 2.523,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 15,
-      "clarity": 20,
-      "accuracy": null,
-      "appeal": 10,
-      "notes": "Raw unprocessed sensor data, not a rendered visualization. Heavy noise, horizontal banding, no color or composition."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     },
     "en": {
      "heuristic": {
@@ -1902,23 +1900,23 @@
       "roi": 0.442,
       "score": 78.81
      },
-     "ai_message": {
-      "score": 38,
-      "clarity": 72,
-      "accuracy": 68,
-      "appeal": 18,
-      "notes": "Empty result post: admits zero detections or measurements. Readers tune in for discoveries, not raw obs logs. Add context—why this target matters, what future science will come from it."
+     "evidence": {
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456693,
+      "finite_fraction": 0.979001,
+      "median": 0.10540792346000671,
+      "robust_scatter": 0.1436059711128473,
+      "above_5scatter_percent": 0.2045,
+      "p99_above_median_scatter": 2.523,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 15,
-      "clarity": 20,
-      "accuracy": null,
-      "appeal": 10,
-      "notes": "Raw unprocessed sensor data, not a rendered visualization. Heavy noise, horizontal banding, no color or composition."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     }
-   }
+   },
+   "analysis_revision": 3,
+   "paired_ready_utc": "2026-10-26T19:30:02.926546+00:00"
   },
   "jw01482050001_03105_00003_nrcalong_rate.fits": {
    "channels": {},
@@ -4575,7 +4573,7 @@
   "2026-10-26/06": {
    "start": "2026-10-26T02:30:00.000Z",
    "end": "2026-10-26T03:30:00.000Z",
-   "status": "expired",
+   "status": "missed",
    "product": null,
    "note": null,
    "sender": "cloudflare"
@@ -4583,7 +4581,7 @@
   "2026-10-26/09": {
    "start": "2026-10-26T05:30:00.000Z",
    "end": "2026-10-26T06:30:00.000Z",
-   "status": "expired",
+   "status": "missed",
    "product": null,
    "note": null,
    "sender": "cloudflare"
@@ -4638,13 +4636,13 @@
   "2026-10-26/18": {
    "start": "2026-10-26T14:30:00.000Z",
    "end": "2026-10-26T15:30:00.000Z",
-   "status": "expired",
+   "status": "missed",
    "product": null,
    "note": null,
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": null,
+ "paired_prepare_attempt_utc": "2026-10-26T19:29:47.251870+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
