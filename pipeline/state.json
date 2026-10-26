@@ -101,7 +101,7 @@
    "png_bytes": 3407087,
    "source": "MAST public",
    "uri": "mast:JWST/product/jw06627005001_07101_00006_nrcalong_rate.fits",
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 43.28,
    "analyzed_utc": "2026-10-24T19:02:57.313585+00:00",
    "analysis": "analyses/2026/10/24/jw06627005001_07101_00006_nrcalong_rate.fits.json",
@@ -1431,7 +1431,7 @@
     "fa_ai": "held (quality gate)",
     "en_ai": "held (quality gate)"
    },
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 48.88,
    "analyzed_utc": "2026-10-24T19:02:36.558825+00:00",
    "analysis": "analyses/2026/10/24/jw01189013001_03105_00001_nrcalong_rate.fits.json",
@@ -1528,7 +1528,7 @@
   },
   "jw01189013001_0310b_00001_nrcalong_rate.fits": {
    "channels": {},
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 43.83,
    "analyzed_utc": "2026-10-24T23:03:51.711987+00:00",
    "analysis": "analyses/2026/10/24/jw01189013001_0310b_00001_nrcalong_rate.fits.json",
@@ -1604,7 +1604,7 @@
   },
   "jw01189013001_03103_00001_nrcalong_rate.fits": {
    "channels": {},
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 35.1,
    "analyzed_utc": "2026-10-24T23:04:01.064389+00:00",
    "analysis": "analyses/2026/10/24/jw01189013001_03103_00001_nrcalong_rate.fits.json",
@@ -1702,7 +1702,7 @@
   },
   "jw06606007001_18101_00002_nrcblong_rate.fits": {
    "channels": {},
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 40.57,
    "analyzed_utc": "2026-10-25T22:23:37.214360+00:00",
    "analysis": "analyses/2026/10/25/jw06606007001_18101_00002_nrcblong_rate.fits.json",
@@ -1800,7 +1800,7 @@
   },
   "jw06606003001_02109_00003_nrcalong_rate.fits": {
    "channels": {},
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 44.2,
    "analyzed_utc": "2026-10-25T22:23:59.410047+00:00",
    "analysis": "analyses/2026/10/25/jw06606003001_02109_00003_nrcalong_rate.fits.json",
@@ -1876,7 +1876,7 @@
   },
   "jw01482050001_03105_00003_nrcalong_rate.fits": {
    "channels": {},
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 43.2,
    "analyzed_utc": "2026-10-26T03:56:39.650169+00:00",
    "analysis": "analyses/2026/10/26/jw01482050001_03105_00003_nrcalong_rate.fits.json",
@@ -1952,7 +1952,7 @@
   },
   "jw01482050001_03105_00003_nrcalong_cal.fits": {
    "channels": {},
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 41.86,
    "analyzed_utc": "2026-10-26T03:56:51.203436+00:00",
    "analysis": "analyses/2026/10/26/jw01482050001_03105_00003_nrcalong_cal.fits.json",
@@ -2028,7 +2028,7 @@
   },
   "jw06570017001_03106_00001_nrcalong_rate.fits": {
    "channels": {},
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 42.08,
    "analyzed_utc": "2026-10-26T08:02:56.218026+00:00",
    "analysis": "analyses/2026/10/26/jw06570017001_03106_00001_nrcalong_rate.fits.json",
@@ -2104,7 +2104,7 @@
   },
   "jw06570018001_03106_00004_nrcalong_rate.fits": {
    "channels": {},
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 37.71,
    "analyzed_utc": "2026-10-26T08:03:05.984596+00:00",
    "analysis": "analyses/2026/10/26/jw06570018001_03106_00004_nrcalong_rate.fits.json",
@@ -2180,7 +2180,7 @@
   },
   "jw06627005001_07101_00008_nrcalong_cal.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 52.1,
    "analyzed_utc": "2026-10-26T16:00:08.209707+00:00",
    "analysis": "analyses/2026/10/26/jw06627005001_07101_00008_nrcalong_cal.fits.json",
@@ -2201,11 +2201,61 @@
    "sha256": "3d49d436f904a69c10a302bb67d622a253bdaee841fcb176c0ff46ba8e00a9fc",
    "bytes": 117576000,
    "published_utc": null,
-   "last_error": "publish: HTTPError: 503 Server Error: Service Unavailable for url: https://router.bynara.id/v1/chat/completions"
+   "last_error": "publish: HTTPError: 503 Server Error: Service Unavailable for url: https://router.bynara.id/v1/chat/completions",
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6537,
+      "brightness": 0.6426,
+      "range": 1.0,
+      "roi": 0.521,
+      "score": 80.53
+     },
+     "evidence": {
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456637,
+      "finite_fraction": 0.978881,
+      "median": 0.36867958307266235,
+      "robust_scatter": 0.3409025888442993,
+      "above_5scatter_percent": 3.586,
+      "p99_above_median_scatter": 19.35,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6537,
+      "brightness": 0.6426,
+      "range": 1.0,
+      "roi": 0.521,
+      "score": 80.53
+     },
+     "evidence": {
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456637,
+      "finite_fraction": 0.978881,
+      "median": 0.36867958307266235,
+      "robust_scatter": 0.3409025888442993,
+      "above_5scatter_percent": 3.586,
+      "p99_above_median_scatter": 19.35,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-10-26T19:24:22.875501+00:00"
   },
   "jw06627005001_07101_00003_nrcalong_cal.fits": {
    "channels": {},
-   "status": "quality_held",
+   "status": "analyzed",
    "score": 50.47,
    "analyzed_utc": "2026-10-26T16:00:20.537182+00:00",
    "analysis": "analyses/2026/10/26/jw06627005001_07101_00003_nrcalong_cal.fits.json",
@@ -4478,14 +4528,20 @@
    "completed_utc": "2026-10-25T14:36:17.773213+00:00"
   },
   "2026-10-26/06": {
-   "start": "2026-10-26T06:00:00+03:30",
-   "end": "2026-10-26T07:00:00+03:30",
-   "status": "missed"
+   "start": "2026-10-26T02:30:00.000Z",
+   "end": "2026-10-26T03:30:00.000Z",
+   "status": "missed",
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
   },
   "2026-10-26/09": {
-   "start": "2026-10-26T09:00:00+03:30",
-   "end": "2026-10-26T10:00:00+03:30",
-   "status": "missed"
+   "start": "2026-10-26T05:30:00.000Z",
+   "end": "2026-10-26T06:30:00.000Z",
+   "status": "missed",
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
   },
   "2026-10-26/12": {
    "start": "2026-10-26T12:00:00+03:30",
@@ -4535,11 +4591,14 @@
    "completed_utc": "2026-10-26T08:41:08.110855+00:00"
   },
   "2026-10-26/18": {
-   "start": "2026-10-26T18:00:00+03:30",
-   "end": "2026-10-26T19:00:00+03:30",
+   "start": "2026-10-26T14:30:00.000Z",
+   "end": "2026-10-26T15:30:00.000Z",
    "status": "missed",
-   "note": "no quality-approved bilingual reserve"
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-10-26T19:04:45.707661+00:00"
+ "paired_prepare_attempt_utc": "2026-10-26T19:24:08.394093+00:00",
+ "evidence_revision": 3
 }
