@@ -2305,7 +2305,7 @@
   },
   "jw06627005001_07101_00003_nrcalong_cal.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 50.47,
    "analyzed_utc": "2026-10-26T16:00:20.537182+00:00",
    "analysis": "analyses/2026/10/26/jw06627005001_07101_00003_nrcalong_cal.fits.json",
@@ -2336,21 +2336,19 @@
       "roi": 0.5047,
       "score": 80.42
      },
-     "ai_message": {
-      "score": 82,
-      "clarity": 84,
-      "accuracy": 85,
-      "appeal": 76,
-      "notes": "Factual metadata correct, but hedging ('unknown what was revealed') reduces impact. Consider adding brief scientific context or preview of findings."
+     "evidence": {
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456622,
+      "finite_fraction": 0.978848,
+      "median": 0.30689041316509247,
+      "robust_scatter": 0.335645549532026,
+      "above_5scatter_percent": 3.6551,
+      "p99_above_median_scatter": 19.759,
+      "bunit": "MJy/sr"
      },
-     "ai_image": {
-      "score": 18,
-      "clarity": 22,
-      "accuracy": null,
-      "appeal": 15,
-      "notes": "Raw detector frame with heavy noise and diffraction artifacts. Requires significant calibration and processing before public release."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     },
     "en": {
      "heuristic": {
@@ -2361,23 +2359,23 @@
       "roi": 0.5047,
       "score": 80.42
      },
-     "ai_message": {
-      "score": 38,
-      "clarity": 55,
-      "accuracy": 70,
-      "appeal": 20,
-      "notes": "Post admits no findings. Dry, repetitive, and offers zero scientific insight. Rewrite with actual interpretation or skip posting."
+     "evidence": {
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456622,
+      "finite_fraction": 0.978848,
+      "median": 0.30689041316509247,
+      "robust_scatter": 0.335645549532026,
+      "above_5scatter_percent": 3.6551,
+      "p99_above_median_scatter": 19.759,
+      "bunit": "MJy/sr"
      },
-     "ai_image": {
-      "score": 18,
-      "clarity": 22,
-      "accuracy": null,
-      "appeal": 15,
-      "notes": "Raw detector frame with heavy noise and diffraction artifacts. Requires significant calibration and processing before public release."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     }
-   }
+   },
+   "analysis_revision": 3,
+   "paired_ready_utc": "2026-10-26T19:24:54.809620+00:00"
   },
   "jw06627005001_07101_00009_nrcalong_cal.fits": {
    "channels": {},
