@@ -2161,34 +2161,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-24T19:34:43.413668+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "batch_ran": false,
-   "pending_before": 3,
-   "analysis_cadence": {
-    "ready": 3,
-    "interval_hours": 6,
-    "publish_due": false,
-    "next_publish_not_before_utc": "2026-10-24T20:31:48.414699+00:00",
-    "refill_due": false,
-    "remaining_batch_bytes": 811753920,
-    "daily_limit": 4
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {
-     "NASA Blogs": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.nasa.gov/blogs/feed/"
-    },
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-24T19:34:43.813593+00:00"
-  },
-  {
    "started_utc": "2026-10-24T19:52:10.294908+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "batch_ran": false,
@@ -3536,6 +3508,35 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-26T10:55:43.821106+00:00"
+  },
+  {
+   "started_utc": "2026-10-26T14:24:32.863763+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-10-26T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-26T14:24:33.208324+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
