@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T20:37:16.605Z",
+ "generated_utc": "2026-10-26T22:35:03.353Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -705,6 +705,54 @@
  ],
  "news": [
   {
+   "slug": "science-w0nxml",
+   "title": "Tinga’s Tale",
+   "title_fa": "شناسایی ویژگی زمین‌شناختی شگفت‌انگیز در کرانهٔ ایدوبی توسط مریخ‌نورد استقامت",
+   "summary": "Written by Margaret Deahn, Ph.D. candidate at Purdue University Oct. 19, 2026 Once upon a time, NASA’s Mars 2020 rover investigated the southern border of “Idubi,” an outcrop composed primarily of an igneous mineral geologists call olivine. The rover’s “eyes” captured a very exciting geologic feature during its traverse — a contact between distinct rock […]",
+   "summary_fa": "مریخ‌نورد استقامتِ مأموریت ۲۰۲۰ ناسا، هنگام کاوش کرانهٔ جنوبی پهنهٔ سنگی «ایدوبی» بر مریخ، با ویژگی زمین‌شناختی خیره‌کننده‌ای روبه‌رو شد. این پهنه عمدتاً از سنگ آذرینی اولیوین تشکیل شده است. دوربین‌های مریخ‌نورد تماس میان دو نوع سنگ متمایز را در طول مسیر پیمایش خود ثبت کردند.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_ZL0_2009_0845281389_428EBY_N0911496ZCAM10039_1100LMJ.jpg?w=1648&h=1200&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blog/tingas-tale/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-26T21:17:02.000Z"
+  },
+  {
+   "slug": "nasa-1wk2qqj",
+   "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+   "title_fa": "پرسوِرنس: کلید محافظت از فضانوردان در برابر غبار مریخ",
+   "summary": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are small enough to penetrate the lungs and enter the bloodstream. The findings will be published Tuesday, Oct. 27, in the Proceedings of […]",
+   "summary_fa": "مركز پرسوِرنس ناسا طی بیش از ۱٬۶۴۵ روز مریخی، ذرات ریز و فوق‌ریز غبار مریخی چسبیده به نمونه‌های مواد لباس فضانوردی را اندازه‌گیری کرد. برخی از این ذرات آن‌قدر ریز هستند كه می‌توانند به شش‌ها نفوذ كرده و وارد جریان خون شوند. یافته‌ها روز سه‌شنبه ۵ آبان در نشریه‌ی پی‌شینگز آكادمی ملی علوم منتشر می‌شود.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26816-pano-resized-for-web-feature.jpg?w=2048",
+   "link": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-26T21:07:28.000Z"
+  },
+  {
+   "slug": "science-1xnumk4",
+   "title": "NEO Surveyor’s Sunshade Gets Inspected",
+   "title_fa": "بازرسی سایبان خورشیدی سامانه‌یاب NEO",
+   "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space & Mission Systems in Boulder, Colorado, in July 2026. The sunshade structure stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its base. Its two flat […]",
+   "summary_fa": "سایبان بزرگ سامانه‌یاب اجرام نزدیک به زمین ناسا در تیرماه ۱۴۰۵ در اتاق پاک شرکت بی‌ای‌ئی سیستمز در بولدر کلرادو، بر روی حلقه‌ی مونتاژ نصب و بازرسی شد. این سازه‌ی سایبان ۶ متر ارتفاع و ۲٫۴ متر پهنا در پایه دارد.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26780/PIA26780.jpg?w=1024&h=1536&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-26T20:53:13.000Z"
+  },
+  {
+   "slug": "science-vyifbc",
+   "title": "Solar Cells Inspected on NASA’s NEO Surveyor",
+   "title_fa": "بازرسی سلول‌های خورشیدی مأموریت NEO Surveyor ناسا",
+   "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder, Colorado, in late July. Built by Applied Aerospace in Stockton, California, the sunshade structure was outfitted with its solar cells by SolAero Technologies in Albuquerque, New Mexico, in January. Environmental […]",
+   "summary_fa": "پرهٔ بزرگ سایه‌بان مأموریت شناسایی اجسام نزدیک به زمین (NEO Surveyor) ناسا در اواخر جولای توسط تکنسینی در مرکز BAE Systems در کلرادو بررسی شد. این سازه توسط Applied Aerospace ساخته و سلول‌های خورشیدی آن در ژانویه در نیومکزیکو نصب گردید.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26715/PIA26715.jpg?w=1536&h=1024&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-26T20:52:24.000Z"
+  },
+  {
    "slug": "science-1jef9rt",
    "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
    "title_fa": "کارآموزان ناسا چالش‌های اکتشاف ماه را حل می‌کنند",
@@ -763,54 +811,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-26T04:05:00.000Z"
-  },
-  {
-   "slug": "science-1yguhfs",
-   "title": "APOD: 2026 October 25 – Dark Matter in a Simulated Universe",
-   "title_fa": "ماده تاریک در جهان شبیه‌سازی‌شده — APOD ۲۵ اکتبر ۲۰۲۶",
-   "summary": "APOD Science APOD APOD: 2026 October 25 – Dark… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Dark Matter […]",
-   "summary_fa": "تصویر روز نجوم (APOD) منتشرشده در ۲۵ اکتبر ۲۰۲۶ به ماده تاریک در یک جهان شبیه‌سازی‌شده می‌پردازد. این تصویر همراه با توضیحی کوتاه از سوی یک اخترشناس حرفه‌ای ارائه می‌شود.",
-   "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2021/october/DarkMatter_KipacAmnh_1200.jpg?w=1200&h=900&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-25T08:19:48.000Z"
-  },
-  {
-   "slug": "science-xeoj9a",
-   "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
-   "title_fa": "تصویر روز نجوم: سلفی روسeta",
-   "summary": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rosetta’s Selfie Explanation: […]",
-   "summary_fa": "تصویر روز نجوم (APOD) در ۲۴ اکتبر ۲۰۲۶ با عنوان «سلفی روسeta» منتشر شد. این تصویر به مأموریت روسeta می‌پردازد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/ESA_Rosetta_Philae_CIVA_141007.png?w=1024&h=1024&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-24T04:05:00.000Z"
-  },
-  {
-   "slug": "nasa-a3a2rt",
-   "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
-   "title_fa": "ناسا و شرکاء، توسعه فرودگر ماه ۲۰۲۸ را تسریع می‌کنند",
-   "summary": "As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have streamlined the designs and changed both concepts of operations for its future crewed landers. Since NASA established initial contracts with Blue Origin and SpaceX […]",
-   "summary_fa": "ناسا در تلاش برای بازگرداندن انسان به سطح ماه و ایجاد حضور بلندمدت در نزدیک‌ترین همسایه آسمانی، طراحی‌های سامانه‌های فرود انسانی_Blue_Origin و_SpX_ را بهبود داده و مفاهیم عملیاتی هر دو سیستم فرودگر خلبان‌دار آینده را تغییر داده است. این تسریع پس از عقد قراردادهای اولیه ناسا با_Blue_Origin و_SpX_ آغاز شد.",
-   "image": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-23T22:39:39.000Z"
-  },
-  {
-   "slug": "nasa-108x538",
-   "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
-   "title_fa": "آزمون عملیات فرود آینده بر ماه در مأموریت آرتمیس ۳ ناسا",
-   "summary": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit […]",
-   "summary_fa": "ناسا پیش از بازگشت فضانوردان به سطح ماه، یکی از جاه‌طلبانه‌ترین آزمون‌های تاریخ خود را انجام خواهد داد. این مأموریت در سال ۲۰۲۷ پرتاب می‌شود و فضانوردان ناسا و آژانس فضایی اروپا را با سفینه اوران به مدار پایین زمین خواهد فرستاد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
-   "link": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-23T22:37:53.000Z"
   },
   {
    "slug": "science-lkjrv3",

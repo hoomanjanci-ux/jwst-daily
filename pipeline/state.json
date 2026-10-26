@@ -2556,32 +2556,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-25T05:52:17.779412+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "batch_ran": false,
-   "pending_before": 4,
-   "analysis_cadence": {
-    "ready": 4,
-    "interval_hours": 6,
-    "publish_due": false,
-    "next_publish_not_before_utc": "2026-10-25T13:56:17.645356+00:00",
-    "refill_due": false,
-    "remaining_batch_bytes": 900000000,
-    "daily_limit": 4
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-25T05:52:18.262977+00:00"
-  },
-  {
    "started_utc": "2026-10-25T06:18:39.036923+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "batch_ran": false,
@@ -3966,6 +3940,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-26T20:37:15.378806+00:00"
+  },
+  {
+   "started_utc": "2026-10-26T22:32:59.150442+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-27T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blog/tingas-tale/",
+     "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blog/tingas-tale/",
+     "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/"
+    ],
+    "mode": "fresh (4 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-26T22:34:30.342925+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4129,6 +4140,14 @@
   "https://science.nasa.gov/blogs/neo-surveyor/2026/10/26/sunshade-for-nasas-neo-surveyor-mission-ready-for-its-day-in-sun/": {
    "fa": "2026-10-26T20:12:08.257216+00:00",
    "en": "2026-10-26T20:12:08.257216+00:00"
+  },
+  "https://science.nasa.gov/blog/tingas-tale/": {
+   "fa": "2026-10-26T22:33:05.997824+00:00",
+   "en": "2026-10-26T22:33:05.997824+00:00"
+  },
+  "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/": {
+   "fa": "2026-10-26T22:33:05.997824+00:00",
+   "en": "2026-10-26T22:33:05.997824+00:00"
   }
  },
  "news_archive": {
@@ -4473,6 +4492,24 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-26T18:12:24+00:00",
    "ts": "2026-10-26T20:12:08.257216+00:00"
+  },
+  "https://science.nasa.gov/blog/tingas-tale/": {
+   "title": "کشف تماس سنگ‌های متفاوت در لبهٔ جنوبی «ایدوبی» مریخ",
+   "summary": "رومر ناسا، مارس ۲۰۲۰، مرز جنوبی پویش «ایدوبی» را بررسی کرد؛ پویشی که عمدتاً از کانی أولیوین ساخته شده است. دوربین‌های این روفر طی حرکت خود بر روی سطح مریخ، ویژگی زمین‌شناختی جالبی را ثبت کردند: تماس میان دو سنگ متمایز.",
+   "link": "https://science.nasa.gov/blog/tingas-tale/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-26T21:17:02+00:00",
+   "ts": "2026-10-26T22:33:05.997824+00:00"
+  },
+  "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/": {
+   "title": "مریخ‌نورد پرسبرنس نکاتی برای محافظت از خدمه در برابر غبار مریخ ارائه داد",
+   "summary": "مریخ‌نورد پرسبرنس ناسا در طول ۱٬۶۴۵ روز مریخی، ذرات ریز و فوق‌ریز غبار مریخ را که به نمونه‌های مواد لباس فضایی همراه با این مریخ‌نورد چسبیده بودند، اندازه‌گیری کرد. برخی از این ذرات آن‌قدر ریز هستند که می‌توانند به ریه‌ها نفوذ کرده و وارد جریان خون شوند. یافته‌ها سه‌شنبه ۲۷ اکتبر در نشریات آکادمی ملی علوم منتشر می‌شود.",
+   "link": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-26T21:07:28+00:00",
+   "ts": "2026-10-26T22:33:05.997824+00:00"
   }
  },
  "news_title_fp": {
@@ -4577,6 +4614,14 @@
    "en": "2026-10-26"
   },
   "99d1e7e467b6e7ba": {
+   "fa": "2026-10-26",
+   "en": "2026-10-26"
+  },
+  "59029728cc36b37f": {
+   "fa": "2026-10-26",
+   "en": "2026-10-26"
+  },
+  "89003afc917853fb": {
    "fa": "2026-10-26",
    "en": "2026-10-26"
   }
@@ -4685,6 +4730,14 @@
   [
    "99d1e7e467b6e7ba",
    "sunshade for nasa s neo surveyor mission ready for its day in sun"
+  ],
+  [
+   "59029728cc36b37f",
+   "tinga s tale"
+  ],
+  [
+   "89003afc917853fb",
+   "nasa s perseverance offers clues to protect crews from mars dust"
   ]
  ],
  "combo_seen": {
