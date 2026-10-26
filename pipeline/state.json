@@ -2421,7 +2421,7 @@
   },
   "jw01482050001_03105_00003_nrca4_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 41.72,
    "analyzed_utc": "2026-10-26T19:06:19.373489+00:00",
    "analysis": "analyses/2026/10/26/jw01482050001_03105_00003_nrca4_rate.fits.json",
@@ -2441,7 +2441,61 @@
    "combo": "HD 147980|NIRCAM|F210M",
    "sha256": "34967c1b8773d9cde7ebf8c9a7ac1954fcaadfe8315358ae3f67c9ec5b2b0e42",
    "bytes": 83972160,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5289,
+      "brightness": 0.5857,
+      "range": 1.0,
+      "roi": 0.4172,
+      "score": 75.62
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 5049,
+      "brightest_quadrant_percent": 98.138,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 461121,
+      "finite_fraction": 0.988493,
+      "median": 0.0018885970348492265,
+      "robust_scatter": 0.05560629828830715,
+      "above_5scatter_percent": 1.0949,
+      "p99_above_median_scatter": 5.691,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5289,
+      "brightness": 0.5857,
+      "range": 1.0,
+      "roi": 0.4172,
+      "score": 75.62
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 5049,
+      "brightest_quadrant_percent": 98.138,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 461121,
+      "finite_fraction": 0.988493,
+      "median": 0.0018885970348492265,
+      "robust_scatter": 0.05560629828830715,
+      "above_5scatter_percent": 1.0949,
+      "p99_above_median_scatter": 5.691,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-10-26T20:26:21.056892+00:00"
   }
  },
  "runs": [
@@ -4720,7 +4774,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-10-26T19:29:47.251870+00:00",
+ "paired_prepare_attempt_utc": "2026-10-26T20:25:54.724697+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
