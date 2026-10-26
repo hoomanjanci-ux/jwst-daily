@@ -40,7 +40,10 @@ export async function deliver(env,slot) {
  let record=await one(env,'SELECT * FROM ai_slots WHERE slot=?',slot.key);
  if(['sent','unverified','expired'].includes(record.status))return false;
  if(!record.product) {
-  await run(env,`UPDATE ai_slots SET product=(SELECT product FROM ai_queue WHERE status='ready' AND product NOT IN (SELECT product FROM ai_slots WHERE product IS NOT NULL) ORDER BY created_utc LIMIT 1) WHERE slot=? AND product IS NULL`,slot.key);
+  await run(env,`UPDATE ai_slots SET product=(SELECT product FROM ai_queue WHERE status='ready' AND product NOT IN (SELECT product FROM ai_slots WHERE product IS NOT NULL)
+ AND (json_extract(payload,'$.combo') IS NULL OR json_extract(payload,'$.combo') NOT IN
+ (SELECT json_extract(payload,'$.combo') FROM ai_queue WHERE json_extract(payload,'$.combo') IS NOT NULL
+ AND (status='reserved' OR (status='published' AND julianday(published_utc)>julianday('now')-coalesce(json_extract(payload,'$.repeat_after_days'),14))))) ORDER BY created_utc LIMIT 1) WHERE slot=? AND product IS NULL`,slot.key);
   record=await one(env,'SELECT * FROM ai_slots WHERE slot=?',slot.key);
   if(!record.product){await run(env,'UPDATE ai_slots SET note=? WHERE slot=?','no approved paired reserve',slot.key);return false;}
   await run(env,"UPDATE ai_queue SET status='reserved',slot=? WHERE product=? AND status='ready'",slot.key,record.product);

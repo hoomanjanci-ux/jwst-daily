@@ -76,11 +76,18 @@ def api_once(token, chat, part, post, images):
 
 def ready_records(engine,state):
     reserved={s.get('product') for s in state.get('analysis_slots',{}).values() if s.get('product')}
-    return sorted([(pid,r) for pid,r in state['products'].items()
+    rows=sorted([(pid,r) for pid,r in state['products'].items()
                    if r.get('status')=='ready' and pid not in reserved
                    and not engine._combo_blocked(state,r)
                    and (engine.ROOT/'analysis_ready'/pid/'pair.json').exists()],
                   key=lambda x:-(x[1].get('score') or 0))
+    seen=set();unique=[]
+    for pid,rec in rows:
+        combo=rec.get('combo') or engine._combo_of(rec)
+        if not combo.strip('|'):combo=pid
+        if combo in seen:continue
+        seen.add(combo);unique.append((pid,rec))
+    return unique
 
 
 def archive(engine,state,pid,bundle):
@@ -199,8 +206,17 @@ def cycle(state,token,tmp,engine,max_bytes=450_000_000,max_products=3):
     # Heavy preparation is dedicated-worker only: never delay the existing RSS poll.
     if os.environ.get('ANALYSIS_ONLY')=='1' and ready<8 and enough_time and (last is None or now-last>=timedelta(minutes=15)):
         state['paired_prepare_attempt_utc']=now.isoformat();engine.save_state(state)
-        candidates=lambda:[(pid,r) for pid,r in state['products'].items()
-                           if r.get('status')=='analyzed' and not engine._combo_blocked(state,r)]
+        def candidates():
+            seen={r.get('combo') or engine._combo_of(r) for _,r in ready_records(engine,state)}
+            rows=sorted([(pid,r) for pid,r in state['products'].items()
+                         if r.get('status')=='analyzed' and not engine._combo_blocked(state,r)],
+                         key=lambda x:-(x[1].get('score') or 0))
+            out=[]
+            for pid,r in rows:
+                combo=r.get('combo') or engine._combo_of(r)
+                if combo in seen:continue
+                seen.add(combo);out.append((pid,r))
+            return out
         if len(candidates())<3:
             usage=state.get('analysis_byte_budget',{})
             spent=int(usage.get('bytes',0)) if usage.get('day')==now.date().isoformat() else 0

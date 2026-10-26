@@ -39,6 +39,10 @@ def sync(engine,state,checkpoint,archive):
             'status':'sent','product':pid,'delivery':delivery,'completed_utc':row['published_utc'],'sender':'cloudflare'}
         try:
             archive(engine,state,pid,bundle)
+            ok,_=cloudflare.sync_analysis(pid,rec['published_utc'],bundle['meta'],
+                rec.get('score') or 0,None,rec.get('channels',{}),bundle['analysis'])
+            rec['d1_sync']='ok' if ok else 'failed'
+            if not ok:raise RuntimeError('Analysis archive D1 sync pending')
             engine._trim_rec(rec)
             if cache.exists():shutil.rmtree(cache)
             checkpoint(engine,state) # Website archive MUST be durable before acknowledging.
@@ -57,11 +61,32 @@ def sync(engine,state,checkpoint,archive):
 def enqueue(engine,state,checkpoint):
     checkpoint(engine,state) # Raw GitHub image URLs must exist before Telegram uses them.
     count=0
+    seen=set()
+    days=int(getattr(engine,'COMBO_MIN_DAYS',14))
+    rows=query("SELECT product,payload,status FROM ai_queue WHERE status IN ('ready','reserved') OR (status='published' AND julianday(published_utc)>julianday('now')-?) ORDER BY CASE status WHEN 'reserved' THEN 0 WHEN 'published' THEN 1 ELSE 2 END,created_utc",[days])
+    for row in rows:
+        b=json.loads(row['payload']);m=b.get('meta',{})
+        combo=b.get('combo') or '|'.join(str(m.get(k) or '') for k in ('TARGNAME','INSTRUME','FILTER'))
+        if not combo.strip('|'):combo=row['product']
+        if combo in seen and row['status']=='ready':
+            changed=query("UPDATE ai_queue SET status='superseded' WHERE product=? AND status='ready' RETURNING product",[row['product']])
+            if changed and row['product'] in state['products']:
+                state['products'][row['product']]['status']='combo_cooldown'
+            continue
+        seen.add(combo)
+        if row['status']=='ready' and not b.get('combo'):
+            b['combo']=combo;b['repeat_after_days']=days
+            query("UPDATE ai_queue SET payload=? WHERE product=? AND status='ready'",[json.dumps(b,ensure_ascii=False),row['product']])
     for pid,rec in state['products'].items():
         cache=engine.ROOT/'analysis_ready'/pid
         if rec.get('status')!='ready' or not (cache/'pair.json').exists():continue
         existing=query('SELECT status FROM ai_queue WHERE product=?',[pid])
         if existing:continue
+        combo=rec.get('combo') or engine._combo_of(rec)
+        if not combo.strip('|'):combo=pid
+        if combo in seen:
+            rec['status']='combo_cooldown'
+            continue
         bundle=json.loads((cache/'pair.json').read_text())
         base='https://raw.githubusercontent.com/hoomanjanci-ux/jwst-daily/main/'
         urls=[base+quote(f'pipeline/analysis_ready/{pid}/{name}',safe='/') for name in bundle['images']]
@@ -74,7 +99,11 @@ def enqueue(engine,state,checkpoint):
             except requests.RequestException:reachable=False;break
         if not reachable:continue
         bundle['image_urls']=urls
+        bundle['combo']=combo
+        bundle['repeat_after_days']=days
+        seen.add(combo)
         query("INSERT OR IGNORE INTO ai_queue(product,payload,status,created_utc) VALUES(?,?,'ready',?)",
               [pid,json.dumps(bundle,ensure_ascii=False),rec.get('paired_ready_utc') or ''])
         count+=1
+    checkpoint(engine,state)
     return count
