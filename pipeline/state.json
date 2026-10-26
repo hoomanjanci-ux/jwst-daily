@@ -2185,7 +2185,7 @@
   },
   "jw06627005001_07101_00003_nrcalong_cal.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "quality_held",
    "score": 50.47,
    "analyzed_utc": "2026-10-26T16:00:20.537182+00:00",
    "analysis": "analyses/2026/10/26/jw06627005001_07101_00003_nrcalong_cal.fits.json",
@@ -2205,7 +2205,59 @@
    "combo": "2MASS J05220207-6930388|NIRCAM|F335M",
    "sha256": "78e05a176a67001d483814f43cc6c7fd1518d87ae9492b7113163052aa027a7e",
    "bytes": 117576000,
-   "published_utc": null
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6612,
+      "brightness": 0.6418,
+      "range": 1.0,
+      "roi": 0.5047,
+      "score": 80.42
+     },
+     "ai_message": {
+      "score": 82,
+      "clarity": 84,
+      "accuracy": 85,
+      "appeal": 76,
+      "notes": "Factual metadata correct, but hedging ('unknown what was revealed') reduces impact. Consider adding brief scientific context or preview of findings."
+     },
+     "ai_image": {
+      "score": 18,
+      "clarity": 22,
+      "accuracy": null,
+      "appeal": 15,
+      "notes": "Raw detector frame with heavy noise and diffraction artifacts. Requires significant calibration and processing before public release."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6612,
+      "brightness": 0.6418,
+      "range": 1.0,
+      "roi": 0.5047,
+      "score": 80.42
+     },
+     "ai_message": {
+      "score": 38,
+      "clarity": 55,
+      "accuracy": 70,
+      "appeal": 20,
+      "notes": "Post admits no findings. Dry, repetitive, and offers zero scientific insight. Rewrite with actual interpretation or skip posting."
+     },
+     "ai_image": {
+      "score": 18,
+      "clarity": 22,
+      "accuracy": null,
+      "appeal": 15,
+      "notes": "Raw detector frame with heavy noise and diffraction artifacts. Requires significant calibration and processing before public release."
+     },
+     "min_score_gate": 60.0
+    }
+   }
   },
   "jw06627005001_07101_00009_nrcalong_cal.fits": {
    "channels": {},
