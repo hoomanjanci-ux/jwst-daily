@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T20:08:59.259Z",
+ "generated_utc": "2026-10-26T20:12:46.583Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -705,6 +705,18 @@
  ],
  "news": [
   {
+   "slug": "science-1jef9rt",
+   "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
+   "title_fa": "کارآموزان ناسا چالش‌های اکتشاف ماه را حل می‌کنند",
+   "summary": "The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for Space Research places high school students on small, mission-focused research teams mentored by NASA, academic, and industry experts. During summer 2026, the SEES Mission Architecture Tool for Research, Integration, and eXploration (MATRIX) team […]",
+   "summary_fa": "برنامه کارآموزی SEES ناسا در مرکز تحقیقات فضایی دانشگاه تگزاس، دانش‌آموزان دبیرستانی را در تیم‌های پژوهشی کوچک با راهنمایی متخصصان ناسا و دانشگاهی مستقر می‌کند. تابستان ۲۰۲۶، تیم MATRIX این برنامه بر روی معماری مأموریت‌های اکتشافی تمرکز دارد.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/learn/science-activation-stories/2026/10.09.26_SEES_Highlight.jpg?w=955&h=637&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-26T19:28:08.000Z"
+  },
+  {
    "slug": "science-1rwoyv1",
    "title": "Sunshade for NASA’s NEO Surveyor Mission Ready for Its Day in Sun",
    "title_fa": "آمادگی پای‌سای تلسکوپ NEO Surveyor ناسا برای تابش آفتاب",
@@ -742,9 +754,9 @@
   },
   {
    "slug": "science-13b11wj",
-   "title": "2026 October 26 – M42: The Great Nebula in Orion",
+   "title": "APOD: 2026 October 26 – M42: The Great Nebula in Orion",
    "title_fa": "سحابی جبار؛ M42 در تصویر روز نجوم",
-   "summary": "APOD Science APOD 2026 October 26 – M42: The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. M42: The […]",
+   "summary": "APOD Science APOD APOD: 2026 October 26 – M42:… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. M42: The […]",
    "summary_fa": "تصویر روز نجوم (APOD) در تاریخ ۲۶ اکتبر ۲۰۲۶ به سحابی M42 یا سحابی بزرگ جبار اختصاص یافت. این سحابی یکی از مشهورترین اجرام آسمانی است که با چشم غیرمسلح نیز قابل مشاهده می‌باشد.",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/OrionSword_Palaia_2000.jpg?w=1960&h=2048&fit=clip&crop=faces%2Cfocalpoint",
    "link": "https://science.nasa.gov/image-article/apod/2026-october-26-m42-the-great-nebula-in-orion/",
@@ -811,18 +823,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-23T21:58:32.000Z"
-  },
-  {
-   "slug": "science-14shdb",
-   "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
-   "title_fa": "پایان مأموریت تلسکوپ Swift ناسا با میراث علمی درخشان",
-   "summary": "NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface. The greater atmospheric drag at this height prevents the satellite’s telescopes from steadily gazing at their astronomical targets. Swift conducted its final observation on Oct. 20. It is expected to […]",
-   "summary_fa": "تلسکوپ فضایی نیل گیرلز سوئیفت ناسا پس از آنکه ارتفاع مداری آن به کمتر از ۲۷۵ کیلومتر کاهش یافت، کار خود را پایان داد؛ کشش جوی بیشتر در این ارتفاع مانع از عملکرد پایدار تلسکوپ‌ها شد. آخرین رصد این ماهواره در ۲۰ اکتبر انجام شد و انتظار می‌رود به‌زودی در جو زمین بسوزد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/swift-observatory/news/2026/end-of-mission/Swift_in_space_15_ac.jpg?w=2048&h=1084&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-23T21:51:19.000Z"
   },
   {
    "slug": "nasa-1gwcl25",
