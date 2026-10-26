@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T08:10:30.990Z",
+ "generated_utc": "2026-10-26T08:41:12.976Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw06606003001-02107-00002-nrcalong-rate",
+   "product": "jw06606003001_02107_00002_nrcalong_rate.fits",
+   "published_utc": "2026-10-26T08:41:08.110855+00:00",
+   "target": "GSPC P330-E",
+   "instrument": "NIRCAM",
+   "detector": "NRCALONG",
+   "filter": "F430M",
+   "obs_date": "2024-08-18",
+   "proposal": "6606",
+   "score": 38.45,
+   "quality_score": 71.59,
+   "image": "/img/jw06606003001-02107-00002-nrcalong-rate.jpg",
+   "text_fa": "🤖 <b>تحلیل هوش مصنوعی — راز کیهان</b>\n<blockquote>در ۱۸ اوت ۲۰۲۴، ابزار NIRCam تلسکوپ جیمز وب، میدان کمپین سیارات GOODS-South به نام GSPC P330-E را با فیلتر F430M و آشکارساز NRCALONG رصد کرد (پروپوزال 6606). فیلتر F430M روی طول‌موج‌های فروسرخ نزدیک در محدودهٔ حدود ۴٫۳ میکرومتر متمرکز است که این امکان را برای اخترشناسان فراهم می‌آورد تا نور کهکشان‌های ضعیف و دوردستی را بررسی کنند که نشانه‌هایشان بر اثر انبساط کیهانی کش آمده است. با این حال، صرفاً با داشتن متادیتای رصد و بدون شارهای اندازه‌گیری‌شده، ویژگی‌های طیفی، یا قرمزگرایی‌ها، هنوز نمی‌توان به نتیجهٔ قطعی نجومی‑فیزیکی دست یافت. این رصد به طرح میراثی میدان عمیق GOODS-South کمک می‌کند و در ساخت فهرست عکاس‌سنجی لازم برای مشخصه‌یابی جمعیت کهکشان‌های دوردست در سیر کیهانی نقش دارد.</blockquote>\n\n🔎 <b>واقعیت‌ها از متادیتا:</b>\n🎯 هدف: <b>GSPC P330-E</b>\n🛰 ابزار: NIRCAM · فیلتر: F430M\n📅 تاریخ مشاهده: 2024-08-18 · پروپوزال: 6606\n\n⚠️ <i>این تحلیل با هوش مصنوعی تولید شده است — تفسیر داده است، نه گفتهٔ منبع رسمی؛ عدم‌قطعیت‌ها را جدی بگیرید.</i>\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw06570018001-03106-00004-nrcalong-rate",
    "product": "jw06570018001_03106_00004_nrcalong_rate.fits",
@@ -102,23 +119,6 @@
    "proposal": "6606",
    "score": 44.2,
    "quality_score": 78.81,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
-   "slug": "jw06606003001-02107-00002-nrcalong-rate",
-   "product": "jw06606003001_02107_00002_nrcalong_rate.fits",
-   "published_utc": "2026-10-25T22:23:47.931940+00:00",
-   "target": "GSPC P330-E",
-   "instrument": "NIRCAM",
-   "detector": "NRCALONG",
-   "filter": "F430M",
-   "obs_date": "2024-08-18",
-   "proposal": "6606",
-   "score": 38.45,
-   "quality_score": 71.59,
    "image": null,
    "text_fa": null,
    "text_en": null,
