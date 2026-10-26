@@ -1859,23 +1859,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-24T12:47:06.269660+00:00",
-   "mode": "mode=LIVE targets=['fa_ai', 'en_ai', 'fa_official', 'en_official']",
-   "batch_ran": false,
-   "pending_before": 0,
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-24T12:47:06.498800+00:00"
-  },
-  {
    "started_utc": "2026-10-24T13:45:35.224229+00:00",
    "mode": "mode=LIVE targets=['fa_ai', 'en_ai', 'fa_official', 'en_official']",
    "batch_ran": true,
@@ -3148,6 +3131,35 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-26T01:35:35.874777+00:00"
+  },
+  {
+   "started_utc": "2026-10-26T01:50:03.718733+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-10-26T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-26T01:50:04.242704+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",

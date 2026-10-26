@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T01:35:37.514Z",
+ "generated_utc": "2026-10-26T01:50:05.726Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -583,6 +583,18 @@
    "date_utc": "2026-10-23T22:37:53.000Z"
   },
   {
+   "slug": "science-lkjrv3",
+   "title": "NASA’s Swift Mission Ends Ahead of Re-Entry",
+   "title_fa": "پایان مأموریت تلسکوپ Swift ناسا پیش از بازگشت به زمین",
+   "summary": "NASA’s Swift has concluded operations, leaving behind a legacy of innovation and a treasure trove of science observations.",
+   "summary_fa": "تلسکوپ فضایی Swift ناسا پس از پایان عملیات، آماده بازچهره‌اندازی (Re-entry) به جو زمین است. این مأموریت میراثی از نوآوری و گنجینه‌ای از مشاهدات علمی را در پی دارد.",
+   "image": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/misc--spacecraft-art/Swift_in_space_11.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "link": "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-23T21:58:32.000Z"
+  },
+  {
    "slug": "science-14shdb",
    "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
    "title_fa": "پایان مأموریت تلسکوپ Swift ناسا با میراث علمی درخشان",
@@ -593,6 +605,18 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-23T21:51:19.000Z"
+  },
+  {
+   "slug": "nasa-1gwcl25",
+   "title": "NASA Shares Artemis Acceleration Plans for Moon Missions",
+   "title_fa": "ناسا برنامه‌های تسریع مأموریت‌های ماه‌نشین را معرفی کرد",
+   "summary": "In an update Friday, Oct. 23, NASA Administrator Jared Isaacman and other agency leaders provided the agency’s path forward to returning Americans to the lunar surface in 2028. The briefing included details about NASA’s Artemis III mission that will send four astronauts to low Earth orbit next year to test critical systems needed for future […]",
+   "summary_fa": "ناسا مسیر بازگشت فضانوردان آمریکایی به سطح ماه در سال ۲۰۲۸ را مشخص کرد. بر این پایه، مأموریت آرتمیس ۳ پیش‌بینی می‌کند که سال آینده چهار فضانورد به مدار پایین زمین فرستاده شوند تا سامانه‌های حیاتی لازم برای مأموریت‌های آتی آزمایش شوند.",
+   "image": "https://images-assets.nasa.gov/image/KSC-20261023-PH--CSH02--0014/KSC-20261023-PH--CSH02--0014~large.jpg?w=1920&h=944&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-23T20:15:28.000Z"
   },
   {
    "slug": "nasa-5syocc",
@@ -607,6 +631,18 @@
    "date_utc": "2026-10-23T18:57:04.000Z"
   },
   {
+   "slug": "science-1netmou",
+   "title": "NASA’s Dragonfly Completes First Simulated Flight",
+   "title_fa": "ناسا نخستین پرواز آزمایشی پرندهٔ دراگون‌فالی را پشت سر گذاشت",
+   "summary": "Separated from its protective backshell, NASA’s Dragonfly rotorcraft autonomously speeds over the sand dunes of Titan. It scans the terrain below, searching for a safe place to land. When Dragonfly discovers a safe site, it turns, descends, and lands at the selected location, touching down for the first time on the surface of Saturn’s largest […]",
+   "summary_fa": "مروارِ دراگون‌فلی ناسا پس از جدا شدن از پوشش محافظ، به‌صورت خودکار بر فراز تپک‌های شنی تیتان پرواز کرد و زمین زیرین را اسکن نمود تا مکان ایمنی برای فرود بیابد. پس از یافتن نقطهٔ مناسب، descend کرد و نخستین بار بر سطح بزرگ‌ترین قمر زحل فرود آمد.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/dragonfly/FirstFlightDiagram2.jpg?w=801&h=430&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-23T18:44:14.000Z"
+  },
+  {
    "slug": "nasa-1bd1ced",
    "title": "NASA, Virginia Launch Power Partnership for Energy Security",
    "title_fa": "شراکت ناسا و ویرجینیا برای امنیت انرژی",
@@ -617,6 +653,18 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-23T17:50:21.000Z"
+  },
+  {
+   "slug": "nasa-1vm15nt",
+   "title": "Advanced Research, Spacewalk Preps End Week as NASA Announces Artemis Status",
+   "title_fa": "پایان هفته با تحقیقات پیشرفته و آمادگی پیاده‌روی فضایی؛ ناسا وضعیت آرتemis را اعلام کرد",
+   "summary": "The Expedition 75 crew worked on a 3D bioprinter and a levitation furnace at the end of the week to advance health and high-temperature physics. Two astronauts are also preparing for a spacewalk at the International Space Station as NASA announces the status of upcoming Moon missions.",
+   "summary_fa": "تیم مأموریت ۷۵ ایستگاه فضایی بین‌المللی در اواخر هفته بر روی چاپگر زیستی سه‌بعدی و کوره لخت‌کنشی کار کرد تا به پیشرفت حوزه‌های سلامت و فیزیک دمای بالا کمک کند. دو فضانورد نیز در حال آماده‌سازی برای پیاده‌روی فضایی در ایستگاه فضایی بین‌المللی هستند. ناسا همزمان وضعیت مأموریت‌های آینده ماه را اعلام کرد.",
+   "image": "https://images-assets.nasa.gov/image/iss072e618284/iss072e618284~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/23/advanced-research-spacewalk-preps-end-week-as-nasa-announces-artemis-status/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-23T16:11:23.000Z"
   },
   {
    "slug": "science-sxunl",
@@ -641,6 +689,66 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-22T21:39:58.000Z"
+  },
+  {
+   "slug": "science-7wh8vy",
+   "title": "NASA’s Roman Space Telescope Enters Final Commissioning Phase",
+   "title_fa": "تلسکوپ فضایی رومن ناسا وارد فاز نهایی آماده‌سازی علمی شد",
+   "summary": "NASA’s Nancy Grace Roman Space Telescope mission has now entered the science commissioning phase, having successfully completed a comprehensive checkout and refinement of the observatory and primary instrument performance. “We’ve established that the observatory is fully functional,” said Julie McEnery, Roman’s senior project scientist at NASA’s Goddard Space Flight Center in Greenbelt, Maryland. “The telescope […]",
+   "summary_fa": "مأموریت تلسکوپ فضایی نینسی گریس رومن ناسا وارد فاز آماده‌سازی علمی خود شده است و با موفقیت مرحلهٔ بازرسی و بهینه‌سازی عملکرد رصدخانه و Instrument اصلی را پشت سر گذاشته است. جولای مک‌نری، دانشمند ارشد پروژه رومن در مرکز پرواز فضایی گودارد ناسا اعلام کرد که رصدخانه به‌طور کامل عملیاتی شده است.",
+   "image": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a010000/a014300/a014359/Roman_Beauty1_2023_Still4.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "link": "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-22T19:43:51.000Z"
+  },
+  {
+   "slug": "nasa-1q02bis",
+   "title": "Busy Station Day with Bioprinting, Spacesuit Check, Robotics, and Photography",
+   "title_fa": "روز پرتلاش فضانوردان: زیست‌چاپ، لباس فضایی و تمرین رباتیک",
+   "summary": "The Expedition 75 crew had a busy day on Thursday bioprinting blood vessels and trying on a spacesuit aboard the International Space Station. The orbital residents also trained to use a pair of robotic arms and set up Earth photography sessions to round out the day in low Earth orbit.",
+   "summary_fa": "خروجیان سفرهٔ ۷۵ در روز پنجشنبه فعالیتی شلوغ را در ایستگاه فضایی بین‌المللی تجربه کردند و در راستای زیست‌چاپ عروق خونی و آزمایش لباس فضایی مشارکت کردند. ساکنان مداری همچنین به کار با بازوهای رباتیک پرداختند و پس از آماده‌سازی جلسات عکاسی از زمین، روز خود در مدار نزدیک زمین را به پایان رساندند.",
+   "image": "https://images-assets.nasa.gov/image/jsc2026e037789/jsc2026e037789~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-22T17:37:14.000Z"
+  },
+  {
+   "slug": "science-zndkse",
+   "title": "Pedal to the Metal: NASA’s Psyche Heads Toward Asteroid Belt",
+   "title_fa": "شتاب پایسک: فضاپیمای ناسا به‌سوی کمربند سیارکی شتافت",
+   "summary": "With a successful Mars gravity assist in its rearview mirror, NASA’s Psyche spacecraft has fired up its thrusters and is accelerating to the metal-rich asteroid of the same name. During the first leg of its journey, following an October 2023 launch, the mission used its electric propulsion system intermittently to maneuver to the right place […]",
+   "summary_fa": "فضاپیمای پایسک ناسا پس از انجام با موفقیت مانور کمک‌گرانشی مریخ، پیشرانه‌های خود را روشن کرد و به‌سوی سیارک فلز‌دار هم‌نام خود در حال شتاب‌گیری است. این مأموریت که در اکتبر ۲۰۲۳ پرتاب شد، در بخش نخست سفر خود از سیستم پیشرانش الکتریکی خود به‌صورت پراکنده برای قرارگیری در مسیر مناسب استفاده کرد.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/psyche/images/1-PIA21499_-_Artist",
+   "link": "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-22T16:16:58.000Z"
+  },
+  {
+   "slug": "nasa-lb1qq4",
+   "title": "Spacesuits, Lunar Agriculture, and Breathing Research Top Wednesday’s Schedule",
+   "title_fa": "بررسی فضانماها، کشاورزی فضایی و تحقیقات تنفسی در صدر برنامه",
+   "summary": "Spacesuit checks topped Wednesday’s task list aboard the International Space Station as two astronauts prepare for a spacewalk next week. The Expedition 75 crew members also kept up advanced microgravity research exploring space agriculture and the respiratory system midweek.",
+   "summary_fa": "بررسی فضانماها در صدر برنامه روز چهارشنبه aboard ایستگاه فضایی بین‌المللی قرار داشت، به‌ویژه برای دو فضانوردی که هفته آینده پا به بیرون فضا خواهند گذاشت. اکیپ مأموریت اکسپدیشن ۷۵ نیز همچنان به انجام تحقیقات پیشرفته میکروژیروی در حوزه‌های کشاورزی فضایی و سیستم تنفسی ادامه داد.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0068637/iss075e0068637~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-21T16:22:01.000Z"
+  },
+  {
+   "slug": "nasa-19rm8ym",
+   "title": "Blood Vessel Printing, Cancer Research, and Spacewalk Preps Keep Crew Busy",
+   "title_fa": "چاپ رگ خونی، تحقیق سرطان و آمادگی پیاده‌روی فضایی",
+   "summary": "Expedition 75 spent Tuesday advancing human health on and off the Earth with 3D bioprinting, cancer research, and exercise studies. Meanwhile, spacewalk preparations continue aboard the International Space Station to augment its power generation system.",
+   "summary_fa": "مأموران مأموریت ۷۵ در روز سه‌شنبه به پیشبرد سلامت انسان، در فضا و روی زمین، پرداختند. آن‌ها با چاپ زیستی سه‌بعدی رگ‌های خونی، تحقیقات سرطانی و مطالعه‌های ورزشی فعالیت کردند. هم‌زمان، آماده‌سازی‌های پیاده‌روی فضایی در ایستگاه فضایی بین‌المللی برای افزایش سیستم تولید برق ایستگاه ادامه دارد.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0070083/iss075e0070083~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/20/blood-vessel-printing-cancer-research-and-spacewalk-preps-keep-crew-busy/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-20T20:43:18.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
