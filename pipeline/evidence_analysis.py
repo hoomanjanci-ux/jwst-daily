@@ -26,7 +26,14 @@ def measure(path,hdu_index):
         mad=float(np.median(np.abs(finite-med)))
         scatter=1.4826*mad
         if not np.isfinite(scatter) or scatter<=0 or p99<=med:raise ValueError('Blank or degenerate image')
-        return {'width':width,'height':height,'sample_stride':stride,'sample_count':int(finite.size),
+        tail=(valid & (sample>med+5*scatter)).reshape(data[::stride,::stride].shape)
+        h,w=tail.shape
+        quadrants=[tail[:h//2,:w//2].sum(),tail[:h//2,w//2:].sum(),
+                   tail[h//2:,:w//2].sum(),tail[h//2:,w//2:].sum()]
+        tail_count=int(tail.sum())
+        concentration=round(float(max(quadrants)/tail_count*100),3) if tail_count else None
+        return {'bright_tail_pixel_count':tail_count,'brightest_quadrant_percent':concentration,
+                'width':width,'height':height,'sample_stride':stride,'sample_count':int(finite.size),
                 'finite_fraction':round(float(finite.size/sample.size),6),
                 'median':float(med),'robust_scatter':scatter,
                 'above_5scatter_percent':round(float(np.mean(finite>med+5*scatter)*100),4),
@@ -37,7 +44,7 @@ def wavelength(filter_name):
     match=re.fullmatch(r'F(\d{3})(?:W2|[WMN])',str(filter_name or '').upper())
     return int(match.group(1))/100 if match else None
 
-def research(meta,stats):
+def research(meta,stats,focus=None):
     required=['width','height','sample_count','median','robust_scatter','above_5scatter_percent']
     if not stats or not all(k in stats for k in required):raise ValueError('Measured evidence is required')
     if str(meta.get('TELESCOP','JWST')).upper()!='JWST':raise ValueError('Not JWST data')
@@ -58,6 +65,19 @@ def research(meta,stats):
     if wave:
         fa+=f" فیلتر {f} نزدیک طول موج {wave:g} میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است."
         en+=f" Filter {f} samples approximately {wave:g} micrometres, in the near-infrared."
+    for fact in (focus or []):
+        if fact=='distribution' and 'p99_above_median_scatter' in stats:
+            value=stats['p99_above_median_scatter']
+            fa+=f" همچنین صدک ۹۹ نمونه، {value:g} برابر پراکندگیِ مقاوم بالاتر از میانه قرار دارد؛ این توصیف توزیع مقادیر است، نه اندازهٔ روشنایی یک جرم خاص."
+            en+=f" The sample's 99th percentile is {value:g} robust-scatter units above the median: a distribution descriptor, not the brightness of an identified object."
+        elif fact=='spatial_concentration' and stats.get('brightest_quadrant_percent') is not None:
+            value=stats['brightest_quadrant_percent']
+            fa+=f" اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع {value:g} درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند."
+            en+=f" Splitting the array into four quadrants, the most populated quadrant contains {value:g}% of above-threshold pixels. This array-space concentration alone does not identify a source or its physical nature."
+        elif fact=='sampling_quality':
+            value=stats.get('finite_fraction',1)*100
+            fa+=f" پس از حذف مقادیر نامتناهی/تهی و پیکسل‌های دارای پرچمِ غیرقابل‌استفاده یا اشباع، {value:.2f} درصد نمونه باقی مانده است؛ سایر کنترل‌های کالیبراسیون همچنان برای تحلیل حرفه‌ای لازم‌اند."
+            en+=f" After excluding non-finite values and DO_NOT_USE/SATURATED pixels, {value:.2f}% of the sample remains; further calibration checks are still required for professional science."
     return {'fa':{'hook':f'از پیکسل تا الگوی روشنایی؛ بررسی دادهٔ {target}',
                   'body':fa,'why':'این روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.'},
             'en':{'hook':f'From pixels to brightness patterns: {target}',

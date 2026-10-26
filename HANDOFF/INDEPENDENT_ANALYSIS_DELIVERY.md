@@ -24,7 +24,11 @@ statistics and method are permanently archived. It never guesses target type,
 claims a discovery, counts stars from threshold pixels, or treats a display stretch
 as calibrated flux. English and Persian render the SAME numerical object.
 
-These posts honestly say 'computational data analysis', not 'AI-generated prose'.
+The AI provider can select analysis focus from a closed, validated fact-ID schema
+with a bounded request timeout. It cannot introduce new factual claims. Both
+languages render one shared plan. Such posts explicitly say 'AI-assisted focus
+selection'. On provider failure, posts honestly say 'computational data analysis',
+not 'AI-generated prose'.
 No placeholder template or invented scientific result is used when an API fails.
 The image/evidence validity gate remains mandatory; blank/low-quality data is held.
 The shared legacy AI/news writer and news quality policy are not changed.

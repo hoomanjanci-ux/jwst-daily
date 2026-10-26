@@ -18,10 +18,22 @@ class BilingualTests(unittest.TestCase):
     def test_api_outage_cannot_stop_real_computational_analysis(self):
         with patch.object(bilingual.ai_message,'_qai_chat',side_effect=RuntimeError('503')) as api:
             b=bilingual.build_pair({'TARGNAME':'X'},'42',{'measured_image_statistics':STATS})
-        api.assert_not_called()
+        api.assert_called_once()
         self.assertIn('not model-generated',b['translations']['en']['text'])
     def test_missing_measured_data_is_not_replaced_by_fake_template(self):
         with self.assertRaises(ValueError):bilingual.build_pair({},'',{})
     def test_html_is_escaped(self):
         b=bilingual.build_pair({'TARGNAME':'<script>X</script>'},'42',{'measured_image_statistics':STATS})
         self.assertNotIn('<script>',b['translations']['fa']['text'])
+
+    def test_ai_cannot_add_unverified_scientific_claim(self):
+        with patch.object(bilingual.ai_message,'_qai_chat',return_value='{"primary":"new_distant_galaxy"}'):
+            b=bilingual.build_pair({},'42',{'measured_image_statistics':STATS})
+        self.assertFalse(b['canonical']['ai_assisted'])
+        self.assertNotIn('distant galaxy',b['translations']['en']['text'])
+    def test_ai_focus_is_shared_by_both_languages(self):
+        with patch.object(bilingual.ai_message,'_qai_chat',return_value='{"primary":"sampling_quality","secondary":"bright_tail"}'):
+            b=bilingual.build_pair({},'42',{'measured_image_statistics':STATS})
+        self.assertTrue(b['canonical']['ai_assisted'])
+        self.assertIn('AI-assisted',b['translations']['en']['text'])
+        self.assertIn('هوش مصنوعی',b['translations']['fa']['text'])
