@@ -1,0 +1,33 @@
+name: deploy-analysis-scheduler
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy independent analysis sender
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_D1_DATABASE_ID: ${{ secrets.CF_D1_DATABASE_ID }}
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          GH_ANALYSIS_DISPATCH_TOKEN: ${{ secrets.GH_ANALYSIS_DISPATCH_TOKEN }}
+        run: |
+          pip install requests
+          python scripts/deploy_analysis_scheduler.py
+      - name: Persist activated sender (prevents split-brain fallback)
+        run: |
+          git config user.name jwst-pipeline-bot
+          git config user.email bot@users.noreply.github.com
+          git add pipeline/analysis_runtime.json
+          git commit -m "analysis: independent Cloudflare sender activated [skip ci]" || echo "no change"
+          git pull --rebase origin main
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: analysis-scheduler-deployment
+          path: analysis-deployment.json

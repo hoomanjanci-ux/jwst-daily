@@ -36,6 +36,7 @@ from PIL import Image
 sys.path.insert(0, str(Path(__file__).parent))
 import cadence  # noqa: E402
 import bilingual_analysis  # noqa: E402
+import evidence_analysis  # noqa: E402
 import ai_message  # noqa: E402
 import annotator  # noqa: E402
 import cloudflare  # noqa: E402
@@ -428,25 +429,26 @@ def publish_one(pid, state, token, targets, tmp):
         if prop and not sci_payload.get("proposal_id"):
             sci_payload["proposal_id"] = prop
 
-        # Prepare and quality-check BOTH versions BEFORE any Telegram request.
+        # Reproducible source measurements, not guessed target identities or API prose.
+        measured = evidence_analysis.measure(dest, fits2png.pick_science_hdu(dest))
+        sci_payload["measured_image_statistics"] = measured
+        image_quality = quality.heuristic_scores(
+            np.asarray(Image.open(imgs[0]).convert("L")), rec.get("score") or 0)
         bundle = bilingual_analysis.build_pair(meta, prop, sci_payload)
-        reports = {}
-        for lang in ("fa", "en"):
-            post = bundle["translations"][lang]
-            if not reports:
-                reports[lang] = quality.full_report(
-                    np.asarray(Image.open(imgs[0]).convert("L")),
-                    rec.get("score") or 0, post["text"], sci_payload, raw_png)
-            else:
-                # Same research, same image: do not run the expensive vision judge twice.
-                reports[lang] = {**reports["fa"],
-                    "ai_message": quality.ai_score_message(post["text"], sci_payload)}
+        rec["analysis_revision"] = evidence_analysis.REVISION
+        reports = {lang: {"heuristic": image_quality, "evidence": measured,
+                    "method": "measured-data-analysis-v3"} for lang in ("fa", "en")}
         rec["quality_log"] = reports
-        if not all(quality.passes_gate(q) for q in reports.values()):
+        if not evidence_analysis.validate(meta, measured, image_quality):
             rec["status"] = "quality_held"
             rec.pop("publish_intent", None)
             save_state(state)
             return False
+        if analysis_path.is_file():
+            document = json.loads(analysis_path.read_text())
+            document["measured_image_statistics"] = measured
+            document["analysis_revision"] = evidence_analysis.REVISION
+            analysis_path.write_text(json.dumps(document,ensure_ascii=False),encoding="utf-8")
         cache = ROOT / "analysis_ready" / pid
         cache.mkdir(parents=True, exist_ok=True)
         bundle.update(product=pid, meta=meta, proposal=prop,

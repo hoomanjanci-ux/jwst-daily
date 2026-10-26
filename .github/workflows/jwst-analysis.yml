@@ -6,11 +6,8 @@ name: jwst-analysis
 
 on:
   schedule:
-    # Tehran UTC+03:30 (no DST): wake repeatedly inside each one-hour window.
-    - cron: "30,35,40,45,50,55 2,5,8,14 * * *"
-    - cron: "0,5,10,15,20,25 3,6,9,15 * * *"
-    # Prepare bilingual reserve before the windows; never publish out of window.
-    - cron: "0 0,4,7,13,20 * * *"
+    # Cloudflare wakes preparation when reserve is low. This is backup maintenance only.
+    - cron: "17 */4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,7 +20,7 @@ concurrency:
 jobs:
   pipeline:
     runs-on: ubuntu-latest   # public repo: 4 vCPU / 16 GB RAM / 14 GB SSD (official)
-    timeout-minutes: 45     # 2026-10-23: batch hit 120-min cap when MAST was slow (run 39966020689 cancelled)
+    timeout-minutes: 25     # 2026-10-23: batch hit 120-min cap when MAST was slow (run 39966020689 cancelled)
     steps:
       - uses: actions/checkout@v4
 

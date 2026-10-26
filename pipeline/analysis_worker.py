@@ -13,6 +13,7 @@ import shutil
 import requests
 import analysis_slots
 import cadence
+import cloud_queue
 
 
 class Rejected(Exception):
@@ -87,7 +88,7 @@ def archive(engine,state,pid,bundle):
     folder=(engine.ROOT.parent/bundle['analysis']).parent
     stem=Path(pid).stem
     doc={'product':pid,'published_utc':rec['published_utc'],
-         'research_sha256':rec['research_sha256'],
+         'research_sha256':rec['research_sha256'], 'canonical':bundle['canonical'],
          'items':{f'ai_{lang}':post for lang,post in bundle['translations'].items()}}
     (folder/(stem+'.post.json')).write_text(json.dumps(doc,ensure_ascii=False),encoding='utf-8')
     src=engine.ROOT/'analysis_ready'/pid/bundle['images'][0]
@@ -175,18 +176,28 @@ def cycle(state,token,tmp,engine,max_bytes=450_000_000,max_products=3):
                 checkpoint(engine,state)
             except Exception:
                 pass
+    # One-time migration: unsent rejected drafts may be reanalysed from measurements.
+    if state.get('evidence_revision') != 3:
+        for pid,rec in state['products'].items():
+            if rec.get('status') in ('analyzed','quality_held','ready') and not any(
+                    v=='sent' for v in rec.get('channels',{}).values()) and not rec.get('publish_intent'):
+                rec['status']='analyzed'
+                shutil.rmtree(engine.ROOT/'analysis_ready'/pid,ignore_errors=True)
+        state['evidence_revision']=3
+    independent = cloud_queue.active()
+    synced = cloud_queue.sync(engine,state,checkpoint,archive) if independent else []
     key,slot=analysis_slots.refresh(state)
     out={'timezone':'Asia/Tehran','windows':['06–07','09–10','12–13','18–19'],
-         'active_slot':key,'published':[]}
+         'active_slot':key,'published':synced,'sender':'cloudflare' if independent else 'github'}
     # Fast path: serve a prepared pair before discovery/AI can eat the window.
-    if slot and slot['status'] not in ('sent','unverified','missed','partial_expired'):
+    if not independent and slot and slot['status'] not in ('sent','unverified','missed','partial_expired'):
         out['published']=deliver(engine,state,key,slot,token)
     ready=len(ready_records(engine,state))
     now=utcnow()
     last=cadence.parse(state.get('paired_prepare_attempt_utc'))
     enough_time=not slot or datetime.fromisoformat(slot['end'])-now>timedelta(minutes=20)
     # Heavy preparation is dedicated-worker only: never delay the existing RSS poll.
-    if os.environ.get('ANALYSIS_ONLY')=='1' and ready<6 and enough_time and (last is None or now-last>=timedelta(hours=1)):
+    if os.environ.get('ANALYSIS_ONLY')=='1' and ready<8 and enough_time and (last is None or now-last>=timedelta(minutes=15)):
         state['paired_prepare_attempt_utc']=now.isoformat();engine.save_state(state)
         candidates=lambda:[(pid,r) for pid,r in state['products'].items()
                            if r.get('status')=='analyzed' and not engine._combo_blocked(state,r)]
@@ -198,7 +209,7 @@ def cycle(state,token,tmp,engine,max_bytes=450_000_000,max_products=3):
                 engine.process_batch(state,min(max_bytes,remaining),min(max_products,3),tmp,
                                      wall_seconds=600)
         prepared=0
-        for pid,r in sorted(candidates(),key=lambda x:-(x[1].get('score') or 0))[:2]:
+        for pid,r in sorted(candidates(),key=lambda x:-(x[1].get('score') or 0))[:4]:
             if slot and datetime.fromisoformat(slot['end'])-utcnow()<timedelta(minutes=15):break
             if engine.publish_one(pid,state,token,engine.mode.ai_targets(),tmp):prepared+=1
             checkpoint(engine,state) # Persist each prepared pair even if a later API stalls.
@@ -206,8 +217,10 @@ def cycle(state,token,tmp,engine,max_bytes=450_000_000,max_products=3):
         checkpoint(engine,state)
     # Preparation may have filled an empty current slot; never publish outside it.
     key,slot=analysis_slots.refresh(state)
-    if slot and slot['status'] not in ('sent','unverified','missed','partial_expired'):
+    if not independent and slot and slot['status'] not in ('sent','unverified','missed','partial_expired'):
         out['published']+=deliver(engine,state,key,slot,token)
+    if independent:
+        out['enqueued']=cloud_queue.enqueue(engine,state,checkpoint)
     out['slot_status']=slot.get('status') if slot else 'outside publication windows'
     out['ready_pairs']=len(ready_records(engine,state))
     out['next_window']=analysis_slots.next_window()[1].isoformat()

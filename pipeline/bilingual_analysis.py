@@ -1,49 +1,35 @@
-"""One canonical research narrative, one faithful translation. AI channels only.
-The existing news writer is not changed; this module is used only by analyses.
+"""One measured research object, two faithful renderings, zero API dependency.
+This is transparently labelled computational analysis, never fake AI prose.
 """
 import html
 import json
 import ai_message
+import evidence_analysis
 
-
-def build_pair(meta, proposal, payload):
-    canonical = ai_message._lenient_json(ai_message._qai_chat([{'role':'user','content':
-        ai_message.WRITER_PROMPT_EN +
-        ' Write complete sentences. This is the single canonical analysis; the Persian '
-        'version will be a translation of this exact content. Do not emit HTML.\n' +
-        json.dumps(payload,ensure_ascii=False)[:5000]}],max_tokens=1200))
-    if canonical and all(canonical.get(k) for k in ('hook','body')):
-        canonical['generator']='ai' 
-    if not canonical or canonical.get('generator')!='ai':
-        raise ValueError('Canonical analysis unavailable; no placeholder publication')
-    original={k:canonical.get(k,'') for k in ('hook','body','why')}
-    translated=None
-    for attempt in range(2):
-        try:
-            translated=ai_message._lenient_json(ai_message._qai_chat([{'role':'user','content':
-                'Translate this ONE research narrative faithfully into natural Persian. '
-                'Do not research, add, omit or change claims, numbers or uncertainties. '
-                'Preserve target identifiers. Return JSON with exactly hook, body, why, '
-                'plain text, no HTML. Complete sentences, no truncation.\n'+
-                json.dumps(original,ensure_ascii=False)}],max_tokens=1200))
-            if translated and all(isinstance(translated.get(k),str) and translated[k].strip()
-                                  for k in ('hook','body')):break
-        except Exception:
-            translated=None
-    if not translated or not all(translated.get(k) for k in ('hook','body')) or (original.get('why') and not translated.get('why')):
-        raise ValueError('Persian translation unavailable; neither language is ready')
+def build_pair(meta,proposal,payload):
+    measured=payload.get('measured_image_statistics')
+    narratives=evidence_analysis.research(meta,measured)
     pair={}
-    for lang,narr in [('en',original),('fa',translated)]:
-        # Escape model text: HTML markup belongs to the renderer, not the model.
-        safe={k:html.escape(str(narr.get(k) or '')) for k in ('hook','body','why')}
-        if safe['why']:safe['body']+=' '+safe['why']
-        safe['generator']='shared-research+translation'
-        _,text,_=ai_message.build_post(meta,proposal,payload,'ai',lang,narrative=safe)
-        label='تحلیل هوش مصنوعی' if lang=='fa' else 'AI-assisted analysis'
-        caption=(f'🔭 <b>{ai_message.BRAND[lang]["ai"]}</b>\n{safe["hook"]}\n'
-                 f'🎯 {html.escape(str(meta.get("TARGNAME") or "JWST"))}\n'
-                 f'{label} · MAST/STScI\n'+ai_message.build_footer(lang,'ai'))
-        if len(caption)>1024 or len(text)>4096:
-            raise ValueError('Pair exceeds Telegram size limits; never truncate HTML')
-        pair[lang]={'caption':caption,'text':text,'generator':safe['generator']}
-    return {'canonical':original,'translations':pair}
+    for lang,narr in narratives.items():
+        target=html.escape(str(meta.get('TARGNAME') or 'JWST'))
+        hook=html.escape(narr['hook']);body=html.escape(narr['body']);why=html.escape(narr['why'])
+        if lang=='fa':
+            title='تحلیل محاسباتی داده — راز کیهان'
+            facts=f"ابزار: {html.escape(str(meta.get('INSTRUME') or 'JWST'))} · فیلتر: {html.escape(str(meta.get('FILTER') or '—'))} · تاریخ رصد: {html.escape(str(meta.get('DATE-OBS') or '—'))}"
+            label='این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.'
+            source='منبع و روش'
+        else:
+            title='Computational data analysis — COSMIC INSIGHT'
+            facts=f"Instrument: {html.escape(str(meta.get('INSTRUME') or 'JWST'))} · filter: {html.escape(str(meta.get('FILTER') or '—'))} · observation: {html.escape(str(meta.get('DATE-OBS') or '—'))}"
+            label='Computed directly from the FITS science plane; not model-generated prose or a new-discovery claim.'
+            source='Source and method'
+        footer=ai_message.build_footer(lang,'ai')
+        caption=f'🔭 <b>{ai_message.BRAND[lang]["ai"]}</b>\n{hook}\nMAST/STScI · '+('تحلیل محاسباتی' if lang=='fa' else 'Computational analysis')+'\n'+footer
+        text=f'🔬 <b>{title}</b>\n\n{body}\n\n{why}\n\n{facts}\n\n<i>{label}</i>\n\n'
+        text+=f'📡 <b>{source}</b>: <a href="https://archive.stsci.edu/proposal-id/{html.escape(str(proposal))}">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n'+footer
+        if len(caption)>1024 or len(text)>4096:raise ValueError('Analysis exceeds Telegram limits')
+        pair[lang]={'caption':caption,'text':text,'generator':'measured-data-analysis-v3'}
+    canonical={'revision':3,'target':meta.get('TARGNAME'),'filter':meta.get('FILTER'),
+               'statistics':measured,'method':'regular grid sample; threshold median+5*(1.4826*MAD)',
+               'interpretation':'pixel distribution only, not source identification or discovery'}
+    return {'canonical':canonical,'translations':pair}
