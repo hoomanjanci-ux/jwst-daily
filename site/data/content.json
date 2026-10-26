@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T17:16:23.337Z",
+ "generated_utc": "2026-10-26T19:06:57.706Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,57 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw01482050001-03105-00003-nrca4-rate",
+   "product": "jw01482050001_03105_00003_nrca4_rate.fits",
+   "published_utc": "2026-10-26T19:06:19.204172+00:00",
+   "target": "HD 147980",
+   "instrument": "NIRCAM",
+   "detector": "NRCA4",
+   "filter": "F210M",
+   "obs_date": "2023-08-21",
+   "proposal": "1482",
+   "score": 41.72,
+   "quality_score": 75.62,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
+  {
+   "slug": "jw06627005001-07101-00002-nrcalong-rate",
+   "product": "jw06627005001_07101_00002_nrcalong_rate.fits",
+   "published_utc": "2026-10-26T19:06:06.813032+00:00",
+   "target": "2MASS J05220207-6930388",
+   "instrument": "NIRCAM",
+   "detector": "NRCALONG",
+   "filter": "F335M",
+   "obs_date": "2024-11-09",
+   "proposal": "6627",
+   "score": 51.77,
+   "quality_score": 81.13,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
+  {
+   "slug": "jw02780018001-03107-00004-nrcalong-rate",
+   "product": "jw02780018001_03107_00004_nrcalong_rate.fits",
+   "published_utc": "2026-10-26T19:05:44.094566+00:00",
+   "target": "HD 56161",
+   "instrument": "NIRCAM",
+   "detector": "NRCALONG",
+   "filter": "F300M",
+   "obs_date": "2024-04-21",
+   "proposal": "2780",
+   "score": 39.29,
+   "quality_score": 74.03,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
   {
    "slug": "jw06627005001-07101-00009-nrcalong-cal",
    "product": "jw06627005001_07101_00009_nrcalong_cal.fits",
@@ -654,6 +705,18 @@
  ],
  "news": [
   {
+   "slug": "science-1rwoyv1",
+   "title": "Sunshade for NASA’s NEO Surveyor Mission Ready for Its Day in Sun",
+   "title_fa": null,
+   "summary": "Development of NASA’s Near-Earth Object (NEO) Surveyor mission continues as the spacecraft’s largest component gets closer to how it will look when it launches. Recently, teams completed work on integrating solar arrays onto the spacecraft’s sunshade, a structure primarily designed to block the Sun’s glare. The sunshade will keep the infrared space telescope cool as […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/neo-surveyor/images/2026/1_PIA26715_bae-sunshade-inspection.jpg?w=2048&h=1366&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/neo-surveyor/2026/10/26/sunshade-for-nasas-neo-surveyor-mission-ready-for-its-day-in-sun/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-26T18:12:24.000Z"
+  },
+  {
    "slug": "nasa-rso9j9",
    "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
    "title_fa": null,
@@ -832,18 +895,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-22T16:16:58.000Z"
-  },
-  {
-   "slug": "nasa-lb1qq4",
-   "title": "Spacesuits, Lunar Agriculture, and Breathing Research Top Wednesday’s Schedule",
-   "title_fa": "بررسی فضانماها، کشاورزی فضایی و تحقیقات تنفسی در صدر برنامه",
-   "summary": "Spacesuit checks topped Wednesday’s task list aboard the International Space Station as two astronauts prepare for a spacewalk next week. The Expedition 75 crew members also kept up advanced microgravity research exploring space agriculture and the respiratory system midweek.",
-   "summary_fa": "بررسی فضانماها در صدر برنامه روز چهارشنبه aboard ایستگاه فضایی بین‌المللی قرار داشت، به‌ویژه برای دو فضانوردی که هفته آینده پا به بیرون فضا خواهند گذاشت. اکیپ مأموریت اکسپدیشن ۷۵ نیز همچنان به انجام تحقیقات پیشرفته میکروژیروی در حوزه‌های کشاورزی فضایی و سیستم تنفسی ادامه داد.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0068637/iss075e0068637~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-21T16:22:01.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
