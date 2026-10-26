@@ -1481,7 +1481,7 @@
     "fa_ai": "held (quality gate)",
     "en_ai": "held (quality gate)"
    },
-   "status": "analyzed",
+   "status": "ready",
    "score": 48.88,
    "analyzed_utc": "2026-10-24T19:02:36.558825+00:00",
    "analysis": "analyses/2026/10/24/jw01189013001_03105_00001_nrcalong_rate.fits.json",
@@ -1503,7 +1503,7 @@
    "bytes": 2136960,
    "published_utc": null,
    "quality_log": {
-    "fa_ai": {
+    "fa": {
      "heuristic": {
       "sharp": 1.0,
       "contrast": 0.6488,
@@ -1512,24 +1512,21 @@
       "roi": 0.4888,
       "score": 79.69
      },
-     "ai_message": {
-      "score": 35,
-      "clarity": 35,
-      "accuracy": 65,
-      "appeal": 25,
-      "notes": "Repetitive blockquote; ends mid-sentence; presents raw metadata with no scientific finding; \"NIRCAM\" → \"NIRCam\". Needs narrative or discovery context to engage non-experts."
+     "evidence": {
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100880,
+      "finite_fraction": 0.985156,
+      "median": 0.1780165210366249,
+      "robust_scatter": 0.035274348548054696,
+      "above_5scatter_percent": 5.9635,
+      "p99_above_median_scatter": 78.842,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 22,
-      "clarity": 18,
-      "accuracy": null,
-      "appeal": 15,
-      "notes": "Raw detector readout, not a processed render. Heavy noise, no color, diffraction spikes barely visible. Unusable for public outreach."
-     },
-     "min_score_gate": 60.0,
-     "post_generator": "ai"
+     "method": "measured-data-analysis-v3"
     },
-    "en_ai": {
+    "en": {
      "heuristic": {
       "sharp": 1.0,
       "contrast": 0.6488,
@@ -1538,24 +1535,23 @@
       "roi": 0.4888,
       "score": 79.69
      },
-     "ai_message": {
-      "score": 42,
-      "clarity": 60,
-      "accuracy": 35,
-      "appeal": 40,
-      "notes": "HD 19467 is a known exoplanet host star — ignoring that is misleading. Dry, technical tone for a general audience."
+     "evidence": {
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100880,
+      "finite_fraction": 0.985156,
+      "median": 0.1780165210366249,
+      "robust_scatter": 0.035274348548054696,
+      "above_5scatter_percent": 5.9635,
+      "p99_above_median_scatter": 78.842,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 15,
-      "clarity": 20,
-      "accuracy": null,
-      "appeal": 10,
-      "notes": "Raw sensor data, high noise, lacks processing."
-     },
-     "min_score_gate": 60.0,
-     "post_generator": "ai"
+     "method": "measured-data-analysis-v3"
     }
-   }
+   },
+   "analysis_revision": 3,
+   "paired_ready_utc": "2026-10-26T19:25:06.974500+00:00"
   },
   "jw04535003001_03107_00001_nrcalong_rate.fits": {
    "channels": {
