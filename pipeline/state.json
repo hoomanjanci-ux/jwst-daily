@@ -1855,6 +1855,106 @@
      "min_score_gate": 60.0
     }
    }
+  },
+  "jw01482050001_03105_00003_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "quality_held",
+   "score": 43.2,
+   "analyzed_utc": "2026-10-26T03:56:39.650169+00:00",
+   "analysis": "analyses/2026/10/26/jw01482050001_03105_00003_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw01482050001_03105_00003_nrcalong_rate.fits",
+    "size_mb": 80.082,
+    "uri": "mast:JWST/product/jw01482050001_03105_00003_nrcalong_rate.fits",
+    "proposal": "1482",
+    "obs_id": "jw01482050001_03105_00003_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01482050001_03105_00003_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw01482050001_03105_00003_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01482050001_03105_00003_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "HD 147980",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "HD 147980|NIRCAM|F335M",
+   "sha256": "01546a30a791d75904951ad34de02ccf57312de0d7da670e4819770a6c94cc6b",
+   "bytes": 83972160,
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5646,
+      "brightness": 0.509,
+      "range": 1.0,
+      "roi": 0.432,
+      "score": 75.41
+     },
+     "ai_message": {
+      "score": 62,
+      "clarity": 72,
+      "accuracy": 48,
+      "appeal": 55,
+      "notes": "Detector 'NRCALONG' likely incorrect for F335M (~3 µm), which is SW-band. Caption is dry, vague ('نامشخص'). Good disclaimer. Consider verifying instrument metadata."
+     },
+     "ai_image": {
+      "score": 35,
+      "clarity": 30,
+      "accuracy": null,
+      "appeal": 35,
+      "notes": "Raw grayscale data; heavy noise, low contrast, no color. Diffraction spikes present but visually unengaging for general audiences."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5646,
+      "brightness": 0.509,
+      "range": 1.0,
+      "roi": 0.432,
+      "score": 75.41
+     },
+     "ai_message": {
+      "score": 42,
+      "clarity": 60,
+      "accuracy": 75,
+      "appeal": 35,
+      "notes": "Vague, boilerplate analysis adds nothing. Misses NRCALONG detector detail. Factual but dry; no scientific insight or hook. Fix duplicate link. Needs specific findings to engage non-experts."
+     },
+     "ai_image": {
+      "score": 35,
+      "clarity": 30,
+      "accuracy": null,
+      "appeal": 35,
+      "notes": "Raw grayscale data; heavy noise, low contrast, no color. Diffraction spikes present but visually unengaging for general audiences."
+     },
+     "min_score_gate": 60.0
+    }
+   }
+  },
+  "jw01482050001_03105_00003_nrcalong_cal.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 41.86,
+   "analyzed_utc": "2026-10-26T03:56:51.203436+00:00",
+   "analysis": "analyses/2026/10/26/jw01482050001_03105_00003_nrcalong_cal.fits.json",
+   "cand": {
+    "filename": "jw01482050001_03105_00003_nrcalong_cal.fits",
+    "size_mb": 112.126,
+    "uri": "mast:JWST/product/jw01482050001_03105_00003_nrcalong_cal.fits",
+    "proposal": "1482",
+    "obs_id": "jw01482050001_03105_00003_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01482050001_03105_00003_nrcalong_cal.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw01482050001_03105_00003_nrcalong_cal.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw01482050001_03105_00003_nrcalong_cal.jpg"
+   },
+   "meta_TARGNAME": "HD 147980",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "HD 147980|NIRCAM|F335M",
+   "sha256": "faa5ca4dc8d140cbccbce2c04b4538504cf1de89533f69d08a20fb22a3f3a240",
+   "bytes": 117576000,
+   "published_utc": null
   }
  },
  "runs": [
@@ -3785,8 +3885,8 @@
  },
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
-  "day": "2026-10-25",
-  "bytes": 251907840
+  "day": "2026-10-26",
+  "bytes": 201548160
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -3855,7 +3955,7 @@
   "2026-10-26/06": {
    "start": "2026-10-26T06:00:00+03:30",
    "end": "2026-10-26T07:00:00+03:30",
-   "status": "waiting"
+   "status": "missed"
   },
   "2026-10-26/09": {
    "start": "2026-10-26T09:00:00+03:30",
@@ -3873,5 +3973,5 @@
    "status": "waiting"
   }
  },
- "paired_prepare_attempt_utc": "2026-10-25T22:22:50.498313+00:00"
+ "paired_prepare_attempt_utc": "2026-10-26T03:55:43.407570+00:00"
 }
