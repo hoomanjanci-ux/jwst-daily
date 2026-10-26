@@ -2157,6 +2157,79 @@
      "min_score_gate": 60.0
     }
    }
+  },
+  "jw06627005001_07101_00008_nrcalong_cal.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 52.1,
+   "analyzed_utc": "2026-10-26T16:00:08.209707+00:00",
+   "analysis": "analyses/2026/10/26/jw06627005001_07101_00008_nrcalong_cal.fits.json",
+   "cand": {
+    "filename": "jw06627005001_07101_00008_nrcalong_cal.fits",
+    "size_mb": 112.126,
+    "uri": "mast:JWST/product/jw06627005001_07101_00008_nrcalong_cal.fits",
+    "proposal": "6627",
+    "obs_id": "jw06627005001_07101_00008_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00008_nrcalong_cal.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06627005001_07101_00008_nrcalong_cal.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00008_nrcalong_cal.jpg"
+   },
+   "meta_TARGNAME": "2MASS J05220207-6930388",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "2MASS J05220207-6930388|NIRCAM|F335M",
+   "sha256": "3d49d436f904a69c10a302bb67d622a253bdaee841fcb176c0ff46ba8e00a9fc",
+   "bytes": 117576000,
+   "published_utc": null,
+   "last_error": "publish: ChunkedEncodingError: Response ended prematurely"
+  },
+  "jw06627005001_07101_00003_nrcalong_cal.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 50.47,
+   "analyzed_utc": "2026-10-26T16:00:20.537182+00:00",
+   "analysis": "analyses/2026/10/26/jw06627005001_07101_00003_nrcalong_cal.fits.json",
+   "cand": {
+    "filename": "jw06627005001_07101_00003_nrcalong_cal.fits",
+    "size_mb": 112.126,
+    "uri": "mast:JWST/product/jw06627005001_07101_00003_nrcalong_cal.fits",
+    "proposal": "6627",
+    "obs_id": "jw06627005001_07101_00003_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00003_nrcalong_cal.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06627005001_07101_00003_nrcalong_cal.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00003_nrcalong_cal.jpg"
+   },
+   "meta_TARGNAME": "2MASS J05220207-6930388",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "2MASS J05220207-6930388|NIRCAM|F335M",
+   "sha256": "78e05a176a67001d483814f43cc6c7fd1518d87ae9492b7113163052aa027a7e",
+   "bytes": 117576000,
+   "published_utc": null
+  },
+  "jw06627005001_07101_00009_nrcalong_cal.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 43.62,
+   "analyzed_utc": "2026-10-26T16:00:33.451962+00:00",
+   "analysis": "analyses/2026/10/26/jw06627005001_07101_00009_nrcalong_cal.fits.json",
+   "cand": {
+    "filename": "jw06627005001_07101_00009_nrcalong_cal.fits",
+    "size_mb": 112.126,
+    "uri": "mast:JWST/product/jw06627005001_07101_00009_nrcalong_cal.fits",
+    "proposal": "6627",
+    "obs_id": "jw06627005001_07101_00009_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00009_nrcalong_cal.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06627005001_07101_00009_nrcalong_cal.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00009_nrcalong_cal.jpg"
+   },
+   "meta_TARGNAME": "2MASS J05220207-6930388",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "2MASS J05220207-6930388|NIRCAM|F335M",
+   "sha256": "6e03fb02ebba5b36dc8651517416f7fba083bcfd362eb556862552a097bc1ce6",
+   "bytes": 117576000,
+   "published_utc": null
   }
  },
  "runs": [
@@ -4189,7 +4262,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-10-26",
-  "bytes": 205822080
+  "bytes": 558550080
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -4315,9 +4388,9 @@
   "2026-10-26/18": {
    "start": "2026-10-26T18:00:00+03:30",
    "end": "2026-10-26T19:00:00+03:30",
-   "status": "waiting",
+   "status": "missed",
    "note": "no quality-approved bilingual reserve"
   }
  },
- "paired_prepare_attempt_utc": "2026-10-26T09:56:24.538999+00:00"
+ "paired_prepare_attempt_utc": "2026-10-26T15:58:58.496425+00:00"
 }
