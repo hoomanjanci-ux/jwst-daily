@@ -1918,7 +1918,7 @@
   },
   "jw01482050001_03105_00003_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 43.2,
    "analyzed_utc": "2026-10-26T03:56:39.650169+00:00",
    "analysis": "analyses/2026/10/26/jw01482050001_03105_00003_nrcalong_rate.fits.json",
@@ -1949,21 +1949,19 @@
       "roi": 0.432,
       "score": 75.41
      },
-     "ai_message": {
-      "score": 62,
-      "clarity": 72,
-      "accuracy": 48,
-      "appeal": 55,
-      "notes": "Detector 'NRCALONG' likely incorrect for F335M (~3 µm), which is SW-band. Caption is dry, vague ('نامشخص'). Good disclaimer. Consider verifying instrument metadata."
+     "evidence": {
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 454604,
+      "finite_fraction": 0.974522,
+      "median": 0.015198182314634323,
+      "robust_scatter": 0.0600617742491886,
+      "above_5scatter_percent": 0.7459,
+      "p99_above_median_scatter": 3.881,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 35,
-      "clarity": 30,
-      "accuracy": null,
-      "appeal": 35,
-      "notes": "Raw grayscale data; heavy noise, low contrast, no color. Diffraction spikes present but visually unengaging for general audiences."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     },
     "en": {
      "heuristic": {
@@ -1974,23 +1972,23 @@
       "roi": 0.432,
       "score": 75.41
      },
-     "ai_message": {
-      "score": 42,
-      "clarity": 60,
-      "accuracy": 75,
-      "appeal": 35,
-      "notes": "Vague, boilerplate analysis adds nothing. Misses NRCALONG detector detail. Factual but dry; no scientific insight or hook. Fix duplicate link. Needs specific findings to engage non-experts."
+     "evidence": {
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 454604,
+      "finite_fraction": 0.974522,
+      "median": 0.015198182314634323,
+      "robust_scatter": 0.0600617742491886,
+      "above_5scatter_percent": 0.7459,
+      "p99_above_median_scatter": 3.881,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 35,
-      "clarity": 30,
-      "accuracy": null,
-      "appeal": 35,
-      "notes": "Raw grayscale data; heavy noise, low contrast, no color. Diffraction spikes present but visually unengaging for general audiences."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     }
-   }
+   },
+   "analysis_revision": 3,
+   "paired_ready_utc": "2026-10-26T19:30:34.839664+00:00"
   },
   "jw01482050001_03105_00003_nrcalong_cal.fits": {
    "channels": {},
