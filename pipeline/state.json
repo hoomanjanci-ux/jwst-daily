@@ -2011,23 +2011,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-24T14:49:01.108929+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "batch_ran": false,
-   "pending_before": 0,
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-24T14:49:01.423316+00:00"
-  },
-  {
    "started_utc": "2026-10-24T16:43:18.211196+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "batch_ran": false,
@@ -3326,6 +3309,39 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-26T04:20:14.372991+00:00"
+  },
+  {
+   "started_utc": "2026-10-26T06:36:09.346656+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-10-26T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/2026-october-26-m42-the-great-nebula-in-orion/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/2026-october-26-m42-the-great-nebula-in-orion/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-26T06:36:38.135473+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -3469,6 +3485,10 @@
   "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/": {
    "fa": "2026-10-25T10:12:09.937913+00:00",
    "en": "2026-10-25T10:12:09.937913+00:00"
+  },
+  "https://science.nasa.gov/image-article/2026-october-26-m42-the-great-nebula-in-orion/": {
+   "fa": "2026-10-26T06:36:10.065350+00:00",
+   "en": "2026-10-26T06:36:10.065350+00:00"
   }
  },
  "news_archive": {
@@ -3768,6 +3788,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-25T08:19:48+00:00",
    "ts": "2026-10-25T10:12:09.937913+00:00"
+  },
+  "https://science.nasa.gov/image-article/2026-october-26-m42-the-great-nebula-in-orion/": {
+   "title": "M42: سحابی عظیم‌التوفر در صورت فلکی شکارچی",
+   "summary": "پژوهشگران ناسا هر روز تصویر یا عکسی از یکی از شگفتی‌های کیهان را منتشر می‌کنند و ستاره‌شناسی حرفه‌ای توضیحی مختصر درباره آن می‌نویسد. در تاریخ ۲۶ اکتبر ۲۰۲۶، الماس این مجموعه سحابی M42 یا سحابی شکارچی است.",
+   "link": "https://science.nasa.gov/image-article/2026-october-26-m42-the-great-nebula-in-orion/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-26T04:05:00+00:00",
+   "ts": "2026-10-26T06:36:10.065350+00:00"
   }
  },
  "news_title_fp": {
@@ -3854,6 +3883,10 @@
   "b420b17213b32887": {
    "fa": "2026-10-25",
    "en": "2026-10-25"
+  },
+  "3dd465c090bead20": {
+   "fa": "2026-10-26",
+   "en": "2026-10-26"
   }
  },
  "news_title_recent": [
@@ -3940,6 +3973,10 @@
   [
    "b420b17213b32887",
    "apod 2026 october 25 dark matter in a simulated universe"
+  ],
+  [
+   "3dd465c090bead20",
+   "2026 october 26 m42 the great nebula in orion"
   ]
  ],
  "combo_seen": {
@@ -4026,7 +4063,7 @@
   "2026-10-26/09": {
    "start": "2026-10-26T09:00:00+03:30",
    "end": "2026-10-26T10:00:00+03:30",
-   "status": "waiting"
+   "status": "missed"
   },
   "2026-10-26/12": {
    "start": "2026-10-26T12:00:00+03:30",
