@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T22:35:03.353Z",
+ "generated_utc": "2026-10-26T23:56:00.654Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -705,18 +705,6 @@
  ],
  "news": [
   {
-   "slug": "science-w0nxml",
-   "title": "Tinga’s Tale",
-   "title_fa": "شناسایی ویژگی زمین‌شناختی شگفت‌انگیز در کرانهٔ ایدوبی توسط مریخ‌نورد استقامت",
-   "summary": "Written by Margaret Deahn, Ph.D. candidate at Purdue University Oct. 19, 2026 Once upon a time, NASA’s Mars 2020 rover investigated the southern border of “Idubi,” an outcrop composed primarily of an igneous mineral geologists call olivine. The rover’s “eyes” captured a very exciting geologic feature during its traverse — a contact between distinct rock […]",
-   "summary_fa": "مریخ‌نورد استقامتِ مأموریت ۲۰۲۰ ناسا، هنگام کاوش کرانهٔ جنوبی پهنهٔ سنگی «ایدوبی» بر مریخ، با ویژگی زمین‌شناختی خیره‌کننده‌ای روبه‌رو شد. این پهنه عمدتاً از سنگ آذرینی اولیوین تشکیل شده است. دوربین‌های مریخ‌نورد تماس میان دو نوع سنگ متمایز را در طول مسیر پیمایش خود ثبت کردند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_ZL0_2009_0845281389_428EBY_N0911496ZCAM10039_1100LMJ.jpg?w=1648&h=1200&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blog/tingas-tale/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-26T21:17:02.000Z"
-  },
-  {
    "slug": "nasa-1wk2qqj",
    "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
    "title_fa": "پرسوِرنس: کلید محافظت از فضانوردان در برابر غبار مریخ",
@@ -811,6 +799,18 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-26T04:05:00.000Z"
+  },
+  {
+   "slug": "science-1yguhfs",
+   "title": "APOD: 2026 October 25 – Dark Matter in a Simulated Universe",
+   "title_fa": "ماده تاریک در جهان شبیه‌سازی‌شده — APOD ۲۵ اکتبر ۲۰۲۶",
+   "summary": "APOD Science APOD APOD: 2026 October 25 – Dark… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Dark Matter […]",
+   "summary_fa": "تصویر روز نجوم (APOD) منتشرشده در ۲۵ اکتبر ۲۰۲۶ به ماده تاریک در یک جهان شبیه‌سازی‌شده می‌پردازد. این تصویر همراه با توضیحی کوتاه از سوی یک اخترشناس حرفه‌ای ارائه می‌شود.",
+   "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2021/october/DarkMatter_KipacAmnh_1200.jpg?w=1200&h=900&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-25T08:19:48.000Z"
   },
   {
    "slug": "science-lkjrv3",
