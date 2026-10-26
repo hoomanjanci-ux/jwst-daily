@@ -1934,7 +1934,7 @@
   },
   "jw01482050001_03105_00003_nrcalong_cal.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "quality_held",
    "score": 41.86,
    "analyzed_utc": "2026-10-26T03:56:51.203436+00:00",
    "analysis": "analyses/2026/10/26/jw01482050001_03105_00003_nrcalong_cal.fits.json",
@@ -1954,7 +1954,59 @@
    "combo": "HD 147980|NIRCAM|F335M",
    "sha256": "faa5ca4dc8d140cbccbce2c04b4538504cf1de89533f69d08a20fb22a3f3a240",
    "bytes": 117576000,
-   "published_utc": null
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5463,
+      "brightness": 0.4644,
+      "range": 1.0,
+      "roi": 0.4186,
+      "score": 74.17
+     },
+     "ai_message": {
+      "score": 38,
+      "clarity": 72,
+      "accuracy": 30,
+      "appeal": 28,
+      "notes": "Claims 'no analysis reported' for HD 147980 — likely false; star is well-studied. No actual findings shared. Generic template; no scientific insight for readers. Fix accuracy, add meaningful results."
+     },
+     "ai_image": {
+      "score": 22,
+      "clarity": 15,
+      "accuracy": null,
+      "appeal": 18,
+      "notes": "Raw single-exposure frame. High noise, low contrast, no color. Bright star diffraction spikes and a diagonal artifact/streak dominate. Needs calibration, stacking, and processing before broadcast quality."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5463,
+      "brightness": 0.4644,
+      "range": 1.0,
+      "roi": 0.4186,
+      "score": 74.17
+     },
+     "ai_message": {
+      "score": 43,
+      "clarity": 72,
+      "accuracy": 32,
+      "appeal": 48,
+      "notes": "F335M is a NIRCam near-IR filter (~3.35µm), NOT mid-infrared. Repeatedly mislabelled as such—a significant factual error. Content is generic AI filler with no actual results. Structure and emojis are fine."
+     },
+     "ai_image": {
+      "score": 22,
+      "clarity": 15,
+      "accuracy": null,
+      "appeal": 18,
+      "notes": "Raw single-exposure frame. High noise, low contrast, no color. Bright star diffraction spikes and a diagonal artifact/streak dominate. Needs calibration, stacking, and processing before broadcast quality."
+     },
+     "min_score_gate": 60.0
+    }
+   }
   }
  },
  "runs": [
