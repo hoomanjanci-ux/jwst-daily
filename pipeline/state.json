@@ -1761,80 +1761,22 @@
     "fa_ai": "sent",
     "en_ai": "sent"
    },
-   "status": "paired_reserved",
+   "status": "published",
    "score": 38.45,
    "analyzed_utc": "2026-10-25T22:23:48.081971+00:00",
    "analysis": "analyses/2026/10/25/jw06606003001_02107_00002_nrcalong_rate.fits.json",
-   "cand": {
-    "filename": "jw06606003001_02107_00002_nrcalong_rate.fits",
-    "size_mb": 80.077,
-    "uri": "mast:JWST/product/jw06606003001_02107_00002_nrcalong_rate.fits",
-    "proposal": "6606",
-    "obs_id": "jw06606003001_02107_00002_nrcalong",
-    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06606003001_02107_00002_nrcalong_rate.fits",
-    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06606003001_02107_00002_nrcalong_rate.fits",
-    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06606003001_02107_00002_nrcalong_rate.jpg"
-   },
    "meta_TARGNAME": "GSPC P330-E",
    "meta_FILTER": "F430M",
    "meta_INSTRUME": "NIRCAM",
    "combo": "GSPC P330-E|NIRCAM|F430M",
    "sha256": "02f6d80cd998aceeb63a58ab8786526b4b441423191356c97f460b47276dd950",
    "bytes": 83969280,
-   "published_utc": null,
-   "quality_log": {
-    "fa": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.5002,
-      "brightness": 0.388,
-      "range": 1.0,
-      "roi": 0.3845,
-      "score": 71.59
-     },
-     "ai_message": {
-      "score": 68,
-      "clarity": 80,
-      "accuracy": 75,
-      "appeal": 58,
-      "notes": "Factual metadata-only analysis lacks scientific substance; no redshift or flux data provided. Good disclaimer and formatting, but dry and unremarkable for non-experts. F430M ~4.3μm correct."
-     },
-     "ai_image": {
-      "score": 18,
-      "clarity": 22,
-      "accuracy": null,
-      "appeal": 12,
-      "notes": "Raw detector readout: heavy noise, no color, vertical streaks from cosmic rays. Needs full pipeline processing."
-     },
-     "min_score_gate": 60.0
-    },
-    "en": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.5002,
-      "brightness": 0.388,
-      "range": 1.0,
-      "roi": 0.3845,
-      "score": 71.59
-     },
-     "ai_message": {
-      "score": 76,
-      "clarity": 82,
-      "accuracy": 75,
-      "appeal": 70,
-      "notes": "Overly hedged — no discovery despite real science. Links truncated. Heavy AI-labeling dampens intrigue. Good caveat practice."
-     },
-     "ai_image": {
-      "score": 18,
-      "clarity": 22,
-      "accuracy": null,
-      "appeal": 12,
-      "notes": "Raw detector readout: heavy noise, no color, vertical streaks from cosmic rays. Needs full pipeline processing."
-     },
-     "min_score_gate": 60.0
-    }
-   },
-   "paired_ready_utc": "2026-10-26T08:10:27.413891+00:00"
+   "published_utc": "2026-10-26T08:41:08.110855+00:00",
+   "paired_ready_utc": "2026-10-26T08:10:27.413891+00:00",
+   "analysis_slot": "2026-10-26/12",
+   "research_sha256": "399c62afdb5851b9eeec3f96f4cf0ba84911659e17d4a57f924b21d35371df37",
+   "site_archive": "ok",
+   "d1_sync": "ok"
   },
   "jw06606003001_02109_00003_nrcalong_rate.fits": {
    "channels": {},
@@ -4172,7 +4114,8 @@
   "HD 218396|NIRCAM|F444W": "2026-10-24T14:05:02.138260+00:00",
   "HD 55677|NIRCAM|F480M": "2026-10-24T14:31:49.171014+00:00",
   "HD 218396|NIRCAM|F356W": "2026-10-24T22:43:27.302965+00:00",
-  "HD 19467|NIRCAM|F335M": "2026-10-25T14:36:17.773213+00:00"
+  "HD 19467|NIRCAM|F335M": "2026-10-25T14:36:17.773213+00:00",
+  "GSPC P330-E|NIRCAM|F430M": "2026-10-26T08:41:08.110855+00:00"
  },
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
@@ -4256,7 +4199,7 @@
   "2026-10-26/12": {
    "start": "2026-10-26T12:00:00+03:30",
    "end": "2026-10-26T13:00:00+03:30",
-   "status": "reserved",
+   "status": "sent",
    "product": "jw06606003001_02107_00002_nrcalong_rate.fits",
    "delivery": {
     "fa": {
@@ -4297,7 +4240,8 @@
       "utc": "2026-10-26T08:41:06.571103+00:00"
      }
     }
-   }
+   },
+   "completed_utc": "2026-10-26T08:41:08.110855+00:00"
   },
   "2026-10-26/18": {
    "start": "2026-10-26T18:00:00+03:30",
