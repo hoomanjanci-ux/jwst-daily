@@ -1758,7 +1758,8 @@
   },
   "jw06606003001_02107_00002_nrcalong_rate.fits": {
    "channels": {
-    "fa_ai": "sent"
+    "fa_ai": "sent",
+    "en_ai": "sent"
    },
    "status": "paired_reserved",
    "score": 38.45,
@@ -4289,8 +4290,11 @@
       "utc": "2026-10-26T08:41:03.258599+00:00"
      },
      "text": {
-      "status": "sending",
-      "utc": "2026-10-26T08:41:04.634113+00:00"
+      "status": "sent",
+      "message_ids": [
+       43
+      ],
+      "utc": "2026-10-26T08:41:06.571103+00:00"
      }
     }
    }
