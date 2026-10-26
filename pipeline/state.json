@@ -2084,7 +2084,7 @@
   },
   "jw06570018001_03106_00004_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "quality_held",
    "score": 37.71,
    "analyzed_utc": "2026-10-26T08:03:05.984596+00:00",
    "analysis": "analyses/2026/10/26/jw06570018001_03106_00004_nrcalong_rate.fits.json",
@@ -2104,7 +2104,59 @@
    "combo": "HD 45080|NIRCAM|F335M",
    "sha256": "63f6cf6904bba03b3b220daba64d799fb2a0e8cbd7e0b42c166fd317559193a2",
    "bytes": 2136960,
-   "published_utc": null
+   "published_utc": null,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.511,
+      "brightness": 0.4156,
+      "range": 1.0,
+      "roi": 0.3771,
+      "score": 72.11
+     },
+     "ai_message": {
+      "score": 52,
+      "clarity": 68,
+      "accuracy": 38,
+      "appeal": 55,
+      "notes": "F335M real; NRCALONG fabricated; NIRCAM casing wrong; proposal 6570 unverified; no-measurements claim misleading; good emoji structure but weak hook kills appeal."
+     },
+     "ai_image": {
+      "score": 38,
+      "clarity": 42,
+      "accuracy": null,
+      "appeal": 30,
+      "notes": "Raw single-channel crop; overexposed core, no false color or processing. Looks unfinished, not the polished JWST imagery public expects."
+     },
+     "min_score_gate": 60.0
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.511,
+      "brightness": 0.4156,
+      "range": 1.0,
+      "roi": 0.3771,
+      "score": 72.11
+     },
+     "ai_message": {
+      "score": 32,
+      "clarity": 55,
+      "accuracy": 40,
+      "appeal": 18,
+      "notes": "Dry, near-zero scientific content; admits no results found. 'NIRCAM' should be 'NIRCam'. No context on HD 45080. Template feels auto-generated and unengaging for non-experts."
+     },
+     "ai_image": {
+      "score": 38,
+      "clarity": 42,
+      "accuracy": null,
+      "appeal": 30,
+      "notes": "Raw single-channel crop; overexposed core, no false color or processing. Looks unfinished, not the polished JWST imagery public expects."
+     },
+     "min_score_gate": 60.0
+    }
+   }
   }
  },
  "runs": [
@@ -4260,5 +4312,5 @@
    "status": "waiting"
   }
  },
- "paired_prepare_attempt_utc": "2026-10-26T08:01:49.721655+00:00"
+ "paired_prepare_attempt_utc": "2026-10-26T09:56:24.538999+00:00"
 }
