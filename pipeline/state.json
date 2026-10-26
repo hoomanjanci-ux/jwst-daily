@@ -1191,7 +1191,7 @@
   "jw06627005001_07101_00002_nrcalong_rate.fits": {
    "channels": {},
    "last_error": "publish: HTTPError: 503 Server Error: Service Unavailable for url: https://router.bynara.id/v1/chat/completions",
-   "status": "analyzed",
+   "status": "ready",
    "score": 51.77,
    "analyzed_utc": "2026-10-26T19:06:06.957930+00:00",
    "analysis": "analyses/2026/10/26/jw06627005001_07101_00002_nrcalong_rate.fits.json",
@@ -1211,7 +1211,57 @@
    "combo": "2MASS J05220207-6930388|NIRCAM|F335M",
    "sha256": "cc6c5552e7d0d3fa08b569963c8a121e8ad9b907f224bad2462318d69cd82f1f",
    "bytes": 83972160,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6739,
+      "brightness": 0.6591,
+      "range": 1.0,
+      "roi": 0.5177,
+      "score": 81.13
+     },
+     "evidence": {
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456601,
+      "finite_fraction": 0.978803,
+      "median": 0.04742596670985222,
+      "robust_scatter": 0.052551940394192934,
+      "above_5scatter_percent": 3.7004,
+      "p99_above_median_scatter": 19.83,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6739,
+      "brightness": 0.6591,
+      "range": 1.0,
+      "roi": 0.5177,
+      "score": 81.13
+     },
+     "evidence": {
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456601,
+      "finite_fraction": 0.978803,
+      "median": 0.04742596670985222,
+      "robust_scatter": 0.052551940394192934,
+      "above_5scatter_percent": 3.7004,
+      "p99_above_median_scatter": 19.83,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-10-26T19:24:39.175856+00:00"
   },
   "jw06627005001_07101_00004_nrcalong_rate.fits": {
    "channels": {
