@@ -2708,35 +2708,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-25T23:37:29.299146+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-10-26T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-25T23:37:30.160243+00:00"
-  },
-  {
    "started_utc": "2026-10-26T00:01:58.579955+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4208,6 +4179,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-27T19:29:53.743365+00:00"
+  },
+  {
+   "started_utc": "2026-10-27T19:59:17.409962+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-28T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+     "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/"
+    ],
+    "en": [
+     "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+     "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/"
+    ],
+    "mode": "fresh (3 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-27T19:59:38.686873+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4403,6 +4411,14 @@
   "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/": {
    "fa": "2026-10-27T19:29:43.117293+00:00",
    "en": "2026-10-27T19:29:43.117293+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/": {
+   "fa": "2026-10-27T19:59:25.365870+00:00",
+   "en": "2026-10-27T19:59:25.365870+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/": {
+   "fa": "2026-10-27T19:59:25.365870+00:00",
+   "en": "2026-10-27T19:59:25.365870+00:00"
   }
  },
  "news_archive": {
@@ -4819,6 +4835,24 @@
    "source_fa": "ناسا",
    "date": "2026-10-27T17:58:57+00:00",
    "ts": "2026-10-27T19:29:43.117293+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/": {
+   "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
+   "summary": "The four volunteers who lived and worked in a simulated NASA Mars mission for more than a year will exit their habitat on Saturday, Oct. 31, after 378 days of isolation in a facility at the agency’s Johnson Space Center in Houston. Health and performance data collected from the simulation can help NASA develop methods",
+   "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-27T19:27:22+00:00",
+   "ts": "2026-10-27T19:59:25.365870+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/": {
+   "title": "Spacewalk Preps, Robotics Jobs, and Science Duties Fill Tuesday Schedule",
+   "summary": "Spacewalking tools and a pair of robotics jobs topped Tuesday’s schedule aboard the International Space Station. The Expedition 75 crew members also kept up their scientific duties configuring botany research hardware and setting up advanced Earth observation gear.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-27T19:14:28+00:00",
+   "ts": "2026-10-27T19:59:25.365870+00:00"
   }
  },
  "news_title_fp": {
@@ -4955,6 +4989,14 @@
    "en": "2026-10-27"
   },
   "6e1ef4c354d75811": {
+   "fa": "2026-10-27",
+   "en": "2026-10-27"
+  },
+  "3b35471483c9413c": {
+   "fa": "2026-10-27",
+   "en": "2026-10-27"
+  },
+  "b52c7dedd5b5241b": {
    "fa": "2026-10-27",
    "en": "2026-10-27"
   }
@@ -5095,6 +5137,14 @@
   [
    "6e1ef4c354d75811",
    "nasa s neo surveyor sunshade"
+  ],
+  [
+   "3b35471483c9413c",
+   "nasa invites media to crew completion of yearlong mars simulation"
+  ],
+  [
+   "b52c7dedd5b5241b",
+   "spacewalk preps robotics jobs and science duties fill tuesday schedule"
   ]
  ],
  "combo_seen": {

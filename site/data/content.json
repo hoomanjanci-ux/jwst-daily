@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T19:29:57.995Z",
+ "generated_utc": "2026-10-27T19:59:45.054Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -807,6 +807,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-kiz8v8",
+   "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
+   "title_fa": null,
+   "summary": "The four volunteers who lived and worked in a simulated NASA Mars mission for more than a year will exit their habitat on Saturday, Oct. 31, after 378 days of isolation in a facility at the agency’s Johnson Space Center in Houston. Health and performance data collected from the simulation can help NASA develop methods […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/chapeamission2.jpg?w=2048",
+   "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-27T19:27:22.000Z"
+  },
+  {
    "slug": "nasa-1pfyprr",
    "title": "Spacewalk Preps, Robotics Jobs, and Science Duties Fill Tuesday Schedule",
    "title_fa": null,
@@ -937,18 +949,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-26T18:12:24.000Z"
-  },
-  {
-   "slug": "nasa-rso9j9",
-   "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
-   "title_fa": "ناسا شبیه‌ساز فرود ماه را به رسانه‌ها معرفی می‌کند",
-   "summary": "Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and Friday, Oct. 30.",
-   "summary_fa": "ناسا از اعضای رسانه دعوت کرده تا روزهای چهارشنبه ۲۹ و پنجشنبه ۳۰ اکتبر از شبیه‌ساز جدید فرود ماه در مرکز پژوهشی Ames در سیلیکون ولی کالیفرنیا بازدید کنند.",
-   "image": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-26T17:13:44.000Z"
   },
   {
    "slug": "nasa-1l3ubc8",
