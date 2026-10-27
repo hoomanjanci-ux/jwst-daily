@@ -2708,35 +2708,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-26T01:21:35.980121+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-10-26T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-26T01:21:36.859599+00:00"
-  },
-  {
    "started_utc": "2026-10-26T01:35:35.441313+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4213,6 +4184,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-27T20:44:58.966593+00:00"
+  },
+  {
+   "started_utc": "2026-10-27T21:28:04.492803+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-28T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-27T21:28:23.465794+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4416,6 +4422,10 @@
   "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/": {
    "fa": "2026-10-27T19:59:25.365870+00:00",
    "en": "2026-10-27T19:59:25.365870+00:00"
+  },
+  "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/": {
+   "fa": "2026-10-27T21:28:13.205646+00:00",
+   "en": "2026-10-27T21:28:13.205646+00:00"
   }
  },
  "news_archive": {
@@ -4850,6 +4860,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-27T19:14:28+00:00",
    "ts": "2026-10-27T19:59:25.365870+00:00"
+  },
+  "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/": {
+   "title": "NASA’s UVEX Space Telescope Successfully Passes Key Milestone",
+   "summary": "Agency officials have confirmed NASA’s UVEX space telescope after completing a technical and programmatic review known as Key Decision Point C.",
+   "link": "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-27T17:59:30+00:00",
+   "ts": "2026-10-27T21:28:13.205646+00:00"
   }
  },
  "news_title_fp": {
@@ -4994,6 +5013,10 @@
    "en": "2026-10-27"
   },
   "b52c7dedd5b5241b": {
+   "fa": "2026-10-27",
+   "en": "2026-10-27"
+  },
+  "70e9d1970ea836ce": {
    "fa": "2026-10-27",
    "en": "2026-10-27"
   }
@@ -5142,6 +5165,10 @@
   [
    "b52c7dedd5b5241b",
    "spacewalk preps robotics jobs and science duties fill tuesday schedule"
+  ],
+  [
+   "70e9d1970ea836ce",
+   "nasa s uvex space telescope successfully passes key milestone"
   ]
  ],
  "combo_seen": {
