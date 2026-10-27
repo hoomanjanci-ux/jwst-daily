@@ -2708,35 +2708,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-25T22:46:59.878863+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-10-26T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-25T22:47:00.166818+00:00"
-  },
-  {
    "started_utc": "2026-10-25T23:37:29.299146+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4202,6 +4173,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-27T16:54:05.355551+00:00"
+  },
+  {
+   "started_utc": "2026-10-27T19:29:35.539579+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-28T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/"
+    ],
+    "en": [
+     "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-27T19:29:53.743365+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4393,6 +4399,10 @@
   "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/": {
    "fa": "2026-10-27T07:37:50.427704+00:00",
    "en": "2026-10-27T07:37:50.427704+00:00"
+  },
+  "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/": {
+   "fa": "2026-10-27T19:29:43.117293+00:00",
+   "en": "2026-10-27T19:29:43.117293+00:00"
   }
  },
  "news_archive": {
@@ -4800,6 +4810,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-27T07:07:51+00:00",
    "ts": "2026-10-27T07:37:50.427704+00:00"
+  },
+  "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/": {
+   "title": "NASA’s Neo Surveyor Sunshade",
+   "summary": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, which stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its base, will keep the infrared space telescope cool as it searches for near-Earth asteroids and",
+   "link": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-27T17:58:57+00:00",
+   "ts": "2026-10-27T19:29:43.117293+00:00"
   }
  },
  "news_title_fp": {
@@ -4932,6 +4951,10 @@
    "en": "2026-10-27"
   },
   "25344e8bb7f9ba37": {
+   "fa": "2026-10-27",
+   "en": "2026-10-27"
+  },
+  "6e1ef4c354d75811": {
    "fa": "2026-10-27",
    "en": "2026-10-27"
   }
@@ -5068,6 +5091,10 @@
   [
    "25344e8bb7f9ba37",
    "how a johnson mentor shapes the next generation of nasa talent"
+  ],
+  [
+   "6e1ef4c354d75811",
+   "nasa s neo surveyor sunshade"
   ]
  ],
  "combo_seen": {

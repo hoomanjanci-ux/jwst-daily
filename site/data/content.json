@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T16:54:07.438Z",
+ "generated_utc": "2026-10-27T19:29:57.995Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -807,6 +807,42 @@
  ],
  "news": [
   {
+   "slug": "nasa-1pfyprr",
+   "title": "Spacewalk Preps, Robotics Jobs, and Science Duties Fill Tuesday Schedule",
+   "title_fa": null,
+   "summary": "Spacewalking tools and a pair of robotics jobs topped Tuesday’s schedule aboard the International Space Station. The Expedition 75 crew members also kept up their scientific duties configuring botany research hardware and setting up advanced Earth observation gear.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss075e0250247/iss075e0250247~large.jpg?w=1440&h=1920&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-27T19:14:28.000Z"
+  },
+  {
+   "slug": "science-1o7z6e1",
+   "title": "NASA’s UVEX Space Telescope Successfully Passes Key Milestone",
+   "title_fa": null,
+   "summary": "Agency officials have confirmed NASA’s UVEX space telescope after completing a technical and programmatic review known as Key Decision Point C.",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/universe/news-images/UVEX%20Artists%20Concept_Oct%202026.jpg?w=622&h=350&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-27T17:59:30.000Z"
+  },
+  {
+   "slug": "nasa-1ileal2",
+   "title": "NASA’s Neo Surveyor Sunshade",
+   "title_fa": null,
+   "summary": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, which stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its base, will keep the infrared space telescope cool as it searches for near-Earth asteroids and […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-27T17:58:57.000Z"
+  },
+  {
    "slug": "nasa-xd10tc",
    "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
    "title_fa": "منتور ناسا، پرورش‌دهنده نسل بعدی استعدادها",
@@ -985,30 +1021,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-22T19:43:51.000Z"
-  },
-  {
-   "slug": "nasa-1q02bis",
-   "title": "Busy Station Day with Bioprinting, Spacesuit Check, Robotics, and Photography",
-   "title_fa": "روز پرتلاش فضانوردان: زیست‌چاپ، لباس فضایی و تمرین رباتیک",
-   "summary": "The Expedition 75 crew had a busy day on Thursday bioprinting blood vessels and trying on a spacesuit aboard the International Space Station. The orbital residents also trained to use a pair of robotic arms and set up Earth photography sessions to round out the day in low Earth orbit.",
-   "summary_fa": "خروجیان سفرهٔ ۷۵ در روز پنجشنبه فعالیتی شلوغ را در ایستگاه فضایی بین‌المللی تجربه کردند و در راستای زیست‌چاپ عروق خونی و آزمایش لباس فضایی مشارکت کردند. ساکنان مداری همچنین به کار با بازوهای رباتیک پرداختند و پس از آماده‌سازی جلسات عکاسی از زمین، روز خود در مدار نزدیک زمین را به پایان رساندند.",
-   "image": "https://images-assets.nasa.gov/image/jsc2026e037789/jsc2026e037789~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-22T17:37:14.000Z"
-  },
-  {
-   "slug": "science-zndkse",
-   "title": "Pedal to the Metal: NASA’s Psyche Heads Toward Asteroid Belt",
-   "title_fa": "شتاب پایسک: فضاپیمای ناسا به‌سوی کمربند سیارکی شتافت",
-   "summary": "With a successful Mars gravity assist in its rearview mirror, NASA’s Psyche spacecraft has fired up its thrusters and is accelerating to the metal-rich asteroid of the same name. During the first leg of its journey, following an October 2023 launch, the mission used its electric propulsion system intermittently to maneuver to the right place […]",
-   "summary_fa": "فضاپیمای پایسک ناسا پس از انجام با موفقیت مانور کمک‌گرانشی مریخ، پیشرانه‌های خود را روشن کرد و به‌سوی سیارک فلز‌دار هم‌نام خود در حال شتاب‌گیری است. این مأموریت که در اکتبر ۲۰۲۳ پرتاب شد، در بخش نخست سفر خود از سیستم پیشرانش الکتریکی خود به‌صورت پراکنده برای قرارگیری در مسیر مناسب استفاده کرد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/psyche/images/1-PIA21499_-_Artist",
-   "link": "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-22T16:16:58.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
