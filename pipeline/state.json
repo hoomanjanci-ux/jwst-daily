@@ -2504,39 +2504,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-25T14:35:57.532816+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-10-25/18",
-    "published": [
-     "jw01189012001_03104_00001_nrcalong_rate.fits"
-    ],
-    "slot_status": "sent",
-    "ready_pairs": 0,
-    "next_window": "2026-10-26T06:00:00+03:30"
-   },
-   "published": [
-    "jw01189012001_03104_00001_nrcalong_rate.fits"
-   ],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-25T14:36:21.248760+00:00"
-  },
-  {
    "started_utc": "2026-10-25T15:56:06.892160+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -3959,6 +3926,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-27T05:11:14.101446+00:00"
+  },
+  {
+   "started_utc": "2026-10-27T05:30:31.700404+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-10-27/09",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "waiting",
+    "ready_pairs": 8,
+    "next_window": "2026-10-27T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-27T05:31:25.923904+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4142,6 +4144,10 @@
   "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/": {
    "fa": "2026-10-27T00:07:28.881513+00:00",
    "en": "2026-10-27T00:07:28.881513+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/": {
+   "fa": "2026-10-27T05:30:37.923240+00:00",
+   "en": "2026-10-27T05:30:37.923240+00:00"
   }
  },
  "news_archive": {
@@ -4531,6 +4537,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-26T20:52:24+00:00",
    "ts": "2026-10-27T00:07:28.881513+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/": {
+   "title": "ابرهای شب‌درخش بر فراز سوئد",
+   "summary": "تصویر نجومی روز ناسا به تاریخ ۲۷ اکتبر ۲۰۲۶، ابرهای شب‌درخش را بر فراز آسمان سوئد به نمایش می‌گذارد. این ابرها از یخ‌های نانومتری تشکیل شده‌اند و در بالاترین لایهٔ جوّ زمین، در فاصلهٔ حدود ۸۰ کیلومتری از سطح زمین شکل می‌گیرند.",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-27T04:05:00+00:00",
+   "ts": "2026-10-27T05:30:37.923240+00:00"
   }
  },
  "news_title_fp": {
@@ -4655,6 +4670,10 @@
    "en": "2026-10-27"
   },
   "388056213b89ea02": {
+   "fa": "2026-10-27",
+   "en": "2026-10-27"
+  },
+  "b3e91bfaf77df9e8": {
    "fa": "2026-10-27",
    "en": "2026-10-27"
   }
@@ -4783,6 +4802,10 @@
   [
    "388056213b89ea02",
    "solar cells inspected on nasa s neo surveyor"
+  ],
+  [
+   "b3e91bfaf77df9e8",
+   "apod 2026 october 27 noctilucent clouds over sweden"
   ]
  ],
  "combo_seen": {
