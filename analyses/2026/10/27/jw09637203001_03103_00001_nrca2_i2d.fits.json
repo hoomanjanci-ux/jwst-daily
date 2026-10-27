@@ -1,0 +1,60 @@
+{
+ "ts": "2026-10-27T06:37:09.549779+00:00",
+ "product": "jw09637203001_03103_00001_nrca2_i2d.fits",
+ "uri": "mast:JWST/product/jw09637203001_03103_00001_nrca2_i2d.fits",
+ "proposal": "9637",
+ "meta": {
+  "TELESCOP": "JWST",
+  "INSTRUME": "NIRCAM",
+  "DETECTOR": "NRCA2",
+  "FILTER": "F150W",
+  "PUPIL": "CLEAR",
+  "DATE-OBS": "2026-08-23",
+  "TARGNAME": "",
+  "PROGRAM": "09637",
+  "n_hdus": 9
+ },
+ "region": {
+  "x0": 879,
+  "y0": 1695,
+  "x1": 1041,
+  "y1": 1857,
+  "fx0": 0.4273,
+  "fy0": 0.8248,
+  "fx1": 0.5061,
+  "fy1": 0.9036,
+  "score": 48.29
+ },
+ "score": 44.92,
+ "quality": {
+  "sharp": 1.0,
+  "contrast": 0.5812,
+  "brightness": 0.6142,
+  "range": 1.0,
+  "roi": 0.4492,
+  "score": 77.58
+ },
+ "mock_analysis": {
+  "mock": true,
+  "warning": "MOCK ANALYSIS - not a scientific AI result",
+  "telescope": "JWST",
+  "instrument": "NIRCAM",
+  "detector": "NRCA2",
+  "filter": "F150W",
+  "exptime_s": null,
+  "target": "",
+  "obs_date": "2026-08-23",
+  "proposal_id": null,
+  "note": "Vision model runs OUTSIDE this pipeline (owner-provided API). This stub keeps the release path testable."
+ },
+ "prior_refs": [
+  "jw06627005001_07101_00001_nrcalong_rate.fits",
+  "jw07127040001_03105_00001_nrca1_rate.fits",
+  "jw07127040001_03105_00001_nrca1_cal.fits",
+  "jw06627005001_07101_00001_nrcalong_cal.fits",
+  "jw04535004001_03103_00001_nrca2_rate.fits"
+ ],
+ "bytes": 118483200,
+ "sha256": "27614594480e88763a6311541be46560b94dd457b67605baef76c3424745c559",
+ "source": "MAST public data"
+}
