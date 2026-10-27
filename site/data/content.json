@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T07:39:34.411Z",
+ "generated_utc": "2026-10-27T08:31:13.518Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw06606003001-02109-00003-nrcalong-rate",
+   "product": "jw06606003001_02109_00003_nrcalong_rate.fits",
+   "published_utc": "2026-10-27T08:30:38.749Z",
+   "target": "GSPC P330-E",
+   "instrument": "NIRCAM",
+   "detector": "NRCALONG",
+   "filter": "F460M",
+   "obs_date": "2024-08-18",
+   "proposal": "6606",
+   "score": 44.2,
+   "quality_score": 78.81,
+   "image": "/img/jw06606003001-02109-00003-nrcalong-rate.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «GSPC P330-E»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 2048 × 2048 پیکسل دارد. در نمونهٔ منظم 456,693 پیکسل معتبر، حدود 0.2045 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F460M نزدیک طول موج 4.6 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F460M · تاریخ رصد: 2024-08-18\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/6606\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw09637203001-03101-00003-nrcblong-i2d",
    "product": "jw09637203001_03101_00003_nrcblong_i2d.fits",
@@ -272,23 +289,6 @@
    "proposal": "1482",
    "score": 43.2,
    "quality_score": 75.41,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
-   "slug": "jw06606003001-02109-00003-nrcalong-rate",
-   "product": "jw06606003001_02109_00003_nrcalong_rate.fits",
-   "published_utc": "2026-10-25T22:23:59.245660+00:00",
-   "target": "GSPC P330-E",
-   "instrument": "NIRCAM",
-   "detector": "NRCALONG",
-   "filter": "F460M",
-   "obs_date": "2024-08-18",
-   "proposal": "6606",
-   "score": 44.2,
-   "quality_score": 78.81,
    "image": null,
    "text_fa": null,
    "text_en": null,
