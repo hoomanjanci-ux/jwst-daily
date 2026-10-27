@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T00:03:51.073Z",
+ "generated_utc": "2026-10-27T00:07:37.874Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -705,6 +705,18 @@
  ],
  "news": [
   {
+   "slug": "science-1sxh6d5",
+   "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
+   "title_fa": "پرساورنس، غبارنمای نریتوا والیس",
+   "summary": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission. While it is a wind-swept dusty vista today, billions of years ago it was home to a river channel that fed fresh water into […]",
+   "summary_fa": "تصویر ۳۶۰ درجه‌ای از نریتوا والیس در دهانه جیزرو مریخ، با برچسب‌کردن ۲۱۷ عکس توسط دوربین Mastcam-Z کاوشگر پرساورنس در ۲۰ مه ۲۰۲۴ (روز ۱۱۵۵ مریخی مأموریت) تهیه شده است. این چشم‌انداز امروزیی عاری از گردوغبار است، اما میلیاردها سال پیش یک مجرای رودخانه‌ای بود که آب شیرین به [...]",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg?w=1536&h=405&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-26T22:48:12.000Z"
+  },
+  {
    "slug": "nasa-1wk2qqj",
    "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
    "title_fa": "پرسوِرنس: کلید محافظت از فضانوردان در برابر غبار مریخ",
@@ -799,18 +811,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-26T04:05:00.000Z"
-  },
-  {
-   "slug": "science-1yguhfs",
-   "title": "APOD: 2026 October 25 – Dark Matter in a Simulated Universe",
-   "title_fa": "ماده تاریک در جهان شبیه‌سازی‌شده — APOD ۲۵ اکتبر ۲۰۲۶",
-   "summary": "APOD Science APOD APOD: 2026 October 25 – Dark… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Dark Matter […]",
-   "summary_fa": "تصویر روز نجوم (APOD) منتشرشده در ۲۵ اکتبر ۲۰۲۶ به ماده تاریک در یک جهان شبیه‌سازی‌شده می‌پردازد. این تصویر همراه با توضیحی کوتاه از سوی یک اخترشناس حرفه‌ای ارائه می‌شود.",
-   "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2021/october/DarkMatter_KipacAmnh_1200.jpg?w=1200&h=900&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-25T08:19:48.000Z"
   },
   {
    "slug": "science-lkjrv3",

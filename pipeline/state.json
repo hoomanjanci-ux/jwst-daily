@@ -2556,36 +2556,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-25T10:12:09.467193+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "batch_ran": false,
-   "pending_before": 4,
-   "analysis_cadence": {
-    "ready": 4,
-    "interval_hours": 6,
-    "publish_due": false,
-    "next_publish_not_before_utc": "2026-10-25T13:56:17.645356+00:00",
-    "refill_due": false,
-    "remaining_batch_bytes": 900000000,
-    "daily_limit": 4
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/"
-    ],
-    "en": [
-     "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/"
-    ],
-    "mode": "fresh (1 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-25T10:12:47.531506+00:00"
-  },
-  {
    "started_utc": "2026-10-25T11:08:32.208839+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "batch_ran": false,
@@ -3988,6 +3958,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-27T00:03:36.095646+00:00"
+  },
+  {
+   "started_utc": "2026-10-27T00:07:19.333284+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-27T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/"
+    ],
+    "en": [
+     "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-27T00:07:36.005196+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4167,6 +4172,10 @@
   "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/": {
    "fa": "2026-10-27T00:03:12.021926+00:00",
    "en": "2026-10-27T00:03:12.021926+00:00"
+  },
+  "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/": {
+   "fa": "2026-10-27T00:07:28.881513+00:00",
+   "en": "2026-10-27T00:07:28.881513+00:00"
   }
  },
  "news_archive": {
@@ -4547,6 +4556,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-26T20:53:13+00:00",
    "ts": "2026-10-27T00:03:12.021926+00:00"
+  },
+  "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/": {
+   "title": "پنل‌های خورشیدی سفینه کاوشگر اجرام نزدیک به زمین ناسا بازرسی شد",
+   "summary": "پنل‌های خورشیدی محافظ سایه‌بان مأموریت NEO Surveyor ناسا، که توسط شرکت SolAero Technologies در آلبوکرکی نصب شده بود، در اواخر جولای توسط تکنسین‌های BAE Systems در کلرادو بازرسی شد. این سازهٔ سایه‌بان پیش‌تر توسط Applied Aerospace در استاکتون کالیفرنیا ساخته شده بود.",
+   "link": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-26T20:52:24+00:00",
+   "ts": "2026-10-27T00:07:28.881513+00:00"
   }
  },
  "news_title_fp": {
@@ -4667,6 +4685,10 @@
    "en": "2026-10-27"
   },
   "c6dd49107842faac": {
+   "fa": "2026-10-27",
+   "en": "2026-10-27"
+  },
+  "388056213b89ea02": {
    "fa": "2026-10-27",
    "en": "2026-10-27"
   }
@@ -4791,6 +4813,10 @@
   [
    "c6dd49107842faac",
    "neo surveyor s sunshade gets inspected"
+  ],
+  [
+   "388056213b89ea02",
+   "solar cells inspected on nasa s neo surveyor"
   ]
  ],
  "combo_seen": {
