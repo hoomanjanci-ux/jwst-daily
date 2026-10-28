@@ -2657,35 +2657,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-26T07:08:44.648001+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-10-26T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-26T07:08:45.267179+00:00"
-  },
-  {
    "started_utc": "2026-10-26T08:01:49.720244+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -4179,6 +4150,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-28T02:31:13.323534+00:00"
+  },
+  {
+   "started_utc": "2026-10-28T05:12:44.990381+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-10-28T09:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-28T05:13:03.704358+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4386,6 +4392,10 @@
   "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/": {
    "fa": "2026-10-27T21:28:13.205646+00:00",
    "en": "2026-10-27T21:28:13.205646+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/": {
+   "fa": "2026-10-28T05:12:54.701319+00:00",
+   "en": "2026-10-28T05:12:54.701319+00:00"
   }
  },
  "news_archive": {
@@ -4829,6 +4839,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-27T17:59:30+00:00",
    "ts": "2026-10-27T21:28:13.205646+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/": {
+   "title": "APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io",
+   "summary": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. To view",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-28T04:05:00+00:00",
+   "ts": "2026-10-28T05:12:54.701319+00:00"
   }
  },
  "news_title_fp": {
@@ -4979,6 +4998,10 @@
   "70e9d1970ea836ce": {
    "fa": "2026-10-27",
    "en": "2026-10-27"
+  },
+  "7fd5e85e46d36d87": {
+   "fa": "2026-10-28",
+   "en": "2026-10-28"
   }
  },
  "news_title_recent": [
@@ -5129,6 +5152,10 @@
   [
    "70e9d1970ea836ce",
    "nasa s uvex space telescope successfully passes key milestone"
+  ],
+  [
+   "7fd5e85e46d36d87",
+   "apod 2026 october 28 the mutual occultation of ganymede and io"
   ]
  ],
  "combo_seen": {
