@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T05:56:40.461Z",
+ "generated_utc": "2026-10-28T06:22:55.333Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -894,6 +894,30 @@
    "date_utc": "2026-10-27T19:27:22.000Z"
   },
   {
+   "slug": "nasa-1pfyprr",
+   "title": "Spacewalk Preps, Robotics Jobs, and Science Duties Fill Tuesday Schedule",
+   "title_fa": null,
+   "summary": "Spacewalking tools and a pair of robotics jobs topped Tuesday’s schedule aboard the International Space Station. The Expedition 75 crew members also kept up their scientific duties configuring botany research hardware and setting up advanced Earth observation gear.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss075e0250247/iss075e0250247~large.jpg?w=1440&h=1920&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-27T19:14:28.000Z"
+  },
+  {
+   "slug": "science-1o7z6e1",
+   "title": "NASA’s UVEX Space Telescope Successfully Passes Key Milestone",
+   "title_fa": null,
+   "summary": "Agency officials have confirmed NASA’s UVEX space telescope after completing a technical and programmatic review known as Key Decision Point C.",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/universe/news-images/UVEX%20Artists%20Concept_Oct%202026.jpg?w=622&h=350&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-27T17:59:30.000Z"
+  },
+  {
    "slug": "nasa-1ileal2",
    "title": "NASA’s Neo Surveyor Sunshade",
    "title_fa": null,
@@ -952,6 +976,78 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-26T21:07:28.000Z"
+  },
+  {
+   "slug": "science-1rwoyv1",
+   "title": "Sunshade for NASA’s NEO Surveyor Mission Ready for Its Day in Sun",
+   "title_fa": "آمادگی پای‌سای تلسکوپ NEO Surveyor ناسا برای تابش آفتاب",
+   "summary": "Development of NASA’s Near-Earth Object (NEO) Surveyor mission continues as the spacecraft’s largest component gets closer to how it will look when it launches. Recently, teams completed work on integrating solar arrays onto the spacecraft’s sunshade, a structure primarily designed to block the Sun’s glare. The sunshade will keep the infrared space telescope cool as […]",
+   "summary_fa": "مأموریت NEO Surveyor ناسا برای بررسی اجسام نزدیک به زمین همچنان در حال توسعه است و بزرگ‌ترین بخش فضاپیما به حالت نهایی پیش از پرتاب نزدیک‌تر می‌شود. اخیراً، تیم‌ها اتصال آرایه‌های خورشیدی به پای‌سای فضاپیما را تکمیل کردند. این سازه عمدتاً برای مسدود کردن نور خورشید طراحی شده و باعث خنک ماندن تلسکوپ فروسرخ در فضا خواهد شد.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/neo-surveyor/images/2026/1_PIA26715_bae-sunshade-inspection.jpg?w=2048&h=1366&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/neo-surveyor/2026/10/26/sunshade-for-nasas-neo-surveyor-mission-ready-for-its-day-in-sun/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-26T18:12:24.000Z"
+  },
+  {
+   "slug": "nasa-1l3ubc8",
+   "title": "Week Begins with Robotics Prep for Spacewalk and Advanced Research",
+   "title_fa": "آغاز هفته با آماده‌سازی پیاده‌روی فضایی و پژوهش‌های پیشرفته",
+   "summary": "Expedition 75 began the week gearing up for a spacewalk to upgrade the International Space Station’s power generation system. Research into bioprinted blood vessels and relaxation techniques, as well cargo operations rounded out Monday’s schedule.",
+   "summary_fa": "مأموریت اکسپدیشن ۷۵ هفته را با آماده‌سازی برای پیاده‌روی فضایی جهت ارتقای سیستم تولید برق ایستگاه فضایی بین‌المللی آغاز کرد. پژوهش درباره رگ‌های خونی زیستی‌چاپ‌شده و تکنیک‌های آرام‌سازی، همراه با عملیات بارگیری، برنامه یکشنبه را تکمیل کردند.",
+   "image": "https://images-assets.nasa.gov/image/iss073e0273067/iss073e0273067~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-26T15:48:51.000Z"
+  },
+  {
+   "slug": "science-lkjrv3",
+   "title": "NASA’s Swift Mission Ends Ahead of Re-Entry",
+   "title_fa": "پایان مأموریت تلسکوپ Swift ناسا پیش از بازگشت به زمین",
+   "summary": "NASA’s Swift has concluded operations, leaving behind a legacy of innovation and a treasure trove of science observations.",
+   "summary_fa": "تلسکوپ فضایی Swift ناسا پس از پایان عملیات، آماده بازچهره‌اندازی (Re-entry) به جو زمین است. این مأموریت میراثی از نوآوری و گنجینه‌ای از مشاهدات علمی را در پی دارد.",
+   "image": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/misc--spacecraft-art/Swift_in_space_11.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "link": "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-23T21:58:32.000Z"
+  },
+  {
+   "slug": "nasa-1gwcl25",
+   "title": "NASA Shares Artemis Acceleration Plans for Moon Missions",
+   "title_fa": "ناسا برنامه‌های تسریع مأموریت‌های ماه‌نشین را معرفی کرد",
+   "summary": "In an update Friday, Oct. 23, NASA Administrator Jared Isaacman and other agency leaders provided the agency’s path forward to returning Americans to the lunar surface in 2028. The briefing included details about NASA’s Artemis III mission that will send four astronauts to low Earth orbit next year to test critical systems needed for future […]",
+   "summary_fa": "ناسا مسیر بازگشت فضانوردان آمریکایی به سطح ماه در سال ۲۰۲۸ را مشخص کرد. بر این پایه، مأموریت آرتمیس ۳ پیش‌بینی می‌کند که سال آینده چهار فضانورد به مدار پایین زمین فرستاده شوند تا سامانه‌های حیاتی لازم برای مأموریت‌های آتی آزمایش شوند.",
+   "image": "https://images-assets.nasa.gov/image/KSC-20261023-PH--CSH02--0014/KSC-20261023-PH--CSH02--0014~large.jpg?w=1920&h=944&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-23T20:15:28.000Z"
+  },
+  {
+   "slug": "science-1netmou",
+   "title": "NASA’s Dragonfly Completes First Simulated Flight",
+   "title_fa": "ناسا نخستین پرواز آزمایشی پرندهٔ دراگون‌فالی را پشت سر گذاشت",
+   "summary": "Separated from its protective backshell, NASA’s Dragonfly rotorcraft autonomously speeds over the sand dunes of Titan. It scans the terrain below, searching for a safe place to land. When Dragonfly discovers a safe site, it turns, descends, and lands at the selected location, touching down for the first time on the surface of Saturn’s largest […]",
+   "summary_fa": "مروارِ دراگون‌فلی ناسا پس از جدا شدن از پوشش محافظ، به‌صورت خودکار بر فراز تپک‌های شنی تیتان پرواز کرد و زمین زیرین را اسکن نمود تا مکان ایمنی برای فرود بیابد. پس از یافتن نقطهٔ مناسب، descend کرد و نخستین بار بر سطح بزرگ‌ترین قمر زحل فرود آمد.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/dragonfly/FirstFlightDiagram2.jpg?w=801&h=430&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-23T18:44:14.000Z"
+  },
+  {
+   "slug": "nasa-1vm15nt",
+   "title": "Advanced Research, Spacewalk Preps End Week as NASA Announces Artemis Status",
+   "title_fa": "پایان هفته با تحقیقات پیشرفته و آمادگی پیاده‌روی فضایی؛ ناسا وضعیت آرتemis را اعلام کرد",
+   "summary": "The Expedition 75 crew worked on a 3D bioprinter and a levitation furnace at the end of the week to advance health and high-temperature physics. Two astronauts are also preparing for a spacewalk at the International Space Station as NASA announces the status of upcoming Moon missions.",
+   "summary_fa": "تیم مأموریت ۷۵ ایستگاه فضایی بین‌المللی در اواخر هفته بر روی چاپگر زیستی سه‌بعدی و کوره لخت‌کنشی کار کرد تا به پیشرفت حوزه‌های سلامت و فیزیک دمای بالا کمک کند. دو فضانورد نیز در حال آماده‌سازی برای پیاده‌روی فضایی در ایستگاه فضایی بین‌المللی هستند. ناسا همزمان وضعیت مأموریت‌های آینده ماه را اعلام کرد.",
+   "image": "https://images-assets.nasa.gov/image/iss072e618284/iss072e618284~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/23/advanced-research-spacewalk-preps-end-week-as-nasa-announces-artemis-status/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-23T16:11:23.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
