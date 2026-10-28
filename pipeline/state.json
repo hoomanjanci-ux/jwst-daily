@@ -2856,43 +2856,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-26T20:06:26.436530+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 6,
-    "next_window": "2026-10-27T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
-     "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/"
-    ],
-    "en": [
-     "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
-     "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/"
-    ],
-    "mode": "fresh (2 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-26T20:08:08.444918+00:00"
-  },
-  {
    "started_utc": "2026-10-26T20:12:02.831661+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4431,6 +4394,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-28T18:45:45.248101+00:00"
+  },
+  {
+   "started_utc": "2026-10-28T18:56:27.651408+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-29T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
+     "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/"
+    ],
+    "en": [
+     "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
+     "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-28T18:56:50.425642+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4654,6 +4654,14 @@
   "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/": {
    "fa": "2026-10-28T18:45:33.275922+00:00",
    "en": "2026-10-28T18:45:33.275922+00:00"
+  },
+  "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/": {
+   "fa": "2026-10-28T18:56:36.377835+00:00",
+   "en": "2026-10-28T18:56:36.377835+00:00"
+  },
+  "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/": {
+   "fa": "2026-10-28T18:56:36.377835+00:00",
+   "en": "2026-10-28T18:56:36.377835+00:00"
   }
  },
  "news_archive": {
@@ -5133,6 +5141,24 @@
    "source_fa": "ناسا",
    "date": "2026-10-28T16:25:29+00:00",
    "ts": "2026-10-28T18:45:33.275922+00:00"
+  },
+  "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/": {
+   "title": "Webb Sees Turbulent Star Nursery",
+   "summary": "In this Webb image released on Oct. 22, 2026, we see a turbulent cauldron of star formation filled with dense clumps of gas. This region is named N159 and is located 161,000 light-years away in the Large Magellanic Cloud, one of the satellite galaxies orbiting the Milky Way galaxy. This region has a lower metallicity",
+   "link": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-28T15:33:10+00:00",
+   "ts": "2026-10-28T18:56:36.377835+00:00"
+  },
+  "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/": {
+   "title": "NASA’s Lucy Reaches Trojan Asteroid Region 5 Years After Launch",
+   "summary": "Having traveled more than 2.2 billion miles since it launched on Oct. 16, 2021, NASA’s Lucy is the first spacecraft to enter a region of primitive solar-system bodies known as the Jupiter Trojan asteroids.",
+   "link": "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-28T14:11:21+00:00",
+   "ts": "2026-10-28T18:56:36.377835+00:00"
   }
  },
  "news_title_fp": {
@@ -5297,6 +5323,14 @@
    "en": "2026-10-28"
   },
   "09db61db6718e323": {
+   "fa": "2026-10-28",
+   "en": "2026-10-28"
+  },
+  "ff37724565af9db8": {
+   "fa": "2026-10-28",
+   "en": "2026-10-28"
+  },
+  "8a1d2e891ed8f10e": {
    "fa": "2026-10-28",
    "en": "2026-10-28"
   }
@@ -5465,6 +5499,14 @@
   [
    "09db61db6718e323",
    "nasa selects 19 new citizen science proposals in 2026"
+  ],
+  [
+   "ff37724565af9db8",
+   "webb sees turbulent star nursery"
+  ],
+  [
+   "8a1d2e891ed8f10e",
+   "nasa s lucy reaches trojan asteroid region 5 years after launch"
   ]
  ],
  "combo_seen": {
