@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T14:31:18.248Z",
+ "generated_utc": "2026-10-28T15:09:58.275Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -908,6 +908,18 @@
   }
  ],
  "news": [
+  {
+   "slug": "science-lin0jv",
+   "title": "NASA’s Lucy Reaches Trojan Asteroid Region 5 Years After Launch",
+   "title_fa": null,
+   "summary": "Having traveled more than 2.2 billion miles since it launched on Oct. 16, 2021, NASA’s Lucy is the first spacecraft to enter a region of primitive solar-system bodies known as the Jupiter Trojan asteroids.",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a020000/a020300/a020366/Lucy_SP_update_h264_1080-00495_print.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "link": "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-28T14:11:21.000Z"
+  },
   {
    "slug": "science-xz9ke7",
    "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
