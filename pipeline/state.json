@@ -2732,31 +2732,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-26T09:56:24.536385+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "prepared": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-10-26T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-26T10:01:30.337942+00:00"
-  },
-  {
    "started_utc": "2026-10-26T10:55:43.226921+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4264,6 +4239,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-28T05:47:52.016364+00:00"
+  },
+  {
+   "started_utc": "2026-10-28T05:56:24.415271+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-10-28/09",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 8,
+    "next_window": "2026-10-28T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-28T05:56:36.807350+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4475,6 +4485,10 @@
   "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/": {
    "fa": "2026-10-28T05:12:54.701319+00:00",
    "en": "2026-10-28T05:12:54.701319+00:00"
+  },
+  "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/": {
+   "fa": "2026-10-28T05:56:31.248341+00:00",
+   "en": "2026-10-28T05:56:31.248341+00:00"
   }
  },
  "news_archive": {
@@ -4927,6 +4941,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-28T04:05:00+00:00",
    "ts": "2026-10-28T05:12:54.701319+00:00"
+  },
+  "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/": {
+   "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
+   "summary": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campaign, Curiosity has returned to a spot just a few meters away from the “Chiu Chiu” block to conduct our next drill campaign. “Chiu Chiu” itself wasn’t a good candidate for",
+   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-28T05:39:46+00:00",
+   "ts": "2026-10-28T05:56:31.248341+00:00"
   }
  },
  "news_title_fp": {
@@ -5079,6 +5102,10 @@
    "en": "2026-10-27"
   },
   "7fd5e85e46d36d87": {
+   "fa": "2026-10-28",
+   "en": "2026-10-28"
+  },
+  "98e8d026050b9179": {
    "fa": "2026-10-28",
    "en": "2026-10-28"
   }
@@ -5235,6 +5262,10 @@
   [
    "7fd5e85e46d36d87",
    "apod 2026 october 28 the mutual occultation of ganymede and io"
+  ],
+  [
+   "98e8d026050b9179",
+   "curiosity blog sols 5043 5049 preparing to drill at nazca"
   ]
  ],
  "combo_seen": {
