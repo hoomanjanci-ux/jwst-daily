@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T19:09:47.284Z",
+ "generated_utc": "2026-10-28T19:49:36.873Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -909,6 +909,30 @@
  ],
  "news": [
   {
+   "slug": "nasa-1m2xth9",
+   "title": "NASA Celebrates a Year of Progress Since First X-59 Flight",
+   "title_fa": null,
+   "summary": "One year ago, NASA’s Quesst mission made history with the first flight of the X-59 quiet supersonic research aircraft. Since then, the X-59 has completed 40 additional flights, marking a year of steady progress for the program. While its first flight on Oct. 28, 2025, focused on low, slow flights to conduct systems checks, the X-59 has since reached a maximum altitude of more than 56,000 feet and speeds up to Mach 1.",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2026-10-28-ff-anniv-final.gif?w=1280",
+   "link": "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-28T19:24:28.000Z"
+  },
+  {
+   "slug": "nasa-1i1yvq5",
+   "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
+   "title_fa": null,
+   "summary": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Technicians lifted the 212-foot rocket stage from the facility’s High Bay 2 using a one-of-a kind lifting beam designed […]",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/KSC-20261022-PH-SNC01_0001/KSC-20261022-PH-SNC01_0001~large.jpg?w=1920&h=1371&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-28T18:59:44.000Z"
+  },
+  {
    "slug": "nasa-tz91zu",
    "title": "Astronauts Are Go For Thursday’s Power Upgrade Spacewalk",
    "title_fa": null,
@@ -972,7 +996,7 @@
    "slug": "science-1mxp720",
    "title": "APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io",
    "title_fa": null,
-   "summary": "APOD Science APOD APOD: 2026 October 28 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. To view […]",
+   "summary": "APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. To view this video please enable JavaScript, and consider upgrading to a web browser that support",
    "summary_fa": null,
    "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/october/occultation.jpeg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
    "link": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
@@ -1041,18 +1065,6 @@
    "date_utc": "2026-10-27T07:07:51.000Z"
   },
   {
-   "slug": "science-1dgifak",
-   "title": "APOD: 2026 October 27 – Noctilucent Clouds over Sweden",
-   "title_fa": "تصویر روز نجوم: ابرق‌مه‌تاب‌های سوئد",
-   "summary": "APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Noctilucent Clouds over […]",
-   "summary_fa": "نمایشگاه تصویر روز نجوم (APOD) هر روز تصویری از کیهان را همراه توضیحی از یک ستاره‌شناس حرفه‌ای منتشر می‌کند. تصویر امروز این برنامه، مربوط به ۲۷ اکتبر ۲۰۲۶، ابرق‌مه‌تاب‌های درخشان بر فراز سوئد را نشان می‌دهد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/NocClouds_Hofer_6048.jpg?w=2048&h=1365&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-27T04:05:00.000Z"
-  },
-  {
    "slug": "science-1rwoyv1",
    "title": "Sunshade for NASA’s NEO Surveyor Mission Ready for Its Day in Sun",
    "title_fa": "آمادگی پای‌سای تلسکوپ NEO Surveyor ناسا برای تابش آفتاب",
@@ -1099,18 +1111,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-23T20:15:28.000Z"
-  },
-  {
-   "slug": "science-1netmou",
-   "title": "NASA’s Dragonfly Completes First Simulated Flight",
-   "title_fa": "ناسا نخستین پرواز آزمایشی پرندهٔ دراگون‌فالی را پشت سر گذاشت",
-   "summary": "Separated from its protective backshell, NASA’s Dragonfly rotorcraft autonomously speeds over the sand dunes of Titan. It scans the terrain below, searching for a safe place to land. When Dragonfly discovers a safe site, it turns, descends, and lands at the selected location, touching down for the first time on the surface of Saturn’s largest […]",
-   "summary_fa": "مروارِ دراگون‌فلی ناسا پس از جدا شدن از پوشش محافظ، به‌صورت خودکار بر فراز تپک‌های شنی تیتان پرواز کرد و زمین زیرین را اسکن نمود تا مکان ایمنی برای فرود بیابد. پس از یافتن نقطهٔ مناسب، descend کرد و نخستین بار بر سطح بزرگ‌ترین قمر زحل فرود آمد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/dragonfly/FirstFlightDiagram2.jpg?w=801&h=430&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-23T18:44:14.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
