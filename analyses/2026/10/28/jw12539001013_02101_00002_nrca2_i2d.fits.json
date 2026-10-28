@@ -1,0 +1,56 @@
+{
+ "ts": "2026-10-28T05:33:12.997216+00:00",
+ "product": "jw12539001013_02101_00002_nrca2_i2d.fits",
+ "uri": "mast:JWST/product/jw12539001013_02101_00002_nrca2_i2d.fits",
+ "proposal": "12539",
+ "meta": {
+  "TELESCOP": "JWST",
+  "INSTRUME": "NIRCAM",
+  "DETECTOR": "NRCA2",
+  "FILTER": "F150W",
+  "PUPIL": "CLEAR",
+  "DATE-OBS": "2026-10-08",
+  "TARGNAME": "LMC",
+  "PROGRAM": "12539",
+  "n_hdus": 9
+ },
+ "region": {
+  "x0": 1071,
+  "y0": 591,
+  "x1": 1233,
+  "y1": 753,
+  "fx0": 0.5207,
+  "fy0": 0.2876,
+  "fx1": 0.5994,
+  "fy1": 0.3664,
+  "score": 68.09
+ },
+ "score": 64.89,
+ "quality": {
+  "sharp": 1.0,
+  "contrast": 0.9007,
+  "brightness": 0.916,
+  "range": 1.0,
+  "roi": 0.6489,
+  "score": 91.49
+ },
+ "mock_analysis": {
+  "mock": true,
+  "warning": "MOCK ANALYSIS - not a scientific AI result",
+  "telescope": "JWST",
+  "instrument": "NIRCAM",
+  "detector": "NRCA2",
+  "filter": "F150W",
+  "exptime_s": null,
+  "target": "LMC",
+  "obs_date": "2026-10-08",
+  "proposal_id": null,
+  "note": "Vision model runs OUTSIDE this pipeline (owner-provided API). This stub keeps the release path testable."
+ },
+ "prior_refs": [
+  "jw12539001013_02101_00002_nrca1_i2d.fits"
+ ],
+ "bytes": 118483200,
+ "sha256": "410e8d68ee0e9c33cbe9a5cc08d75cbd2c42291ea480e8eb5e54aa4caf1fcb98",
+ "source": "MAST public data"
+}
