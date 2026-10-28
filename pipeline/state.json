@@ -2856,43 +2856,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-26T22:32:59.150442+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 9,
-    "next_window": "2026-10-27T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/blog/tingas-tale/",
-     "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/"
-    ],
-    "en": [
-     "https://science.nasa.gov/blog/tingas-tale/",
-     "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/"
-    ],
-    "mode": "fresh (4 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-26T22:34:30.342925+00:00"
-  },
-  {
    "started_utc": "2026-10-26T23:55:51.661623+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -4430,6 +4393,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-28T21:09:03.923074+00:00"
+  },
+  {
+   "started_utc": "2026-10-28T23:04:43.544117+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-29T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
+     "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/"
+    ],
+    "en": [
+     "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
+     "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-28T23:05:04.715362+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4665,6 +4665,14 @@
   "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/": {
    "fa": "2026-10-28T19:49:30.264827+00:00",
    "en": "2026-10-28T19:49:30.264827+00:00"
+  },
+  "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/": {
+   "fa": "2026-10-28T23:04:51.527397+00:00",
+   "en": "2026-10-28T23:04:51.527397+00:00"
+  },
+  "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/": {
+   "fa": "2026-10-28T23:04:51.527397+00:00",
+   "en": "2026-10-28T23:04:51.527397+00:00"
   }
  },
  "news_archive": {
@@ -5171,6 +5179,24 @@
    "source_fa": "ناسا",
    "date": "2026-10-28T18:59:44+00:00",
    "ts": "2026-10-28T19:49:30.264827+00:00"
+  },
+  "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/": {
+   "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
+   "summary": "The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peaceful, transparent, and responsible exploration of space. “Vietnam is joining at an important point in the development of its own space program,” said NASA Deputy Administrator Matt Anderson in recorded remarks",
+   "link": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-28T21:50:01+00:00",
+   "ts": "2026-10-28T23:04:51.527397+00:00"
+  },
+  "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/": {
+   "title": "NASA Celebrates a Year of Progress Since First X-59 Flight",
+   "summary": "One year ago, NASA’s Quesst mission made history with the first flight of the X-59 quiet supersonic research aircraft. Since then, the X-59 has completed 40 additional flights, marking a year of steady progress for the program. While its first flight on Oct. 28, 2025, focused on low, slow flights to conduct systems checks, the X-59 has since reached a maximum altitude of more than 56,000 feet and speeds up to Mach 1…",
+   "link": "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-28T19:24:28+00:00",
+   "ts": "2026-10-28T23:04:51.527397+00:00"
   }
  },
  "news_title_fp": {
@@ -5347,6 +5373,14 @@
    "en": "2026-10-28"
   },
   "15b195b02f8a93fb": {
+   "fa": "2026-10-28",
+   "en": "2026-10-28"
+  },
+  "0d8cc0f0de44b8fd": {
+   "fa": "2026-10-28",
+   "en": "2026-10-28"
+  },
+  "bed8362adf6e3394": {
    "fa": "2026-10-28",
    "en": "2026-10-28"
   }
@@ -5527,6 +5561,14 @@
   [
    "15b195b02f8a93fb",
    "artemis iii sls core stage joins boosters at kennedy"
+  ],
+  [
+   "0d8cc0f0de44b8fd",
+   "nasa welcomes vietnam as newest artemis accords signatory"
+  ],
+  [
+   "bed8362adf6e3394",
+   "nasa celebrates a year of progress since first x 59 flight"
   ]
  ],
  "combo_seen": {
