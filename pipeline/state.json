@@ -2870,32 +2870,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-27T20:44:49.337393+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 9,
-    "next_window": "2026-10-28T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-27T20:44:58.966593+00:00"
-  },
-  {
    "started_utc": "2026-10-27T21:28:04.492803+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4452,6 +4426,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-29T21:43:07.534153+00:00"
+  },
+  {
+   "started_utc": "2026-10-29T21:52:42.495901+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-10-30T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
+     "https://science.nasa.gov/blogs/voyager/2026/10/29/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/"
+    ],
+    "en": [
+     "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
+     "https://science.nasa.gov/blogs/voyager/2026/10/29/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/"
+    ],
+    "mode": "fresh (4 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-29T21:53:01.889449+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4747,6 +4758,14 @@
   "https://science.nasa.gov/blogs/tracers/2026/10/29/nasas-tracers-first-results-offers-peek-into-violent-magnetic-process/": {
    "fa": "2026-10-29T21:42:57.999996+00:00",
    "en": "2026-10-29T21:42:57.999996+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/": {
+   "fa": "2026-10-29T21:52:49.923213+00:00",
+   "en": "2026-10-29T21:52:49.923213+00:00"
+  },
+  "https://science.nasa.gov/blogs/voyager/2026/10/29/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/": {
+   "fa": "2026-10-29T21:52:49.923213+00:00",
+   "en": "2026-10-29T21:52:49.923213+00:00"
   }
  },
  "news_archive": {
@@ -5388,6 +5407,24 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-29T18:15:07+00:00",
    "ts": "2026-10-29T21:42:57.999996+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/": {
+   "title": "Halloween Aboard the International Space Station",
+   "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit. Whether individually or as an entire crew, they dress up in sometimes spooky, sometimes scary, but always creative costumes, often designed from materials available aboard the",
+   "link": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-29T21:44:23+00:00",
+   "ts": "2026-10-29T21:52:49.923213+00:00"
+  },
+  "https://science.nasa.gov/blogs/voyager/2026/10/29/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/": {
+   "title": "NASA’s Voyager 1 Conserves Power, Resolves Brief Communications Pause",
+   "summary": "NASA’s Voyager team is celebrating two recent developments with the Voyager 1 spacecraft: In September, they successfully completed a months-long effort to stretch the spacecraft’s diminishing power supply. Then, on Oct. 20, an unexpected loss of communication with the spacecraft resolved itself after 48 hours, before the team sent commands to the spacecraft to troubleshoot",
+   "link": "https://science.nasa.gov/blogs/voyager/2026/10/29/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-29T17:30:08+00:00",
+   "ts": "2026-10-29T21:52:49.923213+00:00"
   }
  },
  "news_title_fp": {
@@ -5624,6 +5661,14 @@
    "en": "2026-10-29"
   },
   "9360567667f60c12": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "0cfe31fb6b02ab9c": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "519c712b0533bdfd": {
    "fa": "2026-10-29",
    "en": "2026-10-29"
   }
@@ -5864,6 +5909,14 @@
   [
    "9360567667f60c12",
    "nasa s tracers first results offers peek into violent magnetic process"
+  ],
+  [
+   "0cfe31fb6b02ab9c",
+   "halloween aboard the international space station"
+  ],
+  [
+   "519c712b0533bdfd",
+   "nasa s voyager 1 conserves power resolves brief communications pause"
   ]
  ],
  "combo_seen": {
