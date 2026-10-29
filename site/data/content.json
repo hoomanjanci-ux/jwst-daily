@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T13:38:48.742Z",
+ "generated_utc": "2026-10-29T14:31:17.082Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw06882001001-04101-00004-nrca4-i2d",
+   "product": "jw06882001001_04101_00004_nrca4_i2d.fits",
+   "published_utc": "2026-10-29T14:30:40.447Z",
+   "target": "RXCJ0018+1626",
+   "instrument": "NIRCAM",
+   "detector": "NRCA4",
+   "filter": "F115W",
+   "obs_date": "2026-07-03",
+   "proposal": "6882",
+   "score": 40.09,
+   "quality_score": 75.78,
+   "image": "/img/jw06882001001-04101-00004-nrca4-i2d.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «RXCJ0018+1626»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 2058 × 2058 پیکسل دارد. در نمونهٔ منظم 463,073 پیکسل معتبر، حدود 1.6827 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F115W نزدیک طول موج 1.15 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 54.594 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F115W · تاریخ رصد: 2026-07-03\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/6882\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw09637203001-03101-00003-nrcblong-i2d",
    "product": "jw09637203001_03101_00003_nrcblong_i2d.fits",
@@ -306,23 +323,6 @@
    "proposal": "6882",
    "score": 37.5,
    "quality_score": 73.76,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
-   "slug": "jw06882001001-04101-00004-nrca4-i2d",
-   "product": "jw06882001001_04101_00004_nrca4_i2d.fits",
-   "published_utc": "2026-10-27T14:33:00.458865+00:00",
-   "target": "RXCJ0018+1626",
-   "instrument": "NIRCAM",
-   "detector": "NRCA4",
-   "filter": "F115W",
-   "obs_date": "2026-07-03",
-   "proposal": "6882",
-   "score": 40.09,
-   "quality_score": 75.78,
    "image": null,
    "text_fa": null,
    "text_en": null,
@@ -960,6 +960,30 @@
  ],
  "news": [
   {
+   "slug": "esawebb-zfoa7t",
+   "title": "Photo Release: Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
+   "title_fa": null,
+   "summary": "The NASA/ESA Hubble and the NASA/ESA/CSA James Webb Space Telescopes recently stared at an eerie star-forming scene within the Carina Nebula, a massive gas and dust cloud located approximately 7,500 light-years away from Earth. The two telescopes offer complementary views of the shadowy form, nicknamed the Cat’s Head Nebula, which reflects the “magical” process of star formation. Hubble’s visible-light view shows the",
+   "summary_fa": null,
+   "image": "http://cdn.esawebb.org/archives/images/screen/weic2622a.jpg",
+   "link": "https://esawebb.org/news/weic2622/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date_utc": "2026-10-29T14:00:00.000Z"
+  },
+  {
+   "slug": "nasa-kbm1pz",
+   "title": "Contractor to Civil Servant: NASA Welcomes Jared Spiers",
+   "title_fa": null,
+   "summary": "Jared Spiers had an interest in contributing to NASA’s mission long before becoming a civil servant for the agency. Growing up close to NASA’s Stennis Space Center near Bay St. Louis, Mississippi, and hearing about his father’s work there, he gained a firsthand connection to the nation’s space program. Before graduating high school, he knew […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/s26-012-jared-spiers.jpg?w=2048",
+   "link": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jared-spiers/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-29T13:27:34.000Z"
+  },
+  {
    "slug": "nasa-7ly3qb",
    "title": "Astronauts Begin Spacewalk to Install Roll-Out Solar Arrays",
    "title_fa": null,
@@ -1104,18 +1128,6 @@
    "date_utc": "2026-10-28T05:39:46.000Z"
   },
   {
-   "slug": "science-1mxp720",
-   "title": "APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io",
-   "title_fa": null,
-   "summary": "APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. To view this video please enable JavaScript, and consider upgrading to a web browser that support",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/october/occultation.jpeg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-28T04:05:00.000Z"
-  },
-  {
    "slug": "nasa-1pfyprr",
    "title": "Spacewalk Preps, Robotics Jobs, and Science Duties Fill Tuesday Schedule",
    "title_fa": null,
@@ -1150,18 +1162,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-26T18:12:24.000Z"
-  },
-  {
-   "slug": "nasa-1l3ubc8",
-   "title": "Week Begins with Robotics Prep for Spacewalk and Advanced Research",
-   "title_fa": "آغاز هفته با آماده‌سازی پیاده‌روی فضایی و پژوهش‌های پیشرفته",
-   "summary": "Expedition 75 began the week gearing up for a spacewalk to upgrade the International Space Station’s power generation system. Research into bioprinted blood vessels and relaxation techniques, as well cargo operations rounded out Monday’s schedule.",
-   "summary_fa": "مأموریت اکسپدیشن ۷۵ هفته را با آماده‌سازی برای پیاده‌روی فضایی جهت ارتقای سیستم تولید برق ایستگاه فضایی بین‌المللی آغاز کرد. پژوهش درباره رگ‌های خونی زیستی‌چاپ‌شده و تکنیک‌های آرام‌سازی، همراه با عملیات بارگیری، برنامه یکشنبه را تکمیل کردند.",
-   "image": "https://images-assets.nasa.gov/image/iss073e0273067/iss073e0273067~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-26T15:48:51.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
@@ -1270,18 +1270,6 @@
    "source": "ESA/Webb",
    "source_fa": "اسا/وب (جیمز وب)",
    "date_utc": "2026-06-23T14:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe6z",
-   "title": "Science Release: Webb finds clues to ancient, distant origin of Comet 3I/ATLAS",
-   "title_fa": "جیمز وب، سرنخ‌هایی ازIGIN /ATLAS یافت",
-   "summary": "The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may be.",
-   "summary_fa": "تلسکوپ فضایی جیمز وب به ترکیب شیمیایی جالب و غیرمنتظرهٔIGIN /ATLAS، سومین سیارهٔ بین‌ستاره‌ای شناسایی‌شده در تاریخ بشر، دست یافته است. این کشف پرسش‌هایی را دربارهٔ چگونگی رایج یا نادر بودن شرایط در منظومهٔ شمسی ما برانگیخته است.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2613a.jpg",
-   "link": "https://esawebb.org/news/weic2613/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-06-22T15:00:00.000Z"
   }
  ]
 }
