@@ -2870,43 +2870,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-27T19:59:17.409962+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 9,
-    "next_window": "2026-10-28T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
-     "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/"
-    ],
-    "en": [
-     "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
-     "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/"
-    ],
-    "mode": "fresh (3 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-27T19:59:38.686873+00:00"
-  },
-  {
    "started_utc": "2026-10-27T20:44:49.337393+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -4452,6 +4415,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-29T21:11:17.814395+00:00"
+  },
+  {
+   "started_utc": "2026-10-29T21:42:51.044817+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-10-30T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/",
+     "https://science.nasa.gov/blogs/tracers/2026/10/29/nasas-tracers-first-results-offers-peek-into-violent-magnetic-process/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/",
+     "https://science.nasa.gov/blogs/tracers/2026/10/29/nasas-tracers-first-results-offers-peek-into-violent-magnetic-process/"
+    ],
+    "mode": "fresh (5 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-29T21:43:07.534153+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4739,6 +4739,14 @@
   "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/": {
    "fa": "2026-10-29T19:48:23.285843+00:00",
    "en": "2026-10-29T19:48:23.285843+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/": {
+   "fa": "2026-10-29T21:42:57.999996+00:00",
+   "en": "2026-10-29T21:42:57.999996+00:00"
+  },
+  "https://science.nasa.gov/blogs/tracers/2026/10/29/nasas-tracers-first-results-offers-peek-into-violent-magnetic-process/": {
+   "fa": "2026-10-29T21:42:57.999996+00:00",
+   "en": "2026-10-29T21:42:57.999996+00:00"
   }
  },
  "news_archive": {
@@ -5362,6 +5370,24 @@
    "source_fa": "ناسا",
    "date": "2026-10-29T18:00:35+00:00",
    "ts": "2026-10-29T19:48:23.285843+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/": {
+   "title": "Spacewalkers Install Roll-Out Solar Array for Power Generation",
+   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk concluded their spacewalkNASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk concluded their spacewalk outside the International Space Station at 3:08 p.m. EDT. outside the International Space Station at XX:XX p.m. EDT.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-29T19:17:00+00:00",
+   "ts": "2026-10-29T21:42:57.999996+00:00"
+  },
+  "https://science.nasa.gov/blogs/tracers/2026/10/29/nasas-tracers-first-results-offers-peek-into-violent-magnetic-process/": {
+   "title": "NASA’s TRACERS First Results Offers Peek into Violent Magnetic Process",
+   "summary": "NASA’s TRACERS (Tandem Reconnection and Cusp Electrodynamics Reconnaissance Satellites) mission has gathered its first clues to how space weather affects Earth’s magnetic field. In a new paper, researchers break down how these interactions work after analyzing initial observations from the first year of the mission. The two TRACERS spacecraft launched last year to explore how",
+   "link": "https://science.nasa.gov/blogs/tracers/2026/10/29/nasas-tracers-first-results-offers-peek-into-violent-magnetic-process/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-29T18:15:07+00:00",
+   "ts": "2026-10-29T21:42:57.999996+00:00"
   }
  },
  "news_title_fp": {
@@ -5590,6 +5616,14 @@
    "en": "2026-10-29"
   },
   "b7e90d3de0b9500e": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "e404d9830ed4de4b": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "9360567667f60c12": {
    "fa": "2026-10-29",
    "en": "2026-10-29"
   }
@@ -5822,6 +5856,14 @@
   [
    "b7e90d3de0b9500e",
    "nasa names troy asher armstrong flight research center director"
+  ],
+  [
+   "e404d9830ed4de4b",
+   "spacewalkers install roll out solar array for power generation"
+  ],
+  [
+   "9360567667f60c12",
+   "nasa s tracers first results offers peek into violent magnetic process"
   ]
  ],
  "combo_seen": {
