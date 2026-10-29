@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T14:31:17.082Z",
+ "generated_utc": "2026-10-29T15:15:56.491Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -960,6 +960,30 @@
  ],
  "news": [
   {
+   "slug": "nasa-15swadp",
+   "title": "NASA’s Hubble Marks Way for Roman Space Telescope",
+   "title_fa": null,
+   "summary": "A sweeping barred galaxy takes center stage in this Oct. 22, 2026, image, but the gravitational lensing at bottom right is the real target. This observation is one of many gravitational lensing images taken by NASA’s Hubble Space Telescope in preparation for science with the new Nancy Grace Roman Space Telescope. Astronomers will use these […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/55606049603-e8822462fe-o.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-29T14:49:27.000Z"
+  },
+  {
+   "slug": "science-1226k28",
+   "title": "Ghostly Cat’s Head Nebula Lurks Within Sight of NASA’s Hubble, Webb",
+   "title_fa": null,
+   "summary": "Like a spectral form rising out of a cold mist, NASA’s Hubble and James Webb Space Telescopes have captured a hauntingly dynamic star-forming scene. It lies within the vast Carina Nebula, a diffuse star-forming region located about 7,500 light-years away from Earth. The small, select area both telescopes observed is nicknamed the Cat’s Head Nebula […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/10/STScI-01M4BZ6G5147CKYXY9C9SY3D9F.jpg?w=1043&h=1536&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/missions/hubble/ghostly-cats-head-nebula-lurks-within-sight-of-nasas-hubble-webb/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-29T14:01:01.000Z"
+  },
+  {
    "slug": "esawebb-zfoa7t",
    "title": "Photo Release: Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
    "title_fa": null,
@@ -1092,18 +1116,6 @@
    "date_utc": "2026-10-28T16:25:29.000Z"
   },
   {
-   "slug": "nasa-7v98as",
-   "title": "Webb Sees Turbulent Star Nursery",
-   "title_fa": null,
-   "summary": "In this Webb image released on Oct. 22, 2026, we see a turbulent cauldron of star formation filled with dense clumps of gas. This region is named N159 and is located 161,000 light-years away in the Large Magellanic Cloud, one of the satellite galaxies orbiting the Milky Way galaxy. This region has a lower metallicity […]",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/55604475252-31d25bf2e0-o.jpg?w=2048",
-   "link": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-28T15:33:10.000Z"
-  },
-  {
    "slug": "science-lin0jv",
    "title": "NASA’s Lucy Reaches Trojan Asteroid Region 5 Years After Launch",
    "title_fa": null,
@@ -1114,18 +1126,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-28T14:11:21.000Z"
-  },
-  {
-   "slug": "science-xz9ke7",
-   "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
-   "title_fa": null,
-   "summary": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campaign, Curiosity has returned to a spot just a few meters away from the “Chiu Chiu” block to conduct our next drill campaign. “Chiu Chiu” itself wasn’t a good candidate for […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05048_mhli_5048MH0009170001804540R00_DXXX.jpg?w=1584&h=1184&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-28T05:39:46.000Z"
   },
   {
    "slug": "nasa-1pfyprr",
