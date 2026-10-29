@@ -2870,37 +2870,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-27T16:50:33.381399+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 9,
-    "next_window": "2026-10-28T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-27T16:50:42.527673+00:00"
-  },
-  {
    "started_utc": "2026-10-27T16:53:58.170664+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4449,6 +4418,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-29T16:59:28.689843+00:00"
+  },
+  {
+   "started_utc": "2026-10-29T17:07:12.752905+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-10-30T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/missions/hubble/ghostly-cats-head-nebula-lurks-within-sight-of-nasas-hubble-webb/",
+     "https://esawebb.org/news/weic2622/"
+    ],
+    "en": [
+     "https://science.nasa.gov/missions/hubble/ghostly-cats-head-nebula-lurks-within-sight-of-nasas-hubble-webb/",
+     "https://esawebb.org/news/weic2622/"
+    ],
+    "mode": "fresh (4 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-29T17:07:34.119534+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4720,6 +4726,14 @@
   "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/": {
    "fa": "2026-10-29T16:59:20.148323+00:00",
    "en": "2026-10-29T16:59:20.148323+00:00"
+  },
+  "https://science.nasa.gov/missions/hubble/ghostly-cats-head-nebula-lurks-within-sight-of-nasas-hubble-webb/": {
+   "fa": "2026-10-29T17:07:21.517242+00:00",
+   "en": "2026-10-29T17:07:21.517242+00:00"
+  },
+  "https://esawebb.org/news/weic2622/": {
+   "fa": "2026-10-29T17:07:21.517242+00:00",
+   "en": "2026-10-29T17:07:21.517242+00:00"
   }
  },
  "news_archive": {
@@ -5307,6 +5321,24 @@
    "source_fa": "ناسا",
    "date": "2026-10-29T14:49:27+00:00",
    "ts": "2026-10-29T16:59:20.148323+00:00"
+  },
+  "https://science.nasa.gov/missions/hubble/ghostly-cats-head-nebula-lurks-within-sight-of-nasas-hubble-webb/": {
+   "title": "Ghostly Cat’s Head Nebula Lurks Within Sight of NASA’s Hubble, Webb",
+   "summary": "Like a spectral form rising out of a cold mist, NASA’s Hubble and James Webb Space Telescopes have captured a hauntingly dynamic star-forming scene. It lies within the vast Carina Nebula, a diffuse star-forming region located about 7,500 light-years away from Earth. The small, select area both telescopes observed is nicknamed the Cat’s Head Nebula",
+   "link": "https://science.nasa.gov/missions/hubble/ghostly-cats-head-nebula-lurks-within-sight-of-nasas-hubble-webb/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-29T14:01:01+00:00",
+   "ts": "2026-10-29T17:07:21.517242+00:00"
+  },
+  "https://esawebb.org/news/weic2622/": {
+   "title": "Photo Release: Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
+   "summary": "The NASA/ESA Hubble and the NASA/ESA/CSA James Webb Space Telescopes recently stared at an eerie star-forming scene within the Carina Nebula, a massive gas and dust cloud located approximately 7,500 light-years away from Earth. The two telescopes offer complementary views of the shadowy form, nicknamed the Cat’s Head Nebula, which reflects the “magical” process of star formation. Hubble’s visible-light view shows th…",
+   "link": "https://esawebb.org/news/weic2622/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-10-29T14:00:00+00:00",
+   "ts": "2026-10-29T17:07:21.517242+00:00"
   }
  },
  "news_title_fp": {
@@ -5519,6 +5551,14 @@
    "en": "2026-10-29"
   },
   "7896103cddd12bd7": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "49bd6ae339d7fa8e": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "cdf02918a22d3784": {
    "fa": "2026-10-29",
    "en": "2026-10-29"
   }
@@ -5735,6 +5775,14 @@
   [
    "7896103cddd12bd7",
    "nasa s hubble marks way for roman space telescope"
+  ],
+  [
+   "49bd6ae339d7fa8e",
+   "ghostly cat s head nebula lurks within sight of nasa s hubble webb"
+  ],
+  [
+   "cdf02918a22d3784",
+   "photo release ghostly cat s head nebula lurks within sight of hubble and webb"
   ]
  ],
  "combo_seen": {
