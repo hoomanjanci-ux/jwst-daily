@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T19:48:33.174Z",
+ "generated_utc": "2026-10-29T21:11:19.103Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -960,6 +960,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-agd0f4",
+   "title": "Spacewalkers Install Roll-Out Solar Array for Power Generation",
+   "title_fa": null,
+   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk concluded their spacewalkNASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk concluded their spacewalk outside the International Space Station at 3:08 p.m. EDT. outside the International Space Station at XX:XX p.m. EDT.",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/blog-useva100-102926e.jpg?w=2048",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-29T19:17:00.000Z"
+  },
+  {
    "slug": "nasa-1cbw4dk",
    "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
    "title_fa": null,
@@ -982,18 +994,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-29T18:15:07.000Z"
-  },
-  {
-   "slug": "science-y5nfni",
-   "title": "NASA’s TSIS-2 Mission Aces Vacuum, Vibration Testing",
-   "title_fa": null,
-   "summary": "The bright white lights reflect off the metallic hardware of a satellite poised for inspection. Engineers outfitted with bunny suits traverse the clean room, past machinery and room-sized test chambers. In the middle of the clean room is the spacecraft for NASA’s upcoming sunlight-measuring mission, TSIS-2 (Total and Spectral Solar Irradiance Sensor-2). This fall, the […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/blogs/2026/TSIS-2_Install_GA.jpg?w=1536&h=2048&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/tsis-2/2026/10/29/nasas-tsis-2-mission-aces-vacuum-vibration-testing/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T18:01:23.000Z"
   },
   {
    "slug": "nasa-agnvhj",
