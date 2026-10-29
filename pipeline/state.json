@@ -2870,41 +2870,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-27T21:28:04.492803+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 9,
-    "next_window": "2026-10-28T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/"
-    ],
-    "en": [
-     "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/"
-    ],
-    "mode": "fresh (1 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-27T21:28:23.465794+00:00"
-  },
-  {
    "started_utc": "2026-10-27T21:30:05.248850+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4463,6 +4428,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-29T21:53:01.889449+00:00"
+  },
+  {
+   "started_utc": "2026-10-29T22:03:28.845279+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-10-30T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jared-spiers/",
+     "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/"
+    ],
+    "en": [
+     "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jared-spiers/",
+     "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-29T22:03:46.441670+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4766,6 +4768,14 @@
   "https://science.nasa.gov/blogs/voyager/2026/10/29/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/": {
    "fa": "2026-10-29T21:52:49.923213+00:00",
    "en": "2026-10-29T21:52:49.923213+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jared-spiers/": {
+   "fa": "2026-10-29T22:03:37.121668+00:00",
+   "en": "2026-10-29T22:03:37.121668+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/": {
+   "fa": "2026-10-29T22:03:37.121668+00:00",
+   "en": "2026-10-29T22:03:37.121668+00:00"
   }
  },
  "news_archive": {
@@ -5425,6 +5435,24 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-29T17:30:08+00:00",
    "ts": "2026-10-29T21:52:49.923213+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jared-spiers/": {
+   "title": "Contractor to Civil Servant: NASA Welcomes Jared Spiers",
+   "summary": "Jared Spiers had an interest in contributing to NASA’s mission long before becoming a civil servant for the agency. Growing up close to NASA’s Stennis Space Center near Bay St. Louis, Mississippi, and hearing about his father’s work there, he gained a firsthand connection to the nation’s space program. Before graduating high school, he knew",
+   "link": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jared-spiers/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-29T13:27:34+00:00",
+   "ts": "2026-10-29T22:03:37.121668+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/": {
+   "title": "Astronauts Begin Spacewalk to Install Roll-Out Solar Arrays",
+   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk began a spacewalk at 7:57 a.m. EDT outside the International Space Station airlock to install and deploy an International Space Station Roll-Out Solar Array on the 2A electrical power channel.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-29T12:02:14+00:00",
+   "ts": "2026-10-29T22:03:37.121668+00:00"
   }
  },
  "news_title_fp": {
@@ -5669,6 +5697,14 @@
    "en": "2026-10-29"
   },
   "519c712b0533bdfd": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "21674955915ecd65": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "ab01e09143827328": {
    "fa": "2026-10-29",
    "en": "2026-10-29"
   }
@@ -5917,6 +5953,14 @@
   [
    "519c712b0533bdfd",
    "nasa s voyager 1 conserves power resolves brief communications pause"
+  ],
+  [
+   "21674955915ecd65",
+   "contractor to civil servant nasa welcomes jared spiers"
+  ],
+  [
+   "ab01e09143827328",
+   "astronauts begin spacewalk to install roll out solar arrays"
   ]
  ],
  "combo_seen": {
