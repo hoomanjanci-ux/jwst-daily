@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T17:07:38.410Z",
+ "generated_utc": "2026-10-29T19:48:33.174Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -960,6 +960,66 @@
  ],
  "news": [
   {
+   "slug": "nasa-1cbw4dk",
+   "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
+   "title_fa": null,
+   "summary": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dated its minerals did they realize the nearly 2-pound (800-gram) rock was a piece of Mars that formed more than 4.1 billion years ago, making it one […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg?w=2048",
+   "link": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-29T18:18:09.000Z"
+  },
+  {
+   "slug": "science-alyf1o",
+   "title": "NASA’s TRACERS First Results Offers Peek into Violent Magnetic Process",
+   "title_fa": null,
+   "summary": "NASA’s TRACERS (Tandem Reconnection and Cusp Electrodynamics Reconnaissance Satellites) mission has gathered its first clues to how space weather affects Earth’s magnetic field. In a new paper, researchers break down how these interactions work after analyzing initial observations from the first year of the mission. The two TRACERS spacecraft launched last year to explore how […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/tracer/TRACERS_Vantor%20Image.jpg?w=1536&h=1536&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/tracers/2026/10/29/nasas-tracers-first-results-offers-peek-into-violent-magnetic-process/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-29T18:15:07.000Z"
+  },
+  {
+   "slug": "science-y5nfni",
+   "title": "NASA’s TSIS-2 Mission Aces Vacuum, Vibration Testing",
+   "title_fa": null,
+   "summary": "The bright white lights reflect off the metallic hardware of a satellite poised for inspection. Engineers outfitted with bunny suits traverse the clean room, past machinery and room-sized test chambers. In the middle of the clean room is the spacecraft for NASA’s upcoming sunlight-measuring mission, TSIS-2 (Total and Spectral Solar Irradiance Sensor-2). This fall, the […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/blogs/2026/TSIS-2_Install_GA.jpg?w=1536&h=2048&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/tsis-2/2026/10/29/nasas-tsis-2-mission-aces-vacuum-vibration-testing/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-29T18:01:23.000Z"
+  },
+  {
+   "slug": "nasa-agnvhj",
+   "title": "NASA Names Troy Asher Armstrong Flight Research Center Director",
+   "title_fa": null,
+   "summary": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test pilot and aerospace engineer with decades of experience in flight research and operations, has served as the center’s acting director since March. “Troy has spent his career pushing the boundaries of flight, […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/troyasher.jpg?w=1638",
+   "link": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-29T18:00:35.000Z"
+  },
+  {
+   "slug": "science-a722of",
+   "title": "NASA’s Voyager 1 Conserves Power, Resolves Brief Communications Pause",
+   "title_fa": null,
+   "summary": "NASA’s Voyager team is celebrating two recent developments with the Voyager 1 spacecraft: In September, they successfully completed a months-long effort to stretch the spacecraft’s diminishing power supply. Then, on Oct. 20, an unexpected loss of communication with the spacecraft resolved itself after 48 hours, before the team sent commands to the spacecraft to troubleshoot […]",
+   "summary_fa": null,
+   "image": "https://science.nasa.gov/wp-content/uploads/2024/04/pia21737.jpg?w=2048",
+   "link": "https://science.nasa.gov/blogs/voyager/2026/10/29/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-29T17:30:08.000Z"
+  },
+  {
    "slug": "nasa-11yeyye",
    "title": "Envía tu nombre a Titán a bordo de la misión Dragonfly de la NASA",
    "title_fa": null,
@@ -1044,6 +1104,30 @@
    "date_utc": "2026-10-29T13:27:34.000Z"
   },
   {
+   "slug": "nasa-7ly3qb",
+   "title": "Astronauts Begin Spacewalk to Install Roll-Out Solar Arrays",
+   "title_fa": null,
+   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk began a spacewalk at 7:57 a.m. EDT outside the International Space Station airlock to install and deploy an International Space Station Roll-Out Solar Array on the 2A electrical power channel.",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926c-1.jpg?w=1100",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-29T12:02:14.000Z"
+  },
+  {
+   "slug": "nasa-1hql7wr",
+   "title": "Astronauts Suit Up to Prepare for Power Upgrade Spacewalk",
+   "title_fa": null,
+   "summary": "NASA is streaming live coverage as two astronauts prepare for a spacewalk outside the International Space Station.",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926b-1.jpg?w=1100",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-29T10:32:26.000Z"
+  },
+  {
    "slug": "science-w8cwe1",
    "title": "APOD: 29 October 2026 – The Horns of Venus",
    "title_fa": null,
@@ -1056,28 +1140,40 @@
    "date_utc": "2026-10-29T04:05:00.000Z"
   },
   {
-   "slug": "nasa-59rgmb",
-   "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
+   "slug": "nasa-1m2xth9",
+   "title": "NASA Celebrates a Year of Progress Since First X-59 Flight",
    "title_fa": null,
-   "summary": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California. The emeritus astronaut and retired U.S. Navy captain begins his new role at NASA’s center of excellence for robotics and deep space exploration and at Caltech, which manages JPL for NASA, on […]",
+   "summary": "One year ago, NASA’s Quesst mission made history with the first flight of the X-59 quiet supersonic research aircraft. Since then, the X-59 has completed 40 additional flights, marking a year of steady progress for the program. While its first flight on Oct. 28, 2025, focused on low, slow flights to conduct systems checks, the X-59 has since reached a maximum altitude of more than 56,000 feet and speeds up to Mach 1.",
    "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/wiseman-portrait-crop-for-portal.jpg?w=2048",
-   "link": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-29T02:49:59.000Z"
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2026-10-28-ff-anniv-final.gif?w=1280",
+   "link": "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-28T19:24:28.000Z"
   },
   {
-   "slug": "nasa-1u93j4g",
-   "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
+   "slug": "nasa-tz91zu",
+   "title": "Astronauts Are Go For Thursday’s Power Upgrade Spacewalk",
    "title_fa": null,
-   "summary": "The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peaceful, transparent, and responsible exploration of space. “Vietnam is joining at an important point in the development of its own space program,” said NASA Deputy Administrator Matt Anderson in recorded remarks […]",
+   "summary": "Mission managers have given the go for Thursday’s spacewalk to install a new roll-out solar array on the International Space Station’s port-side truss structure.",
    "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/artemis-accords-vietnam-78-102826.jpg?w=2048",
-   "link": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-28T21:50:01.000Z"
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926a.jpg",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/28/astronauts-are-go-for-thursdays-power-upgrade-spacewalk/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-28T16:30:27.000Z"
+  },
+  {
+   "slug": "science-lin0jv",
+   "title": "NASA’s Lucy Reaches Trojan Asteroid Region 5 Years After Launch",
+   "title_fa": null,
+   "summary": "Having traveled more than 2.2 billion miles since it launched on Oct. 16, 2021, NASA’s Lucy is the first spacecraft to enter a region of primitive solar-system bodies known as the Jupiter Trojan asteroids.",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a020000/a020300/a020366/Lucy_SP_update_h264_1080-00495_print.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "link": "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-10-28T14:11:21.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
