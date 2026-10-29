@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T15:15:56.491Z",
+ "generated_utc": "2026-10-29T16:50:07.141Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -960,6 +960,42 @@
  ],
  "news": [
   {
+   "slug": "nasa-11yeyye",
+   "title": "Envía tu nombre a Titán a bordo de la misión Dragonfly de la NASA",
+   "title_fa": null,
+   "summary": "Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de Saturno, ¡pero tu nombre sí puede hacerlo! La NASA invita al público a enviar su nombre a bordo de la aeronave de ala giratoria Dragonfly de la agencia […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/27-10097-01j-hero-image-16-9-spanish-v01.jpg?w=2048",
+   "link": "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-29T15:21:23.000Z"
+  },
+  {
+   "slug": "nasa-1a3t66g",
+   "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
+   "title_fa": null,
+   "summary": "You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard the agency’s Dragonfly rotorcraft and be part of the first science mission to fly and explore the surface of another world. To have your […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/27-10097-01a-hero-image-16-9-v02.jpg?w=2048",
+   "link": "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-29T15:10:18.000Z"
+  },
+  {
+   "slug": "nasa-1h18fq7",
+   "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
+   "title_fa": null,
+   "summary": "When companies began approaching NASA’s Langley Research Center, asking to be included in the In-Space Servicing, Assembly, and Manufacturing (ISAM) State of Play for access to competitive intelligence, the team knew they had crossed an inflection point. “We’ve had some unnamed companies ask if we have any proprietary information,” says Dale Arney, senior team lead […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/03/isam-state-of-play.jpg?w=872",
+   "link": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-29T15:06:40.000Z"
+  },
+  {
    "slug": "nasa-15swadp",
    "title": "NASA’s Hubble Marks Way for Roman Space Telescope",
    "title_fa": null,
@@ -1080,18 +1116,6 @@
    "date_utc": "2026-10-28T19:24:28.000Z"
   },
   {
-   "slug": "nasa-1i1yvq5",
-   "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
-   "title_fa": null,
-   "summary": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Technicians lifted the 212-foot rocket stage from the facility’s High Bay 2 using a one-of-a kind lifting beam designed […]",
-   "summary_fa": null,
-   "image": "https://images-assets.nasa.gov/image/KSC-20261022-PH-SNC01_0001/KSC-20261022-PH-SNC01_0001~large.jpg?w=1920&h=1371&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-28T18:59:44.000Z"
-  },
-  {
    "slug": "nasa-tz91zu",
    "title": "Astronauts Are Go For Thursday’s Power Upgrade Spacewalk",
    "title_fa": null,
@@ -1102,18 +1126,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-28T16:30:27.000Z"
-  },
-  {
-   "slug": "science-14wbqe4",
-   "title": "NASA Selects 19 New Citizen Science Proposals in 2026",
-   "title_fa": null,
-   "summary": "So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible and intrinsically collaborative. The Backyard Worlds: Planet 9 project announced that their project volunteers have now discovered most of the known brown dwarfs, celestial objects that are similar to planets. The Zooniverse platform, […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/NASA_citizen_science_projects_2026.jpg",
-   "link": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-28T16:25:29.000Z"
   },
   {
    "slug": "science-lin0jv",

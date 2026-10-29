@@ -2870,37 +2870,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-27T14:31:00.318734+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-10-27/18",
-    "published": [
-     "jw01189013001_0310b_00001_nrcalong_rate.fits"
-    ],
-    "sender": "cloudflare",
-    "prepared": 2,
-    "enqueued": 2,
-    "slot_status": "sent",
-    "ready_pairs": 9,
-    "next_window": "2026-10-28T06:00:00+03:30"
-   },
-   "published": [
-    "jw01189013001_0310b_00001_nrcalong_rate.fits"
-   ],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-27T14:33:56.921888+00:00"
-  },
-  {
    "started_utc": "2026-10-27T14:35:03.002287+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -4432,6 +4401,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-29T15:15:54.925314+00:00"
+  },
+  {
+   "started_utc": "2026-10-29T16:49:43.333199+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-10-30T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
+     "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/"
+    ],
+    "en": [
+     "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
+     "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/"
+    ],
+    "mode": "fresh (7 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-29T16:50:01.820611+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4687,6 +4693,14 @@
   "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/": {
    "fa": "2026-10-29T13:38:37.718359+00:00",
    "en": "2026-10-29T13:38:37.718359+00:00"
+  },
+  "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/": {
+   "fa": "2026-10-29T16:49:50.878850+00:00",
+   "en": "2026-10-29T16:49:50.878850+00:00"
+  },
+  "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/": {
+   "fa": "2026-10-29T16:49:50.878850+00:00",
+   "en": "2026-10-29T16:49:50.878850+00:00"
   }
  },
  "news_archive": {
@@ -5238,6 +5252,24 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-29T10:32:26+00:00",
    "ts": "2026-10-29T13:38:37.718359+00:00"
+  },
+  "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/": {
+   "title": "Envía tu nombre a Titán a bordo de la misión Dragonfly de la NASA",
+   "summary": "Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de Saturno, ¡pero tu nombre sí puede hacerlo! La NASA invita al público a enviar su nombre a bordo de la aeronave de ala giratoria Dragonfly de la agencia",
+   "link": "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-29T15:21:23+00:00",
+   "ts": "2026-10-29T16:49:50.878850+00:00"
+  },
+  "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/": {
+   "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
+   "summary": "You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard the agency’s Dragonfly rotorcraft and be part of the first science mission to fly and explore the surface of another world. To have your",
+   "link": "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-29T15:10:18+00:00",
+   "ts": "2026-10-29T16:49:50.878850+00:00"
   }
  },
  "news_title_fp": {
@@ -5434,6 +5466,14 @@
    "en": "2026-10-29"
   },
   "79b4cb1f180d6332": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "42c762b572157cfb": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "018a9d10e0ba671a": {
    "fa": "2026-10-29",
    "en": "2026-10-29"
   }
@@ -5634,6 +5674,14 @@
   [
    "79b4cb1f180d6332",
    "astronauts suit up to prepare for power upgrade spacewalk"
+  ],
+  [
+   "42c762b572157cfb",
+   "env a tu nombre a tit n a bordo de la misi n dragonfly de la nasa"
+  ],
+  [
+   "018a9d10e0ba671a",
+   "send your name to titan aboard nasa s dragonfly mission"
   ]
  ],
  "combo_seen": {
