@@ -2980,37 +2980,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-27T06:25:53.077164+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-10-27/09",
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 7,
-    "next_window": "2026-10-27T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-27T06:25:59.432716+00:00"
-  },
-  {
    "started_utc": "2026-10-27T06:35:50.644174+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -4538,6 +4507,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-29T05:53:52.759794+00:00"
+  },
+  {
+   "started_utc": "2026-10-29T06:22:49.400570+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-10-29/09",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 10,
+    "next_window": "2026-10-29T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
+     "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
+     "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-29T06:23:08.261879+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4781,6 +4787,14 @@
   "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/": {
    "fa": "2026-10-28T23:04:51.527397+00:00",
    "en": "2026-10-28T23:04:51.527397+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/": {
+   "fa": "2026-10-29T06:22:57.465375+00:00",
+   "en": "2026-10-29T06:22:57.465375+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/": {
+   "fa": "2026-10-29T06:22:57.465375+00:00",
+   "en": "2026-10-29T06:22:57.465375+00:00"
   }
  },
  "news_archive": {
@@ -5305,6 +5319,24 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-28T19:24:28+00:00",
    "ts": "2026-10-28T23:04:51.527397+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/": {
+   "title": "APOD: 29 October 2026 – The Horns of Venus",
+   "summary": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Horns",
+   "link": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-29T04:05:00+00:00",
+   "ts": "2026-10-29T06:22:57.465375+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/": {
+   "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
+   "summary": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California. The emeritus astronaut and retired U.S. Navy captain begins his new role at NASA’s center of excellence for robotics and deep space exploration and at Caltech, which manages JPL for NASA, on",
+   "link": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-29T02:49:59+00:00",
+   "ts": "2026-10-29T06:22:57.465375+00:00"
   }
  },
  "news_title_fp": {
@@ -5491,6 +5523,14 @@
   "bed8362adf6e3394": {
    "fa": "2026-10-28",
    "en": "2026-10-28"
+  },
+  "a9b038ae3749befd": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "3a3f626684a9f417": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
   }
  },
  "news_title_recent": [
@@ -5677,6 +5717,14 @@
   [
    "bed8362adf6e3394",
    "nasa celebrates a year of progress since first x 59 flight"
+  ],
+  [
+   "a9b038ae3749befd",
+   "apod 29 october 2026 the horns of venus"
+  ],
+  [
+   "3a3f626684a9f417",
+   "caltech names artemis ii commander reid wiseman as nasa jpl deputy"
   ]
  ],
  "combo_seen": {
