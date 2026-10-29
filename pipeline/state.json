@@ -2925,37 +2925,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-27T11:05:57.090703+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 8,
-    "next_window": "2026-10-27T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-27T11:06:04.536062+00:00"
-  },
-  {
    "started_utc": "2026-10-27T13:23:19.167161+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4489,6 +4458,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-29T10:28:27.160382+00:00"
+  },
+  {
+   "started_utc": "2026-10-29T13:38:29.389463+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-29T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-29T13:38:43.043886+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4740,6 +4744,10 @@
   "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/": {
    "fa": "2026-10-29T06:22:57.465375+00:00",
    "en": "2026-10-29T06:22:57.465375+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/": {
+   "fa": "2026-10-29T13:38:37.718359+00:00",
+   "en": "2026-10-29T13:38:37.718359+00:00"
   }
  },
  "news_archive": {
@@ -5282,6 +5290,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-29T02:49:59+00:00",
    "ts": "2026-10-29T06:22:57.465375+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/": {
+   "title": "Astronauts Suit Up to Prepare for Power Upgrade Spacewalk",
+   "summary": "NASA is streaming live coverage as two astronauts prepare for a spacewalk outside the International Space Station.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-29T10:32:26+00:00",
+   "ts": "2026-10-29T13:38:37.718359+00:00"
   }
  },
  "news_title_fp": {
@@ -5474,6 +5491,10 @@
    "en": "2026-10-29"
   },
   "3a3f626684a9f417": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "79b4cb1f180d6332": {
    "fa": "2026-10-29",
    "en": "2026-10-29"
   }
@@ -5670,6 +5691,10 @@
   [
    "3a3f626684a9f417",
    "caltech names artemis ii commander reid wiseman as nasa jpl deputy"
+  ],
+  [
+   "79b4cb1f180d6332",
+   "astronauts suit up to prepare for power upgrade spacewalk"
   ]
  ],
  "combo_seen": {
