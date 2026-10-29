@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T06:23:12.040Z",
+ "generated_utc": "2026-10-29T08:31:16.637Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw09637203001-03101-00003-nrcblong-i2d",
+   "product": "jw09637203001_03101_00003_nrcblong_i2d.fits",
+   "published_utc": "2026-10-29T08:30:40.014Z",
+   "target": null,
+   "instrument": "NIRCAM",
+   "detector": "NRCBLONG",
+   "filter": "F356W",
+   "obs_date": "2026-08-23",
+   "proposal": "9637",
+   "score": 38.59,
+   "quality_score": 75.95,
+   "image": "/img/jw09637203001-03101-00003-nrcblong-i2d.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «JWST field»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 2076 × 2068 پیکسل دارد. در نمونهٔ منظم 464,249 پیکسل معتبر، حدود 0.4534 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F356W نزدیک طول موج 3.56 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 37.767 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F356W · تاریخ رصد: 2026-08-23\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/9637\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw12522082001-03105-00005-nrca2-rate",
    "product": "jw12522082001_03105_00005_nrca2_rate.fits",
@@ -361,23 +378,6 @@
    "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «GSPC P330-E»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 2048 × 2048 پیکسل دارد. در نمونهٔ منظم 456,693 پیکسل معتبر، حدود 0.2045 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F460M نزدیک طول موج 4.6 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F460M · تاریخ رصد: 2024-08-18\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/6606\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
    "text_en": null,
    "is_mock": false
-  },
-  {
-   "slug": "jw09637203001-03101-00003-nrcblong-i2d",
-   "product": "jw09637203001_03101_00003_nrcblong_i2d.fits",
-   "published_utc": "2026-10-27T06:37:34.378066+00:00",
-   "target": null,
-   "instrument": "NIRCAM",
-   "detector": "NRCBLONG",
-   "filter": "F356W",
-   "obs_date": "2026-08-23",
-   "proposal": "9637",
-   "score": 38.59,
-   "quality_score": 75.95,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
   },
   {
    "slug": "jw09637203001-03103-00001-nrca2-i2d",
@@ -996,18 +996,6 @@
    "date_utc": "2026-10-28T21:50:01.000Z"
   },
   {
-   "slug": "nasa-1m2xth9",
-   "title": "NASA Celebrates a Year of Progress Since First X-59 Flight",
-   "title_fa": null,
-   "summary": "One year ago, NASA’s Quesst mission made history with the first flight of the X-59 quiet supersonic research aircraft. Since then, the X-59 has completed 40 additional flights, marking a year of steady progress for the program. While its first flight on Oct. 28, 2025, focused on low, slow flights to conduct systems checks, the X-59 has since reached a maximum altitude of more than 56,000 feet and speeds up to Mach 1.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2026-10-28-ff-anniv-final.gif?w=1280",
-   "link": "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-28T19:24:28.000Z"
-  },
-  {
    "slug": "nasa-1i1yvq5",
    "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
    "title_fa": null,
@@ -1018,18 +1006,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-28T18:59:44.000Z"
-  },
-  {
-   "slug": "nasa-tz91zu",
-   "title": "Astronauts Are Go For Thursday’s Power Upgrade Spacewalk",
-   "title_fa": null,
-   "summary": "Mission managers have given the go for Thursday’s spacewalk to install a new roll-out solar array on the International Space Station’s port-side truss structure.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926a.jpg",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/28/astronauts-are-go-for-thursdays-power-upgrade-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-28T16:30:27.000Z"
   },
   {
    "slug": "science-14wbqe4",
@@ -1056,18 +1032,6 @@
    "date_utc": "2026-10-28T15:33:10.000Z"
   },
   {
-   "slug": "science-lin0jv",
-   "title": "NASA’s Lucy Reaches Trojan Asteroid Region 5 Years After Launch",
-   "title_fa": null,
-   "summary": "Having traveled more than 2.2 billion miles since it launched on Oct. 16, 2021, NASA’s Lucy is the first spacecraft to enter a region of primitive solar-system bodies known as the Jupiter Trojan asteroids.",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a020000/a020300/a020366/Lucy_SP_update_h264_1080-00495_print.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "link": "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-28T14:11:21.000Z"
-  },
-  {
    "slug": "science-xz9ke7",
    "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
    "title_fa": null,
@@ -1090,78 +1054,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-28T04:05:00.000Z"
-  },
-  {
-   "slug": "nasa-1pfyprr",
-   "title": "Spacewalk Preps, Robotics Jobs, and Science Duties Fill Tuesday Schedule",
-   "title_fa": null,
-   "summary": "Spacewalking tools and a pair of robotics jobs topped Tuesday’s schedule aboard the International Space Station. The Expedition 75 crew members also kept up their scientific duties configuring botany research hardware and setting up advanced Earth observation gear.",
-   "summary_fa": null,
-   "image": "https://images-assets.nasa.gov/image/iss075e0250247/iss075e0250247~large.jpg?w=1440&h=1920&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/27/spacewalk-preps-robotics-jobs-and-science-duties-fill-tuesday-schedule/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-27T19:14:28.000Z"
-  },
-  {
-   "slug": "science-1o7z6e1",
-   "title": "NASA’s UVEX Space Telescope Successfully Passes Key Milestone",
-   "title_fa": null,
-   "summary": "Agency officials have confirmed NASA’s UVEX space telescope after completing a technical and programmatic review known as Key Decision Point C.",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/universe/news-images/UVEX%20Artists%20Concept_Oct%202026.jpg?w=622&h=350&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/uvex/2026/10/27/nasas-uvex-space-telescope-successfully-passes-key-milestone/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-27T17:59:30.000Z"
-  },
-  {
-   "slug": "science-1rwoyv1",
-   "title": "Sunshade for NASA’s NEO Surveyor Mission Ready for Its Day in Sun",
-   "title_fa": "آمادگی پای‌سای تلسکوپ NEO Surveyor ناسا برای تابش آفتاب",
-   "summary": "Development of NASA’s Near-Earth Object (NEO) Surveyor mission continues as the spacecraft’s largest component gets closer to how it will look when it launches. Recently, teams completed work on integrating solar arrays onto the spacecraft’s sunshade, a structure primarily designed to block the Sun’s glare. The sunshade will keep the infrared space telescope cool as […]",
-   "summary_fa": "مأموریت NEO Surveyor ناسا برای بررسی اجسام نزدیک به زمین همچنان در حال توسعه است و بزرگ‌ترین بخش فضاپیما به حالت نهایی پیش از پرتاب نزدیک‌تر می‌شود. اخیراً، تیم‌ها اتصال آرایه‌های خورشیدی به پای‌سای فضاپیما را تکمیل کردند. این سازه عمدتاً برای مسدود کردن نور خورشید طراحی شده و باعث خنک ماندن تلسکوپ فروسرخ در فضا خواهد شد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/neo-surveyor/images/2026/1_PIA26715_bae-sunshade-inspection.jpg?w=2048&h=1366&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/neo-surveyor/2026/10/26/sunshade-for-nasas-neo-surveyor-mission-ready-for-its-day-in-sun/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-26T18:12:24.000Z"
-  },
-  {
-   "slug": "nasa-1l3ubc8",
-   "title": "Week Begins with Robotics Prep for Spacewalk and Advanced Research",
-   "title_fa": "آغاز هفته با آماده‌سازی پیاده‌روی فضایی و پژوهش‌های پیشرفته",
-   "summary": "Expedition 75 began the week gearing up for a spacewalk to upgrade the International Space Station’s power generation system. Research into bioprinted blood vessels and relaxation techniques, as well cargo operations rounded out Monday’s schedule.",
-   "summary_fa": "مأموریت اکسپدیشن ۷۵ هفته را با آماده‌سازی برای پیاده‌روی فضایی جهت ارتقای سیستم تولید برق ایستگاه فضایی بین‌المللی آغاز کرد. پژوهش درباره رگ‌های خونی زیستی‌چاپ‌شده و تکنیک‌های آرام‌سازی، همراه با عملیات بارگیری، برنامه یکشنبه را تکمیل کردند.",
-   "image": "https://images-assets.nasa.gov/image/iss073e0273067/iss073e0273067~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-26T15:48:51.000Z"
-  },
-  {
-   "slug": "science-lkjrv3",
-   "title": "NASA’s Swift Mission Ends Ahead of Re-Entry",
-   "title_fa": "پایان مأموریت تلسکوپ Swift ناسا پیش از بازگشت به زمین",
-   "summary": "NASA’s Swift has concluded operations, leaving behind a legacy of innovation and a treasure trove of science observations.",
-   "summary_fa": "تلسکوپ فضایی Swift ناسا پس از پایان عملیات، آماده بازچهره‌اندازی (Re-entry) به جو زمین است. این مأموریت میراثی از نوآوری و گنجینه‌ای از مشاهدات علمی را در پی دارد.",
-   "image": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/misc--spacecraft-art/Swift_in_space_11.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "link": "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-23T21:58:32.000Z"
-  },
-  {
-   "slug": "nasa-1gwcl25",
-   "title": "NASA Shares Artemis Acceleration Plans for Moon Missions",
-   "title_fa": "ناسا برنامه‌های تسریع مأموریت‌های ماه‌نشین را معرفی کرد",
-   "summary": "In an update Friday, Oct. 23, NASA Administrator Jared Isaacman and other agency leaders provided the agency’s path forward to returning Americans to the lunar surface in 2028. The briefing included details about NASA’s Artemis III mission that will send four astronauts to low Earth orbit next year to test critical systems needed for future […]",
-   "summary_fa": "ناسا مسیر بازگشت فضانوردان آمریکایی به سطح ماه در سال ۲۰۲۸ را مشخص کرد. بر این پایه، مأموریت آرتمیس ۳ پیش‌بینی می‌کند که سال آینده چهار فضانورد به مدار پایین زمین فرستاده شوند تا سامانه‌های حیاتی لازم برای مأموریت‌های آتی آزمایش شوند.",
-   "image": "https://images-assets.nasa.gov/image/KSC-20261023-PH--CSH02--0014/KSC-20261023-PH--CSH02--0014~large.jpg?w=1920&h=944&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-23T20:15:28.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
