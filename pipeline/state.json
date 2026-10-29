@@ -2745,7 +2745,7 @@
   },
   "jw12522082001_03103_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 31.69,
    "analyzed_utc": "2026-10-29T05:32:17.678053+00:00",
    "analysis": "analyses/2026/10/29/jw12522082001_03103_00005_nrcalong_rate.fits.json",
@@ -2765,7 +2765,61 @@
    "combo": "2MASS J18022716+6043356|NIRCAM|F250M",
    "sha256": "5547dd98d072b22b5d06d6f9b793223f16244d23cd2eaea3af223961337f6e3a",
    "bytes": 2134080,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4863,
+      "brightness": 0.3368,
+      "range": 1.0,
+      "roi": 0.3169,
+      "score": 69.53
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 260,
+      "brightest_quadrant_percent": 80.769,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100406,
+      "finite_fraction": 0.980527,
+      "median": -1.9641795754432678,
+      "robust_scatter": 1.802891426807642,
+      "above_5scatter_percent": 0.2589,
+      "p99_above_median_scatter": 2.49,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4863,
+      "brightness": 0.3368,
+      "range": 1.0,
+      "roi": 0.3169,
+      "score": 69.53
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 260,
+      "brightest_quadrant_percent": 80.769,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100406,
+      "finite_fraction": 0.980527,
+      "median": -1.9641795754432678,
+      "robust_scatter": 1.802891426807642,
+      "above_5scatter_percent": 0.2589,
+      "p99_above_median_scatter": 2.49,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-10-29T05:33:08.808113+00:00"
   },
   "jw12522082001_03109_00005_nrca2_rate.fits": {
    "channels": {},
