@@ -2870,32 +2870,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-27T14:35:03.002287+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-10-27/18",
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 9,
-    "next_window": "2026-10-28T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-27T14:35:11.994431+00:00"
-  },
-  {
    "started_utc": "2026-10-27T16:50:33.381399+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4438,6 +4412,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-29T16:50:01.820611+00:00"
+  },
+  {
+   "started_utc": "2026-10-29T16:59:11.112915+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-10-30T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
+     "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/"
+    ],
+    "en": [
+     "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
+     "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/"
+    ],
+    "mode": "fresh (6 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-29T16:59:28.689843+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4701,6 +4712,14 @@
   "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/": {
    "fa": "2026-10-29T16:49:50.878850+00:00",
    "en": "2026-10-29T16:49:50.878850+00:00"
+  },
+  "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/": {
+   "fa": "2026-10-29T16:59:20.148323+00:00",
+   "en": "2026-10-29T16:59:20.148323+00:00"
+  },
+  "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/": {
+   "fa": "2026-10-29T16:59:20.148323+00:00",
+   "en": "2026-10-29T16:59:20.148323+00:00"
   }
  },
  "news_archive": {
@@ -5270,6 +5289,24 @@
    "source_fa": "ناسا",
    "date": "2026-10-29T15:10:18+00:00",
    "ts": "2026-10-29T16:49:50.878850+00:00"
+  },
+  "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/": {
+   "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
+   "summary": "When companies began approaching NASA’s Langley Research Center, asking to be included in the In-Space Servicing, Assembly, and Manufacturing (ISAM) State of Play for access to competitive intelligence, the team knew they had crossed an inflection point. “We’ve had some unnamed companies ask if we have any proprietary information,” says Dale Arney, senior team lead",
+   "link": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-29T15:06:40+00:00",
+   "ts": "2026-10-29T16:59:20.148323+00:00"
+  },
+  "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/": {
+   "title": "NASA’s Hubble Marks Way for Roman Space Telescope",
+   "summary": "A sweeping barred galaxy takes center stage in this Oct. 22, 2026, image, but the gravitational lensing at bottom right is the real target. This observation is one of many gravitational lensing images taken by NASA’s Hubble Space Telescope in preparation for science with the new Nancy Grace Roman Space Telescope. Astronomers will use these",
+   "link": "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-29T14:49:27+00:00",
+   "ts": "2026-10-29T16:59:20.148323+00:00"
   }
  },
  "news_title_fp": {
@@ -5474,6 +5511,14 @@
    "en": "2026-10-29"
   },
   "018a9d10e0ba671a": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "3454138959f7cb3d": {
+   "fa": "2026-10-29",
+   "en": "2026-10-29"
+  },
+  "7896103cddd12bd7": {
    "fa": "2026-10-29",
    "en": "2026-10-29"
   }
@@ -5682,6 +5727,14 @@
   [
    "018a9d10e0ba671a",
    "send your name to titan aboard nasa s dragonfly mission"
+  ],
+  [
+   "3454138959f7cb3d",
+   "nasa s isam state of play the industry standard for space servicing assembly and"
+  ],
+  [
+   "7896103cddd12bd7",
+   "nasa s hubble marks way for roman space telescope"
   ]
  ],
  "combo_seen": {
