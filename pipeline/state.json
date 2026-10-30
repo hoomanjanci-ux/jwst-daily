@@ -2870,37 +2870,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-27T23:39:57.379934+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 9,
-    "next_window": "2026-10-28T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-27T23:40:05.260217+00:00"
-  },
-  {
    "started_utc": "2026-10-27T23:51:34.871662+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4469,6 +4438,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-30T00:18:27.747081+00:00"
+  },
+  {
+   "started_utc": "2026-10-30T01:47:28.875447+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-10-30T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/"
+    ],
+    "en": [
+     "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-30T01:47:42.541355+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4784,6 +4788,10 @@
   "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/": {
    "fa": "2026-10-30T00:14:23.383875+00:00",
    "en": "2026-10-30T00:14:23.383875+00:00"
+  },
+  "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/": {
+   "fa": "2026-10-30T01:47:36.310978+00:00",
+   "en": "2026-10-30T01:47:36.310978+00:00"
   }
  },
  "news_archive": {
@@ -5470,6 +5478,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-29T23:32:35+00:00",
    "ts": "2026-10-30T00:14:23.383875+00:00"
+  },
+  "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/": {
+   "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
+   "summary": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure where a Martian meteorite originated, Teghaza 001 includes clues that link it to highlands in the southern hemisphere of",
+   "link": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-30T00:07:39+00:00",
+   "ts": "2026-10-30T01:47:36.310978+00:00"
   }
  },
  "news_title_fp": {
@@ -5726,6 +5743,10 @@
    "en": "2026-10-29"
   },
   "07a9e2c7e0bacd42": {
+   "fa": "2026-10-30",
+   "en": "2026-10-30"
+  },
+  "444e6d0e47710558": {
    "fa": "2026-10-30",
    "en": "2026-10-30"
   }
@@ -5986,6 +6007,10 @@
   [
    "07a9e2c7e0bacd42",
    "slice of martian meteorite teghaza 001"
+  ],
+  [
+   "444e6d0e47710558",
+   "map showing potential origins of martian meteorite teghaza 001"
   ]
  ],
  "combo_seen": {
