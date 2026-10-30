@@ -3064,32 +3064,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-28T15:09:48.132001+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-10-28/18",
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 9,
-    "next_window": "2026-10-29T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-28T15:09:57.019568+00:00"
-  },
-  {
    "started_utc": "2026-10-28T18:45:23.136841+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4668,6 +4642,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-30T16:17:59.702237+00:00"
+  },
+  {
+   "started_utc": "2026-10-30T18:48:44.920387+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-31T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/30/space-crops-and-advanced-tech-wrap-up-week-following-spacewalk/",
+     "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/10/30/space-crops-and-advanced-tech-wrap-up-week-following-spacewalk/",
+     "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-30T18:49:03.921933+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4999,6 +5010,14 @@
   "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/": {
    "fa": "2026-10-30T16:17:51.342704+00:00",
    "en": "2026-10-30T16:17:51.342704+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/30/space-crops-and-advanced-tech-wrap-up-week-following-spacewalk/": {
+   "fa": "2026-10-30T18:48:53.404159+00:00",
+   "en": "2026-10-30T18:48:53.404159+00:00"
+  },
+  "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/": {
+   "fa": "2026-10-30T18:48:53.404159+00:00",
+   "en": "2026-10-30T18:48:53.404159+00:00"
   }
  },
  "news_archive": {
@@ -5721,6 +5740,24 @@
    "source_fa": "ناسا",
    "date": "2026-10-30T14:51:21+00:00",
    "ts": "2026-10-30T16:17:51.342704+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/10/30/space-crops-and-advanced-tech-wrap-up-week-following-spacewalk/": {
+   "title": "محصولات فضایی و فناوری پیشرفته هفته پس از راهپیمایی فضایی به پایان می رسد",
+   "summary": "تحقیقات محصولات فضایی یک هفته پس از اتمام اولین راهپیمایی از دو راهپیمایی فضایی ارتقاء انرژی در ایستگاه فضایی بین المللی به پایان رسید. اعضای خدمه Expedition 75 برنامه تحقیقاتی خود را با مطالعات واقعیت مجازی و فوق هوش کامل کردند.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/30/space-crops-and-advanced-tech-wrap-up-week-following-spacewalk/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-10-30T17:50:49+00:00",
+   "ts": "2026-10-30T18:48:53.404159+00:00"
+  },
+  "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/": {
+   "title": "تلسکوپ فضایی جیمز وب ناسا از سر گربه وحشتناک عکس می گیرد",
+   "summary": "ساختارهای پیچیده درون سحابی سر گربه در این نمای فروسرخ میانه از تلسکوپ فضایی جیمز وب ناسا که در 29 اکتبر 2026 منتشر شد، روشن شده است. شکل متمایز \"سر گربه\" سحابی احتمالاً در طول زمان توسط تابش شدید ماوراء بنفش ستارگان توده فرابنفش و بادهای تابش نور ماوراء بنفش ساخته شده است. به عنوان این بازخورد ستاره ای",
+   "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-30T15:56:26+00:00",
+   "ts": "2026-10-30T18:48:53.404159+00:00"
   }
  },
  "news_title_fp": {
@@ -5993,6 +6030,14 @@
    "en": "2026-10-30"
   },
   "697b90f00eb40727": {
+   "fa": "2026-10-30",
+   "en": "2026-10-30"
+  },
+  "8e04c41f2a9df943": {
+   "fa": "2026-10-30",
+   "en": "2026-10-30"
+  },
+  "fb0e87c76dc9787f": {
    "fa": "2026-10-30",
    "en": "2026-10-30"
   }
@@ -6269,6 +6314,14 @@
   [
    "697b90f00eb40727",
    "nasa explores potential commercial servicing for hubble telescope"
+  ],
+  [
+   "8e04c41f2a9df943",
+   "space crops and advanced tech wrap up week following spacewalk"
+  ],
+  [
+   "fb0e87c76dc9787f",
+   "nasa s james webb space telescope captures eerie cat s head"
   ]
  ],
  "combo_seen": {
