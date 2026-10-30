@@ -3064,43 +3064,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-28T18:45:23.136841+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 9,
-    "next_window": "2026-10-29T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/blogs/spacestation/2026/10/28/astronauts-are-go-for-thursdays-power-upgrade-spacewalk/",
-     "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/"
-    ],
-    "en": [
-     "https://www.nasa.gov/blogs/spacestation/2026/10/28/astronauts-are-go-for-thursdays-power-upgrade-spacewalk/",
-     "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/"
-    ],
-    "mode": "fresh (4 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-28T18:45:45.248101+00:00"
-  },
-  {
    "started_utc": "2026-10-28T18:56:27.651408+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4679,6 +4642,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-30T18:49:03.921933+00:00"
+  },
+  {
+   "started_utc": "2026-10-30T20:38:21.611090+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-31T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/"
+    ],
+    "en": [
+     "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-30T20:38:38.462711+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -5018,6 +5016,10 @@
   "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/": {
    "fa": "2026-10-30T18:48:53.404159+00:00",
    "en": "2026-10-30T18:48:53.404159+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/": {
+   "fa": "2026-10-30T20:38:31.312054+00:00",
+   "en": "2026-10-30T20:38:31.312054+00:00"
   }
  },
  "news_archive": {
@@ -5758,6 +5760,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-30T15:56:26+00:00",
    "ts": "2026-10-30T18:48:53.404159+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/": {
+   "title": "ناسا رویدادهای کلیدی MAX POWER را برای رسانه‌ها و شرکت‌کنندگان منتشر کرد",
+   "summary": "جدیدترین نمایشگاه هوافضا و نمایش هوایی AmAmerica - MAX POWER - به سرعت در حال نزدیک شدن است و ناسا رویدادهای کلیدی را که از جمعه، 6 نوامبر آغاز می‌شود و تا یکشنبه، 8 نوامبر ادامه دارد، اعلام کرده است که در مرکز فضایی کندی این آژانس در فلوریدا و در نزدیکی آن برگزار می‌شود. از طریق تجربیات متعدد پارک در MAX POWER، ناسا و همکاران خارجی مختلف",
+   "link": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-30T19:31:02+00:00",
+   "ts": "2026-10-30T20:38:31.312054+00:00"
   }
  },
  "news_title_fp": {
@@ -6038,6 +6049,10 @@
    "en": "2026-10-30"
   },
   "fb0e87c76dc9787f": {
+   "fa": "2026-10-30",
+   "en": "2026-10-30"
+  },
+  "9b5716cf6ba76e7a": {
    "fa": "2026-10-30",
    "en": "2026-10-30"
   }
@@ -6322,6 +6337,10 @@
   [
    "fb0e87c76dc9787f",
    "nasa s james webb space telescope captures eerie cat s head"
+  ],
+  [
+   "9b5716cf6ba76e7a",
+   "nasa releases max power key events for media participants"
   ]
  ],
  "combo_seen": {
