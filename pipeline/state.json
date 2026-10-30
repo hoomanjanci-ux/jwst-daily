@@ -3064,36 +3064,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-28T14:31:06.451206+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-10-28/18",
-    "published": [
-     "jw02780018001_03107_00004_nrcalong_rate.fits"
-    ],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 9,
-    "next_window": "2026-10-29T06:00:00+03:30"
-   },
-   "published": [
-    "jw02780018001_03107_00004_nrcalong_rate.fits"
-   ],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-28T14:31:17.002681+00:00"
-  },
-  {
    "started_utc": "2026-10-28T15:09:48.132001+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -4663,6 +4633,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-30T16:02:06.620608+00:00"
+  },
+  {
+   "started_utc": "2026-10-30T16:17:42.356584+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-10-31T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"
+    ],
+    "en": [
+     "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-30T16:17:59.702237+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4990,6 +4995,10 @@
   "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/": {
    "fa": "2026-10-30T13:27:33.410671+00:00",
    "en": "2026-10-30T13:27:33.410671+00:00"
+  },
+  "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/": {
+   "fa": "2026-10-30T16:17:51.342704+00:00",
+   "en": "2026-10-30T16:17:51.342704+00:00"
   }
  },
  "news_archive": {
@@ -5703,6 +5712,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-30T10:00:00+00:00",
    "ts": "2026-10-30T13:27:33.410671+00:00"
+  },
+  "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/": {
+   "title": "ناسا در حال بررسی خدمات تجاری بالقوه برای تلسکوپ هابل است",
+   "summary": "ناسا در 29 اکتبر درخواستی برای اطلاعات برای کسب اطلاعات بیشتر در مورد قابلیت های صنعت برای خدمات در فضا برای پشتیبانی از تلسکوپ فضایی هابل این آژانس صادر کرد.",
+   "link": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-30T14:51:21+00:00",
+   "ts": "2026-10-30T16:17:51.342704+00:00"
   }
  },
  "news_title_fp": {
@@ -5971,6 +5989,10 @@
    "en": "2026-10-30"
   },
   "36d70b3e71fdfe6c": {
+   "fa": "2026-10-30",
+   "en": "2026-10-30"
+  },
+  "697b90f00eb40727": {
    "fa": "2026-10-30",
    "en": "2026-10-30"
   }
@@ -6243,6 +6265,10 @@
   [
    "36d70b3e71fdfe6c",
    "november s night sky notes light day away"
+  ],
+  [
+   "697b90f00eb40727",
+   "nasa explores potential commercial servicing for hubble telescope"
   ]
  ],
  "combo_seen": {
