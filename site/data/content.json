@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-30T15:46:34.141Z",
+ "generated_utc": "2026-10-30T16:02:46.813Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1062,6 +1062,30 @@
  ],
  "news": [
   {
+   "slug": "nasa-nvwqfz",
+   "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
+   "title_fa": null,
+   "summary": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/full-res-for-display.png?w=2048",
+   "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-30T15:56:26.000Z"
+  },
+  {
+   "slug": "science-1ta1pdn",
+   "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+   "title_fa": null,
+   "summary": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/04/2/27946391011_d40ff10573_h.jpg?w=1536&h=1020&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-30T14:51:21.000Z"
+  },
+  {
    "slug": "science-6ma05j",
    "title": "November’s Night Sky Notes: Light-Day Away",
    "title_fa": null,
@@ -1180,18 +1204,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-29T17:30:08.000Z"
-  },
-  {
-   "slug": "nasa-11yeyye",
-   "title": "Envía tu nombre a Titán a bordo de la misión Dragonfly de la NASA",
-   "title_fa": null,
-   "summary": "Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de Saturno, ¡pero tu nombre sí puede hacerlo! La NASA invita al público a enviar su nombre a bordo de la aeronave de ala giratoria Dragonfly de la agencia […]",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/27-10097-01j-hero-image-16-9-spanish-v01.jpg?w=2048",
-   "link": "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-29T15:21:23.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
