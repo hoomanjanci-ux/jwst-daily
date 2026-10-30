@@ -197,12 +197,38 @@ def _translate_fa(text: str) -> str:
     # availability is not assumed, and failure never permits English publication.
     if not text:
         return ''
-    r = requests.get('https://translate.googleapis.com/translate_a/single',
-                     params={'client': 'gtx', 'sl': 'en', 'tl': 'fa', 'dt': 't', 'q': text},
-                     headers=UA, timeout=(5, 20))
-    r.raise_for_status()
-    parts = r.json()[0]
-    return ''.join(part[0] for part in parts if part and isinstance(part[0], str)).strip()
+    for host in ('translate.googleapis.com', 'translate.google.com'):
+        try:
+            r = requests.get('https://' + host + '/translate_a/single',
+                             params={'client': 'gtx', 'sl': 'en', 'tl': 'fa', 'dt': 't', 'q': text},
+                             headers={'User-Agent': 'Mozilla/5.0'}, timeout=(5, 15))
+            r.raise_for_status()
+            result = ''.join(part[0] for part in r.json()[0]
+                             if part and isinstance(part[0], str)).strip()
+            if not _glitched(result):
+                return result
+        except Exception as e:
+            status = getattr(getattr(e, 'response', None), 'status_code', None)
+            _log(f"FA backup {host}: {type(e).__name__}, HTTP {status}")
+    # Second independent, keyless service; public source text only. Honor its
+    # per-request limit. Quota/failure is rejected rather than posted as news.
+    chunks=[];remaining=text
+    while remaining:
+        chunk=remaining[:400]
+        if len(remaining)>400 and ' ' in chunk:
+            chunk=chunk.rsplit(' ',1)[0]
+        chunks.append(chunk);remaining=remaining[len(chunk):].lstrip()
+    translated=[]
+    for chunk in chunks:
+        r=requests.get('https://api.mymemory.translated.net/get',
+                       params={'q':chunk,'langpair':'en|fa'},headers=UA,timeout=(5,15))
+        r.raise_for_status();data=r.json()
+        if data.get('responseStatus')!=200:
+            raise ValueError('FA backup unavailable or quota exceeded')
+        value=(data.get('responseData') or {}).get('translatedText') or ''
+        if _glitched(value):raise ValueError('FA backup returned non-Persian content')
+        translated.append(html.unescape(value))
+    return ' '.join(translated)
 
 
 def _fa_rewrite(item: dict) -> dict | None:
@@ -218,15 +244,18 @@ def _fa_rewrite(item: dict) -> dict | None:
                 result = {'title': _trim(data['title'], 160), 'body': _trim(data['body'], 600)}
                 if _valid_fa_rewrite(result):
                     return result
-        except Exception:
+        except Exception as e:
+            status = getattr(getattr(e, 'response', None), 'status_code', None)
+            _log(f"FA writer unavailable: {type(e).__name__}, HTTP {status}")
             continue
     try:
         result = {'title': _trim(_translate_fa(item.get('title') or ''), 160),
                   'body': _trim(_translate_fa(_trim(item.get('summary') or '', 800)), 600)}
         if _valid_fa_rewrite(result):
             return result
-    except Exception:
-        pass
+    except Exception as e:
+        status = getattr(getattr(e, 'response', None), 'status_code', None)
+        _log(f"FA translation held: {type(e).__name__}, HTTP {status}")
     return None  # FA stays unseen/retryable. English delivery is independent.
 
 

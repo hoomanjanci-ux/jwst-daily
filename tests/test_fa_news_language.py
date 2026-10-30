@@ -1,6 +1,6 @@
 import sys,unittest
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import patch,Mock
 from datetime import datetime,timezone
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'pipeline'))
 import news_rss as n
@@ -38,4 +38,9 @@ class PersianNewsTests(unittest.TestCase):
    n.publish(state,'dummy',[('fa_official','@NabzeKeyhan1','fa'),('en_official','@CosmicNewsJWST','en')])
   self.assertEqual(send.call_count,1);self.assertEqual(send.call_args.args[1],'@NabzeKeyhan1')
   self.assertEqual(state['news_archive'][ITEM['id']]['summary'],FA['body'])
+ def test_independent_backup_when_google_is_blocked(self):
+  response=Mock();response.raise_for_status.return_value=None
+  response.json.return_value={'responseStatus':200,'responseData':{'translatedText':FA['title']}}
+  with patch.object(n.requests,'get',side_effect=[RuntimeError('blocked'),RuntimeError('blocked'),response]):
+   self.assertEqual(n._translate_fa(ITEM['title']),FA['title'])
 if __name__=='__main__':unittest.main()
