@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-30T09:05:38.494Z",
+ "generated_utc": "2026-10-30T13:27:44.190Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1011,6 +1011,18 @@
  ],
  "news": [
   {
+   "slug": "science-6ma05j",
+   "title": "November’s Night Sky Notes: Light-Day Away",
+   "title_fa": null,
+   "summary": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. Using six gravity assists between them, this Grand Tour gave us up-close views of the gas and ice giants, including several moons. […]",
+   "summary_fa": null,
+   "image": "https://science.nasa.gov/wp-content/uploads/2024/04/grand-tour.jpg?w=1200",
+   "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-30T10:00:00.000Z"
+  },
+  {
    "slug": "science-1botscs",
    "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
    "title_fa": null,
@@ -1129,18 +1141,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-29T15:21:23.000Z"
-  },
-  {
-   "slug": "nasa-1a3t66g",
-   "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
-   "title_fa": null,
-   "summary": "You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard the agency’s Dragonfly rotorcraft and be part of the first science mission to fly and explore the surface of another world. To have your […]",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/27-10097-01a-hero-image-16-9-v02.jpg?w=2048",
-   "link": "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-29T15:10:18.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",

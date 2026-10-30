@@ -2939,37 +2939,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-28T08:31:03.840619+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-10-28/12",
-    "published": [
-     "jw01482050001_03105_00003_nrca4_rate.fits"
-    ],
-    "sender": "cloudflare",
-    "prepared": 3,
-    "enqueued": 3,
-    "slot_status": "sent",
-    "ready_pairs": 10,
-    "next_window": "2026-10-28T18:00:00+03:30"
-   },
-   "published": [
-    "jw01482050001_03105_00003_nrca4_rate.fits"
-   ],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-28T08:33:59.722742+00:00"
-  },
-  {
    "started_utc": "2026-10-28T12:35:00.925851+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4539,6 +4508,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-30T09:05:32.217463+00:00"
+  },
+  {
+   "started_utc": "2026-10-30T13:27:26.893918+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-10-30T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/"
+    ],
+    "en": [
+     "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-30T13:27:39.676512+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4862,6 +4866,10 @@
   "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/": {
    "fa": "2026-10-30T06:21:21.538023+00:00",
    "en": "2026-10-30T06:21:21.538023+00:00"
+  },
+  "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/": {
+   "fa": "2026-10-30T13:27:33.410671+00:00",
+   "en": "2026-10-30T13:27:33.410671+00:00"
   }
  },
  "news_archive": {
@@ -5566,6 +5574,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-30T04:05:00+00:00",
    "ts": "2026-10-30T06:21:21.538023+00:00"
+  },
+  "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/": {
+   "title": "November’s Night Sky Notes: Light-Day Away",
+   "summary": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. Using six gravity assists between them, this Grand Tour gave us up-close views of the gas and ice giants, including several moons.",
+   "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-30T10:00:00+00:00",
+   "ts": "2026-10-30T13:27:33.410671+00:00"
   }
  },
  "news_title_fp": {
@@ -5830,6 +5847,10 @@
    "en": "2026-10-30"
   },
   "c83570e44e6a371b": {
+   "fa": "2026-10-30",
+   "en": "2026-10-30"
+  },
+  "36d70b3e71fdfe6c": {
    "fa": "2026-10-30",
    "en": "2026-10-30"
   }
@@ -6098,6 +6119,10 @@
   [
    "c83570e44e6a371b",
    "apod 2026 october 30 haunting the cepheus flare"
+  ],
+  [
+   "36d70b3e71fdfe6c",
+   "november s night sky notes light day away"
   ]
  ],
  "combo_seen": {
