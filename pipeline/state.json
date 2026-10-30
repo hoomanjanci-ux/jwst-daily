@@ -2892,7 +2892,7 @@
   },
   "jw08559009001_02101_00003_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 30.37,
    "analyzed_utc": "2026-10-30T02:32:43.011931+00:00",
    "analysis": "analyses/2026/10/30/jw08559009001_02101_00003_nrcblong_i2d.fits.json",
@@ -2912,7 +2912,61 @@
    "combo": "|NIRCAM|F430M",
    "sha256": "2ffe4d289cc316d17ab77d778ed998326ae7cd1451a6f7d77e820133467475cb",
    "bytes": 120257280,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5558,
+      "brightness": 0.3456,
+      "range": 1.0,
+      "roi": 0.3037,
+      "score": 70.85
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 4891,
+      "brightest_quadrant_percent": 40.544,
+      "width": 2075,
+      "height": 2068,
+      "sample_stride": 3,
+      "sample_count": 464218,
+      "finite_fraction": 0.972225,
+      "median": 0.1992611661553383,
+      "robust_scatter": 0.014301510822772978,
+      "above_5scatter_percent": 1.0536,
+      "p99_above_median_scatter": 5.267,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5558,
+      "brightness": 0.3456,
+      "range": 1.0,
+      "roi": 0.3037,
+      "score": 70.85
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 4891,
+      "brightest_quadrant_percent": 40.544,
+      "width": 2075,
+      "height": 2068,
+      "sample_stride": 3,
+      "sample_count": 464218,
+      "finite_fraction": 0.972225,
+      "median": 0.1992611661553383,
+      "robust_scatter": 0.014301510822772978,
+      "above_5scatter_percent": 1.0536,
+      "p99_above_median_scatter": 5.267,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-10-30T02:33:50.995844+00:00"
   },
   "jw08559009001_02103_00004_nrcb2_i2d.fits": {
    "channels": {},
