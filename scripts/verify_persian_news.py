@@ -17,6 +17,8 @@ if not items:raise RuntimeError('No official source available for live verificat
 item=max(items,key=lambda x:x['dt'])
 translated=news._fa_rewrite(item)
 if not news._valid_fa_rewrite(translated):raise RuntimeError('Persian generation unavailable; safe hold works, but live translation not verified')
+if 'light-day' in item['title'].lower():
+    assert 'روز نوری' in translated['title'], 'Astronomy distance unit mistranslated'
 post=news._post_text(item,'fa',False,translated)
 assert item['link'].replace('&','&amp;') in post
 # Exercise real backup while the AI provider is unavailable, without any send call.

@@ -43,4 +43,9 @@ class PersianNewsTests(unittest.TestCase):
   response.json.return_value={'responseStatus':200,'responseData':{'translatedText':FA['title']}}
   with patch.object(n.requests,'get',side_effect=[RuntimeError('blocked'),RuntimeError('blocked'),response]):
    self.assertEqual(n._translate_fa(ITEM['title']),FA['title'])
+ def test_astronomy_unit_is_not_daylight(self):
+  self.assertEqual(n._scientific_terms('Light-Day Away','روز روشن دور'),'روز نوری دور')
+  self.assertEqual(n._scientific_terms('A bright day','روز روشن'),'روز روشن')
+ def test_gravity_assist_is_not_gravity_force(self):
+  self.assertIn('کمک گرانشی',n._scientific_terms('six gravity assists','شش نیروی گرانشی'))
 if __name__=='__main__':unittest.main()

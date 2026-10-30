@@ -192,6 +192,19 @@ def _valid_fa_rewrite(data: dict | None) -> bool:
             and not _glitched(data['title'], 2) and not _glitched(data['body'], 12))
 
 
+def _scientific_terms(source: str, translated: str) -> str:
+    """Correct known machine-translation confusions only when supported by source.
+    A light-day is a distance unit, not 'a bright day'; gravity assists aren't forces.
+    """
+    if re.search(r'\blight[ -]days?\b',source,re.I) and not re.search(r'\b(daylight|bright day)\b',source,re.I):
+        translated=re.sub(r'نور\s*[-–]\s*روز|روز روشن|روزِ روشن|روز نور(?!ی)', 'روز نوری', translated)
+    if re.search(r'\bgravity assist',source,re.I) and not re.search(r'\bforces?\b',source,re.I):
+        translated=translated.replace('نیروی گرانشی','مانور کمک گرانشی')
+    if re.search(r'\btwin voyagers\b',source,re.I):
+        translated=translated.replace('مسافران دوقلو','وویجرهای دوقلو')
+    return translated
+
+
 def _translate_fa(text: str) -> str:
     # Public news text only; no credentials/private data. Unofficial free endpoint:
     # availability is not assumed, and failure never permits English publication.
@@ -241,7 +254,9 @@ def _fa_rewrite(item: dict) -> dict | None:
             data = ai_message._lenient_json(ai_message._qai_chat(
                 msgs, timeout=(5, 20), max_tokens=650))
             if _valid_fa_rewrite(data):
-                result = {'title': _trim(data['title'], 160), 'body': _trim(data['body'], 600)}
+                source=(item.get('title') or '')+' '+(item.get('summary') or '')
+                result = {'title': _trim(_scientific_terms(source,data['title']), 160),
+                          'body': _trim(_scientific_terms(source,data['body']), 600)}
                 if _valid_fa_rewrite(result):
                     return result
         except Exception as e:
@@ -251,6 +266,8 @@ def _fa_rewrite(item: dict) -> dict | None:
     try:
         result = {'title': _trim(_translate_fa(item.get('title') or ''), 160),
                   'body': _trim(_translate_fa(_trim(item.get('summary') or '', 800)), 600)}
+        source=(item.get('title') or '')+' '+(item.get('summary') or '')
+        result={key:_scientific_terms(source,value) for key,value in result.items()}
         if _valid_fa_rewrite(result):
             return result
     except Exception as e:
