@@ -13,8 +13,8 @@ Owner directives implemented here:
   * archive items get the mandatory «از آرشیو / From the archive» label with the
     ORIGINAL date (PROMPT_FA §5) and never more than ONE per run;
   * FA version: QAI rewrites title+summary into natural Persian (facts ONLY,
-    no additions); fallback = original English title + trimmed summary (honest,
-    never a fake translation);
+    no additions); fallback = validated Persian translation through a free public
+    translation endpoint. If neither succeeds, hold FA for retry; NEVER post English;
   * dedupe via state["news_seen"] (persisted in state.json by run_daily),
     per-language markers so one language failing never blocks the other;
   * hourly RSS polling = event-driven with <=1h latency (PROMPT_FA §5 allows
@@ -173,13 +173,36 @@ FA_NEWS_PROMPT = (
 )
 
 
-def _glitched(text: str) -> bool:
-    """Guard against AI script glitches (e.g. stray CJK tokens inside Persian text).
-    Seen in the wild 2026-10-23: «بازم人間の بازگشت» - the run posted it before this
-    guard existed; a one-shot fix edited that post, this check prevents a repeat."""
+def _glitched(text: str, minimum: int = 2) -> bool:
+    """Require predominantly Persian prose, not merely a few Persian characters.
+    Keep Latin mission names/acronyms possible; reject unrelated scripts.
+    """
+    if not isinstance(text, str) or not text.strip():
+        return True
     if re.search(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]", text):
-        return True  # kana / CJK / hangul can never be valid inside FA posts
-    return len(re.findall(r"[\u0600-\u06FF]", text)) < 10  # no real Persian letters
+        return True
+    letters = [c for c in text if c.isalpha()]
+    persian = [c for c in letters if '\u0600' <= c <= '\u06ff']
+    return len(persian) < minimum or len(persian) / max(1, len(letters)) < 0.60
+
+
+def _valid_fa_rewrite(data: dict | None) -> bool:
+    return (isinstance(data, dict)
+            and isinstance(data.get('title'), str) and isinstance(data.get('body'), str)
+            and not _glitched(data['title'], 2) and not _glitched(data['body'], 12))
+
+
+def _translate_fa(text: str) -> str:
+    # Public news text only; no credentials/private data. Unofficial free endpoint:
+    # availability is not assumed, and failure never permits English publication.
+    if not text:
+        return ''
+    r = requests.get('https://translate.googleapis.com/translate_a/single',
+                     params={'client': 'gtx', 'sl': 'en', 'tl': 'fa', 'dt': 't', 'q': text},
+                     headers=UA, timeout=(5, 20))
+    r.raise_for_status()
+    parts = r.json()[0]
+    return ''.join(part[0] for part in parts if part and isinstance(part[0], str)).strip()
 
 
 def _fa_rewrite(item: dict) -> dict | None:
@@ -189,15 +212,22 @@ def _fa_rewrite(item: dict) -> dict | None:
              + json.dumps(slim, ensure_ascii=False)[:1500]}]
     for _ in (1, 2):
         try:
-            data = ai_message._lenient_json(ai_message._qai_chat(msgs))
-            if data and data.get("title") and data.get("body"):
-                title, body = str(data["title"])[:160], str(data["body"])[:600]
-                if _glitched(title) or _glitched(body):
-                    continue  # garbled AI output -> retry, else honest fallback below
-                return {"title": title, "body": body}
-        except Exception:  # noqa: BLE001 - AI failure -> deterministic fallback
+            data = ai_message._lenient_json(ai_message._qai_chat(
+                msgs, timeout=(5, 20), max_tokens=650))
+            if _valid_fa_rewrite(data):
+                result = {'title': _trim(data['title'], 160), 'body': _trim(data['body'], 600)}
+                if _valid_fa_rewrite(result):
+                    return result
+        except Exception:
             continue
-    return None
+    try:
+        result = {'title': _trim(_translate_fa(item.get('title') or ''), 160),
+                  'body': _trim(_translate_fa(_trim(item.get('summary') or '', 800)), 600)}
+        if _valid_fa_rewrite(result):
+            return result
+    except Exception:
+        pass
+    return None  # FA stays unseen/retryable. English delivery is independent.
 
 
 def _href(link: str) -> str:
@@ -210,8 +240,10 @@ def _post_text(item: dict, lang: str, archive: bool, fa_rw: dict | None = None) 
     link = _href(item.get("link") or "")
     if lang == "fa":
         rw = fa_rw if fa_rw is not None else _fa_rewrite(item)
-        title = html.escape(rw["title"]) if rw else html.escape(item.get("title") or "")
-        body = html.escape(rw["body"]) if rw else html.escape(_trim(item.get("summary"), 420))
+        if not _valid_fa_rewrite(rw):
+            raise ValueError("Persian news translation unavailable; held for retry, not sent in English")
+        title = html.escape(rw["title"])
+        body = html.escape(rw["body"])
         src = item.get("source_fa") or item.get("source") or ""
         arch = f"\n🗄 <i>از آرشیو · تاریخ اصلی انتشار: {date}</i>" if archive else ""
         txt = (f"📰 <b>{title}</b>\n\n{body}\n\n"
@@ -312,6 +344,8 @@ def publish(state: dict, token: str, targets: list[tuple[str, str, str]]) -> dic
             try:
                 if lang == "fa" and fa_rw is None:
                     fa_rw = _fa_rewrite(it)
+                    if not _valid_fa_rewrite(fa_rw):
+                        raise ValueError("Persian news translation unavailable; held for retry")
                 text = _post_text(it, lang, archive=archive, fa_rw=fa_rw)
                 key = "fa_official" if lang == "fa" else "en_official"
                 if key in official:
