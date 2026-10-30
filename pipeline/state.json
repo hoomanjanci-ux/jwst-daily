@@ -2870,37 +2870,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-27T21:30:05.248850+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 9,
-    "next_window": "2026-10-28T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-27T21:30:13.613892+00:00"
-  },
-  {
    "started_utc": "2026-10-27T23:39:57.379934+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4465,6 +4434,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-29T22:03:46.441670+00:00"
+  },
+  {
+   "started_utc": "2026-10-30T00:14:16.482159+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-10-30T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/"
+    ],
+    "en": [
+     "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-30T00:18:27.747081+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4776,6 +4780,10 @@
   "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/": {
    "fa": "2026-10-29T22:03:37.121668+00:00",
    "en": "2026-10-29T22:03:37.121668+00:00"
+  },
+  "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/": {
+   "fa": "2026-10-30T00:14:23.383875+00:00",
+   "en": "2026-10-30T00:14:23.383875+00:00"
   }
  },
  "news_archive": {
@@ -5453,6 +5461,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-29T12:02:14+00:00",
    "ts": "2026-10-29T22:03:37.121668+00:00"
+  },
+  "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/": {
+   "title": "Slice of Martian Meteorite Teghaza 001",
+   "summary": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected light images like these serve as a scientist’s road map, helping them find minerals of interest to analyze by different instruments. Figure A is the same image with",
+   "link": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-29T23:32:35+00:00",
+   "ts": "2026-10-30T00:14:23.383875+00:00"
   }
  },
  "news_title_fp": {
@@ -5707,6 +5724,10 @@
   "ab01e09143827328": {
    "fa": "2026-10-29",
    "en": "2026-10-29"
+  },
+  "07a9e2c7e0bacd42": {
+   "fa": "2026-10-30",
+   "en": "2026-10-30"
   }
  },
  "news_title_recent": [
@@ -5961,6 +5982,10 @@
   [
    "ab01e09143827328",
    "astronauts begin spacewalk to install roll out solar arrays"
+  ],
+  [
+   "07a9e2c7e0bacd42",
+   "slice of martian meteorite teghaza 001"
   ]
  ],
  "combo_seen": {
