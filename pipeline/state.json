@@ -2994,37 +2994,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-28T05:31:01.859211+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-10-28/09",
-    "published": [
-     "jw06570017001_03106_00001_nrcalong_rate.fits"
-    ],
-    "sender": "cloudflare",
-    "prepared": 1,
-    "enqueued": 1,
-    "slot_status": "sent",
-    "ready_pairs": 8,
-    "next_window": "2026-10-28T12:00:00+03:30"
-   },
-   "published": [
-    "jw06570017001_03106_00001_nrcalong_rate.fits"
-   ],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-28T05:34:42.102829+00:00"
-  },
-  {
    "started_utc": "2026-10-28T05:47:45.765050+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -4590,6 +4559,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-30T05:54:26.130097+00:00"
+  },
+  {
+   "started_utc": "2026-10-30T06:21:13.680026+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-10-30/09",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 9,
+    "next_window": "2026-10-30T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-30T06:21:25.478773+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -4909,6 +4913,10 @@
   "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/": {
    "fa": "2026-10-30T01:47:36.310978+00:00",
    "en": "2026-10-30T01:47:36.310978+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/": {
+   "fa": "2026-10-30T06:21:21.538023+00:00",
+   "en": "2026-10-30T06:21:21.538023+00:00"
   }
  },
  "news_archive": {
@@ -5604,6 +5612,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-30T00:07:39+00:00",
    "ts": "2026-10-30T01:47:36.310978+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/": {
+   "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
+   "summary": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Haunting the Cepheus",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-30T04:05:00+00:00",
+   "ts": "2026-10-30T06:21:21.538023+00:00"
   }
  },
  "news_title_fp": {
@@ -5864,6 +5881,10 @@
    "en": "2026-10-30"
   },
   "444e6d0e47710558": {
+   "fa": "2026-10-30",
+   "en": "2026-10-30"
+  },
+  "c83570e44e6a371b": {
    "fa": "2026-10-30",
    "en": "2026-10-30"
   }
@@ -6128,6 +6149,10 @@
   [
    "444e6d0e47710558",
    "map showing potential origins of martian meteorite teghaza 001"
+  ],
+  [
+   "c83570e44e6a371b",
+   "apod 2026 october 30 haunting the cepheus flare"
   ]
  ],
  "combo_seen": {
