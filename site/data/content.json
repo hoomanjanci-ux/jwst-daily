@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-31T02:41:09.752Z",
+ "generated_utc": "2026-10-31T05:33:15.680Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,74 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw10678135001-02101-00001-nrca3-i2d",
+   "product": "jw10678135001_02101_00001_nrca3_i2d.fits",
+   "published_utc": "2026-10-31T05:33:07.483605+00:00",
+   "target": null,
+   "instrument": "NIRCAM",
+   "detector": "NRCA3",
+   "filter": "F212N",
+   "obs_date": "2026-09-12",
+   "proposal": "10678",
+   "score": 52.92,
+   "quality_score": 82.73,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
+  {
+   "slug": "jw10678135001-02101-00001-nrca2-i2d",
+   "product": "jw10678135001_02101_00001_nrca2_i2d.fits",
+   "published_utc": "2026-10-31T05:32:54.870669+00:00",
+   "target": null,
+   "instrument": "NIRCAM",
+   "detector": "NRCA2",
+   "filter": "F212N",
+   "obs_date": "2026-09-12",
+   "proposal": "10678",
+   "score": 53.2,
+   "quality_score": 83.37,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
+  {
+   "slug": "jw10678135001-02101-00001-nrca1-i2d",
+   "product": "jw10678135001_02101_00001_nrca1_i2d.fits",
+   "published_utc": "2026-10-31T05:32:42.264496+00:00",
+   "target": null,
+   "instrument": "NIRCAM",
+   "detector": "NRCA1",
+   "filter": "F212N",
+   "obs_date": "2026-09-12",
+   "proposal": "10678",
+   "score": 66.75,
+   "quality_score": 86.63,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
+  {
+   "slug": "jw12522082001-03109-00005-nrca2-rate",
+   "product": "jw12522082001_03109_00005_nrca2_rate.fits",
+   "published_utc": "2026-10-31T05:30:40.391Z",
+   "target": "2MASS J18022716+6043356",
+   "instrument": "NIRCAM",
+   "detector": "NRCA2",
+   "filter": "F210M",
+   "obs_date": "2026-09-02",
+   "proposal": "12522",
+   "score": 39.06,
+   "quality_score": 77.43,
+   "image": "/img/jw12522082001-03109-00005-nrca2-rate.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «2MASS J18022716+6043356»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 320 × 320 پیکسل دارد. در نمونهٔ منظم 100,782 پیکسل معتبر، حدود 0.4535 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F210M نزدیک طول موج 2.1 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 64.989 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F210M · تاریخ رصد: 2026-09-02\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/12522\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw10790002001-06201-00004-nrcalong-i2d",
    "product": "jw10790002001_06201_00004_nrcalong_i2d.fits",
@@ -255,23 +323,6 @@
    "proposal": "12522",
    "score": 32.02,
    "quality_score": 72.85,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
-   "slug": "jw12522082001-03109-00005-nrca2-rate",
-   "product": "jw12522082001_03109_00005_nrca2_rate.fits",
-   "published_utc": "2026-10-29T05:32:27.339730+00:00",
-   "target": "2MASS J18022716+6043356",
-   "instrument": "NIRCAM",
-   "detector": "NRCA2",
-   "filter": "F210M",
-   "obs_date": "2026-09-02",
-   "proposal": "12522",
-   "score": 39.06,
-   "quality_score": 77.43,
    "image": null,
    "text_fa": null,
    "text_en": null,
@@ -1062,6 +1113,18 @@
  ],
  "news": [
   {
+   "slug": "science-1o75kcx",
+   "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/Hverir_Vetter_1300.jpg?w=1300&h=867&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-10-31T04:05:00.000Z"
+  },
+  {
    "slug": "nasa-3gxaab",
    "title": "NASA Releases MAX POWER Key Events for Media, Participants",
    "title_fa": "ناسا رویدادهای کلیدی MAX POWER را برای رسانه‌ها و شرکت‌کنندگان منتشر کرد",
@@ -1180,18 +1243,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-29T19:17:00.000Z"
-  },
-  {
-   "slug": "nasa-1cbw4dk",
-   "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
-   "title_fa": null,
-   "summary": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dated its minerals did they realize the nearly 2-pound (800-gram) rock was a piece of Mars that formed more than 4.1 billion years ago, making it one […]",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg?w=2048",
-   "link": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-29T18:18:09.000Z"
   },
   {
    "slug": "science-alyf1o",
