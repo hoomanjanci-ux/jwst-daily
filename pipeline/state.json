@@ -3260,37 +3260,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-29T05:31:05.571989+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-10-29/09",
-    "published": [
-     "jw09637203001_03101_00004_nrcb1_i2d.fits"
-    ],
-    "sender": "cloudflare",
-    "prepared": 3,
-    "enqueued": 3,
-    "slot_status": "sent",
-    "ready_pairs": 10,
-    "next_window": "2026-10-29T12:00:00+03:30"
-   },
-   "published": [
-    "jw09637203001_03101_00004_nrcb1_i2d.fits"
-   ],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-29T05:33:19.659025+00:00"
-  },
-  {
    "started_utc": "2026-10-29T05:53:44.229620+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -4849,6 +4818,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-31T06:38:15.903278+00:00"
+  },
+  {
+   "started_utc": "2026-10-31T06:51:59.516684+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 10,
+    "next_window": "2026-10-31T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-31T06:52:11.376005+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -5192,6 +5196,10 @@
   "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/": {
    "fa": "2026-10-30T20:38:31.312054+00:00",
    "en": "2026-10-30T20:38:31.312054+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/": {
+   "fa": "2026-10-31T06:52:06.716339+00:00",
+   "en": "2026-10-31T06:52:06.716339+00:00"
   }
  },
  "news_archive": {
@@ -5941,6 +5949,15 @@
    "source_fa": "ناسا",
    "date": "2026-10-30T19:31:02+00:00",
    "ts": "2026-10-30T20:38:31.312054+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/": {
+   "title": "APOD: 31 اکتبر 2026 - شب در یک سیاره شبح وار",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. شب در یک",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-10-31T04:05:00+00:00",
+   "ts": "2026-10-31T06:52:06.716339+00:00"
   }
  },
  "news_title_fp": {
@@ -6227,6 +6244,10 @@
   "9b5716cf6ba76e7a": {
    "fa": "2026-10-30",
    "en": "2026-10-30"
+  },
+  "6227d746f3352910": {
+   "fa": "2026-10-31",
+   "en": "2026-10-31"
   }
  },
  "news_title_recent": [
@@ -6513,6 +6534,10 @@
   [
    "9b5716cf6ba76e7a",
    "nasa releases max power key events for media participants"
+  ],
+  [
+   "6227d746f3352910",
+   "apod 2026 october 31 night on a spooky planet"
   ]
  ],
  "combo_seen": {
