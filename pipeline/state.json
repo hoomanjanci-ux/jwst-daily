@@ -3025,7 +3025,7 @@
   },
   "jw12522082001_0310n_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 37.22,
    "analyzed_utc": "2026-10-31T06:37:07.733247+00:00",
    "analysis": "analyses/2026/10/31/jw12522082001_0310n_00005_nrcalong_rate.fits.json",
@@ -3045,7 +3045,61 @@
    "combo": "2MASS J18022716+6043356|NIRCAM|F322W2",
    "sha256": "f73c01a7b38319c82ed3ac12a901cc10c390eaa402eb51ca75175e1ddc029e33",
    "bytes": 2134080,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5343,
+      "brightness": 0.532,
+      "range": 1.0,
+      "roi": 0.3722,
+      "score": 74.25
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 810,
+      "brightest_quadrant_percent": 92.346,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100406,
+      "finite_fraction": 0.980527,
+      "median": 7.341510057449341,
+      "robust_scatter": 1.524210886287689,
+      "above_5scatter_percent": 0.8067,
+      "p99_above_median_scatter": 3.619,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5343,
+      "brightness": 0.532,
+      "range": 1.0,
+      "roi": 0.3722,
+      "score": 74.25
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 810,
+      "brightest_quadrant_percent": 92.346,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100406,
+      "finite_fraction": 0.980527,
+      "median": 7.341510057449341,
+      "robust_scatter": 1.524210886287689,
+      "above_5scatter_percent": 0.8067,
+      "p99_above_median_scatter": 3.619,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-10-31T06:37:51.356540+00:00"
   },
   "jw12522082001_0310h_00005_nrcalong_rate.fits": {
    "channels": {},
