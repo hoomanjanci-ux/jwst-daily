@@ -2950,6 +2950,78 @@
    "sha256": "0b6b74e59249bb4da3e3e9dd6c4a1d81815d949237666b52a154df597f748aed",
    "bytes": 118704960,
    "published_utc": null
+  },
+  "jw10678135001_02101_00001_nrca1_i2d.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 66.75,
+   "analyzed_utc": "2026-10-31T05:32:42.414127+00:00",
+   "analysis": "analyses/2026/10/31/jw10678135001_02101_00001_nrca1_i2d.fits.json",
+   "cand": {
+    "filename": "jw10678135001_02101_00001_nrca1_i2d.fits",
+    "size_mb": 113.206,
+    "uri": "mast:JWST/product/jw10678135001_02101_00001_nrca1_i2d.fits",
+    "proposal": "10678",
+    "obs_id": "jw10678135001_02101_00001_nrca1",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10678135001_02101_00001_nrca1_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw10678135001_02101_00001_nrca1_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10678135001_02101_00001_nrca1_i2d.jpg"
+   },
+   "meta_TARGNAME": "",
+   "meta_FILTER": "F212N",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "|NIRCAM|F212N",
+   "sha256": "95b24f8678849264f958d850b77ccfb4880ea3f96712e2c7abff8461ff9dddd8",
+   "bytes": 118704960,
+   "published_utc": null
+  },
+  "jw10678135001_02101_00001_nrca2_i2d.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 53.2,
+   "analyzed_utc": "2026-10-31T05:32:55.016822+00:00",
+   "analysis": "analyses/2026/10/31/jw10678135001_02101_00001_nrca2_i2d.fits.json",
+   "cand": {
+    "filename": "jw10678135001_02101_00001_nrca2_i2d.fits",
+    "size_mb": 112.994,
+    "uri": "mast:JWST/product/jw10678135001_02101_00001_nrca2_i2d.fits",
+    "proposal": "10678",
+    "obs_id": "jw10678135001_02101_00001_nrca2",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10678135001_02101_00001_nrca2_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw10678135001_02101_00001_nrca2_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10678135001_02101_00001_nrca2_i2d.jpg"
+   },
+   "meta_TARGNAME": "",
+   "meta_FILTER": "F212N",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "|NIRCAM|F212N",
+   "sha256": "96bce5c6d1bb49c791c003d5c03a79096c09758d4a179b51baa8996f87bcfd19",
+   "bytes": 118483200,
+   "published_utc": null
+  },
+  "jw10678135001_02101_00001_nrca3_i2d.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 52.92,
+   "analyzed_utc": "2026-10-31T05:33:07.618749+00:00",
+   "analysis": "analyses/2026/10/31/jw10678135001_02101_00001_nrca3_i2d.fits.json",
+   "cand": {
+    "filename": "jw10678135001_02101_00001_nrca3_i2d.fits",
+    "size_mb": 113.533,
+    "uri": "mast:JWST/product/jw10678135001_02101_00001_nrca3_i2d.fits",
+    "proposal": "10678",
+    "obs_id": "jw10678135001_02101_00001_nrca3",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10678135001_02101_00001_nrca3_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw10678135001_02101_00001_nrca3_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10678135001_02101_00001_nrca3_i2d.jpg"
+   },
+   "meta_TARGNAME": "",
+   "meta_FILTER": "F212N",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "|NIRCAM|F212N",
+   "sha256": "f3ee203efb669d0ff190bde478da7856325df7ec0fe2fa9fa15b4cfd9c8ea405",
+   "bytes": 119047680,
+   "published_utc": null
   }
  },
  "runs": [
@@ -6244,8 +6316,8 @@
  },
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
-  "day": "2026-10-30",
-  "bytes": 717229440
+  "day": "2026-10-31",
+  "bytes": 356235840
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -7263,7 +7335,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-10-30T14:31:02.892952+00:00",
+ "paired_prepare_attempt_utc": "2026-10-31T05:31:18.847877+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
