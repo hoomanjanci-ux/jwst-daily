@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-31T13:44:11.182Z",
+ "generated_utc": "2026-10-31T13:55:41.543Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1188,18 +1188,6 @@
    "date_utc": "2026-10-30T19:31:02.000Z"
   },
   {
-   "slug": "nasa-1v9hatu",
-   "title": "Space Crops and Advanced Tech Wrap Up Week Following Spacewalk",
-   "title_fa": "محصولات فضایی و فناوری پیشرفته هفته پس از راهپیمایی فضایی به پایان می رسد",
-   "summary": "Space crops research wrapped up the week following the completion of the first of two power upgrade spacewalks at the International Space Station. The Expedition 75 crew members rounded out their research schedule with virtual reality and super intelligence studies.",
-   "summary_fa": "تحقیقات محصولات فضایی یک هفته پس از اتمام اولین راهپیمایی از دو راهپیمایی فضایی ارتقاء انرژی در ایستگاه فضایی بین المللی به پایان رسید. اعضای خدمه Expedition 75 برنامه تحقیقاتی خود را با مطالعات واقعیت مجازی و فوق هوش کامل کردند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0227271/iss075e0227271~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/30/space-crops-and-advanced-tech-wrap-up-week-following-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-30T17:50:49.000Z"
-  },
-  {
    "slug": "nasa-nvwqfz",
    "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
    "title_fa": "تلسکوپ فضایی جیمز وب ناسا از سر گربه وحشتناک عکس می گیرد",
@@ -1284,42 +1272,6 @@
    "date_utc": "2026-10-29T21:44:23.000Z"
   },
   {
-   "slug": "nasa-agd0f4",
-   "title": "Spacewalkers Install Roll-Out Solar Array for Power Generation",
-   "title_fa": null,
-   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronNASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk concluded their spacewalk outside the International Space Station at 3:08 p.m. EDT.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/blog-useva100-102926e.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T19:17:00.000Z"
-  },
-  {
-   "slug": "science-alyf1o",
-   "title": "NASA’s TRACERS First Results Offers Peek into Violent Magnetic Process",
-   "title_fa": null,
-   "summary": "NASA’s TRACERS (Tandem Reconnection and Cusp Electrodynamics Reconnaissance Satellites) mission has gathered its first clues to how space weather affects Earth’s magnetic field. In a new paper, researchers break down how these interactions work after analyzing initial observations from the first year of the mission. The two TRACERS spacecraft launched last year to explore how […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/tracer/TRACERS_Vantor%20Image.jpg?w=1536&h=1536&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/tracers/2026/10/29/nasas-tracers-first-results-offers-peek-into-violent-magnetic-process/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T18:15:07.000Z"
-  },
-  {
-   "slug": "science-a722of",
-   "title": "NASA’s Voyager 1 Conserves Power, Resolves Brief Communications Pause",
-   "title_fa": null,
-   "summary": "NASA’s Voyager team is celebrating two recent developments with the Voyager 1 spacecraft: In September, they successfully completed a months-long effort to stretch the spacecraft’s diminishing power supply. Then, on Oct. 20, an unexpected loss of communication with the spacecraft resolved itself after 48 hours, before the team sent commands to the spacecraft to troubleshoot […]",
-   "summary_fa": null,
-   "image": "https://science.nasa.gov/wp-content/uploads/2024/04/pia21737.jpg?w=2048",
-   "link": "https://science.nasa.gov/blogs/voyager/2026/10/29/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T17:30:08.000Z"
-  },
-  {
    "slug": "esawebb-zfoa7t",
    "title": "Photo Release: Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
    "title_fa": null,
@@ -1330,66 +1282,6 @@
    "source": "ESA/Webb",
    "source_fa": "اسا/وب (جیمز وب)",
    "date_utc": "2026-10-29T14:00:00.000Z"
-  },
-  {
-   "slug": "nasa-7ly3qb",
-   "title": "Astronauts Begin Spacewalk to Install Roll-Out Solar Arrays",
-   "title_fa": null,
-   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk began a spacewalk at 7:57 a.m. EDT outside the International Space Station airlock to install and deploy an International Space Station Roll-Out Solar Array on the 2A electrical power channel.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926c-1.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T12:02:14.000Z"
-  },
-  {
-   "slug": "nasa-1hql7wr",
-   "title": "Astronauts Suit Up to Prepare for Power Upgrade Spacewalk",
-   "title_fa": null,
-   "summary": "NASA is streaming live coverage as two astronauts prepare for a spacewalk outside the International Space Station.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926b-1.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T10:32:26.000Z"
-  },
-  {
-   "slug": "nasa-1m2xth9",
-   "title": "NASA Celebrates a Year of Progress Since First X-59 Flight",
-   "title_fa": null,
-   "summary": "One year ago, NASA’s Quesst mission made history with the first flight of the X-59 quiet supersonic research aircraft. Since then, the X-59 has completed 40 additional flights, marking a year of steady progress for the program. While its first flight on Oct. 28, 2025, focused on low, slow flights to conduct systems checks, the X-59 has since reached a maximum altitude of more than 56,000 feet and speeds up to Mach 1.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2026-10-28-ff-anniv-final.gif?w=1280",
-   "link": "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-28T19:24:28.000Z"
-  },
-  {
-   "slug": "nasa-tz91zu",
-   "title": "Astronauts Are Go For Thursday’s Power Upgrade Spacewalk",
-   "title_fa": null,
-   "summary": "Mission managers have given the go for Thursday’s spacewalk to install a new roll-out solar array on the International Space Station’s port-side truss structure.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926a.jpg",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/28/astronauts-are-go-for-thursdays-power-upgrade-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-28T16:30:27.000Z"
-  },
-  {
-   "slug": "science-lin0jv",
-   "title": "NASA’s Lucy Reaches Trojan Asteroid Region 5 Years After Launch",
-   "title_fa": null,
-   "summary": "Having traveled more than 2.2 billion miles since it launched on Oct. 16, 2021, NASA’s Lucy is the first spacecraft to enter a region of primitive solar-system bodies known as the Jupiter Trojan asteroids.",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a020000/a020300/a020366/Lucy_SP_update_h264_1080-00495_print.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "link": "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-28T14:11:21.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
