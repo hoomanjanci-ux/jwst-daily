@@ -3150,43 +3150,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-29T16:59:11.112915+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 8,
-    "next_window": "2026-10-30T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
-     "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/"
-    ],
-    "en": [
-     "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
-     "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/"
-    ],
-    "mode": "fresh (6 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-29T16:59:28.689843+00:00"
-  },
-  {
    "started_utc": "2026-10-29T17:07:12.752905+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -4732,6 +4695,37 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-10-31T15:51:12.308289+00:00"
+  },
+  {
+   "started_utc": "2026-10-31T18:25:18.592493+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-11-01T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": null,
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-10-31T18:25:25.454796+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
