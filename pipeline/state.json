@@ -31050,6 +31050,132 @@
   "jw12567002001_02101_00017_nrca4_rate.fits": {
    "channels": {},
    "status": "legacy_v01"
+  },
+  "jw12525108001_02104_00003_nrcblong_i2d.fits": {
+   "channels": {},
+   "status": "ready",
+   "score": 38.84,
+   "analyzed_utc": "2026-11-01T14:32:28.979901+00:00",
+   "analysis": "analyses/2026/11/01/jw12525108001_02104_00003_nrcblong_i2d.fits.json",
+   "cand": {
+    "filename": "jw12525108001_02104_00003_nrcblong_i2d.fits",
+    "size_mb": 0.791,
+    "uri": "mast:JWST/product/jw12525108001_02104_00003_nrcblong_i2d.fits",
+    "proposal": "12525",
+    "obs_id": "jw12525108001_02104_00003_nrcblong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12525108001_02104_00003_nrcblong_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12525108001_02104_00003_nrcblong_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12525108001_02104_00003_nrcblong_i2d.jpg"
+   },
+   "meta_TARGNAME": "BD+60 1753",
+   "meta_FILTER": "F444W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "c978f95a71229a221d47737c25c447b49d24dc1c64739ddec6ed8a3c66983c9f",
+   "bytes": 829440,
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6903,
+      "brightness": 0.654,
+      "range": 1.0,
+      "roi": 0.3884,
+      "score": 79.44
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 111,
+      "brightest_quadrant_percent": 53.153,
+      "width": 160,
+      "height": 161,
+      "sample_stride": 1,
+      "sample_count": 24619,
+      "finite_fraction": 0.955707,
+      "median": 14.330095291137695,
+      "robust_scatter": 43.63921462726593,
+      "above_5scatter_percent": 0.4509,
+      "p99_above_median_scatter": 2.763,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6903,
+      "brightness": 0.654,
+      "range": 1.0,
+      "roi": 0.3884,
+      "score": 79.44
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 111,
+      "brightest_quadrant_percent": 53.153,
+      "width": 160,
+      "height": 161,
+      "sample_stride": 1,
+      "sample_count": 24619,
+      "finite_fraction": 0.955707,
+      "median": 14.330095291137695,
+      "robust_scatter": 43.63921462726593,
+      "above_5scatter_percent": 0.4509,
+      "p99_above_median_scatter": 2.763,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-01T14:32:56.912712+00:00"
+  },
+  "jw12525108001_02104_00002_nrcblong_i2d.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 37.3,
+   "analyzed_utc": "2026-11-01T14:32:38.123478+00:00",
+   "analysis": "analyses/2026/11/01/jw12525108001_02104_00002_nrcblong_i2d.fits.json",
+   "cand": {
+    "filename": "jw12525108001_02104_00002_nrcblong_i2d.fits",
+    "size_mb": 0.791,
+    "uri": "mast:JWST/product/jw12525108001_02104_00002_nrcblong_i2d.fits",
+    "proposal": "12525",
+    "obs_id": "jw12525108001_02104_00002_nrcblong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12525108001_02104_00002_nrcblong_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12525108001_02104_00002_nrcblong_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12525108001_02104_00002_nrcblong_i2d.jpg"
+   },
+   "meta_TARGNAME": "BD+60 1753",
+   "meta_FILTER": "F444W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "7e506558964257199e7e27b7fb94d414b72f2f1df5b7dfa9d8485080c2f8335d",
+   "bytes": 829440,
+   "published_utc": null
+  },
+  "jw12525108001_02104_00005_nrcblong_i2d.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 37.14,
+   "analyzed_utc": "2026-11-01T14:32:47.550325+00:00",
+   "analysis": "analyses/2026/11/01/jw12525108001_02104_00005_nrcblong_i2d.fits.json",
+   "cand": {
+    "filename": "jw12525108001_02104_00005_nrcblong_i2d.fits",
+    "size_mb": 0.791,
+    "uri": "mast:JWST/product/jw12525108001_02104_00005_nrcblong_i2d.fits",
+    "proposal": "12525",
+    "obs_id": "jw12525108001_02104_00005_nrcblong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12525108001_02104_00005_nrcblong_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12525108001_02104_00005_nrcblong_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12525108001_02104_00005_nrcblong_i2d.jpg"
+   },
+   "meta_TARGNAME": "BD+60 1753",
+   "meta_FILTER": "F444W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "b5a6e56cc4d9edec086ec8a7c83f8b58cd5c69443d56082ab38972501b5353bb",
+   "bytes": 829440,
+   "published_utc": null
   }
  },
  "runs": [
@@ -34297,7 +34423,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-01",
-  "bytes": 884568960
+  "bytes": 887057280
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -35587,7 +35713,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-01T13:50:55.997973+00:00",
+ "paired_prepare_attempt_utc": "2026-11-01T14:31:09.042522+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
