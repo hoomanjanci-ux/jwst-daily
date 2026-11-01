@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-01T03:38:33.287Z",
+ "generated_utc": "2026-11-01T05:31:18.645Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw08559009001-02103-00004-nrcb2-i2d",
+   "product": "jw08559009001_02103_00004_nrcb2_i2d.fits",
+   "published_utc": "2026-11-01T05:30:39.559Z",
+   "target": null,
+   "instrument": "NIRCAM",
+   "detector": "NRCB2",
+   "filter": "F140M",
+   "obs_date": "2026-06-26",
+   "proposal": "8559",
+   "score": 30.83,
+   "quality_score": 69.77,
+   "image": "/img/jw08559009001-02103-00004-nrcb2-i2d.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «JWST field»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 2058 × 2058 پیکسل دارد. در نمونهٔ منظم 463,430 پیکسل معتبر، حدود 0.3727 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F140M نزدیک طول موج 1.4 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 39.78 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F140M · تاریخ رصد: 2026-06-26\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/8559\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw08559010001-02105-00001-nrcblong-i2d",
    "product": "jw08559010001_02105_00001_nrcblong_i2d.fits",
@@ -344,23 +361,6 @@
    "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «LMC»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 2058 × 2065 پیکسل دارد. در نمونهٔ منظم 462,946 پیکسل معتبر، حدود 10.4712 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F150W نزدیک طول موج 1.5 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 29.233 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F150W · تاریخ رصد: 2026-10-08\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/12539\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
    "text_en": null,
    "is_mock": false
-  },
-  {
-   "slug": "jw08559009001-02103-00004-nrcb2-i2d",
-   "product": "jw08559009001_02103_00004_nrcb2_i2d.fits",
-   "published_utc": "2026-10-30T02:32:55.364510+00:00",
-   "target": null,
-   "instrument": "NIRCAM",
-   "detector": "NRCB2",
-   "filter": "F140M",
-   "obs_date": "2026-06-26",
-   "proposal": "8559",
-   "score": 30.83,
-   "quality_score": 69.77,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
   },
   {
    "slug": "jw08559009001-02101-00003-nrcblong-i2d",
@@ -1198,6 +1198,18 @@
  ],
  "news": [
   {
+   "slug": "science-1etku45",
+   "title": "APOD: 2026 November 1 – Colors of the Moon",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/MoonColors_Pace_960.jpg?w=960&h=991&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-01T04:05:00.000Z"
+  },
+  {
    "slug": "science-1o75kcx",
    "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
    "title_fa": "APOD: 31 اکتبر 2026 - شب در یک سیاره شبح وار",
@@ -1304,18 +1316,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-29T23:32:35.000Z"
-  },
-  {
-   "slug": "nasa-1h8mus5",
-   "title": "Halloween Aboard the International Space Station",
-   "title_fa": null,
-   "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit. Whether individually or as an entire crew, they dress up in sometimes spooky, sometimes scary, but always creative costumes, often designed from materials available aboard the […]",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/luca-parmitano.jpg?w=1024",
-   "link": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-29T21:44:23.000Z"
   },
   {
    "slug": "nasa-agd0f4",
