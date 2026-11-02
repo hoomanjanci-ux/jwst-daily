@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-02T18:33:23.657Z",
+ "generated_utc": "2026-11-02T21:54:08.920Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1351,6 +1351,78 @@
  ],
  "news": [
   {
+   "slug": "nasa-91mbyx",
+   "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
+   "title_fa": "65 سالگی مبارک: مرکز فضایی جانسون ناسا در آن زمان و اکنون",
+   "summary": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from Project Mercury through Artemis. Today, Johnson serves as NASA’s Center of Excellence for Human Spaceflight, and its workforce is helping […]",
+   "summary_fa": "شصت و پنج سال پیش، یک چشم انداز جسورانه در هیوستون ریشه دوانید: یک مرکز ناسا که به پروازهای فضایی انسان اختصاص یافته بود. از زمان تأسیس، مرکز فضایی جانسون ناسا به رهبری برنامه پروازهای فضایی انسان در این کشور کمک کرده و از مأموریت‌های پروژه مرکوری از طریق آرتمیس پشتیبانی می‌کند. امروز، جانسون به عنوان مرکز تعالی ناسا برای پروازهای فضایی انسانی خدمت می کند و نیروی کار آن در حال کمک است.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/s63-11625.jpg?w=1536",
+   "link": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-02T21:35:59.000Z"
+  },
+  {
+   "slug": "nasa-14opdvs",
+   "title": "Week Starts with Spacewalk Preps and Life Science",
+   "title_fa": null,
+   "summary": "Preparations continue for the second in the final series of spacewalks to upgrade the International Space Station’s power generation system on Thursday. Meanwhile, the Expedition 75 crew focused its research efforts on life science at the beginning of the week.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss075e0253155/iss075e0253155~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-02T19:14:48.000Z"
+  },
+  {
+   "slug": "science-6h41o",
+   "title": "NASA’s Twin ESCAPADE Spacecraft to Slingshot Past Earth on Way to Mars",
+   "title_fa": null,
+   "summary": "In a few days, NASA’s ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) will perform a maneuver that no agency spacecraft has flown before — and do it twice. Each of the two ESCAPADE spacecraft will execute a “powered” flyby of Earth, combining Earth’s gravity with an engine burn, to slingshot itself toward Mars. The […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/Boulder-star-chart-ESCAPADE-Nov7.jpg?w=1098&h=711&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-02T19:11:28.000Z"
+  },
+  {
+   "slug": "nasa-wmeqtz",
+   "title": "NASA’s CHAPEA Crew “Returns” to Earth",
+   "title_fa": "خدمه CHAPEA ناسا \"بازگشت\" به زمین",
+   "summary": "The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026. Crew members Matthew Montgomery (left), James Spicer (middle left), Ross Elder (middle right), and Ellen Ellis (right) spent more than a year […]",
+   "summary_fa": "خدمه چهار نفره آنالوگ کاوش سلامت و عملکرد خدمه (CHAPEA) برای اولین بار در بیش از یک سال پس از پایان سفر شبیه‌سازی شده خود به مریخ در 31 اکتبر 2026 در خارج از خانه ژست می‌گیرند. اعضای خدمه متیو مونتگومری (سمت چپ)، جیمز اسپایسر (وسط سمت چپ)، راس الدر (راست وسط) و الن النس (بیش از یک سال)",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e424293orig.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-02T18:50:42.000Z"
+  },
+  {
+   "slug": "science-153m2o",
+   "title": "What’s Up: November 2026 Skywatching Tips from NASA",
+   "title_fa": null,
+   "summary": "Meteor Showers, a Spacecraft Milestone, and a Supermoon Catch Taurid and Leonid meteors, spot Mars near Jupiter, celebrate Voyager 1’s light-day milestone, and watch November’s supermoon. Skywatching Highlights Transcript A month of meteor showers … a close pairing of Mars and Jupiter … and a supermoon! That’s What’s Up for November. November offers a buffet […]",
+   "summary_fa": null,
+   "image": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg?w=2048",
+   "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-02T18:19:58.000Z"
+  },
+  {
+   "slug": "science-1ultc2f",
+   "title": "NASA’s Swift Observatory to Re-Enter Atmosphere",
+   "title_fa": null,
+   "summary": "NASA’s Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere on Wednesday, Nov. 4, almost 22 years after launch. At launch, Swift was a first-of-its-kind multiwavelength observatory designed to study the most powerful explosions in the cosmos using its three telescopes. As of Monday, the U.S. Space Force predicted that the roughly 3,200-pound spacecraft […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/misc--spacecraft-art/Swift_in_space_05.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "link": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-02T17:59:53.000Z"
+  },
+  {
    "slug": "nasa-bibstz",
    "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
    "title_fa": "ناسا از رسانه ها برای راه اندازی مجدد ایستگاه نورث روپ گرومن CRS-25 دعوت می کند",
@@ -1361,18 +1433,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-02T17:33:22.000Z"
-  },
-  {
-   "slug": "science-1rjhcxk",
-   "title": "NASA’s Mission to Study Sunlight Completes Vacuum, Vibration Testing",
-   "title_fa": "ماموریت ناسا برای مطالعه نور خورشید آزمایش خلاء و ارتعاش را تکمیل می کند",
-   "summary": "Bright white lights reflect off the metallic hardware of a satellite poised for inspection. Engineers outfitted with bunny suits traverse the clean room, past machinery and test chambers. In the middle of the clean room is the spacecraft for NASA’s upcoming sunlight-measuring mission, TSIS-2 (Total and Spectral Solar Irradiance Sensor-2). This fall, the satellite took […]",
-   "summary_fa": "نورهای سفید روشن از سخت افزار فلزی ماهواره ای که برای بازرسی آماده شده است منعکس می شود. مهندسان با لباس های خرگوش از اتاق تمیز عبور می کنند، از ماشین آلات و اتاق های آزمایش عبور می کنند. در وسط اتاق تمیز، فضاپیمای مأموریت اندازه‌گیری نور خورشید آتی ناسا، TSIS-2 (سنسور تابش خورشیدی کل و طیفی-2) قرار دارد. پاییز امسال، ماهواره گرفت",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/blogs/2026/TSIS-2_Install_GA.jpg?w=1536&h=2048&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/tsis-2/2026/11/02/nasas-mission-to-study-sunlight-completes-vacuum-vibration-testing/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-02T16:00:00.000Z"
   },
   {
    "slug": "science-v0ym82",
@@ -1390,7 +1450,7 @@
    "slug": "science-1rstvn4",
    "title": "APOD: 2026 November 2 – A Long Cloud on Mars",
    "title_fa": "APOD: 2 نوامبر 2026 - ابری طولانی در مریخ",
-   "summary": "APOD Science APOD APOD: 2026 November 2 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Long […]",
+   "summary": "APODScienceAPODAPOD: 2026 November 2 – A…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Long Cloud on Mars Explanation: What’s causing this unusually long cloud on Mars? Known as the […",
    "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. طولانی",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/MonsCloud_MarsExpress_1920.jpg?w=1920&h=1200&fit=clip&crop=faces%2Cfocalpoint",
    "link": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
@@ -1402,7 +1462,7 @@
    "slug": "science-1etku45",
    "title": "APOD: 2026 November 1 – Colors of the Moon",
    "title_fa": "رنگ‌های ماه، ۱ نوامبر ۲۰۲۶ (تصویر نجومی روز ناسا):",
-   "summary": "APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the […]",
+   "summary": "APODScienceAPODAPOD: 2026 November 1 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the Moon Explanation: What color is the Moon? It depends on the night — and […]",
    "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت‌انگیز ما، همراه با توضیحی مختصر که توسط یک ستاره‌شناس حرفه‌ای نوشته شده است، نمایش داده می‌شود. رنگ‌های",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/MoonColors_Pace_960.jpg?w=960&h=991&fit=clip&crop=faces%2Cfocalpoint",
    "link": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
@@ -1414,25 +1474,13 @@
    "slug": "science-1o75kcx",
    "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
    "title_fa": "APOD: 31 اکتبر 2026 - شب در یک سیاره شبح وار",
-   "summary": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]",
+   "summary": "APODScienceAPODAPOD: 2026 October 31 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a Spooky Planet Explanation: What spooky planet is this? Planet Earth on a dark and […]",
    "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. شب در یک",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/Hverir_Vetter_1300.jpg?w=1300&h=867&fit=clip&crop=faces%2Cfocalpoint",
    "link": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-31T04:05:00.000Z"
-  },
-  {
-   "slug": "nasa-3gxaab",
-   "title": "NASA Releases MAX POWER Key Events for Media, Participants",
-   "title_fa": "ناسا رویدادهای کلیدی MAX POWER را برای رسانه‌ها و شرکت‌کنندگان منتشر کرد",
-   "summary": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]",
-   "summary_fa": "جدیدترین نمایشگاه هوافضا و نمایش هوایی AmAmerica - MAX POWER - به سرعت در حال نزدیک شدن است و ناسا رویدادهای کلیدی را که از جمعه، 6 نوامبر آغاز می‌شود و تا یکشنبه، 8 نوامبر ادامه دارد، اعلام کرده است که در مرکز فضایی کندی این آژانس در فلوریدا و در نزدیکی آن برگزار می‌شود. از طریق تجربیات متعدد پارک در MAX POWER، ناسا و همکاران خارجی مختلف",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg?w=1920",
-   "link": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-30T19:31:02.000Z"
   },
   {
    "slug": "nasa-1v9hatu",
@@ -1445,42 +1493,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-30T17:50:49.000Z"
-  },
-  {
-   "slug": "nasa-nvwqfz",
-   "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
-   "title_fa": "تلسکوپ فضایی جیمز وب ناسا از سر گربه وحشتناک عکس می گیرد",
-   "summary": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback […]",
-   "summary_fa": "ساختارهای پیچیده درون سحابی سر گربه در این نمای فروسرخ میانه از تلسکوپ فضایی جیمز وب ناسا که در 29 اکتبر 2026 منتشر شد، روشن شده است. شکل متمایز \"سر گربه\" سحابی احتمالاً در طول زمان توسط تابش شدید ماوراء بنفش ستارگان توده فرابنفش و بادهای تابش نور ماوراء بنفش ساخته شده است. به عنوان این بازخورد ستاره ای",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/full-res-for-display.png?w=2048",
-   "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-30T15:56:26.000Z"
-  },
-  {
-   "slug": "science-1ta1pdn",
-   "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
-   "title_fa": "ناسا در حال بررسی خدمات تجاری بالقوه برای تلسکوپ هابل است",
-   "summary": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
-   "summary_fa": "ناسا در 29 اکتبر درخواستی برای اطلاعات برای کسب اطلاعات بیشتر در مورد قابلیت های صنعت برای خدمات در فضا برای پشتیبانی از تلسکوپ فضایی هابل این آژانس صادر کرد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/04/2/27946391011_d40ff10573_h.jpg?w=1536&h=1020&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-30T14:51:21.000Z"
-  },
-  {
-   "slug": "science-6ma05j",
-   "title": "November’s Night Sky Notes: Light-Day Away",
-   "title_fa": null,
-   "summary": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. Using six gravity assists between them, this Grand Tour gave us up-close views of the gas and ice giants, including several moons. […]",
-   "summary_fa": null,
-   "image": "https://science.nasa.gov/wp-content/uploads/2024/04/grand-tour.jpg?w=1200",
-   "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-30T10:00:00.000Z"
   },
   {
    "slug": "nasa-agd0f4",
@@ -1553,30 +1565,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-29T10:32:26.000Z"
-  },
-  {
-   "slug": "nasa-1m2xth9",
-   "title": "NASA Celebrates a Year of Progress Since First X-59 Flight",
-   "title_fa": null,
-   "summary": "One year ago, NASA’s Quesst mission made history with the first flight of the X-59 quiet supersonic research aircraft. Since then, the X-59 has completed 40 additional flights, marking a year of steady progress for the program. While its first flight on Oct. 28, 2025, focused on low, slow flights to conduct systems checks, the X-59 has since reached a maximum altitude of more than 56,000 feet and speeds up to Mach 1.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2026-10-28-ff-anniv-final.gif?w=1280",
-   "link": "https://www.nasa.gov/blogs/quesst/2026/10/28/nasa-celebrates-a-year-of-progress-since-first-x-59-flight/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-28T19:24:28.000Z"
-  },
-  {
-   "slug": "nasa-tz91zu",
-   "title": "Astronauts Are Go For Thursday’s Power Upgrade Spacewalk",
-   "title_fa": null,
-   "summary": "Mission managers have given the go for Thursday’s spacewalk to install a new roll-out solar array on the International Space Station’s port-side truss structure.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926a.jpg",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/28/astronauts-are-go-for-thursdays-power-upgrade-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-28T16:30:27.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
