@@ -18,8 +18,9 @@ previews=[]
 for row,b,worker in zip(rows,bundles,worker_previews):
     captions={l:album_layout.caption(b,l) for l in ('fa','en')}
     if captions!=worker:raise RuntimeError('Python/Worker caption disagreement')
-    if len(b.get('image_urls',[]))!=4:raise RuntimeError('Expected four existing analysis photos')
-    previews.append({'product':row['product'],'status':row['status'],'image_count':4,
+    image_count=len(b.get('image_urls',[]))
+    if not 2<=image_count<=10:raise RuntimeError('Invalid existing analysis album size')
+    previews.append({'product':row['product'],'status':row['status'],'image_count':image_count,
         'visible_units':{l:album_layout.visible_units(t) for l,t in captions.items()},
         'captions':captions,'standalone_text_messages':0})
 Path('analysis-album-preview.json').write_text(json.dumps({'layout':'album_v1','checked_reserves':len(rows),
