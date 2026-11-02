@@ -14,6 +14,8 @@ def api(method,path,**kwargs):
     return data.get('result')
 def query(sql,params=None):
     return api('POST',f'/accounts/{account}/d1/database/{db}/query',json={'sql':sql,'params':params or []})
+import subprocess,sys
+subprocess.run([sys.executable,'scripts/verify_analysis_album_layout.py'],check=True)
 query(Path('cloudflare/analysis.sql').read_text())
 from datetime import datetime,timezone
 state=json.loads(Path('pipeline/state.json').read_text())

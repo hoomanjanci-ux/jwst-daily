@@ -13,6 +13,7 @@ import shutil
 import requests
 import analysis_slots
 import cadence
+import album_layout
 import cloud_queue
 
 
@@ -44,11 +45,11 @@ def checkpoint(engine, state):
 
 def api_once(token, chat, part, post, images):
     # Single request, no hidden 5xx/time-out retry (acceptance could be ambiguous).
-    method='sendMediaGroup' if part=='album' else 'sendMessage'
+    method='sendMediaGroup' if part in ('album','album_v1') else 'sendMessage'
     url=f'https://api.telegram.org/bot{token}/{method}'
     files={}
     try:
-        if part=='album':
+        if part in ('album','album_v1'):
             media=[]
             for i,path in enumerate(images):
                 key=f'file{i}';files[key]=open(path,'rb')
@@ -128,10 +129,18 @@ def deliver(engine,state,slot_key,slot,token,now=None):
     images=[cache/name for name in bundle['images']]
     if len(images)<2 or not all(p.is_file() for p in images):
         raise ValueError('Pair image reserve missing')
+    prior=slot.get('delivery',{})
+    legacy=any(p in ('album','text') for parts in prior.values() for p in parts)
+    if not legacy:
+        for lang in ('fa','en'):
+            bundle['translations'][lang]['caption']=album_layout.caption(bundle,lang)
+            bundle['translations'][lang]['delivery_layout']='album_v1'
+        bundle['delivery_layout']='album_v1'
+        (cache/'pair.json').write_text(json.dumps(bundle,ensure_ascii=False))
     for lang in ('fa','en'):
         key,chat=targets[lang]
         parts=slot.setdefault('delivery',{}).setdefault(lang,{})
-        for part in ('album','text'):
+        for part in (('album','text') if legacy else ('album_v1',)):
             status=parts.get(part,{}).get('status')
             if status=='sent':continue
             if status in ('sending','unverified'):
@@ -150,7 +159,7 @@ def deliver(engine,state,slot_key,slot,token,now=None):
                 parts[part]={'status':'unverified','error_type':type(e).__name__}
                 slot['status']='unverified';checkpoint(engine,state);return []
             parts[part]={'status':'sent','message_ids':ids,'utc':utcnow().isoformat()}
-            if part=='text':rec.setdefault('channels',{})[key]='sent'
+            if part in ('text','album_v1'):rec.setdefault('channels',{})[key]='sent'
             checkpoint(engine,state)
     slot.update(status='sent',completed_utc=utcnow().isoformat())
     rec.update(status='published',published_utc=slot['completed_utc'],analysis_slot=slot_key,

@@ -6,6 +6,7 @@ import html
 import json
 import ai_message
 import evidence_analysis
+import album_layout
 
 def select_focus(meta,stats):
     allowed=['bright_tail','sampling_quality']
@@ -53,4 +54,8 @@ def build_pair(meta,proposal,payload):
     canonical={'revision':3,'target':meta.get('TARGNAME'),'filter':meta.get('FILTER'),
                'statistics':measured,'analysis_focus':focus,'ai_assisted':assisted,'method':'regular grid sample; threshold median+5*(1.4826*MAD)',
                'interpretation':'pixel distribution only, not source identification or discovery'}
-    return {'canonical':canonical,'translations':pair}
+    bundle={'canonical':canonical,'translations':pair,'meta':meta,'delivery_layout':'album_v1'}
+    for lang in pair:
+        pair[lang]['caption']=album_layout.caption(bundle,lang)
+        pair[lang]['delivery_layout']='album_v1'
+    return bundle

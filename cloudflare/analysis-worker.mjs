@@ -23,9 +23,40 @@ async function dispatch(env,force=false) {
  await setting(env,'dispatch_http',r.status);
  if(r.status===204)await setting(env,'last_dispatch',new Date().toISOString());
 }
+export function visibleUnits(text) {
+ return text.replace(/<[^>]*>/g,'').replace(/&(#x[0-9a-f]+|#\d+|amp|lt|gt|quot|apos);/gi,(_,e)=>{
+  if(e[0]==='#')return String.fromCodePoint(e[1].toLowerCase()==='x'?parseInt(e.slice(2),16):parseInt(e.slice(1),10));
+  return {amp:'&',lt:'<',gt:'>',quot:'"',apos:"'"}[e.toLowerCase()];
+ }).length;
+}
+const esc=v=>String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#x27;');
+export function albumCaption(bundle,lang) {
+ const c=bundle.canonical||{},m=bundle.meta||{},s=c.statistics||{},post=bundle.translations[lang];
+ if(!Number.isFinite(s.sample_count)||!Number.isFinite(s.above_5scatter_percent))throw Error('Measured analysis evidence missing');
+ const pos=post.text.lastIndexOf('———');if(pos<0)throw Error('Analysis footer missing');
+ const footer=post.text.slice(pos),links=[...new Set(post.text.slice(0,pos).match(/<a\s+href="[^"]+"[^>]*>.*?<\/a>/gs)||[])];
+ if(!links.length)throw Error('Analysis source link missing');
+ const target=esc(c.target||m.TARGNAME||'JWST'),filter=c.filter||m.FILTER||'—';
+ const facts=`${esc(m.INSTRUME||'JWST')}/${esc(filter)} · ${esc(String(m['DATE-OBS']||'—').slice(0,10))}`;
+ const n=Number(s.sample_count).toLocaleString('en-US'),p=s.above_5scatter_percent;
+ let extra='',wave='';
+ if(s.brightest_quadrant_percent!=null)extra=lang==='fa'?` سهم پُرتراکم‌ترین ربع از این پیکسل‌ها: ${s.brightest_quadrant_percent}٪.`:` The most populated quadrant holds ${s.brightest_quadrant_percent}% of these pixels.`;
+ const match=String(filter).match(/^F(\d{3})(?:W2|[WMN])$/);
+ if(match&&String(m.INSTRUME).toUpperCase()==='NIRCAM'){
+  const w=Number(match[1])/100;
+  wave=lang==='fa'?` طول موج تقریبی: ${w} میکرومتر (فروسرخ نزدیک).`:` Approx. wavelength: ${w} µm (near-infrared).`;
+ }
+ const title=lang==='fa'?'راز کیهان | تحلیل داده':'COSMIC INSIGHT | Data analysis';
+ const body=lang==='fa'?`از ${n} پیکسل معتبرِ نمونه، ${p}٪ بیش از پنج برابر پراکندگی مقاوم بالاتر از میانه‌اند.${extra}${wave}`:`Of ${n} valid sampled pixels, ${p}% exceed the median by more than five robust-scatter units.${extra}${wave}`;
+ const note=lang==='fa'?'این سنجه الگوی روشنایی را توصیف می‌کند، نه شمارش ستاره یا کشف جرم.':'This describes brightness patterns, not a star count or a discovery.';
+ const mode=lang==='fa'?(c.ai_assisted?'محاسبات FITS؛ انتخاب محور با کمک هوش مصنوعی.':'محاسبات مستقیم FITS؛ متن تولیدشده با مدل نیست.'):(c.ai_assisted?'FITS calculations; AI-assisted focus selection.':'Direct FITS calculations; not model-generated prose.');
+ const text=`🔬 <b>${title}</b>\n<b>${target}</b> · ${facts}\n\n${body}\n\n${note}\n<i>${mode}</i>\n📡 ${links.join(' · ')} · median+5×1.4826×MAD\n\n${footer}`;
+ if(visibleUnits(text)>1024)throw Error('Complete album caption exceeds Telegram limit');
+ return text;
+}
 async function sendOnce(env,chat,part,post,images) {
- const method=part==='album'?'sendMediaGroup':'sendMessage';
- const data=part==='album'?{chat_id:chat,media:images.map((url,i)=>({type:'photo',media:url,...(i===0?{caption:post.caption,parse_mode:'HTML'}:{})}))}:{chat_id:chat,text:post.text,parse_mode:'HTML'};
+ const method=['album','album_v1'].includes(part)?'sendMediaGroup':'sendMessage';
+ const data=['album','album_v1'].includes(part)?{chat_id:chat,media:images.map((url,i)=>({type:'photo',media:url,...(i===0?{caption:post.caption,parse_mode:'HTML'}:{})}))}:{chat_id:chat,text:post.text,parse_mode:'HTML'};
  let r,json;
  try { r=await fetch(`https://api.telegram.org/bot${env.TG_BOT_TOKEN}/${method}`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),signal:AbortSignal.timeout(35000)});json=await r.json(); }
  catch {return {status:'unverified'};}
@@ -50,7 +81,19 @@ export async function deliver(env,slot) {
  }
  const row=await one(env,'SELECT payload FROM ai_queue WHERE product=?',record.product),bundle=JSON.parse(row.payload);
  if(!bundle.translations?.fa||!bundle.translations?.en||bundle.image_urls?.length<2)throw Error('Invalid paired reserve');
- for(const lang of ['fa','en'])for(const part of ['album','text']) {
+ // Existing partial publications finish in their original format. Never replay
+ // historical albums or mix layouts mid-publication. Unsent reserves upgrade now.
+ const prior=await env.DB.prepare('SELECT part FROM ai_receipts WHERE slot=?').bind(slot.key).all();
+ const legacy=prior.results.some(r=>r.part==='album'||r.part==='text');
+ if(!legacy){
+  for(const lang of ['fa','en']){
+   bundle.translations[lang].caption=albumCaption(bundle,lang);
+   bundle.translations[lang].delivery_layout='album_v1';
+  }
+  bundle.delivery_layout='album_v1';
+  await run(env,'UPDATE ai_queue SET payload=? WHERE product=?',JSON.stringify(bundle),record.product);
+ }
+ for(const lang of ['fa','en'])for(const part of (legacy?['album','text']:['album_v1'])) {
   if(new Date()>=new Date(slot.end))return false;
   const existing=await one(env,'SELECT status,updated_utc FROM ai_receipts WHERE slot=? AND lang=? AND part=?',slot.key,lang,part);
   if(existing?.status==='sent')continue;

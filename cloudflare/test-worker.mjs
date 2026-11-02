@@ -3,7 +3,7 @@ import {mkdtempSync,readFileSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {spawnSync} from 'node:child_process';
-import {slotAt,deliver} from './analysis-worker.mjs';
+import {slotAt,deliver,albumCaption,visibleUnits} from './analysis-worker.mjs';
 const py=`import sqlite3,json,sys
 c=sqlite3.connect(sys.argv[1]);c.row_factory=sqlite3.Row
 sql=sys.argv[2];args=json.loads(sys.argv[3])
@@ -24,29 +24,48 @@ for(const hour of [6,9,12,18]){
 }
 assert.equal(slotAt(new Date('2026-10-26T03:00:00+03:30')),null);
 let checks=0;
-for(const scenario of ['normal','duplicate','rejected','timeout','race']){
+for(const scenario of ['normal','duplicate','rejected','timeout','race','legacy_partial','historic','bad_caption']){
  const dir=mkdtempSync(join(tmpdir(),'analysis-worker-'));const db=new DB(join(dir,'db.sqlite'));
  try {
   db.sql(readFileSync(new URL('./analysis.sql',import.meta.url),'utf8'),[],'schema');
-  const bundle={translations:{fa:{caption:'FA',text:'FA same research'},en:{caption:'EN',text:'EN same research'}},image_urls:['https://example.com/0.jpg','https://example.com/1.jpg']};
+  const baseText='Full long research '+ 'details '.repeat(200)+'<a href="https://archive.stsci.edu/proposal-id/1">MAST / STScI</a>\n\n———\n<a href="https://t.me/test">Channel</a>\n<a href="https://t.me/news">News</a>\nt.me/test';
+  const bundle={canonical:{target:'2MASS J18022716+6043356',filter:'F460M',statistics:{sample_count:100406,above_5scatter_percent:0.234,brightest_quadrant_percent:61.277}},meta:{INSTRUME:'NIRCAM','DATE-OBS':'2026-09-02'},translations:{fa:{caption:'FA old brief',text:baseText},en:{caption:'EN old brief',text:baseText}},image_urls:[0,1,2,3].map(i=>`https://example.com/${i}.jpg`)};
+  if(scenario==='bad_caption')for(const p of Object.values(bundle.translations))p.text+='x'.repeat(2000);
+
   db.sql("INSERT INTO ai_queue(product,payload,status,created_utc) VALUES(?,?,'ready',?)",['p',JSON.stringify(bundle),new Date().toISOString()]);
   const env={DB:db,TG_BOT_TOKEN:'dummy'},slot={key:'test/06',start:new Date(Date.now()-60000).toISOString(),end:new Date(Date.now()+300000).toISOString()};
+  if(scenario==='legacy_partial'){
+   db.sql("INSERT INTO ai_slots(slot,start_utc,end_utc,status,product) VALUES(?,?,?,'retryable','p')",[slot.key,slot.start,slot.end]);
+   db.sql("UPDATE ai_queue SET status='reserved',slot=? WHERE product='p'",[slot.key]);
+   db.sql("INSERT INTO ai_receipts(slot,lang,part,status,ids,updated_utc) VALUES(?,'fa','album','sent','[9]',?)",[slot.key,new Date().toISOString()]);
+  }
+  if(scenario==='historic')db.sql("INSERT INTO ai_slots(slot,start_utc,end_utc,status,product) VALUES(?,?,?,'sent','p')",[slot.key,slot.start,slot.end]);
   let sent=0,requests=0,reject=true;
   globalThis.fetch=async(url,opts)=>{
    assert.ok(url.startsWith('https://api.telegram.org/'));
    const body=JSON.parse(opts.body);assert.ok(['@RazKeyhan','@CosmicInsightJWST'].includes(body.chat_id));
+   if(scenario!=='legacy_partial'){
+    assert.ok(url.endsWith('/sendMediaGroup'),'no standalone text permitted');
+    assert.equal(body.media.length,4);
+    assert.ok(visibleUnits(body.media[0].caption)<=1024);
+    assert.ok(body.media[0].caption.includes('100,406'));
+    assert.ok(body.media[0].caption.includes('https://t.me/news'));
+    assert.equal(body.media.filter(x=>x.caption).length,1);
+   }
    requests++;
    if(scenario==='timeout')throw new Error('uncertain acceptance');
    if(scenario==='rejected'&&reject){reject=false;return Response.json({ok:false},{status:429});}
    sent++;return Response.json({ok:true,result:url.endsWith('sendMediaGroup')?[{message_id:sent}]:{message_id:sent}});
   };
+  if(scenario==='bad_caption'){await assert.rejects(()=>deliver(env,slot));assert.equal(requests,0);checks++;continue;}
   if(scenario==='race')await Promise.all([deliver(env,slot),deliver(env,slot)]);
   else await deliver(env,slot);
   if(scenario==='rejected')await deliver(env,slot);
   if(scenario==='duplicate'||scenario==='timeout')await deliver(env,slot);
   const status=db.sql('SELECT status FROM ai_slots WHERE slot=?',[slot.key]).results[0].status;
   if(scenario==='timeout'){assert.equal(status,'unverified');assert.equal(requests,1);}
-  else {assert.equal(status,'sent');assert.equal(sent,4);}
+  else {assert.equal(status,'sent');assert.equal(sent,scenario==='historic'?0:scenario==='legacy_partial'?3:2);}
+  if(scenario==='historic')assert.equal(db.sql("SELECT payload FROM ai_queue WHERE product='p'").results[0].payload,JSON.stringify(bundle));
   checks++;
  } finally{rmSync(dir,{recursive:true,force:true});}
 }
