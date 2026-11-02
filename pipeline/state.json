@@ -73880,41 +73880,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-01T06:45:00.436663+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 8,
-    "next_window": "2026-11-01T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/"
-    ],
-    "en": [
-     "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/"
-    ],
-    "mode": "fresh (1 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-01T06:45:15.725383+00:00"
-  },
-  {
    "started_utc": "2026-11-01T08:14:00.676335+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -75341,6 +75306,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-02T14:31:19.589621+00:00"
+  },
+  {
+   "started_utc": "2026-11-02T17:28:29.809619+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-11-03T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/"
+    ],
+    "en": [
+     "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-02T17:28:44.178133+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -75696,6 +75696,10 @@
   "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/": {
    "fa": "2026-11-02T06:55:49.853198+00:00",
    "en": "2026-11-02T06:55:49.853198+00:00"
+  },
+  "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/": {
+   "fa": "2026-11-02T17:28:39.538000+00:00",
+   "en": "2026-11-02T17:28:39.538000+00:00"
   }
  },
  "news_archive": {
@@ -76472,6 +76476,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-02T05:05:00+00:00",
    "ts": "2026-11-02T06:55:49.853198+00:00"
+  },
+  "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/": {
+   "title": "هابل ناسا موردی از اکسیژن از دست رفته در کهکشان های کوتوله نزدیک را کشف کرد",
+   "summary": "هابل ناسا 37 کهکشان کوتوله مجاور را مطالعه کرد و دریافت که بسیاری از اکسیژنی که انتظار داشتند ببینند از دست رفته است.",
+   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-02T15:00:39+00:00",
+   "ts": "2026-11-02T17:28:39.538000+00:00"
   }
  },
  "news_title_fp": {
@@ -76768,6 +76781,10 @@
    "en": "2026-11-01"
   },
   "eccb420bb3b27361": {
+   "fa": "2026-11-02",
+   "en": "2026-11-02"
+  },
+  "2cb1cbaa1a1d4774": {
    "fa": "2026-11-02",
    "en": "2026-11-02"
   }
@@ -77068,6 +77085,10 @@
   [
    "eccb420bb3b27361",
    "apod 2026 november 2 a long cloud on mars"
+  ],
+  [
+   "2cb1cbaa1a1d4774",
+   "nasa s hubble uncovers case of missing oxygen in nearby dwarf galaxies"
   ]
  ],
  "combo_seen": {

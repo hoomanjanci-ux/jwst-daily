@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-02T14:31:20.891Z",
+ "generated_utc": "2026-11-02T17:28:47.663Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1351,6 +1351,30 @@
  ],
  "news": [
   {
+   "slug": "science-1rjhcxk",
+   "title": "NASA’s Mission to Study Sunlight Completes Vacuum, Vibration Testing",
+   "title_fa": null,
+   "summary": "Bright white lights reflect off the metallic hardware of a satellite poised for inspection. Engineers outfitted with bunny suits traverse the clean room, past machinery and test chambers. In the middle of the clean room is the spacecraft for NASA’s upcoming sunlight-measuring mission, TSIS-2 (Total and Spectral Solar Irradiance Sensor-2). This fall, the satellite took […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/blogs/2026/TSIS-2_Install_GA.jpg?w=1536&h=2048&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/tsis-2/2026/11/02/nasas-mission-to-study-sunlight-completes-vacuum-vibration-testing/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-02T16:00:00.000Z"
+  },
+  {
+   "slug": "science-v0ym82",
+   "title": "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
+   "title_fa": "هابل ناسا موردی از اکسیژن از دست رفته در کهکشان های کوتوله نزدیک را کشف کرد",
+   "summary": "NASA’s Hubble studied 37 nearby dwarf galaxies and found that much of the oxygen they expected to see is missing.",
+   "summary_fa": "هابل ناسا 37 کهکشان کوتوله مجاور را مطالعه کرد و دریافت که بسیاری از اکسیژنی که انتظار داشتند ببینند از دست رفته است.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/11/STScI-01M4RST3TGWT2T53FVXQBSP75D.jpg?w=1536&h=990&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-02T15:00:39.000Z"
+  },
+  {
    "slug": "science-1rstvn4",
    "title": "APOD: 2026 November 2 – A Long Cloud on Mars",
    "title_fa": "APOD: 2 نوامبر 2026 - ابری طولانی در مریخ",
@@ -1553,18 +1577,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-28T16:30:27.000Z"
-  },
-  {
-   "slug": "science-lin0jv",
-   "title": "NASA’s Lucy Reaches Trojan Asteroid Region 5 Years After Launch",
-   "title_fa": null,
-   "summary": "Having traveled more than 2.2 billion miles since it launched on Oct. 16, 2021, NASA’s Lucy is the first spacecraft to enter a region of primitive solar-system bodies known as the Jupiter Trojan asteroids.",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a020000/a020300/a020366/Lucy_SP_update_h264_1080-00495_print.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "link": "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-28T14:11:21.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
