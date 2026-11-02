@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-02T05:32:24.755Z",
+ "generated_utc": "2026-11-02T06:14:15.752Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1249,6 +1249,18 @@
  ],
  "news": [
   {
+   "slug": "science-1rstvn4",
+   "title": "APOD: 2026 November 2 – A Long Cloud on Mars",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 November 2 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Long […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/MonsCloud_MarsExpress_1920.jpg?w=1920&h=1200&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-02T05:05:00.000Z"
+  },
+  {
    "slug": "science-1etku45",
    "title": "APOD: 2026 November 1 – Colors of the Moon",
    "title_fa": "رنگ‌های ماه، ۱ نوامبر ۲۰۲۶ (تصویر نجومی روز ناسا):",
@@ -1343,30 +1355,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-30T04:05:00.000Z"
-  },
-  {
-   "slug": "science-l9a6dh",
-   "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
-   "title_fa": null,
-   "summary": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure where a Martian meteorite originated, Teghaza 001 includes clues that link it to highlands in the southern hemisphere of […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26802/PIA26802.jpg?w=1536&h=770&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-30T00:07:39.000Z"
-  },
-  {
-   "slug": "science-1hqo7ps",
-   "title": "Slice of Martian Meteorite Teghaza 001",
-   "title_fa": null,
-   "summary": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected light images like these serve as a scientist’s road map, helping them find minerals of interest to analyze by different instruments. Figure A is the same image with […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26801/PIA26801.jpg?w=1536&h=1186&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-29T23:32:35.000Z"
   },
   {
    "slug": "nasa-agd0f4",
