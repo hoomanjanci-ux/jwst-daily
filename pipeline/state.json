@@ -73880,37 +73880,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-01T08:14:00.676335+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 8,
-    "next_window": "2026-11-01T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-01T08:14:08.154695+00:00"
-  },
-  {
    "started_utc": "2026-11-01T08:31:04.473741+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -75341,6 +75310,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-02T17:28:44.178133+00:00"
+  },
+  {
+   "started_utc": "2026-11-02T18:07:42.589649+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-11-03T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/"
+    ],
+    "en": [
+     "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-02T18:07:55.859483+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -75700,6 +75704,10 @@
   "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/": {
    "fa": "2026-11-02T17:28:39.538000+00:00",
    "en": "2026-11-02T17:28:39.538000+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/": {
+   "fa": "2026-11-02T18:07:49.590892+00:00",
+   "en": "2026-11-02T18:07:49.590892+00:00"
   }
  },
  "news_archive": {
@@ -76485,6 +76493,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-02T15:00:39+00:00",
    "ts": "2026-11-02T17:28:39.538000+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/": {
+   "title": "ناسا از رسانه ها برای راه اندازی مجدد ایستگاه نورث روپ گرومن CRS-25 دعوت می کند",
+   "summary": "اعتبار رسانه ای برای پرتاب بعدی برای ارسال تحقیقات علمی، تجهیزات و تجهیزات ناسا به ایستگاه فضایی بین المللی باز است. یک فضاپیمای Northrop Grumman Cygnus XL در ماه نوامبر با موشک فالکون 9 SpaceX برای ناسا به آزمایشگاه مداری پرتاب خواهد شد. این مأموریت با نام 25 خدمات تدارکاتی تجاری Northrop Grumman ناسا شناخته می شود.",
+   "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-02T17:33:22+00:00",
+   "ts": "2026-11-02T18:07:49.590892+00:00"
   }
  },
  "news_title_fp": {
@@ -76785,6 +76802,10 @@
    "en": "2026-11-02"
   },
   "2cb1cbaa1a1d4774": {
+   "fa": "2026-11-02",
+   "en": "2026-11-02"
+  },
+  "3564654e19d3c922": {
    "fa": "2026-11-02",
    "en": "2026-11-02"
   }
@@ -77089,6 +77110,10 @@
   [
    "2cb1cbaa1a1d4774",
    "nasa s hubble uncovers case of missing oxygen in nearby dwarf galaxies"
+  ],
+  [
+   "3564654e19d3c922",
+   "nasa invites media to northrop grumman crs 25 station resupply launch"
   ]
  ],
  "combo_seen": {

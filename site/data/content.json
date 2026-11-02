@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-02T17:28:47.663Z",
+ "generated_utc": "2026-11-02T18:07:59.791Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1351,6 +1351,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-bibstz",
+   "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
+   "title_fa": "ناسا از رسانه ها برای راه اندازی مجدد ایستگاه نورث روپ گرومن CRS-25 دعوت می کند",
+   "summary": "Media accreditation is open for the next launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. A Northrop Grumman Cygnus XL spacecraft will launch in November to the orbital laboratory on a SpaceX Falcon 9 rocket for NASA. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, […]",
+   "summary_fa": "اعتبار رسانه ای برای پرتاب بعدی برای ارسال تحقیقات علمی، تجهیزات و تجهیزات ناسا به ایستگاه فضایی بین المللی باز است. یک فضاپیمای Northrop Grumman Cygnus XL در ماه نوامبر با موشک فالکون 9 SpaceX برای ناسا به آزمایشگاه مداری پرتاب خواهد شد. این مأموریت با نام 25 خدمات تدارکاتی تجاری Northrop Grumman ناسا شناخته می شود.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0189493/iss075e0189493~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-02T17:33:22.000Z"
+  },
+  {
    "slug": "science-1rjhcxk",
    "title": "NASA’s Mission to Study Sunlight Completes Vacuum, Vibration Testing",
    "title_fa": null,
@@ -1469,18 +1481,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-10-30T10:00:00.000Z"
-  },
-  {
-   "slug": "science-1botscs",
-   "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
-   "title_fa": null,
-   "summary": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Haunting the Cepheus […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/CepheusFlare_Tondinelli.jpg?w=2048&h=1391&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-10-30T04:05:00.000Z"
   },
   {
    "slug": "nasa-agd0f4",
