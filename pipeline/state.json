@@ -71498,37 +71498,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-10-31T23:38:45.158612+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 8,
-    "next_window": "2026-11-01T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-10-31T23:38:53.301237+00:00"
-  },
-  {
    "started_utc": "2026-11-01T01:32:09.601792+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -72954,6 +72923,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-02T06:39:48.510110+00:00"
+  },
+  {
+   "started_utc": "2026-11-02T06:55:42.462296+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 5,
+    "next_window": "2026-11-02T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-02T06:55:55.505059+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -73305,6 +73309,10 @@
   "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/": {
    "fa": "2026-11-01T06:45:08.192746+00:00",
    "en": "2026-11-01T06:45:08.192746+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/": {
+   "fa": "2026-11-02T06:55:49.853198+00:00",
+   "en": "2026-11-02T06:55:49.853198+00:00"
   }
  },
  "news_archive": {
@@ -74072,6 +74080,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-01T04:05:00+00:00",
    "ts": "2026-11-01T06:45:08.192746+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/": {
+   "title": "APOD: 2 نوامبر 2026 - ابری طولانی در مریخ",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. طولانی",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-02T05:05:00+00:00",
+   "ts": "2026-11-02T06:55:49.853198+00:00"
   }
  },
  "news_title_fp": {
@@ -74366,6 +74383,10 @@
   "c5e9269ed630d750": {
    "fa": "2026-11-01",
    "en": "2026-11-01"
+  },
+  "eccb420bb3b27361": {
+   "fa": "2026-11-02",
+   "en": "2026-11-02"
   }
  },
  "news_title_recent": [
@@ -74660,6 +74681,10 @@
   [
    "c5e9269ed630d750",
    "apod 2026 november 1 colors of the moon"
+  ],
+  [
+   "eccb420bb3b27361",
+   "apod 2026 november 2 a long cloud on mars"
   ]
  ],
  "combo_seen": {
