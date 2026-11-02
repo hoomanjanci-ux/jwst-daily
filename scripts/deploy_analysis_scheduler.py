@@ -42,18 +42,16 @@ api('PUT',f'/accounts/{account}/workers/scripts/{name}/schedules',json=[{'cron':
 # Only activate the new sender after the Worker is reachable; no send during shadow probe.
 for attempt in range(18):
     r=requests.get(url+'/status',headers={'Authorization':'Bearer '+admin},timeout=45)
-    if r.status_code==200:break
+    if r.status_code==200 and r.json().get('delivery_layout')=='album_v1':break
     if attempt==17:r.raise_for_status()
     time.sleep(5) # Worker route/secret propagation is not instantaneous.
 r.raise_for_status()
 query("INSERT INTO ai_control(key,value) VALUES('sender','cloudflare') ON CONFLICT(key) DO UPDATE SET value=excluded.value")
-r=requests.post(url+'/tick',headers={'Authorization':'Bearer '+admin},timeout=60);r.raise_for_status()
-dispatch_status=query("SELECT value FROM ai_control WHERE key='dispatch_http'")
-if not dispatch_status or str(dispatch_status[0]['results'][0]['value'])!='204':
-    raise RuntimeError('Scheduler deployed but preparation dispatch was not accepted')
+# Layout update is read-only: do not trigger a publication or a forced wake-up.
+verified={'active':True,'delivery_layout':r.json()['delivery_layout'],'publication_test':'not sent; next scheduled publication only'}
 Path('pipeline/analysis_runtime.json').write_text(json.dumps({'sender':'cloudflare','worker_url':url}))
 print('Independent analysis scheduler deployed:',url)
 print('Cron: every five minutes; timezone windows: Tehran 06/09/12/18')
-print('Warm-up:',json.dumps(r.json()))
+print('Warm-up:',json.dumps(verified))
 query("INSERT INTO ai_control(key,value) VALUES('worker_url',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value",[url])
-Path('analysis-deployment.json').write_text(json.dumps({'worker_url':url,'cron':'*/5 * * * *','warmup':r.json()}))
+Path('analysis-deployment.json').write_text(json.dumps({'worker_url':url,'cron':'*/5 * * * *','warmup':verified}))

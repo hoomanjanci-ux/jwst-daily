@@ -144,7 +144,7 @@ export default {
    if(new URL(request.url).pathname==='/tick'&&request.method==='POST')return Response.json(await tick(env));
    const heartbeat=await one(env,"SELECT value FROM ai_control WHERE key='heartbeat'");
    const slots=await env.DB.prepare('SELECT slot,status,completed_utc,note FROM ai_slots ORDER BY slot DESC LIMIT 8').all();
-   return Response.json({heartbeat:heartbeat?.value,slots:slots.results});
+   return Response.json({delivery_layout:'album_v1',heartbeat:heartbeat?.value,slots:slots.results});
   }catch(e){return Response.json({error_type:e.name},{status:500});}
  }
 };
