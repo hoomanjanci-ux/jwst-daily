@@ -73880,37 +73880,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-01T09:00:00.504789+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-01/12",
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 7,
-    "next_window": "2026-11-01T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-01T09:00:09.551750+00:00"
-  },
-  {
    "started_utc": "2026-11-01T09:27:37.837632+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -75340,6 +75309,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-02T18:26:53.019929+00:00"
+  },
+  {
+   "started_utc": "2026-11-02T18:33:08.673313+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-11-03T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blogs/tsis-2/2026/11/02/nasas-mission-to-study-sunlight-completes-vacuum-vibration-testing/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blogs/tsis-2/2026/11/02/nasas-mission-to-study-sunlight-completes-vacuum-vibration-testing/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-02T18:33:20.835361+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -75703,6 +75707,10 @@
   "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/": {
    "fa": "2026-11-02T18:07:49.590892+00:00",
    "en": "2026-11-02T18:07:49.590892+00:00"
+  },
+  "https://science.nasa.gov/blogs/tsis-2/2026/11/02/nasas-mission-to-study-sunlight-completes-vacuum-vibration-testing/": {
+   "fa": "2026-11-02T18:33:16.423976+00:00",
+   "en": "2026-11-02T18:33:16.423976+00:00"
   }
  },
  "news_archive": {
@@ -76497,6 +76505,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-02T17:33:22+00:00",
    "ts": "2026-11-02T18:07:49.590892+00:00"
+  },
+  "https://science.nasa.gov/blogs/tsis-2/2026/11/02/nasas-mission-to-study-sunlight-completes-vacuum-vibration-testing/": {
+   "title": "ماموریت ناسا برای مطالعه نور خورشید آزمایش خلاء و ارتعاش را تکمیل می کند",
+   "summary": "نورهای سفید روشن از سخت افزار فلزی ماهواره ای که برای بازرسی آماده شده است منعکس می شود. مهندسان با لباس های خرگوش از اتاق تمیز عبور می کنند، از ماشین آلات و اتاق های آزمایش عبور می کنند. در وسط اتاق تمیز، فضاپیمای مأموریت اندازه‌گیری نور خورشید آتی ناسا، TSIS-2 (سنسور تابش خورشیدی کل و طیفی-2) قرار دارد. پاییز امسال، ماهواره گرفت",
+   "link": "https://science.nasa.gov/blogs/tsis-2/2026/11/02/nasas-mission-to-study-sunlight-completes-vacuum-vibration-testing/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-02T16:00:00+00:00",
+   "ts": "2026-11-02T18:33:16.423976+00:00"
   }
  },
  "news_title_fp": {
@@ -76801,6 +76818,10 @@
    "en": "2026-11-02"
   },
   "3564654e19d3c922": {
+   "fa": "2026-11-02",
+   "en": "2026-11-02"
+  },
+  "baba5161fcd8ecac": {
    "fa": "2026-11-02",
    "en": "2026-11-02"
   }
@@ -77109,6 +77130,10 @@
   [
    "3564654e19d3c922",
    "nasa invites media to northrop grumman crs 25 station resupply launch"
+  ],
+  [
+   "baba5161fcd8ecac",
+   "nasa s mission to study sunlight completes vacuum vibration testing"
   ]
  ],
  "combo_seen": {
