@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T17:55:37.686Z",
+ "generated_utc": "2026-11-03T18:53:15.311Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1419,6 +1419,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-1ybo2ya",
+   "title": "Crew Keeps Up Spacewalk Preps, Research, and Cargo Operations",
+   "title_fa": null,
+   "summary": "Expedition 75 is continuing preparations for the second and final spacewalk in a series of two to upgrade the International Space Station’s power generation system. The orbital residents are also conducting microgravity research and transferring cargo in and out of a U.S. cargo spacecraft.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss075e0253663/iss075e0253663~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/03/crew-keeps-up-spacewalk-preps-research-and-cargo-operations/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-03T18:22:21.000Z"
+  },
+  {
    "slug": "nasa-yfe7v9",
    "title": "Astronaut and Earth",
    "title_fa": "فضانورد و زمین",
@@ -1609,18 +1621,6 @@
    "source": "ESA/Webb",
    "source_fa": "اسا/وب (جیمز وب)",
    "date_utc": "2026-10-29T14:00:00.000Z"
-  },
-  {
-   "slug": "nasa-7ly3qb",
-   "title": "Astronauts Begin Spacewalk to Install Roll-Out Solar Arrays",
-   "title_fa": null,
-   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk began a spacewalk at 7:57 a.m. EDT outside the International Space Station airlock to install and deploy an International Space Station Roll-Out Solar Array on the 2A electrical power channel.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926c-1.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T12:02:14.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
