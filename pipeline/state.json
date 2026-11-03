@@ -73846,32 +73846,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-01T15:14:37.907002+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-01/18",
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 7,
-    "next_window": "2026-11-02T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-01T15:14:43.257089+00:00"
-  },
-  {
    "started_utc": "2026-11-01T15:29:48.981817+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -75346,6 +75320,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-03T05:34:47.820104+00:00"
+  },
+  {
+   "started_utc": "2026-11-03T07:19:02.933450+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-11-03T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-3-:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-03T07:19:16.008153+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -75741,6 +75750,9 @@
   "https://science.nasa.gov/blogs/eyes/2026/11/02/nasas-eyes-software-october-release-notes/": {
    "fa": "2026-11-03T01:41:09.543408+00:00",
    "en": "2026-11-03T01:41:09.543408+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/": {
+   "en": "2026-11-03T07:19:09.564392+00:00"
   }
  },
  "news_archive": {
@@ -76945,6 +76957,9 @@
   "c1ab02db565e5b03": {
    "fa": "2026-11-03",
    "en": "2026-11-03"
+  },
+  "cb3d92e39bf46afe": {
+   "en": "2026-11-03"
   }
  },
  "news_title_recent": [
@@ -77283,6 +77298,10 @@
   [
    "c1ab02db565e5b03",
    "nasa s eyes software october release notes"
+  ],
+  [
+   "cb3d92e39bf46afe",
+   "apod 2026 november 3 comet panstarrs and rainbow meteor"
   ]
  ],
  "combo_seen": {
