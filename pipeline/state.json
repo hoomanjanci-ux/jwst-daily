@@ -77242,31 +77242,40 @@
    "status": "legacy_v01"
   },
   "jw10790002001_06201_00004_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790001001_02201_00004_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790004001_04201_00004_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790002001_06201_00004_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790001001_02201_00004_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790004001_04201_00004_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790002001_06201_00004_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790001001_02201_00004_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790004001_04201_00004_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   }
  },
  "runs": [
