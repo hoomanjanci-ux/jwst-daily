@@ -73880,33 +73880,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-01T09:35:54.538686+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-01T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-01T09:37:38.262119+00:00"
-  },
-  {
    "started_utc": "2026-11-01T10:40:57.271892+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -75350,6 +75323,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-02T21:54:05.713376+00:00"
+  },
+  {
+   "started_utc": "2026-11-03T00:04:59.506245+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-11-03T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/",
+     "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/",
+     "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+    ],
+    "mode": "fresh (4 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-03T00:05:18.665844+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -75725,6 +75735,14 @@
   "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/": {
    "fa": "2026-11-02T21:53:56.335042+00:00",
    "en": "2026-11-02T21:53:56.335042+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/": {
+   "fa": "2026-11-03T00:05:08.593380+00:00",
+   "en": "2026-11-03T00:05:08.593380+00:00"
+  },
+  "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/": {
+   "fa": "2026-11-03T00:05:08.593380+00:00",
+   "en": "2026-11-03T00:05:08.593380+00:00"
   }
  },
  "news_archive": {
@@ -76546,6 +76564,24 @@
    "source_fa": "ناسا",
    "date": "2026-11-02T18:50:42+00:00",
    "ts": "2026-11-02T21:53:56.335042+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/": {
+   "title": "هفته با آماده سازی راهپیمایی فضایی و علوم زندگی آغاز می شود",
+   "summary": "آماده سازی برای دومین سری از آخرین راهپیمایی های فضایی برای ارتقای سیستم تولید برق ایستگاه فضایی بین المللی در روز پنجشنبه ادامه دارد. در همین حال، خدمه Expedition 75 تلاش های تحقیقاتی خود را بر روی علوم زیستی در ابتدای هفته متمرکز کردند.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-02T19:14:48+00:00",
+   "ts": "2026-11-03T00:05:08.593380+00:00"
+  },
+  "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/": {
+   "title": "فضاپیمای دوقلو ESCAPADE ناسا در مسیر مریخ از کنار زمین عبور می کند",
+   "summary": "چند روز دیگر، ESCAPADE ناسا (Escape and Plasma Acceleration and Dynamics Explorers) مانوری را انجام خواهد داد که هیچ فضاپیمایی قبلاً آن را انجام نداده است - و آن را دو بار انجام می دهد. هر یک از دو فضاپیمای ESCAPADE یک پرواز \"با قدرت\" از زمین را اجرا می کند که گرانش زمین را با سوختن موتور ترکیب می کند تا خود را به سمت مریخ شلیک کند. را",
+   "link": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-02T19:11:28+00:00",
+   "ts": "2026-11-03T00:05:08.593380+00:00"
   }
  },
  "news_title_fp": {
@@ -76864,6 +76900,14 @@
   "33bdd917de738c33": {
    "fa": "2026-11-02",
    "en": "2026-11-02"
+  },
+  "960c8690613920b0": {
+   "fa": "2026-11-03",
+   "en": "2026-11-03"
+  },
+  "b1674789d9048212": {
+   "fa": "2026-11-03",
+   "en": "2026-11-03"
   }
  },
  "news_title_recent": [
@@ -77182,6 +77226,14 @@
   [
    "33bdd917de738c33",
    "nasa s chapea crew returns to earth"
+  ],
+  [
+   "960c8690613920b0",
+   "week starts with spacewalk preps and life science"
+  ],
+  [
+   "b1674789d9048212",
+   "nasa s twin escapade spacecraft to slingshot past earth on way to mars"
   ]
  ],
  "combo_seen": {
