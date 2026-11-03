@@ -75735,33 +75735,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-01T15:36:00.377470+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-02T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-01T15:37:13.513183+00:00"
-  },
-  {
    "started_utc": "2026-11-01T15:55:39.817374+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -77244,6 +77217,39 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-03T08:33:11.913710+00:00"
+  },
+  {
+   "started_utc": "2026-11-03T09:20:01.667701+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-03/12",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 7,
+    "next_window": "2026-11-03T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/"
+    ],
+    "en": [],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-03T09:20:15.823787+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -77641,7 +77647,8 @@
    "en": "2026-11-03T01:41:09.543408+00:00"
   },
   "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/": {
-   "en": "2026-11-03T07:19:09.564392+00:00"
+   "en": "2026-11-03T07:19:09.564392+00:00",
+   "fa": "2026-11-03T09:20:10.562396+00:00"
   }
  },
  "news_archive": {
@@ -78508,6 +78515,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-11-02T23:43:02+00:00",
    "ts": "2026-11-03T01:41:09.543408+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/": {
+   "title": "دنباله‌دار PanSTARR و شهاب رنگین‌کمانی",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. دنباله دار PanSTARRs و",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-03T05:05:00+00:00",
+   "ts": "2026-11-03T09:20:10.562396+00:00"
   }
  },
  "news_title_fp": {
@@ -78848,7 +78864,8 @@
    "en": "2026-11-03"
   },
   "cb3d92e39bf46afe": {
-   "en": "2026-11-03"
+   "en": "2026-11-03",
+   "fa": "2026-11-03"
   }
  },
  "news_title_recent": [
