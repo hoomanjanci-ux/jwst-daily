@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T01:30:28.300Z",
+ "generated_utc": "2026-11-03T01:41:21.627Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1353,9 +1353,9 @@
   {
    "slug": "science-12jd4yh",
    "title": "NASA’s Eyes software: October release notes",
-   "title_fa": null,
+   "title_fa": "نرم افزار چشم ناسا: یادداشت های انتشار اکتبر",
    "summary": "On October 28, 2026, a new version of Eyes on Exoplanets was released. This release added the new Nancy Grace Roman Space Telescope, which is expected to find thousands of new exoplanets. When accessing Eyes on Exoplanets from your mobile phone, you can use the augmented reality feature to place the spacecraft in your own […]",
-   "summary_fa": null,
+   "summary_fa": "در 28 اکتبر 2026، نسخه جدیدی از Eyes on Exoplanets منتشر شد. این نسخه تلسکوپ فضایی رومی جدید نانسی گریس را اضافه کرد که انتظار می رود هزاران سیاره فراخورشیدی جدید را پیدا کند. هنگامی که از طریق تلفن همراه خود به Eyes on Exoplanets دسترسی دارید، می توانید از ویژگی واقعیت افزوده برای قرار دادن فضاپیما در فضای خود استفاده کنید.",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/eyes/common/promotion/eyes-blog-posts/october-2026-blog/Roman_exo2.jpg?w=1151&h=540&fit=clip&crop=faces%2Cfocalpoint",
    "link": "https://science.nasa.gov/blogs/eyes/2026/11/02/nasas-eyes-software-october-release-notes/",
    "source": "NASA Blogs",

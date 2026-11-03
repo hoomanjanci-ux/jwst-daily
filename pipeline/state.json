@@ -73880,33 +73880,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-01T11:45:57.130559+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-01T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-01T11:49:36.491201+00:00"
-  },
-  {
    "started_utc": "2026-11-01T12:50:54.529521+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -75370,6 +75343,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-03T01:30:25.249574+00:00"
+  },
+  {
+   "started_utc": "2026-11-03T01:41:01.204438+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-11-03T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blogs/eyes/2026/11/02/nasas-eyes-software-october-release-notes/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blogs/eyes/2026/11/02/nasas-eyes-software-october-release-notes/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-03T01:41:13.996710+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -75761,6 +75769,10 @@
   "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/": {
    "fa": "2026-11-03T01:30:14.693014+00:00",
    "en": "2026-11-03T01:30:14.693014+00:00"
+  },
+  "https://science.nasa.gov/blogs/eyes/2026/11/02/nasas-eyes-software-october-release-notes/": {
+   "fa": "2026-11-03T01:41:09.543408+00:00",
+   "en": "2026-11-03T01:41:09.543408+00:00"
   }
  },
  "news_archive": {
@@ -76618,6 +76630,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-11-02T17:59:53+00:00",
    "ts": "2026-11-03T01:30:14.693014+00:00"
+  },
+  "https://science.nasa.gov/blogs/eyes/2026/11/02/nasas-eyes-software-october-release-notes/": {
+   "title": "نرم افزار چشم ناسا: یادداشت های انتشار اکتبر",
+   "summary": "در 28 اکتبر 2026، نسخه جدیدی از Eyes on Exoplanets منتشر شد. این نسخه تلسکوپ فضایی رومی جدید نانسی گریس را اضافه کرد که انتظار می رود هزاران سیاره فراخورشیدی جدید را پیدا کند. هنگامی که از طریق تلفن همراه خود به Eyes on Exoplanets دسترسی دارید، می توانید از ویژگی واقعیت افزوده برای قرار دادن فضاپیما در فضای خود استفاده کنید.",
+   "link": "https://science.nasa.gov/blogs/eyes/2026/11/02/nasas-eyes-software-october-release-notes/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-02T23:43:02+00:00",
+   "ts": "2026-11-03T01:41:09.543408+00:00"
   }
  },
  "news_title_fp": {
@@ -76950,6 +76971,10 @@
    "en": "2026-11-03"
   },
   "03e18496722c8a12": {
+   "fa": "2026-11-03",
+   "en": "2026-11-03"
+  },
+  "c1ab02db565e5b03": {
    "fa": "2026-11-03",
    "en": "2026-11-03"
   }
@@ -77286,6 +77311,10 @@
   [
    "03e18496722c8a12",
    "nasa s swift observatory to re enter atmosphere"
+  ],
+  [
+   "c1ab02db565e5b03",
+   "nasa s eyes software october release notes"
   ]
  ],
  "combo_seen": {
