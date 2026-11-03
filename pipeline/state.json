@@ -73321,82 +73321,27 @@
    "status": "legacy_v01"
   },
   "jw12522082001_0310j_00005_nrcalong_rate.fits": {
-   "channels": {},
-   "status": "ready",
+   "channels": {
+    "fa_ai": "sent",
+    "en_ai": "sent"
+   },
+   "status": "published",
    "score": 44.94,
    "analyzed_utc": "2026-11-02T08:32:21.006325+00:00",
    "analysis": "analyses/2026/11/02/jw12522082001_0310j_00005_nrcalong_rate.fits.json",
-   "cand": {
-    "filename": "jw12522082001_0310j_00005_nrcalong_rate.fits",
-    "size_mb": 2.035,
-    "uri": "mast:JWST/product/jw12522082001_0310j_00005_nrcalong_rate.fits",
-    "proposal": "12522",
-    "obs_id": "jw12522082001_0310j_00005_nrcalong",
-    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522082001_0310j_00005_nrcalong_rate.fits",
-    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12522082001_0310j_00005_nrcalong_rate.fits",
-    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522082001_0310j_00005_nrcalong_rate.jpg"
-   },
    "meta_TARGNAME": "2MASS J18022716+6043356",
    "meta_FILTER": "F356W",
    "meta_INSTRUME": "NIRCAM",
    "combo": "2MASS J18022716+6043356|NIRCAM|F356W",
    "sha256": "f1c071642788d60ae52722a853c03e584e075e546509261631b071627d68b11b",
    "bytes": 2134080,
-   "published_utc": null,
+   "published_utc": "2026-11-03T14:30:39.713Z",
    "analysis_revision": 3,
-   "quality_log": {
-    "fa": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.6169,
-      "brightness": 0.6617,
-      "range": 1.0,
-      "roi": 0.4494,
-      "score": 79.0
-     },
-     "evidence": {
-      "bright_tail_pixel_count": 909,
-      "brightest_quadrant_percent": 89.219,
-      "width": 320,
-      "height": 320,
-      "sample_stride": 1,
-      "sample_count": 100406,
-      "finite_fraction": 0.980527,
-      "median": 4.863885164260864,
-      "robust_scatter": 0.5537159132480621,
-      "above_5scatter_percent": 0.9053,
-      "p99_above_median_scatter": 4.217,
-      "bunit": "DN/s"
-     },
-     "method": "measured-data-analysis-v3"
-    },
-    "en": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.6169,
-      "brightness": 0.6617,
-      "range": 1.0,
-      "roi": 0.4494,
-      "score": 79.0
-     },
-     "evidence": {
-      "bright_tail_pixel_count": 909,
-      "brightest_quadrant_percent": 89.219,
-      "width": 320,
-      "height": 320,
-      "sample_stride": 1,
-      "sample_count": 100406,
-      "finite_fraction": 0.980527,
-      "median": 4.863885164260864,
-      "robust_scatter": 0.5537159132480621,
-      "above_5scatter_percent": 0.9053,
-      "p99_above_median_scatter": 4.217,
-      "bunit": "DN/s"
-     },
-     "method": "measured-data-analysis-v3"
-    }
-   },
-   "paired_ready_utc": "2026-11-02T08:32:54.685262+00:00"
+   "paired_ready_utc": "2026-11-02T08:32:54.685262+00:00",
+   "analysis_slot": "2026-11-03/18",
+   "research_sha256": "59cf51c20c8ce11ca23918a1277662481c5da5f31c423141401e7c21f88a699a",
+   "site_archive": "ok",
+   "d1_sync": "ok"
   },
   "jw12522082001_0310l_00005_nrca2_rate.fits": {
    "channels": {},
@@ -77285,13 +77230,16 @@
    "status": "legacy_v01"
   },
   "jw10790003001_10201_00004_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790003001_10201_00004_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790003001_10201_00004_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   }
  },
  "runs": [
@@ -80799,7 +80747,8 @@
   "2MASS J18022716+6043356|NIRCAM|F460M": "2026-11-02T14:30:40.481Z",
   "|NIRCAM|F182M": "2026-11-03T02:30:37.142Z",
   "|NIRCAM|F360M": "2026-11-03T05:30:37.512Z",
-  "BD+60 1753|NIRCAM|F444W": "2026-11-03T08:30:35.993Z"
+  "BD+60 1753|NIRCAM|F444W": "2026-11-03T08:30:35.993Z",
+  "2MASS J18022716+6043356|NIRCAM|F356W": "2026-11-03T14:30:39.713Z"
  },
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
@@ -82288,9 +82237,35 @@
   "2026-11-03/18": {
    "start": "2026-11-03T14:30:00.000Z",
    "end": "2026-11-03T15:30:00.000Z",
-   "status": "waiting",
-   "product": null,
-   "note": null,
+   "status": "sent",
+   "product": "jw12522082001_0310j_00005_nrcalong_rate.fits",
+   "delivery": {
+    "en": {
+     "album_v1": {
+      "status": "sent",
+      "message_ids": [
+       194,
+       195,
+       196,
+       197
+      ],
+      "utc": "2026-11-03T14:30:39.498Z"
+     }
+    },
+    "fa": {
+     "album_v1": {
+      "status": "sent",
+      "message_ids": [
+       189,
+       190,
+       191,
+       192
+      ],
+      "utc": "2026-11-03T14:30:37.512Z"
+     }
+    }
+   },
+   "completed_utc": "2026-11-03T14:30:39.713Z",
    "sender": "cloudflare"
   },
   "2026-11-03/12": {
