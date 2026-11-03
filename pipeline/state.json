@@ -77424,33 +77424,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-01T22:05:57.242736+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-02T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-01T22:07:28.672198+00:00"
-  },
-  {
    "started_utc": "2026-11-01T23:00:07.196936+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -78930,6 +78903,45 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-03T16:44:09.827834+00:00"
+  },
+  {
+   "started_utc": "2026-11-03T17:40:06.164902+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 7,
+    "next_window": "2026-11-04T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {
+     "ESA/Webb": "HTTPError: 521 Server Error: <none> for url: https://esawebb.org/news/feed/"
+    },
+    "fa": [
+     "https://www.nasa.gov/image-article/astronaut-and-earth/",
+     "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/"
+    ],
+    "en": [
+     "https://www.nasa.gov/image-article/astronaut-and-earth/",
+     "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-03T17:40:26.540951+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -79329,6 +79341,14 @@
   "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/": {
    "en": "2026-11-03T07:19:09.564392+00:00",
    "fa": "2026-11-03T09:20:10.562396+00:00"
+  },
+  "https://www.nasa.gov/image-article/astronaut-and-earth/": {
+   "fa": "2026-11-03T17:40:14.727438+00:00",
+   "en": "2026-11-03T17:40:14.727438+00:00"
+  },
+  "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/": {
+   "fa": "2026-11-03T17:40:14.727438+00:00",
+   "en": "2026-11-03T17:40:14.727438+00:00"
   }
  },
  "news_archive": {
@@ -80204,6 +80224,24 @@
    "source_fa": "ناسا",
    "date": "2026-11-03T05:05:00+00:00",
    "ts": "2026-11-03T09:20:10.562396+00:00"
+  },
+  "https://www.nasa.gov/image-article/astronaut-and-earth/": {
+   "title": "فضانورد و زمین",
+   "summary": "جاشوا کوتریک، فضانورد CSA (آژانس فضایی کانادا) در طول راهپیمایی فضایی 29 اکتبر 2026 به تصویر کشیده شده است. در زمان ثبت این عکس، ایستگاه فضایی بین‌المللی در ارتفاع 267 مایلی از اقیانوس اطلس جنوبی بالا می‌رفت. Kutryk و فضانورد ناسا آنیل منون یک آرایه خورشیدی جدید در ایستگاه فضایی نصب کردند و چند کار پیشرو انجام دادند.",
+   "link": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-03T16:37:42+00:00",
+   "ts": "2026-11-03T17:40:14.727438+00:00"
+  },
+  "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/": {
+   "title": "فضانورد ناسا، خالق STEM برای روز STEM با دانش آموزان ارتباط برقرار کنید",
+   "summary": "دانش‌آموزان در سراسر کشور این فرصت را خواهند داشت که در طی یک تماس زنده و تعاملی در حین پرواز با فضانورد ناسا، آنیل منون و مارک رابر، خالق محتوای STEM و بنیان‌گذار بنیاد ClassCrunchLabs، مستقیماً با ایستگاه فضایی بین‌المللی ارتباط برقرار کنند. این رویداد که توسط دفتر تعامل STEM ناسا برگزار می شود، روز ملی STEM را با ارائه علم در دنیای واقعی جشن می گیرد.",
+   "link": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-03T15:15:50+00:00",
+   "ts": "2026-11-03T17:40:14.727438+00:00"
   }
  },
  "news_title_fp": {
@@ -80546,6 +80584,14 @@
   "cb3d92e39bf46afe": {
    "en": "2026-11-03",
    "fa": "2026-11-03"
+  },
+  "2f4f152245a796bd": {
+   "fa": "2026-11-03",
+   "en": "2026-11-03"
+  },
+  "7829a3ae6b10248e": {
+   "fa": "2026-11-03",
+   "en": "2026-11-03"
   }
  },
  "news_title_recent": [
@@ -80888,6 +80934,14 @@
   [
    "cb3d92e39bf46afe",
    "apod 2026 november 3 comet panstarrs and rainbow meteor"
+  ],
+  [
+   "2f4f152245a796bd",
+   "astronaut and earth"
+  ],
+  [
+   "7829a3ae6b10248e",
+   "nasa astronaut stem creator connect with students for stem day"
   ]
  ],
  "combo_seen": {

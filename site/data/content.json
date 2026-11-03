@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T16:44:13.500Z",
+ "generated_utc": "2026-11-03T17:40:30.941Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1419,11 +1419,23 @@
  ],
  "news": [
   {
+   "slug": "nasa-yfe7v9",
+   "title": "Astronaut and Earth",
+   "title_fa": "فضانورد و زمین",
+   "summary": "CSA (Canadian Space Agency) astronaut Joshua Kutryk is pictured during the Oct. 29, 2026, spacewalk. The International Space Station was soaring 267 miles above the South Atlantic Ocean at the time of this photograph. Kutryk and NASA astronaut Anil Menon installed a new roll-out solar array on the space station and performed some get-ahead work […]",
+   "summary_fa": "جاشوا کوتریک، فضانورد CSA (آژانس فضایی کانادا) در طول راهپیمایی فضایی 29 اکتبر 2026 به تصویر کشیده شده است. در زمان ثبت این عکس، ایستگاه فضایی بین‌المللی در ارتفاع 267 مایلی از اقیانوس اطلس جنوبی بالا می‌رفت. Kutryk و فضانورد ناسا آنیل منون یک آرایه خورشیدی جدید در ایستگاه فضایی نصب کردند و چند کار پیشرو انجام دادند.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0253663orig.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-03T16:37:42.000Z"
+  },
+  {
    "slug": "nasa-uy2sgn",
    "title": "NASA Astronaut, STEM Creator Connect with Students for STEM Day",
-   "title_fa": null,
+   "title_fa": "فضانورد ناسا، خالق STEM برای روز STEM با دانش آموزان ارتباط برقرار کنید",
    "summary": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator and founder of ClassCrunchLabs Foundation. The event, hosted by NASA’s Office of STEM Engagement, celebrates National STEM Day by bringing real‑world science, […]",
-   "summary_fa": null,
+   "summary_fa": "دانش‌آموزان در سراسر کشور این فرصت را خواهند داشت که در طی یک تماس زنده و تعاملی در حین پرواز با فضانورد ناسا، آنیل منون و مارک رابر، خالق محتوای STEM و بنیان‌گذار بنیاد ClassCrunchLabs، مستقیماً با ایستگاه فضایی بین‌المللی ارتباط برقرار کنند. این رویداد که توسط دفتر تعامل STEM ناسا برگزار می شود، روز ملی STEM را با ارائه علم در دنیای واقعی جشن می گیرد.",
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/anil-menon-downlink-nov-3.jpg?w=1280",
    "link": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/",
    "source": "NASA",
@@ -1443,18 +1455,6 @@
    "date_utc": "2026-11-03T05:05:00.000Z"
   },
   {
-   "slug": "science-12jd4yh",
-   "title": "NASA’s Eyes software: October release notes",
-   "title_fa": "نرم افزار چشم ناسا: یادداشت های انتشار اکتبر",
-   "summary": "On October 28, 2026, a new version of Eyes on Exoplanets was released. This release added the new Nancy Grace Roman Space Telescope, which is expected to find thousands of new exoplanets. When accessing Eyes on Exoplanets from your mobile phone, you can use the augmented reality feature to place the spacecraft in your own […]",
-   "summary_fa": "در 28 اکتبر 2026، نسخه جدیدی از Eyes on Exoplanets منتشر شد. این نسخه تلسکوپ فضایی رومی جدید نانسی گریس را اضافه کرد که انتظار می رود هزاران سیاره فراخورشیدی جدید را پیدا کند. هنگامی که از طریق تلفن همراه خود به Eyes on Exoplanets دسترسی دارید، می توانید از ویژگی واقعیت افزوده برای قرار دادن فضاپیما در فضای خود استفاده کنید.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/eyes/common/promotion/eyes-blog-posts/october-2026-blog/Roman_exo2.jpg?w=1151&h=540&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/eyes/2026/11/02/nasas-eyes-software-october-release-notes/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-02T23:43:02.000Z"
-  },
-  {
    "slug": "nasa-91mbyx",
    "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
    "title_fa": "65 سالگی مبارک: مرکز فضایی جانسون ناسا در آن زمان و اکنون",
@@ -1465,30 +1465,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-02T21:35:59.000Z"
-  },
-  {
-   "slug": "nasa-14opdvs",
-   "title": "Week Starts with Spacewalk Preps and Life Science",
-   "title_fa": "هفته با آماده سازی راهپیمایی فضایی و علوم زندگی آغاز می شود",
-   "summary": "Preparations continue for the second in the final series of spacewalks to upgrade the International Space Station’s power generation system on Thursday. Meanwhile, the Expedition 75 crew focused its research efforts on life science at the beginning of the week.",
-   "summary_fa": "آماده سازی برای دومین سری از آخرین راهپیمایی های فضایی برای ارتقای سیستم تولید برق ایستگاه فضایی بین المللی در روز پنجشنبه ادامه دارد. در همین حال، خدمه Expedition 75 تلاش های تحقیقاتی خود را بر روی علوم زیستی در ابتدای هفته متمرکز کردند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0253155/iss075e0253155~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-02T19:14:48.000Z"
-  },
-  {
-   "slug": "science-6h41o",
-   "title": "NASA’s Twin ESCAPADE Spacecraft to Slingshot Past Earth on Way to Mars",
-   "title_fa": "فضاپیمای دوقلو ESCAPADE ناسا در مسیر مریخ از کنار زمین عبور می کند",
-   "summary": "In a few days, NASA’s ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) will perform a maneuver that no agency spacecraft has flown before — and do it twice. Each of the two ESCAPADE spacecraft will execute a “powered” flyby of Earth, combining Earth’s gravity with an engine burn, to slingshot itself toward Mars. The […]",
-   "summary_fa": "چند روز دیگر، ESCAPADE ناسا (Escape and Plasma Acceleration and Dynamics Explorers) مانوری را انجام خواهد داد که هیچ فضاپیمایی قبلاً آن را انجام نداده است - و آن را دو بار انجام می دهد. هر یک از دو فضاپیمای ESCAPADE یک پرواز \"با قدرت\" از زمین را اجرا می کند که گرانش زمین را با سوختن موتور ترکیب می کند تا خود را به سمت مریخ شلیک کند. را",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/Boulder-star-chart-ESCAPADE-Nov7.jpg?w=1098&h=711&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-02T19:11:28.000Z"
   },
   {
    "slug": "nasa-wmeqtz",
@@ -1515,18 +1491,6 @@
    "date_utc": "2026-11-02T18:19:58.000Z"
   },
   {
-   "slug": "science-1ultc2f",
-   "title": "NASA’s Swift Observatory to Re-Enter Atmosphere",
-   "title_fa": "رصدخانه سویفت ناسا دوباره وارد جو می شود",
-   "summary": "NASA’s Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere on Wednesday, Nov. 4, almost 22 years after launch. At launch, Swift was a first-of-its-kind multiwavelength observatory designed to study the most powerful explosions in the cosmos using its three telescopes. As of Monday, the U.S. Space Force predicted that the roughly 3,200-pound spacecraft […]",
-   "summary_fa": "انتظار می رود رصدخانه سوئیفت نیل گرلز ناسا، تقریباً 22 سال پس از پرتاب، در روز چهارشنبه، 4 نوامبر، دوباره وارد جو زمین شود. در زمان پرتاب، سوئیفت اولین رصدخانه چندموجی در نوع خود بود که برای مطالعه قوی ترین انفجارهای کیهان با استفاده از سه تلسکوپ خود طراحی شد. از روز دوشنبه، نیروی فضایی ایالات متحده پیش بینی کرد که فضاپیمای تقریباً 3200 پوندی",
-   "image": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/misc--spacecraft-art/Swift_in_space_05.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "link": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-02T17:59:53.000Z"
-  },
-  {
    "slug": "nasa-bibstz",
    "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
    "title_fa": "ناسا از رسانه ها برای راه اندازی مجدد ایستگاه نورث روپ گرومن CRS-25 دعوت می کند",
@@ -1537,198 +1501,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-02T17:33:22.000Z"
-  },
-  {
-   "slug": "science-v0ym82",
-   "title": "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
-   "title_fa": "هابل ناسا موردی از اکسیژن از دست رفته در کهکشان های کوتوله نزدیک را کشف کرد",
-   "summary": "NASA’s Hubble studied 37 nearby dwarf galaxies and found that much of the oxygen they expected to see is missing.",
-   "summary_fa": "هابل ناسا 37 کهکشان کوتوله مجاور را مطالعه کرد و دریافت که بسیاری از اکسیژنی که انتظار داشتند ببینند از دست رفته است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/11/STScI-01M4RST3TGWT2T53FVXQBSP75D.jpg?w=1536&h=990&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-02T15:00:39.000Z"
-  },
-  {
-   "slug": "nasa-1v9hatu",
-   "title": "Space Crops and Advanced Tech Wrap Up Week Following Spacewalk",
-   "title_fa": "محصولات فضایی و فناوری پیشرفته هفته پس از راهپیمایی فضایی به پایان می رسد",
-   "summary": "Space crops research wrapped up the week following the completion of the first of two power upgrade spacewalks at the International Space Station. The Expedition 75 crew members rounded out their research schedule with virtual reality and super intelligence studies.",
-   "summary_fa": "تحقیقات محصولات فضایی یک هفته پس از اتمام اولین راهپیمایی از دو راهپیمایی فضایی ارتقاء انرژی در ایستگاه فضایی بین المللی به پایان رسید. اعضای خدمه Expedition 75 برنامه تحقیقاتی خود را با مطالعات واقعیت مجازی و فوق هوش کامل کردند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0227271/iss075e0227271~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/30/space-crops-and-advanced-tech-wrap-up-week-following-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-30T17:50:49.000Z"
-  },
-  {
-   "slug": "nasa-agd0f4",
-   "title": "Spacewalkers Install Roll-Out Solar Array for Power Generation",
-   "title_fa": null,
-   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronNASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk concluded their spacewalk outside the International Space Station at 3:08 p.m. EDT.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/blog-useva100-102926e.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T19:17:00.000Z"
-  },
-  {
-   "slug": "science-alyf1o",
-   "title": "NASA’s TRACERS First Results Offers Peek into Violent Magnetic Process",
-   "title_fa": null,
-   "summary": "NASA’s TRACERS (Tandem Reconnection and Cusp Electrodynamics Reconnaissance Satellites) mission has gathered its first clues to how space weather affects Earth’s magnetic field. In a new paper, researchers break down how these interactions work after analyzing initial observations from the first year of the mission. The two TRACERS spacecraft launched last year to explore how […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/tracer/TRACERS_Vantor%20Image.jpg?w=1536&h=1536&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/tracers/2026/10/29/nasas-tracers-first-results-offers-peek-into-violent-magnetic-process/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T18:15:07.000Z"
-  },
-  {
-   "slug": "science-a722of",
-   "title": "NASA’s Voyager 1 Conserves Power, Resolves Brief Communications Pause",
-   "title_fa": null,
-   "summary": "NASA’s Voyager team is celebrating two recent developments with the Voyager 1 spacecraft: In September, they successfully completed a months-long effort to stretch the spacecraft’s diminishing power supply. Then, on Oct. 20, an unexpected loss of communication with the spacecraft resolved itself after 48 hours, before the team sent commands to the spacecraft to troubleshoot […]",
-   "summary_fa": null,
-   "image": "https://science.nasa.gov/wp-content/uploads/2024/04/pia21737.jpg?w=2048",
-   "link": "https://science.nasa.gov/blogs/voyager/2026/10/29/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T17:30:08.000Z"
-  },
-  {
-   "slug": "esawebb-zfoa7t",
-   "title": "Photo Release: Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
-   "title_fa": null,
-   "summary": "The NASA/ESA Hubble and the NASA/ESA/CSA James Webb Space Telescopes recently stared at an eerie star-forming scene within the Carina Nebula, a massive gas and dust cloud located approximately 7,500 light-years away from Earth. The two telescopes offer complementary views of the shadowy form, nicknamed the Cat’s Head Nebula, which reflects the “magical” process of star formation. Hubble’s visible-light view shows the",
-   "summary_fa": null,
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2622a.jpg",
-   "link": "https://esawebb.org/news/weic2622/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-10-29T14:00:00.000Z"
-  },
-  {
-   "slug": "nasa-7ly3qb",
-   "title": "Astronauts Begin Spacewalk to Install Roll-Out Solar Arrays",
-   "title_fa": null,
-   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk began a spacewalk at 7:57 a.m. EDT outside the International Space Station airlock to install and deploy an International Space Station Roll-Out Solar Array on the 2A electrical power channel.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926c-1.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T12:02:14.000Z"
-  },
-  {
-   "slug": "esawebb-zfoa56",
-   "title": "Science Release: Webb measures distance to farthest fast radio burst, suggesting origin",
-   "title_fa": "اندازه‌گیری فاصله‌ی دورترین طوفان رادیویی سریع با تلسکوپ وب",
-   "summary": "First discovered in 2007, fast radio bursts are enigmatic, millisecond-long flashes of radio emission from the distant Universe. Their origin remains uncertain, particularly since most are seen once and never again. Astronomers using the NASA/ESA/CSA James Webb Space Telescope have pinpointed the host galaxy of the most distant fast radio burst (FRB) seen to date. Their finding has implications for what kind of energ",
-   "summary_fa": "طوفان‌های رادیویی سریع، فلش‌های رادیویی میلی‌ثانیه‌ای از کیهان دوردست هستند که منشأ آن‌ها هنوز نامشخص است و بیشتر تنها یک‌بار رصد می‌شوند. اخترشناسان با استفاده از تلسکوپ فضایی جیمز وب، کهکشان میزبان دورترین طوفان رادیویی سریع مشاهده‌شده تاکنون را شناسایی کردند. این یافته پیامدهایی درباره‌ی نوع رویداد پُرانرژی ایجادکننده‌ی این طوفان‌ها دارد.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2621a.jpg",
-   "link": "https://esawebb.org/news/weic2621/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-10-08T18:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoa63",
-   "title": "Photo Release: Webb captures commotion from nebula’s stellar jets",
-   "title_fa": "تلسکوپ جیمز وب، جنب‌وجوش جت‌های ستاره‌ای در سحابی را ثبت می‌کند",
-   "summary": "A technicolor dreamscape is revealed in this new image from the NASA/ESA/CSA James Webb Space Telescope. It portrays a stellar nursery known as NGC 7129, a nebula that holds numerous protostars and stars within its fields of gas and dust. Webb captured infrared light, which pierces through the dense matter that scatters or absorbs other types of light. This region, rife with stellar objects in different stages of the",
-   "summary_fa": "تلسکوپ فضایی جیمز وب تصویر جدیدی از سحابی NGC 7129 ثبت کرده است. این سحابی که زادگاه ستاره‌هاست، سرشار از پیش‌ستاره‌ها و ستاره‌هایی است که در میان گاز و غبار قرار دارند. نور مادون قرمز تلسکوپ جیمز وب از ماده‌های متراکم عبور می‌کند و جزئیاتی را آشکار می‌سازد که در دیگر اجزای طیف نوری پنهان‌اند. این منطقه با اشیاء آسمانی در مراحل مختلف عمرشان، فرصتی برای کاوش چگونگی شکل‌گیری ستاره‌ها و تأثیر آن‌ها بر محیط پیرامون فراهم می‌کند.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2620a.jpg",
-   "link": "https://esawebb.org/news/weic2620/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-10-06T13:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoei8",
-   "title": "Science Release: Webb provides crash course on planet-shattering collisions",
-   "title_fa": "وب، کلاس فشرده درباره برخورد‌های ویرانگر سیاره‌ای",
-   "summary": "In the early history of our Solar System, a Mars-sized object called Theia smashed into the infant Earth, vapourising massive amounts of rock and blasting it into space. Some of that material coalesced into the Moon. Astronomers have now used the NASA/ESA/CSA James Webb Space Telescope to examine a class of young stellar systems that show signs of similar upheavals, providing clues to the amount of energy in their co",
-   "summary_fa": "در تاریخ اولیه منظومه شمسی، جسمی به اندازه مریخ به نام «تییا» به زمین کودکی برخورد کرد و مقادیر عظیمی سنگ را بخار کرد؛ بخشی از آن مواد در فضا پراکنده شد و ماه شکل گرفت. اخترشناسان اکنون با تلسکوپ فضایی جیمز وب ناسا/ESA/CSA، سیستم‌های ستاره‌ای جوانی را مطالعه کرده‌اند که نشانه‌های آشفته‌ای مشابه دارند. این یافته‌ها سرنخی درباره میزان انرژی در این برخورد‌ها و نیز ترکیب و تکامل این سیستم‌های پرتلاطم ارائه می‌دهد.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2618a.jpg",
-   "link": "https://esawebb.org/news/weic2618/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-10-01T14:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoefl",
-   "title": "Photo Release: Webb reveals stunning panorama of star formation",
-   "title_fa": "آشکارسازی پنوراما خیرهکننده تشکیل ستارگان توسط تلسکوپ جیمز وب",
-   "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images from the NASA/ESA/CSA James Webb Space Telescope released to the public so far. Using Webb, astronomers searched IC 348 for brown dwarfs, which are less massive than the smallest stars. The researchers discovered brown dwarfs just twice the mass of Jupiter, bringing the study of these curious objects into a new mass range.",
-   "summary_fa": "تلسکوپ فضایی جیمز وب تصویری بی‌نظیر از ناحیه تشکیل ستارگان IC 348 ثبت کرده است که تا کنون بزرگ‌ترین تصویر منتشرشده از این تلسکوپ محسوب می‌شود. ستاره‌شناسان با استفاده از جیمز وب به دنبال کوتوله‌های قهوه‌ای در این ناحیه گشتند. این پژوهشگران کوتوله‌های قهوه‌ای با جرمی معادل دو برابر مشتری کشف کردند که مطالعه این اجرام را به دامنه جرمی جدیدی برد.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2619a.jpg",
-   "link": "https://esawebb.org/news/weic2619/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-09-15T14:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe3j",
-   "title": "Science Release: Webb reveals dust and water surviving in the extreme environment around the Milky Way’s central black hole",
-   "title_fa": "غبار و آب در نزدیکی سیاه‌چاله مرکزی راه‌شیری شناسایی شدند",
-   "summary": "Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive surprisingly close to the supermassive black hole at the centre of our Milky Way galaxy. The observations reveal that the evolved star IRS 3 continues to enrich its surroundings with newly formed material despite the intense radiation environment around Sagittarius A*.",
-   "summary_fa": "تیم بین‌المللی نجومی با استفاده از تلسکوپ فضایی جیمز وب نشان داد که غبار و آب می‌توانند در فاصله‌ای نزدیک به سیاه‌چاله ابرپرمasse در مرکز کهکشان راه‌شیری شکل گیرند و دوام آورند. مشاهدات نشان می‌دهد ستارہ تکامل‌یافتہ IRS 3 با وجود تشعشع شدید اطراف ساجیتاریوس ایستار، همچنان محیط پیرامون خود را با مواد تازه‌تشکیل‌شده غنی می‌کند.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2617a.jpg",
-   "link": "https://esawebb.org/news/weic2617/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-08-11T08:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe66",
-   "title": "Photo Release: Lion Nebula roars to life for Webb",
-   "title_fa": "تلسکوپ جیمز وب، سحابی شیر را به تصویر کشید",
-   "summary": "Observing across the starry “plains” of space, the NASA/ESA/CSA James Webb Space Telescope has taken images of NGC 2392, nicknamed the Lion Nebula.",
-   "summary_fa": "تلسکوپ فضایی جیمز وب (NASA/ESA/CSA) تصاویری از NGC 2392 ثبت کرده است که به سحابی شیر معروف است. این رصد ستارگان در دشت‌های پرستارهٔ فضا انجام شده است.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2616a.jpg",
-   "link": "https://esawebb.org/news/weic2616/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-08-10T14:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe59",
-   "title": "Photo Release: Webb uncovers unusual galaxy shaped by cosmic collision",
-   "title_fa": "تلسکوپ جیمز وب کهکشانی نادر را آشکار کرد",
-   "summary": "In new images from the NASA/ESA/CSA James Webb Space Telescope to celebrate its fourth science anniversary, a familiar galaxy transforms into something far richer, and far more complex, than ever seen before. Webb’s unprecedented sensitivity across near- and mid-infrared wavelengths cuts through the thick lanes of dust that obscure Centaurus A’s centre in visible light, showing a densely packed tapestry of individual",
-   "summary_fa": "تصاویر جدید تلسکوپ فضایی جیمز وب از کهکشان قنطورس الف، چهارمین سالگرد علمی این کاوشگر را به نمایش می‌گذارد. حساسیت بی‌سابقه جیمز وب در طول‌موج‌های نزدیک و میانه مادون‌قرمز، از میان نواحی غبارناک مرکز کهکشان عبور کرده و شبکه‌ای چگال از ستاره‌های فرد و فعالیتی پویا را نشان می‌دهد.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2615a.jpg",
-   "link": "https://esawebb.org/news/weic2615/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-07-06T14:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe7w",
-   "title": "Science Release: Webb studies how a planet survived death of its star",
-   "title_fa": "وب چگونه بقای سیاره پس از مرگ ستاره‌اش را بررسی کرد",
-   "summary": "An international team of astronomers have used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecting its atmosphere. They found that the planet is significantly warmer than expected and determined how it most likely reached its very tight orbit around the star, a white dwarf. The results are our ",
-   "summary_fa": "تیم بین‌المللی ستاره‌شناسان با استفاده از تلسکوپ فضایی جیمز وب، گذر سیاره فراخورشیدی WD 1856 b از روبروی ستاره میزبان کوتوله سفیدش را مشاهده کردند و جرم، دما و حتی جو آن را اندازه‌گیری نمودند. این سیاره به اندازه مشتری گرم‌تر از انتظار است و محققان دریافتند که احتمالاً از مدار دورتری به مدار بسیار نزدیکی در اطراف کوتوله سفید تغییر مسیر داده است. این نتایج نخستین پنجره بر سرنوشت سیاراتی مانند مشتری پس از مرگ خورشید، میلیاردها سال در آینده است.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2614a.jpg",
-   "link": "https://esawebb.org/news/weic2614/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-07-01T15:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe9m",
-   "title": "Photo Release: Webb pinpoints millions of stars within Cigar Galaxy",
-   "title_fa": "جیمز وب میلیون‌ها ستاره در کهکشان سیگار نشانه‌روی کرد",
-   "summary": "Located 12 million light-years away and undergoing rapid star formation, edge-on spiral galaxy Messier 82 (M82) is a scientifically unique sight to behold, and now the NASA/ESA/CSA James Webb Space Telescope has revealed previously unseen details.",
-   "summary_fa": "کهکشان مارپیچی مسیه ۸۲ (M82) که از فاصلهٔ ۱۲ میلیون سال نوری مشاهده می‌شود و فعالانه در حال تشکیل ستاره است، با عبور نور از لایه‌های آن، جلوه‌ای منحصربه‌فرد به نمایش می‌گذارد. تلسکوپ فضایی جیمز وب (مشترک ناسا، آژانس فضایی اروپا و کانادا) اکنون جزئیات پیش‌ازاین دیده‌نشده‌ای از این کهکشان را فاش کرده است.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2612a.jpg",
-   "link": "https://esawebb.org/news/weic2612/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-06-23T14:00:00.000Z"
   }
  ]
 }
