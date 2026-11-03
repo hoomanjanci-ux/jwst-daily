@@ -73880,33 +73880,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-01T10:40:57.271892+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-01T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-01T10:42:38.500515+00:00"
-  },
-  {
    "started_utc": "2026-11-01T11:45:57.130559+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -75360,6 +75333,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-03T00:05:18.665844+00:00"
+  },
+  {
+   "started_utc": "2026-11-03T01:30:05.073057+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 9,
+    "next_window": "2026-11-03T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+     "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"
+    ],
+    "en": [
+     "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+     "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-03T01:30:25.249574+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -75743,6 +75753,14 @@
   "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/": {
    "fa": "2026-11-03T00:05:08.593380+00:00",
    "en": "2026-11-03T00:05:08.593380+00:00"
+  },
+  "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/": {
+   "fa": "2026-11-03T01:30:14.693014+00:00",
+   "en": "2026-11-03T01:30:14.693014+00:00"
+  },
+  "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/": {
+   "fa": "2026-11-03T01:30:14.693014+00:00",
+   "en": "2026-11-03T01:30:14.693014+00:00"
   }
  },
  "news_archive": {
@@ -76582,6 +76600,24 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-11-02T19:11:28+00:00",
    "ts": "2026-11-03T00:05:08.593380+00:00"
+  },
+  "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/": {
+   "title": "چه خبر: نکات تماشای آسمان در نوامبر 2026 از ناسا",
+   "summary": "بارش شهابی، نقطه عطف فضاپیمایی، و شهاب‌های تورید و لئونید سوپرماه، مریخ را در نزدیکی مشتری مشاهده می‌کنند، نقطه عطف روز نوری وویجر 1 را جشن می‌گیرند و ابرماه نوامبر را تماشا می‌کنند. رونوشت نکات برجسته تماشای آسمان یک ماه بارش شهابی … یک جفت نزدیک از مریخ و مشتری… و یک ابرماه! این چیزی است که برای نوامبر رخ می دهد. نوامبر بوفه ارائه می دهد",
+   "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-02T18:19:58+00:00",
+   "ts": "2026-11-03T01:30:14.693014+00:00"
+  },
+  "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/": {
+   "title": "رصدخانه سویفت ناسا دوباره وارد جو می شود",
+   "summary": "انتظار می رود رصدخانه سوئیفت نیل گرلز ناسا، تقریباً 22 سال پس از پرتاب، در روز چهارشنبه، 4 نوامبر، دوباره وارد جو زمین شود. در زمان پرتاب، سوئیفت اولین رصدخانه چندموجی در نوع خود بود که برای مطالعه قوی ترین انفجارهای کیهان با استفاده از سه تلسکوپ خود طراحی شد. از روز دوشنبه، نیروی فضایی ایالات متحده پیش بینی کرد که فضاپیمای تقریباً 3200 پوندی",
+   "link": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-02T17:59:53+00:00",
+   "ts": "2026-11-03T01:30:14.693014+00:00"
   }
  },
  "news_title_fp": {
@@ -76906,6 +76942,14 @@
    "en": "2026-11-03"
   },
   "b1674789d9048212": {
+   "fa": "2026-11-03",
+   "en": "2026-11-03"
+  },
+  "4e34e11d6b439416": {
+   "fa": "2026-11-03",
+   "en": "2026-11-03"
+  },
+  "03e18496722c8a12": {
    "fa": "2026-11-03",
    "en": "2026-11-03"
   }
@@ -77234,6 +77278,14 @@
   [
    "b1674789d9048212",
    "nasa s twin escapade spacecraft to slingshot past earth on way to mars"
+  ],
+  [
+   "4e34e11d6b439416",
+   "what s up november 2026 skywatching tips from nasa"
+  ],
+  [
+   "03e18496722c8a12",
+   "nasa s swift observatory to re enter atmosphere"
   ]
  ],
  "combo_seen": {

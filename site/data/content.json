@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T00:05:22.744Z",
+ "generated_utc": "2026-11-03T01:30:28.300Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1351,6 +1351,18 @@
  ],
  "news": [
   {
+   "slug": "science-12jd4yh",
+   "title": "NASA’s Eyes software: October release notes",
+   "title_fa": null,
+   "summary": "On October 28, 2026, a new version of Eyes on Exoplanets was released. This release added the new Nancy Grace Roman Space Telescope, which is expected to find thousands of new exoplanets. When accessing Eyes on Exoplanets from your mobile phone, you can use the augmented reality feature to place the spacecraft in your own […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/eyes/common/promotion/eyes-blog-posts/october-2026-blog/Roman_exo2.jpg?w=1151&h=540&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blogs/eyes/2026/11/02/nasas-eyes-software-october-release-notes/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-02T23:43:02.000Z"
+  },
+  {
    "slug": "nasa-91mbyx",
    "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
    "title_fa": "65 سالگی مبارک: مرکز فضایی جانسون ناسا در آن زمان و اکنون",
@@ -1401,9 +1413,9 @@
   {
    "slug": "science-153m2o",
    "title": "What’s Up: November 2026 Skywatching Tips from NASA",
-   "title_fa": null,
+   "title_fa": "چه خبر: نکات تماشای آسمان در نوامبر 2026 از ناسا",
    "summary": "Meteor Showers, a Spacecraft Milestone, and a Supermoon Catch Taurid and Leonid meteors, spot Mars near Jupiter, celebrate Voyager 1’s light-day milestone, and watch November’s supermoon. Skywatching Highlights Transcript A month of meteor showers … a close pairing of Mars and Jupiter … and a supermoon! That’s What’s Up for November. November offers a buffet […]",
-   "summary_fa": null,
+   "summary_fa": "بارش شهابی، نقطه عطف فضاپیمایی، و شهاب‌های تورید و لئونید سوپرماه، مریخ را در نزدیکی مشتری مشاهده می‌کنند، نقطه عطف روز نوری وویجر 1 را جشن می‌گیرند و ابرماه نوامبر را تماشا می‌کنند. رونوشت نکات برجسته تماشای آسمان یک ماه بارش شهابی … یک جفت نزدیک از مریخ و مشتری… و یک ابرماه! این چیزی است که برای نوامبر رخ می دهد. نوامبر بوفه ارائه می دهد",
    "image": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg?w=2048",
    "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
    "source": "NASA",
@@ -1413,9 +1425,9 @@
   {
    "slug": "science-1ultc2f",
    "title": "NASA’s Swift Observatory to Re-Enter Atmosphere",
-   "title_fa": null,
+   "title_fa": "رصدخانه سویفت ناسا دوباره وارد جو می شود",
    "summary": "NASA’s Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere on Wednesday, Nov. 4, almost 22 years after launch. At launch, Swift was a first-of-its-kind multiwavelength observatory designed to study the most powerful explosions in the cosmos using its three telescopes. As of Monday, the U.S. Space Force predicted that the roughly 3,200-pound spacecraft […]",
-   "summary_fa": null,
+   "summary_fa": "انتظار می رود رصدخانه سوئیفت نیل گرلز ناسا، تقریباً 22 سال پس از پرتاب، در روز چهارشنبه، 4 نوامبر، دوباره وارد جو زمین شود. در زمان پرتاب، سوئیفت اولین رصدخانه چندموجی در نوع خود بود که برای مطالعه قوی ترین انفجارهای کیهان با استفاده از سه تلسکوپ خود طراحی شد. از روز دوشنبه، نیروی فضایی ایالات متحده پیش بینی کرد که فضاپیمای تقریباً 3200 پوندی",
    "image": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/misc--spacecraft-art/Swift_in_space_05.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
    "link": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
    "source": "NASA Blogs",
@@ -1553,18 +1565,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-10-29T12:02:14.000Z"
-  },
-  {
-   "slug": "nasa-1hql7wr",
-   "title": "Astronauts Suit Up to Prepare for Power Upgrade Spacewalk",
-   "title_fa": null,
-   "summary": "NASA is streaming live coverage as two astronauts prepare for a spacewalk outside the International Space Station.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926b-1.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-29T10:32:26.000Z"
   },
   {
    "slug": "esawebb-zfoa56",
