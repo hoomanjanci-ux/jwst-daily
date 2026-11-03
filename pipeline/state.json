@@ -80308,33 +80308,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-02T04:40:59.688215+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 6,
-    "next_window": "2026-11-02T09:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-02T04:43:11.121064+00:00"
-  },
-  {
    "started_utc": "2026-11-02T05:31:07.519052+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -81818,6 +81791,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-03T23:07:22.915376+00:00"
+  },
+  {
+   "started_utc": "2026-11-03T23:08:48.732121+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 7,
+    "next_window": "2026-11-04T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/smallsatellites/2026/11/03/nasa-funded-sspicy-mission-experiences-communications-loss/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/smallsatellites/2026/11/03/nasa-funded-sspicy-mission-experiences-communications-loss/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-03T23:09:02.678178+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -82229,6 +82237,10 @@
   "https://www.nasa.gov/blogs/spacestation/2026/11/03/crew-keeps-up-spacewalk-preps-research-and-cargo-operations/": {
    "fa": "2026-11-03T19:46:11.084316+00:00",
    "en": "2026-11-03T19:46:11.084316+00:00"
+  },
+  "https://www.nasa.gov/blogs/smallsatellites/2026/11/03/nasa-funded-sspicy-mission-experiences-communications-loss/": {
+   "fa": "2026-11-03T23:08:57.310569+00:00",
+   "en": "2026-11-03T23:08:57.310569+00:00"
   }
  },
  "news_archive": {
@@ -83131,6 +83143,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-11-03T18:22:21+00:00",
    "ts": "2026-11-03T19:46:11.084316+00:00"
+  },
+  "https://www.nasa.gov/blogs/smallsatellites/2026/11/03/nasa-funded-sspicy-mission-experiences-communications-loss/": {
+   "title": "از دست دادن تجارب ارتباطی ماموریت SSPICY با بودجه ناسا",
+   "summary": "یک ماهواره کوچک با پشتیبانی ناسا که در ماه اکتبر به عنوان یک نمایش فناوری به فضا پرتاب شد، ارتباط خود را با مالک و اپراتور خود، Starfish Space از دست داد. ناسا و ستاره‌فیش به این نتیجه رسیده‌اند که این فضاپیما به دلیل مشکلی که از ارتباطات بین SmallSat و اپراتورهای زمینی جلوگیری می‌کند قابل بازیابی نیست. به رهبری Starfish Space، قابلیت پیشران و بازرسی فضاپیمای کوچک ناسا (SSPICY)",
+   "link": "https://www.nasa.gov/blogs/smallsatellites/2026/11/03/nasa-funded-sspicy-mission-experiences-communications-loss/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-03T22:18:25+00:00",
+   "ts": "2026-11-03T23:08:57.310569+00:00"
   }
  },
  "news_title_fp": {
@@ -83483,6 +83504,10 @@
    "en": "2026-11-03"
   },
   "a6250a8135db8f33": {
+   "fa": "2026-11-03",
+   "en": "2026-11-03"
+  },
+  "ff3bf65639175789": {
    "fa": "2026-11-03",
    "en": "2026-11-03"
   }
@@ -83839,6 +83864,10 @@
   [
    "a6250a8135db8f33",
    "crew keeps up spacewalk preps research and cargo operations"
+  ],
+  [
+   "ff3bf65639175789",
+   "nasa funded sspicy mission experiences communications loss"
   ]
  ],
  "combo_seen": {
