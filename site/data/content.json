@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-04T08:32:48.390Z",
+ "generated_utc": "2026-11-04T10:43:12.074Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,40 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw12522082001-0310n-00005-nrca2-rate",
+   "product": "jw12522082001_0310n_00005_nrca2_rate.fits",
+   "published_utc": "2026-11-04T10:42:15.682295+00:00",
+   "target": "2MASS J18022716+6043356",
+   "instrument": "NIRCAM",
+   "detector": "NRCA2",
+   "filter": "F200W",
+   "obs_date": "2026-09-02",
+   "proposal": "12522",
+   "score": 36.59,
+   "quality_score": 75.04,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
+  {
+   "slug": "jw12522082001-0310f-00005-nrca2-rate",
+   "product": "jw12522082001_0310f_00005_nrca2_rate.fits",
+   "published_utc": "2026-11-04T10:42:06.172876+00:00",
+   "target": "2MASS J18022716+6043356",
+   "instrument": "NIRCAM",
+   "detector": "NRCA2",
+   "filter": "F187N",
+   "obs_date": "2026-09-02",
+   "proposal": "12522",
+   "score": 29.11,
+   "quality_score": 71.92,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
   {
    "slug": "jw12522082001-0310d-00005-nrcalong-rate",
    "product": "jw12522082001_0310d_00005_nrcalong_rate.fits",
