@@ -83714,7 +83714,7 @@
   },
   "jw12522082001_03107_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 31.94,
    "analyzed_utc": "2026-11-04T11:47:17.113526+00:00",
    "analysis": "analyses/2026/11/04/jw12522082001_03107_00005_nrcalong_rate.fits.json",
@@ -83734,7 +83734,61 @@
    "combo": "2MASS J18022716+6043356|NIRCAM|F335M",
    "sha256": "bf6ca3f4c653a596dbf79e8b6757093b4e1c4ed8156e87fa32cea99f11380b86",
    "bytes": 2134080,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4785,
+      "brightness": 0.3345,
+      "range": 1.0,
+      "roi": 0.3194,
+      "score": 69.38
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 204,
+      "brightest_quadrant_percent": 84.804,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100406,
+      "finite_fraction": 0.980527,
+      "median": -0.4677104353904724,
+      "robust_scatter": 2.3567143117547036,
+      "above_5scatter_percent": 0.2032,
+      "p99_above_median_scatter": 2.103,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4785,
+      "brightness": 0.3345,
+      "range": 1.0,
+      "roi": 0.3194,
+      "score": 69.38
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 204,
+      "brightest_quadrant_percent": 84.804,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100406,
+      "finite_fraction": 0.980527,
+      "median": -0.4677104353904724,
+      "robust_scatter": 2.3567143117547036,
+      "above_5scatter_percent": 0.2032,
+      "p99_above_median_scatter": 2.103,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-04T11:47:52.663701+00:00"
   },
   "jw12522082001_0310b_00005_nrcalong_rate.fits": {
    "channels": {},
