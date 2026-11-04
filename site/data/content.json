@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-04T21:13:17.528Z",
+ "generated_utc": "2026-11-04T21:59:08.151Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1487,6 +1487,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-11538m2",
+   "title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
+   "title_fa": "ناسا برنامه هایی برای شتاب بخشیدن به آرتمیس و بازگشت به ماه به اشتراک می گذارد",
+   "summary": "In an update on Oct. 23, NASA Administrator Jared Isaacman and other agency leaders shared the agency’s path to returning Americans to the lunar surface in 2028. Agency leadership provided updates on the previously announced acceleration plans for the Artemis program, advancing toward the agency’s Artemis III test flight in 2027 and Artemis IV Moon […]",
+   "summary_fa": "در یک به روز رسانی در 23 اکتبر، جارد آیزاکمن، مدیر ناسا و دیگر رهبران آژانس مسیر آژانس را برای بازگرداندن آمریکایی ها به سطح ماه در سال 2028 به اشتراک گذاشتند. رهبری آژانس به روز رسانی هایی را در مورد برنامه های شتاب اعلام شده قبلی برای برنامه Artemis ارائه کرد، و به سمت پرواز آزمایشی Artemis III آژانس در 2027 Artemis Moon و Artemis 2027 پیش رفت.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
+   "link": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-04T21:04:10.000Z"
+  },
+  {
    "slug": "nasa-1j5azf5",
    "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
    "title_fa": "ناسا جوایز رله ماهواره ای Ka-Band را برای ارتباطات فضایی اعلام کرد",
@@ -1501,9 +1513,9 @@
   {
    "slug": "nasa-13z6eku",
    "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
-   "title_fa": null,
+   "title_fa": "آزمایش ناوبری ناسا وعده فرود سیاره را نشان می دهد",
    "summary": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
-   "summary_fa": null,
+   "summary_fa": "ناسا با موفقیت فناوری طراحی شده برای کمک به فضاپیماها را برای حرکت مستقل به مکان های فرود ایمن در ماه و سایر سیارات نشان داد. یک پهپاد Alta-X مجهز به هدایت، ناوبری و محموله کنترلی Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) آژانس، مانورهای فرود و فرود شبیه سازی شده از ماه را در 27 اوت به پایان رساند. این پرواز انجام شد.",
    "image": "https://images-assets.nasa.gov/image/AFRC2026-0152-30/AFRC2026-0152-30~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
    "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
    "source": "NASA",
@@ -1617,18 +1629,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-03T15:15:50.000Z"
-  },
-  {
-   "slug": "science-1qfmqpo",
-   "title": "APOD: 2026 November 3 – Comet PanSTARRs and Rainbow Meteor",
-   "title_fa": "دنباله‌دار PanSTARR و شهاب رنگین‌کمانی",
-   "summary": "APOD Science APOD APOD: 2026 November 3 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Comet PanSTARRs and […]",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. دنباله دار PanSTARRs و",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/CometMeteor_Metais_1934.jpg?w=0&h=0&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-03T05:05:00.000Z"
   },
   {
    "slug": "science-12jd4yh",
