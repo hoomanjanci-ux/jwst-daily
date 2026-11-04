@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-04T00:41:58.715Z",
+ "generated_utc": "2026-11-04T00:51:02.600Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1443,6 +1443,42 @@
    "date_utc": "2026-11-03T18:22:21.000Z"
   },
   {
+   "slug": "nasa-yfe7v9",
+   "title": "Astronaut and Earth",
+   "title_fa": "فضانورد و زمین",
+   "summary": "CSA (Canadian Space Agency) astronaut Joshua Kutryk is pictured during the Oct. 29, 2026, spacewalk. The International Space Station was soaring 267 miles above the South Atlantic Ocean at the time of this photograph. Kutryk and NASA astronaut Anil Menon installed a new roll-out solar array on the space station and performed some get-ahead work […]",
+   "summary_fa": "جاشوا کوتریک، فضانورد CSA (آژانس فضایی کانادا) در طول راهپیمایی فضایی 29 اکتبر 2026 به تصویر کشیده شده است. در زمان ثبت این عکس، ایستگاه فضایی بین‌المللی در ارتفاع 267 مایلی از اقیانوس اطلس جنوبی بالا می‌رفت. Kutryk و فضانورد ناسا آنیل منون یک آرایه خورشیدی جدید در ایستگاه فضایی نصب کردند و چند کار پیشرو انجام دادند.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0253663orig.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-03T16:37:42.000Z"
+  },
+  {
+   "slug": "nasa-uy2sgn",
+   "title": "NASA Astronaut, STEM Creator Connect with Students for STEM Day",
+   "title_fa": "فضانورد ناسا، خالق STEM برای روز STEM با دانش آموزان ارتباط برقرار کنید",
+   "summary": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator and founder of ClassCrunchLabs Foundation. The event, hosted by NASA’s Office of STEM Engagement, celebrates National STEM Day by bringing real‑world science, […]",
+   "summary_fa": "دانش‌آموزان در سراسر کشور این فرصت را خواهند داشت که در طی یک تماس زنده و تعاملی در حین پرواز با فضانورد ناسا، آنیل منون و مارک رابر، خالق محتوای STEM و بنیان‌گذار بنیاد ClassCrunchLabs، مستقیماً با ایستگاه فضایی بین‌المللی ارتباط برقرار کنند. این رویداد که توسط دفتر تعامل STEM ناسا برگزار می شود، روز ملی STEM را با ارائه علم در دنیای واقعی جشن می گیرد.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/anil-menon-downlink-nov-3.jpg?w=1280",
+   "link": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-03T15:15:50.000Z"
+  },
+  {
+   "slug": "science-1qfmqpo",
+   "title": "APOD: 2026 November 3 – Comet PanSTARRs and Rainbow Meteor",
+   "title_fa": "دنباله‌دار PanSTARR و شهاب رنگین‌کمانی",
+   "summary": "APOD Science APOD APOD: 2026 November 3 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Comet PanSTARRs and […]",
+   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. دنباله دار PanSTARRs و",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/CometMeteor_Metais_1934.jpg?w=0&h=0&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-03T05:05:00.000Z"
+  },
+  {
    "slug": "science-12jd4yh",
    "title": "NASA’s Eyes software: October release notes",
    "title_fa": "نرم افزار چشم ناسا: یادداشت های انتشار اکتبر",
@@ -1453,6 +1489,18 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-02T23:43:02.000Z"
+  },
+  {
+   "slug": "nasa-91mbyx",
+   "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
+   "title_fa": "65 سالگی مبارک: مرکز فضایی جانسون ناسا در آن زمان و اکنون",
+   "summary": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from Project Mercury through Artemis. Today, Johnson serves as NASA’s Center of Excellence for Human Spaceflight, and its workforce is helping […]",
+   "summary_fa": "شصت و پنج سال پیش، یک چشم انداز جسورانه در هیوستون ریشه دوانید: یک مرکز ناسا که به پروازهای فضایی انسان اختصاص یافته بود. از زمان تأسیس، مرکز فضایی جانسون ناسا به رهبری برنامه پروازهای فضایی انسان در این کشور کمک کرده و از مأموریت‌های پروژه مرکوری از طریق آرتمیس پشتیبانی می‌کند. امروز، جانسون به عنوان مرکز تعالی ناسا برای پروازهای فضایی انسانی خدمت می کند و نیروی کار آن در حال کمک است.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/s63-11625.jpg?w=1536",
+   "link": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-02T21:35:59.000Z"
   },
   {
    "slug": "nasa-14opdvs",
@@ -1479,6 +1527,30 @@
    "date_utc": "2026-11-02T19:11:28.000Z"
   },
   {
+   "slug": "nasa-wmeqtz",
+   "title": "NASA’s CHAPEA Crew “Returns” to Earth",
+   "title_fa": "خدمه CHAPEA ناسا \"بازگشت\" به زمین",
+   "summary": "The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026. Crew members Matthew Montgomery (left), James Spicer (middle left), Ross Elder (middle right), and Ellen Ellis (right) spent more than a year […]",
+   "summary_fa": "خدمه چهار نفره آنالوگ کاوش سلامت و عملکرد خدمه (CHAPEA) برای اولین بار در بیش از یک سال پس از پایان سفر شبیه‌سازی شده خود به مریخ در 31 اکتبر 2026 در خارج از خانه ژست می‌گیرند. اعضای خدمه متیو مونتگومری (سمت چپ)، جیمز اسپایسر (وسط سمت چپ)، راس الدر (راست وسط) و الن النس (بیش از یک سال)",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e424293orig.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-02T18:50:42.000Z"
+  },
+  {
+   "slug": "science-153m2o",
+   "title": "What’s Up: November 2026 Skywatching Tips from NASA",
+   "title_fa": "چه خبر: نکات تماشای آسمان در نوامبر 2026 از ناسا",
+   "summary": "Meteor Showers, a Spacecraft Milestone, and a Supermoon Catch Taurid and Leonid meteors, spot Mars near Jupiter, celebrate Voyager 1’s light-day milestone, and watch November’s supermoon. Skywatching Highlights Transcript A month of meteor showers … a close pairing of Mars and Jupiter … and a supermoon! That’s What’s Up for November. November offers a buffet […]",
+   "summary_fa": "بارش شهابی، نقطه عطف فضاپیمایی، و شهاب‌های تورید و لئونید سوپرماه، مریخ را در نزدیکی مشتری مشاهده می‌کنند، نقطه عطف روز نوری وویجر 1 را جشن می‌گیرند و ابرماه نوامبر را تماشا می‌کنند. رونوشت نکات برجسته تماشای آسمان یک ماه بارش شهابی … یک جفت نزدیک از مریخ و مشتری… و یک ابرماه! این چیزی است که برای نوامبر رخ می دهد. نوامبر بوفه ارائه می دهد",
+   "image": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg?w=2048",
+   "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-02T18:19:58.000Z"
+  },
+  {
    "slug": "science-1ultc2f",
    "title": "NASA’s Swift Observatory to Re-Enter Atmosphere",
    "title_fa": "رصدخانه سویفت ناسا دوباره وارد جو می شود",
@@ -1489,6 +1561,18 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-02T17:59:53.000Z"
+  },
+  {
+   "slug": "nasa-bibstz",
+   "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
+   "title_fa": "ناسا از رسانه ها برای راه اندازی مجدد ایستگاه نورث روپ گرومن CRS-25 دعوت می کند",
+   "summary": "Media accreditation is open for the next launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. A Northrop Grumman Cygnus XL spacecraft will launch in November to the orbital laboratory on a SpaceX Falcon 9 rocket for NASA. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, […]",
+   "summary_fa": "اعتبار رسانه ای برای پرتاب بعدی برای ارسال تحقیقات علمی، تجهیزات و تجهیزات ناسا به ایستگاه فضایی بین المللی باز است. یک فضاپیمای Northrop Grumman Cygnus XL در ماه نوامبر با موشک فالکون 9 SpaceX برای ناسا به آزمایشگاه مداری پرتاب خواهد شد. این مأموریت با نام 25 خدمات تدارکاتی تجاری Northrop Grumman ناسا شناخته می شود.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0189493/iss075e0189493~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-02T17:33:22.000Z"
   },
   {
    "slug": "nasa-1v9hatu",
