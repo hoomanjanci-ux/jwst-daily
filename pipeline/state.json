@@ -83558,7 +83558,7 @@
   },
   "jw12522082001_0310f_00005_nrca2_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 29.11,
    "analyzed_utc": "2026-11-04T10:42:06.185009+00:00",
    "analysis": "analyses/2026/11/04/jw12522082001_0310f_00005_nrca2_rate.fits.json",
@@ -83578,7 +83578,61 @@
    "combo": "2MASS J18022716+6043356|NIRCAM|F187N",
    "sha256": "1270644b4fe96a28d276dd6441fe7955a9ba4c9c57b65e3e2279f403d8452f31",
    "bytes": 2134080,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5063,
+      "brightness": 0.4954,
+      "range": 1.0,
+      "roi": 0.2911,
+      "score": 71.92
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 121,
+      "brightest_quadrant_percent": 81.818,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100782,
+      "finite_fraction": 0.984199,
+      "median": 0.03899205103516579,
+      "robust_scatter": 0.6241278800994158,
+      "above_5scatter_percent": 0.1201,
+      "p99_above_median_scatter": 2.548,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5063,
+      "brightness": 0.4954,
+      "range": 1.0,
+      "roi": 0.2911,
+      "score": 71.92
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 121,
+      "brightest_quadrant_percent": 81.818,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100782,
+      "finite_fraction": 0.984199,
+      "median": 0.03899205103516579,
+      "robust_scatter": 0.6241278800994158,
+      "above_5scatter_percent": 0.1201,
+      "p99_above_median_scatter": 2.548,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-04T10:42:51.046393+00:00"
   },
   "jw12522082001_0310n_00005_nrca2_rate.fits": {
    "channels": {},
