@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-04T05:52:22.552Z",
+ "generated_utc": "2026-11-04T06:37:16.855Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1419,6 +1419,18 @@
  ],
  "news": [
   {
+   "slug": "science-dwl4gf",
+   "title": "APOD: 2026 November 4 – The Not-So-Hidden Galaxy, IC 342",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 November 4 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Not-So-Hidden […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/ic342.png?w=2048&h=1395&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-04T05:05:00.000Z"
+  },
+  {
    "slug": "nasa-1yg9cwv",
    "title": "NASA-Funded SSPICY Mission Experiences Communications Loss",
    "title_fa": "از دست دادن تجارب ارتباطی ماموریت SSPICY با بودجه ناسا",
@@ -1539,18 +1551,6 @@
    "date_utc": "2026-11-02T18:50:42.000Z"
   },
   {
-   "slug": "science-153m2o",
-   "title": "What’s Up: November 2026 Skywatching Tips from NASA",
-   "title_fa": "چه خبر: نکات تماشای آسمان در نوامبر 2026 از ناسا",
-   "summary": "Meteor Showers, a Spacecraft Milestone, and a Supermoon Catch Taurid and Leonid meteors, spot Mars near Jupiter, celebrate Voyager 1’s light-day milestone, and watch November’s supermoon. Skywatching Highlights Transcript A month of meteor showers … a close pairing of Mars and Jupiter … and a supermoon! That’s What’s Up for November. November offers a buffet […]",
-   "summary_fa": "بارش شهابی، نقطه عطف فضاپیمایی، و شهاب‌های تورید و لئونید سوپرماه، مریخ را در نزدیکی مشتری مشاهده می‌کنند، نقطه عطف روز نوری وویجر 1 را جشن می‌گیرند و ابرماه نوامبر را تماشا می‌کنند. رونوشت نکات برجسته تماشای آسمان یک ماه بارش شهابی … یک جفت نزدیک از مریخ و مشتری… و یک ابرماه! این چیزی است که برای نوامبر رخ می دهد. نوامبر بوفه ارائه می دهد",
-   "image": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg?w=2048",
-   "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-02T18:19:58.000Z"
-  },
-  {
    "slug": "science-1ultc2f",
    "title": "NASA’s Swift Observatory to Re-Enter Atmosphere",
    "title_fa": "رصدخانه سویفت ناسا دوباره وارد جو می شود",
@@ -1561,18 +1561,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-02T17:59:53.000Z"
-  },
-  {
-   "slug": "nasa-bibstz",
-   "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
-   "title_fa": "ناسا از رسانه ها برای راه اندازی مجدد ایستگاه نورث روپ گرومن CRS-25 دعوت می کند",
-   "summary": "Media accreditation is open for the next launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. A Northrop Grumman Cygnus XL spacecraft will launch in November to the orbital laboratory on a SpaceX Falcon 9 rocket for NASA. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, […]",
-   "summary_fa": "اعتبار رسانه ای برای پرتاب بعدی برای ارسال تحقیقات علمی، تجهیزات و تجهیزات ناسا به ایستگاه فضایی بین المللی باز است. یک فضاپیمای Northrop Grumman Cygnus XL در ماه نوامبر با موشک فالکون 9 SpaceX برای ناسا به آزمایشگاه مداری پرتاب خواهد شد. این مأموریت با نام 25 خدمات تدارکاتی تجاری Northrop Grumman ناسا شناخته می شود.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0189493/iss075e0189493~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-02T17:33:22.000Z"
   },
   {
    "slug": "nasa-1v9hatu",
