@@ -98656,33 +98656,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-03T13:55:59.670451+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-03T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-03T13:57:35.894690+00:00"
-  },
-  {
    "started_utc": "2026-11-03T14:31:05.736443+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -100119,6 +100092,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-04T21:03:09.386810+00:00"
+  },
+  {
+   "started_utc": "2026-11-04T21:12:57.810603+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 7,
+    "next_window": "2026-11-05T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
+     "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/"
+    ],
+    "en": [
+     "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
+     "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/"
+    ],
+    "mode": "fresh (3 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-04T21:13:14.693760+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -100550,6 +100560,14 @@
   "https://science.nasa.gov/blogs/science-news/2026/11/04/solar-flare-alert-system-helps-nasa-rocket-team-decide-when-to-launch/": {
    "fa": "2026-11-04T16:37:56.103385+00:00",
    "en": "2026-11-04T16:37:56.103385+00:00"
+  },
+  "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/": {
+   "fa": "2026-11-04T21:13:07.044708+00:00",
+   "en": "2026-11-04T21:13:07.044708+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/": {
+   "fa": "2026-11-04T21:13:07.044708+00:00",
+   "en": "2026-11-04T21:13:07.044708+00:00"
   }
  },
  "news_archive": {
@@ -101497,6 +101515,24 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-11-04T15:05:17+00:00",
    "ts": "2026-11-04T16:37:56.103385+00:00"
+  },
+  "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/": {
+   "title": "ناسا برنامه هایی برای شتاب بخشیدن به آرتمیس و بازگشت به ماه به اشتراک می گذارد",
+   "summary": "در یک به روز رسانی در 23 اکتبر، جارد آیزاکمن، مدیر ناسا و دیگر رهبران آژانس مسیر آژانس را برای بازگرداندن آمریکایی ها به سطح ماه در سال 2028 به اشتراک گذاشتند. رهبری آژانس به روز رسانی هایی را در مورد برنامه های شتاب اعلام شده قبلی برای برنامه Artemis ارائه کرد، و به سمت پرواز آزمایشی Artemis III آژانس در 2027 Artemis Moon و Artemis 2027 پیش رفت.",
+   "link": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-04T21:04:10+00:00",
+   "ts": "2026-11-04T21:13:07.044708+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/": {
+   "title": "ناسا جوایز رله ماهواره ای Ka-Band را برای ارتباطات فضایی اعلام کرد",
+   "summary": "ناسا روز چهارشنبه سه شرکت را برای توسعه مفاهیم قابلیت رله فضایی باند Ka که با مأموریت‌های فعلی در فضا سازگار است، انتخاب کرد و از تداوم سرویس برای فضاپیماهای موجود بدون نیاز به تغییرات در سیستم‌های آن‌ها اطمینان حاصل کرد. از طریق این کار، ناسا به دنبال دستیابی به راه حل های پایان به انتها است که شامل فضا، زمین، پرتاب، عملیات و ادغام می شود.",
+   "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-04T18:00:02+00:00",
+   "ts": "2026-11-04T21:13:07.044708+00:00"
   }
  },
  "news_title_fp": {
@@ -101869,6 +101905,14 @@
    "en": "2026-11-04"
   },
   "bbf6be1b7473689f": {
+   "fa": "2026-11-04",
+   "en": "2026-11-04"
+  },
+  "733b3942a0eee585": {
+   "fa": "2026-11-04",
+   "en": "2026-11-04"
+  },
+  "13ba21eafe0756dc": {
    "fa": "2026-11-04",
    "en": "2026-11-04"
   }
@@ -102245,6 +102289,14 @@
   [
    "bbf6be1b7473689f",
    "solar flare alert system helps nasa rocket team decide when to launch"
+  ],
+  [
+   "733b3942a0eee585",
+   "nasa shares plans to accelerate artemis return to moon"
+  ],
+  [
+   "13ba21eafe0756dc",
+   "nasa announces ka band satellite relay awards for space communications"
   ]
  ],
  "combo_seen": {
