@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-04T16:42:29.410Z",
+ "generated_utc": "2026-11-04T17:47:13.339Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1487,6 +1487,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-13z6eku",
+   "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
+   "title_fa": null,
+   "summary": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/AFRC2026-0152-30/AFRC2026-0152-30~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-04T16:52:43.000Z"
+  },
+  {
    "slug": "nasa-t62s0f",
    "title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
    "title_fa": "تور الهام‌بخش آژانس سوخت‌رسانی به دانشجویان کمک‌هزینه فضایی ناسا",
@@ -1617,18 +1629,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-02T23:43:02.000Z"
-  },
-  {
-   "slug": "nasa-91mbyx",
-   "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
-   "title_fa": "65 سالگی مبارک: مرکز فضایی جانسون ناسا در آن زمان و اکنون",
-   "summary": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from Project Mercury through Artemis. Today, Johnson serves as NASA’s Center of Excellence for Human Spaceflight, and its workforce is helping […]",
-   "summary_fa": "شصت و پنج سال پیش، یک چشم انداز جسورانه در هیوستون ریشه دوانید: یک مرکز ناسا که به پروازهای فضایی انسان اختصاص یافته بود. از زمان تأسیس، مرکز فضایی جانسون ناسا به رهبری برنامه پروازهای فضایی انسان در این کشور کمک کرده و از مأموریت‌های پروژه مرکوری از طریق آرتمیس پشتیبانی می‌کند. امروز، جانسون به عنوان مرکز تعالی ناسا برای پروازهای فضایی انسانی خدمت می کند و نیروی کار آن در حال کمک است.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/s63-11625.jpg?w=1536",
-   "link": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-02T21:35:59.000Z"
   },
   {
    "slug": "nasa-14opdvs",

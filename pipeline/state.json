@@ -94281,33 +94281,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-03T10:40:53.273036+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-03T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-03T10:42:31.475765+00:00"
-  },
-  {
    "started_utc": "2026-11-03T11:46:00.463168+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -95748,6 +95721,33 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-04T16:42:26.868648+00:00"
+  },
+  {
+   "started_utc": "2026-11-04T17:45:55.466063+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "prepared": 0,
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 7,
+    "next_window": "2026-11-05T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "note": "not invoked by analysis-only worker"
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-04T17:47:11.112759+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
