@@ -90076,39 +90076,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-03T09:20:01.667701+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-03/12",
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 7,
-    "next_window": "2026-11-03T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/"
-    ],
-    "en": [],
-    "mode": "fresh (1 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-03T09:20:15.823787+00:00"
-  },
-  {
    "started_utc": "2026-11-03T09:36:07.030959+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -91535,6 +91502,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-04T15:37:06.407594+00:00"
+  },
+  {
+   "started_utc": "2026-11-04T16:31:45.115644+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 7,
+    "next_window": "2026-11-05T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/"
+    ],
+    "en": [
+     "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-04T16:32:02.566645+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -91954,6 +91956,10 @@
   "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/": {
    "fa": "2026-11-04T06:42:49.580383+00:00",
    "en": "2026-11-04T06:42:49.580383+00:00"
+  },
+  "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/": {
+   "fa": "2026-11-04T16:31:55.720388+00:00",
+   "en": "2026-11-04T16:31:55.720388+00:00"
   }
  },
  "news_archive": {
@@ -92874,6 +92880,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-04T05:05:00+00:00",
    "ts": "2026-11-04T06:42:49.580383+00:00"
+  },
+  "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/": {
+   "title": "هابل راز کیهانی را آشکار می‌کند",
+   "summary": "این عکس که در ۲ نوامبر ۲۰۲۶ منتشر شد، NGC 4449، یک کهکشان کوتوله نامنظم را نشان می‌دهد. محققان با استفاده از تلسکوپ فضایی هابل ناسا، ۳۷ کهکشان کوتوله نزدیک - کهکشان‌های کوچکی که حاوی چند هزار تا صدها میلیون ستاره هستند - از جمله NGC 4449 را بررسی کردند و دریافتند که بخش زیادی از اکسیژنی که انتظار داشتند ببینند، وجود ندارد. ادامه مطلب",
+   "link": "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-04T15:59:36+00:00",
+   "ts": "2026-11-04T16:31:55.720388+00:00"
   }
  },
  "news_title_fp": {
@@ -93234,6 +93249,10 @@
    "en": "2026-11-03"
   },
   "d71f7309fe31a4d1": {
+   "fa": "2026-11-04",
+   "en": "2026-11-04"
+  },
+  "49c53be4cb294f03": {
    "fa": "2026-11-04",
    "en": "2026-11-04"
   }
@@ -93598,6 +93617,10 @@
   [
    "d71f7309fe31a4d1",
    "apod 2026 november 4 the not so hidden galaxy ic 342"
+  ],
+  [
+   "49c53be4cb294f03",
+   "hubble reveals cosmic mystery"
   ]
  ],
  "combo_seen": {
