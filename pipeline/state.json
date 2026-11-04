@@ -82742,32 +82742,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-02T18:26:45.440244+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 9,
-    "next_window": "2026-11-03T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-02T18:26:53.019929+00:00"
-  },
-  {
    "started_utc": "2026-11-02T18:33:08.673313+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -84237,6 +84211,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-04T06:37:11.822330+00:00"
+  },
+  {
+   "started_utc": "2026-11-04T06:42:43.577530+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 5,
+    "next_window": "2026-11-04T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-04T06:42:53.784095+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -84652,6 +84661,10 @@
   "https://www.nasa.gov/blogs/smallsatellites/2026/11/03/nasa-funded-sspicy-mission-experiences-communications-loss/": {
    "fa": "2026-11-03T23:08:57.310569+00:00",
    "en": "2026-11-03T23:08:57.310569+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/": {
+   "fa": "2026-11-04T06:42:49.580383+00:00",
+   "en": "2026-11-04T06:42:49.580383+00:00"
   }
  },
  "news_archive": {
@@ -85563,6 +85576,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-11-03T22:18:25+00:00",
    "ts": "2026-11-03T23:08:57.310569+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/": {
+   "title": "APOD: 4 نوامبر 2026 - کهکشان نه چندان پنهان، IC 342",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. نه چندان پنهان",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-04T05:05:00+00:00",
+   "ts": "2026-11-04T06:42:49.580383+00:00"
   }
  },
  "news_title_fp": {
@@ -85921,6 +85943,10 @@
   "ff3bf65639175789": {
    "fa": "2026-11-03",
    "en": "2026-11-03"
+  },
+  "d71f7309fe31a4d1": {
+   "fa": "2026-11-04",
+   "en": "2026-11-04"
   }
  },
  "news_title_recent": [
@@ -86279,6 +86305,10 @@
   [
    "ff3bf65639175789",
    "nasa funded sspicy mission experiences communications loss"
+  ],
+  [
+   "d71f7309fe31a4d1",
+   "apod 2026 november 4 the not so hidden galaxy ic 342"
   ]
  ],
  "combo_seen": {
