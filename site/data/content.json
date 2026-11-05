@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-05T00:56:14.172Z",
+ "generated_utc": "2026-11-05T02:09:34.203Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1538,6 +1538,66 @@
  ],
  "news": [
   {
+   "slug": "nasa-1xuevzz",
+   "title": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research",
+   "title_fa": "ناسا هواپیمای آزمایشی X-70 را برای پیشبرد تحقیقات پروازی معرفی کرد",
+   "summary": "On Wednesday, NASA unveiled its newest experimental aircraft, the X-70 Fractal, during the UP.Summit at the agency’s Kennedy Space Center in Florida. This high-performance, highly adaptable research platform is designed to accelerate the development and testing of advanced aviation technologies. The crewed X-70 features advanced, rapidly reconfigurable flight-control technology that will allow NASA to explore […]",
+   "summary_fa": "روز چهارشنبه، ناسا از جدیدترین هواپیمای آزمایشی خود، X-70 Fractal، در جریان اجلاس UP.Summit در مرکز فضایی کندی این آژانس در فلوریدا رونمایی کرد. این پلت فرم تحقیقاتی با کارایی بالا و بسیار سازگار برای سرعت بخشیدن به توسعه و آزمایش فناوری های هوانوردی پیشرفته طراحی شده است. X-70 سرنشین دار دارای فناوری کنترل پرواز پیشرفته و با قابلیت تنظیم مجدد سریع است که به ناسا اجازه می دهد کاوش کند.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/nasa-x-70-image.png?w=1672",
+   "link": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-05T01:43:21.000Z"
+  },
+  {
+   "slug": "nasa-11538m2",
+   "title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
+   "title_fa": "ناسا برنامه هایی برای شتاب بخشیدن به آرتمیس و بازگشت به ماه به اشتراک می گذارد",
+   "summary": "In an update on Oct. 23, NASA Administrator Jared Isaacman and other agency leaders shared the agency’s path to returning Americans to the lunar surface in 2028. Agency leadership provided updates on the previously announced acceleration plans for the Artemis program, advancing toward the agency’s Artemis III test flight in 2027 and Artemis IV Moon […]",
+   "summary_fa": "در یک به روز رسانی در 23 اکتبر، جارد آیزاکمن، مدیر ناسا و دیگر رهبران آژانس مسیر آژانس را برای بازگرداندن آمریکایی ها به سطح ماه در سال 2028 به اشتراک گذاشتند. رهبری آژانس به روز رسانی هایی را در مورد برنامه های شتاب اعلام شده قبلی برای برنامه Artemis ارائه کرد، و به سمت پرواز آزمایشی Artemis III آژانس در 2027 Artemis Moon و Artemis 2027 پیش رفت.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
+   "link": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-04T21:04:10.000Z"
+  },
+  {
+   "slug": "nasa-1j5azf5",
+   "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
+   "title_fa": "ناسا جوایز رله ماهواره ای Ka-Band را برای ارتباطات فضایی اعلام کرد",
+   "summary": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring modifications to their onboard systems. Through this work, NASA will aim to acquire end-to-end solutions that include space, ground, launch, operations, and integration […]",
+   "summary_fa": "ناسا روز چهارشنبه سه شرکت را برای توسعه مفاهیم قابلیت رله فضایی باند Ka که با مأموریت‌های فعلی در فضا سازگار است، انتخاب کرد و از تداوم سرویس برای فضاپیماهای موجود بدون نیاز به تغییرات در سیستم‌های آن‌ها اطمینان حاصل کرد. از طریق این کار، ناسا به دنبال دستیابی به راه حل های پایان به انتها است که شامل فضا، زمین، پرتاب، عملیات و ادغام می شود.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg?w=1920",
+   "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-04T18:00:02.000Z"
+  },
+  {
+   "slug": "nasa-13z6eku",
+   "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
+   "title_fa": "آزمایش ناوبری ناسا وعده فرود سیاره را نشان می دهد",
+   "summary": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
+   "summary_fa": "ناسا با موفقیت فناوری طراحی شده برای کمک به فضاپیماها را برای حرکت مستقل به مکان های فرود ایمن در ماه و سایر سیارات نشان داد. یک پهپاد Alta-X مجهز به هدایت، ناوبری و محموله کنترلی Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) آژانس، مانورهای فرود و فرود شبیه سازی شده از ماه را در 27 اوت به پایان رساند. این پرواز انجام شد.",
+   "image": "https://images-assets.nasa.gov/image/AFRC2026-0152-30/AFRC2026-0152-30~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-04T16:52:43.000Z"
+  },
+  {
+   "slug": "nasa-t62s0f",
+   "title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
+   "title_fa": "تور الهام‌بخش آژانس سوخت‌رسانی به دانشجویان کمک‌هزینه فضایی ناسا",
+   "summary": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space. At nearly every stop across the country, NASA Space Grant has brought students into the heart of the action. In Iowa, NASA Administrator Jared […]",
+   "summary_fa": "تور الهام‌بخش ناسا با ایجاد ارتباط بین عموم مردم، صنعت و دانشگاه با افراد، فناوری‌ها و سازمان‌هایی که رهبری آمریکا را در فضا هدایت می‌کنند، هیجان اکتشافات فضایی و نوآوری‌های هوانوردی را گسترش داد. تقریباً در هر توقف در سراسر کشور، کمک‌هزینه فضایی ناسا، دانشجویان را به قلب این فعالیت آورده است. در آیووا، مدیر ناسا، جارد...",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/2097409090238472611.png?w=962",
+   "link": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-04T16:16:41.000Z"
+  },
+  {
    "slug": "nasa-15mp7q6",
    "title": "Astronauts are Go for Final Power Upgrade Spacewalk",
    "title_fa": null,
@@ -1550,6 +1610,18 @@
    "date_utc": "2026-11-04T16:00:58.000Z"
   },
   {
+   "slug": "nasa-oa48w7",
+   "title": "Hubble Reveals Cosmic Mystery",
+   "title_fa": "هابل راز کیهانی را آشکار می‌کند",
+   "summary": "This photo released on Nov. 2, 2026, showcases NGC 4449, a dwarf irregular. Researchers using NASA’s Hubble Space Telescope studied 37 nearby dwarf galaxies — small galaxies containing a few thousand to hundreds of millions of stars — including NGC 4449 and found that much of the oxygen they expected to see is missing. Read […]",
+   "summary_fa": "این عکس که در ۲ نوامبر ۲۰۲۶ منتشر شد، NGC 4449، یک کهکشان کوتوله نامنظم را نشان می‌دهد. محققان با استفاده از تلسکوپ فضایی هابل ناسا، ۳۷ کهکشان کوتوله نزدیک - کهکشان‌های کوچکی که حاوی چند هزار تا صدها میلیون ستاره هستند - از جمله NGC 4449 را بررسی کردند و دریافتند که بخش زیادی از اکسیژنی که انتظار داشتند ببینند، وجود ندارد. ادامه مطلب",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/full-res-for-display-1.png?w=2048",
+   "link": "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-04T15:59:36.000Z"
+  },
+  {
    "slug": "science-1s2cqiy",
    "title": "Solar Flare Alert System Helps NASA Rocket Team Decide When to Launch",
    "title_fa": "سیستم هشدار شراره‌های خورشیدی به تیم موشکی ناسا کمک می‌کند تا زمان پرتاب را تعیین کنند",
@@ -1560,6 +1632,18 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-04T15:05:17.000Z"
+  },
+  {
+   "slug": "science-dwl4gf",
+   "title": "APOD: 2026 November 4 – The Not-So-Hidden Galaxy, IC 342",
+   "title_fa": "APOD: 4 نوامبر 2026 - کهکشان نه چندان پنهان، IC 342",
+   "summary": "APOD Science APOD APOD: 2026 November 4 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Not-So-Hidden […]",
+   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. نه چندان پنهان",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/ic342.png?w=2048&h=1395&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-04T05:05:00.000Z"
   },
   {
    "slug": "nasa-1yg9cwv",
@@ -1584,6 +1668,18 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-03T18:22:21.000Z"
+  },
+  {
+   "slug": "nasa-yfe7v9",
+   "title": "Astronaut and Earth",
+   "title_fa": "فضانورد و زمین",
+   "summary": "CSA (Canadian Space Agency) astronaut Joshua Kutryk is pictured during the Oct. 29, 2026, spacewalk. The International Space Station was soaring 267 miles above the South Atlantic Ocean at the time of this photograph. Kutryk and NASA astronaut Anil Menon installed a new roll-out solar array on the space station and performed some get-ahead work […]",
+   "summary_fa": "جاشوا کوتریک، فضانورد CSA (آژانس فضایی کانادا) در طول راهپیمایی فضایی 29 اکتبر 2026 به تصویر کشیده شده است. در زمان ثبت این عکس، ایستگاه فضایی بین‌المللی در ارتفاع 267 مایلی از اقیانوس اطلس جنوبی بالا می‌رفت. Kutryk و فضانورد ناسا آنیل منون یک آرایه خورشیدی جدید در ایستگاه فضایی نصب کردند و چند کار پیشرو انجام دادند.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0253663orig.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-03T16:37:42.000Z"
   },
   {
    "slug": "science-12jd4yh",

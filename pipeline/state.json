@@ -103214,37 +103214,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-03T17:55:25.773745+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-04T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-03T17:55:33.362751+00:00"
-  },
-  {
    "started_utc": "2026-11-03T18:51:16.072403+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -104678,6 +104647,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-05T00:56:12.512355+00:00"
+  },
+  {
+   "started_utc": "2026-11-05T02:09:16.655058+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 8,
+    "next_window": "2026-11-05T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/"
+    ],
+    "en": [
+     "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-05T02:09:30.894697+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -105121,6 +105125,10 @@
   "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/": {
    "fa": "2026-11-04T21:59:01.141239+00:00",
    "en": "2026-11-04T21:59:01.141239+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/": {
+   "fa": "2026-11-05T02:09:25.763225+00:00",
+   "en": "2026-11-05T02:09:25.763225+00:00"
   }
  },
  "news_archive": {
@@ -106095,6 +106103,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-04T16:52:43+00:00",
    "ts": "2026-11-04T21:59:01.141239+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/": {
+   "title": "ناسا هواپیمای آزمایشی X-70 را برای پیشبرد تحقیقات پروازی معرفی کرد",
+   "summary": "روز چهارشنبه، ناسا از جدیدترین هواپیمای آزمایشی خود، X-70 Fractal، در جریان اجلاس UP.Summit در مرکز فضایی کندی این آژانس در فلوریدا رونمایی کرد. این پلت فرم تحقیقاتی با کارایی بالا و بسیار سازگار برای سرعت بخشیدن به توسعه و آزمایش فناوری های هوانوردی پیشرفته طراحی شده است. X-70 سرنشین دار دارای فناوری کنترل پرواز پیشرفته و با قابلیت تنظیم مجدد سریع است که به ناسا اجازه می دهد کاوش کند.",
+   "link": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-05T01:43:21+00:00",
+   "ts": "2026-11-05T02:09:25.763225+00:00"
   }
  },
  "news_title_fp": {
@@ -106481,6 +106498,10 @@
   "b2ec08d16eded822": {
    "fa": "2026-11-04",
    "en": "2026-11-04"
+  },
+  "27469d594bda95d0": {
+   "fa": "2026-11-05",
+   "en": "2026-11-05"
   }
  },
  "news_title_recent": [
@@ -106867,6 +106888,10 @@
   [
    "b2ec08d16eded822",
    "nasa navigation experiment shows promise for planetary landings"
+  ],
+  [
+   "27469d594bda95d0",
+   "nasa announces x 70 experimental aircraft to advance flight research"
   ]
  ],
  "combo_seen": {
