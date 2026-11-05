@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-05T13:57:21.825Z",
+ "generated_utc": "2026-11-05T14:32:50.848Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw12522082001-0310n-00005-nrca2-rate",
+   "product": "jw12522082001_0310n_00005_nrca2_rate.fits",
+   "published_utc": "2026-11-05T14:30:36.971Z",
+   "target": "2MASS J18022716+6043356",
+   "instrument": "NIRCAM",
+   "detector": "NRCA2",
+   "filter": "F200W",
+   "obs_date": "2026-09-02",
+   "proposal": "12522",
+   "score": 36.59,
+   "quality_score": 75.04,
+   "image": "/img/jw12522082001-0310n-00005-nrca2-rate.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «2MASS J18022716+6043356»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 320 × 320 پیکسل دارد. در نمونهٔ منظم 100,782 پیکسل معتبر، حدود 0.8295 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F200W نزدیک طول موج 2 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 64.474 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F200W · تاریخ رصد: 2026-09-02\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/12522\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw12525108001-02106-00007-nrcb1-i2d",
    "product": "jw12525108001_02106_00007_nrcb1_i2d.fits",
@@ -238,23 +255,6 @@
    "proposal": "12522",
    "score": 31.94,
    "quality_score": 69.38,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
-   "slug": "jw12522082001-0310n-00005-nrca2-rate",
-   "product": "jw12522082001_0310n_00005_nrca2_rate.fits",
-   "published_utc": "2026-11-04T10:42:15.682295+00:00",
-   "target": "2MASS J18022716+6043356",
-   "instrument": "NIRCAM",
-   "detector": "NRCA2",
-   "filter": "F200W",
-   "obs_date": "2026-09-02",
-   "proposal": "12522",
-   "score": 36.59,
-   "quality_score": 75.04,
    "image": null,
    "text_fa": null,
    "text_en": null,
@@ -1606,6 +1606,30 @@
  ],
  "news": [
   {
+   "slug": "nasa-12q0qin",
+   "title": "Spacewalk Begins to Install Last Roll-Out Solar Array",
+   "title_fa": null,
+   "summary": "CSA (Canadian Space Agency) astronaut Joshua Kutryk and NASA astronaut Anil Menon began a spacewalk at 8:36 a.m. EST outside the International Space Station airlock to install and deploy the eighth and final IROSA on the 3B channel of the space station, completing the power augmentation upgrades,",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/preview-useva-101-110526c.jpg?w=1100",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalk-begins-to-install-last-roll-out-solar-array/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-05T13:44:35.000Z"
+  },
+  {
+   "slug": "science-1tjd93n",
+   "title": "Hubble Learns Galactic History From Stars",
+   "title_fa": null,
+   "summary": "This Hubble image features the sparkling collection of stars named Messier 30 (M30), also called NGC 7099.",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/stars/globular-clusters/Hubble_M30_potm2610a.jpg?w=2048&h=1806&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-05T12:56:21.000Z"
+  },
+  {
    "slug": "nasa-1goe8pr",
    "title": "Astronauts Suit Up for Final Power Upgrade Spacewalk",
    "title_fa": null,
@@ -1808,18 +1832,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-02T17:59:53.000Z"
-  },
-  {
-   "slug": "nasa-1v9hatu",
-   "title": "Space Crops and Advanced Tech Wrap Up Week Following Spacewalk",
-   "title_fa": "محصولات فضایی و فناوری پیشرفته هفته پس از راهپیمایی فضایی به پایان می رسد",
-   "summary": "Space crops research wrapped up the week following the completion of the first of two power upgrade spacewalks at the International Space Station. The Expedition 75 crew members rounded out their research schedule with virtual reality and super intelligence studies.",
-   "summary_fa": "تحقیقات محصولات فضایی یک هفته پس از اتمام اولین راهپیمایی از دو راهپیمایی فضایی ارتقاء انرژی در ایستگاه فضایی بین المللی به پایان رسید. اعضای خدمه Expedition 75 برنامه تحقیقاتی خود را با مطالعات واقعیت مجازی و فوق هوش کامل کردند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0227271/iss075e0227271~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/30/space-crops-and-advanced-tech-wrap-up-week-following-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-10-30T17:50:49.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
