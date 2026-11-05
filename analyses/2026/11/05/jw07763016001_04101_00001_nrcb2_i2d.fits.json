@@ -1,0 +1,57 @@
+{
+ "ts": "2026-11-05T00:18:21.261851+00:00",
+ "product": "jw07763016001_04101_00001_nrcb2_i2d.fits",
+ "uri": "mast:JWST/product/jw07763016001_04101_00001_nrcb2_i2d.fits",
+ "proposal": "7763",
+ "meta": {
+  "TELESCOP": "JWST",
+  "INSTRUME": "NIRCAM",
+  "DETECTOR": "NRCB2",
+  "FILTER": "F150W",
+  "PUPIL": "CLEAR",
+  "DATE-OBS": "2026-06-28",
+  "TARGNAME": "NGC4564",
+  "PROGRAM": "07763",
+  "n_hdus": 9
+ },
+ "region": {
+  "x0": 207,
+  "y0": 879,
+  "x1": 369,
+  "y1": 1041,
+  "fx0": 0.1006,
+  "fy0": 0.4271,
+  "fx1": 0.1793,
+  "fy1": 0.5058,
+  "score": 27.56
+ },
+ "score": 28.3,
+ "quality": {
+  "sharp": 1.0,
+  "contrast": 0.471,
+  "brightness": 0.361,
+  "range": 1.0,
+  "roi": 0.283,
+  "score": 69.08
+ },
+ "mock_analysis": {
+  "mock": true,
+  "warning": "MOCK ANALYSIS - not a scientific AI result",
+  "telescope": "JWST",
+  "instrument": "NIRCAM",
+  "detector": "NRCB2",
+  "filter": "F150W",
+  "exptime_s": null,
+  "target": "NGC4564",
+  "obs_date": "2026-06-28",
+  "proposal_id": null,
+  "note": "Vision model runs OUTSIDE this pipeline (owner-provided API). This stub keeps the release path testable."
+ },
+ "prior_refs": [
+  "jw07763016001_04101_00001_nrca4_i2d.fits",
+  "jw07763016001_04101_00001_nrca3_i2d.fits"
+ ],
+ "bytes": 118704960,
+ "sha256": "cbead9d2ed17f818ea208f2ccaac09a3a298153df551ebdf77a41eec5f21eaec",
+ "source": "MAST public data"
+}
