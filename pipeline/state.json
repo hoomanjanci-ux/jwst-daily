@@ -76974,82 +76974,27 @@
    "sha256": "ce38d92e51c6c818ef133d9de66078f6b475d433f604fd2d45511bd808836903"
   },
   "jw12525108001_02106_00007_nrcb1_i2d.fits": {
-   "channels": {},
-   "status": "ready",
+   "channels": {
+    "fa_ai": "sent",
+    "en_ai": "sent"
+   },
+   "status": "published",
    "score": 37.72,
    "analyzed_utc": "2026-11-03T16:43:30.973203+00:00",
    "analysis": "analyses/2026/11/03/jw12525108001_02106_00007_nrcb1_i2d.fits.json",
-   "cand": {
-    "filename": "jw12525108001_02106_00007_nrcb1_i2d.fits",
-    "size_mb": 0.791,
-    "uri": "mast:JWST/product/jw12525108001_02106_00007_nrcb1_i2d.fits",
-    "proposal": "12525",
-    "obs_id": "jw12525108001_02106_00007_nrcb1",
-    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12525108001_02106_00007_nrcb1_i2d.fits",
-    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12525108001_02106_00007_nrcb1_i2d.fits",
-    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12525108001_02106_00007_nrcb1_i2d.jpg"
-   },
    "meta_TARGNAME": "BD+60 1753",
    "meta_FILTER": "F187N",
    "meta_INSTRUME": "NIRCAM",
    "combo": "BD+60 1753|NIRCAM|F187N",
    "sha256": "7912b169fc122c949c72cf99007e3ba8110e68c6316d9a189799df25d867ba88",
    "bytes": 829440,
-   "published_utc": null,
+   "published_utc": "2026-11-05T08:30:37.938Z",
    "analysis_revision": 3,
-   "quality_log": {
-    "fa": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.5768,
-      "brightness": 0.6726,
-      "range": 1.0,
-      "roi": 0.3772,
-      "score": 77.28
-     },
-     "evidence": {
-      "bright_tail_pixel_count": 272,
-      "brightest_quadrant_percent": 79.779,
-      "width": 160,
-      "height": 161,
-      "sample_stride": 1,
-      "sample_count": 25735,
-      "finite_fraction": 0.99903,
-      "median": -26.9503173828125,
-      "robust_scatter": 207.39242958984374,
-      "above_5scatter_percent": 1.0569,
-      "p99_above_median_scatter": 5.218,
-      "bunit": "MJy/sr"
-     },
-     "method": "measured-data-analysis-v3"
-    },
-    "en": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.5768,
-      "brightness": 0.6726,
-      "range": 1.0,
-      "roi": 0.3772,
-      "score": 77.28
-     },
-     "evidence": {
-      "bright_tail_pixel_count": 272,
-      "brightest_quadrant_percent": 79.779,
-      "width": 160,
-      "height": 161,
-      "sample_stride": 1,
-      "sample_count": 25735,
-      "finite_fraction": 0.99903,
-      "median": -26.9503173828125,
-      "robust_scatter": 207.39242958984374,
-      "above_5scatter_percent": 1.0569,
-      "p99_above_median_scatter": 5.218,
-      "bunit": "MJy/sr"
-     },
-     "method": "measured-data-analysis-v3"
-    }
-   },
-   "paired_ready_utc": "2026-11-03T16:44:00.335550+00:00"
+   "paired_ready_utc": "2026-11-03T16:44:00.335550+00:00",
+   "analysis_slot": "2026-11-05/12",
+   "research_sha256": "d2bca15bf545060c4b8c86a2e93493e97bf2547c20d8002ff99d69a3792f9dcb",
+   "site_archive": "ok",
+   "d1_sync": "ok"
   },
   "jw12525108001_02106_00001_nrcb1_i2d.fits": {
    "channels": {},
@@ -103306,1741 +103251,2320 @@
    "paired_ready_utc": "2026-11-05T05:34:04.465298+00:00"
   },
   "jw07763053001_02101_00003_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00011_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00012_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00001_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00007_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00007_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00001_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00012_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00004_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00010_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00008_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00010_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00004_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00009_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00009_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00003_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00005_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00006_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00011_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00006_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00005_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00003_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00008_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00002_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00003_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00001_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00004_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00002_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00001_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00002_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00004_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00003_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00002_nrcblong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763-o080_t080_nircam_clear-f277w_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763-o053_t053_nircam_clear-f277w_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763-o047_t047_nircam_clear-f277w_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761-o004_t001_nircam_clear-f444w_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00011_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00012_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00001_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00007_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00007_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00001_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00012_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00004_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00010_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00008_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00010_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00004_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00009_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00009_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00003_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00005_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00006_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00011_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00006_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00005_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00003_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00008_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00002_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00003_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00001_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00004_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00002_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00001_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00002_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00004_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00003_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00002_nrcblong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00011_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00012_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00001_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00007_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00007_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00001_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00012_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00004_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00010_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00008_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00010_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00004_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00009_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00009_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00003_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00005_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00006_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00011_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00006_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00005_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00003_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00008_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00002_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00003_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00001_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00003_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00001_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00004_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00002_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00002_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00001_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00003_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00003_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00004_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00002_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_04101_00001_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00003_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00001_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00004_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763047001_02101_00002_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00004_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00001_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00002_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_04101_00003_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763053001_02101_00004_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12761004001_02101_00002_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00002_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw07763080001_02101_00004_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   }
  },
  "runs": [
@@ -108781,7 +109305,8 @@
   "2MASS J18022716+6043356|NIRCAM|F430M": "2026-11-04T08:30:37.170Z",
   "2MASS J18022716+6043356|NIRCAM|F360M": "2026-11-04T14:30:39.505Z",
   "2MASS J18022716+6043356|NIRCAM|F300M": "2026-11-05T02:30:36.533Z",
-  "|NIRCAM|F070W": "2026-11-05T05:30:36.862Z"
+  "|NIRCAM|F070W": "2026-11-05T05:30:36.862Z",
+  "BD+60 1753|NIRCAM|F187N": "2026-11-05T08:30:37.938Z"
  },
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
@@ -110546,9 +111071,31 @@
   "2026-11-05/12": {
    "start": "2026-11-05T08:30:00.000Z",
    "end": "2026-11-05T09:30:00.000Z",
-   "status": "waiting",
-   "product": null,
-   "note": null,
+   "status": "sent",
+   "product": "jw12525108001_02106_00007_nrcb1_i2d.fits",
+   "delivery": {
+    "en": {
+     "album_v1": {
+      "status": "sent",
+      "message_ids": [
+       222,
+       223
+      ],
+      "utc": "2026-11-05T08:30:37.668Z"
+     }
+    },
+    "fa": {
+     "album_v1": {
+      "status": "sent",
+      "message_ids": [
+       217,
+       218
+      ],
+      "utc": "2026-11-05T08:30:36.717Z"
+     }
+    }
+   },
+   "completed_utc": "2026-11-05T08:30:37.938Z",
    "sender": "cloudflare"
   },
   "2026-11-05/09": {
