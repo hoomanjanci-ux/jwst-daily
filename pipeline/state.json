@@ -109812,6 +109812,33 @@
    "status": "combo_cooldown",
    "combo": "2MASS J18022716+6043356|NIRCAM|F212N",
    "sha256": "2ee177ef0e29c484c6c8bf25e55db8b97332b13c03f50b4ed936c15f0f4c96dc"
+  },
+  "jw12522040001_0310d_00005_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F430M",
+   "sha256": "f6fb255702822639d89e9ed68d6b593d77e8f07bc29cfbe9313de69c908f6e3b"
+  },
+  "jw12522040001_03107_00005_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw12522040001_0310b_00005_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw12522040001_03109_00005_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw12522040001_03103_00005_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw12522040001_03105_00005_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw12522040001_03109_00005_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw12522040001_03105_00005_nrca4_rate.fits": {
+   "channels": {}
   }
  },
  "runs": [
@@ -113714,7 +113741,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-06",
-  "bytes": 897186240
+  "bytes": 899320320
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -115732,7 +115759,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-06T14:31:08.471348+00:00",
+ "paired_prepare_attempt_utc": "2026-11-06T15:35:59.827188+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
