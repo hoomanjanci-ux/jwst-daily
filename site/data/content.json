@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-06T05:32:20.479Z",
+ "generated_utc": "2026-11-06T06:07:52.048Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1657,6 +1657,18 @@
  ],
  "news": [
   {
+   "slug": "science-gxdhe0",
+   "title": "APOD: 2026 November 6 – A Farewell to Swift",
+   "title_fa": "APOD: 6 نوامبر 2026 - خداحافظی با سوئیفت",
+   "summary": "APOD Science APOD APOD: 2026 November 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Farewell […]",
+   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. یک خداحافظی",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Swift_Millionth_Image_Mosaic.jpg?w=2048&h=1460&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-06T05:05:00.000Z"
+  },
+  {
    "slug": "nasa-y0vidu",
    "title": "Spacewalkers Install Final Roll-Out Solar Array",
    "title_fa": null,
@@ -1775,30 +1787,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-04T18:00:02.000Z"
-  },
-  {
-   "slug": "nasa-13z6eku",
-   "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
-   "title_fa": "آزمایش ناوبری ناسا وعده فرود سیاره را نشان می دهد",
-   "summary": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
-   "summary_fa": "ناسا با موفقیت فناوری طراحی شده برای کمک به فضاپیماها را برای حرکت مستقل به مکان های فرود ایمن در ماه و سایر سیارات نشان داد. یک پهپاد Alta-X مجهز به هدایت، ناوبری و محموله کنترلی Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) آژانس، مانورهای فرود و فرود شبیه سازی شده از ماه را در 27 اوت به پایان رساند. این پرواز انجام شد.",
-   "image": "https://images-assets.nasa.gov/image/AFRC2026-0152-30/AFRC2026-0152-30~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-04T16:52:43.000Z"
-  },
-  {
-   "slug": "nasa-t62s0f",
-   "title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
-   "title_fa": "تور الهام‌بخش آژانس سوخت‌رسانی به دانشجویان کمک‌هزینه فضایی ناسا",
-   "summary": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space. At nearly every stop across the country, NASA Space Grant has brought students into the heart of the action. In Iowa, NASA Administrator Jared […]",
-   "summary_fa": "تور الهام‌بخش ناسا با ایجاد ارتباط بین عموم مردم، صنعت و دانشگاه با افراد، فناوری‌ها و سازمان‌هایی که رهبری آمریکا را در فضا هدایت می‌کنند، هیجان اکتشافات فضایی و نوآوری‌های هوانوردی را گسترش داد. تقریباً در هر توقف در سراسر کشور، کمک‌هزینه فضایی ناسا، دانشجویان را به قلب این فعالیت آورده است. در آیووا، مدیر ناسا، جارد...",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/2097409090238472611.png?w=962",
-   "link": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-04T16:16:41.000Z"
   },
   {
    "slug": "nasa-15mp7q6",
