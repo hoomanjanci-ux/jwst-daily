@@ -109806,43 +109806,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-04T16:37:48.585681+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-05T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
-     "https://science.nasa.gov/blogs/science-news/2026/11/04/solar-flare-alert-system-helps-nasa-rocket-team-decide-when-to-launch/"
-    ],
-    "en": [
-     "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
-     "https://science.nasa.gov/blogs/science-news/2026/11/04/solar-flare-alert-system-helps-nasa-rocket-team-decide-when-to-launch/"
-    ],
-    "mode": "fresh (2 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-04T16:38:08.809576+00:00"
-  },
-  {
    "started_utc": "2026-11-04T16:41:09.049125+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -111306,6 +111269,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-06T06:54:38.330872+00:00"
+  },
+  {
+   "started_utc": "2026-11-06T07:18:40.166287+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 6,
+    "next_window": "2026-11-06T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-5-:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-06T07:18:52.219811+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -111774,7 +111772,8 @@
    "en": "2026-11-05T19:04:39.349590+00:00"
   },
   "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/": {
-   "fa": "2026-11-06T06:07:37.647654+00:00"
+   "fa": "2026-11-06T06:07:37.647654+00:00",
+   "en": "2026-11-06T07:18:47.746893+00:00"
   }
  },
  "news_archive": {
@@ -113214,7 +113213,8 @@
    "en": "2026-11-05"
   },
   "8d3f32bc5491e7a3": {
-   "fa": "2026-11-06"
+   "fa": "2026-11-06",
+   "en": "2026-11-06"
   }
  },
  "news_title_recent": [
