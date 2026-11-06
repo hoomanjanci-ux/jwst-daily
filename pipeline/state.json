@@ -109820,25 +109820,32 @@
    "sha256": "f6fb255702822639d89e9ed68d6b593d77e8f07bc29cfbe9313de69c908f6e3b"
   },
   "jw12522040001_03107_00005_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12522040001_0310b_00005_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12522040001_03109_00005_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12522040001_03103_00005_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12522040001_03105_00005_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12522040001_03109_00005_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12522040001_03105_00005_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   }
  },
  "runs": [
@@ -115751,7 +115758,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-06T15:35:59.827188+00:00",
+ "paired_prepare_attempt_utc": "2026-11-06T15:57:39.825815+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
