@@ -109751,41 +109751,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-04T21:58:52.952062+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-05T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/"
-    ],
-    "en": [
-     "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/"
-    ],
-    "mode": "fresh (1 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-04T21:59:04.954176+00:00"
-  },
-  {
    "started_utc": "2026-11-04T22:06:00.216878+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -111256,6 +111221,33 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-06T11:47:35.479486+00:00"
+  },
+  {
+   "started_utc": "2026-11-06T12:50:57.529356+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "prepared": 0,
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 5,
+    "next_window": "2026-11-06T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "note": "not invoked by analysis-only worker"
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-06T12:53:05.607916+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
