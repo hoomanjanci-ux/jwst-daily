@@ -109692,6 +109692,126 @@
     }
    },
    "paired_ready_utc": "2026-11-05T18:57:24.567627+00:00"
+  },
+  "jw12522040001_0310f_00005_nrca4_rate.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F187N",
+   "sha256": "d204e06290f0da5b5e8030444e98fbf3cb8c6353fc4d3712de9f777b67dd2b54"
+  },
+  "jw12522040001_0310f_00005_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F460M",
+   "sha256": "c9f7e65e35e7225b6f3e5763301eabda00e792fd4c6dbfc7c7739d157db5fcf6"
+  },
+  "jw12522040001_0310n_00005_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "ready",
+   "score": 39.95,
+   "analyzed_utc": "2026-11-06T14:32:41.202273+00:00",
+   "analysis": "analyses/2026/11/06/jw12522040001_0310n_00005_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw12522040001_0310n_00005_nrcalong_rate.fits",
+    "size_mb": 2.035,
+    "uri": "mast:JWST/product/jw12522040001_0310n_00005_nrcalong_rate.fits",
+    "proposal": "12522",
+    "obs_id": "jw12522040001_0310n_00005_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310n_00005_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12522040001_0310n_00005_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310n_00005_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "2MASS J18022716+6043356",
+   "meta_FILTER": "F277W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F277W",
+   "sha256": "dd99d6ce318cccc1af73f7b307c7ac14a042fe9031c42215da85540064a4abff",
+   "bytes": 2134080,
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5715,
+      "brightness": 0.6214,
+      "range": 1.0,
+      "roi": 0.3995,
+      "score": 76.74
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 627,
+      "brightest_quadrant_percent": 90.271,
+      "width": 400,
+      "height": 256,
+      "sample_stride": 1,
+      "sample_count": 101105,
+      "finite_fraction": 0.987354,
+      "median": -5.973308563232422,
+      "robust_scatter": 1.1860852314949035,
+      "above_5scatter_percent": 0.6201,
+      "p99_above_median_scatter": 3.133,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5715,
+      "brightness": 0.6214,
+      "range": 1.0,
+      "roi": 0.3995,
+      "score": 76.74
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 627,
+      "brightest_quadrant_percent": 90.271,
+      "width": 400,
+      "height": 256,
+      "sample_stride": 1,
+      "sample_count": 101105,
+      "finite_fraction": 0.987354,
+      "median": -5.973308563232422,
+      "robust_scatter": 1.1860852314949035,
+      "above_5scatter_percent": 0.6201,
+      "p99_above_median_scatter": 3.133,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-06T14:33:38.865703+00:00"
+  },
+  "jw12522040001_0310l_00005_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F356W",
+   "sha256": "3c12ed2759b7361296929b490284d486a5241d16f55f2499d0c9fff761591f3b"
+  },
+  "jw12522040001_0310h_00005_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F480M",
+   "sha256": "0275f4076aa2d49ef5db2e530cd725af47cfda488f30b9336a6dcc152a8839a6"
+  },
+  "jw12522040001_0310n_00005_nrca4_rate.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F200W",
+   "sha256": "adc67bfbe71b93a00674ff7068b7f0fadc0135f6d09bda4c80c950604b55e20f"
+  },
+  "jw12522040001_0310j_00005_nrcalong_rate.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F444W",
+   "sha256": "d8a378a548c2ec6e88afc886bc25efe58361793cc6f67fdac400db4160537bfe"
+  },
+  "jw12522040001_0310l_00005_nrca4_rate.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F212N",
+   "sha256": "2ee177ef0e29c484c6c8bf25e55db8b97332b13c03f50b4ed936c15f0f4c96dc"
   }
  },
  "runs": [
@@ -113575,7 +113695,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-06",
-  "bytes": 880113600
+  "bytes": 897186240
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -115593,7 +115713,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-06T13:56:00.712825+00:00",
+ "paired_prepare_attempt_utc": "2026-11-06T14:31:08.471348+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
