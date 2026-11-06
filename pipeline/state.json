@@ -110642,6 +110642,150 @@
   "jw12517014001_03108_00002_nrcb1_rate.fits": {
    "channels": {},
    "status": "legacy_v01"
+  },
+  "jw09263005001_03201_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00002_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00002_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00002_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00002_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00001_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005001_03201_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00001_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005002_03201_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00001_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005003_03201_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263005004_03201_00001_nrcalong_rate.fits": {
+   "channels": {}
   }
  },
  "runs": [
@@ -116622,7 +116766,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-06T21:00:54.101371+00:00",
+ "paired_prepare_attempt_utc": "2026-11-06T21:32:26.124232+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
