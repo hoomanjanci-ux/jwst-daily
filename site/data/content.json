@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-06T21:07:57.902Z",
+ "generated_utc": "2026-11-06T21:33:39.826Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1674,18 +1674,6 @@
  ],
  "news": [
   {
-   "slug": "nasa-1pzjnf5",
-   "title": "Spacewalk Cleanup, Biomedical Science, and Maintenance Wrap Up Week",
-   "title_fa": "هفته پایانی پاکسازی پیاده‌روی فضایی، علوم زیست پزشکی و نگهداری",
-   "summary": "The seven Expedition 75 crew members cleaned up after a spacewalk, conducted biomedical assessments, and maintained orbital systems to wrap up a busy week aboard the International Space Station.",
-   "summary_fa": "هفت خدمه اکسپدیشن ۷۵ پس از یک پیاده‌روی فضایی پاکسازی کردند، ارزیابی‌های زیست پزشکی انجام دادند و سیستم‌های مداری را حفظ کردند تا یک هفته شلوغ را در ایستگاه فضایی بین‌المللی به پایان برسانند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-useva101-110526d-1.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/06/spacewalk-cleanup-biomedical-science-and-maintenance-wrap-up-week/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-06T17:48:13.000Z"
-  },
-  {
    "slug": "nasa-13ighho",
    "title": "M30’s Sparkling Stars",
    "title_fa": "ستاره های درخشان M30",
@@ -1708,18 +1696,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-06T05:05:00.000Z"
-  },
-  {
-   "slug": "nasa-y0vidu",
-   "title": "Spacewalkers Install Final Roll-Out Solar Array",
-   "title_fa": null,
-   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk concluded their spacewalk outside the International Space Station at 3:35 p.m. EST.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-useva101-110526h.jpg?w=1280",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalkers-install-final-roll-out-solar-array/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-05T20:52:33.000Z"
   },
   {
    "slug": "nasa-1i6aow7",
@@ -1746,18 +1722,6 @@
    "date_utc": "2026-11-05T15:11:25.000Z"
   },
   {
-   "slug": "nasa-12q0qin",
-   "title": "Spacewalk Begins to Install Last Roll-Out Solar Array",
-   "title_fa": "راهپیمایی فضایی برای نصب آخرین آرایه خورشیدی آغاز شد",
-   "summary": "CSA (Canadian Space Agency) astronaut Joshua Kutryk and NASA astronaut Anil Menon began a spacewalk at 8:36 a.m. EST outside the International Space Station airlock to install and deploy the eighth and final IROSA on the 3B channel of the space station, completing the power augmentation upgrades,",
-   "summary_fa": "جاشوا کوتریک، فضانورد CSA (آژانس فضایی کانادا) و آنیل منون، فضانورد ناسا، در ساعت 8:36 صبح به وقت شرق به بیرون از ایستگاه فضایی بین‌المللی راهپیمایی فضایی را آغاز کردند تا هشتمین و آخرین IROSA را در کانال 3B ایستگاه فضایی نصب و استقرار دهند و ارتقای افزایش نیرو را تکمیل کردند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/preview-useva-101-110526c.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalk-begins-to-install-last-roll-out-solar-array/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-05T13:44:35.000Z"
-  },
-  {
    "slug": "science-1tjd93n",
    "title": "Hubble Learns Galactic History From Stars",
    "title_fa": "هابل تاریخ کهکشانی را از ستاره ها می آموزد",
@@ -1768,18 +1732,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-05T12:56:21.000Z"
-  },
-  {
-   "slug": "nasa-1goe8pr",
-   "title": "Astronauts Suit Up for Final Power Upgrade Spacewalk",
-   "title_fa": null,
-   "summary": "NASA is streaming live coverage as two astronauts prepare for a spacewalk outside the International Space Station. The spacewalk is scheduled to begin at approximately 8:30 a.m. EST and last about more than six and a half hours.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/preview-useva-101-110526b.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/05/astronauts-suit-up-for-final-power-upgrade-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-05T12:02:48.000Z"
   },
   {
    "slug": "science-1bd2fxc",
@@ -1804,78 +1756,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-05T01:43:21.000Z"
-  },
-  {
-   "slug": "nasa-15mp7q6",
-   "title": "Astronauts are Go for Final Power Upgrade Spacewalk",
-   "title_fa": null,
-   "summary": "Mission managers have given the go for two astronauts to exit the International Space Station on Thursday and install its eighth and final roll-out solar array. The Expedition 75 crew members completed final preparations for the spacewalk and also conducted biotechnology research.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/preview-useva-101-110526.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/04/astronauts-are-go-for-final-power-upgrade-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-04T16:00:58.000Z"
-  },
-  {
-   "slug": "science-1s2cqiy",
-   "title": "Solar Flare Alert System Helps NASA Rocket Team Decide When to Launch",
-   "title_fa": "سیستم هشدار شراره‌های خورشیدی به تیم موشکی ناسا کمک می‌کند تا زمان پرتاب را تعیین کنند",
-   "summary": "For the first time, scientists have used NASA sounding rockets to study a solar flare in progress, thanks to a new flare alert system that told the team when to launch. Solar flares accelerate particles and release energy into the solar system, which can affect Earth and its technologies. Sounding rockets are a relatively fast, […]",
-   "summary_fa": "برای اولین بار، دانشمندان به لطف یک سیستم هشدار شعله جدید که به تیم زمان پرتاب را اطلاع می‌داد، از موشک‌های کاوشی ناسا برای مطالعه یک شعله خورشیدی در حال وقوع استفاده کردند. شعله‌های خورشیدی ذرات را شتاب می‌دهند و انرژی را در منظومه شمسی آزاد می‌کنند که می‌تواند بر زمین و فناوری‌های آن تأثیر بگذارد. موشک‌های کاوشی نسبتاً سریع هستند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/sounding-rockets/FOXSI5-rocket-launch.jpg?w=723&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/science-news/2026/11/04/solar-flare-alert-system-helps-nasa-rocket-team-decide-when-to-launch/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-04T15:05:17.000Z"
-  },
-  {
-   "slug": "nasa-1yg9cwv",
-   "title": "NASA-Funded SSPICY Mission Experiences Communications Loss",
-   "title_fa": "از دست دادن تجارب ارتباطی ماموریت SSPICY با بودجه ناسا",
-   "summary": "A NASA-supported small satellite launched in October as a technology demonstration has lost contact with its owner and operator, Starfish Space. NASA and Starfish have concluded the spacecraft is not recoverable due to an issue preventing communications between the SmallSat and ground operators. Led by Starfish Space, NASA’s Small Spacecraft Propulsion and Inspection Capability (SSPICY) […]",
-   "summary_fa": "یک ماهواره کوچک با پشتیبانی ناسا که در ماه اکتبر به عنوان یک نمایش فناوری به فضا پرتاب شد، ارتباط خود را با مالک و اپراتور خود، Starfish Space از دست داد. ناسا و ستاره‌فیش به این نتیجه رسیده‌اند که این فضاپیما به دلیل مشکلی که از ارتباطات بین SmallSat و اپراتورهای زمینی جلوگیری می‌کند قابل بازیابی نیست. به رهبری Starfish Space، قابلیت پیشران و بازرسی فضاپیمای کوچک ناسا (SSPICY)",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/08/leo-otter-solo-master.png?w=2048",
-   "link": "https://www.nasa.gov/blogs/smallsatellites/2026/11/03/nasa-funded-sspicy-mission-experiences-communications-loss/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-03T22:18:25.000Z"
-  },
-  {
-   "slug": "nasa-1ybo2ya",
-   "title": "Crew Keeps Up Spacewalk Preps, Research, and Cargo Operations",
-   "title_fa": "خدمه آماده سازی، تحقیقات و عملیات باربری راهپیمایی فضایی را ادامه می دهند",
-   "summary": "Expedition 75 is continuing preparations for the second and final spacewalk in a series of two to upgrade the International Space Station’s power generation system. The orbital residents are also conducting microgravity research and transferring cargo in and out of a U.S. cargo spacecraft.",
-   "summary_fa": "اکسپدیشن 75 به آماده سازی برای دومین و آخرین راهپیمایی فضایی در یک سری دو تایی برای ارتقای سیستم تولید برق ایستگاه فضایی بین المللی ادامه می دهد. ساکنان مدار همچنین در حال انجام تحقیقات میکروگرانشی و انتقال محموله به داخل و خارج از یک فضاپیمای باری ایالات متحده هستند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0253663/iss075e0253663~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/03/crew-keeps-up-spacewalk-preps-research-and-cargo-operations/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-03T18:22:21.000Z"
-  },
-  {
-   "slug": "science-12jd4yh",
-   "title": "NASA’s Eyes software: October release notes",
-   "title_fa": "نرم افزار چشم ناسا: یادداشت های انتشار اکتبر",
-   "summary": "On October 28, 2026, a new version of Eyes on Exoplanets was released. This release added the new Nancy Grace Roman Space Telescope, which is expected to find thousands of new exoplanets. When accessing Eyes on Exoplanets from your mobile phone, you can use the augmented reality feature to place the spacecraft in your own […]",
-   "summary_fa": "در 28 اکتبر 2026، نسخه جدیدی از Eyes on Exoplanets منتشر شد. این نسخه تلسکوپ فضایی رومی جدید نانسی گریس را اضافه کرد که انتظار می رود هزاران سیاره فراخورشیدی جدید را پیدا کند. هنگامی که از طریق تلفن همراه خود به Eyes on Exoplanets دسترسی دارید، می توانید از ویژگی واقعیت افزوده برای قرار دادن فضاپیما در فضای خود استفاده کنید.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/eyes/common/promotion/eyes-blog-posts/october-2026-blog/Roman_exo2.jpg?w=1151&h=540&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/eyes/2026/11/02/nasas-eyes-software-october-release-notes/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-02T23:43:02.000Z"
-  },
-  {
-   "slug": "nasa-14opdvs",
-   "title": "Week Starts with Spacewalk Preps and Life Science",
-   "title_fa": "هفته با آماده سازی راهپیمایی فضایی و علوم زندگی آغاز می شود",
-   "summary": "Preparations continue for the second in the final series of spacewalks to upgrade the International Space Station’s power generation system on Thursday. Meanwhile, the Expedition 75 crew focused its research efforts on life science at the beginning of the week.",
-   "summary_fa": "آماده سازی برای دومین سری از آخرین راهپیمایی های فضایی برای ارتقای سیستم تولید برق ایستگاه فضایی بین المللی در روز پنجشنبه ادامه دارد. در همین حال، خدمه Expedition 75 تلاش های تحقیقاتی خود را بر روی علوم زیستی در ابتدای هفته متمرکز کردند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0253155/iss075e0253155~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-02T19:14:48.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
