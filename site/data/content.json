@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-06T17:47:12.835Z",
+ "generated_utc": "2026-11-06T18:52:12.779Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1674,6 +1674,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-1pzjnf5",
+   "title": "Spacewalk Cleanup, Biomedical Science, and Maintenance Wrap Up Week",
+   "title_fa": null,
+   "summary": "The seven Expedition 75 crew members cleaned up after a spacewalk, conducted biomedical assessments, and maintained orbital systems to wrap up a busy week aboard the International Space Station.",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-useva101-110526d-1.jpg?w=2048",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/06/spacewalk-cleanup-biomedical-science-and-maintenance-wrap-up-week/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-06T17:48:13.000Z"
+  },
+  {
    "slug": "nasa-13ighho",
    "title": "M30’s Sparkling Stars",
    "title_fa": null,
@@ -1864,18 +1876,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-02T19:14:48.000Z"
-  },
-  {
-   "slug": "science-6h41o",
-   "title": "NASA’s Twin ESCAPADE Spacecraft to Slingshot Past Earth on Way to Mars",
-   "title_fa": "فضاپیمای دوقلو ESCAPADE ناسا در مسیر مریخ از کنار زمین عبور می کند",
-   "summary": "In a few days, NASA’s ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) will perform a maneuver that no agency spacecraft has flown before — and do it twice. Each of the two ESCAPADE spacecraft will execute a “powered” flyby of Earth, combining Earth’s gravity with an engine burn, to slingshot itself toward Mars. The […]",
-   "summary_fa": "چند روز دیگر، ESCAPADE ناسا (Escape and Plasma Acceleration and Dynamics Explorers) مانوری را انجام خواهد داد که هیچ فضاپیمایی قبلاً آن را انجام نداده است - و آن را دو بار انجام می دهد. هر یک از دو فضاپیمای ESCAPADE یک پرواز \"با قدرت\" از زمین را اجرا می کند که گرانش زمین را با سوختن موتور ترکیب می کند تا خود را به سمت مریخ شلیک کند. را",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/Boulder-star-chart-ESCAPADE-Nov7.jpg?w=1098&h=711&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-02T19:11:28.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
