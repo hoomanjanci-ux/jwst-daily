@@ -110230,6 +110230,315 @@
   "jw06882002001_08101_00004_nrca4_rate.fits": {
    "channels": {},
    "status": "legacy_v01"
+  },
+  "jw12517014001_03106_00004_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00004_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00003_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00001_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00003_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00003_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00004_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00003_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00003_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00004_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00002_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00004_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00002_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00004_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00004_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00001_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00003_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00003_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00004_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00003_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00001_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00002_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00001_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00002_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517-o014_t007_nircam_clear-f322w2-sub400p_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517-o014_t007_nircam_clear-f356w-sub400p_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517-o014_t007_nircam_clear-f277w-sub400p_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517-o014_t007_nircam_clear-f200w-sub400p_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517-o014_t007_nircam_clear-f150w-sub400p_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517-o014_t007_nircam_clear-f115w-sub400p_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517-o014_t007_nircam_clear-f090w-sub400p_i2d.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00004_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00004_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00003_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00003_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00003_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00004_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00003_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00003_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00004_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00004_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00004_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00004_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00003_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00003_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00004_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00003_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00004_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00004_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00003_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00003_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00003_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00004_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00003_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00003_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00004_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00002_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00004_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00002_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00004_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00004_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00003_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00003_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_0310a_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03106_00004_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00003_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03104_00002_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12517014001_03108_00002_nrcb1_rate.fits": {
+   "channels": {}
   }
  },
  "runs": [
@@ -116187,7 +116496,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-06T19:55:56.624013+00:00",
+ "paired_prepare_attempt_utc": "2026-11-06T21:00:54.101371+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
