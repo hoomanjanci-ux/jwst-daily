@@ -122464,37 +122464,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-06T14:31:01.412696+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-06/18",
-    "published": [
-     "jw07763016001_04101_00001_nrca3_i2d.fits"
-    ],
-    "sender": "cloudflare",
-    "prepared": 1,
-    "enqueued": 1,
-    "slot_status": "sent",
-    "ready_pairs": 5,
-    "next_window": "2026-11-07T06:00:00+03:30"
-   },
-   "published": [
-    "jw07763016001_04101_00001_nrca3_i2d.fits"
-   ],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-06T14:33:47.744527+00:00"
-  },
-  {
    "started_utc": "2026-11-06T14:55:02.477781+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -123964,6 +123933,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-07T17:47:33.770605+00:00"
+  },
+  {
+   "started_utc": "2026-11-07T18:37:05.927159+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 4,
+    "next_window": "2026-11-08T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/"
+    ],
+    "en": [
+     "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/"
+    ],
+    "mode": "fresh (3 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-7-:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-07T18:37:17.966462+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -124445,6 +124451,10 @@
   },
   "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/": {
    "en": "2026-11-07T06:58:31.147496+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/": {
+   "fa": "2026-11-07T18:37:11.868171+00:00",
+   "en": "2026-11-07T18:37:11.868171+00:00"
   }
  },
  "news_archive": {
@@ -125491,6 +125501,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-11-06T17:48:13+00:00",
    "ts": "2026-11-06T21:07:46.795015+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/": {
+   "title": "ناسا به دنبال نسل بعدی کاوشگران برای پیوستن به سپاه فضانوردان است",
+   "summary": "ناسا به دنبال کاشفانی است که به نوشتن فصل بعدی پروازهای فضایی انسان کمک کنند. اکنون درخواست‌ها برای کلاس بعدی فضانوردان آژانس، که با بازگشت آمریکا به ماه، ساخت پایگاه ماه، و زمینه‌سازی اولین مأموریت‌های خدمه به مریخ، به ناسا خواهند پیوست، باز است. نسل بعدی",
+   "link": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-07T18:11:57+00:00",
+   "ts": "2026-11-07T18:37:11.868171+00:00"
   }
  },
  "news_title_fp": {
@@ -125914,6 +125933,10 @@
    "en": "2026-11-06"
   },
   "56131ce95093e9ae": {
+   "en": "2026-11-07"
+  },
+  "5bc87b9becf23402": {
+   "fa": "2026-11-07",
    "en": "2026-11-07"
   }
  },
@@ -126341,6 +126364,10 @@
   [
    "56131ce95093e9ae",
    "apod 2026 november 7 de gerlache kocher massif"
+  ],
+  [
+   "5bc87b9becf23402",
+   "nasa seeks next generation of explorers to join astronaut corps"
   ]
  ],
  "combo_seen": {
