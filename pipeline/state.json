@@ -122450,9 +122450,14 @@
    "status": "legacy_v01"
   },
   "jw10046006002_03101_00004_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10046006002_03101_00004_nrca4_rate.fits": {
+   "channels": {},
+   "status": "legacy_v01"
+  },
+  "jw10046006002_03101_00004_nrca3_rate.fits": {
    "channels": {}
   }
  },
@@ -128532,7 +128537,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-07T14:31:03.624685+00:00",
+ "paired_prepare_attempt_utc": "2026-11-07T14:55:45.336518+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
