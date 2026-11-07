@@ -122458,7 +122458,8 @@
    "status": "legacy_v01"
   },
   "jw10046006002_03101_00004_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   }
  },
  "runs": [
