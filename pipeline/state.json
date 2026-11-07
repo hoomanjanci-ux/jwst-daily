@@ -122762,43 +122762,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-06T20:47:48.426374+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 5,
-    "next_window": "2026-11-07T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/image-article/m30s-sparkling-stars/"
-    ],
-    "en": [
-     "https://www.nasa.gov/image-article/m30s-sparkling-stars/"
-    ],
-    "mode": "fresh (2 unseen)",
-    "errors": {
-     "https://science.nasa.gov/image-article/apod-2026-november-5-:fa": "ValueError: Persian news translation unavailable; held for retry"
-    }
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-06T20:48:04.711439+00:00"
-  },
-  {
    "started_utc": "2026-11-06T21:00:52.561782+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -124281,6 +124244,33 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-07T23:07:58.166749+00:00"
+  },
+  {
+   "started_utc": "2026-11-07T23:10:49.080273+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "prepared": 0,
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 5,
+    "next_window": "2026-11-08T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "note": "not invoked by analysis-only worker"
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-07T23:12:01.720860+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
