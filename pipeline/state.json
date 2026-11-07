@@ -100210,15 +100210,129 @@
   },
   "jw06882001001_02101_00004_nrca1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "ready",
+   "score": 65.48,
+   "analyzed_utc": "2026-11-07T01:22:58.281605+00:00",
+   "analysis": "analyses/2026/11/07/jw06882001001_02101_00004_nrca1_i2d.fits.json",
+   "cand": {
+    "filename": "jw06882001001_02101_00004_nrca1_i2d.fits",
+    "size_mb": 113.206,
+    "uri": "mast:JWST/product/jw06882001001_02101_00004_nrca1_i2d.fits",
+    "proposal": "6882",
+    "obs_id": "jw06882001001_02101_00004_nrca1",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06882001001_02101_00004_nrca1_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06882001001_02101_00004_nrca1_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06882001001_02101_00004_nrca1_i2d.jpg"
+   },
+   "meta_TARGNAME": "RXCJ0018+1626",
+   "meta_FILTER": "F090W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "RXCJ0018+1626|NIRCAM|F090W",
+   "sha256": "cf5ff4fb878710046545a158cf81bfbd7d64b28418cf656b10fd13c8a98a900c",
+   "bytes": 118704960,
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5081,
+      "brightness": 0.4558,
+      "range": 1.0,
+      "roi": 0.6548,
+      "score": 76.82
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 5896,
+      "brightest_quadrant_percent": 52.29,
+      "width": 2058,
+      "height": 2058,
+      "sample_stride": 3,
+      "sample_count": 462415,
+      "finite_fraction": 0.982616,
+      "median": 0.29776647686958313,
+      "robust_scatter": 0.027226749658584595,
+      "above_5scatter_percent": 1.275,
+      "p99_above_median_scatter": 6.001,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5081,
+      "brightness": 0.4558,
+      "range": 1.0,
+      "roi": 0.6548,
+      "score": 76.82
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 5896,
+      "brightest_quadrant_percent": 52.29,
+      "width": 2058,
+      "height": 2058,
+      "sample_stride": 3,
+      "sample_count": 462415,
+      "finite_fraction": 0.982616,
+      "median": 0.29776647686958313,
+      "robust_scatter": 0.027226749658584595,
+      "above_5scatter_percent": 1.275,
+      "p99_above_median_scatter": 6.001,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-07T01:23:31.868355+00:00"
   },
   "jw06882001001_02101_00004_nrca2_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "analyzed",
+   "score": 30.59,
+   "analyzed_utc": "2026-11-07T01:23:08.340086+00:00",
+   "analysis": "analyses/2026/11/07/jw06882001001_02101_00004_nrca2_i2d.fits.json",
+   "cand": {
+    "filename": "jw06882001001_02101_00004_nrca2_i2d.fits",
+    "size_mb": 113.033,
+    "uri": "mast:JWST/product/jw06882001001_02101_00004_nrca2_i2d.fits",
+    "proposal": "6882",
+    "obs_id": "jw06882001001_02101_00004_nrca2",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06882001001_02101_00004_nrca2_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06882001001_02101_00004_nrca2_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06882001001_02101_00004_nrca2_i2d.jpg"
+   },
+   "meta_TARGNAME": "RXCJ0018+1626",
+   "meta_FILTER": "F090W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "RXCJ0018+1626|NIRCAM|F090W",
+   "sha256": "a28a08c7475d6e04b676d9f81754607300913598f4cc462c9521a9c9355b9ac3",
+   "bytes": 118523520,
+   "published_utc": null
   },
   "jw07763052001_04101_00004_nrcb2_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "analyzed",
+   "score": 43.05,
+   "analyzed_utc": "2026-11-07T01:23:18.014642+00:00",
+   "analysis": "analyses/2026/11/07/jw07763052001_04101_00004_nrcb2_i2d.fits.json",
+   "cand": {
+    "filename": "jw07763052001_04101_00004_nrcb2_i2d.fits",
+    "size_mb": 113.206,
+    "uri": "mast:JWST/product/jw07763052001_04101_00004_nrcb2_i2d.fits",
+    "proposal": "7763",
+    "obs_id": "jw07763052001_04101_00004_nrcb2",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw07763052001_04101_00004_nrcb2_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw07763052001_04101_00004_nrcb2_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw07763052001_04101_00004_nrcb2_i2d.jpg"
+   },
+   "meta_TARGNAME": "IC3586",
+   "meta_FILTER": "F150W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "IC3586|NIRCAM|F150W",
+   "sha256": "cc1b2f01249e3067814fa1afe158df661eb49baaf304f7b37cb3f91876d36d8b",
+   "bytes": 118704960,
+   "published_utc": null
   },
   "jw07763052001_04101_00004_nrcb3_i2d.fits": {
    "channels": {},
@@ -116150,7 +116264,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-07",
-  "bytes": 440087040
+  "bytes": 796020480
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -118200,7 +118314,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-07T00:15:59.919996+00:00",
+ "paired_prepare_attempt_utc": "2026-11-07T01:20:57.046500+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
