@@ -122407,6 +122407,78 @@
   "jw07763060001_02101_00004_nrcblong_rate.fits": {
    "channels": {},
    "status": "legacy_v01"
+  },
+  "jw08559008001_02109_00003_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00003_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00004_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00004_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw08559-o008_t008_nircam_clear-f300m_i2d.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00003_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00003_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00004_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00004_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00003_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00003_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00004_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00004_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00001_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw08559008001_02109_00002_nrcblong_rate.fits": {
+   "channels": {}
   }
  },
  "runs": [
@@ -128464,7 +128536,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-07T10:40:52.776105+00:00",
+ "paired_prepare_attempt_utc": "2026-11-07T11:45:57.965767+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
