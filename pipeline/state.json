@@ -122628,6 +122628,111 @@
    "sha256": "de560b7a6588eb379805d67689839f4bc101ed704431c16591cbfc92550ab6e6",
    "bytes": 829440,
    "published_utc": null
+  },
+  "jw12525-o108_t001_nircam_f405n-f444w-sub160p_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "21e412e748d8042ce0b42ac30d84eb251e2eb627c744e95a978c7ffef6ba8940"
+  },
+  "jw12525-o108_t001_nircam_clear-f187n-sub160p_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F187N",
+   "sha256": "e946fd1f73119230ac98b4c2b0fe96f28fd1fca0c07f2e0174d1681c3abfdf51"
+  },
+  "jw12525108001_02104_00003_nrcblong_cal.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "df74017d750ba1030e0be4ed8a1201b4aa0c3d5e15aa5dee97bccf1354d99ec2"
+  },
+  "jw12525108001_02104_00002_nrcblong_cal.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "1df22f7d5d8fa2142717c50798e8b9cee74e9ceaec7f17e8865f29ac04dd0a1e"
+  },
+  "jw12525108001_02104_00005_nrcblong_cal.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "4795efbee706dcef7d8657d22a875658021a36d65f90d3d139d8353ab7cb8e1f"
+  },
+  "jw12525108001_02104_00007_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02104_00006_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02104_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00007_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02104_00004_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00003_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00004_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00006_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00005_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02104_00003_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02104_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02104_00005_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02104_00007_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02104_00006_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02104_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00007_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00002_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02104_00004_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00003_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00004_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00006_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw12525108001_02106_00005_nrcb1_rate.fits": {
+   "channels": {}
   }
  },
  "runs": [
@@ -126593,7 +126698,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-07",
-  "bytes": 888287040
+  "bytes": 899464320
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -128737,9 +128842,41 @@
    },
    "completed_utc": "2026-11-07T02:30:34.519Z",
    "sender": "cloudflare"
+  },
+  "2026-11-08/18": {
+   "start": "2026-11-08T14:30:00.000Z",
+   "end": "2026-11-08T15:30:00.000Z",
+   "status": "waiting",
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
+  },
+  "2026-11-08/12": {
+   "start": "2026-11-08T08:30:00.000Z",
+   "end": "2026-11-08T09:30:00.000Z",
+   "status": "waiting",
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
+  },
+  "2026-11-08/09": {
+   "start": "2026-11-08T05:30:00.000Z",
+   "end": "2026-11-08T06:30:00.000Z",
+   "status": "waiting",
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
+  },
+  "2026-11-08/06": {
+   "start": "2026-11-08T02:30:00.000Z",
+   "end": "2026-11-08T03:30:00.000Z",
+   "status": "waiting",
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-07T20:15:42.829098+00:00",
+ "paired_prepare_attempt_utc": "2026-11-07T21:01:00.267834+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
