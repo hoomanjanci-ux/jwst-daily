@@ -122466,39 +122466,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-06T00:25:20.292249+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 8,
-    "next_window": "2026-11-06T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": "fresh (1 unseen)",
-    "errors": {
-     "https://science.nasa.gov/image-article/apod-2026-november-5-:fa": "ValueError: Persian news translation unavailable; held for retry"
-    }
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-06T00:25:30.801368+00:00"
-  },
-  {
    "started_utc": "2026-11-06T00:31:50.463957+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -123959,6 +123926,42 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-07T06:37:26.313747+00:00"
+  },
+  {
+   "started_utc": "2026-11-07T06:58:24.247687+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 6,
+    "next_window": "2026-11-07T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-7-:fa": "ValueError: Persian news translation unavailable; held for retry",
+     "https://science.nasa.gov/image-article/apod-2026-november-5-:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-07T06:58:37.145884+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -124437,6 +124440,9 @@
   "https://www.nasa.gov/blogs/spacestation/2026/11/06/spacewalk-cleanup-biomedical-science-and-maintenance-wrap-up-week/": {
    "fa": "2026-11-06T21:07:46.795015+00:00",
    "en": "2026-11-06T21:07:46.795015+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/": {
+   "en": "2026-11-07T06:58:31.147496+00:00"
   }
  },
  "news_archive": {
@@ -125904,6 +125910,9 @@
   "7a73211d2d9cf27d": {
    "fa": "2026-11-06",
    "en": "2026-11-06"
+  },
+  "56131ce95093e9ae": {
+   "en": "2026-11-07"
   }
  },
  "news_title_recent": [
@@ -126326,6 +126335,10 @@
   [
    "7a73211d2d9cf27d",
    "spacewalk cleanup biomedical science and maintenance wrap up week"
+  ],
+  [
+   "56131ce95093e9ae",
+   "apod 2026 november 7 de gerlache kocher massif"
   ]
  ],
  "combo_seen": {
