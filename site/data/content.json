@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-08T02:15:00.746Z",
+ "generated_utc": "2026-11-08T02:27:09.685Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1793,6 +1793,42 @@
  ],
  "news": [
   {
+   "slug": "nasa-jq5fdm",
+   "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+   "title_fa": "ناسا برای پروژه‌های حمل و نقل، فناوری و علمی پایگاه ماه جایزه می‌دهد",
+   "summary": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […]",
+   "summary_fa": "ناسا روز شنبه مجموعه‌ای از جوایز و به‌روزرسانی‌های ماموریت را برای گسترش قابلیت‌های اکتشاف، علمی و زیرساختی پایگاه ماه این آژانس اعلام کرد. این سرمایه‌گذاری‌ها، تحویل‌های رباتیک تجاری، یک مریخ‌نورد هسته‌ای به نام PROMISE، خدمات پرتاب و انتقال مداری و زیرساخت‌های سطحی را در حالی که این آژانس با صنعت آمریکا برای ایجاد حضور پایدار در ماه همکاری می‌کند، پیش خواهد برد.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/moon-base-artists-concept.jpg?w=1936",
+   "link": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-07T22:47:03.000Z"
+  },
+  {
+   "slug": "nasa-1vhs14u",
+   "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
+   "title_fa": "ناسا به دنبال نسل بعدی کاوشگران برای پیوستن به سپاه فضانوردان است",
+   "summary": "NASA is looking for the explorers who will help write the next chapter of human spaceflight. Applications are now open for the agency’s next class of astronauts, who will join NASA as America returns to the Moon, builds the Moon Base, and lays the groundwork for the first crewed missions to Mars. The next generation […]",
+   "summary_fa": "ناسا به دنبال کاشفانی است که به نوشتن فصل بعدی پروازهای فضایی انسان کمک کنند. اکنون درخواست‌ها برای کلاس بعدی فضانوردان آژانس، که با بازگشت آمریکا به ماه، ساخت پایگاه ماه، و زمینه‌سازی اولین مأموریت‌های خدمه به مریخ، به ناسا خواهند پیوست، باز است. نسل بعدی",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2025e076292large.jpg?w=1920",
+   "link": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-07T18:11:57.000Z"
+  },
+  {
+   "slug": "science-atd27b",
+   "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/GerlacheKocherMassif_Sans.jpg?w=1500&h=1022&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-07T05:05:00.000Z"
+  },
+  {
    "slug": "nasa-1pzjnf5",
    "title": "Spacewalk Cleanup, Biomedical Science, and Maintenance Wrap Up Week",
    "title_fa": "هفته پایانی پاکسازی پیاده‌روی فضایی، علوم زیست پزشکی و نگهداری",
@@ -1803,6 +1839,30 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-06T17:48:13.000Z"
+  },
+  {
+   "slug": "nasa-13ighho",
+   "title": "M30’s Sparkling Stars",
+   "title_fa": "ستاره های درخشان M30",
+   "summary": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects that might be mistaken for comets in the early telescopes of Messier’s time. M30 lies about […]",
+   "summary_fa": "این تصویر تلسکوپ فضایی هابل ناسا/ESA که در 5 نوامبر 2026 منتشر شد، درسی از تاریخ کهکشان ارائه می دهد. مجموعه درخشان ستارگان مسیه 30 (M30) از نام ستاره شناس فرانسوی، چارلز مسیه، نامگذاری شده است که M30 و سایر اجرام پراکنده را که ممکن است با دنباله دارها در تلسکوپ های اولیه زمان مسیه اشتباه گرفته شوند، فهرست کرده است. M30 دروغ می گوید",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/hubble-m30-potm2610a.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-06T16:23:41.000Z"
+  },
+  {
+   "slug": "science-gxdhe0",
+   "title": "APOD: 2026 November 6 – A Farewell to Swift",
+   "title_fa": "APOD: 6 نوامبر 2026 - خداحافظی با سوئیفت",
+   "summary": "APOD Science APOD APOD: 2026 November 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Farewell […]",
+   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. یک خداحافظی",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Swift_Millionth_Image_Mosaic.jpg?w=2048&h=1460&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-06T05:05:00.000Z"
   },
   {
    "slug": "nasa-y0vidu",
@@ -1817,6 +1877,30 @@
    "date_utc": "2026-11-05T20:52:33.000Z"
   },
   {
+   "slug": "nasa-1i6aow7",
+   "title": "Midwestern City Lights",
+   "title_fa": "چراغ های شهر میدوسترن",
+   "summary": "City lights from the Midwestern United States to the East Coast sparkle across the landscape a couple of hours before sunrise on Oct. 18, 2026. Major urban areas visible in the photograph include Chicago, Illinois; Detroit, Michigan; and the New York metropolitan region. The International Space Station was orbiting 259 miles above Earth when this […]",
+   "summary_fa": "نورهای شهری از غرب میانه ایالات متحده تا ساحل شرقی چند ساعت قبل از طلوع خورشید در 18 اکتبر 2026 در سراسر منظره می درخشند. مناطق شهری عمده قابل مشاهده در عکس عبارتند از: شیکاگو، ایلینویز دیترویت، میشیگان؛ و منطقه کلان شهر نیویورک. ایستگاه فضایی بین المللی در فاصله 259 مایلی بالای زمین در حال چرخش بود",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0227352orig.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/midwestern-city-lights/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-05T15:17:19.000Z"
+  },
+  {
+   "slug": "nasa-bekfsb",
+   "title": "NASA Astronauts to Answer Questions from Florida Students",
+   "title_fa": "پاسخ فضانوردان ناسا به سوالات دانشجویان فلوریدا",
+   "summary": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 10:40 a.m. EST Tuesday, Nov. 10, and will stream live on the agency’s Learn With NASA YouTube channel. This event is hosted by Freedom Crossing Academy in […]",
+   "summary_fa": "دانش‌آموزان در فلوریدا صحبت‌های جسیکا واتکینز و لوک دیلینی فضانوردان ناسا را ​​در حالی که در ایستگاه فضایی بین‌المللی به سوالات از پیش ضبط‌شده STEM پاسخ می‌دهند، می‌شنوند. تماس زمین به فضا در ساعت 10:40 صبح سه شنبه، 10 نوامبر به EST آغاز خواهد شد و به صورت زنده در کانال یوتیوب سازمان Learn With NASA پخش خواهد شد. این رویداد توسط Freedom Crossing Academy در",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/freedom-crossing-downlink-nov-5.jpg?w=1920",
+   "link": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-05T15:11:25.000Z"
+  },
+  {
    "slug": "nasa-12q0qin",
    "title": "Spacewalk Begins to Install Last Roll-Out Solar Array",
    "title_fa": "راهپیمایی فضایی برای نصب آخرین آرایه خورشیدی آغاز شد",
@@ -1827,6 +1911,18 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-05T13:44:35.000Z"
+  },
+  {
+   "slug": "science-1tjd93n",
+   "title": "Hubble Learns Galactic History From Stars",
+   "title_fa": "هابل تاریخ کهکشانی را از ستاره ها می آموزد",
+   "summary": "This Hubble image features the sparkling collection of stars named Messier 30 (M30), also called NGC 7099.",
+   "summary_fa": "این تصویر هابل مجموعه درخشانی از ستارگان به نام مسیه 30 (M30) را نشان می دهد که NGC 7099 نیز نامیده می شود.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/stars/globular-clusters/Hubble_M30_potm2610a.jpg?w=2048&h=1806&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-05T12:56:21.000Z"
   },
   {
    "slug": "nasa-1goe8pr",
