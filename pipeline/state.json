@@ -122558,33 +122558,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-08T00:15:50.967213+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 5,
-    "next_window": "2026-11-08T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-08T00:18:48.626489+00:00"
-  },
-  {
    "started_utc": "2026-11-08T01:20:56.186249+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -123968,6 +123941,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-08T16:12:42.678722+00:00"
+  },
+  {
+   "started_utc": "2026-11-08T16:23:26.443245+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 1,
+    "next_window": "2026-11-09T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/"
+    ],
+    "en": [
+     "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-7-:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-08T16:23:37.063799+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -124461,6 +124471,10 @@
   "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/": {
    "fa": "2026-11-08T06:20:23.942740+00:00",
    "en": "2026-11-08T06:20:23.942740+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/": {
+   "fa": "2026-11-08T16:23:30.529427+00:00",
+   "en": "2026-11-08T16:23:30.529427+00:00"
   }
  },
  "news_archive": {
@@ -125534,6 +125548,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-08T05:05:00+00:00",
    "ts": "2026-11-08T06:20:23.942740+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/": {
+   "title": "ناسا یک میلیون دلار به دانش آموزان برای چالش پایگاه ماه اعلام می کند",
+   "summary": "روز یکشنبه، ناسا از افتتاح چالش دانشجویی پایه ماه یک میلیون دلاری خود در طی رویداد MAX POWER در مجتمع بازدیدکنندگان مرکز فضایی کندی در فلوریدا خبر داد. به عنوان بخشی از عصر طلایی علم، این مسابقه از تیم‌های دانش‌آموزی در دبیرستان‌ها و دبیرستان‌های ایالات متحده دعوت می‌کند تا در طراحی پایگاه ماه شرکت کنند. \"ما هستیم",
+   "link": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-08T15:26:38+00:00",
+   "ts": "2026-11-08T16:23:30.529427+00:00"
   }
  },
  "news_title_fp": {
@@ -125968,6 +125991,10 @@
    "en": "2026-11-07"
   },
   "e0dfe98160451b74": {
+   "fa": "2026-11-08",
+   "en": "2026-11-08"
+  },
+  "8eba4b55520c5e87": {
    "fa": "2026-11-08",
    "en": "2026-11-08"
   }
@@ -126408,6 +126435,10 @@
   [
    "e0dfe98160451b74",
    "apod 2026 november 8 major fireball meteor"
+  ],
+  [
+   "8eba4b55520c5e87",
+   "nasa announces 1 million to students for moon base challenge"
   ]
  ],
  "combo_seen": {
