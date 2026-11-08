@@ -122668,37 +122668,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-07T05:30:55.515827+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-07/09",
-    "published": [
-     "jw07763053001_02101_00003_nrcb4_i2d.fits"
-    ],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 6,
-    "next_window": "2026-11-07T12:00:00+03:30"
-   },
-   "published": [
-    "jw07763053001_02101_00003_nrcb4_i2d.fits"
-   ],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-07T05:32:13.897706+00:00"
-  },
-  {
    "started_utc": "2026-11-07T06:04:16.707347+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -124163,6 +124132,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-08T06:11:01.728443+00:00"
+  },
+  {
+   "started_utc": "2026-11-08T06:20:18.725915+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-08/09",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 3,
+    "next_window": "2026-11-08T12:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-7-:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-08T06:20:34.734953+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -124652,6 +124658,10 @@
   "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/": {
    "fa": "2026-11-07T22:57:58.014068+00:00",
    "en": "2026-11-07T22:57:58.014068+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/": {
+   "fa": "2026-11-08T06:20:23.942740+00:00",
+   "en": "2026-11-08T06:20:23.942740+00:00"
   }
  },
  "news_archive": {
@@ -125716,6 +125726,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-07T22:47:03+00:00",
    "ts": "2026-11-07T22:57:58.014068+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/": {
+   "title": "شهاب سنگ بزرگ آتشین، ۸ نوامبر ۲۰۲۶، APOD",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت‌انگیز ما، همراه با توضیحی مختصر که توسط یک ستاره‌شناس حرفه‌ای نوشته شده است، نمایش داده می‌شود. شهاب سنگ بزرگ آتشین",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-08T05:05:00+00:00",
+   "ts": "2026-11-08T06:20:23.942740+00:00"
   }
  },
  "news_title_fp": {
@@ -126148,6 +126167,10 @@
   "4d08f0f110a1e893": {
    "fa": "2026-11-07",
    "en": "2026-11-07"
+  },
+  "e0dfe98160451b74": {
+   "fa": "2026-11-08",
+   "en": "2026-11-08"
   }
  },
  "news_title_recent": [
@@ -126582,6 +126605,10 @@
   [
    "4d08f0f110a1e893",
    "nasa awards moon base transportation technology science projects"
+  ],
+  [
+   "e0dfe98160451b74",
+   "apod 2026 november 8 major fireball meteor"
   ]
  ],
  "combo_seen": {
