@@ -122558,33 +122558,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-08T08:50:51.777590+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-08/12",
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 2,
-    "next_window": "2026-11-08T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-08T08:52:18.431479+00:00"
-  },
-  {
    "started_utc": "2026-11-08T09:10:52.441627+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -123970,6 +123943,39 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-08T21:12:17.920200+00:00"
+  },
+  {
+   "started_utc": "2026-11-08T21:20:50.586616+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 1,
+    "next_window": "2026-11-09T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [],
+    "en": [],
+    "mode": "fresh (1 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-7-:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-08T21:20:59.240816+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
