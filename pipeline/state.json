@@ -124936,33 +124936,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-08T19:31:00.144898+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 1,
-    "next_window": "2026-11-09T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-08T19:32:14.420019+00:00"
-  },
-  {
    "started_utc": "2026-11-08T19:50:53.411461+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -126399,6 +126372,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-09T19:57:39.942452+00:00"
+  },
+  {
+   "started_utc": "2026-11-09T19:59:33.886389+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 4,
+    "next_window": "2026-11-10T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/"
+    ],
+    "en": [
+     "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-09T19:59:50.218395+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -126919,6 +126929,10 @@
   },
   "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/": {
    "en": "2026-11-09T18:37:44.749049+00:00"
+  },
+  "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/": {
+   "fa": "2026-11-09T19:59:41.909574+00:00",
+   "en": "2026-11-09T19:59:41.909574+00:00"
   }
  },
  "news_archive": {
@@ -128046,6 +128060,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-09T17:42:42+00:00",
    "ts": "2026-11-09T18:37:44.749049+00:00"
+  },
+  "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/": {
+   "title": "ESCAPADE ناسا پروازهای برقی زمین را تکمیل می کند، اکنون در مسیر مریخ",
+   "summary": "دو فضاپیمای ESCAPADE ناسا (Escape and Plasma Acceleration and Dynamics Explorers) هر کدام با استفاده از گرانش زمین در ترکیب با سوختن پایدار موتور، خود را به سمت مریخ پرتاب کرده اند. با تکمیل این مانورهای موفقیت آمیز، فضاپیمای دوقلو در هدف رسیدن به سیاره سرخ در سپتامبر 2027 هستند.",
+   "link": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-09T16:01:47+00:00",
+   "ts": "2026-11-09T19:59:41.909574+00:00"
   }
  },
  "news_title_fp": {
@@ -128508,6 +128531,10 @@
    "en": "2026-11-09"
   },
   "523486872cec016d": {
+   "en": "2026-11-09"
+  },
+  "21cb6a0ceaa6cf25": {
+   "fa": "2026-11-09",
    "en": "2026-11-09"
   }
  },
@@ -128975,6 +129002,10 @@
   [
    "523486872cec016d",
    "la nasa destina un mill n de d lares al reto estudiantil base lunar"
+  ],
+  [
+   "21cb6a0ceaa6cf25",
+   "nasa s escapade completes powered earth flybys now en route to mars"
   ]
  ],
  "combo_seen": {
