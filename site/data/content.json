@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-09T18:52:50.386Z",
+ "generated_utc": "2026-11-09T19:57:41.977Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1912,6 +1912,18 @@
  ],
  "news": [
   {
+   "slug": "science-1n8nm9t",
+   "title": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
+   "title_fa": null,
+   "summary": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star. A new study, published Monday in the latest issue of The Astrophysical Journal, details the discovery of a previously hidden companion object that keeps pulling material away from the massive star every 113 days as they orbit […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/chandra/2026/at2016blu.jpg?w=2048&h=2048&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-09T18:55:50.000Z"
+  },
+  {
    "slug": "nasa-h7ilqa",
    "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
    "title_fa": "چالش پیشرفته موشک های الکتریکی متوسط ​​توان ناسا",
@@ -1994,30 +2006,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-09T05:05:00.000Z"
-  },
-  {
-   "slug": "nasa-1dql03q",
-   "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
-   "title_fa": "ناسا یک میلیون دلار به دانش آموزان برای چالش پایگاه ماه اعلام می کند",
-   "summary": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites student teams at U.S. high schools and post-secondary schools to contribute designs for the Moon Base. “We’re […]",
-   "summary_fa": "روز یکشنبه، ناسا از افتتاح چالش دانشجویی پایه ماه یک میلیون دلاری خود در طی رویداد MAX POWER در مجتمع بازدیدکنندگان مرکز فضایی کندی در فلوریدا خبر داد. به عنوان بخشی از عصر طلایی علم، این مسابقه از تیم‌های دانش‌آموزی در دبیرستان‌ها و دبیرستان‌های ایالات متحده دعوت می‌کند تا در طراحی پایگاه ماه شرکت کنند. \"ما هستیم",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/stmd-exteriorlunarbase-hdlandscapeversion-2026-0521.png?w=2048",
-   "link": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-08T15:26:38.000Z"
-  },
-  {
-   "slug": "science-1f498y0",
-   "title": "APOD: 2026 November 8 – Major Fireball Meteor",
-   "title_fa": "شهاب سنگ بزرگ آتشین، ۸ نوامبر ۲۰۲۶، APOD",
-   "summary": "APODScienceAPODAPOD: 2026 November 8 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Major Fireball Meteor Explanation: The sky glows with soft pinkish colors of fading twilight in this ",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت‌انگیز ما، همراه با توضیحی مختصر که توسط یک ستاره‌شناس حرفه‌ای نوشته شده است، نمایش داده می‌شود. شهاب سنگ بزرگ آتشین",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/meteor2017_Taylor_1200.jpg?w=0&h=0&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-08T05:05:00.000Z"
   },
   {
    "slug": "nasa-1pzjnf5",
