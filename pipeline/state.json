@@ -110796,7 +110796,7 @@
   },
   "jw12517014001_03102_00004_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 32.29,
    "analyzed_utc": "2026-11-09T00:12:41.641067+00:00",
    "analysis": "analyses/2026/11/09/jw12517014001_03102_00004_nrcb1_i2d.fits.json",
@@ -110816,7 +110816,61 @@
    "combo": "SDSS J161814.23+000008.6|NIRCAM|F070W",
    "sha256": "91965f93076c5884fc352c57e267459113db2cf998d554012c30ad45b7c845c7",
    "bytes": 4619520,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5587,
+      "brightness": 0.5864,
+      "range": 0.9827,
+      "roi": 0.3229,
+      "score": 74.55
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 184,
+      "brightest_quadrant_percent": 100.0,
+      "width": 400,
+      "height": 402,
+      "sample_stride": 1,
+      "sample_count": 157788,
+      "finite_fraction": 0.981269,
+      "median": 0.4444299787282944,
+      "robust_scatter": 3.958506588435173,
+      "above_5scatter_percent": 0.1166,
+      "p99_above_median_scatter": 2.305,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5587,
+      "brightness": 0.5864,
+      "range": 0.9827,
+      "roi": 0.3229,
+      "score": 74.55
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 184,
+      "brightest_quadrant_percent": 100.0,
+      "width": 400,
+      "height": 402,
+      "sample_stride": 1,
+      "sample_count": 157788,
+      "finite_fraction": 0.981269,
+      "median": 0.4444299787282944,
+      "robust_scatter": 3.958506588435173,
+      "above_5scatter_percent": 0.1166,
+      "p99_above_median_scatter": 2.305,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-09T00:13:15.860485+00:00"
   },
   "jw12517014001_03102_00004_nrcblong_i2d.fits": {
    "channels": {},
