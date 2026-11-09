@@ -1588,7 +1588,7 @@
   },
   "jw06606007001_18101_00002_nrcblong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 40.57,
    "analyzed_utc": "2026-10-25T22:23:37.214360+00:00",
    "analysis": "analyses/2026/10/25/jw06606007001_18101_00002_nrcblong_rate.fits.json",
@@ -1619,21 +1619,21 @@
       "roi": 0.4057,
       "score": 73.27
      },
-     "ai_message": {
-      "score": 52,
-      "clarity": 55,
-      "accuracy": 45,
-      "appeal": 52,
-      "notes": "Major error: NIRCam called a 'organization' (سازمان). Repetitive phrasing, heavy jargon without explanation for non-experts. Good disclaimer and formatting otherwise."
+     "evidence": {
+      "bright_tail_pixel_count": 700,
+      "brightest_quadrant_percent": 51.857,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456401,
+      "finite_fraction": 0.978375,
+      "median": 0.13384051620960236,
+      "robust_scatter": 0.24445707789994775,
+      "above_5scatter_percent": 0.1534,
+      "p99_above_median_scatter": 2.486,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 15,
-      "clarity": 20,
-      "accuracy": null,
-      "appeal": 8,
-      "notes": "Raw detector data, not a processed visualization. Extremely noisy, low contrast, and lacks color or detail."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     },
     "en": {
      "heuristic": {
@@ -1644,23 +1644,25 @@
       "roi": 0.4057,
       "score": 73.27
      },
-     "ai_message": {
-      "score": 38,
-      "clarity": 72,
-      "accuracy": 82,
-      "appeal": 22,
-      "notes": "Metadata is correct but the prose is empty, repetitive filler with no real science. 'AI analysis' frame adds nothing. Needs a concrete finding or mystery to hook readers."
+     "evidence": {
+      "bright_tail_pixel_count": 700,
+      "brightest_quadrant_percent": 51.857,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456401,
+      "finite_fraction": 0.978375,
+      "median": 0.13384051620960236,
+      "robust_scatter": 0.24445707789994775,
+      "above_5scatter_percent": 0.1534,
+      "p99_above_median_scatter": 2.486,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 15,
-      "clarity": 20,
-      "accuracy": null,
-      "appeal": 8,
-      "notes": "Raw detector data, not a processed visualization. Extremely noisy, low contrast, and lacks color or detail."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     }
-   }
+   },
+   "analysis_revision": 3,
+   "paired_ready_utc": "2026-11-09T09:37:56.077094+00:00"
   },
   "jw06606003001_02107_00002_nrcalong_rate.fits": {
    "channels": {
@@ -131371,7 +131373,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-09T08:31:14.620269+00:00",
+ "paired_prepare_attempt_utc": "2026-11-09T09:35:56.026867+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
