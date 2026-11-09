@@ -1,0 +1,57 @@
+{
+ "ts": "2026-11-09T01:19:21.212283+00:00",
+ "product": "jw12578002001_02101_00002_nrcb3_i2d.fits",
+ "uri": "mast:JWST/product/jw12578002001_02101_00002_nrcb3_i2d.fits",
+ "proposal": "12578",
+ "meta": {
+  "TELESCOP": "JWST",
+  "INSTRUME": "NIRCAM",
+  "DETECTOR": "NRCB3",
+  "FILTER": "F090W",
+  "PUPIL": "CLEAR",
+  "DATE-OBS": "2026-07-14",
+  "TARGNAME": "* alf PsA",
+  "PROGRAM": "12578",
+  "n_hdus": 9
+ },
+ "region": {
+  "x0": 543,
+  "y0": 1839,
+  "x1": 705,
+  "y1": 2001,
+  "fx0": 0.2638,
+  "fy0": 0.8936,
+  "fx1": 0.3426,
+  "fy1": 0.9723,
+  "score": 64.3
+ },
+ "score": 62.79,
+ "quality": {
+  "sharp": 1.0,
+  "contrast": 0.9298,
+  "brightness": 0.8588,
+  "range": 1.0,
+  "roi": 0.6279,
+  "score": 90.9
+ },
+ "mock_analysis": {
+  "mock": true,
+  "warning": "MOCK ANALYSIS - not a scientific AI result",
+  "telescope": "JWST",
+  "instrument": "NIRCAM",
+  "detector": "NRCB3",
+  "filter": "F090W",
+  "exptime_s": null,
+  "target": "* alf PsA",
+  "obs_date": "2026-07-14",
+  "proposal_id": null,
+  "note": "Vision model runs OUTSIDE this pipeline (owner-provided API). This stub keeps the release path testable."
+ },
+ "prior_refs": [
+  "jw12578002001_02101_00004_nrcblong_i2d.fits",
+  "jw12578002001_02101_00003_nrcb3_i2d.fits"
+ ],
+ "bytes": 118704960,
+ "sha256": "a9138629245f27c40d1e31989ae0943277c8e538d8f4bf02a29b7cdd4e99dc95",
+ "source": "MAST public data"
+}
