@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-09T16:42:31.906Z",
+ "generated_utc": "2026-11-09T17:47:37.922Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1912,6 +1912,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-1pwlsy8",
+   "title": "Astronauts Across Generations Share the Stage",
+   "title_fa": null,
+   "summary": "On Nov. 6, 2026, Purpose Entertainment hosted the Artemis Celebration Gala at NASA’s Kennedy Space Center Visitor Complex in Merritt Island, Florida. Held on the eve of NASA’s MAX POWER event, the gala celebrated the explorers, innovators, and visionaries advancing the next era of human spaceflight. The event honored the successful completion of the agency’s […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/20261106-artemiscelebrationgala-sl1-4202.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/astronauts-across-generations-share-the-stage/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-09T16:56:29.000Z"
+  },
+  {
    "slug": "nasa-45us9c",
    "title": "MAX POWER: NASA’s Inaugural Aerospace Expo Ignites America’s Future",
    "title_fa": null,
@@ -1922,6 +1934,18 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-09T16:07:10.000Z"
+  },
+  {
+   "slug": "science-dpewxu",
+   "title": "NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars",
+   "title_fa": null,
+   "summary": "NASA’s two ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft have each successfully completed a powered Earth flyby, using Earth’s gravity in combination with a sustained engine burn to slingshot themselves toward Mars. With these successful maneuvers complete, the twin spacecraft are on target to reach the Red Planet in September 2027. “This is […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/ESCAPADE-B_TMI_07.jpg?w=2048&h=1365&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-09T16:01:47.000Z"
   },
   {
    "slug": "nasa-1tzuzjz",
@@ -1996,18 +2020,6 @@
    "date_utc": "2026-11-07T18:11:57.000Z"
   },
   {
-   "slug": "science-atd27b",
-   "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
-   "title_fa": null,
-   "summary": "APODScienceAPODAPOD: 2026 November 7 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif Explanation: De Gerlache-Kocher massif looms on the visible horizon in this",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/GerlacheKocherMassif_Sans.jpg?w=1500&h=1022&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-07T05:05:00.000Z"
-  },
-  {
    "slug": "nasa-1pzjnf5",
    "title": "Spacewalk Cleanup, Biomedical Science, and Maintenance Wrap Up Week",
    "title_fa": "هفته پایانی پاکسازی پیاده‌روی فضایی، علوم زیست پزشکی و نگهداری",
@@ -2018,18 +2030,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-06T17:48:13.000Z"
-  },
-  {
-   "slug": "nasa-13ighho",
-   "title": "M30’s Sparkling Stars",
-   "title_fa": "ستاره های درخشان M30",
-   "summary": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects that might be mistaken for comets in the early telescopes of Messier’s time. M30 lies about […]",
-   "summary_fa": "این تصویر تلسکوپ فضایی هابل ناسا/ESA که در 5 نوامبر 2026 منتشر شد، درسی از تاریخ کهکشان ارائه می دهد. مجموعه درخشان ستارگان مسیه 30 (M30) از نام ستاره شناس فرانسوی، چارلز مسیه، نامگذاری شده است که M30 و سایر اجرام پراکنده را که ممکن است با دنباله دارها در تلسکوپ های اولیه زمان مسیه اشتباه گرفته شوند، فهرست کرده است. M30 دروغ می گوید",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/hubble-m30-potm2610a.jpg?w=2048",
-   "link": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-06T16:23:41.000Z"
   },
   {
    "slug": "nasa-y0vidu",
