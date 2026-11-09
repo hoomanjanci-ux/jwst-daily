@@ -124934,9 +124934,1238 @@
    "status": "legacy_v01"
   },
   "jw10790001001_02201_00004_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790001001_02201_00004_nrca2_rate.fits": {
+   "channels": {},
+   "status": "legacy_v01"
+  },
+  "jw12525111001_0210g_00003_nrcblong_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F322W2",
+   "sha256": "0697f4f9e63f75a997a4c27c28ae6f93d73b6e88ee2dd809044938c369af3f2a"
+  },
+  "jw12525111001_0210g_00004_nrcblong_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F322W2",
+   "sha256": "554bbaa0974e0a58f3dc312df801f181874dff53fd23885128117e80b1064099"
+  },
+  "jw12525111001_02104_00004_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00003_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00003_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00004_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00004_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00003_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525-o111_t001_nircam_f322w2-f323n-sub160_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcalong_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb2_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb1_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb3_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb4_i2d.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcblong_i2d.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210g_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210g_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210g_00003_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210g_00004_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00004_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00003_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00003_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00004_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00004_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00003_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb2_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb1_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb3_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb4_cal.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcblong_cal.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210g_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210g_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210g_00003_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210g_00004_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00004_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00003_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02104_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00003_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00004_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_02108_00004_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw12525111001_0210c_00003_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00001_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00002_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006003_02101_00001_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006002_02101_00002_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00001_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006004_02101_00002_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006005_02101_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00001_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006006_02101_00002_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00002_nrcblong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb2_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb1_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb3_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcb4_rate.fits": {
+   "channels": {}
+  },
+  "jw09263006001_02101_00001_nrcblong_rate.fits": {
    "channels": {}
   }
  },
@@ -129081,7 +130310,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-09",
-  "bytes": 897197760
+  "bytes": 899686080
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -131527,7 +132756,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-09T21:00:59.716519+00:00",
+ "paired_prepare_attempt_utc": "2026-11-09T22:05:55.523477+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
