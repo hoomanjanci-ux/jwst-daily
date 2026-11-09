@@ -111008,7 +111008,7 @@
   },
   "jw12578002001_02101_00002_nrcb3_i2d.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 62.79,
    "analyzed_utc": "2026-11-09T01:19:21.351147+00:00",
    "analysis": "analyses/2026/11/09/jw12578002001_02101_00002_nrcb3_i2d.fits.json",
@@ -111028,7 +111028,61 @@
    "combo": "* alf PsA|NIRCAM|F090W",
    "sha256": "a9138629245f27c40d1e31989ae0943277c8e538d8f4bf02a29b7cdd4e99dc95",
    "bytes": 118704960,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.9298,
+      "brightness": 0.8588,
+      "range": 1.0,
+      "roi": 0.6279,
+      "score": 90.9
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 10907,
+      "brightest_quadrant_percent": 68.158,
+      "width": 2058,
+      "height": 2058,
+      "sample_stride": 3,
+      "sample_count": 463144,
+      "finite_fraction": 0.984165,
+      "median": 9.136748790740967,
+      "robust_scatter": 3.7765118944644924,
+      "above_5scatter_percent": 2.355,
+      "p99_above_median_scatter": 10.724,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.9298,
+      "brightness": 0.8588,
+      "range": 1.0,
+      "roi": 0.6279,
+      "score": 90.9
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 10907,
+      "brightest_quadrant_percent": 68.158,
+      "width": 2058,
+      "height": 2058,
+      "sample_stride": 3,
+      "sample_count": 463144,
+      "finite_fraction": 0.984165,
+      "median": 9.136748790740967,
+      "robust_scatter": 3.7765118944644924,
+      "above_5scatter_percent": 2.355,
+      "p99_above_median_scatter": 10.724,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-09T01:20:13.520419+00:00"
   },
   "jw12578002001_02101_00001_nrcb2_i2d.fits": {
    "channels": {},
