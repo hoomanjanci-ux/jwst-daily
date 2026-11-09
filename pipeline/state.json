@@ -124922,13 +124922,16 @@
    "status": "legacy_v01"
   },
   "jw10790006001_12201_00004_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790006001_12201_00004_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790006001_12201_00004_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   }
  },
  "runs": [
