@@ -124932,6 +124932,12 @@
   "jw10790006001_12201_00004_nrca4_rate.fits": {
    "channels": {},
    "status": "legacy_v01"
+  },
+  "jw10790001001_02201_00004_nrca2_cal.fits": {
+   "channels": {}
+  },
+  "jw10790001001_02201_00004_nrca2_rate.fits": {
+   "channels": {}
   }
  },
  "runs": [
@@ -131487,9 +131493,41 @@
    },
    "completed_utc": "2026-11-09T14:30:38.263Z",
    "sender": "cloudflare"
+  },
+  "2026-11-10/18": {
+   "start": "2026-11-10T14:30:00.000Z",
+   "end": "2026-11-10T15:30:00.000Z",
+   "status": "waiting",
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
+  },
+  "2026-11-10/12": {
+   "start": "2026-11-10T08:30:00.000Z",
+   "end": "2026-11-10T09:30:00.000Z",
+   "status": "waiting",
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
+  },
+  "2026-11-10/09": {
+   "start": "2026-11-10T05:30:00.000Z",
+   "end": "2026-11-10T06:30:00.000Z",
+   "status": "waiting",
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
+  },
+  "2026-11-10/06": {
+   "start": "2026-11-10T02:30:00.000Z",
+   "end": "2026-11-10T03:30:00.000Z",
+   "status": "waiting",
+   "product": null,
+   "note": null,
+   "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-09T19:55:58.153374+00:00",
+ "paired_prepare_attempt_utc": "2026-11-09T21:00:59.716519+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
