@@ -127437,33 +127437,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-09T16:40:58.105193+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 4,
-    "next_window": "2026-11-10T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-09T16:42:29.446571+00:00"
-  },
-  {
    "started_utc": "2026-11-09T17:45:57.007721+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -128882,6 +128855,39 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-10T13:32:23.393843+00:00"
+  },
+  {
+   "started_utc": "2026-11-10T13:37:13.691481+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 2,
+    "next_window": "2026-11-10T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/"
+    ],
+    "en": [],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-10T13:37:35.236577+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -129401,7 +129407,8 @@
    "en": "2026-11-09T18:37:44.749049+00:00"
   },
   "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/": {
-   "en": "2026-11-09T18:37:44.749049+00:00"
+   "en": "2026-11-09T18:37:44.749049+00:00",
+   "fa": "2026-11-10T13:37:18.009718+00:00"
   },
   "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/": {
    "fa": "2026-11-09T19:59:41.909574+00:00",
@@ -130633,6 +130640,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-10T05:05:00+00:00",
    "ts": "2026-11-10T08:53:28.369227+00:00"
+  },
+  "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/": {
+   "title": "نسا یک میلیون دلار به چالش دانشجویی پایه ماه اختصاص داد",
+   "summary": "نازا روز دوشنبه نهم نوامبر ۲۰۲۶ در جریان مراسم MAX POWER در مجموعه بازدیدکنندگان مرکز فضایی کندی در فلوریدا، فراخوان چالش دانشجویی «پایه ماه» را با حمایت مالی یک میلیون دلاری معرفی کرد. این چالش دانشجوان را به طراحی راه‌حل‌هایی برای حضور پایدار بر سطح ماه دعوت می‌کند.",
+   "link": "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-09T17:36:33+00:00",
+   "ts": "2026-11-10T13:37:18.009718+00:00"
   }
  },
  "news_title_fp": {
@@ -131095,7 +131111,8 @@
    "en": "2026-11-09"
   },
   "523486872cec016d": {
-   "en": "2026-11-09"
+   "en": "2026-11-09",
+   "fa": "2026-11-10"
   },
   "21cb6a0ceaa6cf25": {
    "fa": "2026-11-09",
