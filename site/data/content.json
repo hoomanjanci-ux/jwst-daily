@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-10T14:12:19.699Z",
+ "generated_utc": "2026-11-10T14:32:19.307Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw06606007001-18101-00002-nrcblong-rate",
+   "product": "jw06606007001_18101_00002_nrcblong_rate.fits",
+   "published_utc": "2026-11-10T14:30:39.008Z",
+   "target": "GSPC P330-E",
+   "instrument": "NIRCAM",
+   "detector": "NRCBLONG",
+   "filter": "F430M",
+   "obs_date": "2024-07-02",
+   "proposal": "6606",
+   "score": 40.57,
+   "quality_score": 73.27,
+   "image": "/img/jw06606007001-18101-00002-nrcblong-rate.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «GSPC P330-E»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 2048 × 2048 پیکسل دارد. در نمونهٔ منظم 456,401 پیکسل معتبر، حدود 0.1534 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F430M نزدیک طول موج 4.3 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 51.857 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F430M · تاریخ رصد: 2024-07-02\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/6606\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw06882001001-10101-00004-nrcalong-i2d",
    "product": "jw06882001001_10101_00004_nrcalong_i2d.fits",
@@ -1485,23 +1502,6 @@
    "is_mock": true
   },
   {
-   "slug": "jw06606007001-18101-00002-nrcblong-rate",
-   "product": "jw06606007001_18101_00002_nrcblong_rate.fits",
-   "published_utc": "2026-10-25T22:23:37.063339+00:00",
-   "target": "GSPC P330-E",
-   "instrument": "NIRCAM",
-   "detector": "NRCBLONG",
-   "filter": "F430M",
-   "obs_date": "2024-07-02",
-   "proposal": "6606",
-   "score": 40.57,
-   "quality_score": 73.27,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
    "slug": "jw01189012001-03104-00001-nrcalong-rate",
    "product": "jw01189012001_03104_00001_nrcalong_rate.fits",
    "published_utc": "2026-10-25T14:36:17.773213+00:00",
@@ -1912,6 +1912,66 @@
  ],
  "news": [
   {
+   "slug": "science-ooldgh",
+   "title": "APOD: 2026 November 10 – Saturn Behind the Moon",
+   "title_fa": "زمین‌شناس: زحل پشت ماه",
+   "summary": "APOD Science APOD APOD: 2026 November 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Saturn Behind the […]",
+   "summary_fa": "تصویر روز نجوم در تاریخ ۱۰ نوامبر ۲۰۲۶، نمایشی از زحل را در پشت دیسک ماه به تصویر کشیده است.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Moonsaturn6_Ortu_2124.jpg?w=2048&h=1525&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-10T05:05:00.000Z"
+  },
+  {
+   "slug": "science-j411a9",
+   "title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
+   "title_fa": "مریخ‌نورد کنجکاوی پس از شارژ مجدد به کار خود بازمی‌گردد",
+   "summary": "By Remington Free, Operations Systems Engineer, NASA-JPL Earth planning date: Friday, Oct. 30, 2026 Today’s plan covered 3 sols, 5060, 5061, and 5062, as we take a few recharging sols before getting back to our normal drilling activities. As you may know if you have been following the blog closely, we are in the middle […]",
+   "summary_fa": "در تاریخ ۳۰ سپتامبر ۲۰۲۶، برنامهٔ عملیاتی مریخ‌نورد کنجکاوی شامل سه روز مریخی (سُل) ۵۰۶۰ تا ۵۰۶۲ بود. این مأموریت در حال شارژ مجدد سیستم‌های خود است پیش از بازگشت به فعالیت‌های عادی حفاری.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_proj_msl_redops_ods_surface_sol_05062_opgs_edr_ncam_NRB_846865643EDR_S1251326NCAM00592M_.JPG?w=1024&h=512&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-10T01:07:45.000Z"
+  },
+  {
+   "slug": "science-15gpejy",
+   "title": "Curiosity Blog, Sols 5050-5055: It’s Nazca, Our 49th Drill Hole",
+   "title_fa": "کنجکاوی چهل‌و‌امین حفره حفاری خود را در نازکا باز کرد",
+   "summary": "Written by Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Oct. 23, 2026 As regular readers of this blog will know, we returned to the area where we found disc shaped inclusions in the rocks, which we interpreted as potential crystals. If they are indeed crystals, and […]",
+   "summary_fa": "مأموریت کاوشگر کنجکاوی ناسا در بازگشت به منطقه‌ای با شواهد بلورهای احتمالی، چهل‌و‌نهمین حفره حفاری خود در مکانی به نام نازکا را آغاز کرد. این نمونه شامل включенияهای دیسک‌شکلی است که محققان آن‌ها را بلورهای ممکن دانسته‌اند.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05050_mcam_5050MR1101700012601677E01_DXXX.jpg?w=1328&h=1184&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-10T01:05:48.000Z"
+  },
+  {
+   "slug": "science-u2py3g",
+   "title": "Rubies on Mars?",
+   "title_fa": "یاقوت در مریخ؟",
+   "summary": "Written by Roger C. Wiens, SuperCam Principal Investigator for NASA’s Perseverance rover at Purdue University Nov. 4, 2026 Exploration on Mars turns up the unexpected. Perseverance is equipped with a fantastic set of instruments for studying the rock record of this ancient planet. Both PIXL and SuperCam have great capabilities for detecting all kinds of […]",
+   "summary_fa": "نوشته شده توسط راجر سی وینز، محقق اصلی SuperCam برای مریخ نورد استقامت ناسا در دانشگاه پردو در 4 نوامبر 2026، اکتشاف در مریخ غیرمنتظره را نشان می دهد. Perseverance مجهز به مجموعه ای فوق العاده از ابزار برای مطالعه رکورد سنگ این سیاره باستانی است. هر دو PIXL و SuperCam دارای قابلیت های عالی برای تشخیص انواع مختلف هستند",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_SIF_2023_0846549705_738EBY_N0930000SRLC02503_0000LMJ.jpg?w=1648&h=1200&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blog/rubies-on-mars/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-09T22:27:12.000Z"
+  },
+  {
+   "slug": "science-bgwjsf",
+   "title": "Newest Sample, Oldest Rock?",
+   "title_fa": "جدیدترین نمونه، قدیمی ترین سنگ؟",
+   "summary": "Written by Tasha Coelho, Mastcam-Z Student Collaborator at Arizona State University Nov. 1, 2026 Perseverance’s most recent abrasion “Pumbe” bears a striking resemblance to an earlier abrasion, “Badger Peak.” That’s no coincidence. As previously reported, that rock had a hardness too high to core. However, the team felt strongly that it was worth the effort […]",
+   "summary_fa": "نوشته شده توسط تاشا کوئلیو، همکار دانشجوی Mastcam-Z در دانشگاه ایالتی آریزونا، 1 نوامبر 2026، آخرین ساییدگی Perseverance \"Pumbe\" شباهت زیادی به سایش قبلی، \"Badger Peak\" دارد. این تصادفی نیست همانطور که قبلاً گزارش شده بود، آن سنگ سختی بسیار بالایی داشت تا هسته. با این حال، تیم به شدت احساس کرد که ارزش تلاش را دارد",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_ZL0_2018_0846089083_331EBY_N0920000ZCAM05068_1100LMJ.jpg?w=1648&h=1200&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blog/newest-sample-oldest-rock/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-09T22:25:52.000Z"
+  },
+  {
    "slug": "nasa-vdu9oa",
    "title": "Crew Packing Dragon for Return with Experiments and a Spacesuit",
    "title_fa": "اژدهای بسته بندی خدمه برای بازگشت با آزمایش ها و لباس فضایی",
@@ -1922,6 +1982,42 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-09T19:43:40.000Z"
+  },
+  {
+   "slug": "science-1n8nm9t",
+   "title": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
+   "title_fa": "چاندرای ناسا منبع فوران های مرموز ستاره را پیدا می کند",
+   "summary": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star. A new study, published Monday in the latest issue of The Astrophysical Journal, details the discovery of a previously hidden companion object that keeps pulling material away from the massive star every 113 days as they orbit […]",
+   "summary_fa": "ستاره شناسان با استفاده از رصدخانه پرتو ایکس چاندرا ناسا کشف کردند که چه چیزی باعث فوران های مکرر از یک ستاره غول پیکر و ناپایدار می شود. مطالعه جدیدی که روز دوشنبه در آخرین شماره مجله اخترفیزیک منتشر شد، جزئیات کشف یک شیء همراه را که قبلاً پنهان شده بود، نشان می‌دهد که هر 113 روز یک بار در حین چرخش به دور این ستاره، مواد را از آن دور می‌کند.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/chandra/2026/at2016blu.jpg?w=2048&h=2048&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-09T18:55:50.000Z"
+  },
+  {
+   "slug": "nasa-h7ilqa",
+   "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
+   "title_fa": "چالش پیشرفته موشک های الکتریکی متوسط ​​توان ناسا",
+   "summary": "Mid-power (3-7 kW) Hall effect thruster systems have been identified by government and industry stakeholders as critical capabilities for satellite, defense, and exploration missions. Given the need for this capability, NASA is launching the Advanced Mid-Power Electric Rocket (AMPERE) Challenge. The NASA AMPERE Challenge invites U.S. commercial companies to develop and demonstrate mid-power Hall effect […]",
+   "summary_fa": "سیستم های رانشگر اثر هال با توان متوسط ​​(3-7 کیلووات) توسط دولت و ذینفعان صنعت به عنوان قابلیت های حیاتی برای ماموریت های ماهواره ای، دفاعی و اکتشافی شناسایی شده اند. با توجه به نیاز به این قابلیت، ناسا در حال راه اندازی چالش پیشرفته راکت برقی با توان متوسط ​​(AMPERE) است. چالش NASA AMPERE از شرکت های تجاری ایالات متحده دعوت می کند تا جلوه هال با قدرت متوسط ​​را توسعه دهند و به نمایش بگذارند.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2024/05/image-1ee21e.jpeg?w=1200",
+   "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-09T17:42:42.000Z"
+  },
+  {
+   "slug": "nasa-5bz1tc",
+   "title": "La NASA destina un millón de dólares al reto estudiantil Base Lunar",
+   "title_fa": "نسا یک میلیون دلار به چالش دانشجویی پایه ماه اختصاص داد",
+   "summary": "Read this release in English here.El domingo 8 de noviembre de 2026, la NASA anunció la convocatoria del reto estudiantil Base Lunar, dotado con un millón de dólares, durante un acto de MAX POWER celebrado en el Complejo de Visitantes del Centro Espacial Kennedy, en Florida. En el marco de una edad de oro de […]",
+   "summary_fa": "نازا روز دوشنبه نهم نوامبر ۲۰۲۶ در جریان مراسم MAX POWER در مجموعه بازدیدکنندگان مرکز فضایی کندی در فلوریدا، فراخوان چالش دانشجویی «پایه ماه» را با حمایت مالی یک میلیون دلاری معرفی کرد. این چالش دانشجوان را به طراحی راه‌حل‌هایی برای حضور پایدار بر سطح ماه دعوت می‌کند.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/cpc-logistics-actionshot-1.png?w=2048",
+   "link": "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-09T17:36:33.000Z"
   },
   {
    "slug": "nasa-1pzjnf5",
