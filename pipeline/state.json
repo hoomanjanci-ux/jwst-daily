@@ -127547,33 +127547,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-08T22:30:56.406710+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 1,
-    "next_window": "2026-11-09T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-08T22:32:33.941402+00:00"
-  },
-  {
    "started_utc": "2026-11-08T22:50:52.456843+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -129031,6 +129004,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-10T02:47:22.733243+00:00"
+  },
+  {
+   "started_utc": "2026-11-10T02:53:12.892828+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-10/06",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 4,
+    "next_window": "2026-11-10T09:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+     "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+     "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/"
+    ],
+    "mode": "fresh (3 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-10T02:53:33.789142+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -129571,6 +129581,14 @@
   "https://science.nasa.gov/blog/newest-sample-oldest-rock/": {
    "fa": "2026-11-10T00:59:30.369890+00:00",
    "en": "2026-11-10T00:59:30.369890+00:00"
+  },
+  "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/": {
+   "fa": "2026-11-10T02:53:19.473872+00:00",
+   "en": "2026-11-10T02:53:19.473872+00:00"
+  },
+  "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/": {
+   "fa": "2026-11-10T02:53:19.473872+00:00",
+   "en": "2026-11-10T02:53:19.473872+00:00"
   }
  },
  "news_archive": {
@@ -130743,6 +130761,24 @@
    "source_fa": "ناسا",
    "date": "2026-11-09T22:25:52+00:00",
    "ts": "2026-11-10T00:59:30.369890+00:00"
+  },
+  "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/": {
+   "title": "وبلاگ کنجکاوی، Sols 5056-5062: شارژ مجدد!",
+   "summary": "نوشته‌ی رمینگتون فری، مهندس سیستم‌های عملیاتی، NASA-JPL تاریخ برنامه‌ریزی زمین: جمعه، 30 اکتبر 2026 برنامه‌ی امروز شامل 3 سول، 5060، 5061 و 5062 بود، زیرا ما قبل از بازگشت به فعالیت‌های حفاری عادی خود، چند سول شارژ مجدد انجام می‌دهیم. همانطور که اگر وبلاگ را از نزدیک دنبال کرده باشید، ممکن است بدانید، ما در میانه هستیم.",
+   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-10T01:07:45+00:00",
+   "ts": "2026-11-10T02:53:19.473872+00:00"
+  },
+  "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/": {
+   "title": "وبلاگ کنجکاوی، Sols 5050-5055: این نازکا است، چهل و نهمین سوراخ حفاری ما",
+   "summary": "نوشته شده توسط سوزان پی. شونتزر، استاد کانی‌شناسی سیاره‌ای در دانشگاه آزاد، انگلستان. تاریخ برنامه‌ریزی زمین: جمعه، ۲۳ اکتبر ۲۰۲۶. همانطور که خوانندگان همیشگی این وبلاگ می‌دانند، ما به منطقه‌ای که در آن اجزای دیسک‌شکلی در سنگ‌ها پیدا کردیم، بازگشتیم که آنها را به عنوان کریستال‌های بالقوه تفسیر کردیم. اگر واقعاً کریستال باشند، و",
+   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-10T01:05:48+00:00",
+   "ts": "2026-11-10T02:53:19.473872+00:00"
   }
  },
  "news_title_fp": {
@@ -131224,6 +131260,14 @@
    "en": "2026-11-10"
   },
   "1d6d8e58bd6c26ce": {
+   "fa": "2026-11-10",
+   "en": "2026-11-10"
+  },
+  "90bee6e9b407c3a8": {
+   "fa": "2026-11-10",
+   "en": "2026-11-10"
+  },
+  "e654eae7e33eb885": {
    "fa": "2026-11-10",
    "en": "2026-11-10"
   }
@@ -131712,6 +131756,14 @@
   [
    "1d6d8e58bd6c26ce",
    "newest sample oldest rock"
+  ],
+  [
+   "90bee6e9b407c3a8",
+   "curiosity blog sols 5056 5062 charging back up"
+  ],
+  [
+   "e654eae7e33eb885",
+   "curiosity blog sols 5050 5055 it s nazca our 49th drill hole"
   ]
  ],
  "combo_seen": {
