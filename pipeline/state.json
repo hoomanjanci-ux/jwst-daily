@@ -127382,43 +127382,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-10T08:53:24.236106+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-10/12",
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 2,
-    "next_window": "2026-11-10T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/"
-    ],
-    "en": [
-     "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/"
-    ],
-    "mode": "fresh (2 unseen)",
-    "errors": {
-     "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-:fa": "ValueError: Persian news translation unavailable; held for retry"
-    }
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-10T08:53:37.375714+00:00"
-  },
-  {
    "started_utc": "2026-11-10T09:11:00.070481+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -128789,6 +128752,33 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-10T22:07:24.026242+00:00"
+  },
+  {
+   "started_utc": "2026-11-10T22:25:56.035794+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "prepared": 0,
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 1,
+    "next_window": "2026-11-11T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "note": "not invoked by analysis-only worker"
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-10T22:27:20.020999+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
