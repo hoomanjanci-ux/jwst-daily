@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-10T16:52:20.847Z",
+ "generated_utc": "2026-11-10T17:12:03.898Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -1912,6 +1912,18 @@
  ],
  "news": [
   {
+   "slug": "science-5segzb",
+   "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
+   "title_fa": null,
+   "summary": "The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses. Now two studies led by NASA astrophysicists show in new detail how LISA could reveal a new and unique population of exoplanets — worlds beyond our solar system — throughout our galaxy. […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/ciencia/2023/06/s/stsci-j-p2223a_0.jpeg?w=2048&h=1593&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-10T16:00:26.000Z"
+  },
+  {
    "slug": "nasa-1rsmjeo",
    "title": "CHAPEA Crew Leaves a Mark",
    "title_fa": null,
@@ -2006,18 +2018,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-09T18:55:50.000Z"
-  },
-  {
-   "slug": "nasa-h7ilqa",
-   "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
-   "title_fa": "چالش پیشرفته موشک های الکتریکی متوسط ​​توان ناسا",
-   "summary": "Mid-power (3-7 kW) Hall effect thruster systems have been identified by government and industry stakeholders as critical capabilities for satellite, defense, and exploration missions. Given the need for this capability, NASA is launching the Advanced Mid-Power Electric Rocket (AMPERE) Challenge. The NASA AMPERE Challenge invites U.S. commercial companies to develop and demonstrate mid-power Hall effect […]",
-   "summary_fa": "سیستم های رانشگر اثر هال با توان متوسط ​​(3-7 کیلووات) توسط دولت و ذینفعان صنعت به عنوان قابلیت های حیاتی برای ماموریت های ماهواره ای، دفاعی و اکتشافی شناسایی شده اند. با توجه به نیاز به این قابلیت، ناسا در حال راه اندازی چالش پیشرفته راکت برقی با توان متوسط ​​(AMPERE) است. چالش NASA AMPERE از شرکت های تجاری ایالات متحده دعوت می کند تا جلوه هال با قدرت متوسط ​​را توسعه دهند و به نمایش بگذارند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2024/05/image-1ee21e.jpeg?w=1200",
-   "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-09T17:42:42.000Z"
   },
   {
    "slug": "nasa-1pzjnf5",
