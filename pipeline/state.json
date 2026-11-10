@@ -2006,7 +2006,7 @@
   },
   "jw06627005001_07101_00009_nrcalong_cal.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 43.62,
    "analyzed_utc": "2026-10-26T16:00:33.451962+00:00",
    "analysis": "analyses/2026/10/26/jw06627005001_07101_00009_nrcalong_cal.fits.json",
@@ -2026,7 +2026,61 @@
    "combo": "2MASS J05220207-6930388|NIRCAM|F335M",
    "sha256": "6e03fb02ebba5b36dc8651517416f7fba083bcfd362eb556862552a097bc1ce6",
    "bytes": 117576000,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.572,
+      "brightness": 0.5069,
+      "range": 1.0,
+      "roi": 0.4362,
+      "score": 75.59
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 16368,
+      "brightest_quadrant_percent": 33.675,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456619,
+      "finite_fraction": 0.978842,
+      "median": 0.368396133184433,
+      "robust_scatter": 0.34093581590652466,
+      "above_5scatter_percent": 3.5846,
+      "p99_above_median_scatter": 19.549,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.572,
+      "brightness": 0.5069,
+      "range": 1.0,
+      "roi": 0.4362,
+      "score": 75.59
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 16368,
+      "brightest_quadrant_percent": 33.675,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456619,
+      "finite_fraction": 0.978842,
+      "median": 0.368396133184433,
+      "robust_scatter": 0.34093581590652466,
+      "above_5scatter_percent": 3.5846,
+      "p99_above_median_scatter": 19.549,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-10T02:47:14.674528+00:00"
   },
   "jw02780018001_03107_00004_nrcalong_rate.fits": {
    "channels": {
@@ -134200,7 +134254,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-10T02:21:00.112370+00:00",
+ "paired_prepare_attempt_utc": "2026-11-10T02:45:44.806131+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
