@@ -127382,33 +127382,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-10T07:10:57.940919+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 3,
-    "next_window": "2026-11-10T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-10T07:12:40.503322+00:00"
-  },
-  {
    "started_utc": "2026-11-10T07:30:56.479935+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -128787,6 +128760,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-10T20:53:03.086417+00:00"
+  },
+  {
+   "started_utc": "2026-11-10T20:54:36.645762+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 1,
+    "next_window": "2026-11-11T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/"
+    ],
+    "en": [
+     "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-10T20:55:24.897085+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -129356,6 +129364,10 @@
   "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/": {
    "fa": "2026-11-10T19:58:20.702115+00:00",
    "en": "2026-11-10T19:58:20.702115+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/": {
+   "fa": "2026-11-10T20:54:40.580022+00:00",
+   "en": "2026-11-10T20:54:40.580022+00:00"
   }
  },
  "news_archive": {
@@ -130600,6 +130612,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-10T19:22:45+00:00",
    "ts": "2026-11-10T19:58:20.702115+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/": {
+   "title": "ناسا از فضانوردان اکسپدیشن ۷۴ در مرکز فضایی هوستون استقبال می‌کند",
+   "summary": "ناسا پس از بازگشت خدمه اکسپدیشن ۷۴ از یک ماموریت طولانی مدت در ایستگاه فضایی بین‌المللی، طی یک رویداد عمومی در مرکز فضایی هوستون از آنها استقبال خواهد کرد. فضانوردان ناسا، جسیکا میر، جک هاتاوی و کریس ویلیامز؛ فضانورد ESA (آژانس فضایی اروپا)؛ سوفی آدنو؛ و کیهان‌نوردان Roscosmos، سرگئی کود-سورچکوف و سرگئی میکائف، در این ماموریت با یکدیگر همکاری خواهند کرد.",
+   "link": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-10T18:06:33+00:00",
+   "ts": "2026-11-10T20:54:40.580022+00:00"
   }
  },
  "news_title_fp": {
@@ -131110,6 +131131,10 @@
    "en": "2026-11-10"
   },
   "9203768c02379318": {
+   "fa": "2026-11-10",
+   "en": "2026-11-10"
+  },
+  "4d93b771d6213a7c": {
    "fa": "2026-11-10",
    "en": "2026-11-10"
   }
@@ -131626,6 +131651,10 @@
   [
    "9203768c02379318",
    "nasa invites media public to join voyager 1 one light day activities"
+  ],
+  [
+   "4d93b771d6213a7c",
+   "nasa to welcome expedition 74 astronauts home at space center houston"
   ]
  ],
  "combo_seen": {
