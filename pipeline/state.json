@@ -127437,33 +127437,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-09T03:35:56.778586+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 6,
-    "next_window": "2026-11-09T09:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-09T03:37:34.242295+00:00"
-  },
-  {
    "started_utc": "2026-11-09T04:40:58.073696+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -128905,6 +128878,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-10T08:52:20.678431+00:00"
+  },
+  {
+   "started_utc": "2026-11-10T08:53:24.236106+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-10/12",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 2,
+    "next_window": "2026-11-10T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-10T08:53:37.375714+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -129453,6 +129463,10 @@
   "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/": {
    "fa": "2026-11-10T02:53:19.473872+00:00",
    "en": "2026-11-10T02:53:19.473872+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/": {
+   "fa": "2026-11-10T08:53:28.369227+00:00",
+   "en": "2026-11-10T08:53:28.369227+00:00"
   }
  },
  "news_archive": {
@@ -130643,6 +130657,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-10T01:05:48+00:00",
    "ts": "2026-11-10T02:53:19.473872+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/": {
+   "title": "APOD: 10 نوامبر 2026 - زحل در پشت ماه",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. زحل پشت",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-10T05:05:00+00:00",
+   "ts": "2026-11-10T08:53:28.369227+00:00"
   }
  },
  "news_title_fp": {
@@ -131132,6 +131155,10 @@
    "en": "2026-11-10"
   },
   "e654eae7e33eb885": {
+   "fa": "2026-11-10",
+   "en": "2026-11-10"
+  },
+  "d544f07a993cce68": {
    "fa": "2026-11-10",
    "en": "2026-11-10"
   }
@@ -131628,6 +131655,10 @@
   [
    "e654eae7e33eb885",
    "curiosity blog sols 5050 5055 it s nazca our 49th drill hole"
+  ],
+  [
+   "d544f07a993cce68",
+   "apod 2026 november 10 saturn behind the moon"
   ]
  ],
  "combo_seen": {
