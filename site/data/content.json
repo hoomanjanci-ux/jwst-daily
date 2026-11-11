@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-11T22:59:05.054Z",
+ "generated_utc": "2026-11-11T23:15:10.240Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2196,18 +2196,6 @@
    "date_utc": "2026-11-11T14:00:00.000Z"
   },
   {
-   "slug": "science-49psdh",
-   "title": "APOD: 2026 November 11 – NGC 4449: Small Galaxy, Big Impact",
-   "title_fa": "APOD: ۱۱ نوامبر ۲۰۲۶ – NGC 4449: کهکشان کوچک، تأثیر بزرگ",
-   "summary": "APOD Science APOD APOD: 2026 November 11 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 4449: […]",
-   "summary_fa": "تصویر روز نجوم (APOD) در تاریخ ۱۱ نوامبر ۲۰۲۶، به کهکشان NGC 4449 اختصاص دارد. این کهکشان کوتاه‌پیکر با وجود اندازهٔ کوچکش، اثرات چشمگیری بر مطالعهٔ نجوم گذاشته است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/irregular/NGC%204449.jpg?w=2048&h=1320&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-11T05:05:00.000Z"
-  },
-  {
    "slug": "nasa-v2paya",
    "title": "Microbiology, Spacesuits, and Cargo Mission Preps Keep Crew Busy",
    "title_fa": "آزمایش‌های میکروبیولوژی، نگهداری لباس فضانوردی و آمادگی محموله کار خلبانان را مشغول کرد",
@@ -2218,90 +2206,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-10T19:31:40.000Z"
-  },
-  {
-   "slug": "nasa-epqji7",
-   "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
-   "title_fa": "ناسا رسانه‌ها و مردم را به مناسبت دست‌یابی سفرانهٔ ۱ به یک روز نوری دعوت می‌کند",
-   "summary": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human-made object, and any light from Earth would take 24 hours to reach the spacecraft. NASA will highlight […]",
-   "summary_fa": "مأموریت سفرانهٔ ۱ ناسا که سال ۱۹۷۷ پرتاب شد، در چهارشنبه ۱۸ نوامبر به فاصلهٔ یک روز نوری از زمین خواهد رسید؛ مسافتی بیش از ۱۶ میلیارد مایل (۲۵/۹ میلیارد کیلومتر). این فضاپیما دوردست‌ترین شیء ساخته‌ی بشر است و نوری از زمین ۲۴ ساعت طول می‌کشد تا به آن برسد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg?w=2048",
-   "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T19:22:45.000Z"
-  },
-  {
-   "slug": "nasa-a4sjp",
-   "title": "NASA to Welcome Expedition 74 Astronauts Home at Space Center Houston",
-   "title_fa": "مراسم استقبال فضانوردان مأموریت اکسپدییشن ۷۴ در مرکز فضایی هیوستون",
-   "summary": "NASA will welcome home the Expedition 74 crew during a public event at Space Center Houston following their return from a long-duration mission aboard the International Space Station. NASA astronauts Jessica Meir, Jack Hathaway, and Chris Williams; ESA (European Space Agency) astronaut Sophie Adenot; and Roscosmos cosmonauts Sergey Kud‑Sverchkov and Sergei Mikaev will share mission […]",
-   "summary_fa": "ناسا در مراسمی عمومی در مرکز فضایی هیوستون از فضانوردان مأموریت اکسپدییشن ۷۴ پس از بازگشت از ایستگاه فضایی بین‌المللی تجلیل خواهد کرد. این تیم شامل سه فضانورد ناسا، یک فضانورد آژانس فضایی اروپا و دو کیهان‌نورد روسیه هستند که جزئیات مأموریت خود را به اشتراک خواهند گذاشت.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/expedition-74-picture.jpg?w=2048",
-   "link": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T18:06:33.000Z"
-  },
-  {
-   "slug": "science-5segzb",
-   "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
-   "title_fa": "امواج گرانشی می‌توانند جهان‌های جدید را آشکار کنند",
-   "summary": "The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses. Now two studies led by NASA astrophysicists show in new detail how LISA could reveal a new and unique population of exoplanets — worlds beyond our solar system — throughout our galaxy. […]",
-   "summary_fa": "مراصد فضایی امواج گرانشی ممکن است جهان‌هایی فراتر از منظومه شمسی را در سراسر کهکشان نشان دهد. دو مطالعه جدید نشان داد که چگونه این فناوری می‌تواند جمعیت تازه و منحصربه‌فردی از سیارات فراخورشیدی را آشکار کند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/ciencia/2023/06/s/stsci-j-p2223a_0.jpeg?w=2048&h=1593&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T16:00:26.000Z"
-  },
-  {
-   "slug": "nasa-1rsmjeo",
-   "title": "CHAPEA Crew Leaves a Mark",
-   "title_fa": "مأموران چاپا اثری از خود بر جای گذاشتند",
-   "summary": "The Crew Health and Performance Exploration Analog (CHAPEA) Mission 2 crew arranged photos around a boot print in the simulated Martian sand outside their habitat on Aug. 31, 2026. The crew recently exited their habitat on Saturday, Oct. 31, after 378 days of isolation in a facility at the agency’s Johnson Space Center in Houston. Health […]",
-   "summary_fa": "تیم مأموریت دوم چاپا در ۳۱ اوت ۲۰۲۶ عکس‌هایی را در کنار رد پای انسان بر روی ماسهٔ شبیه‌سازی‌شدهٔ مریخ، بیرون از زیستگاهشان مرتب کردند. این تیم در تاریخ ۳۱ اکتبر، پس از ۳۷۸ روز انزوا در تأسیسات مرکز فضایی جانسون ناسا در هوستون، خروجی از زیستگاه داشت.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e425219orig.jpg?w=1536",
-   "link": "https://www.nasa.gov/image-article/chapea-crew-leaves-a-mark/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T14:57:55.000Z"
-  },
-  {
-   "slug": "science-ooldgh",
-   "title": "APOD: 2026 November 10 – Saturn Behind the Moon",
-   "title_fa": "زمین‌شناس: زحل پشت ماه",
-   "summary": "APOD Science APOD APOD: 2026 November 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Saturn Behind the […]",
-   "summary_fa": "تصویر روز نجوم در تاریخ ۱۰ نوامبر ۲۰۲۶، نمایشی از زحل را در پشت دیسک ماه به تصویر کشیده است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Moonsaturn6_Ortu_2124.jpg?w=2048&h=1525&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T05:05:00.000Z"
-  },
-  {
-   "slug": "science-j411a9",
-   "title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
-   "title_fa": "مریخ‌نورد کنجکاوی پس از شارژ مجدد به کار خود بازمی‌گردد",
-   "summary": "By Remington Free, Operations Systems Engineer, NASA-JPL Earth planning date: Friday, Oct. 30, 2026 Today’s plan covered 3 sols, 5060, 5061, and 5062, as we take a few recharging sols before getting back to our normal drilling activities. As you may know if you have been following the blog closely, we are in the middle […]",
-   "summary_fa": "در تاریخ ۳۰ سپتامبر ۲۰۲۶، برنامهٔ عملیاتی مریخ‌نورد کنجکاوی شامل سه روز مریخی (سُل) ۵۰۶۰ تا ۵۰۶۲ بود. این مأموریت در حال شارژ مجدد سیستم‌های خود است پیش از بازگشت به فعالیت‌های عادی حفاری.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_proj_msl_redops_ods_surface_sol_05062_opgs_edr_ncam_NRB_846865643EDR_S1251326NCAM00592M_.JPG?w=1024&h=512&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T01:07:45.000Z"
-  },
-  {
-   "slug": "science-15gpejy",
-   "title": "Curiosity Blog, Sols 5050-5055: It’s Nazca, Our 49th Drill Hole",
-   "title_fa": "کنجکاوی چهل‌و‌امین حفره حفاری خود را در نازکا باز کرد",
-   "summary": "Written by Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Oct. 23, 2026 As regular readers of this blog will know, we returned to the area where we found disc shaped inclusions in the rocks, which we interpreted as potential crystals. If they are indeed crystals, and […]",
-   "summary_fa": "مأموریت کاوشگر کنجکاوی ناسا در بازگشت به منطقه‌ای با شواهد بلورهای احتمالی، چهل‌و‌نهمین حفره حفاری خود در مکانی به نام نازکا را آغاز کرد. این نمونه شامل включенияهای دیسک‌شکلی است که محققان آن‌ها را بلورهای ممکن دانسته‌اند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05050_mcam_5050MR1101700012601677E01_DXXX.jpg?w=1328&h=1184&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T01:05:48.000Z"
   },
   {
    "slug": "nasa-vdu9oa",
