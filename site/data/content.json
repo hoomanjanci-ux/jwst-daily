@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-11T13:57:35.473Z",
+ "generated_utc": "2026-11-11T14:32:19.892Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw12517014001-0310a-00001-nrcb1-i2d",
+   "product": "jw12517014001_0310a_00001_nrcb1_i2d.fits",
+   "published_utc": "2026-11-11T14:30:38.389Z",
+   "target": "SDSS J161814.23+000008.6",
+   "instrument": "NIRCAM",
+   "detector": "NRCB1",
+   "filter": "F200W",
+   "obs_date": "2026-08-07",
+   "proposal": "12517",
+   "score": 33.54,
+   "quality_score": 75.56,
+   "image": "/img/jw12517014001-0310a-00001-nrcb1-i2d.jpg",
+   "text_fa": "🔬 <b>تحلیل داده با کمک هوش مصنوعی — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «SDSS J161814.23+000008.6»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 400 × 402 پیکسل دارد. در نمونهٔ منظم 157,832 پیکسل معتبر، حدود 0.1736 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F200W نزدیک طول موج 2 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 99.635 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F200W · تاریخ رصد: 2026-08-07\n\n<i>محاسبات مستقیم فایل FITS؛ انتخاب محور بررسی با کمک هوش مصنوعی. متنِ دو زبان از همان اندازه‌گیری‌ها ساخته شده است؛ ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/12517\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw06882002001-06101-00001-nrcalong-i2d",
    "product": "jw06882002001_06101_00001_nrcalong_i2d.fits",
@@ -187,23 +204,6 @@
    "proposal": "12517",
    "score": 31.27,
    "quality_score": 73.2,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
-   "slug": "jw12517014001-0310a-00001-nrcb1-i2d",
-   "product": "jw12517014001_0310a_00001_nrcb1_i2d.fits",
-   "published_utc": "2026-11-11T01:07:46.200990+00:00",
-   "target": "SDSS J161814.23+000008.6",
-   "instrument": "NIRCAM",
-   "detector": "NRCB1",
-   "filter": "F200W",
-   "obs_date": "2026-08-07",
-   "proposal": "12517",
-   "score": 33.54,
-   "quality_score": 75.56,
    "image": null,
    "text_fa": null,
    "text_en": null,
@@ -2184,6 +2184,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-11ykka3",
+   "title": "Honoring NASA’s X-59 Test Pilots on Veterans Day",
+   "title_fa": null,
+   "summary": "Seasoned pilots, aerospace engineers, and U.S. military veterans, NASA’s X-59 test pilots bring decades of service, technical expertise, and flight experience to the agency’s Quesst mission. NASA X-59 pilots Jim “Clue” Less and Nils Larson served in the U.S. Air Force, while Mike Lippert served in the U.S. Marine Corps. Today, the three pilots continue […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/vets-day-quesst.jpg?w=2048",
+   "link": "https://www.nasa.gov/blogs/quesst/2026/11/11/x-59-test-pilots-veterans-day/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-11T14:00:00.000Z"
+  },
+  {
    "slug": "science-49psdh",
    "title": "APOD: 2026 November 11 – NGC 4449: Small Galaxy, Big Impact",
    "title_fa": "APOD: ۱۱ نوامبر ۲۰۲۶ – NGC 4449: کهکشان کوچک، تأثیر بزرگ",
@@ -2386,18 +2398,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-03T22:18:25.000Z"
-  },
-  {
-   "slug": "nasa-1ybo2ya",
-   "title": "Crew Keeps Up Spacewalk Preps, Research, and Cargo Operations",
-   "title_fa": "فضانوردان اکسپدییشن ۷۵؛ آماده‌سازی پیاده‌روی فضایی، پژوهش و عملیات بار",
-   "summary": "Expedition 75 is continuing preparations for the second and final spacewalk in a series of two to upgrade the International Space Station’s power generation system. The orbital residents are also conducting microgravity research and transferring cargo in and out of a U.S. cargo spacecraft.",
-   "summary_fa": "فضانوردان اکسپدییشن ۷۵ در حال آماده‌سازی برای دومین و آخرین پیاده‌روی فضایی در سری دوگانهٔ ارتقای سیستم تولید برق ایستگاه فضایی بین‌المللی هستند. آن‌ها همزمان پژوهش‌های میکروگرانشی انجام می‌دهند و بارهای سفینهٔ باربری آمریکا را جابه‌جا می‌کنند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0253663/iss075e0253663~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/03/crew-keeps-up-spacewalk-preps-research-and-cargo-operations/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-03T18:22:21.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
