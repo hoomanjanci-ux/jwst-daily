@@ -1780,7 +1780,7 @@
   },
   "jw06570018001_03106_00004_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 37.71,
    "analyzed_utc": "2026-10-26T08:03:05.984596+00:00",
    "analysis": "analyses/2026/10/26/jw06570018001_03106_00004_nrcalong_rate.fits.json",
@@ -1811,21 +1811,21 @@
       "roi": 0.3771,
       "score": 72.11
      },
-     "ai_message": {
-      "score": 52,
-      "clarity": 68,
-      "accuracy": 38,
-      "appeal": 55,
-      "notes": "F335M real; NRCALONG fabricated; NIRCAM casing wrong; proposal 6570 unverified; no-measurements claim misleading; good emoji structure but weak hook kills appeal."
+     "evidence": {
+      "bright_tail_pixel_count": 5631,
+      "brightest_quadrant_percent": 42.106,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100964,
+      "finite_fraction": 0.985977,
+      "median": 0.09909727424383163,
+      "robust_scatter": 0.0470362425416708,
+      "above_5scatter_percent": 5.5772,
+      "p99_above_median_scatter": 79.802,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 38,
-      "clarity": 42,
-      "accuracy": null,
-      "appeal": 30,
-      "notes": "Raw single-channel crop; overexposed core, no false color or processing. Looks unfinished, not the polished JWST imagery public expects."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     },
     "en": {
      "heuristic": {
@@ -1836,23 +1836,25 @@
       "roi": 0.3771,
       "score": 72.11
      },
-     "ai_message": {
-      "score": 32,
-      "clarity": 55,
-      "accuracy": 40,
-      "appeal": 18,
-      "notes": "Dry, near-zero scientific content; admits no results found. 'NIRCAM' should be 'NIRCam'. No context on HD 45080. Template feels auto-generated and unengaging for non-experts."
+     "evidence": {
+      "bright_tail_pixel_count": 5631,
+      "brightest_quadrant_percent": 42.106,
+      "width": 320,
+      "height": 320,
+      "sample_stride": 1,
+      "sample_count": 100964,
+      "finite_fraction": 0.985977,
+      "median": 0.09909727424383163,
+      "robust_scatter": 0.0470362425416708,
+      "above_5scatter_percent": 5.5772,
+      "p99_above_median_scatter": 79.802,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 38,
-      "clarity": 42,
-      "accuracy": null,
-      "appeal": 30,
-      "notes": "Raw single-channel crop; overexposed core, no false color or processing. Looks unfinished, not the polished JWST imagery public expects."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     }
-   }
+   },
+   "analysis_revision": 3,
+   "paired_ready_utc": "2026-11-11T05:32:33.616239+00:00"
   },
   "jw06627005001_07101_00008_nrcalong_cal.fits": {
    "channels": {
@@ -134952,7 +134954,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-11T02:31:08.391455+00:00",
+ "paired_prepare_attempt_utc": "2026-11-11T05:31:03.098987+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
