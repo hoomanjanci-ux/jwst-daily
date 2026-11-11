@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-11T05:32:44.884Z",
+ "generated_utc": "2026-11-11T06:31:59.147Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2184,6 +2184,18 @@
  ],
  "news": [
   {
+   "slug": "science-49psdh",
+   "title": "APOD: 2026 November 11 – NGC 4449: Small Galaxy, Big Impact",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 November 11 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 4449: […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/irregular/NGC%204449.jpg?w=2048&h=1320&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-11T05:05:00.000Z"
+  },
+  {
    "slug": "nasa-v2paya",
    "title": "Microbiology, Spacesuits, and Cargo Mission Preps Keep Crew Busy",
    "title_fa": "آزمایش‌های میکروبیولوژی، نگهداری لباس فضانوردی و آمادگی محموله کار خلبانان را مشغول کرد",
@@ -2278,30 +2290,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-10T01:05:48.000Z"
-  },
-  {
-   "slug": "science-u2py3g",
-   "title": "Rubies on Mars?",
-   "title_fa": "آیا یاقوت در مریخ وجود دارد؟",
-   "summary": "Written by Roger C. Wiens, SuperCam Principal Investigator for NASA’s Perseverance rover at Purdue University Nov. 4, 2026 Exploration on Mars turns up the unexpected. Perseverance is equipped with a fantastic set of instruments for studying the rock record of this ancient planet. Both PIXL and SuperCam have great capabilities for detecting all kinds of […]",
-   "summary_fa": "مقاله‌ای از راجر سی. وینز، پژوهشگر اصلی ابزار سوپرکم روباهن پیروزه ناسا، به بررسی کشفیات غیرمنتظره در مریخ می‌پردازد. این مأموریت با استفاده از ابزارهای پیشرفته‌ای همچون سوپرکم و پیکسل، توانایی شناسایی انواع مواد معدنی در سوابق سنگی این سیاره باستانی را داراست.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_SIF_2023_0846549705_738EBY_N0930000SRLC02503_0000LMJ.jpg?w=1648&h=1200&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blog/rubies-on-mars/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-09T22:27:12.000Z"
-  },
-  {
-   "slug": "science-bgwjsf",
-   "title": "Newest Sample, Oldest Rock?",
-   "title_fa": "جدیدترین نمونه، قدیمی‌ترین سنگ؟",
-   "summary": "Written by Tasha Coelho, Mastcam-Z Student Collaborator at Arizona State University Nov. 1, 2026 Perseverance’s most recent abrasion “Pumbe” bears a striking resemblance to an earlier abrasion, “Badger Peak.” That’s no coincidence. As previously reported, that rock had a hardness too high to core. However, the team felt strongly that it was worth the effort […]",
-   "summary_fa": "سنگ «پامبه» که اخیراً توسط کاوشگر پرسِوِرنس خُرخُر شده، شباهت چشمگیری به سنگ «بادجر پیک» دارد که پیش‌تر مورد سایش قرار گرفته بود. این تشابه تصادفی نیست؛ باکرهٔ «بادجر پیک» آن‌قدر سخت بود که نتوانستند از آن مغزه‌گیری کنند. با این حال، تیم علمی اصرار داشت که ارزش تلاش را دارد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_ZL0_2018_0846089083_331EBY_N0920000ZCAM05068_1100LMJ.jpg?w=1648&h=1200&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blog/newest-sample-oldest-rock/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-09T22:25:52.000Z"
   },
   {
    "slug": "nasa-vdu9oa",
