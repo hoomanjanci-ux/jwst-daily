@@ -95271,7 +95271,27 @@
   },
   "jw06882002001_06101_00003_nrca3_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "analyzed",
+   "score": 49.83,
+   "analyzed_utc": "2026-11-11T00:48:43.369168+00:00",
+   "analysis": "analyses/2026/11/11/jw06882002001_06101_00003_nrca3_i2d.fits.json",
+   "cand": {
+    "filename": "jw06882002001_06101_00003_nrca3_i2d.fits",
+    "size_mb": 113.59,
+    "uri": "mast:JWST/product/jw06882002001_06101_00003_nrca3_i2d.fits",
+    "proposal": "6882",
+    "obs_id": "jw06882002001_06101_00003_nrca3",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06882002001_06101_00003_nrca3_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06882002001_06101_00003_nrca3_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06882002001_06101_00003_nrca3_i2d.jpg"
+   },
+   "meta_TARGNAME": "MACSJ0025-1222",
+   "meta_FILTER": "F150W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "MACSJ0025-1222|NIRCAM|F150W",
+   "sha256": "d143e1642b5e7aa91a91016ad32ad8684cd4660b7c7c81e119407c8b34c996de",
+   "bytes": 119108160,
+   "published_utc": null
   },
   "jw06882002001_04101_00004_nrcalong_i2d.fits": {
    "channels": {},
@@ -131938,7 +131958,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-11",
-  "bytes": 713903040
+  "bytes": 833011200
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -134520,7 +134540,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-11T00:26:03.916602+00:00",
+ "paired_prepare_attempt_utc": "2026-11-11T00:45:58.039591+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
