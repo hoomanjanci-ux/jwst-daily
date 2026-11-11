@@ -1679,7 +1679,7 @@
   },
   "jw01482050001_03105_00003_nrcalong_cal.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 41.86,
    "analyzed_utc": "2026-10-26T03:56:51.203436+00:00",
    "analysis": "analyses/2026/10/26/jw01482050001_03105_00003_nrcalong_cal.fits.json",
@@ -1710,21 +1710,21 @@
       "roi": 0.4186,
       "score": 74.17
      },
-     "ai_message": {
-      "score": 38,
-      "clarity": 72,
-      "accuracy": 30,
-      "appeal": 28,
-      "notes": "Claims 'no analysis reported' for HD 147980 — likely false; star is well-studied. No actual findings shared. Generic template; no scientific insight for readers. Fix accuracy, add meaningful results."
+     "evidence": {
+      "bright_tail_pixel_count": 3491,
+      "brightest_quadrant_percent": 79.433,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 454601,
+      "finite_fraction": 0.974516,
+      "median": 0.10957696288824081,
+      "robust_scatter": 0.43346908605247736,
+      "above_5scatter_percent": 0.7679,
+      "p99_above_median_scatter": 3.975,
+      "bunit": "MJy/sr"
      },
-     "ai_image": {
-      "score": 22,
-      "clarity": 15,
-      "accuracy": null,
-      "appeal": 18,
-      "notes": "Raw single-exposure frame. High noise, low contrast, no color. Bright star diffraction spikes and a diagonal artifact/streak dominate. Needs calibration, stacking, and processing before broadcast quality."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     },
     "en": {
      "heuristic": {
@@ -1735,23 +1735,25 @@
       "roi": 0.4186,
       "score": 74.17
      },
-     "ai_message": {
-      "score": 43,
-      "clarity": 72,
-      "accuracy": 32,
-      "appeal": 48,
-      "notes": "F335M is a NIRCam near-IR filter (~3.35µm), NOT mid-infrared. Repeatedly mislabelled as such—a significant factual error. Content is generic AI filler with no actual results. Structure and emojis are fine."
+     "evidence": {
+      "bright_tail_pixel_count": 3491,
+      "brightest_quadrant_percent": 79.433,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 454601,
+      "finite_fraction": 0.974516,
+      "median": 0.10957696288824081,
+      "robust_scatter": 0.43346908605247736,
+      "above_5scatter_percent": 0.7679,
+      "p99_above_median_scatter": 3.975,
+      "bunit": "MJy/sr"
      },
-     "ai_image": {
-      "score": 22,
-      "clarity": 15,
-      "accuracy": null,
-      "appeal": 18,
-      "notes": "Raw single-exposure frame. High noise, low contrast, no color. Bright star diffraction spikes and a diagonal artifact/streak dominate. Needs calibration, stacking, and processing before broadcast quality."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     }
-   }
+   },
+   "analysis_revision": 3,
+   "paired_ready_utc": "2026-11-11T02:33:23.001497+00:00"
   },
   "jw06570017001_03106_00001_nrcalong_rate.fits": {
    "channels": {
@@ -110672,19 +110674,81 @@
   },
   "jw12517014001_03106_00003_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "analyzed",
+   "score": 28.97,
+   "analyzed_utc": "2026-11-11T02:32:31.179115+00:00",
+   "analysis": "analyses/2026/11/11/jw12517014001_03106_00003_nrcblong_i2d.fits.json",
+   "cand": {
+    "filename": "jw12517014001_03106_00003_nrcblong_i2d.fits",
+    "size_mb": 4.406,
+    "uri": "mast:JWST/product/jw12517014001_03106_00003_nrcblong_i2d.fits",
+    "proposal": "12517",
+    "obs_id": "jw12517014001_03106_00003_nrcblong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12517014001_03106_00003_nrcblong_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12517014001_03106_00003_nrcblong_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12517014001_03106_00003_nrcblong_i2d.jpg"
+   },
+   "meta_TARGNAME": "SDSS J161814.23+000008.6",
+   "meta_FILTER": "F322W2",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F322W2",
+   "sha256": "af3fede290ac20441ee19f152a397bdc85d4eb98cae226da622098411c833e99",
+   "bytes": 4619520,
+   "published_utc": null
   },
   "jw12517014001_03104_00003_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F356W",
+   "sha256": "795a33c6846a685e617653f048a1df2dd870a642de69cbc6c82974dfbf06f06b"
   },
   "jw12517014001_03106_00001_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "analyzed",
+   "score": 35.59,
+   "analyzed_utc": "2026-11-11T02:32:49.704305+00:00",
+   "analysis": "analyses/2026/11/11/jw12517014001_03106_00001_nrcblong_i2d.fits.json",
+   "cand": {
+    "filename": "jw12517014001_03106_00001_nrcblong_i2d.fits",
+    "size_mb": 4.406,
+    "uri": "mast:JWST/product/jw12517014001_03106_00001_nrcblong_i2d.fits",
+    "proposal": "12517",
+    "obs_id": "jw12517014001_03106_00001_nrcblong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12517014001_03106_00001_nrcblong_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12517014001_03106_00001_nrcblong_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12517014001_03106_00001_nrcblong_i2d.jpg"
+   },
+   "meta_TARGNAME": "SDSS J161814.23+000008.6",
+   "meta_FILTER": "F322W2",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F322W2",
+   "sha256": "fdbde5f78815b645de0b2ef475507ad49e122bff5ca5f185e226a3b3e117eaf9",
+   "bytes": 4619520,
+   "published_utc": null
   },
   "jw12517014001_03104_00004_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "analyzed",
+   "score": 29.44,
+   "analyzed_utc": "2026-11-11T02:32:59.055108+00:00",
+   "analysis": "analyses/2026/11/11/jw12517014001_03104_00004_nrcb1_i2d.fits.json",
+   "cand": {
+    "filename": "jw12517014001_03104_00004_nrcb1_i2d.fits",
+    "size_mb": 4.406,
+    "uri": "mast:JWST/product/jw12517014001_03104_00004_nrcb1_i2d.fits",
+    "proposal": "12517",
+    "obs_id": "jw12517014001_03104_00004_nrcb1",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12517014001_03104_00004_nrcb1_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12517014001_03104_00004_nrcb1_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12517014001_03104_00004_nrcb1_i2d.jpg"
+   },
+   "meta_TARGNAME": "SDSS J161814.23+000008.6",
+   "meta_FILTER": "F090W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F090W",
+   "sha256": "d523bb76c22350e0e10d151374b5b573dd55c874eddebc31def7a60b4b499a7e",
+   "bytes": 4619520,
+   "published_utc": null
   },
   "jw12517014001_03106_00002_nrcb1_i2d.fits": {
    "channels": {},
@@ -132245,7 +132309,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-11",
-  "bytes": 860728320
+  "bytes": 879206400
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -134853,7 +134917,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-11T02:10:56.506114+00:00",
+ "paired_prepare_attempt_utc": "2026-11-11T02:31:08.391455+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
