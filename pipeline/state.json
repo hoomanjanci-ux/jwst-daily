@@ -95058,82 +95058,27 @@
    "status": "legacy_v01"
   },
   "jw06882002001_06101_00001_nrcalong_i2d.fits": {
-   "channels": {},
-   "status": "ready",
+   "channels": {
+    "fa_ai": "sent",
+    "en_ai": "sent"
+   },
+   "status": "published",
    "score": 40.49,
    "analyzed_utc": "2026-11-11T00:29:21.681782+00:00",
    "analysis": "analyses/2026/11/11/jw06882002001_06101_00001_nrcalong_i2d.fits.json",
-   "cand": {
-    "filename": "jw06882002001_06101_00001_nrcalong_i2d.fits",
-    "size_mb": 114.686,
-    "uri": "mast:JWST/product/jw06882002001_06101_00001_nrcalong_i2d.fits",
-    "proposal": "6882",
-    "obs_id": "jw06882002001_06101_00001_nrcalong",
-    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06882002001_06101_00001_nrcalong_i2d.fits",
-    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06882002001_06101_00001_nrcalong_i2d.fits",
-    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06882002001_06101_00001_nrcalong_i2d.jpg"
-   },
    "meta_TARGNAME": "MACSJ0025-1222",
    "meta_FILTER": "F356W",
    "meta_INSTRUME": "NIRCAM",
    "combo": "MACSJ0025-1222|NIRCAM|F356W",
    "sha256": "f3a6134dd38407e9a219ae41be1f655152e7dae65b93f59cc8f4e7b6dd76c098",
    "bytes": 120257280,
-   "published_utc": null,
+   "published_utc": "2026-11-11T08:30:38.383Z",
    "analysis_revision": 3,
-   "quality_log": {
-    "fa": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.6104,
-      "brightness": 0.4586,
-      "range": 1.0,
-      "roi": 0.4049,
-      "score": 75.16
-     },
-     "evidence": {
-      "bright_tail_pixel_count": 22603,
-      "brightest_quadrant_percent": 30.845,
-      "width": 2075,
-      "height": 2068,
-      "sample_stride": 3,
-      "sample_count": 464604,
-      "finite_fraction": 0.973033,
-      "median": 0.11744732409715652,
-      "robust_scatter": 0.011033754075318574,
-      "above_5scatter_percent": 4.865,
-      "p99_above_median_scatter": 30.685,
-      "bunit": "MJy/sr"
-     },
-     "method": "measured-data-analysis-v3"
-    },
-    "en": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.6104,
-      "brightness": 0.4586,
-      "range": 1.0,
-      "roi": 0.4049,
-      "score": 75.16
-     },
-     "evidence": {
-      "bright_tail_pixel_count": 22603,
-      "brightest_quadrant_percent": 30.845,
-      "width": 2075,
-      "height": 2068,
-      "sample_stride": 3,
-      "sample_count": 464604,
-      "finite_fraction": 0.973033,
-      "median": 0.11744732409715652,
-      "robust_scatter": 0.011033754075318574,
-      "above_5scatter_percent": 4.865,
-      "p99_above_median_scatter": 30.685,
-      "bunit": "MJy/sr"
-     },
-     "method": "measured-data-analysis-v3"
-    }
-   },
-   "paired_ready_utc": "2026-11-11T00:29:58.697532+00:00"
+   "paired_ready_utc": "2026-11-11T00:29:58.697532+00:00",
+   "analysis_slot": "2026-11-11/12",
+   "research_sha256": "a5897613b19ecc3b6da1939a5d81fd8f5a058337c69a1ea06f7ee6b3fe0806fd",
+   "site_archive": "ok",
+   "d1_sync": "ok"
   },
   "jw06882002001_06101_00002_nrca1_i2d.fits": {
    "channels": {},
@@ -132345,7 +132290,8 @@
   "* alf PsA|NIRCAM|F360M": "2026-11-10T02:30:37.586Z",
   "* alf PsA|NIRCAM|F090W": "2026-11-10T05:30:37.802Z",
   "RXCJ0018+1626|NIRCAM|F300M": "2026-11-10T08:30:38.219Z",
-  "MACSJ0025-1222|NIRCAM|F150W": "2026-11-11T05:30:35.088Z"
+  "MACSJ0025-1222|NIRCAM|F150W": "2026-11-11T05:30:35.088Z",
+  "MACSJ0025-1222|NIRCAM|F356W": "2026-11-11T08:30:38.383Z"
  },
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
@@ -134910,9 +134856,35 @@
   "2026-11-11/12": {
    "start": "2026-11-11T08:30:00.000Z",
    "end": "2026-11-11T09:30:00.000Z",
-   "status": "waiting",
-   "product": null,
-   "note": null,
+   "status": "sent",
+   "product": "jw06882002001_06101_00001_nrcalong_i2d.fits",
+   "delivery": {
+    "en": {
+     "album_v1": {
+      "status": "sent",
+      "message_ids": [
+       310,
+       311,
+       312,
+       313
+      ],
+      "utc": "2026-11-11T08:30:38.100Z"
+     }
+    },
+    "fa": {
+     "album_v1": {
+      "status": "sent",
+      "message_ids": [
+       305,
+       306,
+       307,
+       308
+      ],
+      "utc": "2026-11-11T08:30:36.777Z"
+     }
+    }
+   },
+   "completed_utc": "2026-11-11T08:30:38.383Z",
    "sender": "cloudflare"
   },
   "2026-11-11/09": {
