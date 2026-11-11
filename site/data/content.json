@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-11T00:30:09.306Z",
+ "generated_utc": "2026-11-11T00:48:51.509Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw06882002001-06101-00003-nrca3-i2d",
+   "product": "jw06882002001_06101_00003_nrca3_i2d.fits",
+   "published_utc": "2026-11-11T00:48:43.233561+00:00",
+   "target": "MACSJ0025-1222",
+   "instrument": "NIRCAM",
+   "detector": "NRCA3",
+   "filter": "F150W",
+   "obs_date": "2026-08-08",
+   "proposal": "6882",
+   "score": 49.83,
+   "quality_score": 75.17,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
   {
    "slug": "jw06882002001-06101-00002-nrca1-i2d",
    "product": "jw06882002001_06101_00002_nrca1_i2d.fits",
