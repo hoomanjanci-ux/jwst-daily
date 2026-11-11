@@ -127864,16 +127864,20 @@
    "status": "legacy_v01"
   },
   "jw10046006004_02101_00004_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10046006004_02101_00004_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10046006006_02101_00004_nrcblong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10046006006_02101_00004_nrcb4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   }
  },
  "runs": [
@@ -134980,7 +134984,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-11T18:51:01.210117+00:00",
+ "paired_prepare_attempt_utc": "2026-11-11T19:55:59.972190+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
