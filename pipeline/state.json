@@ -127968,33 +127968,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-11T13:55:53.993854+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 7,
-    "next_window": "2026-11-11T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-11T13:57:32.724471+00:00"
-  },
-  {
    "started_utc": "2026-11-11T14:30:59.103679+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -129414,6 +129387,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-12T22:08:01.073669+00:00"
+  },
+  {
+   "started_utc": "2026-11-12T22:53:48.812868+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 4,
+    "next_window": "2026-11-13T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/",
+     "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/",
+     "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-12T22:54:54.488651+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -130019,6 +130029,14 @@
   "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/": {
    "fa": "2026-11-12T20:57:10.668769+00:00",
    "en": "2026-11-12T20:57:10.668769+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/": {
+   "fa": "2026-11-12T22:53:54.311550+00:00",
+   "en": "2026-11-12T22:53:54.311550+00:00"
+  },
+  "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/": {
+   "fa": "2026-11-12T22:53:54.311550+00:00",
+   "en": "2026-11-12T22:53:54.311550+00:00"
   }
  },
  "news_archive": {
@@ -131344,6 +131362,24 @@
    "source_fa": "ناسا",
    "date": "2026-11-12T19:12:49+00:00",
    "ts": "2026-11-12T20:57:10.668769+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/": {
+   "title": "خدمه اژدها را با علم بسته بندی می کنند و لباس فضایی را تمیز می کنند",
+   "summary": "اکسپدیشن 75 روز پنجشنبه یک شیفت کاری شلوغ داشت که در درجه اول بر بسته بندی یک کشتی باری ایالات متحده برای حرکت آتی و تمیز کردن یک جفت لباس فضایی تمرکز داشت. موضوعات تحقیقاتی روز پنجشنبه در ایستگاه فضایی بین المللی شامل کشاورزی فضایی و ابر هوش بود.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-12T22:07:49+00:00",
+   "ts": "2026-11-12T22:53:54.311550+00:00"
+  },
+  "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/": {
+   "title": "ستارگان ماه نوامبر ۲۰۲۶ مرکز علمی ناسا معرفی شدند",
+   "summary": "مرکز علمی ناسا در آملز از سه پژوهشگر برگزیدهٔ ماه نوامبر تقدیر کرد: آلیسا ویلانوئِوا، استیو هاوِل و ساموئل لِبَلانک. این پژوهشگران به دلیل تعهد به مأموریت ناسا و نشان دادن روحیهٔ کارآفرینی، تخصص فنی و همکاری گسترده انتخاب شده‌اند.",
+   "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-12T17:54:32+00:00",
+   "ts": "2026-11-12T22:53:54.311550+00:00"
   }
  },
  "news_title_fp": {
@@ -131890,6 +131926,14 @@
    "en": "2026-11-12"
   },
   "217742c25bb32256": {
+   "fa": "2026-11-12",
+   "en": "2026-11-12"
+  },
+  "017df91659a15cdc": {
+   "fa": "2026-11-12",
+   "en": "2026-11-12"
+  },
+  "89159c2205ffb7e5": {
    "fa": "2026-11-12",
    "en": "2026-11-12"
   }
@@ -132442,6 +132486,14 @@
   [
    "217742c25bb32256",
    "heart in the sky at nasa kennedy"
+  ],
+  [
+   "017df91659a15cdc",
+   "crew packs dragon with science and cleans spacesuits"
+  ],
+  [
+   "89159c2205ffb7e5",
+   "nasa ames stars of the month november 2026"
   ]
  ],
  "combo_seen": {

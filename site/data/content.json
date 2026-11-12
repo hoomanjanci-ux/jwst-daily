@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T22:08:03.031Z",
+ "generated_utc": "2026-11-12T22:56:35.882Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2184,6 +2184,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-mtp17s",
+   "title": "Crew Packs Dragon with Science and Cleans Spacesuits",
+   "title_fa": "فضانوردان دراگون را با محمولهٔ علمی تجهیز و لباس‌های فضایی را تمیز کردند",
+   "summary": "Expedition 75 had a busy shift on Thursday primarily focusing on packing a U.S. cargo craft for its upcoming departure and cleaning a pair of spacesuits. Thursday’s research topics aboard the International Space Station included space agriculture and super intelligence.",
+   "summary_fa": "تیم مأموریت اکسپدیشن ۷۵ روز پنجشنبه را به بسته‌بندی کپسول باربری آمریکایی برای بازگشت آینده و تمیز کردن دو لباس فضایی اختصاص داد. موضوعات پژوهشی این تیم در ایستگاه فضایی بین‌المللی شامل کشاورزی فضایی و هوش فراارتی بود.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0252441/iss075e0252441~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-12T22:07:49.000Z"
+  },
+  {
    "slug": "nasa-1atcjbq",
    "title": "I Am Artemis Katie Spicer",
    "title_fa": "کتی اسپایر؛ مدیریت فرودگر بلومون در برنامهٔ آرتمیس",
@@ -2386,18 +2398,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-04T15:05:17.000Z"
-  },
-  {
-   "slug": "nasa-1yg9cwv",
-   "title": "NASA-Funded SSPICY Mission Experiences Communications Loss",
-   "title_fa": "مأموریت SSPICY ناسا ارتباط خود را از دست داد",
-   "summary": "A NASA-supported small satellite launched in October as a technology demonstration has lost contact with its owner and operator, Starfish Space. NASA and Starfish have concluded the spacecraft is not recoverable due to an issue preventing communications between the SmallSat and ground operators. Led by Starfish Space, NASA’s Small Spacecraft Propulsion and Inspection Capability (SSPICY) […]",
-   "summary_fa": "ماهوارهٔ کوچکی که در ماه اکتبر به عنوان نمایش فناوری با پشتیبانی ناسا پرتاب شد، ارتباط خود را با مالک و بهره‌بردار آن، استارفیش اسپیس، قطع کرده است. ناسا و استارفیش اسپیس اعلام کردند به دلیل مشکلی که مانع ارتباط بین فضاپیمای کوچک و اپراتورهای زمینی شده، این فضاپیما قابل بازیابی نیست. مأموریت توانایی پیشرانش و بازرسی فضاپیمای کوچک (SSPICY) با رهبری استارفیش اسپیس انجام می‌شود.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/08/leo-otter-solo-master.png?w=2048",
-   "link": "https://www.nasa.gov/blogs/smallsatellites/2026/11/03/nasa-funded-sspicy-mission-experiences-communications-loss/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-03T22:18:25.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
