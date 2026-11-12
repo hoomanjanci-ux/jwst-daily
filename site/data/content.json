@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T13:10:33.352Z",
+ "generated_utc": "2026-11-12T13:57:50.788Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2184,6 +2184,30 @@
  ],
  "news": [
   {
+   "slug": "science-17quk7u",
+   "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
+   "title_fa": null,
+   "summary": "A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow-up observations by the Nancy Grace Roman Space Telescope.",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_lenscollage_P18085_ok4_noletters.tif?w=2048",
+   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-12T13:18:40.000Z"
+  },
+  {
+   "slug": "nasa-1t0j576",
+   "title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
+   "title_fa": null,
+   "summary": "As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission. These photographers documented the iconic images shared around the world on Sept. 21, 2012, while millions watched space shuttle Endeavour fly on top of the agency’s 747 Shuttle Carrier Aircraft for the last time. Endeavour’s new home […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2023/03/690852main_ED12-0317-012_full.jpg?w=1041",
+   "link": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-12T13:00:00.000Z"
+  },
+  {
    "slug": "science-1isau5x",
    "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
    "title_fa": "دیدار ماه، زهره و ستارهٔ سپیکا",
@@ -2278,30 +2302,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-10T16:00:26.000Z"
-  },
-  {
-   "slug": "nasa-1rsmjeo",
-   "title": "CHAPEA Crew Leaves a Mark",
-   "title_fa": "مأموران چاپا اثری از خود بر جای گذاشتند",
-   "summary": "The Crew Health and Performance Exploration Analog (CHAPEA) Mission 2 crew arranged photos around a boot print in the simulated Martian sand outside their habitat on Aug. 31, 2026. The crew recently exited their habitat on Saturday, Oct. 31, after 378 days of isolation in a facility at the agency’s Johnson Space Center in Houston. Health […]",
-   "summary_fa": "تیم مأموریت دوم چاپا در ۳۱ اوت ۲۰۲۶ عکس‌هایی را در کنار رد پای انسان بر روی ماسهٔ شبیه‌سازی‌شدهٔ مریخ، بیرون از زیستگاهشان مرتب کردند. این تیم در تاریخ ۳۱ اکتبر، پس از ۳۷۸ روز انزوا در تأسیسات مرکز فضایی جانسون ناسا در هوستون، خروجی از زیستگاه داشت.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e425219orig.jpg?w=1536",
-   "link": "https://www.nasa.gov/image-article/chapea-crew-leaves-a-mark/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T14:57:55.000Z"
-  },
-  {
-   "slug": "science-ooldgh",
-   "title": "APOD: 2026 November 10 – Saturn Behind the Moon",
-   "title_fa": "زمین‌شناس: زحل پشت ماه",
-   "summary": "APOD Science APOD APOD: 2026 November 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Saturn Behind the […]",
-   "summary_fa": "تصویر روز نجوم در تاریخ ۱۰ نوامبر ۲۰۲۶، نمایشی از زحل را در پشت دیسک ماه به تصویر کشیده است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Moonsaturn6_Ortu_2124.jpg?w=2048&h=1525&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T05:05:00.000Z"
   },
   {
    "slug": "nasa-vdu9oa",
