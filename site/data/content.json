@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T18:52:09.098Z",
+ "generated_utc": "2026-11-12T19:57:12.521Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2184,6 +2184,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-11hqhca",
+   "title": "Heart in the Sky at NASA Kennedy",
+   "title_fa": null,
+   "summary": "The U.S. Air Force Thunderbirds create a heart-shaped smoke trail during a flight maneuver near NASA’s Vehicle Assembly Building during the agency’s MAX POWER expo and air show on Sunday, Nov. 8, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s MAX POWER is an aerospace festival celebrating the past, present, and future of flight […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/55640210122-dae9d5e6b9-o.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-12T19:12:49.000Z"
+  },
+  {
    "slug": "nasa-cnnh3s",
    "title": "NASA Ames Stars of the Month: November 2026",
    "title_fa": null,
@@ -2290,18 +2302,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-10T19:22:45.000Z"
-  },
-  {
-   "slug": "nasa-a4sjp",
-   "title": "NASA to Welcome Expedition 74 Astronauts Home at Space Center Houston",
-   "title_fa": "مراسم استقبال فضانوردان مأموریت اکسپدییشن ۷۴ در مرکز فضایی هیوستون",
-   "summary": "NASA will welcome home the Expedition 74 crew during a public event at Space Center Houston following their return from a long-duration mission aboard the International Space Station. NASA astronauts Jessica Meir, Jack Hathaway, and Chris Williams; ESA (European Space Agency) astronaut Sophie Adenot; and Roscosmos cosmonauts Sergey Kud‑Sverchkov and Sergei Mikaev will share mission […]",
-   "summary_fa": "ناسا در مراسمی عمومی در مرکز فضایی هیوستون از فضانوردان مأموریت اکسپدییشن ۷۴ پس از بازگشت از ایستگاه فضایی بین‌المللی تجلیل خواهد کرد. این تیم شامل سه فضانورد ناسا، یک فضانورد آژانس فضایی اروپا و دو کیهان‌نورد روسیه هستند که جزئیات مأموریت خود را به اشتراک خواهند گذاشت.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/expedition-74-picture.jpg?w=2048",
-   "link": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T18:06:33.000Z"
   },
   {
    "slug": "nasa-vdu9oa",
