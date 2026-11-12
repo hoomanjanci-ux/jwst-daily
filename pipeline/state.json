@@ -126909,59 +126909,87 @@
   },
   "jw12525111001_0210e_00004_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "02126786396b48de0d8db2493c530b38418b81d80c1ef0b1f53547286feeca69"
   },
   "jw12525111001_0210e_00004_nrcb2_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "17fffaeae4e1fcfc115b704e8c7c19b45a333dc5309fca1df62b83bde5664d0b"
   },
   "jw12525111001_02102_00002_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "c1c53fb70f6f9cdbe6b75a2d326223d568272c2ca8d78873fe7c8f11bd3443b4"
   },
   "jw12525111001_02102_00002_nrcb2_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "568145f62e4716ac83ba2f10ebe36dc6efee84b44ad6e56ee9a05f35849ea16f"
   },
   "jw12525111001_02102_00002_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "5367f192b3e805adfa65c678dbe346228eb6842644cba21711b7484a64f7f045"
   },
   "jw12525111001_02102_00002_nrcb4_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "27432bc1f469e60d76805af430fdfc3ad04ec080eb512773c088aa9874cd3a53"
   },
   "jw12525111001_02102_00002_nrcb3_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "460347ce11e7f43eeefa91032a556336a02831685fc6a00608191415d6b0a7d4"
   },
   "jw12525111001_02102_00003_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "6362071c9d3ebcc6b62c5be8495b6fd39aee8112c91a0e40f11a535db81b4a0a"
   },
   "jw12525111001_02102_00003_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "819e2df9fd0297dfa604d549ddf459b08ebd6afdbfb2954fbe25f35f5c079dcb"
   },
   "jw12525111001_02102_00003_nrcb2_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "fc725b1d85ee2b00597a61a998554f4be93ab9a27cba3b42749ca26fb5d4c2b1"
   },
   "jw12525111001_02102_00003_nrcb4_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "7f92f6d460065197d5a95fc3a92641e3a606a2f30aa366bafea0e8e7c38d1232"
   },
   "jw12525111001_02102_00003_nrcb3_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "ca6bc87f2709473f10d0e5b24efa6141175b2881355af7219efc12d9982f62a9"
   },
   "jw12525111001_02102_00001_nrcb2_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "3b52f1d00235d6b46fbc4b4dcb1be39438f7e6a1ba7e5247cabf10728ede58fd"
   },
   "jw12525111001_02102_00001_nrcb4_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "69e61fe7676beef966dea5f0e747e111e3f125b80c5e8780f25486c00784bb69"
   },
   "jw12525111001_02102_00001_nrcblong_i2d.fits": {
    "channels": {},
@@ -127890,6 +127918,150 @@
   "jw10790005001_08201_00004_nrcb1_rate.fits": {
    "channels": {},
    "status": "legacy_v01"
+  },
+  "jw12525111001_0210g_00003_nrcb3_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "14a401f351d1461752294925e7c47bdd5d4126531174645a86d580e8febb5dc4"
+  },
+  "jw12525111001_0210g_00003_nrcb2_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "50e6c27f2784d4b1804de11a5e43fafb46a764aa44108cd1a912ac91cfc8d434"
+  },
+  "jw12525111001_0210g_00003_nrcb1_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "834d4b94b2fc180baf7f1c67103c64a004a847e630eb49ea17c155868a3fb070"
+  },
+  "jw12525111001_0210g_00003_nrcb4_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "938d349e79c681b39fd034be671afdfa697c704766d89357c500f951b18d37b7"
+  },
+  "jw12525111001_0210g_00004_nrcb3_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "fed9933fd72b64b4841bea6990b8ddae3608cfc7900d2b7e72303368168466a3"
+  },
+  "jw12525111001_0210g_00004_nrcb1_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "1608780b1583661617c8aad07a17c0f48214a46a1a831db250cf0a820affdbb8"
+  },
+  "jw12525111001_0210g_00004_nrcb2_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "35e779648215b705dcc46ce1049883079ded22666478002fcf68bb02a42cf44a"
+  },
+  "jw12525111001_0210g_00004_nrcb4_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "6fd4540d7ac4bdaea89b0fac957f1de5efd948236fe8620fe6547ce27c0c0702"
+  },
+  "jw12525111001_02104_00004_nrcb1_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "7779ce9b6a59399f0075248660ecad6595f1c4fb19df60b75b7876b79b35419a"
+  },
+  "jw12525111001_02104_00004_nrcb4_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "5db6d3180f5f245e543ed6369b00c6560cac1f1bedf7c24055df2035a5bade7b"
+  },
+  "jw12525111001_02104_00004_nrcb3_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "d0251c76a19a654c00a2391854b8ea00bcb2a0bf58d4a49aa57bee79286e1b7b"
+  },
+  "jw12525111001_02104_00004_nrcb2_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "79a095162479841cd60e49434dd601534da952dd9dc1b127eceda51b2200a702"
+  },
+  "jw12525111001_02104_00003_nrcb4_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "c206f5f92dc892fc2eb3b01710e7803c42de5cc16188f7e4cdb54262ba3cdc7b"
+  },
+  "jw12525111001_02104_00003_nrcb2_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "32357cfbf53f9529cef50a7e51d7caaa4b3925c15dffc34904cb6d69079314a7"
+  },
+  "jw12525111001_02104_00003_nrcb3_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "d3c1a0b2680f74f5ab1b5147bb999d6ba631aa4767062d972cd129d3ba2280b5"
+  },
+  "jw12525111001_02104_00003_nrcb1_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "325c8dc5479a5594e48cbe083c5b56ff144e8b5b5b4f541cc41372a5e913e647"
+  },
+  "jw12525111001_02104_00002_nrcb1_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "3b88342f96677ce0976bcadbbf500f471495f973af5ef02ad1962f6f9e72715c"
+  },
+  "jw12525111001_02104_00002_nrcb4_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "048ec361335e60d5601933ed5994c44fc1726d304eefb42fa718c5de6d593a85"
+  },
+  "jw12525111001_02104_00002_nrcb2_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "fe177d5457465891357222fe32310439b03f0b6be8fdb8c2e20989a5e63cbbfd"
+  },
+  "jw12525111001_02104_00002_nrcb3_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "0d17489f7e105ef8808c68602071b5b2b6438eb36ef85c955c51a90a469ae7aa"
+  },
+  "jw12525111001_02104_00001_nrcb1_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "b13dc35adeb037bda1eb1c8d5733e2e5f993f3121d71e165c039ecd455aa9b0d"
+  },
+  "jw12525111001_02104_00001_nrcb3_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "2c012d61e9ae8bd6cad9db2b685b9db1c2d800d76b25eb7c79dfa71054f124f4"
+  },
+  "jw12525111001_02104_00001_nrcb4_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "c2ea2a5b11b4cfa3cadfbf77e21bef3e4c44ba5e2c1ce9c140dc152d37eca845"
+  },
+  "jw12525111001_02104_00001_nrcb2_i2d.fits": {
+   "channels": {},
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F150W2",
+   "sha256": "34bdb384da1d0fe528973bfde35e5a9bada7f797e78d184af453934dea8aa28c"
   }
  },
  "runs": [
@@ -132304,8 +132476,8 @@
  },
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
-  "day": "2026-11-11",
-  "bytes": 879206400
+  "day": "2026-11-12",
+  "bytes": 43130880
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -135023,7 +135195,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-12T00:15:57.243198+00:00",
+ "paired_prepare_attempt_utc": "2026-11-12T01:20:59.478678+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
