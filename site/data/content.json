@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T05:33:59.452Z",
+ "generated_utc": "2026-11-12T06:37:11.584Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2184,6 +2184,18 @@
  ],
  "news": [
   {
+   "slug": "science-1isau5x",
+   "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 November 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Moon, Venus and […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/conjunction-bubak.jpg?w=1638&h=2048&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-12T05:05:00.000Z"
+  },
+  {
    "slug": "science-1bkkt1t",
    "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
    "title_fa": "کنجکاوی: سنگ‌ها و تراشه‌های روزهای ۵۰۶۳ تا ۵۰۶۹",
@@ -2290,18 +2302,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-10T05:05:00.000Z"
-  },
-  {
-   "slug": "science-j411a9",
-   "title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
-   "title_fa": "مریخ‌نورد کنجکاوی پس از شارژ مجدد به کار خود بازمی‌گردد",
-   "summary": "By Remington Free, Operations Systems Engineer, NASA-JPL Earth planning date: Friday, Oct. 30, 2026 Today’s plan covered 3 sols, 5060, 5061, and 5062, as we take a few recharging sols before getting back to our normal drilling activities. As you may know if you have been following the blog closely, we are in the middle […]",
-   "summary_fa": "در تاریخ ۳۰ سپتامبر ۲۰۲۶، برنامهٔ عملیاتی مریخ‌نورد کنجکاوی شامل سه روز مریخی (سُل) ۵۰۶۰ تا ۵۰۶۲ بود. این مأموریت در حال شارژ مجدد سیستم‌های خود است پیش از بازگشت به فعالیت‌های عادی حفاری.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_proj_msl_redops_ods_surface_sol_05062_opgs_edr_ncam_NRB_846865643EDR_S1251326NCAM00592M_.JPG?w=1024&h=512&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T01:07:45.000Z"
   },
   {
    "slug": "nasa-vdu9oa",
