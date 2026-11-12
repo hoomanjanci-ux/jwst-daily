@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T18:18:31.872Z",
+ "generated_utc": "2026-11-12T18:52:09.098Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2184,6 +2184,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-cnnh3s",
+   "title": "NASA Ames Stars of the Month: November 2026",
+   "title_fa": null,
+   "summary": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva is an engineer at Blue […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/som-november-2026-banner.jpg?w=1920",
+   "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-12T17:54:32.000Z"
+  },
+  {
    "slug": "science-17quk7u",
    "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
    "title_fa": "تلسکوپ هابل، گنجینه‌ای از عدسی‌های گرانشی برای تلسکوپ رُمن",
@@ -2290,18 +2302,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-10T18:06:33.000Z"
-  },
-  {
-   "slug": "science-5segzb",
-   "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
-   "title_fa": "امواج گرانشی می‌توانند جهان‌های جدید را آشکار کنند",
-   "summary": "The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses. Now two studies led by NASA astrophysicists show in new detail how LISA could reveal a new and unique population of exoplanets — worlds beyond our solar system — throughout our galaxy. […]",
-   "summary_fa": "مراصد فضایی امواج گرانشی ممکن است جهان‌هایی فراتر از منظومه شمسی را در سراسر کهکشان نشان دهد. دو مطالعه جدید نشان داد که چگونه این فناوری می‌تواند جمعیت تازه و منحصربه‌فردی از سیارات فراخورشیدی را آشکار کند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/ciencia/2023/06/s/stsci-j-p2223a_0.jpeg?w=2048&h=1593&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T16:00:26.000Z"
   },
   {
    "slug": "nasa-vdu9oa",
