@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T01:31:16.396Z",
+ "generated_utc": "2026-11-12T02:28:36.577Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2184,6 +2184,18 @@
  ],
  "news": [
   {
+   "slug": "science-1bkkt1t",
+   "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
+   "title_fa": null,
+   "summary": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Nov. 6, 2026 This week Curiosity has been completing its drill campaign at the “Nazca” drill hole. This is an area characterized by bedrock containing disk-shaped (or in a liberal interpretation, potato chip shaped … see linked image) crystal forms. A […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/november/https___mars.nasa.gov_msl-raw-images_msss_05067_mhli_5067MH0009180001804584C00_DXXX.jpg?w=480&h=480&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-12T00:41:35.000Z"
+  },
+  {
    "slug": "nasa-11ykka3",
    "title": "Honoring NASA’s X-59 Test Pilots on Veterans Day",
    "title_fa": "گرامیداشت خلبانان آزمون‌پرنده X-59 ناسا در روز فارغ‌التحصیلان نیروهای مسلح",
@@ -2290,18 +2302,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-10T01:07:45.000Z"
-  },
-  {
-   "slug": "science-15gpejy",
-   "title": "Curiosity Blog, Sols 5050-5055: It’s Nazca, Our 49th Drill Hole",
-   "title_fa": "کنجکاوی چهل‌و‌امین حفره حفاری خود را در نازکا باز کرد",
-   "summary": "Written by Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Oct. 23, 2026 As regular readers of this blog will know, we returned to the area where we found disc shaped inclusions in the rocks, which we interpreted as potential crystals. If they are indeed crystals, and […]",
-   "summary_fa": "مأموریت کاوشگر کنجکاوی ناسا در بازگشت به منطقه‌ای با شواهد بلورهای احتمالی، چهل‌و‌نهمین حفره حفاری خود در مکانی به نام نازکا را آغاز کرد. این نمونه شامل включенияهای دیسک‌شکلی است که محققان آن‌ها را بلورهای ممکن دانسته‌اند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05050_mcam_5050MR1101700012601677E01_DXXX.jpg?w=1328&h=1184&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T01:05:48.000Z"
   },
   {
    "slug": "nasa-vdu9oa",
