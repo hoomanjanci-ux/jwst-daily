@@ -128011,37 +128011,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-10T22:35:03.599263+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 1,
-    "next_window": "2026-11-11T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-10T22:35:08.704952+00:00"
-  },
-  {
    "started_utc": "2026-11-10T22:45:51.878822+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -129449,6 +129418,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-12T03:37:57.153009+00:00"
+  },
+  {
+   "started_utc": "2026-11-12T03:55:46.111446+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 5,
+    "next_window": "2026-11-12T09:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-12T03:56:09.376612+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -130030,6 +130034,10 @@
   "https://www.nasa.gov/blogs/quesst/2026/11/11/x-59-test-pilots-veterans-day/": {
    "fa": "2026-11-11T16:20:47.401384+00:00",
    "en": "2026-11-11T16:20:47.401384+00:00"
+  },
+  "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/": {
+   "fa": "2026-11-12T03:55:51.812879+00:00",
+   "en": "2026-11-12T03:55:51.812879+00:00"
   }
  },
  "news_archive": {
@@ -131301,6 +131309,15 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-11-11T14:00:00+00:00",
    "ts": "2026-11-11T16:20:47.401384+00:00"
+  },
+  "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/": {
+   "title": "کنجکاوی عملیات حفاری خود در حفرهٔ «ناکزا» را به پایان رساند",
+   "summary": "مركب کنجکاوی کاوشگر ناسا کارهای حفاری خود را در گودال «ناکزا» روی مریخ به اتمام رسانده است. این منطقه دارای بستر سنگی با بلورهای دیسک‌شکل یا بیضی‌ریزه‌ای است. این گزارش بر اساس وبلاگ کاوش توسط ویلیام فارند، پژوهشگر ارشد مؤسسه علوم فضایی منتشر شده است.",
+   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-12T00:41:35+00:00",
+   "ts": "2026-11-12T03:55:51.812879+00:00"
   }
  },
  "news_title_fp": {
@@ -131825,6 +131842,10 @@
   "4e8ee54ece10ef42": {
    "fa": "2026-11-11",
    "en": "2026-11-11"
+  },
+  "545aa5d1c7826a07": {
+   "fa": "2026-11-12",
+   "en": "2026-11-12"
   }
  },
  "news_title_recent": [
@@ -132351,6 +132372,10 @@
   [
    "4e8ee54ece10ef42",
    "honoring nasa s x 59 test pilots on veterans day"
+  ],
+  [
+   "545aa5d1c7826a07",
+   "curiosity blog sols 5063 5069 rocks and chips"
   ]
  ],
  "combo_seen": {
