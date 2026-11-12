@@ -127955,37 +127955,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-11T00:51:10.449022+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 3,
-    "next_window": "2026-11-11T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-11T00:51:16.449804+00:00"
-  },
-  {
    "started_utc": "2026-11-11T01:06:00.969036+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -129409,6 +129378,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-12T08:33:32.546644+00:00"
+  },
+  {
+   "started_utc": "2026-11-12T08:53:34.936822+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-12/12",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 4,
+    "next_window": "2026-11-12T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-12T08:54:23.276254+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -129994,6 +129998,10 @@
   "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/": {
    "fa": "2026-11-12T03:55:51.812879+00:00",
    "en": "2026-11-12T03:55:51.812879+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/": {
+   "fa": "2026-11-12T08:53:40.675856+00:00",
+   "en": "2026-11-12T08:53:40.675856+00:00"
   }
  },
  "news_archive": {
@@ -131274,6 +131282,15 @@
    "source_fa": "ناسا",
    "date": "2026-11-12T00:41:35+00:00",
    "ts": "2026-11-12T03:55:51.812879+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/": {
+   "title": "APOD: 12 نوامبر 2026 - ماه، زهره و اسپایکا با هم ملاقات می کنند",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. ماه، زهره و",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-12T05:05:00+00:00",
+   "ts": "2026-11-12T08:53:40.675856+00:00"
   }
  },
  "news_title_fp": {
@@ -131800,6 +131817,10 @@
    "en": "2026-11-11"
   },
   "545aa5d1c7826a07": {
+   "fa": "2026-11-12",
+   "en": "2026-11-12"
+  },
+  "84cabdcc52362451": {
    "fa": "2026-11-12",
    "en": "2026-11-12"
   }
@@ -132332,6 +132353,10 @@
   [
    "545aa5d1c7826a07",
    "curiosity blog sols 5063 5069 rocks and chips"
+  ],
+  [
+   "84cabdcc52362451",
+   "apod 2026 november 12 moon venus and spica meet"
   ]
  ],
  "combo_seen": {
