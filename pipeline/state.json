@@ -132427,7 +132427,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-12",
-  "bytes": 487874880
+  "bytes": 848646720
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -135171,7 +135171,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-12T02:25:59.064866+00:00",
+ "paired_prepare_attempt_utc": "2026-11-12T03:36:03.927815+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
