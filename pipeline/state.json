@@ -109808,7 +109808,9 @@
   },
   "jw12522040001_03107_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F335M",
+   "sha256": "629b3197413e35e9fd16a830610ee32b323c5326cf68d2bae9082cd42846df9d"
   },
   "jw12522040001_0310b_00005_nrcalong_rate.fits": {
    "channels": {},
@@ -109818,15 +109820,21 @@
   },
   "jw12522040001_03109_00005_nrca4_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F210M",
+   "sha256": "9b5187b8f672b0804f1d63353effed212e3a80f8f769276aa095fa15e75c5aa9"
   },
   "jw12522040001_03103_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F250M",
+   "sha256": "d4d349f3b2ec52a44223c0c31223614c83ba0f8bdefe4211218eb6efb87840a4"
   },
   "jw12522040001_03105_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F300M",
+   "sha256": "05f6a25d0ea27e2b1ae2478241013202917828b5f52fd1725cf53f0deea9c2ea"
   },
   "jw12522040001_03109_00005_nrcalong_rate.fits": {
    "channels": {},
@@ -109836,7 +109844,9 @@
   },
   "jw12522040001_03105_00005_nrca4_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "2MASS J18022716+6043356|NIRCAM|F182M",
+   "sha256": "0aefe1bf261705c3915f1c7f9e067cca6d374fcfc84db081e02e18b9186258b5"
   },
   "jw06882002001_08101_00001_nrcb2_i2d.fits": {
    "channels": {},
@@ -132510,7 +132520,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-12",
-  "bytes": 865742400
+  "bytes": 876427200
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -135364,7 +135374,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-12T21:01:00.505461+00:00",
+ "paired_prepare_attempt_utc": "2026-11-12T22:05:59.120913+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
