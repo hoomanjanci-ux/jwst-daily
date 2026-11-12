@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T19:57:12.521Z",
+ "generated_utc": "2026-11-12T20:59:22.283Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2184,11 +2184,23 @@
  ],
  "news": [
   {
+   "slug": "nasa-1atcjbq",
+   "title": "I Am Artemis Katie Spicer",
+   "title_fa": "کتی اسپایر؛ مدیریت فرودگر بلومون در برنامهٔ آرتمیس",
+   "summary": "For Katie Spicer, embracing opportunity and challenge has led to giant leaps during her time at NASA. Now as the NASA lander integration lead for Blue Origin’s Blue Moon Mark 2 lander, one of the commercially provided human landing systems for NASA’s Artemis program, Spicer will have her handprint on history. Spicer works in the […]",
+   "summary_fa": "کتی اسپایر به عنوان مدیر یکپارچه‌سازی فرودگر ناسا برای بلو مون مارک ۲ شرکت بلو اورجین فعالیت می‌کند. این فرودگر یکی از سامانه‌های تأمین‌شده توسط بخش خصوصی برای مأموریت‌های برنامهٔ آرتمیس ناسا است. سپایر با پذیرش فرصت‌ها و چالش‌های متنوع، دستاوردهای بزرگ‌تری در ناسا کسب کرده است.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e402724-i-am-artemis-katie.jpeg?w=1536",
+   "link": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-12T20:10:02.000Z"
+  },
+  {
    "slug": "nasa-11hqhca",
    "title": "Heart in the Sky at NASA Kennedy",
-   "title_fa": null,
+   "title_fa": "قلب‌شکل در آسمان مرکز فضایی کندی",
    "summary": "The U.S. Air Force Thunderbirds create a heart-shaped smoke trail during a flight maneuver near NASA’s Vehicle Assembly Building during the agency’s MAX POWER expo and air show on Sunday, Nov. 8, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s MAX POWER is an aerospace festival celebrating the past, present, and future of flight […]",
-   "summary_fa": null,
+   "summary_fa": "بالافرقه نمایشی تندربیردهای نیروی هوایی آمریکا روز یکشنبه هشتم نوامبر ۲۰۲۶ با ترسیم رد دود قلب‌شکل، مانوری باشکوه در نزدیکی ساختمان نصب وسایل نقلیه مرکز فضایی کندی ناسا اجرا کردند. این عملیات در جریان نمایشگاه و جشنواره هوانوردی مکس پاور ناسا برگزار شد که سالانه گذشته، حال و آینده پرواز را زنده نگه می‌دارد.",
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/55640210122-dae9d5e6b9-o.jpg?w=2048",
    "link": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/",
    "source": "NASA",
@@ -2198,9 +2210,9 @@
   {
    "slug": "nasa-cnnh3s",
    "title": "NASA Ames Stars of the Month: November 2026",
-   "title_fa": null,
+   "title_fa": "ستارگان ماه نوامبر ۲۰۲۶ مرکز ناسا آمز معرفی شدند",
    "summary": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva is an engineer at Blue […]",
-   "summary_fa": null,
+   "summary_fa": "ادارهٔ علمی مرکز ناسا آمز از سه نفر شامل آلیسا ویلانوئوا، استیو هاול و ساموئل لابلانک به عنوان ستارگان ماه نوامبر ۲۰۲۶ تقدیر کرد. این افراد به خاطر تعهدشان به مأموریت ناسا و روحیهٔ کارآفرینی، تخصص فنی و گرایش همکاری‌جویانه مورد تشویق قرار گرفتند. آلیسا ویلانوئوا در حوزهٔ زیست‌شناسی فضایی ستارهٔ ماه انتخاب شد.",
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/som-november-2026-banner.jpg?w=1920",
    "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/",
    "source": "NASA",
@@ -2290,18 +2302,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-10T19:31:40.000Z"
-  },
-  {
-   "slug": "nasa-epqji7",
-   "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
-   "title_fa": "ناسا رسانه‌ها و مردم را به مناسبت دست‌یابی سفرانهٔ ۱ به یک روز نوری دعوت می‌کند",
-   "summary": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human-made object, and any light from Earth would take 24 hours to reach the spacecraft. NASA will highlight […]",
-   "summary_fa": "مأموریت سفرانهٔ ۱ ناسا که سال ۱۹۷۷ پرتاب شد، در چهارشنبه ۱۸ نوامبر به فاصلهٔ یک روز نوری از زمین خواهد رسید؛ مسافتی بیش از ۱۶ میلیارد مایل (۲۵/۹ میلیارد کیلومتر). این فضاپیما دوردست‌ترین شیء ساخته‌ی بشر است و نوری از زمین ۲۴ ساعت طول می‌کشد تا به آن برسد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg?w=2048",
-   "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-10T19:22:45.000Z"
   },
   {
    "slug": "nasa-vdu9oa",
