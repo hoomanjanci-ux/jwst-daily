@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T18:07:36.344Z",
+ "generated_utc": "2026-11-13T18:28:48.415Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2286,6 +2286,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-e1wk9d",
+   "title": "Botany, Biomedicine, and Cargo Ops Wrap Up Week Aboard Station",
+   "title_fa": null,
+   "summary": "Space botany and biomedical research filled the scientific schedule aboard the International Space Station at the end of the week. Expedition 75 is also continuing to load a U.S. cargo spacecraft before its upcoming departure and return to Earth.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss075e0254975/iss075e0254975~large.jpg?w=1440&h=1920&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/13/botany-biomedicine-and-cargo-ops-wrap-up-week-aboard-station/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-13T18:00:58.000Z"
+  },
+  {
    "slug": "nasa-1tubo8b",
    "title": "Outbursts from a Massive Star",
    "title_fa": "انفجارات مکرر یک ستارهٔ پرجرم",
@@ -2500,18 +2512,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-04T16:00:58.000Z"
-  },
-  {
-   "slug": "science-1s2cqiy",
-   "title": "Solar Flare Alert System Helps NASA Rocket Team Decide When to Launch",
-   "title_fa": "سامانه هشدار شعلهٔ خورشیدی، زمان پرتاب موشک ناسا را تعیین کرد",
-   "summary": "For the first time, scientists have used NASA sounding rockets to study a solar flare in progress, thanks to a new flare alert system that told the team when to launch. Solar flares accelerate particles and release energy into the solar system, which can affect Earth and its technologies. Sounding rockets are a relatively fast, […]",
-   "summary_fa": "برای نخستین بار، دانشمندان با بهره‌گیری از سامانهٔ هشدار شعلهٔ خورشیدی ناسا، موفق شدند با پرتاب موشک‌های پی‌جو، شعله‌ای در حین وقوع را مطالعه کنند. این شعله‌ها ذرات را شتاب داده و انرژی را به منظومهٔ شمسی می‌فرستند که می‌تواند بر زمین و فناوری‌های آن تأثیر بگذارد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/sounding-rockets/FOXSI5-rocket-launch.jpg?w=723&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blogs/science-news/2026/11/04/solar-flare-alert-system-helps-nasa-rocket-team-decide-when-to-launch/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-04T15:05:17.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
