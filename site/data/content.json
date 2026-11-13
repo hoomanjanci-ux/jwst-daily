@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T20:08:10.067Z",
+ "generated_utc": "2026-11-13T20:22:51.295Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2286,6 +2286,18 @@
  ],
  "news": [
   {
+   "slug": "science-42ct23",
+   "title": "Instruments on NASA’s Roman Space Telescope Get in Sync for Science",
+   "title_fa": null,
+   "summary": "NASA’s Nancy Grace Roman Space Telescope has completed a key milestone, bringing its instruments into precise alignment and moving the observatory another step closer to science operations. “Roman requires exquisite alignment because it has to be at least ten times more stable than our Hubble or Webb space telescopes to conduct the science it’s setting […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/content/dam/science/missions/rst/commissioning/Roman%20Alignment%20Targets.gif",
+   "link": "https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-13T18:54:51.000Z"
+  },
+  {
    "slug": "nasa-e1wk9d",
    "title": "Botany, Biomedicine, and Cargo Ops Wrap Up Week Aboard Station",
    "title_fa": "پایان هفته گیاه شناسی، زیست پزشکی، و عملیات باربری در ایستگاه",
@@ -2500,18 +2512,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-05T12:02:48.000Z"
-  },
-  {
-   "slug": "nasa-15mp7q6",
-   "title": "Astronauts are Go for Final Power Upgrade Spacewalk",
-   "title_fa": "فضانوردان برای آخرین پیاده‌سازی آرایه خورشیدی ایستگاه بین‌المللی آماده شدند",
-   "summary": "Mission managers have given the go for two astronauts to exit the International Space Station on Thursday and install its eighth and final roll-out solar array. The Expedition 75 crew members completed final preparations for the spacewalk and also conducted biotechnology research.",
-   "summary_fa": "مدیران مأموریت به دو فضانورد اجازه دادند تا روز پنجشنبه از ایستگاه فضایی بین‌المللی خارج شوند و هشتمین و آخرین آرایه خورشیدی رول‌آوت را نصب کنند. فرماندهان اکسپدییشن ۷۵ مراحل نهایی آماده‌سازی برای این پیاده‌سازی فضایی را پشت سر گذاشتند و همزمان تحقیقات زیست‌فناوری خود را نیز انجام دادند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/preview-useva-101-110526.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/04/astronauts-are-go-for-final-power-upgrade-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-04T16:00:58.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
