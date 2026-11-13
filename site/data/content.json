@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T15:53:21.770Z",
+ "generated_utc": "2026-11-13T16:12:54.714Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2286,6 +2286,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-h4fb7q",
+   "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+   "title_fa": null,
+   "summary": "Astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/s66-63535-f.png?w=2006",
+   "link": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-13T16:05:54.000Z"
+  },
+  {
    "slug": "science-5zfv2r",
    "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
    "title_fa": "NGC 206 و ابرهای ستاره‌ای کهکشاندروما",
@@ -2380,18 +2392,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-12T05:05:00.000Z"
-  },
-  {
-   "slug": "science-1bkkt1t",
-   "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
-   "title_fa": "کنجکاوی: سنگ‌ها و تراشه‌های روزهای ۵۰۶۳ تا ۵۰۶۹",
-   "summary": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Nov. 6, 2026 This week Curiosity has been completing its drill campaign at the “Nazca” drill hole. This is an area characterized by bedrock containing disk-shaped (or in a liberal interpretation, potato chip shaped … see linked image) crystal forms. A […]",
-   "summary_fa": "کاوشگر کنجکاوی کمپین حفاری خود را در چالهٔ «نازکا» به پایان رساند. این منطقه دارای سنگ بستر با اشکال کریستالی قرص‌شکل است که گاه به شکل چیپسی تفسیر شده‌اند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/november/https___mars.nasa.gov_msl-raw-images_msss_05067_mhli_5067MH0009180001804584C00_DXXX.jpg?w=480&h=480&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-12T00:41:35.000Z"
   },
   {
    "slug": "nasa-11ykka3",
