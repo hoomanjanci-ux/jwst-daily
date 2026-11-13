@@ -128608,37 +128608,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-12T13:10:25.994580+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 4,
-    "next_window": "2026-11-12T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": null,
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-12T13:10:31.374850+00:00"
-  },
-  {
    "started_utc": "2026-11-12T13:55:57.286445+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -130056,6 +130025,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-13T18:47:55.615830+00:00"
+  },
+  {
+   "started_utc": "2026-11-13T18:49:15.673147+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 3,
+    "next_window": "2026-11-14T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/13/botany-biomedicine-and-cargo-ops-wrap-up-week-aboard-station/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/13/botany-biomedicine-and-cargo-ops-wrap-up-week-aboard-station/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-13T18:50:03.072555+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -130681,9 +130685,22 @@
   "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/": {
    "fa": "2026-11-13T17:53:29.973443+00:00",
    "en": "2026-11-13T17:53:29.973443+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/13/botany-biomedicine-and-cargo-ops-wrap-up-week-aboard-station/": {
+   "fa": "2026-11-13T18:49:20.567129+00:00",
+   "en": "2026-11-13T18:49:20.567129+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/blogs/spacestation/2026/11/13/botany-biomedicine-and-cargo-ops-wrap-up-week-aboard-station/": {
+   "title": "پایان هفته گیاه شناسی، زیست پزشکی، و عملیات باربری در ایستگاه",
+   "summary": "تحقیقات گیاه شناسی و زیست پزشکی فضایی برنامه علمی ایستگاه فضایی بین المللی را در پایان هفته پر کرد. اکسپدیشن 75 همچنین به بارگیری یک فضاپیمای باری ایالات متحده قبل از حرکت آتی و بازگشت آن به زمین ادامه می دهد.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/13/botany-biomedicine-and-cargo-ops-wrap-up-week-aboard-station/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-13T18:00:58+00:00",
+   "ts": "2026-11-13T18:49:20.567129+00:00"
+  },
   "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/": {
    "title": "طغیان از یک ستاره عظیم",
    "summary": "ستاره شناسان با استفاده از رصدخانه پرتو ایکس چاندرا ناسا کشف کرده اند که چه چیزی باعث فوران های مکرر از یک ستاره غول پیکر و ناپایدار واقع در کهکشان شده است که در این تصویر منتشر شده در 9 نوامبر 2026 نشان داده شده است. زمین ستاره شناسان تخمین می زنند",
@@ -132024,15 +132041,6 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-23T16:11:23+00:00",
    "ts": "2026-10-23T17:48:31.941956+00:00"
-  },
-  "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/": {
-   "title": "روز پرتلاش تیم چشمه هفتادوپنج در ایستاده فضایی: زیستی‌چاپ رگ خونی، نصب لباس فضانوردی و تمرین رباتیک",
-   "summary": "تیم چشمه هفتادوپنج روز پنج‌شنبه را به زیستی‌چاپ رگ‌های خونی و امتحان کردن لباس فضانوردی در ایستاده فضایی بین‌المللی اختصاص داد. فضانوردان همچنین به کار با بازوهای رباتیک تمرین کردند و Sessions عکس‌برداری از زمین را برای تکمیل روز در مدار پایین زمین ترتیب دادند.",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/22/busy-station-day-with-bioprinting-spacesuit-check-robotics-and-photography/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date": "2026-10-22T17:37:14+00:00",
-   "ts": "2026-10-23T17:48:31.941956+00:00"
   }
  },
  "news_title_fp": {
@@ -132599,6 +132607,10 @@
    "en": "2026-11-13"
   },
   "1f47e3072346aea4": {
+   "fa": "2026-11-13",
+   "en": "2026-11-13"
+  },
+  "bed3773360bd8389": {
    "fa": "2026-11-13",
    "en": "2026-11-13"
   }
@@ -133171,6 +133183,10 @@
   [
    "1f47e3072346aea4",
    "gemini astronaut photos inspired early earth observation program"
+  ],
+  [
+   "bed3773360bd8389",
+   "botany biomedicine and cargo ops wrap up week aboard station"
   ]
  ],
  "combo_seen": {
