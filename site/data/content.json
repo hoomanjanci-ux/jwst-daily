@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T05:33:05.350Z",
+ "generated_utc": "2026-11-13T06:12:30.338Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2286,6 +2286,18 @@
  ],
  "news": [
   {
+   "slug": "science-5zfv2r",
+   "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
+   "title_fa": "NGC 206 و ابرهای ستاره‌ای کهکشاندروما",
+   "summary": "APOD Science APOD APOD: 2026 November 13 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 206 […]",
+   "summary_fa": "تصویر امروزِ دانش‌آسمان، NGC 206 را نشان می‌دهد؛ خوشهٔ درخشانی از ستارگان جوان و آبی که در بازوی کهکشان آندرومدا قرار دارد. این ابر ستاره‌ای یکی از روشن‌ترین خوشه‌های ضمنی در کهکشان آندرومداست و با دوربین‌های متوسط نیز درخشان دیده می‌شود.",
+   "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/Andromeda_closeupCruz4096.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-13T05:05:00.000Z"
+  },
+  {
    "slug": "nasa-mtp17s",
    "title": "Crew Packs Dragon with Science and Cleans Spacesuits",
    "title_fa": "فضانوردان دراگون را با محمولهٔ علمی تجهیز و لباس‌های فضایی را تمیز کردند",
@@ -2392,18 +2404,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-11T14:00:00.000Z"
-  },
-  {
-   "slug": "science-49psdh",
-   "title": "APOD: 2026 November 11 – NGC 4449: Small Galaxy, Big Impact",
-   "title_fa": "APOD: ۱۱ نوامبر ۲۰۲۶ – NGC 4449: کهکشان کوچک، تأثیر بزرگ",
-   "summary": "APOD Science APOD APOD: 2026 November 11 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 4449: […]",
-   "summary_fa": "تصویر روز نجوم (APOD) در تاریخ ۱۱ نوامبر ۲۰۲۶، به کهکشان NGC 4449 اختصاص دارد. این کهکشان کوتاه‌پیکر با وجود اندازهٔ کوچکش، اثرات چشمگیری بر مطالعهٔ نجوم گذاشته است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/irregular/NGC%204449.jpg?w=2048&h=1320&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-11T05:05:00.000Z"
   },
   {
    "slug": "nasa-v2paya",
