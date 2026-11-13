@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T02:58:10.471Z",
+ "generated_utc": "2026-11-13T03:38:01.930Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,57 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw12517014001-0310a-00001-nrcblong-i2d",
+   "product": "jw12517014001_0310a_00001_nrcblong_i2d.fits",
+   "published_utc": "2026-11-13T03:37:29.159262+00:00",
+   "target": "SDSS J161814.23+000008.6",
+   "instrument": "NIRCAM",
+   "detector": "NRCBLONG",
+   "filter": "F277W",
+   "obs_date": "2026-08-07",
+   "proposal": "12517",
+   "score": 34.28,
+   "quality_score": 75.12,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
+  {
+   "slug": "jw12517014001-03108-00002-nrcblong-i2d",
+   "product": "jw12517014001_03108_00002_nrcblong_i2d.fits",
+   "published_utc": "2026-11-13T03:37:20.155628+00:00",
+   "target": "SDSS J161814.23+000008.6",
+   "instrument": "NIRCAM",
+   "detector": "NRCBLONG",
+   "filter": "F277W",
+   "obs_date": "2026-08-07",
+   "proposal": "12517",
+   "score": 33.87,
+   "quality_score": 72.87,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
+  {
+   "slug": "jw12517014001-0310a-00004-nrcblong-i2d",
+   "product": "jw12517014001_0310a_00004_nrcblong_i2d.fits",
+   "published_utc": "2026-11-13T03:37:11.047388+00:00",
+   "target": "SDSS J161814.23+000008.6",
+   "instrument": "NIRCAM",
+   "detector": "NRCBLONG",
+   "filter": "F277W",
+   "obs_date": "2026-08-07",
+   "proposal": "12517",
+   "score": 32.52,
+   "quality_score": 73.65,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
   {
    "slug": "jw12517014001-03104-00004-nrcb1-i2d",
    "product": "jw12517014001_03104_00004_nrcb1_i2d.fits",
