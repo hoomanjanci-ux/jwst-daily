@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-14T10:32:19.525Z",
+ "generated_utc": "2026-11-14T10:46:01.541Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2354,30 +2354,6 @@
  ],
  "news": [
   {
-   "slug": "science-42ct23",
-   "title": "Instruments on NASA’s Roman Space Telescope Get in Sync for Science",
-   "title_fa": "همگام‌سازی instruments تلسکوپ فضایی رومن برای آغاز عملیات علمی",
-   "summary": "NASA’s Nancy Grace Roman Space Telescope has completed a key milestone, bringing its instruments into precise alignment and moving the observatory another step closer to science operations. “Roman requires exquisite alignment because it has to be at least ten times more stable than our Hubble or Webb space telescopes to conduct the science it’s setting […]",
-   "summary_fa": "تلسکوپ فضایی نانسی گریس رومن ناسا به مرحله کلیدی هم‌ترازی دقیق instruments خود دست یافت و گام دیگری در مسیر آغاز عملیات علمی برداشت. این هم‌همسانی به دلیل حساسیت بالای وظایف رومن نسبت به هابل و جیمز وب انجام شده است.",
-   "image": "https://assets.science.nasa.gov/content/dam/science/missions/rst/commissioning/Roman%20Alignment%20Targets.gif",
-   "link": "https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-13T18:54:51.000Z"
-  },
-  {
-   "slug": "nasa-e1wk9d",
-   "title": "Botany, Biomedicine, and Cargo Ops Wrap Up Week Aboard Station",
-   "title_fa": "پژوهش‌های گیاه‌شناسی و زیست‌پزشکی در ایستگاه فضایی",
-   "summary": "Space botany and biomedical research filled the scientific schedule aboard the International Space Station at the end of the week. Expedition 75 is also continuing to load a U.S. cargo spacecraft before its upcoming departure and return to Earth.",
-   "summary_fa": "فعالیت‌های پژوهشی مربوط به فضاگیاه‌شناسی و تحقیقات زیست‌پزشکی هفته را در ایستگاه فضایی بین‌المللی به پایان رساندند. مأموریت اکسپدیشن ۷۵ نیز پیش از بازگشت به زمین، در حال بارگیری یکspacescraft باربری آمریکایی است.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0254975/iss075e0254975~large.jpg?w=1440&h=1920&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/13/botany-biomedicine-and-cargo-ops-wrap-up-week-aboard-station/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-13T18:00:58.000Z"
-  },
-  {
    "slug": "nasa-1tubo8b",
    "title": "Outbursts from a Massive Star",
    "title_fa": "انفجارات مکرر یک ستارهٔ پرجرم",
@@ -2412,18 +2388,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-13T05:05:00.000Z"
-  },
-  {
-   "slug": "nasa-mtp17s",
-   "title": "Crew Packs Dragon with Science and Cleans Spacesuits",
-   "title_fa": "فضانوردان دراگون را با محمولهٔ علمی تجهیز و لباس‌های فضایی را تمیز کردند",
-   "summary": "Expedition 75 had a busy shift on Thursday primarily focusing on packing a U.S. cargo craft for its upcoming departure and cleaning a pair of spacesuits. Thursday’s research topics aboard the International Space Station included space agriculture and super intelligence.",
-   "summary_fa": "تیم مأموریت اکسپدیشن ۷۵ روز پنجشنبه را به بسته‌بندی کپسول باربری آمریکایی برای بازگشت آینده و تمیز کردن دو لباس فضایی اختصاص داد. موضوعات پژوهشی این تیم در ایستگاه فضایی بین‌المللی شامل کشاورزی فضایی و هوش فراارتی بود.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0252441/iss075e0252441~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/12/dragon-science-spacesuits/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-12T22:07:49.000Z"
   },
   {
    "slug": "nasa-1atcjbq",
@@ -2496,90 +2460,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-12T05:05:00.000Z"
-  },
-  {
-   "slug": "nasa-11ykka3",
-   "title": "Honoring NASA’s X-59 Test Pilots on Veterans Day",
-   "title_fa": "گرامیداشت خلبانان آزمون‌پرنده X-59 ناسا در روز فارغ‌التحصیلان نیروهای مسلح",
-   "summary": "Seasoned pilots, aerospace engineers, and U.S. military veterans, NASA’s X-59 test pilots bring decades of service, technical expertise, and flight experience to the agency’s Quesst mission. NASA X-59 pilots Jim “Clue” Less and Nils Larson served in the U.S. Air Force, while Mike Lippert served in the U.S. Marine Corps. Today, the three pilots continue […]",
-   "summary_fa": "روز فارغ‌التحصیلان نیروهای مسلح، خلبانان آزمون‌پرندهٔ ایکس-۵۹ ناسا به خاطر دهه‌ها خدمت، تخصص فنی و تجربهٔ پرواز در قالب مأموریت Quesst این آژانس گرامی داشته شدند. جیم لِس و نیلس لارسن از نیروی هوایی و مایک لیپرْت از سپاه تفنگداران دریایی ایالات متحده خدمت کرده‌اند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/vets-day-quesst.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/quesst/2026/11/11/x-59-test-pilots-veterans-day/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-11T14:00:00.000Z"
-  },
-  {
-   "slug": "nasa-v2paya",
-   "title": "Microbiology, Spacesuits, and Cargo Mission Preps Keep Crew Busy",
-   "title_fa": "آزمایش‌های میکروبیولوژی، نگهداری لباس فضانوردی و آمادگی محموله کار خلبانان را مشغول کرد",
-   "summary": "Microbiology and spacesuit maintenance kept the Expedition 75 crew busy aboard the International Space Station on Tuesday. The orbital residents are also preparing for upcoming cargo missions at the orbital outpost.",
-   "summary_fa": "خلبانان مأموریت ایکسپدیشن ۷۵ در ایستگاه فضایی بین‌المللی روز سه‌شنبه را به آزمایش‌های میکروبیولوژی و نگهداری لباس‌های فضانوردی اختصاص دادند. این فضانوردان همچنین در حال آماده‌سازی برای تحویل محموله‌های آتی به پایگاه مداری هستند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0227339/iss075e0227339~large.jpg?w=1440&h=1920&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/10/microbiology-spacesuits-and-cargo-mission-preps-keep-crew-busy/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-10T19:31:40.000Z"
-  },
-  {
-   "slug": "nasa-vdu9oa",
-   "title": "Crew Packing Dragon for Return with Experiments and a Spacesuit",
-   "title_fa": "کاخک‌نشان‌نشان‌نشان‌نشان‌نشان",
-   "summary": "Expedition 75 kicked off the week processing microbe samples and swapping spacesuits for return to Earth soon inside a U.S. cargo craft. The International Space Station crew members also studied breathing in microgravity and photographed Earth landmarks.",
-   "summary_fa": "گروه ۷۵ فضایی با پردازش نمونه‌های میکروب و تعویض لباس‌های فضانوردی برای بازگشت به زمین، هفتهٔ خود را شروع کرد. اعضای ایستگاه فضایی بین‌المللی همچنین در شرایط جاذبهٔ کمکی مطالعهٔ تنفس انجام دادند و از نقاط جغرافیایی زمین عکس گرفتند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-iss075e0254018.jpg?w=1536",
-   "link": "https://www.nasa.gov/blogs/general-blog/2026/11/09/crew-packing-dragon-for-return-with-experiments-and-a-spacesuit/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-09T19:43:40.000Z"
-  },
-  {
-   "slug": "nasa-1pzjnf5",
-   "title": "Spacewalk Cleanup, Biomedical Science, and Maintenance Wrap Up Week",
-   "title_fa": "پایان هفتهٔ پرتلاش با تعمیرات و علمی در ایستگاه فضایی",
-   "summary": "The seven Expedition 75 crew members cleaned up after a spacewalk, conducted biomedical assessments, and maintained orbital systems to wrap up a busy week aboard the International Space Station.",
-   "summary_fa": "هفت فضانورد مأموریت اکسپدیشن ۷۵ پس از پیاده‌روی فضایی، ارزیابی‌های زیستی-پزشکی انجام دادند و سیستم‌های مداری را نگهداری کردند تا هفته‌ای شلوغ را در ایستگاه فضایی بین‌المللی به پایان برسانند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-useva101-110526d-1.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/06/spacewalk-cleanup-biomedical-science-and-maintenance-wrap-up-week/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-06T17:48:13.000Z"
-  },
-  {
-   "slug": "nasa-y0vidu",
-   "title": "Spacewalkers Install Final Roll-Out Solar Array",
-   "title_fa": "فضانوردان پنل خورشیدی نهایی ایستگاه را نصب کردند",
-   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk concluded their spacewalk outside the International Space Station at 3:35 p.m. EST.",
-   "summary_fa": "آنیل منون، فضانورد ناسا و جاشوا کوتریک از آژانس فضایی کانادا، پیاده‌روی فضایی خود خارج از ایستگاه فضایی بین‌المللی را با نصب نهایی آرایه خورشیدی ریلی به پایان رساندند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-useva101-110526h.jpg?w=1280",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalkers-install-final-roll-out-solar-array/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-05T20:52:33.000Z"
-  },
-  {
-   "slug": "nasa-12q0qin",
-   "title": "Spacewalk Begins to Install Last Roll-Out Solar Array",
-   "title_fa": "شروع عملیات فضایی برای نصب آخرین آرایه خورشیدی",
-   "summary": "CSA (Canadian Space Agency) astronaut Joshua Kutryk and NASA astronaut Anil Menon began a spacewalk at 8:36 a.m. EST outside the International Space Station airlock to install and deploy the eighth and final IROSA on the 3B channel of the space station, completing the power augmentation upgrades,",
-   "summary_fa": "جاشوا کوتریک، فضانورد آژانس فضایی کانادا، و انیل منون، فضانورد ناسا، در ساعت ۸:۳۶ صبح به‌وقت شرقی آمریکا عملیات خارج از سفینه خود را از هوابند ایستگاه فضایی بین‌المللی آغاز کردند. آن‌ها در حال نصب و استقرار هشتمین و آخرین آرایه خورشیدیrollable (IROSA) روی کانال 3B ایستگاه هستند. این عملیات با تکمیل ارتقای توان الکتریکی ایستگاه همراه خواهد بود.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/preview-useva-101-110526c.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalk-begins-to-install-last-roll-out-solar-array/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-05T13:44:35.000Z"
-  },
-  {
-   "slug": "nasa-1goe8pr",
-   "title": "Astronauts Suit Up for Final Power Upgrade Spacewalk",
-   "title_fa": "فضانوردان برای آخرین پیاده‌روی فضایی ارتقاء توان آماده می‌شوند",
-   "summary": "NASA is streaming live coverage as two astronauts prepare for a spacewalk outside the International Space Station. The spacewalk is scheduled to begin at approximately 8:30 a.m. EST and last about more than six and a half hours.",
-   "summary_fa": "ناسا پوشیدن لباس فضایی دو فضانورد را برای انجام پیاده‌روی فضایی در خارج از ایستگاه فضایی بین‌المللی پخش زنده خواهد کرد. این پیاده‌روی فضایی حدود ساعت ۸:۳۰ صبح به وقت شرقی آغاز و بیش از شش و نیم ساعت طول خواهد کشید.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/preview-useva-101-110526b.jpg?w=1100",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/05/astronauts-suit-up-for-final-power-upgrade-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-05T12:02:48.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
