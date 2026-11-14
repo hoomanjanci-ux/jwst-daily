@@ -127106,15 +127106,21 @@
   },
   "jw12525111001_02102_00001_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F444W",
+   "sha256": "e569145bbf79c12c5b57c4e20795b31c7024ae5a266b4f038bb3ea33915bd8a3"
   },
   "jw12525111001_02102_00001_nrcb3_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "c47270a96942d4dc512ee67e244a12216f351bc3f98e84a15a3a01a64f746a3e"
   },
   "jw12525111001_02102_00001_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "BD+60 1753|NIRCAM|F212N",
+   "sha256": "09bd058d32803f7a1556f5c06f4390e53b8234e79e0c396654fc88d21eae4c2d"
   },
   "jw12525111001_02102_00004_nrcblong_i2d.fits": {
    "channels": {},
@@ -133514,7 +133520,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-14",
-  "bytes": 845542080
+  "bytes": 891161280
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -136530,7 +136536,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-14T02:31:13.996377+00:00",
+ "paired_prepare_attempt_utc": "2026-11-14T03:35:59.437522+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
