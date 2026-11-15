@@ -110715,7 +110715,9 @@
   },
   "jw12517014001_0310a_00004_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "11f257f2c104c735cf59d0ed8fd3ca9886003201aaa6b57a3ff30dcace8e767c"
   },
   "jw12517014001_03104_00001_nrcblong_i2d.fits": {
    "channels": {
@@ -110827,11 +110829,15 @@
   },
   "jw12517014001_0310a_00002_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "9c0dd28fe6e68bebbc38965f46807e09d967cd1393c9a08b33cd892acccb37b0"
   },
   "jw12517014001_03108_00004_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F150W",
+   "sha256": "38cfe81f954a156cc26901e05fec8e402cbbb1a95b96c86910f9a882f89d0401"
   },
   "jw12517014001_03104_00002_nrcblong_i2d.fits": {
    "channels": {},
@@ -110879,11 +110885,15 @@
   },
   "jw12517014001_03108_00001_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F150W",
+   "sha256": "40668ae22bac0ccf0f2bee63cf57d594753b3459764dcbc4e315da86b3442098"
   },
   "jw12517014001_03108_00002_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F150W",
+   "sha256": "5e82fd57193dc65a66befdd4b7d0fae2f8cfe20299812c3068250a9b6b019743"
   },
   "jw12517-o014_t007_nircam_clear-f322w2-sub400p_i2d.fits": {
    "channels": {},
@@ -110899,11 +110909,15 @@
   },
   "jw12517-o014_t007_nircam_clear-f200w-sub400p_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "8de3b3caec9fc37f98fa334002cd4aec0ce5f70001ee41c81042d7bb0d218e85"
   },
   "jw12517-o014_t007_nircam_clear-f150w-sub400p_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F150W",
+   "sha256": "628fd38a058b20900c7e5ff4e57c7d872a0fdb1376d3dd476a4d19dfe5a549cd"
   },
   "jw12517-o014_t007_nircam_clear-f115w-sub400p_i2d.fits": {
    "channels": {},
@@ -110923,11 +110937,15 @@
   },
   "jw12517014001_03108_00003_nrcb1_cal.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F150W",
+   "sha256": "09b230a239e5930343953ed0eb5d342682ecb9195e5bab8ca3936853e3e23c6c"
   },
   "jw12517014001_0310a_00001_nrcb1_cal.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "05b08899097be997755579ac53d405507cffa4784e9069af599166083495c0fd"
   },
   "jw12517014001_03106_00003_nrcb1_cal.fits": {
    "channels": {},
@@ -110935,7 +110953,9 @@
   },
   "jw12517014001_0310a_00003_nrcb1_cal.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "117baa8587bf8fb2937e555c5496a1fc83c10cbd317140155e2a0a9364a1a460"
   },
   "jw12517014001_03108_00002_nrcblong_cal.fits": {
    "channels": {},
@@ -110951,7 +110971,9 @@
   },
   "jw12517014001_0310a_00004_nrcb1_cal.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "8c317df68b1222de8c5e96844a29e695260ffc02880dca75d5884cc755f3ff1c"
   },
   "jw12517014001_03104_00001_nrcblong_cal.fits": {
    "channels": {},
@@ -110983,11 +111005,15 @@
   },
   "jw12517014001_0310a_00002_nrcb1_cal.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "ff6ec39b91e08b2b18ae2fca1f1bcb3a960e8958b61bcf73b7b58fb5be442eed"
   },
   "jw12517014001_03108_00004_nrcb1_cal.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F150W",
+   "sha256": "aecfc3a1874987d604b1300602515d3947031e4c101e5ea324149f7cb645653f"
   },
   "jw12517014001_03104_00002_nrcblong_cal.fits": {
    "channels": {},
@@ -111035,11 +111061,15 @@
   },
   "jw12517014001_03108_00001_nrcb1_cal.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F150W",
+   "sha256": "239120c5b9144bc936c4678f37b70f9e1f18497978ce1dd936d46c24ec312bf3"
   },
   "jw12517014001_03108_00002_nrcb1_cal.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F150W",
+   "sha256": "43acf954f74e8ba6e07d65ccdad6065aacae3229dfe0ec0b6aa9fb9b3cb722f8"
   },
   "jw12517014001_03106_00004_nrcb1_rate.fits": {
    "channels": {},
@@ -111051,11 +111081,15 @@
   },
   "jw12517014001_03108_00003_nrcb1_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F150W",
+   "sha256": "68636fae8042bdc50b49660f1038f8e55c450fecb19bf36a66b691ddf7d14377"
   },
   "jw12517014001_0310a_00001_nrcb1_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "b34a96b7162e16be20b0498f4d44c7672a3182cbce5fc389e126279943125a33"
   },
   "jw12517014001_03106_00003_nrcb1_rate.fits": {
    "channels": {},
@@ -111063,7 +111097,9 @@
   },
   "jw12517014001_0310a_00003_nrcb1_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "a115e79f4085891097493ded242af5e12a96afcbba2dffebda9cc278955e1247"
   },
   "jw12517014001_03108_00002_nrcblong_rate.fits": {
    "channels": {},
@@ -111079,7 +111115,9 @@
   },
   "jw12517014001_0310a_00004_nrcb1_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "0685f7fb92287cc47b799cd81b2e1b2689ea628bfadcabe12b1e4f23888724d0"
   },
   "jw12517014001_03104_00001_nrcblong_rate.fits": {
    "channels": {},
@@ -111111,11 +111149,15 @@
   },
   "jw12517014001_0310a_00002_nrcb1_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F200W",
+   "sha256": "4ffb79123689cb4507bef5f0f24e9cabb3b585fcee1914fd44219ed391bccc39"
   },
   "jw12517014001_03108_00004_nrcb1_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F150W",
+   "sha256": "9d018a63214ecd14df80e0d2fdd96f670bb3afac862d61e36c227bc6679f2016"
   },
   "jw12517014001_03104_00002_nrcblong_rate.fits": {
    "channels": {},
@@ -133568,7 +133610,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-15",
-  "bytes": 807189120
+  "bytes": 897373440
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -136746,7 +136788,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-15T02:21:01.531210+00:00",
+ "paired_prepare_attempt_utc": "2026-11-15T05:31:15.360341+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
