@@ -109940,7 +109940,7 @@
   },
   "jw12522040001_03103_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "combo": "2MASS J18022716+6043356|NIRCAM|F250M",
    "sha256": "e9cc3ab05ab655c7870b756e50b64cc3252bcde5c4e0b6e824c5f5b7ebf09898",
    "score": 33.36,
@@ -109960,7 +109960,61 @@
    "meta_FILTER": "F250M",
    "meta_INSTRUME": "NIRCAM",
    "bytes": 2136960,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5084,
+      "brightness": 0.5163,
+      "range": 1.0,
+      "roi": 0.3336,
+      "score": 72.92
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 252,
+      "brightest_quadrant_percent": 87.302,
+      "width": 400,
+      "height": 256,
+      "sample_stride": 1,
+      "sample_count": 101053,
+      "finite_fraction": 0.986846,
+      "median": -1.8810642957687378,
+      "robust_scatter": 1.5337942426443099,
+      "above_5scatter_percent": 0.2494,
+      "p99_above_median_scatter": 2.514,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5084,
+      "brightness": 0.5163,
+      "range": 1.0,
+      "roi": 0.3336,
+      "score": 72.92
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 252,
+      "brightest_quadrant_percent": 87.302,
+      "width": 400,
+      "height": 256,
+      "sample_stride": 1,
+      "sample_count": 101053,
+      "finite_fraction": 0.986846,
+      "median": -1.8810642957687378,
+      "robust_scatter": 1.5337942426443099,
+      "above_5scatter_percent": 0.2494,
+      "p99_above_median_scatter": 2.514,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-15T00:13:54.124770+00:00"
   },
   "jw12522040001_03105_00005_nrcalong_rate.fits": {
    "channels": {},
