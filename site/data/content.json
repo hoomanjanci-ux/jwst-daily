@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-16T18:12:38.636Z",
+ "generated_utc": "2026-11-16T19:03:09.761Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2507,6 +2507,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-10mkyhj",
+   "title": "Thunderbirds in Formation",
+   "title_fa": null,
+   "summary": "U.S. Air Force Thunderbirds fighter jets pass overhead during the agency’s MAX POWER expo and air show on Saturday, Nov. 7, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s inaugural MAX POWER was an aerospace festival celebrating the past, present, and future of flight and space exploration in honor of America’s 250th anniversary. Image […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/11072026-ksc-max-power-airdotshow-2orig.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/thunderbirds-in-formation/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-16T18:34:47.000Z"
+  },
+  {
    "slug": "nasa-1mt4m7f",
    "title": "Contractor to Civil Servant: NASA Welcomes Jim Mirandy",
    "title_fa": null,
@@ -2625,18 +2637,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-12T19:12:49.000Z"
-  },
-  {
-   "slug": "nasa-cnnh3s",
-   "title": "NASA Ames Stars of the Month: November 2026",
-   "title_fa": "ستارگان ماه نوامبر ۲۰۲۶ مرکز ناسا آمز معرفی شدند",
-   "summary": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva is an engineer at Blue […]",
-   "summary_fa": "ادارهٔ علمی مرکز ناسا آمز از سه نفر شامل آلیسا ویلانوئوا، استیو هاול و ساموئل لابلانک به عنوان ستارگان ماه نوامبر ۲۰۲۶ تقدیر کرد. این افراد به خاطر تعهدشان به مأموریت ناسا و روحیهٔ کارآفرینی، تخصص فنی و گرایش همکاری‌جویانه مورد تشویق قرار گرفتند. آلیسا ویلانوئوا در حوزهٔ زیست‌شناسی فضایی ستارهٔ ماه انتخاب شد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/som-november-2026-banner.jpg?w=1920",
-   "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-12T17:54:32.000Z"
   },
   {
    "slug": "nasa-11ykka3",
