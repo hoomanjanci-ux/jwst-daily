@@ -128893,33 +128893,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-16T03:30:59.983439+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 1,
-    "next_window": "2026-11-16T09:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-16T03:35:05.748118+00:00"
-  },
-  {
    "started_utc": "2026-11-16T03:50:52.807706+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -130260,6 +130233,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-16T20:10:17.753182+00:00"
+  },
+  {
+   "started_utc": "2026-11-16T20:13:06.642749+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-17T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
+     "https://www.nasa.gov/image-article/thunderbirds-in-formation/"
+    ],
+    "en": [
+     "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
+     "https://www.nasa.gov/image-article/thunderbirds-in-formation/"
+    ],
+    "mode": "fresh (3 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-16T20:14:26.724085+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -130897,9 +130907,35 @@
   "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/": {
    "fa": "2026-11-16T09:22:17.971178+00:00",
    "en": "2026-11-16T09:22:17.971178+00:00"
+  },
+  "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/": {
+   "fa": "2026-11-16T20:13:11.203034+00:00",
+   "en": "2026-11-16T20:13:11.203034+00:00"
+  },
+  "https://www.nasa.gov/image-article/thunderbirds-in-formation/": {
+   "fa": "2026-11-16T20:13:11.203034+00:00",
+   "en": "2026-11-16T20:13:11.203034+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/": {
+   "title": "ماهوارهٔ Sentinel-6B به مدار زمین پیوست",
+   "summary": "ماهوارهٔ Sentinel-6B هم‌اکنون در مدار زمین قرار دارد و مأموریت سنجش ارتفاع سطح دریا را بر عهده خواهد داشت. این ماهواره به عنوان نقطهٔ مرجع برای سایر مأموریت‌های فضایی در مطالعهٔ تغییرات سطح اقیانوس‌ها عمل می‌کند.",
+   "link": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-16T18:52:32+00:00",
+   "ts": "2026-11-16T20:13:11.203034+00:00"
+  },
+  "https://www.nasa.gov/image-article/thunderbirds-in-formation/": {
+   "title": "شکاری‌های تاندربولد بر فراز مرکز فضایی کندی",
+   "summary": "جت‌های تاندربولد، نمایشگاه هوایی نیروی هوایی آمریکا روز شنبه هفتم نوامبر ۲۰۲۶ در مرکز فضایی کندی فلوریدا از فراز زمین عبور کردند. این رویداد نخستین جشنواره هوایی و فضایی «مکس پاوير» بود که با هدف گرامیداشت پانصدمین سالگرد تأسیس آمریکا برگزار شد.",
+   "link": "https://www.nasa.gov/image-article/thunderbirds-in-formation/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-16T18:34:47+00:00",
+   "ts": "2026-11-16T20:13:11.203034+00:00"
+  },
   "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/": {
    "title": "APOD: 16 نوامبر 2026 - NGC 7129: تشکیل ستاره با جت های وب",
    "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. NGC 7129:",
@@ -132231,24 +132267,6 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-22T16:16:58+00:00",
    "ts": "2026-10-23T18:30:14.111719+00:00"
-  },
-  "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/": {
-   "title": "رصد ستارهٔ سبز نخست؛ تصویر روز کیهان‌شناسی ناسا",
-   "summary": "ناسا در چارچوب برنامهٔ تصویر روز نجوم (APOD) عکس وید J1330+6435 را منتشر کرد؛ این اختر به عنوان نخستین ستارهٔ سبز شناخته می‌شود. این پروژه هر روز تصویری از جهان هستی را به همراه توضیحی کوتاه از سوی ستاره‌شناسی حرفه‌ای منتشر می‌کند.",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-22T04:05:00+00:00",
-   "ts": "2026-10-23T18:30:14.111719+00:00"
-  },
-  "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/": {
-   "title": "راه‌اندازی پیمان همکاری ناسا و ویرجینیا برای امنیت انرژی",
-   "summary": "ناسا با هدف تقویت امنیت انرژی بلندمدت ویرجینیا پا به این مسیر گذاشته است. مرکز تحقیقات لانگلی ناسا در همپتون، ویرجینیا، با وزارت انرژی این ایالت مشارکت کرده تا با ارائه داده‌های خورشیدی، هواشناسی و ریسک‌های آب‌وهوایی آتی، به مدل‌سازی و برنامه‌ریزی سیستم‌های انرژی کمک کند. این همکاری از تصمیم‌گیری آگاهانه در زمینه تولید، توزیع و بهره‌برداری مؤثر انرژی پشتیبانی می‌کند.",
-   "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-23T17:50:21+00:00",
-   "ts": "2026-10-23T18:13:32.896110+00:00"
   }
  },
  "news_title_fp": {
@@ -132827,6 +132845,14 @@
    "en": "2026-11-13"
   },
   "eccce4e295e5dd6a": {
+   "fa": "2026-11-16",
+   "en": "2026-11-16"
+  },
+  "c0a8de1d6700625d": {
+   "fa": "2026-11-16",
+   "en": "2026-11-16"
+  },
+  "3c72aa13eaf97d1e": {
    "fa": "2026-11-16",
    "en": "2026-11-16"
   }
@@ -133411,6 +133437,14 @@
   [
    "eccce4e295e5dd6a",
    "apod 2026 november 16 ngc 7129 star formation with jets from webb"
+  ],
+  [
+   "c0a8de1d6700625d",
+   "sentinel 6b in orbit around earth"
+  ],
+  [
+   "3c72aa13eaf97d1e",
+   "thunderbirds in formation"
   ]
  ],
  "combo_seen": {
