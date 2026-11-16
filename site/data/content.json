@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-16T15:11:03.374Z",
+ "generated_utc": "2026-11-16T15:33:59.088Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2507,6 +2507,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-1mt4m7f",
+   "title": "Contractor to Civil Servant: NASA Welcomes Jim Mirandy",
+   "title_fa": null,
+   "summary": "The rumble of a rocket engine might be considered a soundtrack for Jim Mirandy’s life. Mirandy has grown up with NASA as a constant presence, and his path to becoming a civil servant at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, has been decades in the making. Hired under the agency’s workforce directive […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/s26-013-jim-mirandy.jpg?w=2048",
+   "link": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-16T15:22:09.000Z"
+  },
+  {
    "slug": "science-le6pwo",
    "title": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
    "title_fa": "نجوم‌نگاری روز: تشکیل ستاره در NGC 7129 با تلسکوپ فضایی جیمز وب",
@@ -2625,18 +2637,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-12T17:54:32.000Z"
-  },
-  {
-   "slug": "science-17quk7u",
-   "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
-   "title_fa": "تلسکوپ هابل، گنجینه‌ای از عدسی‌های گرانشی برای تلسکوپ رُمن",
-   "summary": "A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow-up observations by the Nancy Grace Roman Space Telescope.",
-   "summary_fa": "تلسکوپ فضایی هابل مجموعه‌ای از تصاویر پدیده عدسی‌های گرانشی را به نمایش گذاشته است که تنوع این پدیده کیهانی را نشان می‌دهد. این تصاویر پایه‌ای برای مشاهدات تکمیلی آینده توسط تلسکوپ فضایی نَندی گرِیس رُمن فراهم می‌کند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_lenscollage_P18085_ok4_noletters.tif?w=2048",
-   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-12T13:18:40.000Z"
   },
   {
    "slug": "nasa-11ykka3",
