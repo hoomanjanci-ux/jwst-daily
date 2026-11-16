@@ -128893,33 +128893,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-16T05:50:53.754165+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-16/09",
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 0,
-    "next_window": "2026-11-16T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-16T05:54:59.079581+00:00"
-  },
-  {
    "started_utc": "2026-11-16T06:10:56.409086+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -130266,6 +130239,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-16T22:07:19.461042+00:00"
+  },
+  {
+   "started_utc": "2026-11-16T22:20:42.777788+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-17T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-16T22:21:29.169802+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -130911,9 +130919,22 @@
   "https://www.nasa.gov/image-article/thunderbirds-in-formation/": {
    "fa": "2026-11-16T20:13:11.203034+00:00",
    "en": "2026-11-16T20:13:11.203034+00:00"
+  },
+  "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/": {
+   "fa": "2026-11-16T22:20:46.775965+00:00",
+   "en": "2026-11-16T22:20:46.775965+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/": {
+   "title": "محموله ناسا برای مطالعه اشعه گاما به نورث روپ گرومن می رسد",
+   "summary": "محموله علمی ماموریت آتی COSI ناسا در اوایل این ماه به تاسیسات تولید ماهواره نورثروپ گرومن در استرلینگ ویرجینیا رسید.",
+   "link": "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-16T18:31:57+00:00",
+   "ts": "2026-11-16T22:20:46.775965+00:00"
+  },
   "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/": {
    "title": "ماهوارهٔ Sentinel-6B به مدار زمین پیوست",
    "summary": "ماهوارهٔ Sentinel-6B هم‌اکنون در مدار زمین قرار دارد و مأموریت سنجش ارتفاع سطح دریا را بر عهده خواهد داشت. این ماهواره به عنوان نقطهٔ مرجع برای سایر مأموریت‌های فضایی در مطالعهٔ تغییرات سطح اقیانوس‌ها عمل می‌کند.",
@@ -132254,15 +132275,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-22T00:00:16+00:00",
    "ts": "2026-10-23T18:45:59.993456+00:00"
-  },
-  "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/": {
-   "title": "پیشرانه‌های فضاپیمای سایکو به سوی کمربند سیارک‌ها",
-   "summary": "فضاپیمای سایکوی ناسا پس از عبور موفقیت‌آمیز از کنار مریخ، موتورهای خود را فعال کرد و به سمت سیارک فلزی‌فام سایکو شتاب می‌گیرد. این مأموریت با پرتاب در اکتبر ۲۰۲۳، در بخش نخست سفرش از پیشرانش الکتریکی خود به‌صورت تناوبی برای قرارگیری در مسیر درست استفاده کرد.",
-   "link": "https://science.nasa.gov/blogs/psyche/2026/10/22/pedal-to-the-metal-nasas-psyche-heads-toward-asteroid-belt/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date": "2026-10-22T16:16:58+00:00",
-   "ts": "2026-10-23T18:30:14.111719+00:00"
   }
  },
  "news_title_fp": {
@@ -132849,6 +132861,10 @@
    "en": "2026-11-16"
   },
   "3c72aa13eaf97d1e": {
+   "fa": "2026-11-16",
+   "en": "2026-11-16"
+  },
+  "0eea724769a5a9fa": {
    "fa": "2026-11-16",
    "en": "2026-11-16"
   }
@@ -133441,6 +133457,10 @@
   [
    "3c72aa13eaf97d1e",
    "thunderbirds in formation"
+  ],
+  [
+   "0eea724769a5a9fa",
+   "nasa payload to study gamma rays arrives at northrop grumman"
   ]
  ],
  "combo_seen": {
