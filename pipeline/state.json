@@ -128883,33 +128883,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-15T19:25:58.369099+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 2,
-    "next_window": "2026-11-16T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-15T19:30:06.461593+00:00"
-  },
-  {
    "started_utc": "2026-11-15T19:46:07.162012+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -130263,6 +130236,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-16T09:10:58.851802+00:00"
+  },
+  {
+   "started_utc": "2026-11-16T09:22:14.767149+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-16/12",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 0,
+    "next_window": "2026-11-16T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-16T09:23:00.367398+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -130896,9 +130904,22 @@
   "https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science/": {
    "fa": "2026-11-13T21:53:08.813979+00:00",
    "en": "2026-11-13T21:53:08.813979+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/": {
+   "fa": "2026-11-16T09:22:17.971178+00:00",
+   "en": "2026-11-16T09:22:17.971178+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/": {
+   "title": "APOD: 16 نوامبر 2026 - NGC 7129: تشکیل ستاره با جت های وب",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. NGC 7129:",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-16T05:05:00+00:00",
+   "ts": "2026-11-16T09:22:17.971178+00:00"
+  },
   "https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science/": {
    "title": "تلسکوپ فضایی رُمان ناسا به مرحله‌ی هم‌راستایی ابزارهایش رسید",
    "summary": "ابزارهای تلسکوپ فضایی رُمان ناسا با دقت بالا در یک راستا قرار گرفتند و این ماهواره گامی دیگر به عملیات علمی نزدیک‌تر شد. سازوکار رُمان باید دست‌کم ده برابر پایدارتر از تلسکوپ‌های هابل و جیمز وب باشد.",
@@ -132239,15 +132260,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-23T17:50:21+00:00",
    "ts": "2026-10-23T18:13:32.896110+00:00"
-  },
-  "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/": {
-   "title": "تلسکوپ هابل، مسیر تلسکوپ رومن را با عدسی‌های گرانشی نقشه‌برداری کرد",
-   "summary": "تلسکوپ فضایی هابل یکی از تصاویر متعددی را ثبت کرده است که در آن پدیدهٔ عدسی گرانشی مشاهده می‌شود. این مشاهدات در راستای آمادگی برای پژوهش‌های تلسکوپ فضایی جدید نانسی گریس رومن انجام شده‌اند.",
-   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-22T16:20:37+00:00",
-   "ts": "2026-10-23T18:13:32.896110+00:00"
   }
  },
  "news_title_fp": {
@@ -132824,6 +132836,10 @@
   "4487916c30f3ee8c": {
    "fa": "2026-11-13",
    "en": "2026-11-13"
+  },
+  "eccce4e295e5dd6a": {
+   "fa": "2026-11-16",
+   "en": "2026-11-16"
   }
  },
  "news_title_recent": [
@@ -133402,6 +133418,10 @@
   [
    "4487916c30f3ee8c",
    "instruments on nasa s roman space telescope get in sync for science"
+  ],
+  [
+   "eccce4e295e5dd6a",
+   "apod 2026 november 16 ngc 7129 star formation with jets from webb"
   ]
  ],
  "combo_seen": {
