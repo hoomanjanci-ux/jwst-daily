@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-17T19:44:22.945Z",
+ "generated_utc": "2026-11-17T19:51:04.765Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2541,6 +2541,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-hbayi0",
+   "title": "Cardiac Research, Exercise Studies on Station Keeping Crews Healthy",
+   "title_fa": null,
+   "summary": "Cardiac research and space exercise were the main experiments for the Expedition 75 crew members on Tuesday. The International Space Station residents are also preparing scientific samples for return to Earth.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss075e0227303/iss075e0227303~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/17/cardiac-research-exercise-studies-on-station-keeping-crews-healthy/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-17T19:28:52.000Z"
+  },
+  {
    "slug": "nasa-1ystk3q",
    "title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
    "title_fa": null,
@@ -2743,18 +2755,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-10T19:31:40.000Z"
-  },
-  {
-   "slug": "nasa-vdu9oa",
-   "title": "Crew Packing Dragon for Return with Experiments and a Spacesuit",
-   "title_fa": "کاخک‌نشان‌نشان‌نشان‌نشان‌نشان",
-   "summary": "Expedition 75 kicked off the week processing microbe samples and swapping spacesuits for return to Earth soon inside a U.S. cargo craft. The International Space Station crew members also studied breathing in microgravity and photographed Earth landmarks.",
-   "summary_fa": "گروه ۷۵ فضایی با پردازش نمونه‌های میکروب و تعویض لباس‌های فضانوردی برای بازگشت به زمین، هفتهٔ خود را شروع کرد. اعضای ایستگاه فضایی بین‌المللی همچنین در شرایط جاذبهٔ کمکی مطالعهٔ تنفس انجام دادند و از نقاط جغرافیایی زمین عکس گرفتند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-iss075e0254018.jpg?w=1536",
-   "link": "https://www.nasa.gov/blogs/general-blog/2026/11/09/crew-packing-dragon-for-return-with-experiments-and-a-spacesuit/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-09T19:43:40.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
