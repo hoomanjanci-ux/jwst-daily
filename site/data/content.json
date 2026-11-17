@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-17T18:53:57.682Z",
+ "generated_utc": "2026-11-17T19:44:22.945Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2541,6 +2541,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-1ystk3q",
+   "title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
+   "title_fa": null,
+   "summary": "NASA and its international partners are set to receive scientific research samples and hardware as a SpaceX Dragon spacecraft departs the International Space Station no earlier than Wednesday, Nov. 18, for its return to Earth. Pending weather conditions, the Dragon spacecraft will undock from the Harmony module’s space-facing port at 11:05 a.m. EST, following a […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ng35.jpg?w=2048",
+   "link": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-17T19:16:22.000Z"
+  },
+  {
    "slug": "nasa-bsomzk",
    "title": "NICER Status Updates",
    "title_fa": null,
@@ -2551,6 +2563,18 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-17T18:18:16.000Z"
+  },
+  {
+   "slug": "science-bs6x7t",
+   "title": "NASA’s Terra Mission to End",
+   "title_fa": null,
+   "summary": "After 27 years of providing insights into Earth’s interconnected atmosphere, lands, oceans, and biology, NASA’s Terra satellite will stop collecting science data on Dec. 1. Terra, a workhorse of the Earth Observing System, was designed for a six-year mission. After operating for more than four times that, the spacecraft’s systems are aging and its orbit is […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/blogs/2026/KSC-99pp1412~orig.jpg?w=2048&h=1783&fit=clip",
+   "link": "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-17T17:50:37.000Z"
   },
   {
    "slug": "science-u0y1yn",
@@ -2731,18 +2755,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-09T19:43:40.000Z"
-  },
-  {
-   "slug": "nasa-1pzjnf5",
-   "title": "Spacewalk Cleanup, Biomedical Science, and Maintenance Wrap Up Week",
-   "title_fa": "پایان هفتهٔ پرتلاش با تعمیرات و علمی در ایستگاه فضایی",
-   "summary": "The seven Expedition 75 crew members cleaned up after a spacewalk, conducted biomedical assessments, and maintained orbital systems to wrap up a busy week aboard the International Space Station.",
-   "summary_fa": "هفت فضانورد مأموریت اکسپدیشن ۷۵ پس از پیاده‌روی فضایی، ارزیابی‌های زیستی-پزشکی انجام دادند و سیستم‌های مداری را نگهداری کردند تا هفته‌ای شلوغ را در ایستگاه فضایی بین‌المللی به پایان برسانند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-useva101-110526d-1.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/06/spacewalk-cleanup-biomedical-science-and-maintenance-wrap-up-week/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-06T17:48:13.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
