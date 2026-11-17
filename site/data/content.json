@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-17T01:04:54.079Z",
+ "generated_utc": "2026-11-17T01:23:40.817Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2536,6 +2536,18 @@
    "date_utc": "2026-11-16T23:12:45.000Z"
   },
   {
+   "slug": "nasa-1ewg3fu",
+   "title": "Biotechnology, Spacesuit Work, and Dragon Packing Start Week Aboard Station",
+   "title_fa": null,
+   "summary": "Biotechnology research including growing human lung cells and managing blood flow in space awaited the Expedition 75 crew on Monday. Spacesuit checks, cargo packing, and Earth observations rounded out the busy schedule aboard the International Space Station at the beginning of the week.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss075e0266049/iss075e0266049~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-16T22:24:06.000Z"
+  },
+  {
    "slug": "science-11deo5u",
    "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
    "title_fa": null,
@@ -2714,18 +2726,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-06T17:48:13.000Z"
-  },
-  {
-   "slug": "nasa-y0vidu",
-   "title": "Spacewalkers Install Final Roll-Out Solar Array",
-   "title_fa": "فضانوردان پنل خورشیدی نهایی ایستگاه را نصب کردند",
-   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk concluded their spacewalk outside the International Space Station at 3:35 p.m. EST.",
-   "summary_fa": "آنیل منون، فضانورد ناسا و جاشوا کوتریک از آژانس فضایی کانادا، پیاده‌روی فضایی خود خارج از ایستگاه فضایی بین‌المللی را با نصب نهایی آرایه خورشیدی ریلی به پایان رساندند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-useva101-110526h.jpg?w=1280",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalkers-install-final-roll-out-solar-array/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-05T20:52:33.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
