@@ -137004,7 +137004,7 @@
    "end": "2026-11-17T15:30:00.000Z",
    "status": "waiting",
    "product": null,
-   "note": null,
+   "note": "no approved paired reserve",
    "sender": "cloudflare"
   },
   "2026-11-17/12": {
