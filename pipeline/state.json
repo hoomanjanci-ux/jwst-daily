@@ -128942,36 +128942,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-17T05:30:59.418851+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-17/09",
-    "published": [
-     "jw12522040001_0310f_00005_nrcalong_rate.fits"
-    ],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 0,
-    "next_window": "2026-11-17T12:00:00+03:30"
-   },
-   "published": [
-    "jw12522040001_0310f_00005_nrcalong_rate.fits"
-   ],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-17T05:31:07.557105+00:00"
-  },
-  {
    "started_utc": "2026-11-17T05:50:53.439297+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -130320,6 +130290,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-17T22:33:51.083711+00:00"
+  },
+  {
+   "started_utc": "2026-11-17T22:42:44.153082+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-18T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/17/cardiac-research-exercise-studies-on-station-keeping-crews-healthy/",
+     "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/17/cardiac-research-exercise-studies-on-station-keeping-crews-healthy/",
+     "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/"
+    ],
+    "mode": "fresh (7 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-17T22:42:55.716518+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -130997,9 +131004,35 @@
   "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/": {
    "fa": "2026-11-17T21:38:54.899025+00:00",
    "en": "2026-11-17T21:38:54.899025+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/17/cardiac-research-exercise-studies-on-station-keeping-crews-healthy/": {
+   "fa": "2026-11-17T22:42:47.473584+00:00",
+   "en": "2026-11-17T22:42:47.473584+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/": {
+   "fa": "2026-11-17T22:42:47.473584+00:00",
+   "en": "2026-11-17T22:42:47.473584+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/blogs/spacestation/2026/11/17/cardiac-research-exercise-studies-on-station-keeping-crews-healthy/": {
+   "title": "تحقیقات قلبی، مطالعات ورزشی در مورد سلامت خدمه ایستگاه",
+   "summary": "تحقیقات قلبی و تمرینات فضایی آزمایش‌های اصلی برای خدمه اکسپدیشن ۷۵ در روز سه‌شنبه بود. ساکنان ایستگاه فضایی بین المللی نیز در حال آماده سازی نمونه های علمی برای بازگشت به زمین هستند.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/17/cardiac-research-exercise-studies-on-station-keeping-crews-healthy/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-17T19:28:52+00:00",
+   "ts": "2026-11-17T22:42:47.473584+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/": {
+   "title": "ناسا سی و پنجمین ماموریت تدارکاتی اسپیس ایکس را در مورد خروج ایستگاه فضایی پوشش می دهد",
+   "summary": "ناسا و شرکای بین‌المللی آن قرار است نمونه‌های تحقیقاتی علمی و سخت‌افزار را دریافت کنند، زیرا فضاپیمای SpaceX Dragon زودتر از چهارشنبه ۱۸ نوامبر ایستگاه فضایی بین‌المللی را برای بازگشت به زمین ترک می‌کند. در انتظار شرایط آب و هوایی، فضاپیمای دراگون در ساعت 11:05 صبح به وقت شرق شرق از بندر فضایی ماژول هارمونی خارج می شود.",
+   "link": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-17T19:16:22+00:00",
+   "ts": "2026-11-17T22:42:47.473584+00:00"
+  },
   "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge/": {
    "title": "چالش آواتار دیجیتال BPS",
    "summary": "برنامه زیست شناسی فضایی ناسا در بخش علوم زیستی و فیزیکی (BPS) به بررسی نحوه واکنش سیستم های زنده در سراسر طیف کامل سازمان بیولوژیکی می پردازد تا درک چگونگی واکنش سیستم های زنده به عوامل استرس زا منحصر به فرد اکتشاف فضا - از جمله ریزگرانش، تشعشعات یونیزان، میدان های مغناطیسی کم، و CO2 بالا را افزایش دهد. همانطور که ناسا برای عمق طولانی مدت آماده می شود",
@@ -132331,24 +132364,6 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-19T16:22:09+00:00",
    "ts": "2026-10-23T22:22:41.370637+00:00"
-  },
-  "https://esawebb.org/news/weic2621/": {
-   "title": "اندازه‌گیری فاصله دورترین انفجار سریع رادیویی با تلسکوپ جیمز وب",
-   "summary": "انفجارهای سریع رادیویی نخستین بار در سال ۲۰۰۷ کشف شدند؛ پدیده‌هایی مرموز به‌شکل вспышки‌های میلی‌ثانیه‌ای رادیویی از کیهان دوردست که منشأ آن‌ها نامعلوم است، زیرا بیشتر تنها یک‌بار دیده می‌شوند. اخترشناسان با تلسکوپ فضایی جیمز وب کهکشان میزبان دورترین انفجار سریع رادیویی مشاهده‌شده تاکنون را شناسایی کردند. این کشف اطلاعاتی درباره نوع رویداد پرتوان ایجادکننده این انفجارها ارائه می‌دهد.",
-   "link": "https://esawebb.org/news/weic2621/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date": "2026-10-08T18:00:00+00:00",
-   "ts": "2026-10-23T21:58:10.567696+00:00"
-  },
-  "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/": {
-   "title": "ناسا طرح‌های تسریع مأموریت‌های ماهانه را معرفی کرد",
-   "summary": "ناسا در به‌روزرسانی ۲۳ اکتبر، مسیر بازگشت فضانوردان آمریکایی به سطح ماه در سال ۲۰۲۸ را ترسیم کرد. مأموریت آرتمیس سوم چهار فضانورد را سال آینده به مدار پایین زمین خواهد فرستاد تا سیستم‌های حیاتی لازم برای مأموریت‌های آتی را آزمایش کند.",
-   "link": "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date": "2026-10-23T20:15:28+00:00",
-   "ts": "2026-10-23T21:44:28.317848+00:00"
   }
  },
  "news_title_fp": {
@@ -132967,6 +132982,14 @@
    "en": "2026-11-17"
   },
   "c73c315930e740d8": {
+   "fa": "2026-11-17",
+   "en": "2026-11-17"
+  },
+  "3de5708c41dd77c4": {
+   "fa": "2026-11-17",
+   "en": "2026-11-17"
+  },
+  "285bf22c664fac58": {
    "fa": "2026-11-17",
    "en": "2026-11-17"
   }
@@ -133591,6 +133614,14 @@
   [
    "c73c315930e740d8",
    "new album of baby star sounds shared by nasa s chandra"
+  ],
+  [
+   "3de5708c41dd77c4",
+   "cardiac research exercise studies on station keeping crews healthy"
+  ],
+  [
+   "285bf22c664fac58",
+   "nasa to cover 35th spacex resupply mission space station departure"
   ]
  ],
  "combo_seen": {
