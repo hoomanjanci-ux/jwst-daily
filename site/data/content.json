@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-17T23:00:20.884Z",
+ "generated_utc": "2026-11-17T23:38:01.881Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2541,6 +2541,30 @@
  ],
  "news": [
   {
+   "slug": "science-145nc9p",
+   "title": "NASA Launches Nuclear Power Systems Student Contest",
+   "title_fa": "ناسا مسابقه دانشجویی سیستم های انرژی هسته ای را راه اندازی کرد",
+   "summary": "NASA’s Power to Explore Student Challenge kicked off Tuesday, Nov. 17. The science, engineering, technology, and mathematics (STEM) challenge invites kindergarten through 12th grade students in the United States to learn about space nuclear power systems and illustrate how these nuclear “batteries” could help power their lunar exploration vision. Students are also invited to write […]",
+   "summary_fa": "چالش ناسا برای کاوش دانش آموزان سه شنبه، 17 نوامبر آغاز شد. چالش علوم، مهندسی، فناوری و ریاضیات (STEM) از دانش آموزان کلاس دوازدهم در ایالات متحده از مهدکودک ها دعوت می کند تا درباره سیستم های انرژی هسته ای فضایی بیاموزند و نشان دهند که چگونه این \"باتری های\" هسته ای می توانند به دید اکتشاف ماه آنها کمک کنند. از دانش آموزان نیز دعوت به نوشتن می شود",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-science-division/radioisotope-power-systems/power-to-explore-contest/2027-power-to-explore/PTE_2026-2027_X%20-%201200x675-80.jpg?w=1201&h=676&fit=clip",
+   "link": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-17T22:02:48.000Z"
+  },
+  {
+   "slug": "science-k2wu2o",
+   "title": "NASA Space Apps Challenge Breaks Global Hackathon Records",
+   "title_fa": "چالش برنامه های فضایی ناسا رکوردهای جهانی هکاتون را شکست",
+   "summary": "On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world. The annual hackathon invites participants to use NASA’s open data to address one of 14 challenges focused on space exploration or Earth science. This year, the hackathon drew 59% […]",
+   "summary_fa": "در 14 و 15 نوامبر، ناسا چالش سالانه برنامه های فضایی را با ثبت رکورد 181835 شرکت کننده در 593 رویداد در سراسر جهان برگزار کرد. هکاتون سالانه از شرکت کنندگان دعوت می کند تا از داده های باز ناسا برای رسیدگی به یکی از ۱۴ چالش متمرکز بر اکتشاف فضا یا علم زمین استفاده کنند. امسال، هکاتون 59 درصد جلب کرد",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=2048&h=1706&fit=clip",
+   "link": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-17T21:50:34.000Z"
+  },
+  {
    "slug": "nasa-wp4zpa",
    "title": "BPS Digital AVATAR Challenge",
    "title_fa": "چالش آواتار دیجیتال BPS",
@@ -2647,30 +2671,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-17T16:51:14.000Z"
-  },
-  {
-   "slug": "science-27nyzo",
-   "title": "APOD: 2026 November 17 – Milky Way versus Aurora",
-   "title_fa": "APOD: 17 نوامبر 2026 - راه شیری در مقابل شفق قطبی",
-   "summary": "APOD Science APOD APOD: 2026 November 17 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated Milky Way […]",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. کهکشان راه شیری مشروح اصلی",
-   "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/GalaxyVsAurora_Scheib_960.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-17T05:05:00.000Z"
-  },
-  {
-   "slug": "science-5eijtd",
-   "title": "Tossing Fireworks from Cloud to Cloud",
-   "title_fa": "پرتاب آتش بازی از ابر به ابر",
-   "summary": "For many astronauts, the spectacular sight of lightning stands out when looking back at Earth from the International Space Station.",
-   "summary_fa": "برای بسیاری از فضانوردان، هنگام نگاه کردن به زمین از ایستگاه فضایی بین‌المللی، منظره دیدنی رعد و برق خودنمایی می‌کند.",
-   "image": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "link": "https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-17T05:01:00.000Z"
   },
   {
    "slug": "nasa-1ewg3fu",
