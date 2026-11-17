@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-17T03:37:22.599Z",
+ "generated_utc": "2026-11-17T03:40:12.488Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2543,9 +2543,9 @@
   {
    "slug": "science-1iv7tig",
    "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
-   "title_fa": null,
+   "title_fa": "سنگ‌های روح‌نشین ایدوبی؛ بازمانده‌های درخشان نظام‌های آبی باستانی مریخ",
    "summary": "Written by Candice Bedford, Research Scientist at Purdue University Date: Nov. 16, 2026 During the Perseverance rover’s investigation of “Idubi” — an area of ancient Martian crust exposed in the “Lac de Charmes” region, outside of Jezero crater — the Perseverance rover team has been captivated by a cluster of eerily bright, light-toned rocks in […]",
-   "summary_fa": null,
+   "summary_fa": "مریخ‌نورد پرساورنس در حین کاوش منطقهٔ «لِک دُ شارم» در خارج از دهانهٔ جیزرو، با خوشه‌ای از سنگ‌های روشن و درخشان در ناحیه‌ای به نام ایدوبی روبه‌رو شده است. این سنگ‌ها بازمانده‌های نورانی سیستم‌های آبی باستانی مریخ هستند که شواهدی از فعالیت‌های آبی در گذشته دور فراهم می‌کنند. این یافته‌ها بین دانشمندان تیم پرساورنس توجه ویژه‌ای را برانگیخته است.",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_ZL0_2023_0846533367_473EBY_N0930000ZCAM10057_1100LMJ.jpg?w=1588&h=1200&fit=clip",
    "link": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
    "source": "NASA",
@@ -2555,9 +2555,9 @@
   {
    "slug": "nasa-1ewg3fu",
    "title": "Biotechnology, Spacesuit Work, and Dragon Packing Start Week Aboard Station",
-   "title_fa": null,
+   "title_fa": "شروع هفته پرکار با پژوهش زیستی و آماده‌سازی در ایستگاه فضایی",
    "summary": "Biotechnology research including growing human lung cells and managing blood flow in space awaited the Expedition 75 crew on Monday. Spacesuit checks, cargo packing, and Earth observations rounded out the busy schedule aboard the International Space Station at the beginning of the week.",
-   "summary_fa": null,
+   "summary_fa": "هفته جدید در ایستگاه فضایی بین‌المللی با پژوهش‌های زیست‌فناوری برای تیم مأموریت اکسپدییشن ۷۵ آغاز شد، از جمله کشت سلول‌های ریه انسان و بررسی جریان خون در محیط بی‌وزنی. علاوه بر این، بازرسی لباس‌های فضانوردی و بسته‌بندی محموله‌های دراگون نیز در برنامهٔ این ماه قرار داشت.",
    "image": "https://images-assets.nasa.gov/image/iss075e0266049/iss075e0266049~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
    "link": "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/",
    "source": "NASA Blogs",
@@ -2567,9 +2567,9 @@
   {
    "slug": "science-11deo5u",
    "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
-   "title_fa": null,
+   "title_fa": "نمایی از ۴۹ حفره حفاری کنجکاوی در مریخ",
    "summary": "Description This collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. These images were […]",
-   "summary_fa": null,
+   "summary_fa": "این تصویر کلاژی از ۴۹ حفره حفاری است که توسط مرزیاب کنجکاوی ناسا تا نوامبر ۲۰۲۶ بر روی سطح مریخ ایجاد شده است. هر حفره نمایانگر نمونه‌ای سنگی است که از سطح سیاره سرخ برداشته شده و به دستگاه‌های تحلیلی درون این Rover ارسال می‌شود تا ترکیب شیمیایی آن‌ها بررسی شود.",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26804/PIA26804.jpg?w=1536&h=1536&fit=clip",
    "link": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
    "source": "NASA",
@@ -2579,9 +2579,9 @@
   {
    "slug": "science-pf162e",
    "title": "Sentinel-6B in Orbit Around Earth",
-   "title_fa": "ماهوارهٔ Sentinel-6B به مدار زمین پیوست",
+   "title_fa": "ماهواره Sentinel-6B وارد مدار زمین شد",
    "summary": "Description This artist’s concept shows the Sentinel-6B satellite, which will become the reference satellite for other missions studying sea surface height.",
-   "summary_fa": "ماهوارهٔ Sentinel-6B هم‌اکنون در مدار زمین قرار دارد و مأموریت سنجش ارتفاع سطح دریا را بر عهده خواهد داشت. این ماهواره به عنوان نقطهٔ مرجع برای سایر مأموریت‌های فضایی در مطالعهٔ تغییرات سطح اقیانوس‌ها عمل می‌کند.",
+   "summary_fa": "ماهواره Sentinel-6B پس از ورود به مدار دور زمین، به عنوان ماهواره مرجع برای سایر مأموریت‌های پایش ارتفاع سطح دریاهای کرهٔ زمین تعیین شده است.",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26803/PIA26803.jpg?w=1350&h=1080&fit=clip&crop=faces%2Cfocalpoint",
    "link": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
    "source": "NASA",
@@ -2591,9 +2591,9 @@
   {
    "slug": "nasa-10mkyhj",
    "title": "Thunderbirds in Formation",
-   "title_fa": "شکاری‌های تاندربولد بر فراز مرکز فضایی کندی",
+   "title_fa": "رژه بال‌های تندربردز در جشنواره مکس پاور ناسا",
    "summary": "U.S. Air Force Thunderbirds fighter jets pass overhead during the agency’s MAX POWER expo and air show on Saturday, Nov. 7, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s inaugural MAX POWER was an aerospace festival celebrating the past, present, and future of flight and space exploration in honor of America’s 250th anniversary. Image […]",
-   "summary_fa": "جت‌های تاندربولد، نمایشگاه هوایی نیروی هوایی آمریکا روز شنبه هفتم نوامبر ۲۰۲۶ در مرکز فضایی کندی فلوریدا از فراز زمین عبور کردند. این رویداد نخستین جشنواره هوایی و فضایی «مکس پاوير» بود که با هدف گرامیداشت پانصدمین سالگرد تأسیس آمریکا برگزار شد.",
+   "summary_fa": "جنگنده‌های تندربردز نیروی هوایی ایالات متحده در جریان نمایشگاه و رژه هوایی مکس پاور ناسا در روز شنبه ۱۶ اکتبر ۲۰۲۶ از فراز مرکز فضایی کندی فلوریدا عبور کردند. این نخستین رویداد مکس پاور بود که به مناسبت چهلمین سالگرد تأسیس ناسا و با هدف گرامیداشت گذشته، حال و آینده پرواز و اکتشافات فضایی آمریکا برگزار شد.",
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/11072026-ksc-max-power-airdotshow-2orig.jpg?w=2048",
    "link": "https://www.nasa.gov/image-article/thunderbirds-in-formation/",
    "source": "NASA",
@@ -2615,9 +2615,9 @@
   {
    "slug": "nasa-1mt4m7f",
    "title": "Contractor to Civil Servant: NASA Welcomes Jim Mirandy",
-   "title_fa": null,
+   "title_fa": "جیم میرندی، پیمانکار پیشین، اکنون کارمند رسمی ناسا",
    "summary": "The rumble of a rocket engine might be considered a soundtrack for Jim Mirandy’s life. Mirandy has grown up with NASA as a constant presence, and his path to becoming a civil servant at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, has been decades in the making. Hired under the agency’s workforce directive […]",
-   "summary_fa": null,
+   "summary_fa": "جیم میرندی که صدای موتور موشک بخشی از زندگی‌اش بوده، پس از سال‌ها کار به عنوان پیمانکار، اکنون به عنوان کارمند رسمی در مرکز فضایی استنیس ناسا مشغول به کار شده است. مسیر حرفه‌ای او طی دهه‌ها در کنار ناسا شکل گرفته و با دستورالعمل نیروی انسانی این آژانس محقق شده است.",
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/s26-013-jim-mirandy.jpg?w=2048",
    "link": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy/",
    "source": "NASA",

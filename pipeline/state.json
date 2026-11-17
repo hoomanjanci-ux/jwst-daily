@@ -128990,33 +128990,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-16T10:50:55.280405+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-11-16T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-16T10:55:27.675395+00:00"
-  },
-  {
    "started_utc": "2026-11-16T11:10:53.791564+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -130363,6 +130336,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-17T03:37:20.681857+00:00"
+  },
+  {
+   "started_utc": "2026-11-17T03:38:33.349451+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 1,
+    "next_window": "2026-11-17T09:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
+     "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
+     "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/"
+    ],
+    "mode": "fresh (3 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-17T03:39:31.584943+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -131012,9 +131022,35 @@
   "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/": {
    "fa": "2026-11-16T22:20:46.775965+00:00",
    "en": "2026-11-16T22:20:46.775965+00:00"
+  },
+  "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/": {
+   "fa": "2026-11-17T03:38:37.538704+00:00",
+   "en": "2026-11-17T03:38:37.538704+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/": {
+   "fa": "2026-11-17T03:38:37.538704+00:00",
+   "en": "2026-11-17T03:38:37.538704+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/": {
+   "title": "کانون پرساورنس: سنگ‌های سفید و روح‌مانند منطقهٔ ایدوبی",
+   "summary": "کاوشگر پرساورنس در حال بررسی منطقهٔ ایدوبی در ناحیهٔ لک دو شارم، بیرون دهانهٔ کریترینو است. این منطقه بخشایی از پوستهٔ باستانی مریخ است که سنگ‌های بسیار روشنی در آن دیده می‌شود. این سنگ‌ها بازماندگان سیستم‌های آبی دیرینه بر سطح مریخ هستند.",
+   "link": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-16T23:12:45+00:00",
+   "ts": "2026-11-17T03:38:37.538704+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/": {
+   "title": "زیست‌فناوری، آماده‌سازی لباس فضانوردی و بسته‌بندی دراگون؛ آغاز هفته در ایستگاه فضایی",
+   "summary": "تحقیقات زیست‌فناوری از جمله پرورش سلول‌های ریه انسان و مدیریت جریان خون در فضا، یکشنبه منتظر خدمه اکتشاف ۷۵ بود. بررسی لباس‌های فضانوردی، بسته‌بندی محموله و مشاهده زمین نیز برنامه شلوغ اوایل هفته را در ایستگاه فضایی بین‌المللی کامل کرد.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-16T22:24:06+00:00",
+   "ts": "2026-11-17T03:38:37.538704+00:00"
+  },
   "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/": {
    "title": "محموله ناسا برای مطالعه اشعه گاما به نورث روپ گرومن می رسد",
    "summary": "محموله علمی ماموریت آتی COSI ناسا در اوایل این ماه به تاسیسات تولید ماهواره نورثروپ گرومن در استرلینگ ویرجینیا رسید.",
@@ -132346,24 +132382,6 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-21T16:22:01+00:00",
    "ts": "2026-10-23T19:31:24.988501+00:00"
-  },
-  "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/": {
-   "title": "آتش‌سوزی‌های نیوگینه؛ غباری بر فراز جزیره",
-   "summary": "آتش‌سوزی‌های عمدی در هر دو سوی جزیره نیوگینه در حال گسترش است. این آتش‌ها به‌خاطر خشک‌سالی شدید در منطقه با شدت بیشتری شعله‌ور شده‌اند. سطح آلاینده‌های هوا در اطراف جزیره به‌طرز غیرعادی بالا رفته است.",
-   "link": "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-22T04:01:00+00:00",
-   "ts": "2026-10-23T18:45:59.993456+00:00"
-  },
-  "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/": {
-   "title": "ناسا برای تسریع نتایج علمی، روش انتخاب مأموریت‌ها را تغییر می‌دهد",
-   "summary": "ادارهٔ علوم ناسا اعلام کرده است برای رساندن سریع‌تر یافته‌های علمی به جامعه، شیوهٔ رقابت و انتخاب مأموریت‌های فضایی را تغییر خواهد داد. این اداره روز دوشنبه ۴ آبان ماه تالار گفت‌وگوی مجازی برگزار می‌کند.",
-   "link": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-22T00:00:16+00:00",
-   "ts": "2026-10-23T18:45:59.993456+00:00"
   }
  },
  "news_title_fp": {
@@ -132956,6 +132974,14 @@
   "0eea724769a5a9fa": {
    "fa": "2026-11-16",
    "en": "2026-11-16"
+  },
+  "c42047a56b78df66": {
+   "fa": "2026-11-17",
+   "en": "2026-11-17"
+  },
+  "db06f3e8b619aac8": {
+   "fa": "2026-11-17",
+   "en": "2026-11-17"
   }
  },
  "news_title_recent": [
@@ -133550,6 +133576,14 @@
   [
    "0eea724769a5a9fa",
    "nasa payload to study gamma rays arrives at northrop grumman"
+  ],
+  [
+   "c42047a56b78df66",
+   "perseverance update the ghostly rocks of idubi bright remnants of aqueous system"
+  ],
+  [
+   "db06f3e8b619aac8",
+   "biotechnology spacesuit work and dragon packing start week aboard station"
   ]
  ],
  "combo_seen": {
