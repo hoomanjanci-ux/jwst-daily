@@ -128942,32 +128942,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-17T06:10:58.510640+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-17/09",
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 0,
-    "next_window": "2026-11-17T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-17T06:11:02.002352+00:00"
-  },
-  {
    "started_utc": "2026-11-17T06:30:57.955308+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -130327,6 +130301,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-17T22:49:16.861330+00:00"
+  },
+  {
+   "started_utc": "2026-11-17T23:00:04.233940+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-18T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
+     "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/"
+    ],
+    "en": [
+     "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
+     "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/"
+    ],
+    "mode": "fresh (7 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-17T23:00:17.049477+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -131012,9 +131023,35 @@
   "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/": {
    "fa": "2026-11-17T22:42:47.473584+00:00",
    "en": "2026-11-17T22:42:47.473584+00:00"
+  },
+  "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/": {
+   "fa": "2026-11-17T23:00:09.114743+00:00",
+   "en": "2026-11-17T23:00:09.114743+00:00"
+  },
+  "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/": {
+   "fa": "2026-11-17T23:00:09.114743+00:00",
+   "en": "2026-11-17T23:00:09.114743+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/": {
+   "title": "ناسا مسابقه دانشجویی سیستم های انرژی هسته ای را راه اندازی کرد",
+   "summary": "چالش ناسا برای کاوش دانش آموزان سه شنبه، 17 نوامبر آغاز شد. چالش علوم، مهندسی، فناوری و ریاضیات (STEM) از دانش آموزان کلاس دوازدهم در ایالات متحده از مهدکودک ها دعوت می کند تا درباره سیستم های انرژی هسته ای فضایی بیاموزند و نشان دهند که چگونه این \"باتری های\" هسته ای می توانند به دید اکتشاف ماه آنها کمک کنند. از دانش آموزان نیز دعوت به نوشتن می شود",
+   "link": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-17T22:02:48+00:00",
+   "ts": "2026-11-17T23:00:09.114743+00:00"
+  },
+  "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/": {
+   "title": "چالش برنامه های فضایی ناسا رکوردهای جهانی هکاتون را شکست",
+   "summary": "در 14 و 15 نوامبر، ناسا چالش سالانه برنامه های فضایی را با ثبت رکورد 181835 شرکت کننده در 593 رویداد در سراسر جهان برگزار کرد. هکاتون سالانه از شرکت کنندگان دعوت می کند تا از داده های باز ناسا برای رسیدگی به یکی از ۱۴ چالش متمرکز بر اکتشاف فضا یا علم زمین استفاده کنند. امسال، هکاتون 59 درصد جلب کرد",
+   "link": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-17T21:50:34+00:00",
+   "ts": "2026-11-17T23:00:09.114743+00:00"
+  },
   "https://www.nasa.gov/blogs/spacestation/2026/11/17/cardiac-research-exercise-studies-on-station-keeping-crews-healthy/": {
    "title": "تحقیقات قلبی، مطالعات ورزشی در مورد سلامت خدمه ایستگاه",
    "summary": "تحقیقات قلبی و تمرینات فضایی آزمایش‌های اصلی برای خدمه اکسپدیشن ۷۵ در روز سه‌شنبه بود. ساکنان ایستگاه فضایی بین المللی نیز در حال آماده سازی نمونه های علمی برای بازگشت به زمین هستند.",
@@ -132346,24 +132383,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-23T22:37:53+00:00",
    "ts": "2026-10-23T23:00:36.708212+00:00"
-  },
-  "https://esawebb.org/news/weic2620/": {
-   "title": "تصویر جدید تلسکوپ وبب از هرج‌ومرج ستاره‌زای سحابی NGC 7129",
-   "summary": "تلسکوپ فضایی وبب تصویری رنگارنگ از ناحیه ستاره‌زای NGC 7129 ثبت کرده است. این سحابی سرشار از پیش‌ستاره‌ها و ستاره‌های جوان در میان گاز و غبار چگال است. نور مادون‌قرمز وبب از لایه‌های غبار عبور می‌کند و فرصتی برای مطالعه چگونگی شکل‌گیری ستاره‌ها بر محیط پیرامونی‌شان فراهم می‌آورد.",
-   "link": "https://esawebb.org/news/weic2620/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date": "2026-10-06T13:00:00+00:00",
-   "ts": "2026-10-23T22:34:45.525578+00:00"
-  },
-  "https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/": {
-   "title": "پیش‌درآمدهای خروج فضایی و پژوهش‌های پیشرفته زیستی-پزشکی آغاز شد",
-   "summary": "دو فضانورد در ایستگاه فضایی بین‌المللی آماده نصب آرایه خورشیدی قابل باز شدن در اواخر اکتبر هستند. نمونه‌گیری زیستی قابل حمل در شرایط میکروگرavity و چاپ سه‌بعدی سلول، ازجمله پژوهش‌های برجسته برنامه علمی مأموریت اکسپدیشن ۷۵ بوده است.",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date": "2026-10-19T16:22:09+00:00",
-   "ts": "2026-10-23T22:22:41.370637+00:00"
   }
  },
  "news_title_fp": {
@@ -132990,6 +133009,14 @@
    "en": "2026-11-17"
   },
   "285bf22c664fac58": {
+   "fa": "2026-11-17",
+   "en": "2026-11-17"
+  },
+  "4d97667777155dec": {
+   "fa": "2026-11-17",
+   "en": "2026-11-17"
+  },
+  "c7fcb0672a106afb": {
    "fa": "2026-11-17",
    "en": "2026-11-17"
   }
@@ -133622,6 +133649,14 @@
   [
    "285bf22c664fac58",
    "nasa to cover 35th spacex resupply mission space station departure"
+  ],
+  [
+   "4d97667777155dec",
+   "nasa launches nuclear power systems student contest"
+  ],
+  [
+   "c7fcb0672a106afb",
+   "nasa space apps challenge breaks global hackathon records"
   ]
  ],
  "combo_seen": {
