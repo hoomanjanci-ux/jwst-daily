@@ -128990,33 +128990,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-16T11:50:54.600534+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-11-16T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-16T11:54:55.338472+00:00"
-  },
-  {
    "started_utc": "2026-11-16T11:58:25.158276+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -130369,6 +130342,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-17T04:27:43.842984+00:00"
+  },
+  {
+   "started_utc": "2026-11-17T04:39:55.392252+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 1,
+    "next_window": "2026-11-17T09:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/"
+    ],
+    "en": [
+     "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-17T04:40:44.669973+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -131026,9 +131034,22 @@
   "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/": {
    "fa": "2026-11-17T03:38:37.538704+00:00",
    "en": "2026-11-17T03:38:37.538704+00:00"
+  },
+  "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/": {
+   "fa": "2026-11-17T04:39:59.171746+00:00",
+   "en": "2026-11-17T04:39:59.171746+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/": {
+   "title": "یک کلاژ که 49 سوراخ حفاری شده توسط مریخ‌نورد کیوریاسیتی ناسا را نشان می‌دهد",
+   "summary": "توضیحات این کلاژ 49 سوراخ حفاری را نشان می‌دهد که توسط مریخ‌نورد کنجکاوی ناسا تا نوامبر 2026 ثبت شده است. هر سوراخ نشان‌دهنده نمونه‌ای است که از سنگ‌های سطح مریخ جمع‌آوری شده است؛ مته مریخ‌نورد کنجکاوی که در انتهای بازوی رباتیک آن قرار دارد، نمونه‌های سنگ پودر شده را به داخل ابزارهایی که در قسمت شکمی آن قرار دارند می‌ریزد تا ترکیب آنها را تجزیه و تحلیل کنند. این تصاویر",
+   "link": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-16T22:05:23+00:00",
+   "ts": "2026-11-17T04:39:59.171746+00:00"
+  },
   "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/": {
    "title": "کانون پرساورنس: سنگ‌های سفید و روح‌مانند منطقهٔ ایدوبی",
    "summary": "کاوشگر پرساورنس در حال بررسی منطقهٔ ایدوبی در ناحیهٔ لک دو شارم، بیرون دهانهٔ کریترینو است. این منطقه بخشایی از پوستهٔ باستانی مریخ است که سنگ‌های بسیار روشنی در آن دیده می‌شود. این سنگ‌ها بازماندگان سیستم‌های آبی دیرینه بر سطح مریخ هستند.",
@@ -132369,15 +132390,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-23T18:57:04+00:00",
    "ts": "2026-10-23T19:31:24.988501+00:00"
-  },
-  "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/": {
-   "title": "چکاپ لباس‌های فضانوردی، کشاورزی در فضا و تحقیقات تنفسی، برنامهٔ اصلی چهارشنبه",
-   "summary": "دو فضانورد ایستگاه فضایی بین‌المللی برای پیاده‌روی فضایی هفتهٔ آینده، تست لباس‌های فضانوردی خود را انجام دادند. خدمهٔ اردو ۷۵ همچنین تحقیقات پیشرفته‌ای دربارهٔ کشاورزی در فضا و سیستم تنفسی در محیط میکروگرانشی به پیش برد.",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/21/spacesuits-lunar-agriculture-and-breathing-research-top-wednesdays-schedule/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date": "2026-10-21T16:22:01+00:00",
-   "ts": "2026-10-23T19:31:24.988501+00:00"
   }
  },
  "news_title_fp": {
@@ -132976,6 +132988,10 @@
    "en": "2026-11-17"
   },
   "db06f3e8b619aac8": {
+   "fa": "2026-11-17",
+   "en": "2026-11-17"
+  },
+  "98596fd311d698cf": {
    "fa": "2026-11-17",
    "en": "2026-11-17"
   }
@@ -133580,6 +133596,10 @@
   [
    "db06f3e8b619aac8",
    "biotechnology spacesuit work and dragon packing start week aboard station"
+  ],
+  [
+   "98596fd311d698cf",
+   "a collage showing 49 drill holes made by nasa s curiosity mars rover"
   ]
  ],
  "combo_seen": {
