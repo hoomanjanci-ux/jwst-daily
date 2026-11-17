@@ -137011,7 +137011,7 @@
   "2026-11-17/18": {
    "start": "2026-11-17T14:30:00.000Z",
    "end": "2026-11-17T15:30:00.000Z",
-   "status": "waiting",
+   "status": "missed",
    "product": null,
    "note": "no approved paired reserve",
    "sender": "cloudflare"
@@ -137115,7 +137115,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-17T14:50:57.886542+00:00",
+ "paired_prepare_attempt_utc": "2026-11-17T15:31:10.172459+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
