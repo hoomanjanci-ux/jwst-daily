@@ -110766,11 +110766,15 @@
   },
   "jw12517014001_03106_00002_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F115W",
+   "sha256": "c746c64d5bc7f6f4a8e27212a764095dcd9bd0704f01bdf0c6887b2758e179a3"
   },
   "jw12517014001_03108_00004_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F277W",
+   "sha256": "66e64c43e2ce6d8a88fed23861e1a8d1a7a0f5832d2be172cc3b4fdc776148c9"
   },
   "jw12517014001_0310a_00002_nrcb1_i2d.fits": {
    "channels": {},
@@ -110794,11 +110798,15 @@
   },
   "jw12517014001_03106_00001_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F115W",
+   "sha256": "d6f757d11ff377af8b453a9615d7347276f4978ea84ae96d3d2d8225ce29abb7"
   },
   "jw12517014001_03108_00001_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "SDSS J161814.23+000008.6|NIRCAM|F277W",
+   "sha256": "21d424a174b7e892b0b91097f6b56ce43663bc004fe1ef756cc5e45b69c57dc6"
   },
   "jw12517014001_0310a_00003_nrcblong_i2d.fits": {
    "channels": {},
@@ -133634,7 +133642,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-17",
-  "bytes": 864584640
+  "bytes": 896921280
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -137058,7 +137066,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-17T07:10:59.056374+00:00",
+ "paired_prepare_attempt_utc": "2026-11-17T08:10:57.495811+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
