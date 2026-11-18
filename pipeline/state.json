@@ -130581,43 +130581,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-17T21:38:50.543601+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-11-18T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge/",
-     "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/"
-    ],
-    "en": [
-     "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge/",
-     "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/"
-    ],
-    "mode": "fresh (7 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-17T21:39:05.362130+00:00"
-  },
-  {
    "started_utc": "2026-11-17T21:50:58.339463+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -131982,6 +131945,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-18T12:45:09.590049+00:00"
+  },
+  {
+   "started_utc": "2026-11-18T12:53:29.424981+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-18T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
+     "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
+     "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-18T12:53:44.369806+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -132695,9 +132695,35 @@
   "https://www.nasa.gov/image-article/space-selfie-2/": {
    "fa": "2026-11-18T04:34:18.247648+00:00",
    "en": "2026-11-18T04:34:18.247648+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/": {
+   "fa": "2026-11-18T12:53:33.524979+00:00",
+   "en": "2026-11-18T12:53:33.524979+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/": {
+   "fa": "2026-11-18T12:53:33.524979+00:00",
+   "en": "2026-11-18T12:53:33.524979+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/": {
+   "title": "ناسا و اسپیس ایکس در روز چهارشنبه از Dragon’s Undocking کنار می روند",
+   "summary": "ناسا و اسپیس ایکس به دلیل شرایط نامساعد جوی در محل‌های سقوط در سواحل کالیفرنیا، از فرصت بازگشایی اژدها از ایستگاه فضایی بین‌المللی در روز چهارشنبه خودداری می‌کنند.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-18T06:44:57+00:00",
+   "ts": "2026-11-18T12:53:33.524979+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/": {
+   "title": "APOD: 18 نوامبر 2026 - یک شراره خورشیدی کلاس M",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. یک سایز متوسط",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-18T05:05:00+00:00",
+   "ts": "2026-11-18T12:53:33.524979+00:00"
+  },
   "https://www.nasa.gov/image-article/space-selfie-2/": {
    "title": "سلفی فضایی",
    "summary": "آنیل منون، فضانورد ناسا، این سلفی را در حین راهپیمایی فضایی در 29 اکتبر 2026 گرفت. او و جاشوا کوتریک، فضانورد CSA (آژانس فضایی کانادا) یک آرایه خورشیدی جدید در ایستگاه فضایی بین‌المللی نصب کردند. دریافت به روز رسانی روزانه از ایستگاه فضایی. اعتبار تصویر: NASA/Anil Menon",
@@ -134029,24 +134055,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-24T04:05:00+00:00",
    "ts": "2026-10-24T05:37:21.617899+00:00"
-  },
-  "https://esawebb.org/news/weic2617/": {
-   "title": "تلسکوپ جیمز وب بقای گرد و غبار و آب را در نزدیکی سیاهچالهٔ مرکزی کهکشان آشکار کرد",
-   "summary": "تیم بین‌المللی ستاره‌شناسان با تلسکوپ فضایی جیمز وب ناسا/ESA/CSA کشف کرده‌اند که گرد و غبار و آب می‌توانند در نزدیکی خارق‌العاده‌ای به سیاهچالهٔ عظیم‌الجثهٔ مرکز کهکشان راه شیری شکل بگیرند و دوام بیاورند. ستارهٔ تکامل‌یافتهٔ IRS 3 با وجود تشعشعات شدید محیطی اطراف قوس A*، همچنان مواد تازه‌ای تولید و محیط پیرامون خود را غنی می‌سازد. این یافته‌ها در گزارش رسمی ESA/Webb در تاریخ ۱۱ اوت ۲۰۲۶ منتشر شد.",
-   "link": "https://esawebb.org/news/weic2617/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date": "2026-08-11T08:00:00+00:00",
-   "ts": "2026-10-24T05:07:33.682956+00:00"
-  },
-  "https://esawebb.org/news/weic2619/": {
-   "title": "تصویربرداری وب: پانورامای خیره‌کننده از زایش ستارگان",
-   "summary": "تلسکوپ فضایی جیمز وب، بزرگ‌ترین تصویر منتشرشده تاکنون از منطقه ستاره‌زای IC 348 را ثبت کرده است. با کمک این تلسکوپ، اخترشناسان در جستجوی کوتوله‌های قهوه‌ای بودند—اجرامی کم‌جرم‌تر از کوچک‌ترین ستاره‌ها. پژوهشگران کوتوله‌های قهوه‌ای با جرمی دو برابر مشتری کشف کردند و دامنه مطالعات این اجرام را به محدوده‌ای نو گستراند.",
-   "link": "https://esawebb.org/news/weic2619/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date": "2026-09-15T14:00:00+00:00",
-   "ts": "2026-10-24T01:42:49.362766+00:00"
   }
  },
  "news_title_fp": {
@@ -134701,6 +134709,14 @@
    "en": "2026-11-18"
   },
   "52f09236426a200d": {
+   "fa": "2026-11-18",
+   "en": "2026-11-18"
+  },
+  "ef47e6b5f949a31e": {
+   "fa": "2026-11-18",
+   "en": "2026-11-18"
+  },
+  "00ba64f455b56196": {
    "fa": "2026-11-18",
    "en": "2026-11-18"
   }
@@ -135361,6 +135377,14 @@
   [
    "52f09236426a200d",
    "space selfie"
+  ],
+  [
+   "ef47e6b5f949a31e",
+   "nasa spacex stand down from dragon s undocking on wednesday"
+  ],
+  [
+   "00ba64f455b56196",
+   "apod 2026 november 18 an m class solar flare"
   ]
  ],
  "combo_seen": {
