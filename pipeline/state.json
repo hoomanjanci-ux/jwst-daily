@@ -129933,6 +129933,12 @@
   "jw12574003001_03103_00001_nrca3_rate.fits": {
    "channels": {},
    "status": "legacy_v01"
+  },
+  "jw10790002001_06201_00004_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw10790002001_06201_00004_nrca3_rate.fits": {
+   "channels": {}
   }
  },
  "runs": [
@@ -138282,7 +138288,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-18T05:25:57.497881+00:00",
+ "paired_prepare_attempt_utc": "2026-11-18T06:00:55.958607+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
