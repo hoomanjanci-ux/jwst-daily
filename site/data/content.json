@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18T16:25:20.394Z",
+ "generated_utc": "2026-11-18T16:45:21.512Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2541,6 +2541,30 @@
  ],
  "news": [
   {
+   "slug": "nasa-118833t",
+   "title": "NASA Completes Prelaunch Instrument Testing for Hydrosat Osiris",
+   "title_fa": null,
+   "summary": "Satellites designed to track water dynamics and temperature changes across Earth’s surface launch in 2027",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/gsfc-20261023-glamr-5331-nb.jpg?w=2048",
+   "link": "https://www.nasa.gov/blogs/smallsatellites/2026/11/18/nasa-completes-prelaunch-instrument-testing-for-hydrosat-osiris/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T16:37:15.000Z"
+  },
+  {
+   "slug": "science-1x1oo48",
+   "title": "NASA Data Clinches First-of-Its-Kind Stellar Merger",
+   "title_fa": null,
+   "summary": "Researchers recently identified a first of its kind: A star slightly less massive than the Sun spiraled into and merged with a puffy supergiant star at the outskirts of our neighboring Andromeda galaxy. They nicknamed the newly single, potentially “rejuvenated” star Bao. Their NASA-funded discovery was then bolstered by quick-turn observations from NASA’s James Webb […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/11/STScI-01M6GTRN4J7R6FEJ4AJXM567QT.jpg?w=1536&h=1536&fit=clip",
+   "link": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-18T16:00:00.000Z"
+  },
+  {
    "slug": "nasa-1wp4ei3",
    "title": "NASA, SpaceX Stand Down from Dragon’s Undocking on Wednesday",
    "title_fa": "ناسا و اسپیس ایکس در روز چهارشنبه از Dragon’s Undocking کنار می روند",
@@ -2554,9 +2578,9 @@
   },
   {
    "slug": "science-1fykqr2",
-   "title": "APOD: 2026 November 18 – An M-class Solar Flare",
+   "title": "APOD: 2026 November 18 – A Medium-Sized Solar Flare",
    "title_fa": "APOD: 18 نوامبر 2026 - یک شراره خورشیدی کلاس M",
-   "summary": "APOD Science APOD APOD: 2026 November 18 – An… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Medium-Sized […]",
+   "summary": "APOD Science APOD APOD: 2026 November 18 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Medium-Sized […]",
    "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. یک سایز متوسط",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/solar_M_flare.jpg?w=2048&h=2048&fit=clip",
    "link": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
@@ -2661,18 +2685,6 @@
    "date_utc": "2026-11-17T17:50:37.000Z"
   },
   {
-   "slug": "science-u0y1yn",
-   "title": "Curiosity Blog, Sols 5072-5076: The Return of the Polygons",
-   "title_fa": "وبلاگ مریخ‌نورد کنجکاوی، سول‌های 5072-5076: بازگشت چندضلعی‌ها",
-   "summary": "Written by Abigail Fraeman, Deputy Project Scientist, Jet Propulsion Laboratory, California Institute of Technology Earth planning date: Friday, Nov. 13, 2026 Curiosity’s past several weeks have been very focused on drilling and analysis of the “Basque Lakes” and “Nazca” samples. We learned a lot from those drilled samples, but it’s time to hit the Martian […]",
-   "summary_fa": "نوشته شده توسط ابیگیل فریمن، معاون دانشمند پروژه، آزمایشگاه پیشرانه جت، مؤسسه فناوری کالیفرنیا تاریخ برنامه ریزی زمین: جمعه، 13 نوامبر 2026، چندین هفته اخیر کنجکاوی بسیار بر حفاری و تجزیه و تحلیل نمونه های \"دریاچه های باسک\" و \"نازکا\" متمرکز بوده است. ما از نمونه‌های حفاری شده چیزهای زیادی یاد گرفتیم، اما وقت آن است که به مریخ برخورد کنیم",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/november/msl-raw-images_msss_05073_mcam_5073ML1102670061307127E01_DXXX.jpg?w=672&h=896&fit=clip",
-   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5072-5076-the-return-of-the-polygons/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-17T17:06:07.000Z"
-  },
-  {
    "slug": "nasa-1ewg3fu",
    "title": "Biotechnology, Spacesuit Work, and Dragon Packing Start Week Aboard Station",
    "title_fa": "شروع هفته پرکار با پژوهش زیستی و آماده‌سازی در ایستگاه فضایی",
@@ -2731,18 +2743,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-12T22:07:49.000Z"
-  },
-  {
-   "slug": "nasa-11ykka3",
-   "title": "Honoring NASA’s X-59 Test Pilots on Veterans Day",
-   "title_fa": "گرامیداشت خلبانان آزمون‌پرنده X-59 ناسا در روز فارغ‌التحصیلان نیروهای مسلح",
-   "summary": "Seasoned pilots, aerospace engineers, and U.S. military veterans, NASA’s X-59 test pilots bring decades of service, technical expertise, and flight experience to the agency’s Quesst mission. NASA X-59 pilots Jim “Clue” Less and Nils Larson served in the U.S. Air Force, while Mike Lippert served in the U.S. Marine Corps. Today, the three pilots continue […]",
-   "summary_fa": "روز فارغ‌التحصیلان نیروهای مسلح، خلبانان آزمون‌پرندهٔ ایکس-۵۹ ناسا به خاطر دهه‌ها خدمت، تخصص فنی و تجربهٔ پرواز در قالب مأموریت Quesst این آژانس گرامی داشته شدند. جیم لِس و نیلس لارسن از نیروی هوایی و مایک لیپرْت از سپاه تفنگداران دریایی ایالات متحده خدمت کرده‌اند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/vets-day-quesst.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/quesst/2026/11/11/x-59-test-pilots-veterans-day/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-11T14:00:00.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
