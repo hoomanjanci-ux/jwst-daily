@@ -129997,6 +129997,24 @@
   "jw11079002001_0410b_00009_nrcalong_rate.fits": {
    "channels": {},
    "status": "legacy_v01"
+  },
+  "jw11079002001_04105_00009_nrcalong_cal.fits": {
+   "channels": {}
+  },
+  "jw11079002001_04107_00009_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw11079002001_0410b_00009_nrca3_cal.fits": {
+   "channels": {}
+  },
+  "jw11079002001_04105_00009_nrcalong_rate.fits": {
+   "channels": {}
+  },
+  "jw11079002001_04107_00009_nrca3_rate.fits": {
+   "channels": {}
+  },
+  "jw11079002001_0410b_00009_nrca3_rate.fits": {
+   "channels": {}
   }
  },
  "runs": [
@@ -138345,7 +138363,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-18T07:10:59.716536+00:00",
+ "paired_prepare_attempt_utc": "2026-11-18T07:34:59.515236+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
