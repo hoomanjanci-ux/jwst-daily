@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18T06:03:37.734Z",
+ "generated_utc": "2026-11-18T06:21:23.973Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2541,6 +2541,18 @@
  ],
  "news": [
   {
+   "slug": "science-1fykqr2",
+   "title": "APOD: 2026 November 18 – An M-class Solar Flare",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 November 18 – An… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Medium-Sized […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/solar_M_flare.jpg?w=2048&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-18T05:05:00.000Z"
+  },
+  {
    "slug": "science-145nc9p",
    "title": "NASA Launches Nuclear Power Systems Student Contest",
    "title_fa": "ناسا مسابقه دانشجویی سیستم های انرژی هسته ای را راه اندازی کرد",
@@ -2647,30 +2659,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-17T17:06:07.000Z"
-  },
-  {
-   "slug": "nasa-1r935rh",
-   "title": "NASA Invites Media, Public to View Roman Telescope’s First Images",
-   "title_fa": "ناسا از رسانه ها و عموم مردم برای مشاهده اولین تصاویر تلسکوپ رومی دعوت می کند",
-   "summary": "NASA will release the first images from its Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union (AGU) Annual Meeting in San Francisco at 3:30 p.m. EST (12:30 p.m. PST) Monday, Dec. 7. The images will showcase the unique scientific capabilities of Roman, which will soon capture deep, panoramic, never-before-seen […]",
-   "summary_fa": "ناسا اولین تصاویر را از تلسکوپ فضایی نانسی گریس رومی خود در جریان یک پخش زنده از نشست سالانه اتحادیه ژئوفیزیک آمریکا (AGU) در سانفرانسیسکو در ساعت 3:30 بعد از ظهر منتشر خواهد کرد. EST (12:30 بعد از ظهر به وقت PST) دوشنبه، 7 دسامبر. این تصاویر قابلیت‌های علمی منحصربه‌فرد رومن را به نمایش می‌گذارند، که به زودی عمیق، پانوراما، هرگز دیده نشده را به تصویر می‌کشد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/54963457618-23b91802ea-k-1.jpg?w=2048",
-   "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-17T17:00:29.000Z"
-  },
-  {
-   "slug": "nasa-1sd6arr",
-   "title": "Space Selfie",
-   "title_fa": "سلفی فضایی",
-   "summary": "NASA astronaut Anil Menon took this selfie during a spacewalk on Oct. 29, 2026. He and CSA (Canadian Space Agency) astronaut Joshua Kutryk installed a new roll-out solar array on the International Space Station. Get daily updates from the space station. Image credit: NASA/Anil Menon",
-   "summary_fa": "آنیل منون، فضانورد ناسا، این سلفی را در حین راهپیمایی فضایی در 29 اکتبر 2026 گرفت. او و جاشوا کوتریک، فضانورد CSA (آژانس فضایی کانادا) یک آرایه خورشیدی جدید در ایستگاه فضایی بین‌المللی نصب کردند. دریافت به روز رسانی روزانه از ایستگاه فضایی. اعتبار تصویر: NASA/Anil Menon",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0253155orig.jpg?w=2048",
-   "link": "https://www.nasa.gov/image-article/space-selfie-2/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-17T16:51:14.000Z"
   },
   {
    "slug": "nasa-1ewg3fu",
