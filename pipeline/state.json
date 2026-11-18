@@ -130581,32 +130581,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-18T05:40:54.470101+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-18/09",
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "waiting",
-    "ready_pairs": 0,
-    "next_window": "2026-11-18T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-18T05:40:59.631989+00:00"
-  },
-  {
    "started_utc": "2026-11-18T06:00:54.582700+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -131944,6 +131918,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-18T21:05:13.610316+00:00"
+  },
+  {
+   "started_utc": "2026-11-18T21:16:56.268057+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-19T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/",
+     "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/",
+     "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/"
+    ],
+    "mode": "fresh (7 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-18T21:18:14.856030+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -132665,9 +132676,35 @@
   "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/": {
    "fa": "2026-11-18T12:53:33.524979+00:00",
    "en": "2026-11-18T12:53:33.524979+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/": {
+   "fa": "2026-11-18T21:17:00.773786+00:00",
+   "en": "2026-11-18T21:17:00.773786+00:00"
+  },
+  "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/": {
+   "fa": "2026-11-18T21:17:00.773786+00:00",
+   "en": "2026-11-18T21:17:00.773786+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/": {
+   "title": "ناسا و اسپیس ایکس برای باز کردن اژدها آماده می شوند زیرا بسته بندی علمی ادامه دارد",
+   "summary": "به دلیل آب و هوای نامناسب، ناسا و اسپیس ایکس از فرصت بازگشایی روز چهارشنبه فضاپیمای باری دراگون که در 15 اکتبر به ایستگاه فضایی بین‌المللی رسید، کنار می‌روند.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-18T19:09:48+00:00",
+   "ts": "2026-11-18T21:17:00.773786+00:00"
+  },
+  "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/": {
+   "title": "ناسا چالش موشکی با توان متوسط ​​را برای شرکت های آمریکایی اعلام کرد",
+   "summary": "ناسا رقابت جدیدی را راه‌اندازی کرد که از شرکت‌های آمریکایی دعوت کرد تا نمونه‌های اولیه پیشرانه‌های اثر هال با قدرت متوسط ​​را تولید کنند - نوعی از پیشرانه‌های الکتریکی که برای عملیات‌ها و اکتشافات فضایی آینده بسیار مهم است. رانشگرهای اثر هال از میدان الکتریکی برای شتاب بخشیدن به یک گاز پیشران استفاده می کنند و نیروی رانش کارآمد را برای ماموریت های طولانی مدت تولید می کنند. برای رانش ماهواره ها و عمق استفاده می شود",
+   "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-18T18:12:32+00:00",
+   "ts": "2026-11-18T21:17:00.773786+00:00"
+  },
   "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/": {
    "title": "ناسا و اسپیس ایکس در روز چهارشنبه از Dragon’s Undocking کنار می روند",
    "summary": "ناسا و اسپیس ایکس به دلیل شرایط نامساعد جوی در محل‌های سقوط در سواحل کالیفرنیا، از فرصت بازگشایی اژدها از ایستگاه فضایی بین‌المللی در روز چهارشنبه خودداری می‌کنند.",
@@ -133999,24 +134036,6 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-07-06T14:00:00+00:00",
    "ts": "2026-10-24T07:25:44.135608+00:00"
-  },
-  "https://esawebb.org/news/weic2616/": {
-   "title": "سحابی شیر توسط تلسکوپ جیمز وب تصویربرداری شد",
-   "summary": "تلسکوپ فضایی جیمز وب، پروژه‌ای مشترک ناسا، آژانس فضایی اروپا و کانادا، تصویری از NGC 2392 ثبت کرده است. این سحابی که به سحابی شیر معروف است، در فلات ستاره‌ای کهکشان قرار دارد. این تصاویر در دهه جدید رصد فضایی منتشر شده‌اند.",
-   "link": "https://esawebb.org/news/weic2616/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date": "2026-08-10T14:00:00+00:00",
-   "ts": "2026-10-24T06:23:31.870941+00:00"
-  },
-  "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/": {
-   "title": "تصویر نجوم روز ناسا: سلفیِ فضپیمای روسهتا",
-   "summary": "ناسا در ۲۴ اکتبر ۲۰۲۶ تصویر «سلفی روسهتا» را به‌عنوان تصویر نجوم روز منتشر کرد. این تصویر که از فضپیمای روسهتا گرفته شده، همراه با توضیحی از سوی یک اخترشناس حرفه‌ای ارائه شد.",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-24T04:05:00+00:00",
-   "ts": "2026-10-24T05:37:21.617899+00:00"
   }
  },
  "news_title_fp": {
@@ -134679,6 +134698,14 @@
    "en": "2026-11-18"
   },
   "00ba64f455b56196": {
+   "fa": "2026-11-18",
+   "en": "2026-11-18"
+  },
+  "e6fba89c8607b535": {
+   "fa": "2026-11-18",
+   "en": "2026-11-18"
+  },
+  "712bd2304997e6a3": {
    "fa": "2026-11-18",
    "en": "2026-11-18"
   }
@@ -135347,6 +135374,14 @@
   [
    "00ba64f455b56196",
    "apod 2026 november 18 an m class solar flare"
+  ],
+  [
+   "e6fba89c8607b535",
+   "nasa spacex prepare for dragon undocking as science packing continues"
+  ],
+  [
+   "712bd2304997e6a3",
+   "nasa announces mid power electric rocket challenge for us companies"
   ]
  ],
  "combo_seen": {
