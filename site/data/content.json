@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18T21:44:59.996Z",
+ "generated_utc": "2026-11-18T22:05:03.890Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2541,6 +2541,18 @@
  ],
  "news": [
   {
+   "slug": "science-xa9oa3",
+   "title": "NASA Scientists Find Clues to Ancient Ice Beyond Neptune",
+   "title_fa": null,
+   "summary": "A new NASA study of space dust particles traced to the Kuiper Belt provides the strongest evidence yet for an ancient reservoir of ice enriched in heavier oxygen isotopes. The findings help scientists better understand the movement of materials in the early solar system and the processes that shaped planet formation.",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/ares/Artist’s%20Impression%20of%20Kuiper%20Belt%20Object.jpg?w=2048&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T20:54:51.000Z"
+  },
+  {
    "slug": "nasa-1kv8hh5",
    "title": "NASA, SpaceX Prepare for Dragon Undocking as Science Packing Continues",
    "title_fa": "ناسا و اسپیس ایکس برای باز کردن اژدها آماده می شوند زیرا بسته بندی علمی ادامه دارد",
@@ -2719,18 +2731,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-16T18:31:57.000Z"
-  },
-  {
-   "slug": "science-42ct23",
-   "title": "Instruments on NASA’s Roman Space Telescope Get in Sync for Science",
-   "title_fa": "همگام‌سازی instruments تلسکوپ فضایی رومن برای آغاز عملیات علمی",
-   "summary": "NASA’s Nancy Grace Roman Space Telescope has completed a key milestone, bringing its instruments into precise alignment and moving the observatory another step closer to science operations. “Roman requires exquisite alignment because it has to be at least ten times more stable than our Hubble or Webb space telescopes to conduct the science it’s setting […]",
-   "summary_fa": "تلسکوپ فضایی نانسی گریس رومن ناسا به مرحله کلیدی هم‌ترازی دقیق instruments خود دست یافت و گام دیگری در مسیر آغاز عملیات علمی برداشت. این هم‌همسانی به دلیل حساسیت بالای وظایف رومن نسبت به هابل و جیمز وب انجام شده است.",
-   "image": "https://assets.science.nasa.gov/content/dam/science/missions/rst/commissioning/Roman%20Alignment%20Targets.gif",
-   "link": "https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-13T18:54:51.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
