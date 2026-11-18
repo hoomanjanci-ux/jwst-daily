@@ -129935,10 +129935,12 @@
    "status": "legacy_v01"
   },
   "jw10790002001_06201_00004_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790002001_06201_00004_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   }
  },
  "runs": [
