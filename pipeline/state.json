@@ -130581,32 +130581,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-18T07:41:06.889042+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-11-18T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-18T07:41:12.169001+00:00"
-  },
-  {
    "started_utc": "2026-11-18T08:31:04.723718+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -131977,6 +131951,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-18T22:10:39.436122+00:00"
+  },
+  {
+   "started_utc": "2026-11-18T22:17:11.517423+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-19T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/",
+     "https://www.nasa.gov/blogs/smallsatellites/2026/11/18/nasa-completes-prelaunch-instrument-testing-for-hydrosat-osiris/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/",
+     "https://www.nasa.gov/blogs/smallsatellites/2026/11/18/nasa-completes-prelaunch-instrument-testing-for-hydrosat-osiris/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-18T22:18:25.395186+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -132722,9 +132733,35 @@
   "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/": {
    "fa": "2026-11-18T22:09:48.360441+00:00",
    "en": "2026-11-18T22:09:48.360441+00:00"
+  },
+  "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/": {
+   "fa": "2026-11-18T22:17:15.784123+00:00",
+   "en": "2026-11-18T22:17:15.784123+00:00"
+  },
+  "https://www.nasa.gov/blogs/smallsatellites/2026/11/18/nasa-completes-prelaunch-instrument-testing-for-hydrosat-osiris/": {
+   "fa": "2026-11-18T22:17:15.784123+00:00",
+   "en": "2026-11-18T22:17:15.784123+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/": {
+   "title": "دانشمندان ناسا سرنخ هایی از یخ های باستانی آن سوی نپتون پیدا کردند",
+   "summary": "مطالعه جدید ناسا در مورد ذرات غبار فضایی ردیابی شده در کمربند کویپر قوی ترین شواهد را برای مخزن باستانی یخ غنی شده با ایزوتوپ های اکسیژن سنگین تر ارائه می دهد. این یافته ها به دانشمندان کمک می کند تا حرکت مواد در منظومه شمسی اولیه و فرآیندهایی را که شکل گیری سیاره ها را شکل داده اند، بهتر درک کنند.",
+   "link": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-18T20:54:51+00:00",
+   "ts": "2026-11-18T22:17:15.784123+00:00"
+  },
+  "https://www.nasa.gov/blogs/smallsatellites/2026/11/18/nasa-completes-prelaunch-instrument-testing-for-hydrosat-osiris/": {
+   "title": "ناسا آزمایش ابزار پیش از پرتاب Hydrosat Osiris را تکمیل کرد",
+   "summary": "ماهواره‌هایی که برای ردیابی دینامیک آب و تغییرات دما در سراسر پرتاب سطح زمین در سال 2027 طراحی شده‌اند",
+   "link": "https://www.nasa.gov/blogs/smallsatellites/2026/11/18/nasa-completes-prelaunch-instrument-testing-for-hydrosat-osiris/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-18T16:37:15+00:00",
+   "ts": "2026-11-18T22:17:15.784123+00:00"
+  },
   "https://science.nasa.gov/get-involved/citizen-science/thank-you-for-doing-nasa-science/": {
    "title": "با تشکر از شما برای انجام علم ناسا!",
    "summary": "زمان شکرگزاری است و ما از شما برای انجام علم ناسا با ما تشکر می کنیم! شما و سایر داوطلبان ناسا با گرفتن داده ها، تجزیه و تحلیل داده ها، نوشتن کد، نوشتن مقالات و حتی اختراع پروژه های علمی خود، ضیافت باورنکردنی از اکتشافات را امکان پذیر کرده اید. چه شما یک شرکت کننده متخصص باشید یا فردی که به تازگی سفر علمی خود را آغاز کرده است،",
@@ -134056,24 +134093,6 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-26T15:48:51+00:00",
    "ts": "2026-10-26T17:14:55.549788+00:00"
-  },
-  "https://science.nasa.gov/image-article/2026-october-26-m42-the-great-nebula-in-orion/": {
-   "title": "M42: سحابی عظیم‌التوفر در صورت فلکی شکارچی",
-   "summary": "پژوهشگران ناسا هر روز تصویر یا عکسی از یکی از شگفتی‌های کیهان را منتشر می‌کنند و ستاره‌شناسی حرفه‌ای توضیحی مختصر درباره آن می‌نویسد. در تاریخ ۲۶ اکتبر ۲۰۲۶، الماس این مجموعه سحابی M42 یا سحابی شکارچی است.",
-   "link": "https://science.nasa.gov/image-article/2026-october-26-m42-the-great-nebula-in-orion/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-26T04:05:00+00:00",
-   "ts": "2026-10-26T06:36:10.065350+00:00"
-  },
-  "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/": {
-   "title": "APOD ۲۵ اکتبر ۲۰۲۶: ماده تاریک در کیهانی شبیه‌سازی‌شده",
-   "summary": "تصویر نجومی روز ناسا به نمایش ماده تاریک در یک جهان شبیه‌سازی‌شده می‌پردازد. توضیحات این تصویر توسط اخترشناسی حرفه‌ای نوشته شده است.",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-25T08:19:48+00:00",
-   "ts": "2026-10-25T10:12:09.937913+00:00"
   }
  },
  "news_title_fp": {
@@ -134760,6 +134779,14 @@
    "en": "2026-11-18"
   },
   "6ad7d99ae478dd8c": {
+   "fa": "2026-11-18",
+   "en": "2026-11-18"
+  },
+  "c588d70fdf39974d": {
+   "fa": "2026-11-18",
+   "en": "2026-11-18"
+  },
+  "f35ef2f180a96cf8": {
    "fa": "2026-11-18",
    "en": "2026-11-18"
   }
@@ -135452,6 +135479,14 @@
   [
    "6ad7d99ae478dd8c",
    "nasa data clinches first of its kind stellar merger"
+  ],
+  [
+   "c588d70fdf39974d",
+   "nasa scientists find clues to ancient ice beyond neptune"
+  ],
+  [
+   "f35ef2f180a96cf8",
+   "nasa completes prelaunch instrument testing for hydrosat osiris"
   ]
  ],
  "combo_seen": {
