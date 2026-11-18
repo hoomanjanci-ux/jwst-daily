@@ -138348,7 +138348,7 @@
    "end": "2026-11-18T09:30:00.000Z",
    "status": "waiting",
    "product": null,
-   "note": null,
+   "note": "no approved paired reserve",
    "sender": "cloudflare"
   },
   "2026-11-18/09": {
@@ -138368,7 +138368,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-18T07:34:59.515236+00:00",
+ "paired_prepare_attempt_utc": "2026-11-18T08:31:06.242033+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
