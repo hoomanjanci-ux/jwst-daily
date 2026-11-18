@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18T19:25:08.746Z",
+ "generated_utc": "2026-11-18T19:44:34.473Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2541,6 +2541,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-1kv8hh5",
+   "title": "NASA, SpaceX Prepare for Dragon Undocking as Science Packing Continues",
+   "title_fa": null,
+   "summary": "Due to unfavorable weather, NASA and SpaceX are standing down from Wednesday’s undocking opportunity of the Dragon cargo spacecraft that arrived at the International Space Station on Oct. 15.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss075e0250810/iss075e0250810~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T19:09:48.000Z"
+  },
+  {
    "slug": "nasa-22xm9q",
    "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
    "title_fa": null,
@@ -2589,6 +2601,18 @@
    "date_utc": "2026-11-18T17:32:52.000Z"
   },
   {
+   "slug": "nasa-118833t",
+   "title": "NASA Completes Prelaunch Instrument Testing for Hydrosat Osiris",
+   "title_fa": null,
+   "summary": "Satellites designed to track water dynamics and temperature changes across Earth’s surface launch in 2027",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/gsfc-20261023-glamr-5331-nb.jpg?w=2048",
+   "link": "https://www.nasa.gov/blogs/smallsatellites/2026/11/18/nasa-completes-prelaunch-instrument-testing-for-hydrosat-osiris/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T16:37:15.000Z"
+  },
+  {
    "slug": "science-1x1oo48",
    "title": "NASA Data Clinches First-of-Its-Kind Stellar Merger",
    "title_fa": null,
@@ -2599,6 +2623,18 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-18T16:00:00.000Z"
+  },
+  {
+   "slug": "nasa-1wp4ei3",
+   "title": "NASA, SpaceX Stand Down from Dragon’s Undocking on Wednesday",
+   "title_fa": "ناسا و اسپیس ایکس در روز چهارشنبه از Dragon’s Undocking کنار می روند",
+   "summary": "NASA and SpaceX are standing down from Wednesday's Dragon undocking opportunity from the International Space Station due to unfavorable weather conditions at the splashdown sites off the coast of California.",
+   "summary_fa": "ناسا و اسپیس ایکس به دلیل شرایط نامساعد جوی در محل‌های سقوط در سواحل کالیفرنیا، از فرصت بازگشایی اژدها از ایستگاه فضایی بین‌المللی در روز چهارشنبه خودداری می‌کنند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T06:44:57.000Z"
   },
   {
    "slug": "science-1fykqr2",
@@ -2635,6 +2671,78 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-17T21:50:34.000Z"
+  },
+  {
+   "slug": "nasa-hbayi0",
+   "title": "Cardiac Research, Exercise Studies on Station Keeping Crews Healthy",
+   "title_fa": "تحقیقات قلبی، مطالعات ورزشی در مورد سلامت خدمه ایستگاه",
+   "summary": "Cardiac research and space exercise were the main experiments for the Expedition 75 crew members on Tuesday. The International Space Station residents are also preparing scientific samples for return to Earth.",
+   "summary_fa": "تحقیقات قلبی و تمرینات فضایی آزمایش‌های اصلی برای خدمه اکسپدیشن ۷۵ در روز سه‌شنبه بود. ساکنان ایستگاه فضایی بین المللی نیز در حال آماده سازی نمونه های علمی برای بازگشت به زمین هستند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0227303/iss075e0227303~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/17/cardiac-research-exercise-studies-on-station-keeping-crews-healthy/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-17T19:28:52.000Z"
+  },
+  {
+   "slug": "science-bs6x7t",
+   "title": "NASA’s Terra Mission to End",
+   "title_fa": "پایان ماموریت ترا ناسا",
+   "summary": "After 27 years of providing insights into Earth’s interconnected atmosphere, lands, oceans, and biology, NASA’s Terra satellite will stop collecting science data on Dec. 1. Terra, a workhorse of the Earth Observing System, was designed for a six-year mission. After operating for more than four times that, the spacecraft’s systems are aging and its orbit is […]",
+   "summary_fa": "پس از 27 سال ارائه بینش در مورد جو به هم پیوسته زمین، زمین ها، اقیانوس ها و زیست شناسی، ماهواره Terra ناسا جمع آوری داده های علمی را در 1 دسامبر متوقف خواهد کرد. Terra، اسب کاری سیستم رصد زمین، برای یک ماموریت شش ساله طراحی شده است. پس از بیش از چهار برابر عملیات، سیستم های فضاپیما در حال پیر شدن و مدار آن است",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/blogs/2026/KSC-99pp1412~orig.jpg?w=2048&h=1783&fit=clip",
+   "link": "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-17T17:50:37.000Z"
+  },
+  {
+   "slug": "nasa-1ewg3fu",
+   "title": "Biotechnology, Spacesuit Work, and Dragon Packing Start Week Aboard Station",
+   "title_fa": "شروع هفته پرکار با پژوهش زیستی و آماده‌سازی در ایستگاه فضایی",
+   "summary": "Biotechnology research including growing human lung cells and managing blood flow in space awaited the Expedition 75 crew on Monday. Spacesuit checks, cargo packing, and Earth observations rounded out the busy schedule aboard the International Space Station at the beginning of the week.",
+   "summary_fa": "هفته جدید در ایستگاه فضایی بین‌المللی با پژوهش‌های زیست‌فناوری برای تیم مأموریت اکسپدییشن ۷۵ آغاز شد، از جمله کشت سلول‌های ریه انسان و بررسی جریان خون در محیط بی‌وزنی. علاوه بر این، بازرسی لباس‌های فضانوردی و بسته‌بندی محموله‌های دراگون نیز در برنامهٔ این ماه قرار داشت.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0266049/iss075e0266049~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-16T22:24:06.000Z"
+  },
+  {
+   "slug": "science-1yy07fu",
+   "title": "NASA Payload to Study Gamma Rays Arrives at Northrop Grumman",
+   "title_fa": "بار علمی مأموریت COSI ناسا به نورثروپ گرامن رسید",
+   "summary": "The scientific payload for NASA’s upcoming COSI mission arrived at Northrop Grumman’s satellite manufacturing facility in Sterling, Virginia, earlier this month.",
+   "summary_fa": "بار علمی مأموریت COSI ناسا که برای مطالعهٔ پرتوهای گاما طراحی شده، اوایل همین ماه به کارخانهٔ ساخت ماهواره‌های نورثروپ گرامن در ویرجینیا رسید.",
+   "image": "https://assets.science.nasa.gov/content/dam/science/missions/cosi-(compton-spectrometer-and-imager)/news/2026/ng-delivery/COSI_ship_03_2192x1233.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "link": "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-16T18:31:57.000Z"
+  },
+  {
+   "slug": "science-42ct23",
+   "title": "Instruments on NASA’s Roman Space Telescope Get in Sync for Science",
+   "title_fa": "همگام‌سازی instruments تلسکوپ فضایی رومن برای آغاز عملیات علمی",
+   "summary": "NASA’s Nancy Grace Roman Space Telescope has completed a key milestone, bringing its instruments into precise alignment and moving the observatory another step closer to science operations. “Roman requires exquisite alignment because it has to be at least ten times more stable than our Hubble or Webb space telescopes to conduct the science it’s setting […]",
+   "summary_fa": "تلسکوپ فضایی نانسی گریس رومن ناسا به مرحله کلیدی هم‌ترازی دقیق instruments خود دست یافت و گام دیگری در مسیر آغاز عملیات علمی برداشت. این هم‌همسانی به دلیل حساسیت بالای وظایف رومن نسبت به هابل و جیمز وب انجام شده است.",
+   "image": "https://assets.science.nasa.gov/content/dam/science/missions/rst/commissioning/Roman%20Alignment%20Targets.gif",
+   "link": "https://science.nasa.gov/blogs/roman/2026/11/13/instruments-on-nasas-roman-space-telescope-get-in-sync-for-science/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-13T18:54:51.000Z"
+  },
+  {
+   "slug": "nasa-e1wk9d",
+   "title": "Botany, Biomedicine, and Cargo Ops Wrap Up Week Aboard Station",
+   "title_fa": "پژوهش‌های گیاه‌شناسی و زیست‌پزشکی در ایستگاه فضایی",
+   "summary": "Space botany and biomedical research filled the scientific schedule aboard the International Space Station at the end of the week. Expedition 75 is also continuing to load a U.S. cargo spacecraft before its upcoming departure and return to Earth.",
+   "summary_fa": "فعالیت‌های پژوهشی مربوط به فضاگیاه‌شناسی و تحقیقات زیست‌پزشکی هفته را در ایستگاه فضایی بین‌المللی به پایان رساندند. مأموریت اکسپدیشن ۷۵ نیز پیش از بازگشت به زمین، در حال بارگیری یکspacescraft باربری آمریکایی است.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0254975/iss075e0254975~large.jpg?w=1440&h=1920&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/13/botany-biomedicine-and-cargo-ops-wrap-up-week-aboard-station/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-13T18:00:58.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
