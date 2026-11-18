@@ -134731,7 +134731,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-18",
-  "bytes": 805515840
+  "bytes": 889488000
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -138205,11 +138205,11 @@
    "end": "2026-11-18T03:30:00.000Z",
    "status": "waiting",
    "product": null,
-   "note": null,
+   "note": "no approved paired reserve",
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-18T02:26:03.380149+00:00",
+ "paired_prepare_attempt_utc": "2026-11-18T02:46:01.643592+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
