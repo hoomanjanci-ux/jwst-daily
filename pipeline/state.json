@@ -130581,33 +130581,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-18T07:34:57.949519+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-11-18T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-18T07:38:01.610522+00:00"
-  },
-  {
    "started_utc": "2026-11-18T07:41:06.889042+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -131967,6 +131940,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-18T22:05:02.314897+00:00"
+  },
+  {
+   "started_utc": "2026-11-18T22:09:44.640793+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-19T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/get-involved/citizen-science/thank-you-for-doing-nasa-science/",
+     "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/"
+    ],
+    "en": [
+     "https://science.nasa.gov/get-involved/citizen-science/thank-you-for-doing-nasa-science/",
+     "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-18T22:10:39.436122+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -132704,9 +132714,35 @@
   "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-moon-base/": {
    "fa": "2026-11-18T21:38:25.226580+00:00",
    "en": "2026-11-18T21:38:25.226580+00:00"
+  },
+  "https://science.nasa.gov/get-involved/citizen-science/thank-you-for-doing-nasa-science/": {
+   "fa": "2026-11-18T22:09:48.360441+00:00",
+   "en": "2026-11-18T22:09:48.360441+00:00"
+  },
+  "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/": {
+   "fa": "2026-11-18T22:09:48.360441+00:00",
+   "en": "2026-11-18T22:09:48.360441+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/get-involved/citizen-science/thank-you-for-doing-nasa-science/": {
+   "title": "با تشکر از شما برای انجام علم ناسا!",
+   "summary": "زمان شکرگزاری است و ما از شما برای انجام علم ناسا با ما تشکر می کنیم! شما و سایر داوطلبان ناسا با گرفتن داده ها، تجزیه و تحلیل داده ها، نوشتن کد، نوشتن مقالات و حتی اختراع پروژه های علمی خود، ضیافت باورنکردنی از اکتشافات را امکان پذیر کرده اید. چه شما یک شرکت کننده متخصص باشید یا فردی که به تازگی سفر علمی خود را آغاز کرده است،",
+   "link": "https://science.nasa.gov/get-involved/citizen-science/thank-you-for-doing-nasa-science/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-18T17:32:52+00:00",
+   "ts": "2026-11-18T22:09:48.360441+00:00"
+  },
+  "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/": {
+   "title": "داده های ناسا اولین ادغام ستاره ای در نوع خود را انجام می دهد",
+   "summary": "محققان اخیراً اولین مورد از این نوع را شناسایی کرده‌اند: ستاره‌ای با جرم کمی کمتر از خورشید در حومه کهکشان همسایه ما، آندرومدا، به مارپیچ وارد شد و با یک ستاره ابرغول پف‌دار ادغام شد. آنها به ستاره تازه مجرد و بالقوه \"جوان شده\" بائو لقب دادند. کشف آنها توسط ناسا توسط مشاهدات چرخشی سریع جیمز وب ناسا تقویت شد.",
+   "link": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-18T16:00:00+00:00",
+   "ts": "2026-11-18T22:09:48.360441+00:00"
+  },
   "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/": {
    "title": "ساختمان امپایر استیت برای وویجر طلا شد",
    "summary": "ساختمان امپایر استیت برای جشن فضاپیمای وویجر 1 ناسا در حالی که می‌خواست یک روز نوری از زمین بگذرد، با فاصله‌ای که توسط هیچ شیء ساخته‌شده‌ای توسط بشر به آن نمی‌رسید، در 17 نوامبر 2026، با رنگ طلایی روشن شده است. رنگ طلایی نشان‌دهنده رکورد گرامافون مسی با روکش طلا است که در وویجر پرواز می‌کند. رکورد طلایی شامل",
@@ -134038,24 +134074,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-25T08:19:48+00:00",
    "ts": "2026-10-25T10:12:09.937913+00:00"
-  },
-  "https://esawebb.org/news/weic2613/": {
-   "title": "تلسکوپ وب شواهدی از خاستگاه باستانی و دوردست دنباله‌دار بین‌ستاره‌ای 3I/ATLAS یافت",
-   "summary": "دنباله‌دار سوم شناخته‌شده بین‌ستاره‌ای در تاریخ بشر، ترکیب شیمیایی شگفت‌انگیزی دارد. این یافته پرسش‌هایی را درباره میزان فراوانی یا نادر بودن شرایط در منظومه شمسی خودمان برمی‌انگیزد.",
-   "link": "https://esawebb.org/news/weic2613/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date": "2026-06-22T15:00:00+00:00",
-   "ts": "2026-10-24T11:30:49.168115+00:00"
-  },
-  "https://esawebb.org/news/weic2612/": {
-   "title": "تلسکوپ جیمز وب میلیون‌ها ستاره در کهکشان سیگار را شناسایی کرد",
-   "summary": "کهکشان مارکیر ۸۲ (M82) با نام سیگار، در فاصله ۱۲ میلیون سال نوری واقع شده و تشکیل ستاره‌های جدید در آن به‌سرعت رخ می‌دهد. تلسکوپ فضایی جیمز وب جزئیاتی inédite از این کهکشان مارپیچی پهن‌نما را آشکار کرده است.",
-   "link": "https://esawebb.org/news/weic2612/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date": "2026-06-23T14:00:00+00:00",
-   "ts": "2026-10-24T10:42:58.008306+00:00"
   }
  },
  "news_title_fp": {
@@ -134734,6 +134752,14 @@
    "en": "2026-11-18"
   },
   "c0e5a8292402312c": {
+   "fa": "2026-11-18",
+   "en": "2026-11-18"
+  },
+  "1b8035ba8cd81b11": {
+   "fa": "2026-11-18",
+   "en": "2026-11-18"
+  },
+  "6ad7d99ae478dd8c": {
    "fa": "2026-11-18",
    "en": "2026-11-18"
   }
@@ -135418,6 +135444,14 @@
   [
    "c0e5a8292402312c",
    "what is the moon base"
+  ],
+  [
+   "1b8035ba8cd81b11",
+   "thank you for doing nasa science"
+  ],
+  [
+   "6ad7d99ae478dd8c",
+   "nasa data clinches first of its kind stellar merger"
   ]
  ],
  "combo_seen": {
