@@ -129937,33 +129937,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-17T11:36:03.652309+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-11-17T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-17T11:40:27.912793+00:00"
-  },
-  {
    "started_utc": "2026-11-17T11:55:56.529871+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -131328,6 +131301,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-18T03:26:04.661086+00:00"
+  },
+  {
+   "started_utc": "2026-11-18T03:33:27.286997+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-18T09:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/missions/station/nicer-status-updates/",
+     "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/"
+    ],
+    "en": [
+     "https://www.nasa.gov/missions/station/nicer-status-updates/",
+     "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/"
+    ],
+    "mode": "fresh (5 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-18T03:33:39.254277+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -132021,9 +132031,35 @@
   "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/": {
    "fa": "2026-11-17T23:00:09.114743+00:00",
    "en": "2026-11-17T23:00:09.114743+00:00"
+  },
+  "https://www.nasa.gov/missions/station/nicer-status-updates/": {
+   "fa": "2026-11-18T03:33:32.534939+00:00",
+   "en": "2026-11-18T03:33:32.534939+00:00"
+  },
+  "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/": {
+   "fa": "2026-11-18T03:33:32.534939+00:00",
+   "en": "2026-11-18T03:33:32.534939+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/missions/station/nicer-status-updates/": {
+   "title": "به روز رسانی وضعیت NICER",
+   "summary": "17 نوامبر 2026 تلسکوپ NICER ناسا به عملیات علمی پایان داد پس از شش سال و نیم مطالعه جهان پس از مأموریت اولیه خود، تلسکوپ NICER (کاوشگر ترکیب داخلی ستاره نوترونی) ناسا در ایستگاه فضایی بین المللی به عملیات علمی پایان داد. تیم‌های ماموریت و ایستگاه فضایی اکنون بر برنامه‌هایی برای نهایی کردن 8 سال NICER متمرکز شده‌اند",
+   "link": "https://www.nasa.gov/missions/station/nicer-status-updates/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-17T18:18:16+00:00",
+   "ts": "2026-11-18T03:33:32.534939+00:00"
+  },
+  "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/": {
+   "title": "پایان ماموریت ترا ناسا",
+   "summary": "پس از 27 سال ارائه بینش در مورد جو به هم پیوسته زمین، زمین ها، اقیانوس ها و زیست شناسی، ماهواره Terra ناسا جمع آوری داده های علمی را در 1 دسامبر متوقف خواهد کرد. Terra، اسب کاری سیستم رصد زمین، برای یک ماموریت شش ساله طراحی شده است. پس از بیش از چهار برابر عملیات، سیستم های فضاپیما در حال پیر شدن و مدار آن است",
+   "link": "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-17T17:50:37+00:00",
+   "ts": "2026-11-18T03:33:32.534939+00:00"
+  },
   "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/": {
    "title": "ناسا مسابقه دانشجویی سیستم های انرژی هسته ای را راه اندازی کرد",
    "summary": "چالش ناسا برای کاوش دانش آموزان سه شنبه، 17 نوامبر آغاز شد. چالش علوم، مهندسی، فناوری و ریاضیات (STEM) از دانش آموزان کلاس دوازدهم در ایالات متحده از مهدکودک ها دعوت می کند تا درباره سیستم های انرژی هسته ای فضایی بیاموزند و نشان دهند که چگونه این \"باتری های\" هسته ای می توانند به دید اکتشاف ماه آنها کمک کنند. از دانش آموزان نیز دعوت به نوشتن می شود",
@@ -133355,24 +133391,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-23T21:51:19+00:00",
    "ts": "2026-10-24T00:05:30.496308+00:00"
-  },
-  "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/": {
-   "title": "تسریع توسعه فرودگرهای ماه توسط ناسا و شرکایش برای مأموریت‌های ۲۰۲۸",
-   "summary": "ناسا و شرکت‌های بلو اورجین و اسپیس‌اکس با هدف بازگرداندن انسان به سطح ماه و تأسیس حضور بلندمدت، توسعه فرودگرهای سرنشین‌دار را تسریع کرده‌اند. بر اساس قراردادهای اولیه ناسا، هر دو شرکت طراحی‌های خود را ساده‌سازی و مفهوم عملیاتی فرودگرها را تغییر داده‌اند. این تلاش‌ها برای آماده‌سازی مأموریت‌های سرنشین‌دار به ماه در سال ۲۰۲۸ انجام می‌شود.",
-   "link": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-23T22:39:39+00:00",
-   "ts": "2026-10-23T23:00:36.708212+00:00"
-  },
-  "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/": {
-   "title": "آرتمیس ۳؛ پرتاب مأموریت آزمایشی ناسا به سمت ماه در ۲۰۲۷",
-   "summary": "ناسا پیش از بازگشت فضانوردان به سطح ماه، یکی از پیچیده‌ترین مأموریت‌های آزمایشی تاریخ خود را با پرتاب آرتمیس ۳ در سال ۲۰۲۷ کلید می‌زند. چهار فضانورد ناسا به نام‌های رندی برسنیک، فرانک rubio، اندره دوگلاس و فضانورد آژانس فضایی اروپا لوکا پارمیتانو سوار بر سفینه اورایون به مدار پایین زمین ارسال خواهند شد.",
-   "link": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-23T22:37:53+00:00",
-   "ts": "2026-10-23T23:00:36.708212+00:00"
   }
  },
  "news_title_fp": {
@@ -134009,6 +134027,14 @@
   "c7fcb0672a106afb": {
    "fa": "2026-11-17",
    "en": "2026-11-17"
+  },
+  "fac9a6aef2bcb72f": {
+   "fa": "2026-11-18",
+   "en": "2026-11-18"
+  },
+  "fa4a1dc22abdb286": {
+   "fa": "2026-11-18",
+   "en": "2026-11-18"
   }
  },
  "news_title_recent": [
@@ -134647,6 +134673,14 @@
   [
    "c7fcb0672a106afb",
    "nasa space apps challenge breaks global hackathon records"
+  ],
+  [
+   "fac9a6aef2bcb72f",
+   "nicer status updates"
+  ],
+  [
+   "fa4a1dc22abdb286",
+   "nasa s terra mission to end"
   ]
  ],
  "combo_seen": {
