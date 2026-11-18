@@ -130581,43 +130581,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-18T03:33:27.286997+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-11-18T09:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/missions/station/nicer-status-updates/",
-     "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/"
-    ],
-    "en": [
-     "https://www.nasa.gov/missions/station/nicer-status-updates/",
-     "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/"
-    ],
-    "mode": "fresh (5 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-18T03:33:39.254277+00:00"
-  },
-  {
    "started_utc": "2026-11-18T03:45:56.625234+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -131976,6 +131939,33 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-18T17:45:07.101414+00:00"
+  },
+  {
+   "started_utc": "2026-11-18T18:01:02.343725+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "prepared": 0,
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-19T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "note": "not invoked by analysis-only worker"
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-18T18:05:08.508888+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
