@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-19T21:13:16.637Z",
+ "generated_utc": "2026-11-19T21:33:27.895Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2592,6 +2592,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-1o4jghq",
+   "title": "Science and Suits Fill Schedule as Crew Preps for Cargo Missions",
+   "title_fa": null,
+   "summary": "The Expedition 75 crew spent Thursday on a variety of research including an exercise study and a space physics investigation and servicing spacesuits. The orbital residents are also gearing up for a variety of cargo missions departing from and launching to the International Space Station this month.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss075e0267082/iss075e0267082~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T21:02:23.000Z"
+  },
+  {
    "slug": "nasa-1603hv7",
    "title": "Challenge: Public Input on Life and the World in 2075",
    "title_fa": "چالش: ورودی عمومی در مورد زندگی و جهان در سال 2075",
@@ -2782,18 +2794,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-17T17:50:37.000Z"
-  },
-  {
-   "slug": "nasa-1ewg3fu",
-   "title": "Biotechnology, Spacesuit Work, and Dragon Packing Start Week Aboard Station",
-   "title_fa": "شروع هفته پرکار با پژوهش زیستی و آماده‌سازی در ایستگاه فضایی",
-   "summary": "Biotechnology research including growing human lung cells and managing blood flow in space awaited the Expedition 75 crew on Monday. Spacesuit checks, cargo packing, and Earth observations rounded out the busy schedule aboard the International Space Station at the beginning of the week.",
-   "summary_fa": "هفته جدید در ایستگاه فضایی بین‌المللی با پژوهش‌های زیست‌فناوری برای تیم مأموریت اکسپدییشن ۷۵ آغاز شد، از جمله کشت سلول‌های ریه انسان و بررسی جریان خون در محیط بی‌وزنی. علاوه بر این، بازرسی لباس‌های فضانوردی و بسته‌بندی محموله‌های دراگون نیز در برنامهٔ این ماه قرار داشت.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0266049/iss075e0266049~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-16T22:24:06.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
