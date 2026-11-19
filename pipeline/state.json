@@ -77048,7 +77048,7 @@
   },
   "jw12525108001_02106_00002_nrcb1_i2d.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 32.34,
    "analyzed_utc": "2026-11-03T16:43:50.026911+00:00",
    "analysis": "analyses/2026/11/03/jw12525108001_02106_00002_nrcb1_i2d.fits.json",
@@ -77068,7 +77068,61 @@
    "combo": "BD+60 1753|NIRCAM|F187N",
    "sha256": "2e99151eca2bd95b42c602fb661486cbc1def1a5a7bd2a3604139457d7abfce9",
    "bytes": 829440,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4771,
+      "brightness": 0.5722,
+      "range": 0.8093,
+      "roi": 0.3234,
+      "score": 70.12
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 260,
+      "brightest_quadrant_percent": 72.692,
+      "width": 160,
+      "height": 161,
+      "sample_stride": 1,
+      "sample_count": 25735,
+      "finite_fraction": 0.99903,
+      "median": 1155.537109375,
+      "robust_scatter": 199.99716577148436,
+      "above_5scatter_percent": 1.0103,
+      "p99_above_median_scatter": 5.044,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4771,
+      "brightness": 0.5722,
+      "range": 0.8093,
+      "roi": 0.3234,
+      "score": 70.12
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 260,
+      "brightest_quadrant_percent": 72.692,
+      "width": 160,
+      "height": 161,
+      "sample_stride": 1,
+      "sample_count": 25735,
+      "finite_fraction": 0.99903,
+      "median": 1155.537109375,
+      "robust_scatter": 199.99716577148436,
+      "above_5scatter_percent": 1.0103,
+      "p99_above_median_scatter": 5.044,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-19T08:54:34.890174+00:00"
   },
   "jw10678080001_02101_00001_nrcb1_i2d.fits": {
    "channels": {},
@@ -139303,7 +139357,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-19T08:26:02.881776+00:00",
+ "paired_prepare_attempt_utc": "2026-11-19T08:51:00.372832+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
