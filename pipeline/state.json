@@ -130757,33 +130757,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-19T07:05:54.878549+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 1,
-    "enqueued": 1,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 3,
-    "next_window": "2026-11-19T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-19T07:09:24.611970+00:00"
-  },
-  {
    "started_utc": "2026-11-19T07:25:58.992704+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -132137,6 +132110,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-19T22:13:06.102143+00:00"
+  },
+  {
+   "started_utc": "2026-11-19T22:17:35.293266+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 2,
+    "next_window": "2026-11-20T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
+     "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+    ],
+    "en": [
+     "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
+     "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-19T22:17:49.850090+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -132918,9 +132928,35 @@
   "https://science.nasa.gov/blogs/mars/2026/11/19/nasas-perseverance-odyssey-teams-investigate-technical-issues/": {
    "fa": "2026-11-19T20:23:11.360995+00:00",
    "en": "2026-11-19T20:23:11.360995+00:00"
+  },
+  "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/": {
+   "fa": "2026-11-19T22:17:39.879294+00:00",
+   "en": "2026-11-19T22:17:39.879294+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/": {
+   "fa": "2026-11-19T22:17:39.879294+00:00",
+   "en": "2026-11-19T22:17:39.879294+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/": {
+   "title": "ناسا آخرین آزمایش موتور RS-25 را برای پشتیبانی از ماموریت های آینده آرتمیس انجام می دهد",
+   "summary": "ناسا موتور RS-25 شماره 10001 را در 18 نوامبر در ایستگاه آزمایشی Fred Haise در مرکز فضایی Stennis ناسا در نزدیکی Bay St. Louis، می سی سی پی آزمایش کرد. تیم های آزمایش موتور توسعه را برای مدت زمان برنامه ریزی شده سه دقیقه و 20 ثانیه (200 ثانیه) روشن کردند. در حالی که این موتور توسعه ای در پرواز استفاده نخواهد شد، اما داغ است",
+   "link": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-19T14:44:39+00:00",
+   "ts": "2026-11-19T22:17:39.879294+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/": {
+   "title": "وویجر 1 ناسا با رسیدن به یک روز نوری از زمین به تاریخ می پردازد",
+   "summary": "کاوشگر وویجر 1 ناسا، دورترین فضاپیمای بشریت، پس از بیش از 49 سال سفر مداوم، یک روز نوری از زمین فاصله گرفت. یک روز نوری مسافتی است که نور در 24 ساعت طی می کند که برابر با 16.1 میلیارد مایل (25.9 میلیارد کیلومتر) است. این فضاپیما در ساعت 2:16 بامداد به وقت شرقی (5:16 صبح به وقت شرقی) 18 نوامبر به نقطه عطف دست یافت. تیم وویجر",
+   "link": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-19T14:31:15+00:00",
+   "ts": "2026-11-19T22:17:39.879294+00:00"
+  },
   "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/": {
    "title": "چالش: ورودی عمومی در مورد زندگی و جهان در سال 2075",
    "summary": "ابزارها و فناوری‌های تحول‌آفرین ناسا (TTT) در حال جمع‌آوری دیدگاه‌های عمومی درباره زندگی امروز و چگونگی تغییر جهان تا سال 2075 است. این چالش ایده‌های مفهومی درباره زندگی در سال 2075 را در چهار موضوع چالشی می‌خواهد. ایده ها باید بررسی کنند که چگونه سیستم های هوانوردی یا هوافضا آینده می توانند: ایده ها باید مفهومی باشند تا فنی. جایزه: 20000 دلار",
@@ -134252,24 +134288,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-27T04:05:00+00:00",
    "ts": "2026-10-27T05:30:37.923240+00:00"
-  },
-  "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/": {
-   "title": "پنل‌های خورشیدی سفینه کاوشگر اجرام نزدیک به زمین ناسا بازرسی شد",
-   "summary": "پنل‌های خورشیدی محافظ سایه‌بان مأموریت NEO Surveyor ناسا، که توسط شرکت SolAero Technologies در آلبوکرکی نصب شده بود، در اواخر جولای توسط تکنسین‌های BAE Systems در کلرادو بازرسی شد. این سازهٔ سایه‌بان پیش‌تر توسط Applied Aerospace در استاکتون کالیفرنیا ساخته شده بود.",
-   "link": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-26T20:52:24+00:00",
-   "ts": "2026-10-27T00:07:28.881513+00:00"
-  },
-  "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/": {
-   "title": "پرسبرنس ناسا منظرهٔ ۳۶۰ درجهٔ نریتوا والیس در دهانهٔ جزرو مریخ را ثبت کرد",
-   "summary": "این تصویر سه‌صد و شصت درجه از نریتوا والیس در دهانهٔ جزرو مریخ، با ترکیب ۲۱۷ عکس گرفته‌شده توسط دوربین Mastcam-Z کاوشگر پرسبرنس در ۲۰ مهٔ ۲۰۲۴ (روز مریخی یک‌هزار و پانصد و پنجاهم) تهیه شده است. این منطقه امروز منظره‌ای غبارآلود و وزش‌خوردہ است، اما میلیاردها سال پیش مجرایی رودخانگی بود که آب شیرین را در خود جای داده بود.",
-   "link": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-26T22:48:12+00:00",
-   "ts": "2026-10-27T00:03:12.021926+00:00"
   }
  },
  "news_title_fp": {
@@ -134992,6 +135010,14 @@
    "en": "2026-11-19"
   },
   "a261955185e5bf21": {
+   "fa": "2026-11-19",
+   "en": "2026-11-19"
+  },
+  "5384ab4abe7e850d": {
+   "fa": "2026-11-19",
+   "en": "2026-11-19"
+  },
+  "c8fc78b8bc8a7b2c": {
    "fa": "2026-11-19",
    "en": "2026-11-19"
   }
@@ -135720,6 +135746,14 @@
   [
    "a261955185e5bf21",
    "nasa s perseverance odyssey teams investigate technical issues"
+  ],
+  [
+   "5384ab4abe7e850d",
+   "nasa conducts latest rs 25 engine test in support of future artemis missions"
+  ],
+  [
+   "c8fc78b8bc8a7b2c",
+   "nasa s voyager 1 makes history reaching one light day from earth"
   ]
  ],
  "combo_seen": {
