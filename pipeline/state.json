@@ -139094,11 +139094,11 @@
    "end": "2026-11-19T03:30:00.000Z",
    "status": "waiting",
    "product": null,
-   "note": null,
+   "note": "no approved paired reserve",
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-19T02:06:09.161236+00:00",
+ "paired_prepare_attempt_utc": "2026-11-19T02:45:58.150357+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
