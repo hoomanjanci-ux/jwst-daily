@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-19T02:49:37.112Z",
+ "generated_utc": "2026-11-19T02:51:43.300Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2543,9 +2543,9 @@
   {
    "slug": "science-14w3274",
    "title": "Voyager 1 Engineers Analyze Data Issue, Ready to Confirm Light-day",
-   "title_fa": null,
+   "title_fa": "مهندسان وویجر 1 در حال بررسی مشکل داده‌ها هستند و آماده تأیید روز نوری هستند",
    "summary": "On Nov. 14, the Voyager 1 mission team became aware that the spacecraft had stopped sending science and engineering data after a NASA Deep Space Network (DSN) antenna in Canberra, Australia, “locked on” to the spacecraft and received a carrier signal, which is used to carry science and engineering data from the spacecraft to ground […]",
-   "summary_fa": null,
+   "summary_fa": "در 14 نوامبر، تیم مأموریت وویجر 1 متوجه شد که این فضاپیما پس از اینکه یک آنتن شبکه فضایی عمیق ناسا (DSN) در کانبرا، استرالیا، روی فضاپیما «قفل شد» و یک سیگنال حامل دریافت کرد، ارسال داده‌های علمی و مهندسی را متوقف کرده است. این سیگنال حامل برای انتقال داده‌های علمی و مهندسی از فضاپیما به زمین استفاده می‌شود.",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/spacecraft-profile-1.jpg?w=800&h=438&fit=clip",
    "link": "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
    "source": "NASA Blogs",
@@ -2555,9 +2555,9 @@
   {
    "slug": "nasa-wrcpwf",
    "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
-   "title_fa": null,
+   "title_fa": "ناسا پوشش خبری پرتاب CRS-25 نورثروپ گرومن و مراحل قبل از پرتاب را فراهم می‌کند",
    "summary": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus […]",
-   "summary_fa": null,
+   "summary_fa": "ناسا، نورثروپ گرومن و اسپیس‌اکس قصد دارند زودتر از ساعت 10:47 صبح به وقت استاندارد شرقی، یکشنبه 29 نوامبر، پرتاب بعدی را انجام دهند که در آن تحقیقات علمی، تدارکات و تجهیزات به ایستگاه فضایی بین‌المللی ارسال می‌شود. این سازمان همچنین روز دوشنبه 23 نوامبر یک کنفرانس تلفنی رسانه‌ای قبل از پرتاب برگزار خواهد کرد. فضاپیمای Cygnus شرکت نورثروپ گرومن که تقریباً 11,000 پوند محموله در آن بارگیری شده است",
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?w=1920",
    "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
    "source": "NASA",

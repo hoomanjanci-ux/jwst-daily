@@ -130597,43 +130597,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-18T12:53:29.424981+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 0,
-    "next_window": "2026-11-18T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
-     "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/"
-    ],
-    "en": [
-     "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
-     "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/"
-    ],
-    "mode": "fresh (2 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-18T12:53:44.369806+00:00"
-  },
-  {
    "started_utc": "2026-11-18T13:00:56.720422+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -132005,6 +131968,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-19T02:49:34.700970+00:00"
+  },
+  {
+   "started_utc": "2026-11-19T02:51:19.323789+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-19/06",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "waiting",
+    "ready_pairs": 0,
+    "next_window": "2026-11-19T09:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
+     "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
+     "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-19T02:51:37.231664+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -132758,9 +132758,35 @@
   "https://www.nasa.gov/blogs/smallsatellites/2026/11/18/nasa-completes-prelaunch-instrument-testing-for-hydrosat-osiris/": {
    "fa": "2026-11-18T22:17:15.784123+00:00",
    "en": "2026-11-18T22:17:15.784123+00:00"
+  },
+  "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/": {
+   "fa": "2026-11-19T02:51:22.854584+00:00",
+   "en": "2026-11-19T02:51:22.854584+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/": {
+   "fa": "2026-11-19T02:51:22.854584+00:00",
+   "en": "2026-11-19T02:51:22.854584+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/": {
+   "title": "مهندسان وویجر 1 در حال بررسی مشکل داده‌ها هستند و آماده تأیید روز نوری هستند",
+   "summary": "در 14 نوامبر، تیم مأموریت وویجر 1 متوجه شد که این فضاپیما پس از اینکه یک آنتن شبکه فضایی عمیق ناسا (DSN) در کانبرا، استرالیا، روی فضاپیما «قفل شد» و یک سیگنال حامل دریافت کرد، ارسال داده‌های علمی و مهندسی را متوقف کرده است. این سیگنال حامل برای انتقال داده‌های علمی و مهندسی از فضاپیما به زمین استفاده می‌شود.",
+   "link": "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-19T01:37:26+00:00",
+   "ts": "2026-11-19T02:51:22.854584+00:00"
+  },
+  "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/": {
+   "title": "ناسا پوشش خبری پرتاب CRS-25 نورثروپ گرومن و مراحل قبل از پرتاب را فراهم می‌کند",
+   "summary": "ناسا، نورثروپ گرومن و اسپیس‌اکس قصد دارند زودتر از ساعت 10:47 صبح به وقت استاندارد شرقی، یکشنبه 29 نوامبر، پرتاب بعدی را انجام دهند که در آن تحقیقات علمی، تدارکات و تجهیزات به ایستگاه فضایی بین‌المللی ارسال می‌شود. این سازمان همچنین روز دوشنبه 23 نوامبر یک کنفرانس تلفنی رسانه‌ای قبل از پرتاب برگزار خواهد کرد. فضاپیمای Cygnus شرکت نورثروپ گرومن که تقریباً 11,000 پوند محموله در آن بارگیری شده است",
+   "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-18T22:19:17+00:00",
+   "ts": "2026-11-19T02:51:22.854584+00:00"
+  },
   "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/": {
    "title": "دانشمندان ناسا سرنخ هایی از یخ های باستانی آن سوی نپتون پیدا کردند",
    "summary": "مطالعه جدید ناسا در مورد ذرات غبار فضایی ردیابی شده در کمربند کویپر قوی ترین شواهد را برای مخزن باستانی یخ غنی شده با ایزوتوپ های اکسیژن سنگین تر ارائه می دهد. این یافته ها به دانشمندان کمک می کند تا حرکت مواد در منظومه شمسی اولیه و فرآیندهایی را که شکل گیری سیاره ها را شکل داده اند، بهتر درک کنند.",
@@ -134092,24 +134118,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-26T19:28:08+00:00",
    "ts": "2026-10-26T20:06:31.771088+00:00"
-  },
-  "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/": {
-   "title": "ناسا از خبرنگاران برای بازدید از شبیه‌ساز فرود ماه دعوت کرد",
-   "summary": "ناسا از خبرنگاران دعوت کرده تا پنجشنبه ۲۹ و جمعه ۳۰ اکتبر از شبیه‌ساز جدید فرود ماه در مرکز تحقیقات آیمز واقع در سیلیکون ولی کالیفرنیا بازدید کنند.",
-   "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-26T17:13:44+00:00",
-   "ts": "2026-10-26T20:06:31.771088+00:00"
-  },
-  "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/": {
-   "title": "شروع هفته با آمادگی برای پیاده‌روی فضایی و پژوهش‌های پیشرفته در ایستگاه فضایی",
-   "summary": "اعضای مأموریت اکسپدیشن ۷۵ صبح شنبه را به آماده‌سازی برای پیاده‌روی فضایی جهت ارتقای سیستم تولید برق ایستگاه فضایی اختصاص دادند. در کنار عملیات باربری، پژوهش‌هایی بر روی رگ‌های خونی زیستیِ چاپ‌شده و تکنیک‌های آرام‌سازی نیز انجام شد.",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/26/week-begins-with-robotics-prep-for-spacewalk-and-advanced-research/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date": "2026-10-26T15:48:51+00:00",
-   "ts": "2026-10-26T17:14:55.549788+00:00"
   }
  },
  "news_title_fp": {
@@ -134806,6 +134814,14 @@
   "f35ef2f180a96cf8": {
    "fa": "2026-11-18",
    "en": "2026-11-18"
+  },
+  "0c6ff0e908a2af92": {
+   "fa": "2026-11-19",
+   "en": "2026-11-19"
+  },
+  "33d52633199d4c83": {
+   "fa": "2026-11-19",
+   "en": "2026-11-19"
   }
  },
  "news_title_recent": [
@@ -135504,6 +135520,14 @@
   [
    "f35ef2f180a96cf8",
    "nasa completes prelaunch instrument testing for hydrosat osiris"
+  ],
+  [
+   "0c6ff0e908a2af92",
+   "voyager 1 engineers analyze data issue ready to confirm light day"
+  ],
+  [
+   "33d52633199d4c83",
+   "nasa sets coverage for northrop grumman crs 25 launch prelaunch"
   ]
  ],
  "combo_seen": {
