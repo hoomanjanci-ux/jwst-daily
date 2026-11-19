@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-19T19:39:01.760Z",
+ "generated_utc": "2026-11-19T19:53:30.412Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2592,6 +2592,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-1603hv7",
+   "title": "Challenge: Public Input on Life and the World in 2075",
+   "title_fa": null,
+   "summary": "NASA’s Transformational Tools and Technologies (TTT) is gathering public perspectives on life today and how the world may change by 2075. This challenge asks for conceptual ideas about life in 2075 across four challenge topics. Ideas should explore how future aviation or aerospace systems could: Ideas should be conceptual rather than technical. Award: $20,000 in […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2015/07/kerho-concept-v2.jpg?w=2048",
+   "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-19T19:34:20.000Z"
+  },
+  {
    "slug": "science-vntg2y",
    "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
    "title_fa": "داده های علمی ناسا روش جدیدی را برای کشف تپ اخترهای سخت پیدا می کند",
@@ -2710,18 +2722,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-18T18:12:32.000Z"
-  },
-  {
-   "slug": "nasa-1i9itbm",
-   "title": "Empire State Building Goes Gold for Voyager",
-   "title_fa": "ساختمان امپایر استیت برای وویجر طلا شد",
-   "summary": "The Empire State Building is seen illuminated in gold to celebrate NASA’s Voyager 1 spacecraft as it was about to pass one light-day away from Earth, a distance reached by no other human-made object, Nov. 17, 2026. The color gold represents the gold-plated copper phonograph record that is flying on Voyager; the Golden Record contains […]",
-   "summary_fa": "ساختمان امپایر استیت برای جشن فضاپیمای وویجر 1 ناسا در حالی که می‌خواست یک روز نوری از زمین بگذرد، با فاصله‌ای که توسط هیچ شیء ساخته‌شده‌ای توسط بشر به آن نمی‌رسید، در 17 نوامبر 2026، با رنگ طلایی روشن شده است. رنگ طلایی نشان‌دهنده رکورد گرامافون مسی با روکش طلا است که در وویجر پرواز می‌کند. رکورد طلایی شامل",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/55658604092-c6f0765cc5-o.jpg?w=2048",
-   "link": "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-18T17:50:26.000Z"
   },
   {
    "slug": "nasa-118833t",
