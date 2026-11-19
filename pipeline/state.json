@@ -130757,33 +130757,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-19T07:25:58.992704+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 3,
-    "next_window": "2026-11-19T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-19T07:29:24.823540+00:00"
-  },
-  {
    "started_utc": "2026-11-19T07:45:59.074509+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -132147,6 +132120,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-19T22:17:49.850090+00:00"
+  },
+  {
+   "started_utc": "2026-11-19T22:24:06.500000+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 2,
+    "next_window": "2026-11-20T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
+     "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/"
+    ],
+    "en": [
+     "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
+     "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-19T22:24:18.719141+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -132936,9 +132946,35 @@
   "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/": {
    "fa": "2026-11-19T22:17:39.879294+00:00",
    "en": "2026-11-19T22:17:39.879294+00:00"
+  },
+  "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/": {
+   "fa": "2026-11-19T22:24:10.694528+00:00",
+   "en": "2026-11-19T22:24:10.694528+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/": {
+   "fa": "2026-11-19T22:24:10.694528+00:00",
+   "en": "2026-11-19T22:24:10.694528+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/": {
+   "title": "تحقیقات میدانی ناسا آریزونا، علم سیاره‌ای را پیش می‌برد",
+   "summary": "برای درک بهتر فرآیندهایی که زمین، ماه، مریخ و جهان‌های فراتر از آن را شکل می‌دهند، تیم میدان ابزار گودارد ناسا به فلگ استاف، آریزونا رفت.",
+   "link": "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-19T21:18:36+00:00",
+   "ts": "2026-11-19T22:24:10.694528+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/": {
+   "title": "برنامه علمی و لباس‌ها به عنوان آماده‌سازی خدمه برای ماموریت‌های باربری",
+   "summary": "خدمه اکسپدیشن 75 روز پنجشنبه را در تحقیقات مختلفی از جمله مطالعه تمرین و تحقیق فیزیک فضایی و سرویس لباس های فضایی صرف کردند. ساکنان مداری همچنین در حال آماده شدن برای انواع ماموریت های باری هستند که در این ماه از ایستگاه فضایی بین المللی حرکت می کنند و به سمت آن پرتاب می شوند.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-19T21:02:23+00:00",
+   "ts": "2026-11-19T22:24:10.694528+00:00"
+  },
   "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/": {
    "title": "ناسا آخرین آزمایش موتور RS-25 را برای پشتیبانی از ماموریت های آینده آرتمیس انجام می دهد",
    "summary": "ناسا موتور RS-25 شماره 10001 را در 18 نوامبر در ایستگاه آزمایشی Fred Haise در مرکز فضایی Stennis ناسا در نزدیکی Bay St. Louis، می سی سی پی آزمایش کرد. تیم های آزمایش موتور توسعه را برای مدت زمان برنامه ریزی شده سه دقیقه و 20 ثانیه (200 ثانیه) روشن کردند. در حالی که این موتور توسعه ای در پرواز استفاده نخواهد شد، اما داغ است",
@@ -134270,24 +134306,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-27T17:58:57+00:00",
    "ts": "2026-10-27T19:29:43.117293+00:00"
-  },
-  "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/": {
-   "title": "سایه‌ی منتور: چگونه یک مهندس ناسا نسلی جدید را شکل می‌دهد",
-   "summary": "مالویکا بهرادواج، دانشجوی دانشگاه رایس، از دانیل کوهن، مهندس ناوبری و هدایت در مرکز فضایی جانسون ناسا، پرسید آیا با وجود مشغله‌ی زیاد زمان تدریس به کارآموزان را دارد. کوهن پاسخ داد: «تو تعیین کن چه چیزی مهم است.» به مناسبت روز ملی راهنمایی، بهرادواج از تأثیر این منتور سخن می‌گوید.",
-   "link": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-27T07:07:51+00:00",
-   "ts": "2026-10-27T07:37:50.427704+00:00"
-  },
-  "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/": {
-   "title": "ابرهای شب‌درخش بر فراز سوئد",
-   "summary": "تصویر نجومی روز ناسا به تاریخ ۲۷ اکتبر ۲۰۲۶، ابرهای شب‌درخش را بر فراز آسمان سوئد به نمایش می‌گذارد. این ابرها از یخ‌های نانومتری تشکیل شده‌اند و در بالاترین لایهٔ جوّ زمین، در فاصلهٔ حدود ۸۰ کیلومتری از سطح زمین شکل می‌گیرند.",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-27T04:05:00+00:00",
-   "ts": "2026-10-27T05:30:37.923240+00:00"
   }
  },
  "news_title_fp": {
@@ -135018,6 +135036,14 @@
    "en": "2026-11-19"
   },
   "c8fc78b8bc8a7b2c": {
+   "fa": "2026-11-19",
+   "en": "2026-11-19"
+  },
+  "137d1cf13678d9e3": {
+   "fa": "2026-11-19",
+   "en": "2026-11-19"
+  },
+  "8697128906508dde": {
    "fa": "2026-11-19",
    "en": "2026-11-19"
   }
@@ -135754,6 +135780,14 @@
   [
    "c8fc78b8bc8a7b2c",
    "nasa s voyager 1 makes history reaching one light day from earth"
+  ],
+  [
+   "137d1cf13678d9e3",
+   "nasa arizona field investigations advance planetary science"
+  ],
+  [
+   "8697128906508dde",
+   "science and suits fill schedule as crew preps for cargo missions"
   ]
  ],
  "combo_seen": {
