@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-19T19:53:30.412Z",
+ "generated_utc": "2026-11-19T20:13:53.266Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2604,6 +2604,18 @@
    "date_utc": "2026-11-19T19:34:20.000Z"
   },
   {
+   "slug": "science-1j9di9l",
+   "title": "NASA’s Perseverance, Odyssey Teams Investigate Technical Issues",
+   "title_fa": null,
+   "summary": "NASA teams supporting the agency’s Perseverance Mars rover and 2001 Mars Odyssey orbiter missions are investigating separate technical issues affecting science operations on the two missions. Out of an abundance of caution, science activities are temporarily paused for the Perseverance rover on Mars while ground teams work on issues with its two UHF radios used […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia04/pia04304/PIA04304.jpg?w=2024&h=1918&fit=clip",
+   "link": "https://science.nasa.gov/blogs/mars/2026/11/19/nasas-perseverance-odyssey-teams-investigate-technical-issues/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T18:51:54.000Z"
+  },
+  {
    "slug": "science-vntg2y",
    "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
    "title_fa": "داده های علمی ناسا روش جدیدی را برای کشف تپ اخترهای سخت پیدا می کند",
@@ -2782,18 +2794,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-16T22:24:06.000Z"
-  },
-  {
-   "slug": "science-1yy07fu",
-   "title": "NASA Payload to Study Gamma Rays Arrives at Northrop Grumman",
-   "title_fa": "بار علمی مأموریت COSI ناسا به نورثروپ گرامن رسید",
-   "summary": "The scientific payload for NASA’s upcoming COSI mission arrived at Northrop Grumman’s satellite manufacturing facility in Sterling, Virginia, earlier this month.",
-   "summary_fa": "بار علمی مأموریت COSI ناسا که برای مطالعهٔ پرتوهای گاما طراحی شده، اوایل همین ماه به کارخانهٔ ساخت ماهواره‌های نورثروپ گرامن در ویرجینیا رسید.",
-   "image": "https://assets.science.nasa.gov/content/dam/science/missions/cosi-(compton-spectrometer-and-imager)/news/2026/ng-delivery/COSI_ship_03_2192x1233.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "link": "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-16T18:31:57.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
