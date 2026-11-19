@@ -68693,11 +68693,15 @@
   },
   "jw10678132001_02101_00003_nrca4_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "|NIRCAM|F212N",
+   "sha256": "45a13d034694a86b849b4f062c0d7acc8f0a8000203647d7f179c3741762bb6e"
   },
   "jw10678132001_02101_00003_nrca3_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "|NIRCAM|F212N",
+   "sha256": "3b4895c3b9bb21c43f0031dd91c09c104b5cdea3968aa98ba7fe9869c84d47b9"
   },
   "jw10678132001_02101_00003_nrcb1_i2d.fits": {
    "channels": {},
@@ -70629,7 +70633,9 @@
   },
   "jw10678132001_02101_00003_nrca4_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "|NIRCAM|F212N",
+   "sha256": "2b8d47e7685e1e98beb716ad8a6376b0902b5bac9074ca8db55e4cadd73b9f93"
   },
   "jw10678132001_02101_00003_nrca3_rate.fits": {
    "channels": {},
@@ -82494,7 +82500,9 @@
   },
   "jw10678132001_02101_00003_nrcalong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "|NIRCAM|F480M",
+   "sha256": "afa295437ac43c124b89c06a2cef1fc7b5b29185bcc7962116cfbe6cc58605f3"
   },
   "jw10678132001_02101_00005_nrcalong_i2d.fits": {
    "channels": {},
@@ -135581,7 +135589,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-19",
-  "bytes": 444744000
+  "bytes": 886726080
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -139091,7 +139099,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-19T01:26:00.300672+00:00",
+ "paired_prepare_attempt_utc": "2026-11-19T01:46:00.776783+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
