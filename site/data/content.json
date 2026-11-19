@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-19T21:53:00.439Z",
+ "generated_utc": "2026-11-19T22:13:09.089Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2592,6 +2592,18 @@
  ],
  "news": [
   {
+   "slug": "science-1yn73bm",
+   "title": "NASA Arizona Field Investigations Advance Planetary Science",
+   "title_fa": null,
+   "summary": "To better understand processes shaping Earth, the Moon, Mars, and worlds beyond, NASA’s Goddard Instrument Field Team headed to Flagstaff, Arizona.",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/planetary-expeditions/2026-09-gift-flagstaff/GIFT-flagstaff-2026-geophysics-meteor-crater.jpg?w=2048&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T21:18:36.000Z"
+  },
+  {
    "slug": "nasa-1o4jghq",
    "title": "Science and Suits Fill Schedule as Crew Preps for Cargo Missions",
    "title_fa": null,
@@ -2782,18 +2794,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-17T19:28:52.000Z"
-  },
-  {
-   "slug": "science-bs6x7t",
-   "title": "NASA’s Terra Mission to End",
-   "title_fa": "پایان ماموریت ترا ناسا",
-   "summary": "After 27 years of providing insights into Earth’s interconnected atmosphere, lands, oceans, and biology, NASA’s Terra satellite will stop collecting science data on Dec. 1. Terra, a workhorse of the Earth Observing System, was designed for a six-year mission. After operating for more than four times that, the spacecraft’s systems are aging and its orbit is […]",
-   "summary_fa": "پس از 27 سال ارائه بینش در مورد جو به هم پیوسته زمین، زمین ها، اقیانوس ها و زیست شناسی، ماهواره Terra ناسا جمع آوری داده های علمی را در 1 دسامبر متوقف خواهد کرد. Terra، اسب کاری سیستم رصد زمین، برای یک ماموریت شش ساله طراحی شده است. پس از بیش از چهار برابر عملیات، سیستم های فضاپیما در حال پیر شدن و مدار آن است",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/blogs/2026/KSC-99pp1412~orig.jpg?w=2048&h=1783&fit=clip",
-   "link": "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-17T17:50:37.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
