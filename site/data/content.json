@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20T22:30:05.291Z",
+ "generated_utc": "2026-11-20T23:32:39.037Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2711,6 +2711,18 @@
  ],
  "news": [
   {
+   "slug": "science-1s7w004",
+   "title": "Curiosity Spots Drifting Twilight Clouds",
+   "title_fa": null,
+   "summary": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg?w=1536&h=603&fit=clip",
+   "link": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-20T22:27:05.000Z"
+  },
+  {
    "slug": "nasa-ifz26y",
    "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
    "title_fa": "تامین مالی جدید ناسا، کسب و کارهای کوچک را برای نوآوری آغاز می کند",
@@ -2877,18 +2889,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-19T14:44:39.000Z"
-  },
-  {
-   "slug": "nasa-1blcsqm",
-   "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-   "title_fa": "وویجر 1 ناسا با رسیدن به یک روز نوری از زمین به تاریخ می پردازد",
-   "summary": "NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18. Voyager team […]",
-   "summary_fa": "کاوشگر وویجر 1 ناسا، دورترین فضاپیمای بشریت، پس از بیش از 49 سال سفر مداوم، یک روز نوری از زمین فاصله گرفت. یک روز نوری مسافتی است که نور در 24 ساعت طی می کند که برابر با 16.1 میلیارد مایل (25.9 میلیارد کیلومتر) است. این فضاپیما در ساعت 2:16 بامداد به وقت شرقی (5:16 صبح به وقت شرقی) 18 نوامبر به نقطه عطف دست یافت. تیم وویجر",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?w=2048",
-   "link": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T14:31:15.000Z"
   },
   {
    "slug": "science-14w3274",
