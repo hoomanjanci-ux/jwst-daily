@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20T01:00:11.468Z",
+ "generated_utc": "2026-11-20T01:27:59.889Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2643,6 +2643,30 @@
  ],
  "news": [
   {
+   "slug": "science-1yn73bm",
+   "title": "NASA Arizona Field Investigations Advance Planetary Science",
+   "title_fa": "تحقیقات میدانی ناسا آریزونا، علم سیاره‌ای را پیش می‌برد",
+   "summary": "To better understand processes shaping Earth, the Moon, Mars, and worlds beyond, NASA’s Goddard Instrument Field Team headed to Flagstaff, Arizona.",
+   "summary_fa": "برای درک بهتر فرآیندهایی که زمین، ماه، مریخ و جهان‌های فراتر از آن را شکل می‌دهند، تیم میدان ابزار گودارد ناسا به فلگ استاف، آریزونا رفت.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/planetary-expeditions/2026-09-gift-flagstaff/GIFT-flagstaff-2026-geophysics-meteor-crater.jpg?w=2048&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T21:18:36.000Z"
+  },
+  {
+   "slug": "nasa-1o4jghq",
+   "title": "Science and Suits Fill Schedule as Crew Preps for Cargo Missions",
+   "title_fa": "برنامه علمی و لباس‌ها به عنوان آماده‌سازی خدمه برای ماموریت‌های باربری",
+   "summary": "The Expedition 75 crew spent Thursday on a variety of research including an exercise study and a space physics investigation and servicing spacesuits. The orbital residents are also gearing up for a variety of cargo missions departing from and launching to the International Space Station this month.",
+   "summary_fa": "خدمه اکسپدیشن 75 روز پنجشنبه را در تحقیقات مختلفی از جمله مطالعه تمرین و تحقیق فیزیک فضایی و سرویس لباس های فضایی صرف کردند. ساکنان مداری همچنین در حال آماده شدن برای انواع ماموریت های باری هستند که در این ماه از ایستگاه فضایی بین المللی حرکت می کنند و به سمت آن پرتاب می شوند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0267082/iss075e0267082~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T21:02:23.000Z"
+  },
+  {
    "slug": "nasa-1603hv7",
    "title": "Challenge: Public Input on Life and the World in 2075",
    "title_fa": "چالش: ورودی عمومی در مورد زندگی و جهان در سال 2075",
@@ -2653,6 +2677,18 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-19T19:34:20.000Z"
+  },
+  {
+   "slug": "science-1j9di9l",
+   "title": "NASA’s Perseverance, Odyssey Teams Investigate Technical Issues",
+   "title_fa": "تیم‌های استقامت، اودیسه ناسا مسائل فنی را بررسی می‌کنند",
+   "summary": "NASA teams supporting the agency’s Perseverance Mars rover and 2001 Mars Odyssey orbiter missions are investigating separate technical issues affecting science operations on the two missions. Out of an abundance of caution, science activities are temporarily paused for the Perseverance rover on Mars while ground teams work on issues with its two UHF radios used […]",
+   "summary_fa": "تیم‌های ناسا که از مریخ‌نورد Perseverance و مأموریت‌های مدارگرد مریخ اودیسه ۲۰۰۱ حمایت می‌کنند، در حال بررسی مسائل فنی جداگانه‌ای هستند که بر عملیات علمی در این دو مأموریت تأثیر می‌گذارد. به دلیل احتیاط فراوان، فعالیت‌های علمی برای مریخ‌نورد Perseverance در مریخ موقتاً متوقف می‌شوند در حالی که تیم‌های زمینی روی مشکلات مربوط به دو رادیوی UHF استفاده شده آن کار می‌کنند.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia04/pia04304/PIA04304.jpg?w=2024&h=1918&fit=clip",
+   "link": "https://science.nasa.gov/blogs/mars/2026/11/19/nasas-perseverance-odyssey-teams-investigate-technical-issues/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T18:51:54.000Z"
   },
   {
    "slug": "science-vntg2y",
@@ -2715,6 +2751,18 @@
    "date_utc": "2026-11-19T05:05:00.000Z"
   },
   {
+   "slug": "science-14w3274",
+   "title": "Voyager 1 Engineers Analyze Data Issue, Ready to Confirm Light-day",
+   "title_fa": "مهندسان وویجر 1 در حال بررسی مشکل داده‌ها هستند و آماده تأیید روز نوری هستند",
+   "summary": "On Nov. 14, the Voyager 1 mission team became aware that the spacecraft had stopped sending science and engineering data after a NASA Deep Space Network (DSN) antenna in Canberra, Australia, “locked on” to the spacecraft and received a carrier signal, which is used to carry science and engineering data from the spacecraft to ground […]",
+   "summary_fa": "در 14 نوامبر، تیم مأموریت وویجر 1 متوجه شد که این فضاپیما پس از اینکه یک آنتن شبکه فضایی عمیق ناسا (DSN) در کانبرا، استرالیا، روی فضاپیما «قفل شد» و یک سیگنال حامل دریافت کرد، ارسال داده‌های علمی و مهندسی را متوقف کرده است. این سیگنال حامل برای انتقال داده‌های علمی و مهندسی از فضاپیما به زمین استفاده می‌شود.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/spacecraft-profile-1.jpg?w=800&h=438&fit=clip",
+   "link": "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T01:37:26.000Z"
+  },
+  {
    "slug": "nasa-wrcpwf",
    "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
    "title_fa": "ناسا پوشش خبری پرتاب CRS-25 نورثروپ گرومن و مراحل قبل از پرتاب را فراهم می‌کند",
@@ -2727,6 +2775,30 @@
    "date_utc": "2026-11-18T22:19:17.000Z"
   },
   {
+   "slug": "science-xa9oa3",
+   "title": "NASA Scientists Find Clues to Ancient Ice Beyond Neptune",
+   "title_fa": "دانشمندان ناسا سرنخ هایی از یخ های باستانی آن سوی نپتون پیدا کردند",
+   "summary": "A new NASA study of space dust particles traced to the Kuiper Belt provides the strongest evidence yet for an ancient reservoir of ice enriched in heavier oxygen isotopes. The findings help scientists better understand the movement of materials in the early solar system and the processes that shaped planet formation.",
+   "summary_fa": "مطالعه جدید ناسا در مورد ذرات غبار فضایی ردیابی شده در کمربند کویپر قوی ترین شواهد را برای مخزن باستانی یخ غنی شده با ایزوتوپ های اکسیژن سنگین تر ارائه می دهد. این یافته ها به دانشمندان کمک می کند تا حرکت مواد در منظومه شمسی اولیه و فرآیندهایی را که شکل گیری سیاره ها را شکل داده اند، بهتر درک کنند.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/ares/Artist’s%20Impression%20of%20Kuiper%20Belt%20Object.jpg?w=2048&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T20:54:51.000Z"
+  },
+  {
+   "slug": "nasa-1kv8hh5",
+   "title": "NASA, SpaceX Prepare for Dragon Undocking as Science Packing Continues",
+   "title_fa": "ناسا و اسپیس ایکس برای باز کردن اژدها آماده می شوند زیرا بسته بندی علمی ادامه دارد",
+   "summary": "Due to unfavorable weather, NASA and SpaceX are standing down from Wednesday’s undocking opportunity of the Dragon cargo spacecraft that arrived at the International Space Station on Oct. 15.",
+   "summary_fa": "به دلیل آب و هوای نامناسب، ناسا و اسپیس ایکس از فرصت بازگشایی روز چهارشنبه فضاپیمای باری دراگون که در 15 اکتبر به ایستگاه فضایی بین‌المللی رسید، کنار می‌روند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0250810/iss075e0250810~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T19:09:48.000Z"
+  },
+  {
    "slug": "nasa-22xm9q",
    "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
    "title_fa": "ناسا چالش موشکی با توان متوسط ​​را برای شرکت های آمریکایی اعلام کرد",
@@ -2737,6 +2809,42 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-18T18:12:32.000Z"
+  },
+  {
+   "slug": "nasa-118833t",
+   "title": "NASA Completes Prelaunch Instrument Testing for Hydrosat Osiris",
+   "title_fa": "ناسا آزمایش ابزار پیش از پرتاب Hydrosat Osiris را تکمیل کرد",
+   "summary": "Satellites designed to track water dynamics and temperature changes across Earth’s surface launch in 2027",
+   "summary_fa": "ماهواره‌هایی که برای ردیابی دینامیک آب و تغییرات دما در سراسر پرتاب سطح زمین در سال 2027 طراحی شده‌اند",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/gsfc-20261023-glamr-5331-nb.jpg?w=2048",
+   "link": "https://www.nasa.gov/blogs/smallsatellites/2026/11/18/nasa-completes-prelaunch-instrument-testing-for-hydrosat-osiris/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T16:37:15.000Z"
+  },
+  {
+   "slug": "nasa-1wp4ei3",
+   "title": "NASA, SpaceX Stand Down from Dragon’s Undocking on Wednesday",
+   "title_fa": "ناسا و اسپیس ایکس در روز چهارشنبه از Dragon’s Undocking کنار می روند",
+   "summary": "NASA and SpaceX are standing down from Wednesday's Dragon undocking opportunity from the International Space Station due to unfavorable weather conditions at the splashdown sites off the coast of California.",
+   "summary_fa": "ناسا و اسپیس ایکس به دلیل شرایط نامساعد جوی در محل‌های سقوط در سواحل کالیفرنیا، از فرصت بازگشایی اژدها از ایستگاه فضایی بین‌المللی در روز چهارشنبه خودداری می‌کنند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T06:44:57.000Z"
+  },
+  {
+   "slug": "nasa-hbayi0",
+   "title": "Cardiac Research, Exercise Studies on Station Keeping Crews Healthy",
+   "title_fa": "تحقیقات قلبی، مطالعات ورزشی در مورد سلامت خدمه ایستگاه",
+   "summary": "Cardiac research and space exercise were the main experiments for the Expedition 75 crew members on Tuesday. The International Space Station residents are also preparing scientific samples for return to Earth.",
+   "summary_fa": "تحقیقات قلبی و تمرینات فضایی آزمایش‌های اصلی برای خدمه اکسپدیشن ۷۵ در روز سه‌شنبه بود. ساکنان ایستگاه فضایی بین المللی نیز در حال آماده سازی نمونه های علمی برای بازگشت به زمین هستند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0227303/iss075e0227303~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/17/cardiac-research-exercise-studies-on-station-keeping-crews-healthy/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-17T19:28:52.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
