@@ -3179,7 +3179,27 @@
   },
   "jw08559010001_02107_00003_nrca4_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "analyzed",
+   "score": 34.46,
+   "analyzed_utc": "2026-11-20T00:04:10.811993+00:00",
+   "analysis": "analyses/2026/11/20/jw08559010001_02107_00003_nrca4_i2d.fits.json",
+   "cand": {
+    "filename": "jw08559010001_02107_00003_nrca4_i2d.fits",
+    "size_mb": 113.206,
+    "uri": "mast:JWST/product/jw08559010001_02107_00003_nrca4_i2d.fits",
+    "proposal": "8559",
+    "obs_id": "jw08559010001_02107_00003_nrca4",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw08559010001_02107_00003_nrca4_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw08559010001_02107_00003_nrca4_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw08559010001_02107_00003_nrca4_i2d.jpg"
+   },
+   "meta_TARGNAME": "",
+   "meta_FILTER": "F210M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "|NIRCAM|F210M",
+   "sha256": "13dffffc891f0e2b9ea3ea568ac5e2d57a5c90b570cdce10d31f6bfeb5748865",
+   "bytes": 118704960,
+   "published_utc": null
   },
   "jw08559010001_02109_00004_nrcb2_i2d.fits": {
    "channels": {},
@@ -3187,7 +3207,27 @@
   },
   "jw08559010001_02107_00003_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "analyzed",
+   "score": 35.57,
+   "analyzed_utc": "2026-11-20T00:04:22.186877+00:00",
+   "analysis": "analyses/2026/11/20/jw08559010001_02107_00003_nrcblong_i2d.fits.json",
+   "cand": {
+    "filename": "jw08559010001_02107_00003_nrcblong_i2d.fits",
+    "size_mb": 114.744,
+    "uri": "mast:JWST/product/jw08559010001_02107_00003_nrcblong_i2d.fits",
+    "proposal": "8559",
+    "obs_id": "jw08559010001_02107_00003_nrcblong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw08559010001_02107_00003_nrcblong_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw08559010001_02107_00003_nrcblong_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw08559010001_02107_00003_nrcblong_i2d.jpg"
+   },
+   "meta_TARGNAME": "",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "|NIRCAM|F335M",
+   "sha256": "29ef4482dc4a30381dfcbdece9b3eda15e08691e7fe9ad2343eae9d5e5d05453",
+   "bytes": 120317760,
+   "published_utc": null
   },
   "jw08559010001_02105_00004_nrcb2_i2d.fits": {
    "channels": {},
@@ -6582,7 +6622,9 @@
   },
   "jw08559010001_02103_00003_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "|NIRCAM|F480M",
+   "sha256": "6d70b502eda7e52d75778e85a153516751761235f68df1dea8956363dc6df5a6"
   },
   "jw08559009001_02107_00004_nrcblong_i2d.fits": {
    "channels": {},
@@ -7680,7 +7722,81 @@
   },
   "jw08559010001_02105_00001_nrcblong_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "ready",
+   "score": 53.68,
+   "analyzed_utc": "2026-11-20T00:04:33.843872+00:00",
+   "analysis": "analyses/2026/11/20/jw08559010001_02105_00001_nrcblong_rate.fits.json",
+   "cand": {
+    "filename": "jw08559010001_02105_00001_nrcblong_rate.fits",
+    "size_mb": 80.082,
+    "uri": "mast:JWST/product/jw08559010001_02105_00001_nrcblong_rate.fits",
+    "proposal": "8559",
+    "obs_id": "jw08559010001_02105_00001_nrcblong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw08559010001_02105_00001_nrcblong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw08559010001_02105_00001_nrcblong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw08559010001_02105_00001_nrcblong_rate.jpg"
+   },
+   "meta_TARGNAME": "",
+   "meta_FILTER": "F360M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "|NIRCAM|F360M",
+   "sha256": "85b20872453f44c48401024205b6665708ff902ed44f911cf1e5a7d0ed58f078",
+   "bytes": 83972160,
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6839,
+      "brightness": 0.3881,
+      "range": 1.0,
+      "roi": 0.5368,
+      "score": 77.55
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 6226,
+      "brightest_quadrant_percent": 43.64,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 444786,
+      "finite_fraction": 0.953476,
+      "median": 0.11136629059910774,
+      "robust_scatter": 0.013100548041611908,
+      "above_5scatter_percent": 1.3998,
+      "p99_above_median_scatter": 7.289,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.6839,
+      "brightness": 0.3881,
+      "range": 1.0,
+      "roi": 0.5368,
+      "score": 77.55
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 6226,
+      "brightest_quadrant_percent": 43.64,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 444786,
+      "finite_fraction": 0.953476,
+      "median": 0.11136629059910774,
+      "robust_scatter": 0.013100548041611908,
+      "above_5scatter_percent": 1.3998,
+      "p99_above_median_scatter": 7.289,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-20T00:04:48.636522+00:00"
   },
   "jw08559010001_02101_00003_nrca3_rate.fits": {
    "channels": {},
@@ -135870,8 +135986,8 @@
  },
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
-  "day": "2026-11-19",
-  "bytes": 899547840
+  "day": "2026-11-20",
+  "bytes": 443252160
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -139465,7 +139581,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-19T22:51:00.603858+00:00",
+ "paired_prepare_attempt_utc": "2026-11-20T00:00:58.694489+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
