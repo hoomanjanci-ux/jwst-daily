@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 /**
@@ -12,6 +12,14 @@ import Link from "next/link";
  */
 export default function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const drawerRef = useRef<HTMLElement>(null);
+  const priorFocus = useRef<HTMLElement | null>(null);
+
+  const openMenu = () => {
+    priorFocus.current = document.activeElement as HTMLElement | null;
+    setOpen(true);
+  };
 
   // lock body scroll while the drawer is open
   useEffect(() => {
@@ -22,9 +30,22 @@ export default function SiteHeader() {
   // close on Escape
   useEffect(() => {
     if (!open) return;
-    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setOpen(false); };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") { setOpen(false); return; }
+      if (e.key !== "Tab" || !drawerRef.current) return;
+      const focusable = drawerRef.current.querySelectorAll<HTMLElement>('a[href],button:not([disabled])');
+      if (!focusable.length) return;
+      const first = focusable[0], last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    };
     window.addEventListener("keydown", onKey);
+    requestAnimationFrame(() => drawerRef.current?.querySelector<HTMLElement>('button, a[href]')?.focus());
     return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+
+  useEffect(() => {
+    if (!open) { priorFocus.current?.focus(); }
   }, [open]);
 
   const close = () => setOpen(false);
@@ -64,7 +85,8 @@ export default function SiteHeader() {
 
             {/* hamburger — mobile only */}
             <button
-              onClick={() => setOpen(true)}
+              ref={menuButtonRef}
+              onClick={openMenu}
               aria-label="باز کردن منو"
               aria-expanded={open}
               className="grid size-10 place-items-center rounded-xl border border-line/80 bg-panel/50 text-ink transition-colors hover:border-star/50 md:hidden"
@@ -85,6 +107,7 @@ export default function SiteHeader() {
         aria-hidden="true"
       />
       <aside
+        ref={drawerRef}
         className="drawer-panel md:hidden"
         data-open={open}
         role="dialog"

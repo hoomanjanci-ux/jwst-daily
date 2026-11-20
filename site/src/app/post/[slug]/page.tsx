@@ -4,6 +4,7 @@ import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import TelegramFab from "@/components/TelegramFab";
+import TelegramRichText from "@/components/TelegramRichText";
 import {
   analyses,
   faDateTime,
@@ -15,6 +16,8 @@ import {
 } from "@/lib/content";
 
 export const dynamicParams = false;
+
+const plainText = (value: string) => value.replace(/<[^>]*>/g, "").replace(/&(?:lt|gt|amp);/g, (x) => ({ "&lt;": "<", "&gt;": ">", "&amp;": "&" }[x] || x));
 
 // output:export forbids an empty params array — when no public analyses exist
 // yet, we generate one placeholder page that renders a friendly empty state.
@@ -65,7 +68,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     ? `تحلیل دادهٔ JWST — ${a.target}`
     : `تحلیل دادهٔ جیمز وب — ${a.product}`;
   const desc =
-    (a.text_fa || "").slice(0, 155) ||
+    plainText(a.text_fa || "").slice(0, 155) ||
     `تحلیل هوش مصنوعی راز کیهان از دادهٔ خام ${a.product} رصدشده با دوربین ${instrumentFa(a.instrument)} تلسکوپ جیمز وب.`;
   return {
     title,
@@ -153,7 +156,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         {body ? (
           <article className="article-body mb-10">
             {bodyFa.split(/\n{2,}|\n/).map((p, i) =>
-              p.trim() ? <p key={i}>{p}</p> : null
+              p.trim() ? <p key={i}><TelegramRichText text={p} /></p> : null
             )}
           </article>
         ) : (

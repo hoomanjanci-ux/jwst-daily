@@ -505,12 +505,14 @@ export default function SolarSystem({ mode = "real" }: { mode?: Mode }) {
             else simMs += dt * speedRef.current * 1000;
 
             const d = simMs / 86400000 - 10957.5; // days since J2000
-            const utcHours = ((simMs / 3600000) % 24 + 24) % 24;
+            // Use elapsed days, not a modulo clock. Modulo values jump at
+            // midnight and make the rendered spin visibly discontinuous.
+            const elapsedDays = simMs / 86400000;
 
             // Earth: orbit position + true rotation
             const Le = deg(LON.earth.l0, LON.earth.n, d);
             earthOrbit.position.set(Math.cos(Le) * R_EARTH, 0, -Math.sin(Le) * R_EARTH);
-            earth.rotation.y = Le + Math.PI + (utcHours / 24) * Math.PI * 2;
+            earth.rotation.y = Le + Math.PI + elapsedDays * Math.PI * 2;
             clouds.rotation.y = earth.rotation.y * 1.08;
 
             // Moon
@@ -520,13 +522,13 @@ export default function SolarSystem({ mode = "real" }: { mode?: Mode }) {
             // Mars / Jupiter / Saturn
             const Lma = deg(LON.mars.l0, LON.mars.n, d);
             marsOrbit.position.set(Math.cos(Lma) * R_MARS, 0, -Math.sin(Lma) * R_MARS);
-            mars.rotation.y = Lma + Math.PI + (utcHours / 24.62) * Math.PI * 2;
+            mars.rotation.y = Lma + Math.PI + (elapsedDays / 1.025) * Math.PI * 2;
             const Lj = deg(LON.jupiter.l0, LON.jupiter.n, d);
             jupOrbit.position.set(Math.cos(Lj) * R_JUP, 0, -Math.sin(Lj) * R_JUP);
-            jup.rotation.y = Lj + Math.PI + (utcHours / 9.93) * Math.PI * 2;
+            jup.rotation.y = Lj + Math.PI + (elapsedDays / (9.93 / 24)) * Math.PI * 2;
             const Ls = deg(LON.saturn.l0, LON.saturn.n, d);
             satOrbit.position.set(Math.cos(Ls) * R_SAT, 0, -Math.sin(Ls) * R_SAT);
-            sat.rotation.y = Ls + Math.PI + (utcHours / 10.7) * Math.PI * 2;
+            sat.rotation.y = Ls + Math.PI + (elapsedDays / (10.7 / 24)) * Math.PI * 2;
           }
 
           // sun spin + subtle breathing

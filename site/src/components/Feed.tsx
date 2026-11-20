@@ -6,6 +6,8 @@ import { analyses, news, faAgo, instrumentFa, type Analysis, type NewsItem } fro
 
 type Tab = "all" | "analysis" | "news";
 
+const plainText = (value: string) => value.replace(/<[^>]*>/g, "").replace(/&(?:lt|gt|amp);/g, (x) => ({ "&lt;": "<", "&gt;": ">", "&amp;": "&" }[x] || x));
+
 function Thumb({ image, alt, code, kind }: { image: string | null; alt: string; code: string; kind: "analysis" | "news" }) {
   if (image) {
     return (
@@ -38,7 +40,7 @@ function Thumb({ image, alt, code, kind }: { image: string | null; alt: string; 
 
 function AnalysisCard({ a }: { a: Analysis }) {
   const title =
-    a.text_fa?.split("\n").find((l) => l.trim() && !l.trim().startsWith("🌐") && !l.trim().startsWith("—"))?.trim().slice(0, 80) ||
+    plainText(a.text_fa?.split("\n").find((l) => l.trim() && !l.trim().startsWith("🌐") && !l.trim().startsWith("—"))?.trim() || "").slice(0, 80) ||
     (a.target ? `تحلیل دادهٔ ${a.target}` : `تحلیل دادهٔ جیمز وب — ${a.product.slice(0, 18)}`);
   return (
     <Link
@@ -104,6 +106,13 @@ export default function Feed() {
     };
   }, []);
 
+  const selectTab = (next: Tab) => {
+    setTab(next);
+    const url = new URL(window.location.href);
+    url.searchParams.set("tab", next);
+    window.history.replaceState({}, "", `${url.pathname}?${url.searchParams.toString()}${url.hash || "#tazeha"}`);
+  };
+
   const { aList, nList } = useMemo(() => ({ aList: analyses, nList: news }), []);
 
   const tabs: { id: Tab; label: string; count: number }[] = [
@@ -139,7 +148,7 @@ export default function Feed() {
             key={t.id}
             role="tab"
             aria-selected={tab === t.id}
-            onClick={() => setTab(t.id)}
+            onClick={() => selectTab(t.id)}
             className={`rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 ${
               tab === t.id
                 ? "bg-gradient-to-l from-star to-nebula text-void shadow-[0_6px_24px_rgba(111,183,255,0.35)]"
