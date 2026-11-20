@@ -3207,7 +3207,7 @@
   },
   "jw08559010001_02107_00003_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 35.57,
    "analyzed_utc": "2026-11-20T00:04:22.186877+00:00",
    "analysis": "analyses/2026/11/20/jw08559010001_02107_00003_nrcblong_i2d.fits.json",
@@ -3227,7 +3227,61 @@
    "combo": "|NIRCAM|F335M",
    "sha256": "29ef4482dc4a30381dfcbdece9b3eda15e08691e7fe9ad2343eae9d5e5d05453",
    "bytes": 120317760,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5831,
+      "brightness": 0.3946,
+      "range": 1.0,
+      "roi": 0.3557,
+      "score": 72.91
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 8296,
+      "brightest_quadrant_percent": 39.392,
+      "width": 2076,
+      "height": 2068,
+      "sample_stride": 3,
+      "sample_count": 464257,
+      "finite_fraction": 0.972307,
+      "median": 0.08341557532548904,
+      "robust_scatter": 0.007842216320335865,
+      "above_5scatter_percent": 1.7869,
+      "p99_above_median_scatter": 9.701,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5831,
+      "brightness": 0.3946,
+      "range": 1.0,
+      "roi": 0.3557,
+      "score": 72.91
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 8296,
+      "brightest_quadrant_percent": 39.392,
+      "width": 2076,
+      "height": 2068,
+      "sample_stride": 3,
+      "sample_count": 464257,
+      "finite_fraction": 0.972307,
+      "median": 0.08341557532548904,
+      "robust_scatter": 0.007842216320335865,
+      "above_5scatter_percent": 1.7869,
+      "p99_above_median_scatter": 9.701,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-20T00:05:05.975580+00:00"
   },
   "jw08559010001_02105_00004_nrcb2_i2d.fits": {
    "channels": {},
