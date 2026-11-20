@@ -133512,33 +133512,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-19T13:25:59.708204+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 3,
-    "next_window": "2026-11-19T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-19T13:29:42.170248+00:00"
-  },
-  {
    "started_utc": "2026-11-19T13:32:13.542891+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -134929,6 +134902,44 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-20T08:34:23.171919+00:00"
+  },
+  {
+   "started_utc": "2026-11-20T09:14:47.027257+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-20/12",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 4,
+    "next_window": "2026-11-20T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
+     "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-20:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-20T09:14:59.532936+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -135726,9 +135737,25 @@
   "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/": {
    "fa": "2026-11-19T22:24:10.694528+00:00",
    "en": "2026-11-19T22:24:10.694528+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/": {
+   "en": "2026-11-20T09:14:51.347202+00:00"
+  },
+  "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/": {
+   "fa": "2026-11-20T09:14:51.347202+00:00",
+   "en": "2026-11-20T09:14:51.347202+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/": {
+   "title": "طوفانی جنوب غربی اقیانوس آرام",
+   "summary": "طوفان استوایی خاویر فصل طوفان حوضه را با صدای بلندی آغاز کرد.",
+   "link": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-20T05:01:00+00:00",
+   "ts": "2026-11-20T09:14:51.347202+00:00"
+  },
   "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/": {
    "title": "تحقیقات میدانی ناسا آریزونا، علم سیاره‌ای را پیش می‌برد",
    "summary": "برای درک بهتر فرآیندهایی که زمین، ماه، مریخ و جهان‌های فراتر از آن را شکل می‌دهند، تیم میدان ابزار گودارد ناسا به فلگ استاف، آریزونا رفت.",
@@ -137069,15 +137096,6 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-27T19:14:28+00:00",
    "ts": "2026-10-27T19:59:25.365870+00:00"
-  },
-  "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/": {
-   "title": "NASA’s Neo Surveyor Sunshade",
-   "summary": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, which stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its base, will keep the infrared space telescope cool as it searches for near-Earth asteroids and",
-   "link": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-27T17:58:57+00:00",
-   "ts": "2026-10-27T19:29:43.117293+00:00"
   }
  },
  "news_title_fp": {
@@ -137818,6 +137836,13 @@
   "8697128906508dde": {
    "fa": "2026-11-19",
    "en": "2026-11-19"
+  },
+  "be87fb429c2cac71": {
+   "en": "2026-11-20"
+  },
+  "cb526cab9f8643a0": {
+   "fa": "2026-11-20",
+   "en": "2026-11-20"
   }
  },
  "news_title_recent": [
@@ -138560,6 +138585,14 @@
   [
    "8697128906508dde",
    "science and suits fill schedule as crew preps for cargo missions"
+  ],
+  [
+   "be87fb429c2cac71",
+   "apod 2026 november 20 v g r"
+  ],
+  [
+   "cb526cab9f8643a0",
+   "the stormy southwest pacific"
   ]
  ],
  "combo_seen": {
