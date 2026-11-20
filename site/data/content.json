@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20T20:19:09.424Z",
+ "generated_utc": "2026-11-20T21:19:02.760Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2711,6 +2711,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-ifz26y",
+   "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
+   "title_fa": "تامین مالی جدید ناسا، کسب و کارهای کوچک را برای نوآوری آغاز می کند",
+   "summary": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]",
+   "summary_fa": "جوایز کسب‌وکارهای کوچک در سراسر کشور برخی از حیاتی‌ترین نیازهای فناوری ناسا برای اکتشاف ماه و مریخ را برطرف می‌کند و در عین حال به اقتصاد فضایی ایالات متحده کمک می‌کند. برنامه تحقیقات نوآوری در کسب و کارهای کوچک ناسا / انتقال فناوری کسب و کارهای کوچک (SBIR/STTR) اخیراً 302 پروژه نوآورانه را برای سرمایه گذاری کل 171 میلیون دلار در بذر انتخاب کرده است.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/elementium-illustration.png?w=1064",
+   "link": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-20T20:46:14.000Z"
+  },
+  {
    "slug": "nasa-111otzc",
    "title": "Dragon Undocks from Station Packed With Science and Cargo",
    "title_fa": "اژدها از ایستگاه مملو از علم و محموله باز می شود",
@@ -2877,18 +2889,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-19T14:31:15.000Z"
-  },
-  {
-   "slug": "science-1hvdrfo",
-   "title": "APOD: 2026 November 19 – The Horsehead and Flame Nebulas",
-   "title_fa": "APOD: 19 نوامبر 2026 - سحابی های سر اسب و شعله",
-   "summary": "APODScienceAPODAPOD: 2026 November 19 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated The Horsehead and Flame Nebulas Explanation: Today’s image could have been a p",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. توضیحات اصلی",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Horsehead_Nebula_Killion.jpg?w=6000&h=4800&fit=clip",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T05:05:00.000Z"
   },
   {
    "slug": "science-14w3274",

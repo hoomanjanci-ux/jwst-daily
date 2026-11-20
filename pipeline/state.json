@@ -133527,33 +133527,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-19T18:31:00.354438+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 2,
-    "next_window": "2026-11-20T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-19T18:35:33.020702+00:00"
-  },
-  {
    "started_utc": "2026-11-19T18:50:55.716349+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -134987,6 +134960,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-20T20:19:06.828340+00:00"
+  },
+  {
+   "started_utc": "2026-11-20T21:18:45.394932+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 4,
+    "next_window": "2026-11-21T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/"
+    ],
+    "en": [
+     "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-20:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-20T21:18:59.635467+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -135807,9 +135817,22 @@
   "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/": {
    "fa": "2026-11-20T19:54:40.053216+00:00",
    "en": "2026-11-20T19:54:40.053216+00:00"
+  },
+  "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/": {
+   "fa": "2026-11-20T21:18:52.623844+00:00",
+   "en": "2026-11-20T21:18:52.623844+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/": {
+   "title": "تامین مالی جدید ناسا، کسب و کارهای کوچک را برای نوآوری آغاز می کند",
+   "summary": "جوایز کسب‌وکارهای کوچک در سراسر کشور برخی از حیاتی‌ترین نیازهای فناوری ناسا برای اکتشاف ماه و مریخ را برطرف می‌کند و در عین حال به اقتصاد فضایی ایالات متحده کمک می‌کند. برنامه تحقیقات نوآوری در کسب و کارهای کوچک ناسا / انتقال فناوری کسب و کارهای کوچک (SBIR/STTR) اخیراً 302 پروژه نوآورانه را برای سرمایه گذاری کل 171 میلیون دلار در بذر انتخاب کرده است.",
+   "link": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-20T20:46:14+00:00",
+   "ts": "2026-11-20T21:18:52.623844+00:00"
+  },
   "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/": {
    "title": "مراسم اهدای جوایز افتخاری ناسا از کارکنان مرکز فضایی استنیس قدردانی کرد",
    "summary": "کارمندانی که در مأموریت ناسا در مرکز فضایی استنیس آژانس در نزدیکی خلیج سنت لوئیس، می سی سی پی، در مراسم اهدای جوایز افتخار مرکز در 18 نوامبر مورد تقدیر قرار گرفتند. کریستین پاول، مدیر مرکز استنیس ناسا، و جرمی پارسونز، مسئول ابتکار عمل آرتمیس آژانس، مسئول ابتکارات مدیریت NA و مدیر برنامه های آرتمیس، اهدا کنندگان جوایز بودند.",
@@ -137150,15 +137173,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-28T16:25:29+00:00",
    "ts": "2026-10-28T18:45:33.275922+00:00"
-  },
-  "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/": {
-   "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
-   "summary": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campaign, Curiosity has returned to a spot just a few meters away from the “Chiu Chiu” block to conduct our next drill campaign. “Chiu Chiu” itself wasn’t a good candidate for",
-   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-28T05:39:46+00:00",
-   "ts": "2026-10-28T05:56:31.248341+00:00"
   }
  },
  "news_title_fp": {
@@ -137920,6 +137934,10 @@
    "en": "2026-11-20"
   },
   "714ee8e3f3af4601": {
+   "fa": "2026-11-20",
+   "en": "2026-11-20"
+  },
+  "b5aab13b30364128": {
    "fa": "2026-11-20",
    "en": "2026-11-20"
   }
@@ -138688,6 +138706,10 @@
   [
    "714ee8e3f3af4601",
    "nasa s curiosity mars rover collects samples"
+  ],
+  [
+   "b5aab13b30364128",
+   "new nasa seed funding primes small businesses for innovation"
   ]
  ],
  "combo_seen": {
