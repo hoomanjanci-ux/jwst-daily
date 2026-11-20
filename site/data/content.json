@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20T07:43:35.777Z",
+ "generated_utc": "2026-11-20T08:34:25.491Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw08559010001-02105-00001-nrcblong-rate",
+   "product": "jw08559010001_02105_00001_nrcblong_rate.fits",
+   "published_utc": "2026-11-20T08:30:38.337Z",
+   "target": null,
+   "instrument": "NIRCAM",
+   "detector": "NRCBLONG",
+   "filter": "F360M",
+   "obs_date": "2026-06-26",
+   "proposal": "8559",
+   "score": 53.68,
+   "quality_score": 77.55,
+   "image": "/img/jw08559010001-02105-00001-nrcblong-rate.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «JWST field»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 2048 × 2048 پیکسل دارد. در نمونهٔ منظم 444,786 پیکسل معتبر، حدود 1.3998 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F360M نزدیک طول موج 3.6 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 43.64 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F360M · تاریخ رصد: 2026-06-26\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/8559\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw12525108001-02106-00002-nrcb1-i2d",
    "product": "jw12525108001_02106_00002_nrcb1_i2d.fits",
@@ -119,23 +136,6 @@
    "proposal": "16602",
    "score": 35.49,
    "quality_score": 73.51,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
-   "slug": "jw08559010001-02105-00001-nrcblong-rate",
-   "product": "jw08559010001_02105_00001_nrcblong_rate.fits",
-   "published_utc": "2026-11-20T00:04:33.718926+00:00",
-   "target": null,
-   "instrument": "NIRCAM",
-   "detector": "NRCBLONG",
-   "filter": "F360M",
-   "obs_date": "2026-06-26",
-   "proposal": "8559",
-   "score": 53.68,
-   "quality_score": 77.55,
    "image": null,
    "text_fa": null,
    "text_en": null,
@@ -2711,30 +2711,6 @@
  ],
  "news": [
   {
-   "slug": "science-39v191",
-   "title": "APOD: 2026 November 20 – V-G-R",
-   "title_fa": null,
-   "summary": "APOD Science APOD APOD: 2026 November… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. V-G-R Explanation: On November 17, […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/IMG_4364N_Kyriazis.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-20T05:05:00.000Z"
-  },
-  {
-   "slug": "science-qpg5yl",
-   "title": "The Stormy Southwest Pacific",
-   "title_fa": null,
-   "summary": "Tropical Cyclone Xavier launched the basin’s storm season with a bang.",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116.jpg?w=1440&h=960&fit=clip",
-   "link": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-20T05:01:00.000Z"
-  },
-  {
    "slug": "science-1yn73bm",
    "title": "NASA Arizona Field Investigations Advance Planetary Science",
    "title_fa": "تحقیقات میدانی ناسا آریزونا، علم سیاره‌ای را پیش می‌برد",
@@ -2759,18 +2735,6 @@
    "date_utc": "2026-11-19T21:02:23.000Z"
   },
   {
-   "slug": "nasa-1603hv7",
-   "title": "Challenge: Public Input on Life and the World in 2075",
-   "title_fa": "چالش: ورودی عمومی در مورد زندگی و جهان در سال 2075",
-   "summary": "NASA’s Transformational Tools and Technologies (TTT) is gathering public perspectives on life today and how the world may change by 2075. This challenge asks for conceptual ideas about life in 2075 across four challenge topics. Ideas should explore how future aviation or aerospace systems could: Ideas should be conceptual rather than technical. Award: $20,000 in […]",
-   "summary_fa": "ابزارها و فناوری‌های تحول‌آفرین ناسا (TTT) در حال جمع‌آوری دیدگاه‌های عمومی درباره زندگی امروز و چگونگی تغییر جهان تا سال 2075 است. این چالش ایده‌های مفهومی درباره زندگی در سال 2075 را در چهار موضوع چالشی می‌خواهد. ایده ها باید بررسی کنند که چگونه سیستم های هوانوردی یا هوافضا آینده می توانند: ایده ها باید مفهومی باشند تا فنی. جایزه: 20000 دلار",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ttt-publicinputonlife-2026.png?w=2048",
-   "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T19:34:20.000Z"
-  },
-  {
    "slug": "science-1j9di9l",
    "title": "NASA’s Perseverance, Odyssey Teams Investigate Technical Issues",
    "title_fa": "تیم‌های استقامت، اودیسه ناسا مسائل فنی را بررسی می‌کنند",
@@ -2783,66 +2747,6 @@
    "date_utc": "2026-11-19T18:51:54.000Z"
   },
   {
-   "slug": "science-vntg2y",
-   "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
-   "title_fa": "داده های علمی ناسا روش جدیدی را برای کشف تپ اخترهای سخت پیدا می کند",
-   "summary": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
-   "summary_fa": "داده های باز ماموریت فرمی ناسا به یک تیم بین المللی از دانشمندان کمک کرد تا روشی را برای یافتن تپ اخترها در حدود یک میلیون برابر سریعتر از قبل توسعه دهند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1652&h=928&fit=clip",
-   "link": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T15:33:55.000Z"
-  },
-  {
-   "slug": "nasa-1krrb3c",
-   "title": "Lake Pelku",
-   "title_fa": "دریاچه پلکو",
-   "summary": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia. The International Space Station serves as a unique platform for observing Earth with both hands-on and automated equipment. Station crew members have produced hundreds of thousands of images. These images record phenomena in real […]",
-   "summary_fa": "یک فضانورد در ایستگاه فضایی بین المللی این عکس را از دریاچه پلکو (نزدیک مرکز) در حالی که ایستگاه در بالای آسیا در حال چرخش است، گرفته است. ایستگاه فضایی بین المللی به عنوان یک پلت فرم منحصر به فرد برای رصد زمین با تجهیزات دستی و خودکار عمل می کند. اعضای خدمه ایستگاه صدها هزار تصویر تولید کرده اند. این تصاویر پدیده ها را به صورت واقعی ثبت می کنند",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0267074orig.jpg?w=2048",
-   "link": "https://www.nasa.gov/image-article/lake-pelku/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T15:32:39.000Z"
-  },
-  {
-   "slug": "nasa-149bowa",
-   "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
-   "title_fa": "ناسا آخرین آزمایش موتور RS-25 را برای پشتیبانی از ماموریت های آینده آرتمیس انجام می دهد",
-   "summary": "NASA tested RS-25 engine No. 10001 on Nov. 18 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for the planned duration of three minutes and 20 seconds (200 seconds). While this developmental engine will not be used in flight, the hot […]",
-   "summary_fa": "ناسا موتور RS-25 شماره 10001 را در 18 نوامبر در ایستگاه آزمایشی Fred Haise در مرکز فضایی Stennis ناسا در نزدیکی Bay St. Louis، می سی سی پی آزمایش کرد. تیم های آزمایش موتور توسعه را برای مدت زمان برنامه ریزی شده سه دقیقه و 20 ثانیه (200 ثانیه) روشن کردند. در حالی که این موتور توسعه ای در پرواز استفاده نخواهد شد، اما داغ است",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ssc-20261118-s01364.jpg?w=1024",
-   "link": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T14:44:39.000Z"
-  },
-  {
-   "slug": "nasa-1blcsqm",
-   "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-   "title_fa": "وویجر 1 ناسا با رسیدن به یک روز نوری از زمین به تاریخ می پردازد",
-   "summary": "NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18. Voyager team […]",
-   "summary_fa": "کاوشگر وویجر 1 ناسا، دورترین فضاپیمای بشریت، پس از بیش از 49 سال سفر مداوم، یک روز نوری از زمین فاصله گرفت. یک روز نوری مسافتی است که نور در 24 ساعت طی می کند که برابر با 16.1 میلیارد مایل (25.9 میلیارد کیلومتر) است. این فضاپیما در ساعت 2:16 بامداد به وقت شرقی (5:16 صبح به وقت شرقی) 18 نوامبر به نقطه عطف دست یافت. تیم وویجر",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?w=2048",
-   "link": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T14:31:15.000Z"
-  },
-  {
-   "slug": "science-1hvdrfo",
-   "title": "APOD: 2026 November 19 – The Horsehead and Flame Nebulas",
-   "title_fa": "APOD: 19 نوامبر 2026 - سحابی های سر اسب و شعله",
-   "summary": "APODScienceAPODAPOD: 2026 November 19 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated The Horsehead and Flame Nebulas Explanation: Today’s image could have been a p",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. توضیحات اصلی",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Horsehead_Nebula_Killion.jpg?w=6000&h=4800&fit=clip",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T05:05:00.000Z"
-  },
-  {
    "slug": "science-14w3274",
    "title": "Voyager 1 Engineers Analyze Data Issue, Ready to Confirm Light-day",
    "title_fa": "مهندسان وویجر 1 در حال بررسی مشکل داده‌ها هستند و آماده تأیید روز نوری هستند",
@@ -2853,18 +2757,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-19T01:37:26.000Z"
-  },
-  {
-   "slug": "nasa-wrcpwf",
-   "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
-   "title_fa": "ناسا پوشش خبری پرتاب CRS-25 نورثروپ گرومن و مراحل قبل از پرتاب را فراهم می‌کند",
-   "summary": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus […]",
-   "summary_fa": "ناسا، نورثروپ گرومن و اسپیس‌اکس قصد دارند زودتر از ساعت 10:47 صبح به وقت استاندارد شرقی، یکشنبه 29 نوامبر، پرتاب بعدی را انجام دهند که در آن تحقیقات علمی، تدارکات و تجهیزات به ایستگاه فضایی بین‌المللی ارسال می‌شود. این سازمان همچنین روز دوشنبه 23 نوامبر یک کنفرانس تلفنی رسانه‌ای قبل از پرتاب برگزار خواهد کرد. فضاپیمای Cygnus شرکت نورثروپ گرومن که تقریباً 11,000 پوند محموله در آن بارگیری شده است",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?w=1920",
-   "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-18T22:19:17.000Z"
   },
   {
    "slug": "science-xa9oa3",
