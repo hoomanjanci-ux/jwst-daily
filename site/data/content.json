@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20T17:03:14.023Z",
+ "generated_utc": "2026-11-20T18:04:05.457Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2711,6 +2711,30 @@
  ],
  "news": [
   {
+   "slug": "nasa-111otzc",
+   "title": "Dragon Undocks from Station Packed With Science and Cargo",
+   "title_fa": "اژدها از ایستگاه مملو از علم و محموله باز می شود",
+   "summary": "At 12:05 p.m. EST, the unpiloted SpaceX Dragon spacecraft undocked from the space-facing port of the International Space Station's Harmony module following a command from SpaceX ground controllers.",
+   "summary_fa": "ساعت 12:05 بعد از ظهر EST، فضاپیمای SpaceX Dragon بدون خلبان از بندر رو به فضا ماژول هارمونی ایستگاه فضایی بین‌المللی به دنبال دستور کنترل‌کننده‌های زمینی SpaceX باز شد.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss-11-18-26.png?w=1280",
+   "link": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-20T17:08:20.000Z"
+  },
+  {
+   "slug": "nasa-1uver7l",
+   "title": "Dragon Prepares to Depart Station for Earth Return",
+   "title_fa": "اژدها برای بازگشت به زمین برای عزیمت به ایستگاه آماده می شود",
+   "summary": "The unpiloted SpaceX Dragon spacecraft will undock at approximately 12:05 p.m. EST from the space-facing port of the station’s Harmony module and fire its thrusters to move safely away from the orbital complex.",
+   "summary_fa": "فضاپیمای SpaceX Dragon بدون خلبان تقریباً در ساعت 12:05 بعد از ظهر از فرودگاه خارج می شود. EST از درگاه فضایی ماژول هارمونی ایستگاه خارج می شود و رانشگرهای آن را آتش می زنند تا با خیال راحت از مجموعه مداری دور شوند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-prepares-to-depart-station-for-earth-return/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-20T16:47:19.000Z"
+  },
+  {
    "slug": "nasa-1mkcvs7",
    "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
    "title_fa": null,
@@ -2913,30 +2937,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-18T16:37:15.000Z"
-  },
-  {
-   "slug": "nasa-1wp4ei3",
-   "title": "NASA, SpaceX Stand Down from Dragon’s Undocking on Wednesday",
-   "title_fa": "ناسا و اسپیس ایکس در روز چهارشنبه از Dragon’s Undocking کنار می روند",
-   "summary": "NASA and SpaceX are standing down from Wednesday's Dragon undocking opportunity from the International Space Station due to unfavorable weather conditions at the splashdown sites off the coast of California.",
-   "summary_fa": "ناسا و اسپیس ایکس به دلیل شرایط نامساعد جوی در محل‌های سقوط در سواحل کالیفرنیا، از فرصت بازگشایی اژدها از ایستگاه فضایی بین‌المللی در روز چهارشنبه خودداری می‌کنند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-18T06:44:57.000Z"
-  },
-  {
-   "slug": "nasa-hbayi0",
-   "title": "Cardiac Research, Exercise Studies on Station Keeping Crews Healthy",
-   "title_fa": "تحقیقات قلبی، مطالعات ورزشی در مورد سلامت خدمه ایستگاه",
-   "summary": "Cardiac research and space exercise were the main experiments for the Expedition 75 crew members on Tuesday. The International Space Station residents are also preparing scientific samples for return to Earth.",
-   "summary_fa": "تحقیقات قلبی و تمرینات فضایی آزمایش‌های اصلی برای خدمه اکسپدیشن ۷۵ در روز سه‌شنبه بود. ساکنان ایستگاه فضایی بین المللی نیز در حال آماده سازی نمونه های علمی برای بازگشت به زمین هستند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0227303/iss075e0227303~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/17/cardiac-research-exercise-studies-on-station-keeping-crews-healthy/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-17T19:28:52.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
