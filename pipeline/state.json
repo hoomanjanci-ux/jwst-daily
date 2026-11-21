@@ -110111,9 +110111,81 @@
   },
   "jw12522040001_0310l_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "combo_cooldown",
+   "status": "ready",
    "combo": "2MASS J18022716+6043356|NIRCAM|F356W",
-   "sha256": "532f12e6fbcc8283dd8cfb876f87c03166ed7f086319d4e25aa40796d0dc1865"
+   "sha256": "532f12e6fbcc8283dd8cfb876f87c03166ed7f086319d4e25aa40796d0dc1865",
+   "score": 36.48,
+   "analyzed_utc": "2026-11-21T07:55:03.715528+00:00",
+   "analysis": "analyses/2026/11/21/jw12522040001_0310l_00005_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw12522040001_0310l_00005_nrcalong_rate.fits",
+    "size_mb": 2.035,
+    "uri": "mast:JWST/product/jw12522040001_0310l_00005_nrcalong_rate.fits",
+    "proposal": "12522",
+    "obs_id": "jw12522040001_0310l_00005_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310l_00005_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12522040001_0310l_00005_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310l_00005_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "2MASS J18022716+6043356",
+   "meta_FILTER": "F356W",
+   "meta_INSTRUME": "NIRCAM",
+   "bytes": 2136960,
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4767,
+      "brightness": 0.4639,
+      "range": 1.0,
+      "roi": 0.3648,
+      "score": 71.96
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 965,
+      "brightest_quadrant_percent": 87.15,
+      "width": 400,
+      "height": 256,
+      "sample_stride": 1,
+      "sample_count": 101053,
+      "finite_fraction": 0.986846,
+      "median": -1.8809818029403687,
+      "robust_scatter": 0.5578910350084304,
+      "above_5scatter_percent": 0.9549,
+      "p99_above_median_scatter": 4.72,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.4767,
+      "brightness": 0.4639,
+      "range": 1.0,
+      "roi": 0.3648,
+      "score": 71.96
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 965,
+      "brightest_quadrant_percent": 87.15,
+      "width": 400,
+      "height": 256,
+      "sample_stride": 1,
+      "sample_count": 101053,
+      "finite_fraction": 0.986846,
+      "median": -1.8809818029403687,
+      "robust_scatter": 0.5578910350084304,
+      "above_5scatter_percent": 0.9549,
+      "p99_above_median_scatter": 4.72,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-21T07:55:36.184896+00:00"
   },
   "jw12522040001_0310h_00005_nrcalong_rate.fits": {
    "channels": {
@@ -110140,15 +110212,51 @@
   },
   "jw12522040001_0310n_00005_nrca4_rate.fits": {
    "channels": {},
-   "status": "combo_cooldown",
+   "status": "analyzed",
    "combo": "2MASS J18022716+6043356|NIRCAM|F200W",
-   "sha256": "10523a1b8b1eb7499d5bc52e3583ffd09df4c67b7272c1cba06c7ec8749605a2"
+   "sha256": "10523a1b8b1eb7499d5bc52e3583ffd09df4c67b7272c1cba06c7ec8749605a2",
+   "score": 36.19,
+   "analyzed_utc": "2026-11-21T07:55:13.906382+00:00",
+   "analysis": "analyses/2026/11/21/jw12522040001_0310n_00005_nrca4_rate.fits.json",
+   "cand": {
+    "filename": "jw12522040001_0310n_00005_nrca4_rate.fits",
+    "size_mb": 2.035,
+    "uri": "mast:JWST/product/jw12522040001_0310n_00005_nrca4_rate.fits",
+    "proposal": "12522",
+    "obs_id": "jw12522040001_0310n_00005_nrca4",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310n_00005_nrca4_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12522040001_0310n_00005_nrca4_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310n_00005_nrca4_rate.jpg"
+   },
+   "meta_TARGNAME": "2MASS J18022716+6043356",
+   "meta_FILTER": "F200W",
+   "meta_INSTRUME": "NIRCAM",
+   "bytes": 2136960,
+   "published_utc": null
   },
   "jw12522040001_0310j_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "combo_cooldown",
+   "status": "analyzed",
    "combo": "2MASS J18022716+6043356|NIRCAM|F444W",
-   "sha256": "4a27fbb0330bbebd0ed6a6c27561e55c6cd7fcc3b99c9d8e4517affc18f44b29"
+   "sha256": "4a27fbb0330bbebd0ed6a6c27561e55c6cd7fcc3b99c9d8e4517affc18f44b29",
+   "score": 31.47,
+   "analyzed_utc": "2026-11-21T07:55:24.342111+00:00",
+   "analysis": "analyses/2026/11/21/jw12522040001_0310j_00005_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw12522040001_0310j_00005_nrcalong_rate.fits",
+    "size_mb": 2.035,
+    "uri": "mast:JWST/product/jw12522040001_0310j_00005_nrcalong_rate.fits",
+    "proposal": "12522",
+    "obs_id": "jw12522040001_0310j_00005_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310j_00005_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12522040001_0310j_00005_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310j_00005_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "2MASS J18022716+6043356",
+   "meta_FILTER": "F444W",
+   "meta_INSTRUME": "NIRCAM",
+   "bytes": 2136960,
+   "published_utc": null
   },
   "jw12522040001_0310l_00005_nrca4_rate.fits": {
    "channels": {},
@@ -138776,7 +138884,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-21",
-  "bytes": 886726080
+  "bytes": 893136960
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -142554,7 +142662,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-21T07:31:01.467553+00:00",
+ "paired_prepare_attempt_utc": "2026-11-21T07:51:04.548312+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
