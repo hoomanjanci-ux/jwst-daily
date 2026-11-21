@@ -133527,43 +133527,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-19T19:38:45.783418+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 2,
-    "next_window": "2026-11-20T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
-     "https://www.nasa.gov/image-article/lake-pelku/"
-    ],
-    "en": [
-     "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
-     "https://www.nasa.gov/image-article/lake-pelku/"
-    ],
-    "mode": "fresh (4 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-19T19:38:58.318279+00:00"
-  },
-  {
    "started_utc": "2026-11-19T19:50:54.614194+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -135003,6 +134966,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-20T23:32:36.956499+00:00"
+  },
+  {
+   "started_utc": "2026-11-21T00:21:56.099316+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 4,
+    "next_window": "2026-11-21T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/"
+    ],
+    "en": [
+     "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-20:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-21T00:22:13.994138+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -135827,9 +135827,22 @@
   "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/": {
    "fa": "2026-11-20T21:18:52.623844+00:00",
    "en": "2026-11-20T21:18:52.623844+00:00"
+  },
+  "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/": {
+   "fa": "2026-11-21T00:22:02.076033+00:00",
+   "en": "2026-11-21T00:22:02.076033+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/": {
+   "title": "کنجکاوی ابرهای شناور غروب را مشاهده می‌کند",
+   "summary": "توضیحات مریخ‌نورد کنجکاوی ناسا این ابرهای در حال حرکت را در 31 اکتبر 2026، 5061مین روز مریخی یا سول مأموریت، ثبت کرد. این مریخ‌نورد از دوربین‌های ناوبری خود برای ثبت ابرهای پس از غروب خورشید، که ابرهای گرگ‌ومیش نامیده می‌شوند، استفاده می‌کند. این ابرها هر پاییز فقط برای مدت کوتاهی بر فراز دهانه گیل ظاهر می‌شوند، دهانه‌ای که مریخ‌نورد بیش از ... سال است که در حال کاوش در آن است.",
+   "link": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-20T22:27:05+00:00",
+   "ts": "2026-11-21T00:22:02.076033+00:00"
+  },
   "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/": {
    "title": "تامین مالی جدید ناسا، کسب و کارهای کوچک را برای نوآوری آغاز می کند",
    "summary": "جوایز کسب‌وکارهای کوچک در سراسر کشور برخی از حیاتی‌ترین نیازهای فناوری ناسا برای اکتشاف ماه و مریخ را برطرف می‌کند و در عین حال به اقتصاد فضایی ایالات متحده کمک می‌کند. برنامه تحقیقات نوآوری در کسب و کارهای کوچک ناسا / انتقال فناوری کسب و کارهای کوچک (SBIR/STTR) اخیراً 302 پروژه نوآورانه را برای سرمایه گذاری کل 171 میلیون دلار در بذر انتخاب کرده است.",
@@ -137170,15 +137183,6 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-28T16:30:27+00:00",
    "ts": "2026-10-28T18:45:33.275922+00:00"
-  },
-  "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/": {
-   "title": "NASA Selects 19 New Citizen Science Proposals in 2026",
-   "summary": "So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible and intrinsically collaborative. The Backyard Worlds: Planet 9 project announced that their project volunteers have now discovered most of the known brown dwarfs, celestial objects that are similar to planets. The Zooniverse platform,",
-   "link": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-28T16:25:29+00:00",
-   "ts": "2026-10-28T18:45:33.275922+00:00"
   }
  },
  "news_title_fp": {
@@ -137946,6 +137950,10 @@
   "b5aab13b30364128": {
    "fa": "2026-11-20",
    "en": "2026-11-20"
+  },
+  "10e23db37730f20b": {
+   "fa": "2026-11-21",
+   "en": "2026-11-21"
   }
  },
  "news_title_recent": [
@@ -138716,6 +138724,10 @@
   [
    "b5aab13b30364128",
    "new nasa seed funding primes small businesses for innovation"
+  ],
+  [
+   "10e23db37730f20b",
+   "curiosity spots drifting twilight clouds"
   ]
  ],
  "combo_seen": {
