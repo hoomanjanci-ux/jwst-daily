@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-22T18:55:10.648Z",
+ "generated_utc": "2026-11-22T20:00:07.691Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2813,10 +2813,22 @@
  ],
  "news": [
   {
+   "slug": "nasa-t4tlwg",
+   "title": "65 Years of Human Spaceflight at NASA Johnson",
+   "title_fa": null,
+   "summary": "For 65 years, NASA’s Johnson Space Center in Houston has helped shape human spaceflight, from the Gemini missions that demonstrated rendezvous and docking techniques needed for Apollo to the research conducted aboard the International Space Station, which has supported a continuous human presence for more than 26 years. Today, Johnson teams are preparing crews and […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/20261106-artemiscelebrationgala-sl1-4202.jpg?w=1536",
+   "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-22T19:13:25.000Z"
+  },
+  {
    "slug": "science-1s1l3kt",
    "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
    "title_fa": "APOD: 22 نوامبر 2026 - چرخش و رنگ در مشتری از جونو",
-   "summary": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors […]",
+   "summary": "APODScienceAPODAPOD: 2026 November 22 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors on Jupiter from Juno Explanation: What creates the colors in Jupiter’s clouds? No ",
    "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. چرخش و رنگ",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/JupiterSwirls_JunoBrealey_3709.jpg?w=2048&h=2048&fit=clip",
    "link": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
@@ -2840,7 +2852,7 @@
    "slug": "science-jipoix",
    "title": "APOD: 2026 November 21 – Voyager’s Neptune",
    "title_fa": "APOD: 21 نوامبر 2026 - نپتون وویجر",
-   "summary": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager’s Neptune Explanation: […]",
+   "summary": "APODScienceAPODAPOD: 2026 November 21 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager’s Neptune Explanation: Cruising through the outer solar system, the Voyager 2 spacecraft mad",
    "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. توضیح نپتون وویجر:",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Neptune-South-Pole-Voyager-2_2327x1670.jpg?w=2048&h=1669&fit=clip",
    "link": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
@@ -2991,18 +3003,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-19T18:51:54.000Z"
-  },
-  {
-   "slug": "science-vntg2y",
-   "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
-   "title_fa": "داده های علمی ناسا روش جدیدی را برای کشف تپ اخترهای سخت پیدا می کند",
-   "summary": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
-   "summary_fa": "داده های باز ماموریت فرمی ناسا به یک تیم بین المللی از دانشمندان کمک کرد تا روشی را برای یافتن تپ اخترها در حدود یک میلیون برابر سریعتر از قبل توسعه دهند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1652&h=928&fit=clip",
-   "link": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T15:33:55.000Z"
   },
   {
    "slug": "science-14w3274",
