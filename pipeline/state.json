@@ -133649,33 +133649,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-21T16:40:57.022510+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 5,
-    "next_window": "2026-11-22T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-21T16:45:10.925785+00:00"
-  },
-  {
    "started_utc": "2026-11-21T17:16:57.182331+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -135116,6 +135089,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-22T22:10:16.711368+00:00"
+  },
+  {
+   "started_utc": "2026-11-22T22:35:30.809819+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 4,
+    "next_window": "2026-11-23T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/"
+    ],
+    "en": [
+     "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-20:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-22T22:35:45.389108+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -135956,9 +135966,22 @@
   "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/": {
    "fa": "2026-11-22T08:12:56.077882+00:00",
    "en": "2026-11-22T08:12:56.077882+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/": {
+   "fa": "2026-11-22T22:35:36.030987+00:00",
+   "en": "2026-11-22T22:35:36.030987+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/": {
+   "title": "65 سال پرواز فضایی انسان در ناسا جانسون",
+   "summary": "به مدت 65 سال، مرکز فضایی جانسون ناسا در هیوستون به شکل‌گیری پرواز فضایی انسان کمک کرده است، از مأموریت‌های جمینی که تکنیک‌های قرار ملاقات و اتصال مورد نیاز برای آپولو را نشان می‌داد تا تحقیقات انجام‌شده در ایستگاه فضایی بین‌المللی، که بیش از 26 سال از حضور مداوم انسان پشتیبانی می‌کند. امروز تیم های جانسون در حال آماده سازی خدمه و",
+   "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-22T19:13:25+00:00",
+   "ts": "2026-11-22T22:35:36.030987+00:00"
+  },
   "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/": {
    "title": "APOD: 22 نوامبر 2026 - چرخش و رنگ در مشتری از جونو",
    "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. چرخش و رنگ",
@@ -137299,15 +137322,6 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-28T19:24:28+00:00",
    "ts": "2026-10-28T23:04:51.527397+00:00"
-  },
-  "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/": {
-   "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
-   "summary": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Technicians lifted the 212-foot rocket stage from the facility’s High Bay 2 using a one-of-a kind lifting beam designed",
-   "link": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-28T18:59:44+00:00",
-   "ts": "2026-10-28T19:49:30.264827+00:00"
   }
  },
  "news_title_fp": {
@@ -138089,6 +138103,10 @@
    "en": "2026-11-22"
   },
   "9fab1151e076d9ef": {
+   "fa": "2026-11-22",
+   "en": "2026-11-22"
+  },
+  "17802e280cc44124": {
    "fa": "2026-11-22",
    "en": "2026-11-22"
   }
@@ -138877,6 +138895,10 @@
   [
    "9fab1151e076d9ef",
    "apod 2026 november 22 swirls and colors on jupiter from juno"
+  ],
+  [
+   "17802e280cc44124",
+   "65 years of human spaceflight at nasa johnson"
   ]
  ],
  "combo_seen": {
