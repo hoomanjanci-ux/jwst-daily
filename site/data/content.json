@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-22T04:45:06.181Z",
+ "generated_utc": "2026-11-22T05:35:32.733Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw12522040001-0310l-00005-nrcalong-rate",
+   "product": "jw12522040001_0310l_00005_nrcalong_rate.fits",
+   "published_utc": "2026-11-22T05:30:36.556Z",
+   "target": "2MASS J18022716+6043356",
+   "instrument": "NIRCAM",
+   "detector": "NRCALONG",
+   "filter": "F356W",
+   "obs_date": "2026-09-02",
+   "proposal": "12522",
+   "score": 36.48,
+   "quality_score": 71.96,
+   "image": "/img/jw12522040001-0310l-00005-nrcalong-rate.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «2MASS J18022716+6043356»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 400 × 256 پیکسل دارد. در نمونهٔ منظم 101,053 پیکسل معتبر، حدود 0.9549 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F356W نزدیک طول موج 3.56 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 87.15 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F356W · تاریخ رصد: 2026-09-02\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/12522\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw07763065001-04101-00004-nrcb2-i2d",
    "product": "jw07763065001_04101_00004_nrcb2_i2d.fits",
@@ -102,23 +119,6 @@
    "proposal": "12522",
    "score": 36.19,
    "quality_score": 70.03,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
-   "slug": "jw12522040001-0310l-00005-nrcalong-rate",
-   "product": "jw12522040001_0310l_00005_nrcalong_rate.fits",
-   "published_utc": "2026-11-21T07:55:03.701699+00:00",
-   "target": "2MASS J18022716+6043356",
-   "instrument": "NIRCAM",
-   "detector": "NRCALONG",
-   "filter": "F356W",
-   "obs_date": "2026-09-02",
-   "proposal": "12522",
-   "score": 36.48,
-   "quality_score": 71.96,
    "image": null,
    "text_fa": null,
    "text_en": null,
@@ -2762,6 +2762,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-1e3zdwl",
+   "title": "Dragon Returns to Earth Packed With Science and Cargo",
+   "title_fa": "اژدها مملو از علم و محموله به زمین باز می گردد",
+   "summary": "At 2:03 p.m. PST, the unpiloted SpaceX Dragon spacecraft splashed down in the Pacific Ocean near Los Angeles, completing NASA's 35th SpaceX commercial resupply services mission to the International Space Station.",
+   "summary_fa": "در ساعت 2:03 بعد از ظهر PST، فضاپیمای SpaceX Dragon بدون خلبان در اقیانوس آرام در نزدیکی لس آنجلس پاشیده شد و سی و پنجمین ماموریت خدمات بازرسان تجاری SpaceX ناسا را ​​به ایستگاه فضایی بین‌المللی تکمیل کرد.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0226573/iss075e0226573~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-21T22:10:07.000Z"
+  },
+  {
    "slug": "science-jipoix",
    "title": "APOD: 2026 November 21 – Voyager’s Neptune",
    "title_fa": "APOD: 21 نوامبر 2026 - نپتون وویجر",
@@ -2796,6 +2808,30 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-20T20:46:14.000Z"
+  },
+  {
+   "slug": "nasa-111otzc",
+   "title": "Dragon Undocks from Station Packed With Science and Cargo",
+   "title_fa": "اژدها از ایستگاه مملو از علم و محموله باز می شود",
+   "summary": "At 12:05 p.m. EST, the unpiloted SpaceX Dragon spacecraft undocked from the space-facing port of the International Space Station's Harmony module following a command from SpaceX ground controllers.",
+   "summary_fa": "ساعت 12:05 بعد از ظهر EST، فضاپیمای SpaceX Dragon بدون خلبان از بندر رو به فضا ماژول هارمونی ایستگاه فضایی بین‌المللی به دنبال دستور کنترل‌کننده‌های زمینی SpaceX باز شد.",
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss-11-18-26.png?w=1280",
+   "link": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-20T17:08:20.000Z"
+  },
+  {
+   "slug": "nasa-1uver7l",
+   "title": "Dragon Prepares to Depart Station for Earth Return",
+   "title_fa": "اژدها برای بازگشت به زمین برای عزیمت به ایستگاه آماده می شود",
+   "summary": "The unpiloted SpaceX Dragon spacecraft will undock at approximately 12:05 p.m. EST from the space-facing port of the station’s Harmony module and fire its thrusters to move safely away from the orbital complex.",
+   "summary_fa": "فضاپیمای SpaceX Dragon بدون خلبان تقریباً در ساعت 12:05 بعد از ظهر از فرودگاه خارج می شود. EST از درگاه فضایی ماژول هارمونی ایستگاه خارج می شود و رانشگرهای آن را آتش می زنند تا با خیال راحت از مجموعه مداری دور شوند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-prepares-to-depart-station-for-earth-return/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-20T16:47:19.000Z"
   },
   {
    "slug": "nasa-1mkcvs7",
@@ -2846,6 +2882,30 @@
    "date_utc": "2026-11-20T05:01:00.000Z"
   },
   {
+   "slug": "science-1yn73bm",
+   "title": "NASA Arizona Field Investigations Advance Planetary Science",
+   "title_fa": "تحقیقات میدانی ناسا آریزونا، علم سیاره‌ای را پیش می‌برد",
+   "summary": "To better understand processes shaping Earth, the Moon, Mars, and worlds beyond, NASA’s Goddard Instrument Field Team headed to Flagstaff, Arizona.",
+   "summary_fa": "برای درک بهتر فرآیندهایی که زمین، ماه، مریخ و جهان‌های فراتر از آن را شکل می‌دهند، تیم میدان ابزار گودارد ناسا به فلگ استاف، آریزونا رفت.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/planetary-expeditions/2026-09-gift-flagstaff/GIFT-flagstaff-2026-geophysics-meteor-crater.jpg?w=2048&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T21:18:36.000Z"
+  },
+  {
+   "slug": "nasa-1o4jghq",
+   "title": "Science and Suits Fill Schedule as Crew Preps for Cargo Missions",
+   "title_fa": "برنامه علمی و لباس‌ها به عنوان آماده‌سازی خدمه برای ماموریت‌های باربری",
+   "summary": "The Expedition 75 crew spent Thursday on a variety of research including an exercise study and a space physics investigation and servicing spacesuits. The orbital residents are also gearing up for a variety of cargo missions departing from and launching to the International Space Station this month.",
+   "summary_fa": "خدمه اکسپدیشن 75 روز پنجشنبه را در تحقیقات مختلفی از جمله مطالعه تمرین و تحقیق فیزیک فضایی و سرویس لباس های فضایی صرف کردند. ساکنان مداری همچنین در حال آماده شدن برای انواع ماموریت های باری هستند که در این ماه از ایستگاه فضایی بین المللی حرکت می کنند و به سمت آن پرتاب می شوند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0267082/iss075e0267082~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T21:02:23.000Z"
+  },
+  {
    "slug": "nasa-1603hv7",
    "title": "Challenge: Public Input on Life and the World in 2075",
    "title_fa": "چالش: ورودی عمومی در مورد زندگی و جهان در سال 2075",
@@ -2856,6 +2916,18 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-19T19:34:20.000Z"
+  },
+  {
+   "slug": "science-1j9di9l",
+   "title": "NASA’s Perseverance, Odyssey Teams Investigate Technical Issues",
+   "title_fa": "تیم‌های استقامت، اودیسه ناسا مسائل فنی را بررسی می‌کنند",
+   "summary": "NASA teams supporting the agency’s Perseverance Mars rover and 2001 Mars Odyssey orbiter missions are investigating separate technical issues affecting science operations on the two missions. Out of an abundance of caution, science activities are temporarily paused for the Perseverance rover on Mars while ground teams work on issues with its two UHF radios used […]",
+   "summary_fa": "تیم‌های ناسا که از مریخ‌نورد Perseverance و مأموریت‌های مدارگرد مریخ اودیسه ۲۰۰۱ حمایت می‌کنند، در حال بررسی مسائل فنی جداگانه‌ای هستند که بر عملیات علمی در این دو مأموریت تأثیر می‌گذارد. به دلیل احتیاط فراوان، فعالیت‌های علمی برای مریخ‌نورد Perseverance در مریخ موقتاً متوقف می‌شوند در حالی که تیم‌های زمینی روی مشکلات مربوط به دو رادیوی UHF استفاده شده آن کار می‌کنند.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia04/pia04304/PIA04304.jpg?w=2024&h=1918&fit=clip",
+   "link": "https://science.nasa.gov/blogs/mars/2026/11/19/nasas-perseverance-odyssey-teams-investigate-technical-issues/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T18:51:54.000Z"
   },
   {
    "slug": "science-vntg2y",
@@ -2880,6 +2952,42 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-19T15:32:39.000Z"
+  },
+  {
+   "slug": "science-14w3274",
+   "title": "Voyager 1 Engineers Analyze Data Issue, Ready to Confirm Light-day",
+   "title_fa": "مهندسان وویجر 1 در حال بررسی مشکل داده‌ها هستند و آماده تأیید روز نوری هستند",
+   "summary": "On Nov. 14, the Voyager 1 mission team became aware that the spacecraft had stopped sending science and engineering data after a NASA Deep Space Network (DSN) antenna in Canberra, Australia, “locked on” to the spacecraft and received a carrier signal, which is used to carry science and engineering data from the spacecraft to ground […]",
+   "summary_fa": "در 14 نوامبر، تیم مأموریت وویجر 1 متوجه شد که این فضاپیما پس از اینکه یک آنتن شبکه فضایی عمیق ناسا (DSN) در کانبرا، استرالیا، روی فضاپیما «قفل شد» و یک سیگنال حامل دریافت کرد، ارسال داده‌های علمی و مهندسی را متوقف کرده است. این سیگنال حامل برای انتقال داده‌های علمی و مهندسی از فضاپیما به زمین استفاده می‌شود.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/spacecraft-profile-1.jpg?w=800&h=438&fit=clip",
+   "link": "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T01:37:26.000Z"
+  },
+  {
+   "slug": "science-xa9oa3",
+   "title": "NASA Scientists Find Clues to Ancient Ice Beyond Neptune",
+   "title_fa": "دانشمندان ناسا سرنخ هایی از یخ های باستانی آن سوی نپتون پیدا کردند",
+   "summary": "A new NASA study of space dust particles traced to the Kuiper Belt provides the strongest evidence yet for an ancient reservoir of ice enriched in heavier oxygen isotopes. The findings help scientists better understand the movement of materials in the early solar system and the processes that shaped planet formation.",
+   "summary_fa": "مطالعه جدید ناسا در مورد ذرات غبار فضایی ردیابی شده در کمربند کویپر قوی ترین شواهد را برای مخزن باستانی یخ غنی شده با ایزوتوپ های اکسیژن سنگین تر ارائه می دهد. این یافته ها به دانشمندان کمک می کند تا حرکت مواد در منظومه شمسی اولیه و فرآیندهایی را که شکل گیری سیاره ها را شکل داده اند، بهتر درک کنند.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/ares/Artist’s%20Impression%20of%20Kuiper%20Belt%20Object.jpg?w=2048&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T20:54:51.000Z"
+  },
+  {
+   "slug": "nasa-1kv8hh5",
+   "title": "NASA, SpaceX Prepare for Dragon Undocking as Science Packing Continues",
+   "title_fa": "ناسا و اسپیس ایکس برای باز کردن اژدها آماده می شوند زیرا بسته بندی علمی ادامه دارد",
+   "summary": "Due to unfavorable weather, NASA and SpaceX are standing down from Wednesday’s undocking opportunity of the Dragon cargo spacecraft that arrived at the International Space Station on Oct. 15.",
+   "summary_fa": "به دلیل آب و هوای نامناسب، ناسا و اسپیس ایکس از فرصت بازگشایی روز چهارشنبه فضاپیمای باری دراگون که در 15 اکتبر به ایستگاه فضایی بین‌المللی رسید، کنار می‌روند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0250810/iss075e0250810~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-18T19:09:48.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
