@@ -133692,10 +133692,12 @@
    "status": "legacy_v01"
   },
   "jw10790004001_04201_00004_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790004001_04201_00004_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   }
  },
  "runs": [
