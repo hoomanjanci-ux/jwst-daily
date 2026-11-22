@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-22T09:55:05.739Z",
+ "generated_utc": "2026-11-22T10:15:09.763Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2762,18 +2762,6 @@
  ],
  "news": [
   {
-   "slug": "science-1s1l3kt",
-   "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
-   "title_fa": "APOD: 22 نوامبر 2026 - چرخش و رنگ در مشتری از جونو",
-   "summary": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors […]",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. چرخش و رنگ",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/JupiterSwirls_JunoBrealey_3709.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-22T05:05:00.000Z"
-  },
-  {
    "slug": "nasa-1e3zdwl",
    "title": "Dragon Returns to Earth Packed With Science and Cargo",
    "title_fa": "اژدها مملو از علم و محموله به زمین باز می گردد",
@@ -2784,42 +2772,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-21T22:10:07.000Z"
-  },
-  {
-   "slug": "science-jipoix",
-   "title": "APOD: 2026 November 21 – Voyager’s Neptune",
-   "title_fa": "APOD: 21 نوامبر 2026 - نپتون وویجر",
-   "summary": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager’s Neptune Explanation: […]",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. توضیح نپتون وویجر:",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Neptune-South-Pole-Voyager-2_2327x1670.jpg?w=2048&h=1669&fit=clip",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-21T05:05:00.000Z"
-  },
-  {
-   "slug": "science-1s7w004",
-   "title": "Curiosity Spots Drifting Twilight Clouds",
-   "title_fa": "کنجکاوی ابرهای شناور غروب را مشاهده می‌کند",
-   "summary": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than […]",
-   "summary_fa": "توضیحات مریخ‌نورد کنجکاوی ناسا این ابرهای در حال حرکت را در 31 اکتبر 2026، 5061مین روز مریخی یا سول مأموریت، ثبت کرد. این مریخ‌نورد از دوربین‌های ناوبری خود برای ثبت ابرهای پس از غروب خورشید، که ابرهای گرگ‌ومیش نامیده می‌شوند، استفاده می‌کند. این ابرها هر پاییز فقط برای مدت کوتاهی بر فراز دهانه گیل ظاهر می‌شوند، دهانه‌ای که مریخ‌نورد بیش از ... سال است که در حال کاوش در آن است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg?w=1536&h=603&fit=clip",
-   "link": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-20T22:27:05.000Z"
-  },
-  {
-   "slug": "nasa-ifz26y",
-   "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
-   "title_fa": "تامین مالی جدید ناسا، کسب و کارهای کوچک را برای نوآوری آغاز می کند",
-   "summary": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]",
-   "summary_fa": "جوایز کسب‌وکارهای کوچک در سراسر کشور برخی از حیاتی‌ترین نیازهای فناوری ناسا برای اکتشاف ماه و مریخ را برطرف می‌کند و در عین حال به اقتصاد فضایی ایالات متحده کمک می‌کند. برنامه تحقیقات نوآوری در کسب و کارهای کوچک ناسا / انتقال فناوری کسب و کارهای کوچک (SBIR/STTR) اخیراً 302 پروژه نوآورانه را برای سرمایه گذاری کل 171 میلیون دلار در بذر انتخاب کرده است.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/elementium-illustration.png?w=1064",
-   "link": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-20T20:46:14.000Z"
   },
   {
    "slug": "nasa-111otzc",
@@ -2846,54 +2798,6 @@
    "date_utc": "2026-11-20T16:47:19.000Z"
   },
   {
-   "slug": "nasa-1mkcvs7",
-   "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
-   "title_fa": "مراسم اهدای جوایز افتخاری ناسا از کارکنان مرکز فضایی استنیس قدردانی کرد",
-   "summary": "Employees contributing to NASA’s mission at the agency’s Stennis Space Center near Bay St. Louis, Mississippi, were recognized during the center’s Honor Awards ceremony on Nov. 18. Presenting the awards were Christine Powell, NASA Stennis center director, and Jeremy Parsons, the agency’s Artemis program manager responsible for management and oversight of NASA’s initiative to return […]",
-   "summary_fa": "کارمندانی که در مأموریت ناسا در مرکز فضایی استنیس آژانس در نزدیکی خلیج سنت لوئیس، می سی سی پی، در مراسم اهدای جوایز افتخار مرکز در 18 نوامبر مورد تقدیر قرار گرفتند. کریستین پاول، مدیر مرکز استنیس ناسا، و جرمی پارسونز، مسئول ابتکار عمل آرتمیس آژانس، مسئول ابتکارات مدیریت NA و مدیر برنامه های آرتمیس، اهدا کنندگان جوایز بودند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/dsc-6269-stennis-honor-awards-1.jpg?w=1024",
-   "link": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-20T16:27:46.000Z"
-  },
-  {
-   "slug": "nasa-1evlyou",
-   "title": "NASA’s Curiosity Mars Rover Collects Samples",
-   "title_fa": "مریخ نورد کنجکاوی ناسا نمونه هایی را جمع آوری می کند",
-   "summary": "This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. Learn more […]",
-   "summary_fa": "این کلاژ 16 نوامبر 49 سوراخ حفاری را نشان می دهد که توسط مریخ نورد کنجکاوی ناسا تا نوامبر 2026 ثبت شده است. هر سوراخ نشان دهنده نمونه ای است که از سنگ های سطح مریخ جمع آوری شده است. مته کنجکاوی که در انتهای بازوی رباتیک آن قرار دارد، نمونه‌های سنگ پودر شده را درون ابزاری در شکم خود می‌ریزد که ترکیب آن‌ها را تجزیه و تحلیل می‌کند. بیشتر بدانید",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/pia26804.jpg?w=2048",
-   "link": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-20T15:53:24.000Z"
-  },
-  {
-   "slug": "science-39v191",
-   "title": "APOD: 2026 November 20 – V-G-R",
-   "title_fa": null,
-   "summary": "APODScienceAPODAPOD: 2026 November…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. V-G-R Explanation: On November 17, fans of interstellar spaceflight around planet Earth were invited to s",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/IMG_4364N_Kyriazis.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-20T05:05:00.000Z"
-  },
-  {
-   "slug": "science-qpg5yl",
-   "title": "The Stormy Southwest Pacific",
-   "title_fa": "طوفانی جنوب غربی اقیانوس آرام",
-   "summary": "Tropical Cyclone Xavier launched the basin’s storm season with a bang.",
-   "summary_fa": "طوفان استوایی خاویر فصل طوفان حوضه را با صدای بلندی آغاز کرد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116.jpg?w=1440&h=960&fit=clip",
-   "link": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-20T05:01:00.000Z"
-  },
-  {
    "slug": "science-1yn73bm",
    "title": "NASA Arizona Field Investigations Advance Planetary Science",
    "title_fa": "تحقیقات میدانی ناسا آریزونا، علم سیاره‌ای را پیش می‌برد",
@@ -2918,18 +2822,6 @@
    "date_utc": "2026-11-19T21:02:23.000Z"
   },
   {
-   "slug": "nasa-1603hv7",
-   "title": "Challenge: Public Input on Life and the World in 2075",
-   "title_fa": "چالش: ورودی عمومی در مورد زندگی و جهان در سال 2075",
-   "summary": "NASA’s Transformational Tools and Technologies (TTT) is gathering public perspectives on life today and how the world may change by 2075. This challenge asks for conceptual ideas about life in 2075 across four challenge topics. Ideas should explore how future aviation or aerospace systems could: Ideas should be conceptual rather than technical. Award: $20,000 in […]",
-   "summary_fa": "ابزارها و فناوری‌های تحول‌آفرین ناسا (TTT) در حال جمع‌آوری دیدگاه‌های عمومی درباره زندگی امروز و چگونگی تغییر جهان تا سال 2075 است. این چالش ایده‌های مفهومی درباره زندگی در سال 2075 را در چهار موضوع چالشی می‌خواهد. ایده ها باید بررسی کنند که چگونه سیستم های هوانوردی یا هوافضا آینده می توانند: ایده ها باید مفهومی باشند تا فنی. جایزه: 20000 دلار",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ttt-publicinputonlife-2026.png?w=2048",
-   "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T19:34:20.000Z"
-  },
-  {
    "slug": "science-1j9di9l",
    "title": "NASA’s Perseverance, Odyssey Teams Investigate Technical Issues",
    "title_fa": "تیم‌های استقامت، اودیسه ناسا مسائل فنی را بررسی می‌کنند",
@@ -2940,18 +2832,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-19T18:51:54.000Z"
-  },
-  {
-   "slug": "science-vntg2y",
-   "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
-   "title_fa": "داده های علمی ناسا روش جدیدی را برای کشف تپ اخترهای سخت پیدا می کند",
-   "summary": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
-   "summary_fa": "داده های باز ماموریت فرمی ناسا به یک تیم بین المللی از دانشمندان کمک کرد تا روشی را برای یافتن تپ اخترها در حدود یک میلیون برابر سریعتر از قبل توسعه دهند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1652&h=928&fit=clip",
-   "link": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-19T15:33:55.000Z"
   },
   {
    "slug": "science-14w3274",
