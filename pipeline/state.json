@@ -110218,9 +110218,81 @@
   },
   "jw12522040001_0310l_00005_nrca4_rate.fits": {
    "channels": {},
-   "status": "combo_cooldown",
+   "status": "ready",
    "combo": "2MASS J18022716+6043356|NIRCAM|F212N",
-   "sha256": "1c7a0583d1289e3e6577a411e2ce336bfe9b1a20e303090023c556d95abccde0"
+   "sha256": "1c7a0583d1289e3e6577a411e2ce336bfe9b1a20e303090023c556d95abccde0",
+   "score": 23.01,
+   "analyzed_utc": "2026-11-23T09:34:23.418760+00:00",
+   "analysis": "analyses/2026/11/23/jw12522040001_0310l_00005_nrca4_rate.fits.json",
+   "cand": {
+    "filename": "jw12522040001_0310l_00005_nrca4_rate.fits",
+    "size_mb": 2.038,
+    "uri": "mast:JWST/product/jw12522040001_0310l_00005_nrca4_rate.fits",
+    "proposal": "12522",
+    "obs_id": "jw12522040001_0310l_00005_nrca4",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310l_00005_nrca4_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12522040001_0310l_00005_nrca4_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310l_00005_nrca4_rate.jpg"
+   },
+   "meta_TARGNAME": "2MASS J18022716+6043356",
+   "meta_FILTER": "F212N",
+   "meta_INSTRUME": "NIRCAM",
+   "bytes": 2136960,
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.3413,
+      "brightness": 0.4016,
+      "range": 0.4567,
+      "roi": 0.2301,
+      "score": 58.15
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 127,
+      "brightest_quadrant_percent": 94.488,
+      "width": 400,
+      "height": 256,
+      "sample_stride": 1,
+      "sample_count": 102097,
+      "finite_fraction": 0.997041,
+      "median": 0.32915976643562317,
+      "robust_scatter": 0.5580388335764408,
+      "above_5scatter_percent": 0.1244,
+      "p99_above_median_scatter": 2.612,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.3413,
+      "brightness": 0.4016,
+      "range": 0.4567,
+      "roi": 0.2301,
+      "score": 58.15
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 127,
+      "brightest_quadrant_percent": 94.488,
+      "width": 400,
+      "height": 256,
+      "sample_stride": 1,
+      "sample_count": 102097,
+      "finite_fraction": 0.997041,
+      "median": 0.32915976643562317,
+      "robust_scatter": 0.5580388335764408,
+      "above_5scatter_percent": 0.1244,
+      "p99_above_median_scatter": 2.612,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-23T09:34:35.154147+00:00"
   },
   "jw12522040001_0310d_00005_nrcalong_rate.fits": {
    "channels": {
@@ -138857,7 +138929,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-23",
-  "bytes": 441457920
+  "bytes": 443594880
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -142929,7 +143001,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-23T08:52:21.050996+00:00",
+ "paired_prepare_attempt_utc": "2026-11-23T09:30:57.094376+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
