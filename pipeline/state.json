@@ -110074,9 +110074,27 @@
   },
   "jw12522040001_0310f_00005_nrca4_rate.fits": {
    "channels": {},
-   "status": "combo_cooldown",
+   "status": "analyzed",
    "combo": "2MASS J18022716+6043356|NIRCAM|F187N",
-   "sha256": "5cc8f5980598f8992512257ee4bb8d69389e7d2be26b1d6a6212479ded9c9e07"
+   "sha256": "5cc8f5980598f8992512257ee4bb8d69389e7d2be26b1d6a6212479ded9c9e07",
+   "score": 28.7,
+   "analyzed_utc": "2026-11-23T10:13:51.312991+00:00",
+   "analysis": "analyses/2026/11/23/jw12522040001_0310f_00005_nrca4_rate.fits.json",
+   "cand": {
+    "filename": "jw12522040001_0310f_00005_nrca4_rate.fits",
+    "size_mb": 2.038,
+    "uri": "mast:JWST/product/jw12522040001_0310f_00005_nrca4_rate.fits",
+    "proposal": "12522",
+    "obs_id": "jw12522040001_0310f_00005_nrca4",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310f_00005_nrca4_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12522040001_0310f_00005_nrca4_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310f_00005_nrca4_rate.jpg"
+   },
+   "meta_TARGNAME": "2MASS J18022716+6043356",
+   "meta_FILTER": "F187N",
+   "meta_INSTRUME": "NIRCAM",
+   "bytes": 2136960,
+   "published_utc": null
   },
   "jw12522040001_0310f_00005_nrcalong_rate.fits": {
    "channels": {
@@ -110319,15 +110337,105 @@
   },
   "jw12522040001_03107_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "combo_cooldown",
+   "status": "analyzed",
    "combo": "2MASS J18022716+6043356|NIRCAM|F335M",
-   "sha256": "b3b78b8f487da1320e0a7ce4c38becfbc568ef943de7a9e4c86e3370199c898d"
+   "sha256": "b3b78b8f487da1320e0a7ce4c38becfbc568ef943de7a9e4c86e3370199c898d",
+   "score": 30.27,
+   "analyzed_utc": "2026-11-23T10:13:59.890958+00:00",
+   "analysis": "analyses/2026/11/23/jw12522040001_03107_00005_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw12522040001_03107_00005_nrcalong_rate.fits",
+    "size_mb": 2.038,
+    "uri": "mast:JWST/product/jw12522040001_03107_00005_nrcalong_rate.fits",
+    "proposal": "12522",
+    "obs_id": "jw12522040001_03107_00005_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_03107_00005_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12522040001_03107_00005_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_03107_00005_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "2MASS J18022716+6043356",
+   "meta_FILTER": "F335M",
+   "meta_INSTRUME": "NIRCAM",
+   "bytes": 2136960,
+   "published_utc": null
   },
   "jw12522040001_0310b_00005_nrcalong_rate.fits": {
    "channels": {},
-   "status": "combo_cooldown",
+   "status": "ready",
    "combo": "2MASS J18022716+6043356|NIRCAM|F410M",
-   "sha256": "c20ae33eeb44c4c8d773d1f6ec67a51877fa94804e525fd742e5e43a4dce9d0c"
+   "sha256": "c20ae33eeb44c4c8d773d1f6ec67a51877fa94804e525fd742e5e43a4dce9d0c",
+   "score": 41.43,
+   "analyzed_utc": "2026-11-23T10:14:08.652798+00:00",
+   "analysis": "analyses/2026/11/23/jw12522040001_0310b_00005_nrcalong_rate.fits.json",
+   "cand": {
+    "filename": "jw12522040001_0310b_00005_nrcalong_rate.fits",
+    "size_mb": 2.038,
+    "uri": "mast:JWST/product/jw12522040001_0310b_00005_nrcalong_rate.fits",
+    "proposal": "12522",
+    "obs_id": "jw12522040001_0310b_00005_nrcalong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310b_00005_nrcalong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12522040001_0310b_00005_nrcalong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12522040001_0310b_00005_nrcalong_rate.jpg"
+   },
+   "meta_TARGNAME": "2MASS J18022716+6043356",
+   "meta_FILTER": "F410M",
+   "meta_INSTRUME": "NIRCAM",
+   "bytes": 2136960,
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5819,
+      "brightness": 0.6421,
+      "range": 1.0,
+      "roi": 0.4143,
+      "score": 77.48
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 468,
+      "brightest_quadrant_percent": 83.761,
+      "width": 400,
+      "height": 256,
+      "sample_stride": 1,
+      "sample_count": 101053,
+      "finite_fraction": 0.986846,
+      "median": 1.0816094875335693,
+      "robust_scatter": 0.558058672606945,
+      "above_5scatter_percent": 0.4631,
+      "p99_above_median_scatter": 2.95,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5819,
+      "brightness": 0.6421,
+      "range": 1.0,
+      "roi": 0.4143,
+      "score": 77.48
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 468,
+      "brightest_quadrant_percent": 83.761,
+      "width": 400,
+      "height": 256,
+      "sample_stride": 1,
+      "sample_count": 101053,
+      "finite_fraction": 0.986846,
+      "median": 1.0816094875335693,
+      "robust_scatter": 0.558058672606945,
+      "above_5scatter_percent": 0.4631,
+      "p99_above_median_scatter": 2.95,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-23T10:14:18.400702+00:00"
   },
   "jw12522040001_03109_00005_nrca4_rate.fits": {
    "channels": {
@@ -138919,7 +139027,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-23",
-  "bytes": 443594880
+  "bytes": 450005760
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -142991,7 +143099,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-23T09:50:59.925512+00:00",
+ "paired_prepare_attempt_utc": "2026-11-23T10:11:00.235930+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
