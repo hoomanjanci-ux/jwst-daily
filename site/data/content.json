@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-23T21:05:03.359Z",
+ "generated_utc": "2026-11-23T21:08:08.641Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,23 +2898,11 @@
  ],
  "news": [
   {
-   "slug": "nasa-19wem7t",
-   "title": "Advanced Biomedical Research Tops Crew Schedule Aboard Station",
-   "title_fa": null,
-   "summary": "Sequencing microbe DNA, producing stem cells, and testing blood samples in microgravity were the main research priorities aboard the International Space Station on Monday. The Expedition 75 crew members also explored exercising in weightlessness, studied virtual reality, and photographed Earth landmarks at the beginning of the week.",
-   "summary_fa": null,
-   "image": "https://images-assets.nasa.gov/image/iss075e0254172/iss075e0254172~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/23/advanced-biomedical-research-tops-crew-schedule-aboard-station/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T18:18:17.000Z"
-  },
-  {
    "slug": "nasa-10l3byw",
    "title": "Studying Cancer Cells in Microgravity",
-   "title_fa": null,
+   "title_fa": "تست داروی ضد سرطان بر روی نمونه‌های بیمار در ایستگاه فضایی",
    "summary": "This Nov. 19, 2026, image shows gastric microtumors grown within an Encapsulates biochip. The Encapsulate-1 investigation studies patient-derived tumor samples aboard the International Space Station to better understand how cancer cells move and interact in microgravity. The results could help researchers develop further testing to predict a patient’s risk of metastasis and support more personalized […]",
-   "summary_fa": null,
+   "summary_fa": "محققان نمونه‌های تومور معدهٔ بیماران را در بستر جاذبهٔ صفر به‌دستگاه Encapsulate-۱ بررسی می‌کنند تا حرکت و تعامل سلول‌های سرطانی را بهتر بشناسند. نتایج این مطالعه می‌تواند پیش‌بینی خطر متاستاز و درمان شخصی‌سازی‌شده را تسهیل کند.",
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e426880orig.jpg?w=1448",
    "link": "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/",
    "source": "NASA",
@@ -2934,18 +2922,6 @@
    "date_utc": "2026-11-23T17:23:50.000Z"
   },
   {
-   "slug": "science-1a8knrw",
-   "title": "NASA’s ESCAPADE Captures Parting Images of Earth on Its Way to Mars",
-   "title_fa": null,
-   "summary": "After completing a successful powered flyby of Earth, one of NASA’s twin ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft snapped farewell images of its home planet before heading off to Mars. The ESCAPADE spacecraft used its Visible and Infrared Observation System camera, provided by Northern Arizona University, to capture the images of Earth […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/ESCAPADE-Earth-vis-color.jpg?w=2000&h=1998&fit=clip",
-   "link": "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T16:53:07.000Z"
-  },
-  {
    "slug": "nasa-wqt82a",
    "title": "NASA+ Documentary Captures Europa Clipper’s Journey Into Deep Space",
    "title_fa": null,
@@ -2958,18 +2934,6 @@
    "date_utc": "2026-11-23T16:08:23.000Z"
   },
   {
-   "slug": "esawebb-zfoa2n",
-   "title": "Science Release: Webb shows how supernova dust chronicles star evolution",
-   "title_fa": "انتشار علمی: وب نشان می دهد که چگونه غبار ابرنواختر تکامل ستاره ها را شرح می دهد",
-   "summary": "The NASA/ESA/CSA James Webb Space Telescope captured the mid-infrared light of Cassiopeia A (Cas A), one of the most well-studied supernova remnants, to characterise its dust. Astronomers used Webb’s detailed observations to gain new insights into shell mergers, a process that is theorised to occur mere hours before a star’s supernova explosion, revealing new details about the structure of Cas A’s original star.",
-   "summary_fa": "تلسکوپ فضایی جیمز وب NASA/ESA/CSA نور فروسرخ میانی Cassiopeia A (Cas A) را که یکی از بقایای ابرنواختر به خوبی مطالعه شده است، برای مشخص کردن غبار آن گرفت. اخترشناسان از مشاهدات دقیق وب برای به دست آوردن بینش های جدیدی در مورد ادغام پوسته ها استفاده کردند، فرآیندی که به نظر می رسد ساعاتی قبل از انفجار ابرنواختر یک ستاره رخ می دهد و جزئیات جدیدی را در مورد ساختار ستاره اصلی Cas A آشکار می کند.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2624a.jpg",
-   "link": "https://esawebb.org/news/weic2624/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-11-23T15:00:00.000Z"
-  },
-  {
    "slug": "science-fh2ty",
    "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
    "title_fa": null,
@@ -2979,6 +2943,18 @@
    "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
    "source": "NASA",
    "source_fa": "ناسا",
+   "date_utc": "2026-11-23T15:00:00.000Z"
+  },
+  {
+   "slug": "esawebb-zfoa2n",
+   "title": "Science Release: Webb shows how supernova dust chronicles star evolution",
+   "title_fa": "انتشار علمی: وب نشان می دهد که چگونه غبار ابرنواختر تکامل ستاره ها را شرح می دهد",
+   "summary": "The NASA/ESA/CSA James Webb Space Telescope captured the mid-infrared light of Cassiopeia A (Cas A), one of the most well-studied supernova remnants, to characterise its dust. Astronomers used Webb’s detailed observations to gain new insights into shell mergers, a process that is theorised to occur mere hours before a star’s supernova explosion, revealing new details about the structure of Cas A’s original star.",
+   "summary_fa": "تلسکوپ فضایی جیمز وب NASA/ESA/CSA نور فروسرخ میانی Cassiopeia A (Cas A) را که یکی از بقایای ابرنواختر به خوبی مطالعه شده است، برای مشخص کردن غبار آن گرفت. اخترشناسان از مشاهدات دقیق وب برای به دست آوردن بینش های جدیدی در مورد ادغام پوسته ها استفاده کردند، فرآیندی که به نظر می رسد ساعاتی قبل از انفجار ابرنواختر یک ستاره رخ می دهد و جزئیات جدیدی را در مورد ساختار ستاره اصلی Cas A آشکار می کند.",
+   "image": "http://cdn.esawebb.org/archives/images/screen/weic2624a.jpg",
+   "link": "https://esawebb.org/news/weic2624/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
    "date_utc": "2026-11-23T15:00:00.000Z"
   },
   {
@@ -3008,9 +2984,9 @@
   {
    "slug": "nasa-t4tlwg",
    "title": "65 Years of Human Spaceflight at NASA Johnson",
-   "title_fa": "65 سال پرواز فضایی انسان در ناسا جانسون",
+   "title_fa": "پنجاه و پنج سال پرواز فضایی سرنشین‌دار در مرکز جانسون ناسا",
    "summary": "For 65 years, NASA’s Johnson Space Center in Houston has helped shape human spaceflight, from the Gemini missions that demonstrated rendezvous and docking techniques needed for Apollo to the research conducted aboard the International Space Station, which has supported a continuous human presence for more than 26 years. Today, Johnson teams are preparing crews and […]",
-   "summary_fa": "به مدت 65 سال، مرکز فضایی جانسون ناسا در هیوستون به شکل‌گیری پرواز فضایی انسان کمک کرده است، از مأموریت‌های جمینی که تکنیک‌های قرار ملاقات و اتصال مورد نیاز برای آپولو را نشان می‌داد تا تحقیقات انجام‌شده در ایستگاه فضایی بین‌المللی، که بیش از 26 سال از حضور مداوم انسان پشتیبانی می‌کند. امروز تیم های جانسون در حال آماده سازی خدمه و",
+   "summary_fa": "مرکز فضایی جانسون ناسا در هوستون، به مناسبت پنجاه و پنج سال فعالیت خود، بر نقش کلیدی‌اش در پرواز فضایی سرنشین‌دار تأکید دارد. از مأموریت‌های جمنی که تکنیک‌های ملاقات و اتصال مداری را برای آپولو اثبات کردند، تا پژوهش‌های aboard ایستگاه فضایی بین‌المللی که بیش از بیست و شش سال حضور مستمر انسانی را پشتیبانی کرده است.",
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/20261106-artemiscelebrationgala-sl1-4202.jpg?w=1536",
    "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
    "source": "NASA",
@@ -3028,18 +3004,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-22T05:05:00.000Z"
-  },
-  {
-   "slug": "nasa-1e3zdwl",
-   "title": "Dragon Returns to Earth Packed With Science and Cargo",
-   "title_fa": "اژدها مملو از علم و محموله به زمین باز می گردد",
-   "summary": "At 2:03 p.m. PST, the unpiloted SpaceX Dragon spacecraft splashed down in the Pacific Ocean near Los Angeles, completing NASA's 35th SpaceX commercial resupply services mission to the International Space Station.",
-   "summary_fa": "در ساعت 2:03 بعد از ظهر PST، فضاپیمای SpaceX Dragon بدون خلبان در اقیانوس آرام در نزدیکی لس آنجلس پاشیده شد و سی و پنجمین ماموریت خدمات بازرسان تجاری SpaceX ناسا را ​​به ایستگاه فضایی بین‌المللی تکمیل کرد.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0226573/iss075e0226573~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-21T22:10:07.000Z"
   },
   {
    "slug": "science-jipoix",
@@ -3064,90 +3028,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-20T22:27:05.000Z"
-  },
-  {
-   "slug": "nasa-122tsqz",
-   "title": "Dragon Undocks from Station Packed With Science and Cargo",
-   "title_fa": null,
-   "summary": "At 12:05 p.m. EST, the unpiloted SpaceX Dragon spacecraft undocked from the space-facing port of the International Space Station's Harmony module following a command from SpaceX ground controllers.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss-11-18-26.png?w=1280",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-20T17:08:20.000Z"
-  },
-  {
-   "slug": "nasa-1mf6v4y",
-   "title": "Dragon Prepares to Depart Station for Earth Return",
-   "title_fa": null,
-   "summary": "The unpiloted SpaceX Dragon spacecraft will undock at approximately 12:05 p.m. EST from the space-facing port of the station’s Harmony module and fire its thrusters to move safely away from the orbital complex.",
-   "summary_fa": null,
-   "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/20/dragon-prepares-to-depart-station-for-earth-return/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-20T16:47:19.000Z"
-  },
-  {
-   "slug": "science-1yn73bm",
-   "title": "NASA Arizona Field Investigations Advance Planetary Science",
-   "title_fa": "تحقیقات میدانی ناسا آریزونا، علم سیاره‌ای را پیش می‌برد",
-   "summary": "To better understand processes shaping Earth, the Moon, Mars, and worlds beyond, NASA’s Goddard Instrument Field Team headed to Flagstaff, Arizona.",
-   "summary_fa": "برای درک بهتر فرآیندهایی که زمین، ماه، مریخ و جهان‌های فراتر از آن را شکل می‌دهند، تیم میدان ابزار گودارد ناسا به فلگ استاف، آریزونا رفت.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/planetary-expeditions/2026-09-gift-flagstaff/GIFT-flagstaff-2026-geophysics-meteor-crater.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T21:18:36.000Z"
-  },
-  {
-   "slug": "nasa-1o4jghq",
-   "title": "Science and Suits Fill Schedule as Crew Preps for Cargo Missions",
-   "title_fa": "برنامه علمی و لباس‌ها به عنوان آماده‌سازی خدمه برای ماموریت‌های باربری",
-   "summary": "The Expedition 75 crew spent Thursday on a variety of research including an exercise study and a space physics investigation and servicing spacesuits. The orbital residents are also gearing up for a variety of cargo missions departing from and launching to the International Space Station this month.",
-   "summary_fa": "خدمه اکسپدیشن 75 روز پنجشنبه را در تحقیقات مختلفی از جمله مطالعه تمرین و تحقیق فیزیک فضایی و سرویس لباس های فضایی صرف کردند. ساکنان مداری همچنین در حال آماده شدن برای انواع ماموریت های باری هستند که در این ماه از ایستگاه فضایی بین المللی حرکت می کنند و به سمت آن پرتاب می شوند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0267082/iss075e0267082~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T21:02:23.000Z"
-  },
-  {
-   "slug": "science-1j9di9l",
-   "title": "NASA’s Perseverance, Odyssey Teams Investigate Technical Issues",
-   "title_fa": "تیم‌های استقامت، اودیسه ناسا مسائل فنی را بررسی می‌کنند",
-   "summary": "NASA teams supporting the agency’s Perseverance Mars rover and 2001 Mars Odyssey orbiter missions are investigating separate technical issues affecting science operations on the two missions. Out of an abundance of caution, science activities are temporarily paused for the Perseverance rover on Mars while ground teams work on issues with its two UHF radios used […]",
-   "summary_fa": "تیم‌های ناسا که از مریخ‌نورد Perseverance و مأموریت‌های مدارگرد مریخ اودیسه ۲۰۰۱ حمایت می‌کنند، در حال بررسی مسائل فنی جداگانه‌ای هستند که بر عملیات علمی در این دو مأموریت تأثیر می‌گذارد. به دلیل احتیاط فراوان، فعالیت‌های علمی برای مریخ‌نورد Perseverance در مریخ موقتاً متوقف می‌شوند در حالی که تیم‌های زمینی روی مشکلات مربوط به دو رادیوی UHF استفاده شده آن کار می‌کنند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia04/pia04304/PIA04304.jpg?w=2024&h=1918&fit=clip",
-   "link": "https://science.nasa.gov/blogs/mars/2026/11/19/nasas-perseverance-odyssey-teams-investigate-technical-issues/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T18:51:54.000Z"
-  },
-  {
-   "slug": "science-14w3274",
-   "title": "Voyager 1 Engineers Analyze Data Issue, Ready to Confirm Light-day",
-   "title_fa": "مهندسان وویجر 1 در حال بررسی مشکل داده‌ها هستند و آماده تأیید روز نوری هستند",
-   "summary": "On Nov. 14, the Voyager 1 mission team became aware that the spacecraft had stopped sending science and engineering data after a NASA Deep Space Network (DSN) antenna in Canberra, Australia, “locked on” to the spacecraft and received a carrier signal, which is used to carry science and engineering data from the spacecraft to ground […]",
-   "summary_fa": "در 14 نوامبر، تیم مأموریت وویجر 1 متوجه شد که این فضاپیما پس از اینکه یک آنتن شبکه فضایی عمیق ناسا (DSN) در کانبرا، استرالیا، روی فضاپیما «قفل شد» و یک سیگنال حامل دریافت کرد، ارسال داده‌های علمی و مهندسی را متوقف کرده است. این سیگنال حامل برای انتقال داده‌های علمی و مهندسی از فضاپیما به زمین استفاده می‌شود.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/spacecraft-profile-1.jpg?w=800&h=438&fit=clip",
-   "link": "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T01:37:26.000Z"
-  },
-  {
-   "slug": "science-xa9oa3",
-   "title": "NASA Scientists Find Clues to Ancient Ice Beyond Neptune",
-   "title_fa": "دانشمندان ناسا سرنخ هایی از یخ های باستانی آن سوی نپتون پیدا کردند",
-   "summary": "A new NASA study of space dust particles traced to the Kuiper Belt provides the strongest evidence yet for an ancient reservoir of ice enriched in heavier oxygen isotopes. The findings help scientists better understand the movement of materials in the early solar system and the processes that shaped planet formation.",
-   "summary_fa": "مطالعه جدید ناسا در مورد ذرات غبار فضایی ردیابی شده در کمربند کویپر قوی ترین شواهد را برای مخزن باستانی یخ غنی شده با ایزوتوپ های اکسیژن سنگین تر ارائه می دهد. این یافته ها به دانشمندان کمک می کند تا حرکت مواد در منظومه شمسی اولیه و فرآیندهایی را که شکل گیری سیاره ها را شکل داده اند، بهتر درک کنند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/ares/Artist’s%20Impression%20of%20Kuiper%20Belt%20Object.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-18T20:54:51.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",

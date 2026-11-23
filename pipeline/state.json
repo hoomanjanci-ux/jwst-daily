@@ -133859,39 +133859,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-22T16:27:12.809295+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 4,
-    "next_window": "2026-11-23T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": "fresh (1 unseen)",
-    "errors": {
-     "https://science.nasa.gov/image-article/apod-2026-november-20:fa": "ValueError: Persian news translation unavailable; held for retry"
-    }
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-22T16:27:20.055779+00:00"
-  },
-  {
    "started_utc": "2026-11-22T16:41:04.064523+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -135310,6 +135277,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-23T21:05:02.189000+00:00"
+  },
+  {
+   "started_utc": "2026-11-23T21:07:16.758748+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 6,
+    "next_window": "2026-11-24T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/23/advanced-biomedical-research-tops-crew-schedule-aboard-station/",
+     "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/23/advanced-biomedical-research-tops-crew-schedule-aboard-station/",
+     "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/"
+    ],
+    "mode": "fresh (5 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-23T21:07:43.772687+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -136166,9 +136170,35 @@
   "https://esawebb.org/news/weic2624/": {
    "fa": "2026-11-23T15:14:35.326340+00:00",
    "en": "2026-11-23T15:14:35.326340+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/23/advanced-biomedical-research-tops-crew-schedule-aboard-station/": {
+   "fa": "2026-11-23T21:07:23.408576+00:00",
+   "en": "2026-11-23T21:07:23.408576+00:00"
+  },
+  "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/": {
+   "fa": "2026-11-23T21:07:23.408576+00:00",
+   "en": "2026-11-23T21:07:23.408576+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/blogs/spacestation/2026/11/23/advanced-biomedical-research-tops-crew-schedule-aboard-station/": {
+   "title": "پژوهش‌های زیست‌پزشکی پیشرو در اولویت برنامه فضانوردان ایستگاه فضایی",
+   "summary": "در روز دوشنبه، مهم‌ترین محورهای پژوهشی ایستگاه فضایی بین‌المللی شامل توالی‌یابی DNA میکروب‌ها، تولید سلول‌های بنیه و آزمایش نمونه‌های خون در شرایط بی‌وزنی بود. تیم عملیات اکسپدیشن ۷۵ همچنین به بررسی تمرین ورزشی در فضای بی‌وزنی، مطالعه واقعیت مجازی و عکس‌برداری از بناهای مشهور زمین پرداخته است.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/23/advanced-biomedical-research-tops-crew-schedule-aboard-station/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-23T18:18:17+00:00",
+   "ts": "2026-11-23T21:07:23.408576+00:00"
+  },
+  "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/": {
+   "title": "تست داروی ضد سرطان بر روی نمونه‌های بیمار در ایستگاه فضایی",
+   "summary": "محققان نمونه‌های تومور معدهٔ بیماران را در بستر جاذبهٔ صفر به‌دستگاه Encapsulate-۱ بررسی می‌کنند تا حرکت و تعامل سلول‌های سرطانی را بهتر بشناسند. نتایج این مطالعه می‌تواند پیش‌بینی خطر متاستاز و درمان شخصی‌سازی‌شده را تسهیل کند.",
+   "link": "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-23T17:28:37+00:00",
+   "ts": "2026-11-23T21:07:23.408576+00:00"
+  },
   "https://esawebb.org/news/weic2624/": {
    "title": "انتشار علمی: وب نشان می دهد که چگونه غبار ابرنواختر تکامل ستاره ها را شرح می دهد",
    "summary": "تلسکوپ فضایی جیمز وب NASA/ESA/CSA نور فروسرخ میانی Cassiopeia A (Cas A) را که یکی از بقایای ابرنواختر به خوبی مطالعه شده است، برای مشخص کردن غبار آن گرفت. اخترشناسان از مشاهدات دقیق وب برای به دست آوردن بینش های جدیدی در مورد ادغام پوسته ها استفاده کردند، فرآیندی که به نظر می رسد ساعاتی قبل از انفجار ابرنواختر یک ستاره رخ می دهد و جزئیات جدیدی را در مورد ساختار ستاره اصلی Cas A آشکار می کند.",
@@ -137500,24 +137530,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-29T15:10:18+00:00",
    "ts": "2026-10-29T16:49:50.878850+00:00"
-  },
-  "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/": {
-   "title": "Astronauts Suit Up to Prepare for Power Upgrade Spacewalk",
-   "summary": "NASA is streaming live coverage as two astronauts prepare for a spacewalk outside the International Space Station.",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-suit-up-to-prepare-for-power-upgrade-spacewalk/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date": "2026-10-29T10:32:26+00:00",
-   "ts": "2026-10-29T13:38:37.718359+00:00"
-  },
-  "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/": {
-   "title": "APOD: 29 October 2026 – The Horns of Venus",
-   "summary": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Horns",
-   "link": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-29T04:05:00+00:00",
-   "ts": "2026-10-29T06:22:57.465375+00:00"
   }
  },
  "news_title_fp": {
@@ -138315,6 +138327,14 @@
    "en": "2026-11-23"
   },
   "4aef3aa9da6543af": {
+   "fa": "2026-11-23",
+   "en": "2026-11-23"
+  },
+  "29f00241a4d85797": {
+   "fa": "2026-11-23",
+   "en": "2026-11-23"
+  },
+  "cd26e5ad8e987e64": {
    "fa": "2026-11-23",
    "en": "2026-11-23"
   }
@@ -139119,6 +139139,14 @@
   [
    "4aef3aa9da6543af",
    "science release webb shows how supernova dust chronicles star evolution"
+  ],
+  [
+   "29f00241a4d85797",
+   "advanced biomedical research tops crew schedule aboard station"
+  ],
+  [
+   "cd26e5ad8e987e64",
+   "studying cancer cells in microgravity"
   ]
  ],
  "combo_seen": {
