@@ -133859,39 +133859,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-22T10:59:14.894888+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 5,
-    "next_window": "2026-11-22T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": "fresh (1 unseen)",
-    "errors": {
-     "https://science.nasa.gov/image-article/apod-2026-november-20:fa": "ValueError: Persian news translation unavailable; held for retry"
-    }
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-22T10:59:27.434067+00:00"
-  },
-  {
    "started_utc": "2026-11-22T11:35:58.577885+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -135310,6 +135277,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-23T14:58:17.290548+00:00"
+  },
+  {
+   "started_utc": "2026-11-23T15:14:28.782993+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-23/18",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 6,
+    "next_window": "2026-11-24T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://esawebb.org/news/weic2624/"
+    ],
+    "en": [
+     "https://esawebb.org/news/weic2624/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {
+     "https://science.nasa.gov/image-article/apod-2026-november-20:fa": "ValueError: Persian news translation unavailable; held for retry"
+    }
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-23T15:14:42.564067+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -136162,9 +136166,22 @@
   "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/": {
    "fa": "2026-11-23T13:44:11.298193+00:00",
    "en": "2026-11-23T13:44:11.298193+00:00"
+  },
+  "https://esawebb.org/news/weic2624/": {
+   "fa": "2026-11-23T15:14:35.326340+00:00",
+   "en": "2026-11-23T15:14:35.326340+00:00"
   }
  },
  "news_archive": {
+  "https://esawebb.org/news/weic2624/": {
+   "title": "انتشار علمی: وب نشان می دهد که چگونه غبار ابرنواختر تکامل ستاره ها را شرح می دهد",
+   "summary": "تلسکوپ فضایی جیمز وب NASA/ESA/CSA نور فروسرخ میانی Cassiopeia A (Cas A) را که یکی از بقایای ابرنواختر به خوبی مطالعه شده است، برای مشخص کردن غبار آن گرفت. اخترشناسان از مشاهدات دقیق وب برای به دست آوردن بینش های جدیدی در مورد ادغام پوسته ها استفاده کردند، فرآیندی که به نظر می رسد ساعاتی قبل از انفجار ابرنواختر یک ستاره رخ می دهد و جزئیات جدیدی را در مورد ساختار ستاره اصلی Cas A آشکار می کند.",
+   "link": "https://esawebb.org/news/weic2624/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date": "2026-11-23T15:00:00+00:00",
+   "ts": "2026-11-23T15:14:35.326340+00:00"
+  },
   "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251/": {
    "title": "APOD: 2026 23 نوامبر - ظهور سحابی تاریک Lynds 1251",
    "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. ظهور",
@@ -137505,15 +137522,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-29T04:05:00+00:00",
    "ts": "2026-10-29T06:22:57.465375+00:00"
-  },
-  "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/": {
-   "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
-   "summary": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California. The emeritus astronaut and retired U.S. Navy captain begins his new role at NASA’s center of excellence for robotics and deep space exploration and at Caltech, which manages JPL for NASA, on",
-   "link": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-29T02:49:59+00:00",
-   "ts": "2026-10-29T06:22:57.465375+00:00"
   }
  },
  "news_title_fp": {
@@ -138307,6 +138315,10 @@
    "en": "2026-11-23"
   },
   "af8f4972b527ad5c": {
+   "fa": "2026-11-23",
+   "en": "2026-11-23"
+  },
+  "4aef3aa9da6543af": {
    "fa": "2026-11-23",
    "en": "2026-11-23"
   }
@@ -139107,6 +139119,10 @@
   [
    "af8f4972b527ad5c",
    "laser focus at the top of the world"
+  ],
+  [
+   "4aef3aa9da6543af",
+   "science release webb shows how supernova dust chronicles star evolution"
   ]
  ],
  "combo_seen": {

@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-23T14:58:20.927Z",
+ "generated_utc": "2026-11-23T15:14:46.869Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,6 +2898,18 @@
  ],
  "news": [
   {
+   "slug": "esawebb-zfoa2n",
+   "title": "Science Release: Webb shows how supernova dust chronicles star evolution",
+   "title_fa": "انتشار علمی: وب نشان می دهد که چگونه غبار ابرنواختر تکامل ستاره ها را شرح می دهد",
+   "summary": "The NASA/ESA/CSA James Webb Space Telescope captured the mid-infrared light of Cassiopeia A (Cas A), one of the most well-studied supernova remnants, to characterise its dust. Astronomers used Webb’s detailed observations to gain new insights into shell mergers, a process that is theorised to occur mere hours before a star’s supernova explosion, revealing new details about the structure of Cas A’s original star.",
+   "summary_fa": "تلسکوپ فضایی جیمز وب NASA/ESA/CSA نور فروسرخ میانی Cassiopeia A (Cas A) را که یکی از بقایای ابرنواختر به خوبی مطالعه شده است، برای مشخص کردن غبار آن گرفت. اخترشناسان از مشاهدات دقیق وب برای به دست آوردن بینش های جدیدی در مورد ادغام پوسته ها استفاده کردند، فرآیندی که به نظر می رسد ساعاتی قبل از انفجار ابرنواختر یک ستاره رخ می دهد و جزئیات جدیدی را در مورد ساختار ستاره اصلی Cas A آشکار می کند.",
+   "image": "http://cdn.esawebb.org/archives/images/screen/weic2624a.jpg",
+   "link": "https://esawebb.org/news/weic2624/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
+   "date_utc": "2026-11-23T15:00:00.000Z"
+  },
+  {
    "slug": "science-1kroi5y",
    "title": "APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251",
    "title_fa": "APOD: 2026 23 نوامبر - ظهور سحابی تاریک Lynds 1251",
@@ -3232,18 +3244,6 @@
    "source": "ESA/Webb",
    "source_fa": "اسا/وب (جیمز وب)",
    "date_utc": "2026-07-01T15:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe9m",
-   "title": "Photo Release: Webb pinpoints millions of stars within Cigar Galaxy",
-   "title_fa": "جیمز وب میلیون‌ها ستاره در کهکشان سیگار نشانه‌روی کرد",
-   "summary": "Located 12 million light-years away and undergoing rapid star formation, edge-on spiral galaxy Messier 82 (M82) is a scientifically unique sight to behold, and now the NASA/ESA/CSA James Webb Space Telescope has revealed previously unseen details.",
-   "summary_fa": "کهکشان مارپیچی مسیه ۸۲ (M82) که از فاصلهٔ ۱۲ میلیون سال نوری مشاهده می‌شود و فعالانه در حال تشکیل ستاره است، با عبور نور از لایه‌های آن، جلوه‌ای منحصربه‌فرد به نمایش می‌گذارد. تلسکوپ فضایی جیمز وب (مشترک ناسا، آژانس فضایی اروپا و کانادا) اکنون جزئیات پیش‌ازاین دیده‌نشده‌ای از این کهکشان را فاش کرده است.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2612a.jpg",
-   "link": "https://esawebb.org/news/weic2612/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-06-23T14:00:00.000Z"
   }
  ]
 }
