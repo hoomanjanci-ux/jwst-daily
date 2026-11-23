@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-23T17:50:33.561Z",
+ "generated_utc": "2026-11-23T18:55:29.372Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,52 +2898,28 @@
  ],
  "news": [
   {
-   "slug": "nasa-10l3byw",
-   "title": "Studying Cancer Cells in Microgravity",
+   "slug": "nasa-19wem7t",
+   "title": "Advanced Biomedical Research Tops Crew Schedule Aboard Station",
    "title_fa": null,
-   "summary": "This Nov. 19, 2026, image shows gastric microtumors grown within an Encapsulates biochip. The Encapsulate-1 investigation studies patient-derived tumor samples aboard the International Space Station to better understand how cancer cells move and interact in microgravity. The results could help researchers develop further testing to predict a patient’s risk of metastasis and support more personalized […]",
+   "summary": "Sequencing microbe DNA, producing stem cells, and testing blood samples in microgravity were the main research priorities aboard the International Space Station on Monday. The Expedition 75 crew members also explored exercising in weightlessness, studied virtual reality, and photographed Earth landmarks at the beginning of the week.",
    "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e426880orig.jpg?w=1448",
-   "link": "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T17:28:37.000Z"
+   "image": "https://images-assets.nasa.gov/image/iss075e0254172/iss075e0254172~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/23/advanced-biomedical-research-tops-crew-schedule-aboard-station/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-23T18:18:17.000Z"
   },
   {
-   "slug": "nasa-7446or",
-   "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+   "slug": "science-1a8knrw",
+   "title": "NASA’s ESCAPADE Captures Parting Images of Earth on Its Way to Mars",
    "title_fa": null,
-   "summary": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity, enough to power approximately 16 […]",
+   "summary": "After completing a successful powered flyby of Earth, one of NASA’s twin ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft snapped farewell images of its home planet before heading off to Mars. The ESCAPADE spacecraft used its Visible and Infrared Observation System camera, provided by Northern Arizona University, to capture the images of Earth […]",
    "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/srd-fsp-isru02b.jpg?w=2048",
-   "link": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T17:23:50.000Z"
-  },
-  {
-   "slug": "nasa-wqt82a",
-   "title": "NASA+ Documentary Captures Europa Clipper’s Journey Into Deep Space",
-   "title_fa": null,
-   "summary": "NASA invites the world behind the scenes to witness the story of Europa Clipper’s journey from a far-off vision to a cutting-edge deep space exploration mission with the release of the agency’s newest documentary, “The Europa Concept.” The documentary will air on NASA+, the NASA app, and the agency’s website starting Monday, Nov. 23, and […]",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/theeuropaconceptposter-digitalassets-keyart-1-1-notitle-fnl-option1-centered.jpg",
-   "link": "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T16:08:23.000Z"
-  },
-  {
-   "slug": "science-fh2ty",
-   "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
-   "title_fa": null,
-   "summary": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A). Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and planets. This high-resolution, mid-infrared observation from Webb […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/11/STScI-01M6PRXJ9A7S81CH1C9SJP1MB0.jpg?w=1536&h=1536&fit=clip",
-   "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T15:00:00.000Z"
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/ESCAPADE-Earth-vis-color.jpg?w=2000&h=1998&fit=clip",
+   "link": "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-23T16:53:07.000Z"
   },
   {
    "slug": "esawebb-zfoa2n",
@@ -2958,54 +2934,6 @@
    "date_utc": "2026-11-23T15:00:00.000Z"
   },
   {
-   "slug": "science-1kroi5y",
-   "title": "APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251",
-   "title_fa": "APOD: 2026 23 نوامبر - ظهور سحابی تاریک Lynds 1251",
-   "summary": "APOD Science APOD APOD: 2026 November 23 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Emergence […]",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. ظهور",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Ldn1251Comparison_Cruz_2160.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T05:05:00.000Z"
-  },
-  {
-   "slug": "science-v0auhp",
-   "title": "Laser Focus at the Top of the World",
-   "title_fa": "فوکوس لیزری در صدر جهان",
-   "summary": "A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.",
-   "summary_fa": "یک ابزار ژئودتیک نسل بعدی که توسط ناسا ساخته شده است، بخشی از شبکه ای است که به اندازه گیری مدار ماهواره ها و شکل سیاره کمک می کند، در سوالبارد نروژ به نمایش درآمد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/laser-focus-at-the-top-of-the-world/svalbardzm_oli2_20260730.jpg?w=1440&h=960&fit=clip",
-   "link": "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T05:01:00.000Z"
-  },
-  {
-   "slug": "nasa-t4tlwg",
-   "title": "65 Years of Human Spaceflight at NASA Johnson",
-   "title_fa": "65 سال پرواز فضایی انسان در ناسا جانسون",
-   "summary": "For 65 years, NASA’s Johnson Space Center in Houston has helped shape human spaceflight, from the Gemini missions that demonstrated rendezvous and docking techniques needed for Apollo to the research conducted aboard the International Space Station, which has supported a continuous human presence for more than 26 years. Today, Johnson teams are preparing crews and […]",
-   "summary_fa": "به مدت 65 سال، مرکز فضایی جانسون ناسا در هیوستون به شکل‌گیری پرواز فضایی انسان کمک کرده است، از مأموریت‌های جمینی که تکنیک‌های قرار ملاقات و اتصال مورد نیاز برای آپولو را نشان می‌داد تا تحقیقات انجام‌شده در ایستگاه فضایی بین‌المللی، که بیش از 26 سال از حضور مداوم انسان پشتیبانی می‌کند. امروز تیم های جانسون در حال آماده سازی خدمه و",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/20261106-artemiscelebrationgala-sl1-4202.jpg?w=1536",
-   "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-22T19:13:25.000Z"
-  },
-  {
-   "slug": "science-1s1l3kt",
-   "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
-   "title_fa": "APOD: 22 نوامبر 2026 - چرخش و رنگ در مشتری از جونو",
-   "summary": "APODScienceAPODAPOD: 2026 November 22 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors on Jupiter from Juno Explanation: What creates the colors in Jupiter’s clouds? No ",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. چرخش و رنگ",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/JupiterSwirls_JunoBrealey_3709.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-22T05:05:00.000Z"
-  },
-  {
    "slug": "nasa-1e3zdwl",
    "title": "Dragon Returns to Earth Packed With Science and Cargo",
    "title_fa": "اژدها مملو از علم و محموله به زمین باز می گردد",
@@ -3018,49 +2946,25 @@
    "date_utc": "2026-11-21T22:10:07.000Z"
   },
   {
-   "slug": "science-jipoix",
-   "title": "APOD: 2026 November 21 – Voyager’s Neptune",
-   "title_fa": "APOD: 21 نوامبر 2026 - نپتون وویجر",
-   "summary": "APODScienceAPODAPOD: 2026 November 21 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager’s Neptune Explanation: Cruising through the outer solar system, the Voyager 2 spacecraft mad",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. توضیح نپتون وویجر:",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Neptune-South-Pole-Voyager-2_2327x1670.jpg?w=2048&h=1669&fit=clip",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-21T05:05:00.000Z"
-  },
-  {
-   "slug": "science-1s7w004",
-   "title": "Curiosity Spots Drifting Twilight Clouds",
-   "title_fa": "کنجکاوی ابرهای شناور غروب را مشاهده می‌کند",
-   "summary": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than […]",
-   "summary_fa": "توضیحات مریخ‌نورد کنجکاوی ناسا این ابرهای در حال حرکت را در 31 اکتبر 2026، 5061مین روز مریخی یا سول مأموریت، ثبت کرد. این مریخ‌نورد از دوربین‌های ناوبری خود برای ثبت ابرهای پس از غروب خورشید، که ابرهای گرگ‌ومیش نامیده می‌شوند، استفاده می‌کند. این ابرها هر پاییز فقط برای مدت کوتاهی بر فراز دهانه گیل ظاهر می‌شوند، دهانه‌ای که مریخ‌نورد بیش از ... سال است که در حال کاوش در آن است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg?w=1536&h=603&fit=clip",
-   "link": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-20T22:27:05.000Z"
-  },
-  {
-   "slug": "nasa-111otzc",
+   "slug": "nasa-122tsqz",
    "title": "Dragon Undocks from Station Packed With Science and Cargo",
-   "title_fa": "اژدها از ایستگاه مملو از علم و محموله باز می شود",
+   "title_fa": null,
    "summary": "At 12:05 p.m. EST, the unpiloted SpaceX Dragon spacecraft undocked from the space-facing port of the International Space Station's Harmony module following a command from SpaceX ground controllers.",
-   "summary_fa": "ساعت 12:05 بعد از ظهر EST، فضاپیمای SpaceX Dragon بدون خلبان از بندر رو به فضا ماژول هارمونی ایستگاه فضایی بین‌المللی به دنبال دستور کنترل‌کننده‌های زمینی SpaceX باز شد.",
+   "summary_fa": null,
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss-11-18-26.png?w=1280",
-   "link": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-20T17:08:20.000Z"
   },
   {
-   "slug": "nasa-1uver7l",
+   "slug": "nasa-1mf6v4y",
    "title": "Dragon Prepares to Depart Station for Earth Return",
-   "title_fa": "اژدها برای بازگشت به زمین برای عزیمت به ایستگاه آماده می شود",
+   "title_fa": null,
    "summary": "The unpiloted SpaceX Dragon spacecraft will undock at approximately 12:05 p.m. EST from the space-facing port of the station’s Harmony module and fire its thrusters to move safely away from the orbital complex.",
-   "summary_fa": "فضاپیمای SpaceX Dragon بدون خلبان تقریباً در ساعت 12:05 بعد از ظهر از فرودگاه خارج می شود. EST از درگاه فضایی ماژول هارمونی ایستگاه خارج می شود و رانشگرهای آن را آتش می زنند تا با خیال راحت از مجموعه مداری دور شوند.",
+   "summary_fa": null,
    "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-prepares-to-depart-station-for-earth-return/",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/20/dragon-prepares-to-depart-station-for-earth-return/",
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-20T16:47:19.000Z"
@@ -3124,18 +3028,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-18T20:54:51.000Z"
-  },
-  {
-   "slug": "nasa-1kv8hh5",
-   "title": "NASA, SpaceX Prepare for Dragon Undocking as Science Packing Continues",
-   "title_fa": "ناسا و اسپیس ایکس برای باز کردن اژدها آماده می شوند زیرا بسته بندی علمی ادامه دارد",
-   "summary": "Due to unfavorable weather, NASA and SpaceX are standing down from Wednesday’s undocking opportunity of the Dragon cargo spacecraft that arrived at the International Space Station on Oct. 15.",
-   "summary_fa": "به دلیل آب و هوای نامناسب، ناسا و اسپیس ایکس از فرصت بازگشایی روز چهارشنبه فضاپیمای باری دراگون که در 15 اکتبر به ایستگاه فضایی بین‌المللی رسید، کنار می‌روند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0250810/iss075e0250810~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-18T19:09:48.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
