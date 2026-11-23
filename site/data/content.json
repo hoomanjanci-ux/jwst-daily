@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-23T21:08:08.641Z",
+ "generated_utc": "2026-11-23T22:10:20.312Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,6 +2898,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-oydts7",
+   "title": "NASA Awards Contract for NOAA’s Near Earth Orbit Network Program",
+   "title_fa": null,
+   "summary": "NASA, on behalf of the National Oceanic and Atmospheric Administration (NOAA), has awarded a contract to Northrop Grumman Systems Corporation for the Sounder for Microwave-Based Applications (SMBA) instruments on NOAA’s Near Earth Orbit Network (NEON) satellites. The cost-plus-fixed-fee, firm-fixed-price, and time-and-materials hybrid contract has a value of $290.6 million. The period of performance runs from […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg?w=1920",
+   "link": "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-23T21:10:03.000Z"
+  },
+  {
    "slug": "nasa-10l3byw",
    "title": "Studying Cancer Cells in Microgravity",
    "title_fa": "تست داروی ضد سرطان بر روی نمونه‌های بیمار در ایستگاه فضایی",
@@ -3016,18 +3028,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-21T05:05:00.000Z"
-  },
-  {
-   "slug": "science-1s7w004",
-   "title": "Curiosity Spots Drifting Twilight Clouds",
-   "title_fa": "کنجکاوی ابرهای شناور غروب را مشاهده می‌کند",
-   "summary": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than […]",
-   "summary_fa": "توضیحات مریخ‌نورد کنجکاوی ناسا این ابرهای در حال حرکت را در 31 اکتبر 2026، 5061مین روز مریخی یا سول مأموریت، ثبت کرد. این مریخ‌نورد از دوربین‌های ناوبری خود برای ثبت ابرهای پس از غروب خورشید، که ابرهای گرگ‌ومیش نامیده می‌شوند، استفاده می‌کند. این ابرها هر پاییز فقط برای مدت کوتاهی بر فراز دهانه گیل ظاهر می‌شوند، دهانه‌ای که مریخ‌نورد بیش از ... سال است که در حال کاوش در آن است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg?w=1536&h=603&fit=clip",
-   "link": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-20T22:27:05.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
