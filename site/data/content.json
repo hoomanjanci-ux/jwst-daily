@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-23T09:11:02.828Z",
+ "generated_utc": "2026-11-23T09:34:45.852Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw12522040001-0310l-00005-nrca4-rate",
+   "product": "jw12522040001_0310l_00005_nrca4_rate.fits",
+   "published_utc": "2026-11-23T09:34:23.406788+00:00",
+   "target": "2MASS J18022716+6043356",
+   "instrument": "NIRCAM",
+   "detector": "NRCA4",
+   "filter": "F212N",
+   "obs_date": "2026-09-02",
+   "proposal": "12522",
+   "score": 23.01,
+   "quality_score": 58.15,
+   "image": null,
+   "text_fa": null,
+   "text_en": null,
+   "is_mock": true
+  },
   {
    "slug": "jw10790002001-06201-00004-nrca4-rate",
    "product": "jw10790002001_06201_00004_nrca4_rate.fits",
