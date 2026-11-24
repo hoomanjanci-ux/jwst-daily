@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-24T04:45:17.241Z",
+ "generated_utc": "2026-11-24T05:17:55.861Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2982,18 +2982,6 @@
    "date_utc": "2026-11-23T16:08:23.000Z"
   },
   {
-   "slug": "science-fh2ty",
-   "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
-   "title_fa": "وب ناسا نشانه‌های پیدایش ستاره‌ها را در غبار ابرنواختری به تصویر می‌کشد",
-   "summary": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A). Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and planets. This high-resolution, mid-infrared observation from Webb […]",
-   "summary_fa": "تلسکوپ فضایی جیمز وب با تصویربرداری از بازماندهٔ ابرنواختری کاسیوپئا ای (Cas A) به جزئیات این بازماندهٔ ستارهٔ عظیم پی برده است. بازمانده‌هایی مانند کاسیوپئا ای، ابرهایی از گاز و غبار هستند که پس از انفجار یک ستارهٔ بزرگ باقی می‌مانند و روزی ستاره‌ها و سیاره‌های جدیدی را شکل خواهند داد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/11/STScI-01M6PRXJ9A7S81CH1C9SJP1MB0.jpg?w=1536&h=1536&fit=clip",
-   "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T15:00:00.000Z"
-  },
-  {
    "slug": "esawebb-zfoa2n",
    "title": "Science Release: Webb shows how supernova dust chronicles star evolution",
    "title_fa": "تلسکوپ جیمز وب نشان می‌دهد غبار ابرنواختری چگونه تکامل ستاره را روایت می‌کند",
@@ -3003,6 +2991,18 @@
    "link": "https://esawebb.org/news/weic2624/",
    "source": "ESA/Webb",
    "source_fa": "اسا/وب (جیمز وب)",
+   "date_utc": "2026-11-23T15:00:00.000Z"
+  },
+  {
+   "slug": "science-fh2ty",
+   "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
+   "title_fa": "وب ناسا نشانه‌های پیدایش ستاره‌ها را در غبار ابرنواختری به تصویر می‌کشد",
+   "summary": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A). Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and planets. This high-resolution, mid-infrared observation from Webb […]",
+   "summary_fa": "تلسکوپ فضایی جیمز وب با تصویربرداری از بازماندهٔ ابرنواختری کاسیوپئا ای (Cas A) به جزئیات این بازماندهٔ ستارهٔ عظیم پی برده است. بازمانده‌هایی مانند کاسیوپئا ای، ابرهایی از گاز و غبار هستند که پس از انفجار یک ستارهٔ بزرگ باقی می‌مانند و روزی ستاره‌ها و سیاره‌های جدیدی را شکل خواهند داد.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/11/STScI-01M6PRXJ9A7S81CH1C9SJP1MB0.jpg?w=1536&h=1536&fit=clip",
+   "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+   "source": "NASA",
+   "source_fa": "ناسا",
    "date_utc": "2026-11-23T15:00:00.000Z"
   },
   {
