@@ -133748,33 +133748,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-23T02:26:05.683626+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "waiting",
-    "ready_pairs": 4,
-    "next_window": "2026-11-23T09:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-23T02:30:12.529758+00:00"
-  },
-  {
    "started_utc": "2026-11-23T03:10:56.455312+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -135201,6 +135174,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-24T10:45:05.313936+00:00"
+  },
+  {
+   "started_utc": "2026-11-24T11:41:25.418045+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 4,
+    "next_window": "2026-11-24T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-lifts-off-to-resupply-expedition-75-crew/",
+     "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-counts-down-to-launch-from-kazakhstan/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-lifts-off-to-resupply-expedition-75-crew/",
+     "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-counts-down-to-launch-from-kazakhstan/"
+    ],
+    "mode": "fresh (3 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-24T11:42:32.764659+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -136085,9 +136095,35 @@
   "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/": {
    "fa": "2026-11-24T02:32:06.109620+00:00",
    "en": "2026-11-24T02:32:06.109620+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-lifts-off-to-resupply-expedition-75-crew/": {
+   "fa": "2026-11-24T11:41:31.726453+00:00",
+   "en": "2026-11-24T11:41:31.726453+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-counts-down-to-launch-from-kazakhstan/": {
+   "fa": "2026-11-24T11:41:31.726453+00:00",
+   "en": "2026-11-24T11:41:31.726453+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-lifts-off-to-resupply-expedition-75-crew/": {
+   "title": "کرافت باری پروگرس به خدمه 75 اکسپدیشن تکمیل می شود",
+   "summary": "فضاپیمای روسکاسموس پروگرس 97 بدون خلبان پس از پرتاب در ساعت 5:17 صبح به وقت شرقی (3:17 بعد از ظهر به وقت بایکونور) با موشک سایوز از پایگاه فضایی بایکونور قزاقستان، به سلامت در مدار و در راه ایستگاه فضایی بین‌المللی است.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-lifts-off-to-resupply-expedition-75-crew/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-24T10:34:45+00:00",
+   "ts": "2026-11-24T11:41:31.726453+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-counts-down-to-launch-from-kazakhstan/": {
+   "title": "پرتاب شناور باربری پروگرس از پایگاه فضایی قزاقستان",
+   "summary": "فضاپیمای باربری روسی پروگرس در حال شمارش معکوس برای پرتاب از پایگاه فضایی بایکونور است. این مأموریت بارهای شامل مواد غذایی، سوخت و تجهیزات مورد نیاز خدمهٔ ایستگاه فضایی بین‌المللی را جابه‌جا می‌کند. ناسا پوشش زنده‌ای از لحظهٔ پرتاب و اتصال فضاپیما به ایستگاه ارائه خواهد داد.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-counts-down-to-launch-from-kazakhstan/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-24T09:41:47+00:00",
+   "ts": "2026-11-24T11:41:31.726453+00:00"
+  },
   "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/": {
    "title": "مستند «مفهوم اروپا»؛ سفر کلپر اروپا به فضا از سوی ناسا روایت می‌شود",
    "summary": "ناسا مستند جدید خود با عنوان «مفهوم اروپا» را در پلتفرم NASA+ و وب‌سایت این آژانس منتشر کرد. این مستند داستان سفر کاوشگر اروپا را از یک دیدگاه دوردست تا مأموریت پیشرفته اکتشاف فضایی نشان می‌دهد. پخش این اثر از دوشنبه ۲۳ نوامبر آغاز شد.",
@@ -137419,24 +137455,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-29T18:18:09+00:00",
    "ts": "2026-10-29T19:48:23.285843+00:00"
-  },
-  "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/": {
-   "title": "NASA Names Troy Asher Armstrong Flight Research Center Director",
-   "summary": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test pilot and aerospace engineer with decades of experience in flight research and operations, has served as the center’s acting director since March. “Troy has spent his career pushing the boundaries of flight,",
-   "link": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-29T18:00:35+00:00",
-   "ts": "2026-10-29T19:48:23.285843+00:00"
-  },
-  "https://science.nasa.gov/missions/hubble/ghostly-cats-head-nebula-lurks-within-sight-of-nasas-hubble-webb/": {
-   "title": "Ghostly Cat’s Head Nebula Lurks Within Sight of NASA’s Hubble, Webb",
-   "summary": "Like a spectral form rising out of a cold mist, NASA’s Hubble and James Webb Space Telescopes have captured a hauntingly dynamic star-forming scene. It lies within the vast Carina Nebula, a diffuse star-forming region located about 7,500 light-years away from Earth. The small, select area both telescopes observed is nicknamed the Cat’s Head Nebula",
-   "link": "https://science.nasa.gov/missions/hubble/ghostly-cats-head-nebula-lurks-within-sight-of-nasas-hubble-webb/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-29T14:01:01+00:00",
-   "ts": "2026-10-29T17:07:21.517242+00:00"
   }
  },
  "news_title_fp": {
@@ -138262,6 +138280,14 @@
    "en": "2026-11-24"
   },
   "6abab2c93f40eac6": {
+   "fa": "2026-11-24",
+   "en": "2026-11-24"
+  },
+  "910e7be3df5a716e": {
+   "fa": "2026-11-24",
+   "en": "2026-11-24"
+  },
+  "2a2b43226035ea32": {
    "fa": "2026-11-24",
    "en": "2026-11-24"
   }
@@ -139094,6 +139120,14 @@
   [
    "6abab2c93f40eac6",
    "nasa documentary captures europa clipper s journey into deep space"
+  ],
+  [
+   "910e7be3df5a716e",
+   "progress cargo craft lifts off to resupply expedition 75 crew"
+  ],
+  [
+   "2a2b43226035ea32",
+   "progress cargo craft counts down to launch from kazakhstan"
   ]
  ],
  "combo_seen": {
