@@ -133859,39 +133859,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-22T18:23:18.950464+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 4,
-    "next_window": "2026-11-23T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [],
-    "en": [],
-    "mode": "fresh (1 unseen)",
-    "errors": {
-     "https://science.nasa.gov/image-article/apod-2026-november-20:fa": "ValueError: Persian news translation unavailable; held for retry"
-    }
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-22T18:23:27.886297+00:00"
-  },
-  {
    "started_utc": "2026-11-22T18:50:57.311167+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -135312,6 +135279,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-24T01:25:00.196953+00:00"
+  },
+  {
+   "started_utc": "2026-11-24T02:22:27.051290+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 6,
+    "next_window": "2026-11-24T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+     "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/"
+    ],
+    "en": [
+     "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+     "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/"
+    ],
+    "mode": "fresh (3 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-24T02:22:54.418120+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -136184,9 +136188,35 @@
   "https://www.nasa.gov/blogs/quesst/2026/11/23/nasa-officially-takes-ownership-of-x-59-supersonic-aircraft/": {
    "fa": "2026-11-24T01:17:45.748961+00:00",
    "en": "2026-11-24T01:17:45.748961+00:00"
+  },
+  "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/": {
+   "fa": "2026-11-24T02:22:33.617004+00:00",
+   "en": "2026-11-24T02:22:33.617004+00:00"
+  },
+  "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/": {
+   "fa": "2026-11-24T02:22:33.617004+00:00",
+   "en": "2026-11-24T02:22:33.617004+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/": {
+   "title": "ناسا به دنبال شرکای ساخت نخستین راکتور هسته‌ای ماه",
+   "summary": "ناسا برای طراحی و ساخت نخستین رآکتور هسته‌ای ماه، از شرکای صنعتی دعوت به همکاری کرد. این رآنتور به نام «ماه‌ریاکتر-۱» توان تولید ۲۰ کیلووات برق دارد و گامی بزرگ در راه حضور پایدار انسان بر سطح ماه است.",
+   "link": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-23T17:23:50+00:00",
+   "ts": "2026-11-24T02:22:33.617004+00:00"
+  },
+  "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/": {
+   "title": "تصویرخداحافظی سفینهٔ ESCAPADE ناسا از زمین در آستانهٔ سفر به مریخ",
+   "summary": "سفینهٔ جفتِ ESCAPADE ناسا پس از پرواز موفقیت‌آمیز در نزدیکی زمین، پیش از حرکت به سوی مریخ تصاویری از خانهٔ خورشیدی خود ثبت کرد. این عکس‌ها با دوربین سامانهٔ مشاهدهٔ مرئی و فروسرخ سفینه که دانشگاه آریزونای شمالی تهیه کرده بود، برداشت شدند.",
+   "link": "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-23T16:53:07+00:00",
+   "ts": "2026-11-24T02:22:33.617004+00:00"
+  },
   "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/": {
    "title": "ناسا قراردادی ۲۹۰.۶ میلیون دلاری برای ماهواره‌های نئون به نورثروپ گرامن داد",
    "summary": "ناسا به نمایندگی از سازمان ملی اقیانوس و جو آمریکا (NOAA)، قراردادی ۲۹۰.۶ میلیون دلاری با شرکت نورثروپ گرامن سیستمز امضا کرد. بر پایه این قرارداد، ابزارهای SMBA ماهواره‌های شبکه مدار نزدیک زمین (NEON) ساخته می‌شوند.",
@@ -137518,24 +137548,6 @@
    "source_fa": "اسا/وب (جیمز وب)",
    "date": "2026-10-29T14:00:00+00:00",
    "ts": "2026-10-29T17:07:21.517242+00:00"
-  },
-  "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/": {
-   "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
-   "summary": "When companies began approaching NASA’s Langley Research Center, asking to be included in the In-Space Servicing, Assembly, and Manufacturing (ISAM) State of Play for access to competitive intelligence, the team knew they had crossed an inflection point. “We’ve had some unnamed companies ask if we have any proprietary information,” says Dale Arney, senior team lead",
-   "link": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-29T15:06:40+00:00",
-   "ts": "2026-10-29T16:59:20.148323+00:00"
-  },
-  "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/": {
-   "title": "NASA’s Hubble Marks Way for Roman Space Telescope",
-   "summary": "A sweeping barred galaxy takes center stage in this Oct. 22, 2026, image, but the gravitational lensing at bottom right is the real target. This observation is one of many gravitational lensing images taken by NASA’s Hubble Space Telescope in preparation for science with the new Nancy Grace Roman Space Telescope. Astronomers will use these",
-   "link": "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-29T14:49:27+00:00",
-   "ts": "2026-10-29T16:59:20.148323+00:00"
   }
  },
  "news_title_fp": {
@@ -138349,6 +138361,14 @@
    "en": "2026-11-24"
   },
   "6ab3dd6c7a6305d9": {
+   "fa": "2026-11-24",
+   "en": "2026-11-24"
+  },
+  "b3e2109d679369e1": {
+   "fa": "2026-11-24",
+   "en": "2026-11-24"
+  },
+  "04f2a842529ec80e": {
    "fa": "2026-11-24",
    "en": "2026-11-24"
   }
@@ -139169,6 +139189,14 @@
   [
    "6ab3dd6c7a6305d9",
    "nasa officially takes ownership of x 59 supersonic aircraft"
+  ],
+  [
+   "b3e2109d679369e1",
+   "nasa seeks partners to design first nuclear reactor for the moon"
+  ],
+  [
+   "04f2a842529ec80e",
+   "nasa s escapade captures parting images of earth on its way to mars"
   ]
  ],
  "combo_seen": {
