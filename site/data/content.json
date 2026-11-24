@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-24T09:40:08.110Z",
+ "generated_utc": "2026-11-24T10:45:06.677Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,6 +2898,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-eah6p7",
+   "title": "Progress Cargo Craft Counts Down to Launch from Kazakhstan",
+   "title_fa": null,
+   "summary": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station.",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/09/blog-p96-launch-091626.jpg?w=2048",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-counts-down-to-launch-from-kazakhstan/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-24T09:41:47.000Z"
+  },
+  {
    "slug": "science-ywfji1",
    "title": "APOD: 2026 November 24 – Galaxies Battle in the NGC 7771 Group",
    "title_fa": null,
@@ -3124,18 +3136,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-19T18:51:54.000Z"
-  },
-  {
-   "slug": "science-14w3274",
-   "title": "Voyager 1 Engineers Analyze Data Issue, Ready to Confirm Light-day",
-   "title_fa": "مهندسان وویجر ۱ مشکل داده‌ها را بررسی می‌کنند",
-   "summary": "On Nov. 14, the Voyager 1 mission team became aware that the spacecraft had stopped sending science and engineering data after a NASA Deep Space Network (DSN) antenna in Canberra, Australia, “locked on” to the spacecraft and received a carrier signal, which is used to carry science and engineering data from the spacecraft to ground […]",
-   "summary_fa": "تیم مأموریت وویجر ۱ در ۱۴ نوامبر متوجه شد این فضاپیما پس از آنکه آنتنی از شبکه عمق فضای ناسا در کانبرا سیگنال حاملی را دریافت کرد، ارسال داده‌های علمی و مهندسی خود را متوقف کرده است. مهندسان در حال تحلیل این مسئله هستند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/spacecraft-profile-1.jpg?w=800&h=438&fit=clip",
-   "link": "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T01:37:26.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
