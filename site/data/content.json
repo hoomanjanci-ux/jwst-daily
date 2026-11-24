@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-24T05:17:55.861Z",
+ "generated_utc": "2026-11-24T05:35:50.274Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw12522040001-0310l-00005-nrca4-rate",
+   "product": "jw12522040001_0310l_00005_nrca4_rate.fits",
+   "published_utc": "2026-11-24T05:30:36.496Z",
+   "target": "2MASS J18022716+6043356",
+   "instrument": "NIRCAM",
+   "detector": "NRCA4",
+   "filter": "F212N",
+   "obs_date": "2026-09-02",
+   "proposal": "12522",
+   "score": 23.01,
+   "quality_score": 58.15,
+   "image": "/img/jw12522040001-0310l-00005-nrca4-rate.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «2MASS J18022716+6043356»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 400 × 256 پیکسل دارد. در نمونهٔ منظم 102,097 پیکسل معتبر، حدود 0.1244 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F212N نزدیک طول موج 2.12 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 94.488 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F212N · تاریخ رصد: 2026-09-02\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/12522\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw12525111001-0210e-00004-nrcb3-i2d",
    "product": "jw12525111001_0210e_00004_nrcb3_i2d.fits",
@@ -119,23 +136,6 @@
    "proposal": "12522",
    "score": 28.7,
    "quality_score": 64.24,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
-   "slug": "jw12522040001-0310l-00005-nrca4-rate",
-   "product": "jw12522040001_0310l_00005_nrca4_rate.fits",
-   "published_utc": "2026-11-23T09:34:23.406788+00:00",
-   "target": "2MASS J18022716+6043356",
-   "instrument": "NIRCAM",
-   "detector": "NRCA4",
-   "filter": "F212N",
-   "obs_date": "2026-09-02",
-   "proposal": "12522",
-   "score": 23.01,
-   "quality_score": 58.15,
    "image": null,
    "text_fa": null,
    "text_en": null,
@@ -2982,18 +2982,6 @@
    "date_utc": "2026-11-23T16:08:23.000Z"
   },
   {
-   "slug": "esawebb-zfoa2n",
-   "title": "Science Release: Webb shows how supernova dust chronicles star evolution",
-   "title_fa": "تلسکوپ جیمز وب نشان می‌دهد غبار ابرنواختری چگونه تکامل ستاره را روایت می‌کند",
-   "summary": "The NASA/ESA/CSA James Webb Space Telescope captured the mid-infrared light of Cassiopeia A (Cas A), one of the most well-studied supernova remnants, to characterise its dust. Astronomers used Webb’s detailed observations to gain new insights into shell mergers, a process that is theorised to occur mere hours before a star’s supernova explosion, revealing new details about the structure of Cas A’s original star.",
-   "summary_fa": "تلسکوپ فضایی جیمز وب نور مادون قرمز میان‌باند پسماند ابرنواختری کاسیوپئا آ را ثبت کرد تا گرد و غبار آن را مشخص کند. اخترشناسان با بهره‌گیری از مشاهدات دقیق وب، بینش تازه‌ای دربارهٔ ادغام پوسته‌ها به دست آوردند؛ فرآیندی که پیش‌بینی می‌شود چند ساعت پیش از انفجار ابرنواختری یک ستاره رخ می‌دهد.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2624a.jpg",
-   "link": "https://esawebb.org/news/weic2624/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-11-23T15:00:00.000Z"
-  },
-  {
    "slug": "science-fh2ty",
    "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
    "title_fa": "وب ناسا نشانه‌های پیدایش ستاره‌ها را در غبار ابرنواختری به تصویر می‌کشد",
@@ -3003,6 +2991,18 @@
    "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
    "source": "NASA",
    "source_fa": "ناسا",
+   "date_utc": "2026-11-23T15:00:00.000Z"
+  },
+  {
+   "slug": "esawebb-zfoa2n",
+   "title": "Science Release: Webb shows how supernova dust chronicles star evolution",
+   "title_fa": "تلسکوپ جیمز وب نشان می‌دهد غبار ابرنواختری چگونه تکامل ستاره را روایت می‌کند",
+   "summary": "The NASA/ESA/CSA James Webb Space Telescope captured the mid-infrared light of Cassiopeia A (Cas A), one of the most well-studied supernova remnants, to characterise its dust. Astronomers used Webb’s detailed observations to gain new insights into shell mergers, a process that is theorised to occur mere hours before a star’s supernova explosion, revealing new details about the structure of Cas A’s original star.",
+   "summary_fa": "تلسکوپ فضایی جیمز وب نور مادون قرمز میان‌باند پسماند ابرنواختری کاسیوپئا آ را ثبت کرد تا گرد و غبار آن را مشخص کند. اخترشناسان با بهره‌گیری از مشاهدات دقیق وب، بینش تازه‌ای دربارهٔ ادغام پوسته‌ها به دست آوردند؛ فرآیندی که پیش‌بینی می‌شود چند ساعت پیش از انفجار ابرنواختری یک ستاره رخ می‌دهد.",
+   "image": "http://cdn.esawebb.org/archives/images/screen/weic2624a.jpg",
+   "link": "https://esawebb.org/news/weic2624/",
+   "source": "ESA/Webb",
+   "source_fa": "اسا/وب (جیمز وب)",
    "date_utc": "2026-11-23T15:00:00.000Z"
   },
   {
