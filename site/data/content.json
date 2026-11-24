@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-24T02:30:06.564Z",
+ "generated_utc": "2026-11-24T02:32:32.810Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -22,6 +22,23 @@
   ]
  },
  "analyses": [
+  {
+   "slug": "jw12525111001-0210e-00004-nrcb3-i2d",
+   "product": "jw12525111001_0210e_00004_nrcb3_i2d.fits",
+   "published_utc": "2026-11-24T02:30:37.144Z",
+   "target": "BD+60 1753",
+   "instrument": "NIRCAM",
+   "detector": "NRCB3",
+   "filter": "F212N",
+   "obs_date": "2026-09-22",
+   "proposal": "12525",
+   "score": 36.04,
+   "quality_score": 79.23,
+   "image": "/img/jw12525111001-0210e-00004-nrcb3-i2d.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «BD+60 1753»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 160 × 161 پیکسل دارد. در نمونهٔ منظم 24,460 پیکسل معتبر، حدود 0.9076 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F212N نزدیک طول موج 2.12 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 97.748 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F212N · تاریخ رصد: 2026-09-22\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/12525\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
   {
    "slug": "jw10790003001-10201-00004-nrcalong-i2d",
    "product": "jw10790003001_10201_00004_nrcalong_i2d.fits",
@@ -1468,23 +1485,6 @@
    "is_mock": true
   },
   {
-   "slug": "jw12525111001-0210e-00004-nrcb3-i2d",
-   "product": "jw12525111001_0210e_00004_nrcb3_i2d.fits",
-   "published_utc": "2026-11-07T20:18:24.612481+00:00",
-   "target": "BD+60 1753",
-   "instrument": "NIRCAM",
-   "detector": "NRCB3",
-   "filter": "F212N",
-   "obs_date": "2026-09-22",
-   "proposal": "12525",
-   "score": 36.04,
-   "quality_score": 79.23,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
-  },
-  {
    "slug": "jw12525111001-0210g-00002-nrcblong-i2d",
    "product": "jw12525111001_0210g_00002_nrcblong_i2d.fits",
    "published_utc": "2026-11-07T14:30:37.773Z",
@@ -2910,30 +2910,6 @@
    "date_utc": "2026-11-23T21:10:03.000Z"
   },
   {
-   "slug": "nasa-1qr8jau",
-   "title": "NASA Officially Takes Ownership of X-59 Supersonic Aircraft",
-   "title_fa": "ناسا مالکیت هواپیمای سوپرسونیک ایکس-۵۹ را رسمی کرد",
-   "summary": "NASA’s X-59 reached a new milestone Nov. 18, when the agency officially took ownership of the quiet supersonic research aircraft from contractor Lockheed Martin Skunk Works. NASA selected Lockheed Martin to collaborate on the design of the X-59 and lead on vehicle building and testing for the agency’s Quesst mission. The aircraft is designed to […]",
-   "summary_fa": "ناسا روز ۱۸ نوامبر مالکیت هواپیمای پژوهشی بی‌صدای سوپرسونیک ایکس-۵۹ را از شرکت لاکهید مارتین اسکات وورکس رسماً بر عهده گرفت. ناسا لاکهید مارتین را برای همکاری در طراحی و رهبری ساخت و آزمایش این هواپیما برای مأموریت کوئست انتخاب کرده بود. این هواپیما برای [...]",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/afrc2026-0209-2-web2.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/quesst/2026/11/23/nasa-officially-takes-ownership-of-x-59-supersonic-aircraft/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T21:05:34.000Z"
-  },
-  {
-   "slug": "nasa-19wem7t",
-   "title": "Advanced Biomedical Research Tops Crew Schedule Aboard Station",
-   "title_fa": "پژوهش‌های زیستی پیشرو در اولویت کاروانده ایستگاه فضایی",
-   "summary": "Sequencing microbe DNA, producing stem cells, and testing blood samples in microgravity were the main research priorities aboard the International Space Station on Monday. The Expedition 75 crew members also explored exercising in weightlessness, studied virtual reality, and photographed Earth landmarks at the beginning of the week.",
-   "summary_fa": "فعالیت‌های تحقیقاتی بیولوژیکی و پزشکی از جمله توالی‌یابی DNA میکروب‌ها، تولید سلول‌های بنیادی و آزمایش نمونه‌های خون در شرایط بی‌وزنی، روز دوشنبه در ایستگاه فضایی بین‌المللی در اولویت قرار داشت. خدمه مأموریت اکسپدیشن ۷۵ همچنین به تمرین ورزش در بی‌وزنی، مطالعه واقعیت مجازی و عکاسی از آثار تاریخی زمین پرداختند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0254172/iss075e0254172~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/23/advanced-biomedical-research-tops-crew-schedule-aboard-station/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T18:18:17.000Z"
-  },
-  {
    "slug": "nasa-10l3byw",
    "title": "Studying Cancer Cells in Microgravity",
    "title_fa": "بررسی سلول‌های سرطانی در محیط بی‌وزنی",
@@ -2956,18 +2932,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-23T17:23:50.000Z"
-  },
-  {
-   "slug": "science-1a8knrw",
-   "title": "NASA’s ESCAPADE Captures Parting Images of Earth on Its Way to Mars",
-   "title_fa": "سفینه ESCAPADE ناسا پیش از رسیدن به مریخ، تصاویری وداعی از زمین ثبت کرد",
-   "summary": "After completing a successful powered flyby of Earth, one of NASA’s twin ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft snapped farewell images of its home planet before heading off to Mars. The ESCAPADE spacecraft used its Visible and Infrared Observation System camera, provided by Northern Arizona University, to capture the images of Earth […]",
-   "summary_fa": "پس از انجام پرواز سیار نیرومند موفقیت‌آمیز در نزدیکی زمین، یکی از دو سفینه جفت ESCAPADE ناسا پیش از حرکت به سمت مریخ، تصاویر وداعی از سیاره خانگی خود ثبت کرد. این سفینه با استفاده از دوربین «سیستم رؤیت‌سازی مرئی و فروسرخ»ِ ارائه‌شده توسط دانشگاه شمال آریزونا، این تصاویر را ضبط نمود.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/ESCAPADE-Earth-vis-color.jpg?w=2000&h=1998&fit=clip",
-   "link": "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T16:53:07.000Z"
   },
   {
    "slug": "nasa-wqt82a",
@@ -3008,9 +2972,9 @@
   {
    "slug": "science-1kroi5y",
    "title": "APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251",
-   "title_fa": "APOD: 2026 23 نوامبر - ظهور سحابی تاریک Lynds 1251",
+   "title_fa": "نمائی از تبارز غباری لایندز ۱۲۵۱",
    "summary": "APOD Science APOD APOD: 2026 November 23 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Emergence […]",
-   "summary_fa": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. ظهور",
+   "summary_fa": "تصویر امروز سایت APOD به غباری تاریک لایندز ۱۲۵۱ اختصاص یافته است. این غباری در آسمان شب پدیدار شده و جزو سحابی‌های جذبی شناخته می‌شود.",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Ldn1251Comparison_Cruz_2160.jpg?w=2048&h=2048&fit=clip",
    "link": "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251/",
    "source": "NASA",
@@ -3020,9 +2984,9 @@
   {
    "slug": "science-v0auhp",
    "title": "Laser Focus at the Top of the World",
-   "title_fa": "فوکوس لیزری در صدر جهان",
+   "title_fa": "تلسکوپ لیزری نسل جدید ناسا در قطب شمال فعال شد",
    "summary": "A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.",
-   "summary_fa": "یک ابزار ژئودتیک نسل بعدی که توسط ناسا ساخته شده است، بخشی از شبکه ای است که به اندازه گیری مدار ماهواره ها و شکل سیاره کمک می کند، در سوالبارد نروژ به نمایش درآمد.",
+   "summary_fa": "دستگاه نقشه‌برداری ژئودتیک نسل جدید ناسا که بخشی از شبکه‌ای برای اندازه‌گیری مدار ماهواره‌ها و شکل کره زمین است، در جزیره اسپالتبرگ نروژ رونمایی شد.",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/laser-focus-at-the-top-of-the-world/svalbardzm_oli2_20260730.jpg?w=1440&h=960&fit=clip",
    "link": "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/",
    "source": "NASA",
@@ -3054,18 +3018,6 @@
    "date_utc": "2026-11-22T05:05:00.000Z"
   },
   {
-   "slug": "nasa-1e3zdwl",
-   "title": "Dragon Returns to Earth Packed With Science and Cargo",
-   "title_fa": "درگن فضایی با محمولهٔ علمی به زمین بازگشت",
-   "summary": "At 2:03 p.m. PST, the unpiloted SpaceX Dragon spacecraft splashed down in the Pacific Ocean near Los Angeles, completing NASA's 35th SpaceX commercial resupply services mission to the International Space Station.",
-   "summary_fa": "کپسول فضایی بدون سرنشین درگنِ اسپیس‌ایکس ساعت ۱۴:۰۳ وقت پاسیفیک در اقیانوس آرام نزدیک لس‌آنجلس فرود آمد. این مأموریت، سی و پنجمین پرواز تجاری تأمین بار ناسا به ایستگاه فضایی بین‌المللی بود.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0226573/iss075e0226573~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-21T22:10:07.000Z"
-  },
-  {
    "slug": "science-jipoix",
    "title": "APOD: 2026 November 21 – Voyager’s Neptune",
    "title_fa": "تصویر روز نجوم: وایجر ۲ در آستانهٔ نپتون",
@@ -3076,78 +3028,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-21T05:05:00.000Z"
-  },
-  {
-   "slug": "nasa-122tsqz",
-   "title": "Dragon Undocks from Station Packed With Science and Cargo",
-   "title_fa": null,
-   "summary": "At 12:05 p.m. EST, the unpiloted SpaceX Dragon spacecraft undocked from the space-facing port of the International Space Station's Harmony module following a command from SpaceX ground controllers.",
-   "summary_fa": null,
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss-11-18-26.png?w=1280",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-20T17:08:20.000Z"
-  },
-  {
-   "slug": "nasa-1mf6v4y",
-   "title": "Dragon Prepares to Depart Station for Earth Return",
-   "title_fa": null,
-   "summary": "The unpiloted SpaceX Dragon spacecraft will undock at approximately 12:05 p.m. EST from the space-facing port of the station’s Harmony module and fire its thrusters to move safely away from the orbital complex.",
-   "summary_fa": null,
-   "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/20/dragon-prepares-to-depart-station-for-earth-return/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-20T16:47:19.000Z"
-  },
-  {
-   "slug": "science-1yn73bm",
-   "title": "NASA Arizona Field Investigations Advance Planetary Science",
-   "title_fa": "بررسی‌های میدانی ناسا در آریزونا، پیشرفت علم سیاره‌شناسی",
-   "summary": "To better understand processes shaping Earth, the Moon, Mars, and worlds beyond, NASA’s Goddard Instrument Field Team headed to Flagstaff, Arizona.",
-   "summary_fa": "تیم میدانی ابزارهای مرکز پروازهای فضایی گد ناسا برای بررسی‌های میدانی به فلگستاف آریزونا رفت. هدف این مأموریت، درک بهتر فرآیندهای شکل‌دهندهٔ زمین، ماه، مریخ و سایر جرم‌های آسمانی است. این پژوهش‌ها گامی رو به پیشرفت علم سیاره‌شناسی محسوب می‌شود.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/planetary-expeditions/2026-09-gift-flagstaff/GIFT-flagstaff-2026-geophysics-meteor-crater.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T21:18:36.000Z"
-  },
-  {
-   "slug": "nasa-1o4jghq",
-   "title": "Science and Suits Fill Schedule as Crew Preps for Cargo Missions",
-   "title_fa": "خدمه ایستگاه برای مأموریت‌های باربری آماده می‌شود",
-   "summary": "The Expedition 75 crew spent Thursday on a variety of research including an exercise study and a space physics investigation and servicing spacesuits. The orbital residents are also gearing up for a variety of cargo missions departing from and launching to the International Space Station this month.",
-   "summary_fa": "اعضای خدمهٔ سفره‌نشین ۷۵ روز چهارشنبه را صرف انجام مطالعات علمی شامل آزمایش ورزشی و پژوهش فیزیک فضایی کردند و همچنین سرویس لباس‌های فضایی را انجام دادند. آن‌ها همزمان برای چندین مأموریت باربری که این ماه به سوی ایستگاه فضایی بین‌المللی پرتاب یا از آن جدا می‌شوند، آماده می‌شوند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0267082/iss075e0267082~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T21:02:23.000Z"
-  },
-  {
-   "slug": "science-1j9di9l",
-   "title": "NASA’s Perseverance, Odyssey Teams Investigate Technical Issues",
-   "title_fa": "تیم‌های ناسا به بررسی مشکلات فنی پرسه‌زن و اودیسه می‌پردازند",
-   "summary": "NASA teams supporting the agency’s Perseverance Mars rover and 2001 Mars Odyssey orbiter missions are investigating separate technical issues affecting science operations on the two missions. Out of an abundance of caution, science activities are temporarily paused for the Perseverance rover on Mars while ground teams work on issues with its two UHF radios used […]",
-   "summary_fa": "تیم‌های پشتیبانی مأموریت‌های مریخ‌نورد پرسه‌زن و مدارگرد ۲۰۰۱ اودیسه ناسا، همزمان دو مشکل فنی جداگانه را در عملیات علمی این دو مأموریت بررسی می‌کنند. فعالیت‌های علمی پرسه‌زن بر سطح مریخ موقتاً متوقف شده و تیم‌های زمینی در حال رفع اختلال در دو رادیوی UHF وسیله پرتابی هستند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia04/pia04304/PIA04304.jpg?w=2024&h=1918&fit=clip",
-   "link": "https://science.nasa.gov/blogs/mars/2026/11/19/nasas-perseverance-odyssey-teams-investigate-technical-issues/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T18:51:54.000Z"
-  },
-  {
-   "slug": "science-14w3274",
-   "title": "Voyager 1 Engineers Analyze Data Issue, Ready to Confirm Light-day",
-   "title_fa": "مهندسان وویجر ۱ مشکل داده‌ها را بررسی می‌کنند",
-   "summary": "On Nov. 14, the Voyager 1 mission team became aware that the spacecraft had stopped sending science and engineering data after a NASA Deep Space Network (DSN) antenna in Canberra, Australia, “locked on” to the spacecraft and received a carrier signal, which is used to carry science and engineering data from the spacecraft to ground […]",
-   "summary_fa": "تیم مأموریت وویجر ۱ در ۱۴ نوامبر متوجه شد این فضاپیما پس از آنکه آنتنی از شبکه عمق فضای ناسا در کانبرا سیگنال حاملی را دریافت کرد، ارسال داده‌های علمی و مهندسی خود را متوقف کرده است. مهندسان در حال تحلیل این مسئله هستند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/spacecraft-profile-1.jpg?w=800&h=438&fit=clip",
-   "link": "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T01:37:26.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",

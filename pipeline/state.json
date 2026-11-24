@@ -133804,33 +133804,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-22T19:55:58.977429+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 4,
-    "next_window": "2026-11-23T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-22T20:00:06.296169+00:00"
-  },
-  {
    "started_utc": "2026-11-22T21:00:57.453976+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -135261,6 +135234,45 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-24T02:30:05.168361+00:00"
+  },
+  {
+   "started_utc": "2026-11-24T02:31:55.635074+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-24/06",
+    "published": [
+     "jw12525111001_0210e_00004_nrcb3_i2d.fits"
+    ],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 5,
+    "next_window": "2026-11-24T09:00:00+03:30"
+   },
+   "published": [
+    "jw12525111001_0210e_00004_nrcb3_i2d.fits"
+   ],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/"
+    ],
+    "en": [
+     "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-24T02:32:15.865590+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -136141,9 +136153,22 @@
   "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/": {
    "fa": "2026-11-24T02:22:33.617004+00:00",
    "en": "2026-11-24T02:22:33.617004+00:00"
+  },
+  "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/": {
+   "fa": "2026-11-24T02:32:06.109620+00:00",
+   "en": "2026-11-24T02:32:06.109620+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/": {
+   "title": "مستند «مفهوم اروپا»؛ سفر کلپر اروپا به فضا از سوی ناسا روایت می‌شود",
+   "summary": "ناسا مستند جدید خود با عنوان «مفهوم اروپا» را در پلتفرم NASA+ و وب‌سایت این آژانس منتشر کرد. این مستند داستان سفر کاوشگر اروپا را از یک دیدگاه دوردست تا مأموریت پیشرفته اکتشاف فضایی نشان می‌دهد. پخش این اثر از دوشنبه ۲۳ نوامبر آغاز شد.",
+   "link": "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-23T16:08:23+00:00",
+   "ts": "2026-11-24T02:32:06.109620+00:00"
+  },
   "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/": {
    "title": "ناسا به دنبال شرکای ساخت نخستین راکتور هسته‌ای ماه",
    "summary": "ناسا برای طراحی و ساخت نخستین رآکتور هسته‌ای ماه، از شرکای صنعتی دعوت به همکاری کرد. این رآنتور به نام «ماه‌ریاکتر-۱» توان تولید ۲۰ کیلووات برق دارد و گامی بزرگ در راه حضور پایدار انسان بر سطح ماه است.",
@@ -137484,15 +137509,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-29T14:01:01+00:00",
    "ts": "2026-10-29T17:07:21.517242+00:00"
-  },
-  "https://esawebb.org/news/weic2622/": {
-   "title": "Photo Release: Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
-   "summary": "The NASA/ESA Hubble and the NASA/ESA/CSA James Webb Space Telescopes recently stared at an eerie star-forming scene within the Carina Nebula, a massive gas and dust cloud located approximately 7,500 light-years away from Earth. The two telescopes offer complementary views of the shadowy form, nicknamed the Cat’s Head Nebula, which reflects the “magical” process of star formation. Hubble’s visible-light view shows th…",
-   "link": "https://esawebb.org/news/weic2622/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date": "2026-10-29T14:00:00+00:00",
-   "ts": "2026-10-29T17:07:21.517242+00:00"
   }
  },
  "news_title_fp": {
@@ -138314,6 +138330,10 @@
    "en": "2026-11-24"
   },
   "04f2a842529ec80e": {
+   "fa": "2026-11-24",
+   "en": "2026-11-24"
+  },
+  "6abab2c93f40eac6": {
    "fa": "2026-11-24",
    "en": "2026-11-24"
   }
@@ -139142,6 +139162,10 @@
   [
    "04f2a842529ec80e",
    "nasa s escapade captures parting images of earth on its way to mars"
+  ],
+  [
+   "6abab2c93f40eac6",
+   "nasa documentary captures europa clipper s journey into deep space"
   ]
  ],
  "combo_seen": {
