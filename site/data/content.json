@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-24T21:15:11.405Z",
+ "generated_utc": "2026-11-24T21:35:35.177Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,6 +2898,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-2ecx65",
+   "title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
+   "title_fa": null,
+   "summary": "NASA announced Monday that NASA+ content has found its first theatrical home at The Greenbelt Cinema in Greenbelt, Maryland, expanding the agency’s reach across major viewing platforms and bringing space even closer to home. “The National Aeronautics and Space Act of 1958 calls us to share our story of space exploration with the broadest possible […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/nasa-promo-image-horizontal-1.jpg?w=2048",
+   "link": "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-24T21:14:36.000Z"
+  },
+  {
    "slug": "nasa-oss2ww",
    "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
    "title_fa": null,
@@ -3016,18 +3028,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-24T05:05:00.000Z"
-  },
-  {
-   "slug": "nasa-oydts7",
-   "title": "NASA Awards Contract for NOAA’s Near Earth Orbit Network Program",
-   "title_fa": "ناسا قرارداد سامانه مداری نزدیک‌زمینی NOAA را واگذار کرد",
-   "summary": "NASA, on behalf of the National Oceanic and Atmospheric Administration (NOAA), has awarded a contract to Northrop Grumman Systems Corporation for the Sounder for Microwave-Based Applications (SMBA) instruments on NOAA’s Near Earth Orbit Network (NEON) satellites. The cost-plus-fixed-fee, firm-fixed-price, and time-and-materials hybrid contract has a value of $290.6 million. The period of performance runs from […]",
-   "summary_fa": "ناسا به نمایندگی از اداره ملی اقیانوس و جوّ آمریکا (NOAA)، قراردادی به ارزش ۲۹۰/۶ میلیون دلار با شرکت نورثروپ گرامن برای ساخت Instruments سامانه پیمایش ماموریت‌های مبتنی بر مایکروویو (SMBA) بست. این قرارداد تحت برنامه ماهواره‌های شبکه مداری نزدیک‌زمینی (NEON) اجرا خواهد شد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg?w=1920",
-   "link": "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T21:10:03.000Z"
   },
   {
    "slug": "nasa-1qr8jau",
