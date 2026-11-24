@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-24T20:55:22.917Z",
+ "generated_utc": "2026-11-24T21:15:11.405Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,6 +2898,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-oss2ww",
+   "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
+   "title_fa": null,
+   "summary": "NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first time. Experts from across the agency, the U.S. Department of Energy (DOE), and industry met at NASA’s Glenn Research […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/06/sr-1-freedom-11-6-2026.png?w=2048",
+   "link": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-24T21:04:32.000Z"
+  },
+  {
    "slug": "science-sdflyn",
    "title": "Amateur Astronomer? Be a Kilonova Catcher!",
    "title_fa": null,
@@ -3040,18 +3052,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-23T18:18:17.000Z"
-  },
-  {
-   "slug": "nasa-10l3byw",
-   "title": "Studying Cancer Cells in Microgravity",
-   "title_fa": "بررسی سلول‌های سرطانی در محیط بی‌وزنی",
-   "summary": "This Nov. 19, 2026, image shows gastric microtumors grown within an Encapsulates biochip. The Encapsulate-1 investigation studies patient-derived tumor samples aboard the International Space Station to better understand how cancer cells move and interact in microgravity. The results could help researchers develop further testing to predict a patient’s risk of metastasis and support more personalized […]",
-   "summary_fa": "در تصویر ۱۹ نوامبر ۲۰۲۶، ریزتومورهای معده رشد یافته درون بایوچیپ Encapsulates دیده می‌شوند. پژوهش Encapsulate-1 نمونه‌های توموری مبتنی بر بیمار را در ایستگاه فضایی بین‌المللی مطالعه می‌کند تا حرکت و تعامل سلول‌های سرطانی در محیط بی‌وزنی بهتر درک شود. نتایج این پژوهش می‌تواند به پژوهشگران کمک کند تا روش‌های آزمایشی بیشتری برای پیش‌بینی خطر متاستاز در بیماران توسعه دهند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e426880orig.jpg?w=1448",
-   "link": "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T17:28:37.000Z"
   },
   {
    "slug": "science-1a8knrw",
