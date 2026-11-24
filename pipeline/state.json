@@ -112026,7 +112026,7 @@
   },
   "jw12578002001_02101_00003_nrcb3_i2d.fits": {
    "channels": {},
-   "status": "analyzed",
+   "status": "ready",
    "score": 62.33,
    "analyzed_utc": "2026-11-09T01:19:06.262867+00:00",
    "analysis": "analyses/2026/11/09/jw12578002001_02101_00003_nrcb3_i2d.fits.json",
@@ -112046,7 +112046,61 @@
    "combo": "* alf PsA|NIRCAM|F090W",
    "sha256": "48caf59918a9da93cfd9ddcb76fe7acca99aa70fa0c2905b34ae72f76f44f40e",
    "bytes": 118704960,
-   "published_utc": null
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.923,
+      "brightness": 0.8643,
+      "range": 1.0,
+      "roi": 0.6233,
+      "score": 90.77
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 10893,
+      "brightest_quadrant_percent": 68.145,
+      "width": 2058,
+      "height": 2058,
+      "sample_stride": 3,
+      "sample_count": 463144,
+      "finite_fraction": 0.984165,
+      "median": 9.152312755584717,
+      "robust_scatter": 3.7880278993606566,
+      "above_5scatter_percent": 2.352,
+      "p99_above_median_scatter": 10.672,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.923,
+      "brightness": 0.8643,
+      "range": 1.0,
+      "roi": 0.6233,
+      "score": 90.77
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 10893,
+      "brightest_quadrant_percent": 68.145,
+      "width": 2058,
+      "height": 2058,
+      "sample_stride": 3,
+      "sample_count": 463144,
+      "finite_fraction": 0.984165,
+      "median": 9.152312755584717,
+      "robust_scatter": 3.7880278993606566,
+      "above_5scatter_percent": 2.352,
+      "p99_above_median_scatter": 10.672,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-24T05:35:40.075369+00:00"
   },
   "jw12578002001_02101_00002_nrcb3_i2d.fits": {
    "channels": {
@@ -143364,7 +143418,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-24T04:41:08.039249+00:00",
+ "paired_prepare_attempt_utc": "2026-11-24T05:31:06.257904+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
