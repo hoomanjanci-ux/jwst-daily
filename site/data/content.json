@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-24T19:55:02.239Z",
+ "generated_utc": "2026-11-24T20:15:21.085Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,6 +2898,18 @@
  ],
  "news": [
   {
+   "slug": "science-sdflyn",
+   "title": "Amateur Astronomer? Be a Kilonova Catcher!",
+   "title_fa": null,
+   "summary": "Neutron stars are the ultra-dense, city-sized leftovers of dead stars. When they collide, they can release a brief flash of light called a kilonova. These immensely powerful events forge much of the universe’s gold, platinum and other heavy elements. Since a kilonova fades within days, astronomers have to find it fast, and no single observatory […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/NGC_4993.jpg?w=700&h=748&fit=clip",
+   "link": "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-24T19:19:52.000Z"
+  },
+  {
    "slug": "nasa-kui1m4",
    "title": "NASA’s Northrop Grumman CRS-25 Mission Overview",
    "title_fa": null,
@@ -3042,18 +3054,6 @@
    "date_utc": "2026-11-23T17:28:37.000Z"
   },
   {
-   "slug": "nasa-7446or",
-   "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
-   "title_fa": "ناسا به دنبال شریک برای طراحی نخستین رآکتور هسته‌ای ماه",
-   "summary": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity, enough to power approximately 16 […]",
-   "summary_fa": "ناسا در پی جذب شرکای صنعتی جهت توسعه و آزمون نخستین رآکتور هسته‌ای مخصوص سطح ماه است. این سامانه کوچک شکافت، یعنی رآکتور ماه-۱ (LR-1)، روزانه ۲۰ کیلووات برق تولید می‌کند که برای روشنایی حدود ۱۶ خانه کافی است. این گام بزرگی در جهت ایجاد حضور پاید انسان بر ماه محسوب می‌شود.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/srd-fsp-isru02b.jpg?w=2048",
-   "link": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T17:23:50.000Z"
-  },
-  {
    "slug": "science-1a8knrw",
    "title": "NASA’s ESCAPADE Captures Parting Images of Earth on Its Way to Mars",
    "title_fa": "سفینه ESCAPADE ناسا پیش از رسیدن به مریخ، تصاویری وداعی از زمین ثبت کرد",
@@ -3064,18 +3064,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-23T16:53:07.000Z"
-  },
-  {
-   "slug": "nasa-wqt82a",
-   "title": "NASA+ Documentary Captures Europa Clipper’s Journey Into Deep Space",
-   "title_fa": "مستند ناسا، سفر اوروپا کلیپر به اعماق فضا را روایت می‌کند",
-   "summary": "NASA invites the world behind the scenes to witness the story of Europa Clipper’s journey from a far-off vision to a cutting-edge deep space exploration mission with the release of the agency’s newest documentary, “The Europa Concept.” The documentary will air on NASA+, the NASA app, and the agency’s website starting Monday, Nov. 23, and […]",
-   "summary_fa": "ناسا با انتشار مستند جدید خود به نام «مفهوم اوروپا»، پرده‌ای از داستان تبدیل رؤیایی دوردست به مأموریتی پیشرفته کاوش فضایی برمی‌دارد. این مستند از روز دوشنبه ۲۳ نوامبر در پلتفرم ناسا پلاس، اپلیکیشن ناسا و وب‌سایت این آژانس نمایش داده خواهد شد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/theeuropaconceptposter-digitalassets-keyart-1-1-notitle-fnl-option1-centered.jpg",
-   "link": "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-23T16:08:23.000Z"
   },
   {
    "slug": "esawebb-zfoa2n",
