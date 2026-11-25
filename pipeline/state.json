@@ -90,89 +90,29 @@
   },
   "jw06627005001_07101_00006_nrcalong_rate.fits": {
    "channels": {
-    "fa_ai": "skipped (chat id not configured)",
-    "en_ai": "skipped (chat id not configured)",
-    "fa_official": "skipped (chat id not configured)",
-    "en_official": "skipped (chat id not configured)"
+    "fa_ai": "sent",
+    "en_ai": "sent"
    },
-   "published_utc": null,
+   "published_utc": "2026-11-25T14:30:37.997Z",
    "bytes": 83972160,
    "sha256": "4faecb409a04fdac6a1224d63a0398d8e2fbc7e58d78cf2792b5d2994b20548e",
    "png_bytes": 3407087,
    "source": "MAST public",
    "uri": "mast:JWST/product/jw06627005001_07101_00006_nrcalong_rate.fits",
-   "status": "ready",
+   "status": "published",
    "score": 43.28,
    "analyzed_utc": "2026-10-24T19:02:57.313585+00:00",
    "analysis": "analyses/2026/10/24/jw06627005001_07101_00006_nrcalong_rate.fits.json",
-   "cand": {
-    "filename": "jw06627005001_07101_00006_nrcalong_rate.fits",
-    "size_mb": 80.079,
-    "uri": "mast:JWST/product/jw06627005001_07101_00006_nrcalong_rate.fits",
-    "proposal": "6627",
-    "obs_id": "jw06627005001_07101_00006_nrcalong",
-    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00006_nrcalong_rate.fits",
-    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw06627005001_07101_00006_nrcalong_rate.fits",
-    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06627005001_07101_00006_nrcalong_rate.jpg"
-   },
    "meta_TARGNAME": "2MASS J05220207-6930388",
    "meta_FILTER": "F335M",
    "meta_INSTRUME": "NIRCAM",
    "combo": "2MASS J05220207-6930388|NIRCAM|F335M",
-   "quality_log": {
-    "fa": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.5806,
-      "brightness": 0.491,
-      "range": 1.0,
-      "roi": 0.4328,
-      "score": 75.47
-     },
-     "evidence": {
-      "bright_tail_pixel_count": 16643,
-      "brightest_quadrant_percent": 31.773,
-      "width": 2048,
-      "height": 2048,
-      "sample_stride": 3,
-      "sample_count": 456617,
-      "finite_fraction": 0.978838,
-      "median": 0.05976000428199768,
-      "robust_scatter": 0.053300681532919406,
-      "above_5scatter_percent": 3.6448,
-      "p99_above_median_scatter": 19.614,
-      "bunit": "DN/s"
-     },
-     "method": "measured-data-analysis-v3"
-    },
-    "en": {
-     "heuristic": {
-      "sharp": 1.0,
-      "contrast": 0.5806,
-      "brightness": 0.491,
-      "range": 1.0,
-      "roi": 0.4328,
-      "score": 75.47
-     },
-     "evidence": {
-      "bright_tail_pixel_count": 16643,
-      "brightest_quadrant_percent": 31.773,
-      "width": 2048,
-      "height": 2048,
-      "sample_stride": 3,
-      "sample_count": 456617,
-      "finite_fraction": 0.978838,
-      "median": 0.05976000428199768,
-      "robust_scatter": 0.053300681532919406,
-      "above_5scatter_percent": 3.6448,
-      "p99_above_median_scatter": 19.614,
-      "bunit": "DN/s"
-     },
-     "method": "measured-data-analysis-v3"
-    }
-   },
    "analysis_revision": 3,
-   "paired_ready_utc": "2026-11-25T02:36:00.068566+00:00"
+   "paired_ready_utc": "2026-11-25T02:36:00.068566+00:00",
+   "analysis_slot": "2026-11-25/18",
+   "research_sha256": "268f95ec2d1895d8a9ce30f3d84bd41c7385725d566d8e96a96af72a5b1e6625",
+   "site_archive": "ok",
+   "d1_sync": "ok"
   },
   "jw07127040001_03105_00001_nrca1_rate.fits": {
    "channels": {
@@ -139026,7 +138966,7 @@
   "HD 218396|NIRCAM|F356W": "2026-10-24T22:43:27.302965+00:00",
   "HD 19467|NIRCAM|F335M": "2026-10-25T14:36:17.773213+00:00",
   "GSPC P330-E|NIRCAM|F430M": "2026-11-10T14:30:39.008Z",
-  "2MASS J05220207-6930388|NIRCAM|F335M": "2026-11-11T02:30:35.480Z",
+  "2MASS J05220207-6930388|NIRCAM|F335M": "2026-11-25T14:30:37.997Z",
   "HD 19467|NIRCAM|F300M": "2026-10-27T05:30:39.329Z",
   "GSPC P330-E|NIRCAM|F460M": "2026-10-27T08:30:38.749Z",
   "HD 19467|NIRCAM|F430M": "2026-10-27T14:30:39.218Z",
@@ -143337,9 +143277,35 @@
   "2026-11-25/18": {
    "start": "2026-11-25T14:30:00.000Z",
    "end": "2026-11-25T15:30:00.000Z",
-   "status": "waiting",
-   "product": null,
-   "note": null,
+   "status": "sent",
+   "product": "jw06627005001_07101_00006_nrcalong_rate.fits",
+   "delivery": {
+    "en": {
+     "album_v1": {
+      "status": "sent",
+      "message_ids": [
+       498,
+       499,
+       500,
+       501
+      ],
+      "utc": "2026-11-25T14:30:37.723Z"
+     }
+    },
+    "fa": {
+     "album_v1": {
+      "status": "sent",
+      "message_ids": [
+       493,
+       494,
+       495,
+       496
+      ],
+      "utc": "2026-11-25T14:30:36.640Z"
+     }
+    }
+   },
+   "completed_utc": "2026-11-25T14:30:37.997Z",
    "sender": "cloudflare"
   },
   "2026-11-25/12": {
