@@ -133602,43 +133602,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-25T04:37:47.424867+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 3,
-    "next_window": "2026-11-25T09:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
-     "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/"
-    ],
-    "en": [
-     "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
-     "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/"
-    ],
-    "mode": "fresh (5 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-25T04:38:20.025630+00:00"
-  },
-  {
    "started_utc": "2026-11-25T04:50:56.765115+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -134989,6 +134952,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-25T19:20:06.628003+00:00"
+  },
+  {
+   "started_utc": "2026-11-25T19:26:38.971858+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 2,
+    "next_window": "2026-11-26T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
+     "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/"
+    ],
+    "en": [
+     "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
+     "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/"
+    ],
+    "mode": "fresh (6 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-25T19:28:01.671871+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -135917,9 +135917,35 @@
   "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/": {
    "fa": "2026-11-25T12:29:55.068412+00:00",
    "en": "2026-11-25T12:29:55.068412+00:00"
+  },
+  "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/": {
+   "fa": "2026-11-25T19:26:43.308323+00:00",
+   "en": "2026-11-25T19:26:43.308323+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/": {
+   "fa": "2026-11-25T19:26:43.308323+00:00",
+   "en": "2026-11-25T19:26:43.308323+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/": {
+   "title": "NASA Eyes نامزدهای منوهای آینده را برش می دهد",
+   "summary": "در حالی که ناسا برای ماموریت های آینده به ماه و مریخ آماده می شود، محققان در حال مطالعه محصولاتی هستند که می توانند غذای تازه، تغذیه و تنوع دور از زمین را برای فضانوردان فراهم کنند. چنین تنوع محصولات می تواند به منوها در اعماق فضا کمک کند، چیزی که در این هفته که ملت روز شکرگزاری را جشن می گیرند، مورد توجه قرار می گیرد. نکات آزمایشی اخیر در مورد توت فرنگی،",
+   "link": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-25T17:53:42+00:00",
+   "ts": "2026-11-25T19:26:43.308323+00:00"
+  },
+  "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/": {
+   "title": "تحلیل‌گر بودجه ناسا گودارد، مسیر کودکی تا شغلش را در همان مرکز تکمیل کرد",
+   "summary": "آشلی نایت در خانواده‌ای بزرگ شد که گفتگو درباره ناسا دور سفرهٔ شام موضوع همیشگی بود؛ والدینش در مرکز فضایی گودارد ناسا در مریلند کار می‌کردند و حتی پس از بازگشت از محل کار نیز به بحث درباره رویدادهای این آژانس ادامه می‌دادند. او دیالوگ تأثیرگذاری را پس از فاجعه مکعب‌سواری چلنجر به خاطر دارد.",
+   "link": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-25T16:47:29+00:00",
+   "ts": "2026-11-25T19:26:43.308323+00:00"
+  },
   "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/": {
    "title": "APOD: 25 نوامبر 2026 - SPHEREx در حال دیدن از میان گرد و غبار",
    "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. برای مشاهده این",
@@ -137251,24 +137277,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-30T14:51:21+00:00",
    "ts": "2026-10-30T16:17:51.342704+00:00"
-  },
-  "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/": {
-   "title": "November’s Night Sky Notes: Light-Day Away",
-   "summary": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. Using six gravity assists between them, this Grand Tour gave us up-close views of the gas and ice giants, including several moons.",
-   "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-30T10:00:00+00:00",
-   "ts": "2026-10-30T13:27:33.410671+00:00"
-  },
-  "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/": {
-   "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
-   "summary": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Haunting the Cepheus",
-   "link": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-30T04:05:00+00:00",
-   "ts": "2026-10-30T06:21:21.538023+00:00"
   }
  },
  "news_title_fp": {
@@ -138138,6 +138146,14 @@
    "en": "2026-11-25"
   },
   "eaa04a97e28b7553": {
+   "fa": "2026-11-25",
+   "en": "2026-11-25"
+  },
+  "6c352a3f76bde3e3": {
+   "fa": "2026-11-25",
+   "en": "2026-11-25"
+  },
+  "bcdbe71c51973109": {
    "fa": "2026-11-25",
    "en": "2026-11-25"
   }
@@ -139014,6 +139030,14 @@
   [
    "eaa04a97e28b7553",
    "apod 2026 november 25 spherex seeing through dust"
+  ],
+  [
+   "6c352a3f76bde3e3",
+   "nasa eyes crop candidates for future menus"
+  ],
+  [
+   "bcdbe71c51973109",
+   "childhood career come full circle for budget analyst at nasa goddard"
   ]
  ],
  "combo_seen": {
