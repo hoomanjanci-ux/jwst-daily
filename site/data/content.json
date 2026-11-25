@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-25T17:20:08.723Z",
+ "generated_utc": "2026-11-25T17:36:10.275Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2900,9 +2900,9 @@
   {
    "slug": "nasa-441ygr",
    "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
-   "title_fa": null,
+   "title_fa": "روابط خانوادگی و حرفهای در ناسا گِد با هم آمیخت",
    "summary": "Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]",
-   "summary_fa": null,
+   "summary_fa": "اشلی نایت، تحلیلگر بودجه مرکز پروازهای فضایی گِد ناسا، فرزند والدینی است که هر دو در این مرکز کار میکردند. او در محیطی بزرگ شد که گفتوگو درباره ناسا بخش عادی زندگی روزمره‌اش بود. حتی پس از سانحه چلنجر نیز گفتوگوهایی معنادار درباره این اتفاق در خانواده‌شان شکل گرفت.",
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ashley-knight-and-parents.jpg?w=1504",
    "link": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
    "source": "NASA",
@@ -2912,9 +2912,9 @@
   {
    "slug": "nasa-13xxact",
    "title": "Eye of the Sahara",
-   "title_fa": null,
+   "title_fa": "ساختار ریچات؛ چشم صحرا از فضا",
    "summary": "The Richat Structure, also known as the “Eye of the Sahara,” is seen from the International Space Station as it orbited above on Nov. 14, 2026. It is an eroded geological dome about 100 million years old created by igneous activity and uplift in the nation of Mauritania. In this type of geologic structure, rocks […]",
-   "summary_fa": null,
+   "summary_fa": "ساختار ریچات با نام «چشم صحرا» در مدار زمین دیده شد. این گنبدمانند ژئولوژیکی حدود ۱۰۰ میلیون سال قدمت دارد و بر اثر فعالیت آتشفشانی و بالاآمدگی پوسته در کشور موریتانی پدید آمده است.",
    "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0274930orig.jpg?w=2048",
    "link": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
    "source": "NASA",
@@ -2922,35 +2922,11 @@
    "date_utc": "2026-11-25T16:21:04.000Z"
   },
   {
-   "slug": "nasa-1fopbfw",
-   "title": "Crew Works Biomedical Research Day Before Thanksgiving Space Delivery",
-   "title_fa": null,
-   "summary": "Advanced biomedical research with ultrasound scans and blood pressure checks topped the research schedule aboard the International Space Station on Wednesday. Expedition 75 is also preparing for a cargo mission arriving on Thanksgiving Day and another scheduled for delivery early next week.",
-   "summary_fa": null,
-   "image": "https://images-assets.nasa.gov/image/iss074e0395778/iss074e0395778~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/25/crew-works-biomedical-research-day-before-thanksgiving-space-delivery/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-25T16:17:32.000Z"
-  },
-  {
-   "slug": "science-vexozn",
-   "title": "NASA’s Europa Clipper Zooming by Earth on Way to Jupiter’s Icy Moon",
-   "title_fa": null,
-   "summary": "Lee esta historia en español aquí. NASA’s Europa Clipper will soon swing past Earth before making a yearslong beeline for Jupiter, where the orbiter will probe whether the ocean beneath its moon Europa’s icy shell has the ingredients for life. The flyby will offer a propellant-saving boost and an opportunity to prepare for the science-gathering […]",
-   "summary_fa": null,
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/europa-clipper/images/1-Clipper_EGA_still.jpg?w=2048&h=1636&fit=clip",
-   "link": "https://science.nasa.gov/blogs/europa-clipper/2026/11/25/nasas-europa-clipper-zooming-by-earth-on-way-to-jupiters-icy-moon/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-25T16:00:28.000Z"
-  },
-  {
    "slug": "science-stniwe",
    "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
-   "title_fa": null,
+   "title_fa": "رصد اقیانوس ستارگان توسط تلسکوپ هابل در پیشزمینة مأموریت رومان",
    "summary": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
-   "summary_fa": null,
+   "summary_fa": "مشاهدات تلسکوپ فضایی هابل بخشی از یک پیمایش است که به پژوهشگران کمک می‌کند تا مشاهدات پیش‌روى تلسکوپ فضایی نانسی گریس رومان را بهتر تفسیر کنند. هدف این پژوهش، ویژگی‌یابی ستارگان و جست‌وجو براى سیاره‌های فراخورشیدى در این ناحیه‌ى شلوغ کهکشان ما است.",
    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/milky-way/Hubble_GalacticBulge_HD70_1_FINAL.jpg?w=1536&h=1536&fit=clip",
    "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
    "source": "NASA",
@@ -3124,6 +3100,30 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-20T17:08:20.000Z"
+  },
+  {
+   "slug": "nasa-1mf6v4y",
+   "title": "Dragon Prepares to Depart Station for Earth Return",
+   "title_fa": "کاوشگر دراگون آمادهٔ بازگشت به زمین شد",
+   "summary": "The unpiloted SpaceX Dragon spacecraft will undock at approximately 12:05 p.m. EST from the space-facing port of the station’s Harmony module and fire its thrusters to move safely away from the orbital complex.",
+   "summary_fa": "سفینهٔ بدون سرنشین دراگونِ شرکت اسپیس‌ایکس در حدود ساعت ۱۲:۰۵ بعدازظهر به وقت استاندارد شرقی از پهلوگاه رو به فضا ماژول هارمونی ایستگاه جدا خواهد شد. سپس با شلیک موتورهای رانش خود، فاصلهٔ ایمنی را تا مجموعهٔ مداری حفظ می‌کند.",
+   "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/20/dragon-prepares-to-depart-station-for-earth-return/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-20T16:47:19.000Z"
+  },
+  {
+   "slug": "science-1yn73bm",
+   "title": "NASA Arizona Field Investigations Advance Planetary Science",
+   "title_fa": "بررسی‌های میدانی ناسا در آریزونا، پیشرفت علم سیاره‌شناسی",
+   "summary": "To better understand processes shaping Earth, the Moon, Mars, and worlds beyond, NASA’s Goddard Instrument Field Team headed to Flagstaff, Arizona.",
+   "summary_fa": "تیم میدانی ابزارهای مرکز پروازهای فضایی گد ناسا برای بررسی‌های میدانی به فلگستاف آریزونا رفت. هدف این مأموریت، درک بهتر فرآیندهای شکل‌دهندهٔ زمین، ماه، مریخ و سایر جرم‌های آسمانی است. این پژوهش‌ها گامی رو به پیشرفت علم سیاره‌شناسی محسوب می‌شود.",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/planetary-expeditions/2026-09-gift-flagstaff/GIFT-flagstaff-2026-geophysics-meteor-crater.jpg?w=2048&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-19T21:18:36.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
