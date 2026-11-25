@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-25T16:05:02.208Z",
+ "generated_utc": "2026-11-25T16:25:11.525Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,6 +2898,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-13xxact",
+   "title": "Eye of the Sahara",
+   "title_fa": null,
+   "summary": "The Richat Structure, also known as the “Eye of the Sahara,” is seen from the International Space Station as it orbited above on Nov. 14, 2026. It is an eroded geological dome about 100 million years old created by igneous activity and uplift in the nation of Mauritania. In this type of geologic structure, rocks […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0274930orig.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-25T16:21:04.000Z"
+  },
+  {
    "slug": "science-stniwe",
    "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
    "title_fa": null,
@@ -2980,18 +2992,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-24T16:51:27.000Z"
-  },
-  {
-   "slug": "science-1bdvckc",
-   "title": "NASA’s Titan-Bound Dragonfly Rotorcraft Gets Its Eyes",
-   "title_fa": "دراگن‌فlynk متوجه تیتان، دوربین‌هایش را دریافت کرد",
-   "summary": "Science instruments for NASA’s Dragonfly are starting to arrive at the Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, where the car-sized rotorcraft is coming together for its mission to explore Saturn’s largest moon, Titan. First to check in: DragonCam, which consists of seven cameras designed to characterize Titan’s surface at multiple scales during […]",
-   "summary_fa": "سازمان فضایی ناسا اعلام کرد ابزارهای علمی مأموریت دراگن‌فlynk به سمت سیارهٔ غول‌پیکر زحل، تیتان، به آزمایشگاه فیزیک کاربردی جانز هاپکینز رسیدند. نخستین ابزار نصب‌شده دراگون‌کم است که از هفت دوربین تشکیل شده و سطح تیتان را در مقیاس‌های مختلف ثبت خواهد کرد.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/dragonfly/DragonCamInstall.jpg?w=1280&h=853&fit=clip",
-   "link": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-24T15:44:38.000Z"
   },
   {
    "slug": "nasa-cnila0",
