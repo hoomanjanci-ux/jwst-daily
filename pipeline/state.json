@@ -133608,33 +133608,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-24T20:30:57.759871+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 3,
-    "next_window": "2026-11-25T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-24T20:35:05.154540+00:00"
-  },
-  {
    "started_utc": "2026-11-24T20:51:11.251966+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -134995,6 +134968,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-25T12:25:12.967891+00:00"
+  },
+  {
+   "started_utc": "2026-11-25T12:29:49.478292+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 2,
+    "next_window": "2026-11-25T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-25T12:30:42.079179+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -135919,9 +135927,22 @@
   "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar/": {
    "fa": "2026-11-25T05:38:50.497244+00:00",
    "en": "2026-11-25T05:38:50.497244+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/": {
+   "fa": "2026-11-25T12:29:55.068412+00:00",
+   "en": "2026-11-25T12:29:55.068412+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/": {
+   "title": "APOD: 25 نوامبر 2026 - SPHEREx در حال دیدن از میان گرد و غبار",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. برای مشاهده این",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-25T05:05:00+00:00",
+   "ts": "2026-11-25T12:29:55.068412+00:00"
+  },
   "https://www.nasa.gov/blogs/spacestation/2026/11/24/crew-awaits-thanksgiving-day-delivery-as-another-cargo-craft-nears-launch/": {
    "title": "خدمه منتظر تحویل روز شکرگزاری هستند زیرا کشتی باری دیگری به راه اندازی نزدیک می شود",
    "summary": "یک فضاپیمای باری Progress 97 از Roscosmos در حال چرخش به دور زمین است و پس از پرتاب در ساعت 5:17 صبح امروز به وقت شرقی از قزاقستان برای تامین مجدد خدمه Expedition 75 در ایستگاه فضایی بین المللی در راه است. پروگرس 97 که با حدود سه تن غذا، سوخت و آذوقه پر شده است، قرار است در ساعت 7:11 صبح روز شکرگزاری به طور خودکار به ماژول راسوت پست مداری متصل شود.",
@@ -137262,15 +137283,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-30T04:05:00+00:00",
    "ts": "2026-10-30T06:21:21.538023+00:00"
-  },
-  "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/": {
-   "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
-   "summary": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure where a Martian meteorite originated, Teghaza 001 includes clues that link it to highlands in the southern hemisphere of",
-   "link": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-30T00:07:39+00:00",
-   "ts": "2026-10-30T01:47:36.310978+00:00"
   }
  },
  "news_title_fp": {
@@ -138136,6 +138148,10 @@
    "en": "2026-11-25"
   },
   "ab3d7450a0d17e42": {
+   "fa": "2026-11-25",
+   "en": "2026-11-25"
+  },
+  "eaa04a97e28b7553": {
    "fa": "2026-11-25",
    "en": "2026-11-25"
   }
@@ -139008,6 +139024,10 @@
   [
    "ab3d7450a0d17e42",
    "nasa hubble s new view of ngc 4394 raises the bar"
+  ],
+  [
+   "eaa04a97e28b7553",
+   "apod 2026 november 25 spherex seeing through dust"
   ]
  ],
  "combo_seen": {
