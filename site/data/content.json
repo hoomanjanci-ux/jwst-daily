@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-25T16:45:00.865Z",
+ "generated_utc": "2026-11-25T17:05:07.415Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2922,6 +2922,18 @@
    "date_utc": "2026-11-25T16:17:32.000Z"
   },
   {
+   "slug": "science-vexozn",
+   "title": "NASA’s Europa Clipper Zooming by Earth on Way to Jupiter’s Icy Moon",
+   "title_fa": null,
+   "summary": "Lee esta historia en español aquí. NASA’s Europa Clipper will soon swing past Earth before making a yearslong beeline for Jupiter, where the orbiter will probe whether the ocean beneath its moon Europa’s icy shell has the ingredients for life. The flyby will offer a propellant-saving boost and an opportunity to prepare for the science-gathering […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/europa-clipper/images/1-Clipper_EGA_still.jpg?w=2048&h=1636&fit=clip",
+   "link": "https://science.nasa.gov/blogs/europa-clipper/2026/11/25/nasas-europa-clipper-zooming-by-earth-on-way-to-jupiters-icy-moon/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-25T16:00:28.000Z"
+  },
+  {
    "slug": "science-stniwe",
    "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
    "title_fa": null,
@@ -3112,18 +3124,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-20T17:08:20.000Z"
-  },
-  {
-   "slug": "nasa-1mf6v4y",
-   "title": "Dragon Prepares to Depart Station for Earth Return",
-   "title_fa": "کاوشگر دراگون آمادهٔ بازگشت به زمین شد",
-   "summary": "The unpiloted SpaceX Dragon spacecraft will undock at approximately 12:05 p.m. EST from the space-facing port of the station’s Harmony module and fire its thrusters to move safely away from the orbital complex.",
-   "summary_fa": "سفینهٔ بدون سرنشین دراگونِ شرکت اسپیس‌ایکس در حدود ساعت ۱۲:۰۵ بعدازظهر به وقت استاندارد شرقی از پهلوگاه رو به فضا ماژول هارمونی ایستگاه جدا خواهد شد. سپس با شلیک موتورهای رانش خود، فاصلهٔ ایمنی را تا مجموعهٔ مداری حفظ می‌کند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/20/dragon-prepares-to-depart-station-for-earth-return/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-20T16:47:19.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
