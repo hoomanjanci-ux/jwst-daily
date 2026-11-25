@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-25T14:25:08.014Z",
+ "generated_utc": "2026-11-25T14:29:06.864Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -3066,18 +3066,6 @@
    "date_utc": "2026-11-23T16:53:07.000Z"
   },
   {
-   "slug": "esawebb-zfoa2n",
-   "title": "Science Release: Webb shows how supernova dust chronicles star evolution",
-   "title_fa": "تلسکوپ جیمز وب نشان می‌دهد غبار ابرنواختری چگونه تکامل ستاره را روایت می‌کند",
-   "summary": "The NASA/ESA/CSA James Webb Space Telescope captured the mid-infrared light of Cassiopeia A (Cas A), one of the most well-studied supernova remnants, to characterise its dust. Astronomers used Webb’s detailed observations to gain new insights into shell mergers, a process that is theorised to occur mere hours before a star’s supernova explosion, revealing new details about the structure of Cas A’s original star.",
-   "summary_fa": "تلسکوپ فضایی جیمز وب نور مادون قرمز میان‌باند پسماند ابرنواختری کاسیوپئا آ را ثبت کرد تا گرد و غبار آن را مشخص کند. اخترشناسان با بهره‌گیری از مشاهدات دقیق وب، بینش تازه‌ای دربارهٔ ادغام پوسته‌ها به دست آوردند؛ فرآیندی که پیش‌بینی می‌شود چند ساعت پیش از انفجار ابرنواختری یک ستاره رخ می‌دهد.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2624a.jpg",
-   "link": "https://esawebb.org/news/weic2624/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-11-23T15:00:00.000Z"
-  },
-  {
    "slug": "nasa-1e3zdwl",
    "title": "Dragon Returns to Earth Packed With Science and Cargo",
    "title_fa": "درگن فضایی با محمولهٔ علمی به زمین بازگشت",
@@ -3124,114 +3112,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-19T21:18:36.000Z"
-  },
-  {
-   "slug": "esawebb-zfoa7t",
-   "title": "Photo Release: Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
-   "title_fa": "سحابی سرگربه‌ای در نگاه هابل و وب",
-   "summary": "The NASA/ESA Hubble and the NASA/ESA/CSA James Webb Space Telescopes recently stared at an eerie star-forming scene within the Carina Nebula, a massive gas and dust cloud located approximately 7,500 light-years away from Earth. The two telescopes offer complementary views of the shadowy form, nicknamed the Cat’s Head Nebula, which reflects the “magical” process of star formation. Hubble’s visible-light view shows the",
-   "summary_fa": "تلسکوپ فضایی هابل و تلسکوپ فضایی جیمز وب اخیراً به مناظر هیجان‌انگیز تولد ستاره‌ها در سحابی کمان، ابری عظیم از گاز و غبار در فاصلهٔ حدود ۷٬۵۰۰ سال نوری از زمین،نگاه کردند. این دو تلسکوپ تصاویری مکمل از ساختاری تاریک به نام «سحابی سرگربه‌ای» ارائه می‌دهند که فرآیند جادویی تولد ستاره‌ها را نشان می‌دهد. دید هابل با نور مرئی ستون غباری کشیده و نشانه‌هایی از ستاره‌های جوان را نشان می‌دهد و تصاویر شب‌تاب در اشعهٔ مادون‌قرمز وب بسیاری از ستاره‌ها و جزئیات پنهان را آشکار می‌کند.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2622a.jpg",
-   "link": "https://esawebb.org/news/weic2622/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-10-29T14:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoa56",
-   "title": "Science Release: Webb measures distance to farthest fast radio burst, suggesting origin",
-   "title_fa": "اندازه‌گیری فاصله‌ی دورترین طوفان رادیویی سریع با تلسکوپ وب",
-   "summary": "First discovered in 2007, fast radio bursts are enigmatic, millisecond-long flashes of radio emission from the distant Universe. Their origin remains uncertain, particularly since most are seen once and never again. Astronomers using the NASA/ESA/CSA James Webb Space Telescope have pinpointed the host galaxy of the most distant fast radio burst (FRB) seen to date. Their finding has implications for what kind of energ",
-   "summary_fa": "طوفان‌های رادیویی سریع، فلش‌های رادیویی میلی‌ثانیه‌ای از کیهان دوردست هستند که منشأ آن‌ها هنوز نامشخص است و بیشتر تنها یک‌بار رصد می‌شوند. اخترشناسان با استفاده از تلسکوپ فضایی جیمز وب، کهکشان میزبان دورترین طوفان رادیویی سریع مشاهده‌شده تاکنون را شناسایی کردند. این یافته پیامدهایی درباره‌ی نوع رویداد پُرانرژی ایجادکننده‌ی این طوفان‌ها دارد.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2621a.jpg",
-   "link": "https://esawebb.org/news/weic2621/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-10-08T18:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoa63",
-   "title": "Photo Release: Webb captures commotion from nebula’s stellar jets",
-   "title_fa": "تلسکوپ جیمز وب، جنب‌وجوش جت‌های ستاره‌ای در سحابی را ثبت می‌کند",
-   "summary": "A technicolor dreamscape is revealed in this new image from the NASA/ESA/CSA James Webb Space Telescope. It portrays a stellar nursery known as NGC 7129, a nebula that holds numerous protostars and stars within its fields of gas and dust. Webb captured infrared light, which pierces through the dense matter that scatters or absorbs other types of light. This region, rife with stellar objects in different stages of the",
-   "summary_fa": "تلسکوپ فضایی جیمز وب تصویر جدیدی از سحابی NGC 7129 ثبت کرده است. این سحابی که زادگاه ستاره‌هاست، سرشار از پیش‌ستاره‌ها و ستاره‌هایی است که در میان گاز و غبار قرار دارند. نور مادون قرمز تلسکوپ جیمز وب از ماده‌های متراکم عبور می‌کند و جزئیاتی را آشکار می‌سازد که در دیگر اجزای طیف نوری پنهان‌اند. این منطقه با اشیاء آسمانی در مراحل مختلف عمرشان، فرصتی برای کاوش چگونگی شکل‌گیری ستاره‌ها و تأثیر آن‌ها بر محیط پیرامون فراهم می‌کند.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2620a.jpg",
-   "link": "https://esawebb.org/news/weic2620/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-10-06T13:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoei8",
-   "title": "Science Release: Webb provides crash course on planet-shattering collisions",
-   "title_fa": "وب، کلاس فشرده درباره برخورد‌های ویرانگر سیاره‌ای",
-   "summary": "In the early history of our Solar System, a Mars-sized object called Theia smashed into the infant Earth, vapourising massive amounts of rock and blasting it into space. Some of that material coalesced into the Moon. Astronomers have now used the NASA/ESA/CSA James Webb Space Telescope to examine a class of young stellar systems that show signs of similar upheavals, providing clues to the amount of energy in their co",
-   "summary_fa": "در تاریخ اولیه منظومه شمسی، جسمی به اندازه مریخ به نام «تییا» به زمین کودکی برخورد کرد و مقادیر عظیمی سنگ را بخار کرد؛ بخشی از آن مواد در فضا پراکنده شد و ماه شکل گرفت. اخترشناسان اکنون با تلسکوپ فضایی جیمز وب ناسا/ESA/CSA، سیستم‌های ستاره‌ای جوانی را مطالعه کرده‌اند که نشانه‌های آشفته‌ای مشابه دارند. این یافته‌ها سرنخی درباره میزان انرژی در این برخورد‌ها و نیز ترکیب و تکامل این سیستم‌های پرتلاطم ارائه می‌دهد.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2618a.jpg",
-   "link": "https://esawebb.org/news/weic2618/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-10-01T14:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoefl",
-   "title": "Photo Release: Webb reveals stunning panorama of star formation",
-   "title_fa": "آشکارسازی پنوراما خیرهکننده تشکیل ستارگان توسط تلسکوپ جیمز وب",
-   "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images from the NASA/ESA/CSA James Webb Space Telescope released to the public so far. Using Webb, astronomers searched IC 348 for brown dwarfs, which are less massive than the smallest stars. The researchers discovered brown dwarfs just twice the mass of Jupiter, bringing the study of these curious objects into a new mass range.",
-   "summary_fa": "تلسکوپ فضایی جیمز وب تصویری بی‌نظیر از ناحیه تشکیل ستارگان IC 348 ثبت کرده است که تا کنون بزرگ‌ترین تصویر منتشرشده از این تلسکوپ محسوب می‌شود. ستاره‌شناسان با استفاده از جیمز وب به دنبال کوتوله‌های قهوه‌ای در این ناحیه گشتند. این پژوهشگران کوتوله‌های قهوه‌ای با جرمی معادل دو برابر مشتری کشف کردند که مطالعه این اجرام را به دامنه جرمی جدیدی برد.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2619a.jpg",
-   "link": "https://esawebb.org/news/weic2619/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-09-15T14:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe3j",
-   "title": "Science Release: Webb reveals dust and water surviving in the extreme environment around the Milky Way’s central black hole",
-   "title_fa": "غبار و آب در نزدیکی سیاه‌چاله مرکزی راه‌شیری شناسایی شدند",
-   "summary": "Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive surprisingly close to the supermassive black hole at the centre of our Milky Way galaxy. The observations reveal that the evolved star IRS 3 continues to enrich its surroundings with newly formed material despite the intense radiation environment around Sagittarius A*.",
-   "summary_fa": "تیم بین‌المللی نجومی با استفاده از تلسکوپ فضایی جیمز وب نشان داد که غبار و آب می‌توانند در فاصله‌ای نزدیک به سیاه‌چاله ابرپرمasse در مرکز کهکشان راه‌شیری شکل گیرند و دوام آورند. مشاهدات نشان می‌دهد ستارہ تکامل‌یافتہ IRS 3 با وجود تشعشع شدید اطراف ساجیتاریوس ایستار، همچنان محیط پیرامون خود را با مواد تازه‌تشکیل‌شده غنی می‌کند.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2617a.jpg",
-   "link": "https://esawebb.org/news/weic2617/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-08-11T08:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe66",
-   "title": "Photo Release: Lion Nebula roars to life for Webb",
-   "title_fa": "تلسکوپ جیمز وب، سحابی شیر را به تصویر کشید",
-   "summary": "Observing across the starry “plains” of space, the NASA/ESA/CSA James Webb Space Telescope has taken images of NGC 2392, nicknamed the Lion Nebula.",
-   "summary_fa": "تلسکوپ فضایی جیمز وب (NASA/ESA/CSA) تصاویری از NGC 2392 ثبت کرده است که به سحابی شیر معروف است. این رصد ستارگان در دشت‌های پرستارهٔ فضا انجام شده است.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2616a.jpg",
-   "link": "https://esawebb.org/news/weic2616/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-08-10T14:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe59",
-   "title": "Photo Release: Webb uncovers unusual galaxy shaped by cosmic collision",
-   "title_fa": "تلسکوپ جیمز وب کهکشانی نادر را آشکار کرد",
-   "summary": "In new images from the NASA/ESA/CSA James Webb Space Telescope to celebrate its fourth science anniversary, a familiar galaxy transforms into something far richer, and far more complex, than ever seen before. Webb’s unprecedented sensitivity across near- and mid-infrared wavelengths cuts through the thick lanes of dust that obscure Centaurus A’s centre in visible light, showing a densely packed tapestry of individual",
-   "summary_fa": "تصاویر جدید تلسکوپ فضایی جیمز وب از کهکشان قنطورس الف، چهارمین سالگرد علمی این کاوشگر را به نمایش می‌گذارد. حساسیت بی‌سابقه جیمز وب در طول‌موج‌های نزدیک و میانه مادون‌قرمز، از میان نواحی غبارناک مرکز کهکشان عبور کرده و شبکه‌ای چگال از ستاره‌های فرد و فعالیتی پویا را نشان می‌دهد.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2615a.jpg",
-   "link": "https://esawebb.org/news/weic2615/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-07-06T14:00:00.000Z"
-  },
-  {
-   "slug": "esawebb-zfoe7w",
-   "title": "Science Release: Webb studies how a planet survived death of its star",
-   "title_fa": "وب چگونه بقای سیاره پس از مرگ ستاره‌اش را بررسی کرد",
-   "summary": "An international team of astronomers have used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecting its atmosphere. They found that the planet is significantly warmer than expected and determined how it most likely reached its very tight orbit around the star, a white dwarf. The results are our ",
-   "summary_fa": "تیم بین‌المللی ستاره‌شناسان با استفاده از تلسکوپ فضایی جیمز وب، گذر سیاره فراخورشیدی WD 1856 b از روبروی ستاره میزبان کوتوله سفیدش را مشاهده کردند و جرم، دما و حتی جو آن را اندازه‌گیری نمودند. این سیاره به اندازه مشتری گرم‌تر از انتظار است و محققان دریافتند که احتمالاً از مدار دورتری به مدار بسیار نزدیکی در اطراف کوتوله سفید تغییر مسیر داده است. این نتایج نخستین پنجره بر سرنوشت سیاراتی مانند مشتری پس از مرگ خورشید، میلیاردها سال در آینده است.",
-   "image": "http://cdn.esawebb.org/archives/images/screen/weic2614a.jpg",
-   "link": "https://esawebb.org/news/weic2614/",
-   "source": "ESA/Webb",
-   "source_fa": "اسا/وب (جیمز وب)",
-   "date_utc": "2026-07-01T15:00:00.000Z"
   }
  ]
 }
