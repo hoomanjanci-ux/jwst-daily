@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-25T05:35:55.995Z",
+ "generated_utc": "2026-11-25T05:40:07.843Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2970,18 +2970,6 @@
    "date_utc": "2026-11-24T15:44:38.000Z"
   },
   {
-   "slug": "nasa-cnila0",
-   "title": "Crew Awaits Thanksgiving Day Delivery as Another Cargo Craft Nears Launch",
-   "title_fa": "رسانهٔبار برسی روسیه به ایستگاه فضایی نزدیک شد",
-   "summary": "A Progress 97 cargo spacecraft from Roscosmos is orbiting Earth and on its way to resupply the Expedition 75 crew aboard the International Space Station after launching at 5:17 a.m. EST today from Kazakhstan. Filled with about three tons of food, fuel, and supplies, the Progress 97 is scheduled to automatically dock to the orbital outpost’s Rassvet module at 7:11 a.m. on Thanksgiving Day.",
-   "summary_fa": "مأموریت پیشگام۹۷ از آژانس فضایی روسیه، حامل حدود سه تن غذا، سوخت و ملزومات، پس از پرتاب امروز از قزاقستان به مدار زمین رسیده است. این شناور باربری قرار است صبح روز چهارشنبه، مصادف با ده روز تشکر، به طور خودکار به ماژول راسوِیت در ایستگاه فضایی بین‌المللی متصل شود.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0120834/iss075e0120834~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/24/crew-awaits-thanksgiving-day-delivery-as-another-cargo-craft-nears-launch/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-24T15:05:29.000Z"
-  },
-  {
    "slug": "science-29cs7k",
    "title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
    "title_fa": "تصویر تازه هابل از کهکشان NGC 4394",
@@ -2992,30 +2980,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-24T13:58:28.000Z"
-  },
-  {
-   "slug": "nasa-ck2db6",
-   "title": "Progress Cargo Craft Lifts Off to Resupply Expedition 75 Crew",
-   "title_fa": "پرواز محموله‌بر پروگرس به ایستگاه فضایی بین‌المللی",
-   "summary": "The unpiloted Roscosmos Progress 97 spacecraft is safely in orbit and on its way to the International Space Station after launching at 5:17 a.m. EST (3:17 p.m. Baikonur time) on a Soyuz rocket from the Baikonur Cosmodrome in Kazakhstan.",
-   "summary_fa": "موشک سوآز با پیشران Progress 97 ناوپilot رزکوزموس را با موفقیت در مدار زمین قرار داد. این محموله‌بر در راه ایستگاه فضایی بین‌المللی است تا خدمه مأموریت Expedition 75 را پشتیبانی کند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/09/blog-96p-dock-091926.jpg?w=1200",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-lifts-off-to-resupply-expedition-75-crew/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-24T10:34:45.000Z"
-  },
-  {
-   "slug": "nasa-eah6p7",
-   "title": "Progress Cargo Craft Counts Down to Launch from Kazakhstan",
-   "title_fa": "تحریره باربری پیشگام برای پرتاب آماده می‌شود",
-   "summary": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station.",
-   "summary_fa": "ناسا پوشش زنده پرتاب و لنگراندازی یک شناور باریروسکاسموس را ارائه خواهد داد. این سفینه حاوی حدود سه تن غذا، سوخت و ملزومات است که برای خدمه ایستگاه فضایی بین‌المللی ارسال می‌شود. این مأموریت از پایگاه فضایی بایکونور در قزاقستان پرتاب خواهد شد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/09/blog-p96-launch-091626.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-counts-down-to-launch-from-kazakhstan/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-24T09:41:47.000Z"
   },
   {
    "slug": "science-ywfji1",
@@ -3030,42 +2994,6 @@
    "date_utc": "2026-11-24T05:05:00.000Z"
   },
   {
-   "slug": "nasa-1qr8jau",
-   "title": "NASA Officially Takes Ownership of X-59 Supersonic Aircraft",
-   "title_fa": "ناسا مالکیت هواپیمای سوپرسونیک ایکس-۵۹ را رسمی کرد",
-   "summary": "NASA’s X-59 reached a new milestone Nov. 18, when the agency officially took ownership of the quiet supersonic research aircraft from contractor Lockheed Martin Skunk Works. NASA selected Lockheed Martin to collaborate on the design of the X-59 and lead on vehicle building and testing for the agency’s Quesst mission. The aircraft is designed to […]",
-   "summary_fa": "ناسا روز ۱۸ نوامبر مالکیت هواپیمای پژوهشی بی‌صدای سوپرسونیک ایکس-۵۹ را از شرکت لاکهید مارتین اسکات وورکس رسماً بر عهده گرفت. ناسا لاکهید مارتین را برای همکاری در طراحی و رهبری ساخت و آزمایش این هواپیما برای مأموریت کوئست انتخاب کرده بود. این هواپیما برای [...]",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/afrc2026-0209-2-web2.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/quesst/2026/11/23/nasa-officially-takes-ownership-of-x-59-supersonic-aircraft/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T21:05:34.000Z"
-  },
-  {
-   "slug": "nasa-19wem7t",
-   "title": "Advanced Biomedical Research Tops Crew Schedule Aboard Station",
-   "title_fa": "پژوهش‌های زیستی پیشرو در اولویت کاروانده ایستگاه فضایی",
-   "summary": "Sequencing microbe DNA, producing stem cells, and testing blood samples in microgravity were the main research priorities aboard the International Space Station on Monday. The Expedition 75 crew members also explored exercising in weightlessness, studied virtual reality, and photographed Earth landmarks at the beginning of the week.",
-   "summary_fa": "فعالیت‌های تحقیقاتی بیولوژیکی و پزشکی از جمله توالی‌یابی DNA میکروب‌ها، تولید سلول‌های بنیادی و آزمایش نمونه‌های خون در شرایط بی‌وزنی، روز دوشنبه در ایستگاه فضایی بین‌المللی در اولویت قرار داشت. خدمه مأموریت اکسپدیشن ۷۵ همچنین به تمرین ورزش در بی‌وزنی، مطالعه واقعیت مجازی و عکاسی از آثار تاریخی زمین پرداختند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0254172/iss075e0254172~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/23/advanced-biomedical-research-tops-crew-schedule-aboard-station/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T18:18:17.000Z"
-  },
-  {
-   "slug": "science-1a8knrw",
-   "title": "NASA’s ESCAPADE Captures Parting Images of Earth on Its Way to Mars",
-   "title_fa": "سفینه ESCAPADE ناسا پیش از رسیدن به مریخ، تصاویری وداعی از زمین ثبت کرد",
-   "summary": "After completing a successful powered flyby of Earth, one of NASA’s twin ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft snapped farewell images of its home planet before heading off to Mars. The ESCAPADE spacecraft used its Visible and Infrared Observation System camera, provided by Northern Arizona University, to capture the images of Earth […]",
-   "summary_fa": "پس از انجام پرواز سیار نیرومند موفقیت‌آمیز در نزدیکی زمین، یکی از دو سفینه جفت ESCAPADE ناسا پیش از حرکت به سمت مریخ، تصاویر وداعی از سیاره خانگی خود ثبت کرد. این سفینه با استفاده از دوربین «سیستم رؤیت‌سازی مرئی و فروسرخ»ِ ارائه‌شده توسط دانشگاه شمال آریزونا، این تصاویر را ضبط نمود.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/ESCAPADE-Earth-vis-color.jpg?w=2000&h=1998&fit=clip",
-   "link": "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T16:53:07.000Z"
-  },
-  {
    "slug": "esawebb-zfoa2n",
    "title": "Science Release: Webb shows how supernova dust chronicles star evolution",
    "title_fa": "تلسکوپ جیمز وب نشان می‌دهد غبار ابرنواختری چگونه تکامل ستاره را روایت می‌کند",
@@ -3076,54 +3004,6 @@
    "source": "ESA/Webb",
    "source_fa": "اسا/وب (جیمز وب)",
    "date_utc": "2026-11-23T15:00:00.000Z"
-  },
-  {
-   "slug": "nasa-1e3zdwl",
-   "title": "Dragon Returns to Earth Packed With Science and Cargo",
-   "title_fa": "درگن فضایی با محمولهٔ علمی به زمین بازگشت",
-   "summary": "At 2:03 p.m. PST, the unpiloted SpaceX Dragon spacecraft splashed down in the Pacific Ocean near Los Angeles, completing NASA's 35th SpaceX commercial resupply services mission to the International Space Station.",
-   "summary_fa": "کپسول فضایی بدون سرنشین درگنِ اسپیس‌ایکس ساعت ۱۴:۰۳ وقت پاسیفیک در اقیانوس آرام نزدیک لس‌آنجلس فرود آمد. این مأموریت، سی و پنجمین پرواز تجاری تأمین بار ناسا به ایستگاه فضایی بین‌المللی بود.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0226573/iss075e0226573~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-21T22:10:07.000Z"
-  },
-  {
-   "slug": "nasa-122tsqz",
-   "title": "Dragon Undocks from Station Packed With Science and Cargo",
-   "title_fa": "خودروی فضایی درگن اسپیس‌ایکس با محمولهٔ علمی از ایستگاه جدا شد",
-   "summary": "At 12:05 p.m. EST, the unpiloted SpaceX Dragon spacecraft undocked from the space-facing port of the International Space Station's Harmony module following a command from SpaceX ground controllers.",
-   "summary_fa": "خودروی فضایی بدون سرنشین درگنِ اسپیس‌ایکس، پس از دریافت فرمان از پایگاه کنترلی SpaceX، ساعت ۱۲:۰۵ به وقت شرقی (EST) از دهانهٔ رو به فضا ماژول هماونیِ ایستگاه فضایی بین‌المللی جدا شد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss-11-18-26.png?w=1280",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-20T17:08:20.000Z"
-  },
-  {
-   "slug": "nasa-1mf6v4y",
-   "title": "Dragon Prepares to Depart Station for Earth Return",
-   "title_fa": "کاوشگر دراگون آمادهٔ بازگشت به زمین شد",
-   "summary": "The unpiloted SpaceX Dragon spacecraft will undock at approximately 12:05 p.m. EST from the space-facing port of the station’s Harmony module and fire its thrusters to move safely away from the orbital complex.",
-   "summary_fa": "سفینهٔ بدون سرنشین دراگونِ شرکت اسپیس‌ایکس در حدود ساعت ۱۲:۰۵ بعدازظهر به وقت استاندارد شرقی از پهلوگاه رو به فضا ماژول هارمونی ایستگاه جدا خواهد شد. سپس با شلیک موتورهای رانش خود، فاصلهٔ ایمنی را تا مجموعهٔ مداری حفظ می‌کند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0226575/iss075e0226575~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/20/dragon-prepares-to-depart-station-for-earth-return/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-20T16:47:19.000Z"
-  },
-  {
-   "slug": "science-1yn73bm",
-   "title": "NASA Arizona Field Investigations Advance Planetary Science",
-   "title_fa": "بررسی‌های میدانی ناسا در آریزونا، پیشرفت علم سیاره‌شناسی",
-   "summary": "To better understand processes shaping Earth, the Moon, Mars, and worlds beyond, NASA’s Goddard Instrument Field Team headed to Flagstaff, Arizona.",
-   "summary_fa": "تیم میدانی ابزارهای مرکز پروازهای فضایی گد ناسا برای بررسی‌های میدانی به فلگستاف آریزونا رفت. هدف این مأموریت، درک بهتر فرآیندهای شکل‌دهندهٔ زمین، ماه، مریخ و سایر جرم‌های آسمانی است. این پژوهش‌ها گامی رو به پیشرفت علم سیاره‌شناسی محسوب می‌شود.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/planetary-expeditions/2026-09-gift-flagstaff/GIFT-flagstaff-2026-geophysics-meteor-crater.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T21:18:36.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
