@@ -133709,45 +133709,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-24T02:31:55.635074+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": "2026-11-24/06",
-    "published": [
-     "jw12525111001_0210e_00004_nrcb3_i2d.fits"
-    ],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "sent",
-    "ready_pairs": 5,
-    "next_window": "2026-11-24T09:00:00+03:30"
-   },
-   "published": [
-    "jw12525111001_0210e_00004_nrcb3_i2d.fits"
-   ],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/"
-    ],
-    "en": [
-     "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/"
-    ],
-    "mode": "fresh (1 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-24T02:32:15.865590+00:00"
-  },
-  {
    "started_utc": "2026-11-24T02:55:48.106681+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -135112,6 +135073,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-25T01:55:07.683081+00:00"
+  },
+  {
+   "started_utc": "2026-11-25T02:10:29.197596+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 3,
+    "next_window": "2026-11-25T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
+     "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/"
+    ],
+    "en": [
+     "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
+     "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/"
+    ],
+    "mode": "fresh (5 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-25T02:10:57.869648+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -136020,9 +136018,35 @@
   "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/": {
    "fa": "2026-11-24T23:21:10.388369+00:00",
    "en": "2026-11-24T23:21:10.388369+00:00"
+  },
+  "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/": {
+   "fa": "2026-11-25T02:10:34.492453+00:00",
+   "en": "2026-11-25T02:10:34.492453+00:00"
+  },
+  "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/": {
+   "fa": "2026-11-25T02:10:34.492453+00:00",
+   "en": "2026-11-25T02:10:34.492453+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/": {
+   "title": "ستاره‌شناسان آماتور می‌توانند کیلونوواها را کشف کنند!",
+   "summary": "ستاره‌های نوترونی باقیمانده‌های فوق‌چگال ستارگان مرده هستند که هنگام برخوردشان فلش کوتاهی به نام کیلونووا منتشر می‌شود. این رویدادهای توانمند بخش عمده‌ای از طلای جهان را می‌سازند. چون کیلونووا ظرف چند روز محو می‌شود، ستاره‌شناسان باید سریع آن را پیدا کنند.",
+   "link": "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-24T19:19:52+00:00",
+   "ts": "2026-11-25T02:10:34.492453+00:00"
+  },
+  "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/": {
+   "title": "مأموریت پرتاب محمولهٔ CRS-25 نورتروپ گرامن به ایستگاه فضایی بین‌المللی",
+   "summary": "مأموریت CRS-25 شرکت نورتروپ گرامن، حدود ۱۱ هزار پوند مواد علمی و تأمین‌کننده را به ایستگاه فضایی بین‌المللی می‌رساند. این مأموریت سومین پرواز سفینهٔ خورشیدی‌پویش Cygnus XL با ظرفیت باربری بیشتر است. این سفینه به‌زودی پرتاب خواهد شد.",
+   "link": "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-24T19:09:16+00:00",
+   "ts": "2026-11-25T02:10:34.492453+00:00"
+  },
   "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema/": {
    "title": "محتوای ناسا پلاس در گرین‌بلت، سینما مریلند به نمایش درمی‌آید",
    "summary": "ناسا روز دوشنبه اعلام کرد که محتوای ناسا پلاس اولین خانه تئاتر خود را در سینما گرین‌بلت در گرین‌بلت، مریلند پیدا کرده است، و دامنه آژانس را در پلتفرم‌های تماشای اصلی گسترش داده و فضا را حتی به خانه نزدیک‌تر می‌کند. \"قانون ملی هوانوردی و فضایی سال 1958 ما را فرا می خواند تا داستان خود از اکتشافات فضایی را با گسترده ترین موارد ممکن به اشتراک بگذاریم.",
@@ -137354,24 +137378,6 @@
    "source_fa": "ناسا",
    "date": "2026-10-29T13:27:34+00:00",
    "ts": "2026-10-29T22:03:37.121668+00:00"
-  },
-  "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/": {
-   "title": "Astronauts Begin Spacewalk to Install Roll-Out Solar Arrays",
-   "summary": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk began a spacewalk at 7:57 a.m. EDT outside the International Space Station airlock to install and deploy an International Space Station Roll-Out Solar Array on the 2A electrical power channel.",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/10/29/astronauts-begin-spacewalk-to-install-roll-out-solar-arrays-2/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date": "2026-10-29T12:02:14+00:00",
-   "ts": "2026-10-29T22:03:37.121668+00:00"
-  },
-  "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/": {
-   "title": "Halloween Aboard the International Space Station",
-   "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit. Whether individually or as an entire crew, they dress up in sometimes spooky, sometimes scary, but always creative costumes, often designed from materials available aboard the",
-   "link": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-29T21:44:23+00:00",
-   "ts": "2026-10-29T21:52:49.923213+00:00"
   }
  },
  "news_title_fp": {
@@ -138223,6 +138229,14 @@
   "f8fff0740d235ff3": {
    "fa": "2026-11-24",
    "en": "2026-11-24"
+  },
+  "504c390c7620a634": {
+   "fa": "2026-11-25",
+   "en": "2026-11-25"
+  },
+  "4036b90315c5d4fc": {
+   "fa": "2026-11-25",
+   "en": "2026-11-25"
   }
  },
  "news_title_recent": [
@@ -139077,6 +139091,14 @@
   [
    "f8fff0740d235ff3",
    "teams lock in mission architecture for nasa s sr 1 freedom"
+  ],
+  [
+   "504c390c7620a634",
+   "amateur astronomer be a kilonova catcher"
+  ],
+  [
+   "4036b90315c5d4fc",
+   "nasa s northrop grumman crs 25 mission overview"
   ]
  ],
  "combo_seen": {
