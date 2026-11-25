@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-25T16:25:11.525Z",
+ "generated_utc": "2026-11-25T16:45:00.865Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2910,6 +2910,18 @@
    "date_utc": "2026-11-25T16:21:04.000Z"
   },
   {
+   "slug": "nasa-1fopbfw",
+   "title": "Crew Works Biomedical Research Day Before Thanksgiving Space Delivery",
+   "title_fa": null,
+   "summary": "Advanced biomedical research with ultrasound scans and blood pressure checks topped the research schedule aboard the International Space Station on Wednesday. Expedition 75 is also preparing for a cargo mission arriving on Thanksgiving Day and another scheduled for delivery early next week.",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss074e0395778/iss074e0395778~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/25/crew-works-biomedical-research-day-before-thanksgiving-space-delivery/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-25T16:17:32.000Z"
+  },
+  {
    "slug": "science-stniwe",
    "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
    "title_fa": null,
@@ -3112,18 +3124,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-20T16:47:19.000Z"
-  },
-  {
-   "slug": "science-1yn73bm",
-   "title": "NASA Arizona Field Investigations Advance Planetary Science",
-   "title_fa": "بررسی‌های میدانی ناسا در آریزونا، پیشرفت علم سیاره‌شناسی",
-   "summary": "To better understand processes shaping Earth, the Moon, Mars, and worlds beyond, NASA’s Goddard Instrument Field Team headed to Flagstaff, Arizona.",
-   "summary_fa": "تیم میدانی ابزارهای مرکز پروازهای فضایی گد ناسا برای بررسی‌های میدانی به فلگستاف آریزونا رفت. هدف این مأموریت، درک بهتر فرآیندهای شکل‌دهندهٔ زمین، ماه، مریخ و سایر جرم‌های آسمانی است. این پژوهش‌ها گامی رو به پیشرفت علم سیاره‌شناسی محسوب می‌شود.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/planetary-expeditions/2026-09-gift-flagstaff/GIFT-flagstaff-2026-geophysics-meteor-crater.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/blogs/planetary-expeditions/2026/11/19/nasa-arizona-field-investigations-advance-planetary-science/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-19T21:18:36.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
