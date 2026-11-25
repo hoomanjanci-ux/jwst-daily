@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-25T17:05:07.415Z",
+ "generated_utc": "2026-11-25T17:20:08.723Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,6 +2898,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-441ygr",
+   "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
+   "title_fa": null,
+   "summary": "Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ashley-knight-and-parents.jpg?w=1504",
+   "link": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-25T16:47:29.000Z"
+  },
+  {
    "slug": "nasa-13xxact",
    "title": "Eye of the Sahara",
    "title_fa": null,
@@ -3004,18 +3016,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-24T19:09:16.000Z"
-  },
-  {
-   "slug": "nasa-2aes5k",
-   "title": "Webb Reveals New Details in Supernova Remnant",
-   "title_fa": "جزئیات تازه از باقی‌مانده ابرنواختر کاسیوپیا با تلسکوپ جیمز وب",
-   "summary": "NASA’s James Webb Space Telescope reveals the hot dust that makes up Cassiopeia A (Cas A) in this high-resolution, mid-infrared image released on Nov. 23, 2026. Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and […]",
-   "summary_fa": "تلسکوپ فضایی جیمز وب، تصویر بارزئی بالایی از غبار داغ تشکیل‌دهندهٔ باقی‌ماندهٔ ابرنواختر کاسیوپیا الف (Cas A) منتشر کرد. این سحابی حاصل انفجار ستارهٔ پرجرمی است و ابرهای گاز و غبار به‌جا‌مانده از آن، سرانجام بذر ستاره‌های نسل آینده خواهند شد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/cas-a-webb-miri.png?w=2048",
-   "link": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-24T16:51:27.000Z"
   },
   {
    "slug": "nasa-cnila0",
