@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-25T15:35:14.303Z",
+ "generated_utc": "2026-11-25T16:05:02.208Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,6 +2898,18 @@
  ],
  "news": [
   {
+   "slug": "science-stniwe",
+   "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+   "title_fa": null,
+   "summary": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/milky-way/Hubble_GalacticBulge_HD70_1_FINAL.jpg?w=1536&h=1536&fit=clip",
+   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-25T14:56:54.000Z"
+  },
+  {
    "slug": "science-1hto48x",
    "title": "APOD: 2026 November 25 – SPHEREx Seeing Through Dust",
    "title_fa": "اسپیرکس: نگاهی از پس غبار کیهانی",
@@ -2992,18 +3004,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-24T15:05:29.000Z"
-  },
-  {
-   "slug": "science-29cs7k",
-   "title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
-   "title_fa": "تصویر تازه هابل از کهکشان NGC 4394",
-   "summary": "The brilliant galaxy NGC 4394 with its distinct galactic bar takes center stage in this Hubble Space Telescope image",
-   "summary_fa": "تصویر تازه‌ای از تلسکوپ فضایی هابل، کهکشان NGC 4394 را با نوار میله‌ای متمایزش به نمایش گذاشته است. نوار میله‌ای این کهکشان درخشان، ویژگی بارز آن در این تصویر جدید محسوب می‌شود.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC4394_potm2611a.jpg?w=2048&h=2048&fit=clip",
-   "link": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-24T13:58:28.000Z"
   },
   {
    "slug": "nasa-ck2db6",
