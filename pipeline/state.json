@@ -101,7 +101,7 @@
    "png_bytes": 3407087,
    "source": "MAST public",
    "uri": "mast:JWST/product/jw06627005001_07101_00006_nrcalong_rate.fits",
-   "status": "analyzed",
+   "status": "ready",
    "score": 43.28,
    "analyzed_utc": "2026-10-24T19:02:57.313585+00:00",
    "analysis": "analyses/2026/10/24/jw06627005001_07101_00006_nrcalong_rate.fits.json",
@@ -129,21 +129,21 @@
       "roi": 0.4328,
       "score": 75.47
      },
-     "ai_message": {
-      "score": 55,
-      "clarity": 50,
-      "accuracy": 65,
-      "appeal": 45,
-      "notes": "Misleading 'AI analysis' claim; excessive jargon; missing data-reduction context; dry presentation."
+     "evidence": {
+      "bright_tail_pixel_count": 16643,
+      "brightest_quadrant_percent": 31.773,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456617,
+      "finite_fraction": 0.978838,
+      "median": 0.05976000428199768,
+      "robust_scatter": 0.053300681532919406,
+      "above_5scatter_percent": 3.6448,
+      "p99_above_median_scatter": 19.614,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 42,
-      "clarity": 55,
-      "accuracy": null,
-      "appeal": 28,
-      "notes": "Raw monochrome data. Needs color calibration, noise reduction, and contrast stretching."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     },
     "en": {
      "heuristic": {
@@ -154,23 +154,25 @@
       "roi": 0.4328,
       "score": 75.47
      },
-     "ai_message": {
-      "score": 38,
-      "clarity": 55,
-      "accuracy": 62,
-      "appeal": 22,
-      "notes": "Dry, repetitive emphasis on unknown nature; reads like a disclaimer, not a post. Technical jargon without payoff. Good metadata structure, but zero narrative hook or excitement. Audience will skim past."
+     "evidence": {
+      "bright_tail_pixel_count": 16643,
+      "brightest_quadrant_percent": 31.773,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 456617,
+      "finite_fraction": 0.978838,
+      "median": 0.05976000428199768,
+      "robust_scatter": 0.053300681532919406,
+      "above_5scatter_percent": 3.6448,
+      "p99_above_median_scatter": 19.614,
+      "bunit": "DN/s"
      },
-     "ai_image": {
-      "score": 18,
-      "clarity": 42,
-      "accuracy": null,
-      "appeal": 12,
-      "notes": "Raw single-frame data. High noise, low contrast, no color. Unpublishable for broadcast without extensive processing."
-     },
-     "min_score_gate": 60.0
+     "method": "measured-data-analysis-v3"
     }
-   }
+   },
+   "analysis_revision": 3,
+   "paired_ready_utc": "2026-11-25T02:36:00.068566+00:00"
   },
   "jw07127040001_03105_00001_nrca1_rate.fits": {
    "channels": {
@@ -143385,7 +143387,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-25T02:12:09.573970+00:00",
+ "paired_prepare_attempt_utc": "2026-11-25T02:31:07.946087+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
