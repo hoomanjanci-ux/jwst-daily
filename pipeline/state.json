@@ -133602,33 +133602,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-25T07:30:55.755947+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 3,
-    "next_window": "2026-11-25T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-25T07:35:02.762048+00:00"
-  },
-  {
    "started_utc": "2026-11-25T07:51:09.516826+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -134976,6 +134949,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-25T22:15:07.774146+00:00"
+  },
+  {
+   "started_utc": "2026-11-25T22:19:39.576229+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 2,
+    "next_window": "2026-11-26T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
+     "https://www.nasa.gov/image-article/eye-of-the-sahara/"
+    ],
+    "en": [
+     "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
+     "https://www.nasa.gov/image-article/eye-of-the-sahara/"
+    ],
+    "mode": "fresh (5 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-25T22:21:15.861351+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -135912,9 +135922,35 @@
   "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/": {
    "fa": "2026-11-25T19:26:43.308323+00:00",
    "en": "2026-11-25T19:26:43.308323+00:00"
+  },
+  "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/": {
+   "fa": "2026-11-25T22:19:44.932459+00:00",
+   "en": "2026-11-25T22:19:44.932459+00:00"
+  },
+  "https://www.nasa.gov/image-article/eye-of-the-sahara/": {
+   "fa": "2026-11-25T22:19:44.932459+00:00",
+   "en": "2026-11-25T22:19:44.932459+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/": {
+   "title": "ناسا برنامه تأمین‌کنندگان را بهبود می‌بخشد و توافقنامه مربی-شاگرد را اعلام می‌کند",
+   "summary": "نحوه همکاری ناسا با کسب‌وکارهای کوچک در حال تغییر است و در نتیجه، این سازمان در حال تقویت پایگاه صنعتی هوافضای داخلی برای حمایت از مأموریت‌های اکتشافی آینده از طریق برنامه توسعه تأمین‌کنندگان کسب‌وکارهای کوچک است که اخیراً نام آن تغییر کرده است. به عنوان بخشی از این برنامه، ناسا جدیدترین توافق‌نامه مربی-شاگرد خود را اعلام کرد که بین شرکت بوئینگ و GRACE امضا شده است.",
+   "link": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-25T19:06:56+00:00",
+   "ts": "2026-11-25T22:19:44.932459+00:00"
+  },
+  "https://www.nasa.gov/image-article/eye-of-the-sahara/": {
+   "title": "چشم صحرای آفریقا",
+   "summary": "ساختار ریچات که به «چشم صحرا» نیز معروف است، از ایستگاه فضایی بین‌المللی در حال گردش در مدار بالای آن در 14 نوامبر 2026 دیده می‌شود. این سازه یک گنبد زمین‌شناسی فرسایش‌یافته با قدمت حدود 100 میلیون سال است که در اثر فعالیت‌های آتشفشانی و بالاآمدگی زمین در کشور موریتانی ایجاد شده است. در این نوع ساختار زمین‌شناسی، سنگ‌ها",
+   "link": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-25T16:21:04+00:00",
+   "ts": "2026-11-25T22:19:44.932459+00:00"
+  },
   "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/": {
    "title": "NASA Eyes نامزدهای منوهای آینده را برش می دهد",
    "summary": "در حالی که ناسا برای ماموریت های آینده به ماه و مریخ آماده می شود، محققان در حال مطالعه محصولاتی هستند که می توانند غذای تازه، تغذیه و تنوع دور از زمین را برای فضانوردان فراهم کنند. چنین تنوع محصولات می تواند به منوها در اعماق فضا کمک کند، چیزی که در این هفته که ملت روز شکرگزاری را جشن می گیرند، مورد توجه قرار می گیرد. نکات آزمایشی اخیر در مورد توت فرنگی،",
@@ -137246,24 +137282,6 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-10-30T17:50:49+00:00",
    "ts": "2026-10-30T18:48:53.404159+00:00"
-  },
-  "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/": {
-   "title": "تلسکوپ فضایی جیمز وب ناسا از سر گربه وحشتناک عکس می گیرد",
-   "summary": "ساختارهای پیچیده درون سحابی سر گربه در این نمای فروسرخ میانه از تلسکوپ فضایی جیمز وب ناسا که در 29 اکتبر 2026 منتشر شد، روشن شده است. شکل متمایز \"سر گربه\" سحابی احتمالاً در طول زمان توسط تابش شدید ماوراء بنفش ستارگان توده فرابنفش و بادهای تابش نور ماوراء بنفش ساخته شده است. به عنوان این بازخورد ستاره ای",
-   "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-30T15:56:26+00:00",
-   "ts": "2026-10-30T18:48:53.404159+00:00"
-  },
-  "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/": {
-   "title": "ناسا در حال بررسی خدمات تجاری بالقوه برای تلسکوپ هابل است",
-   "summary": "ناسا در 29 اکتبر درخواستی برای اطلاعات برای کسب اطلاعات بیشتر در مورد قابلیت های صنعت برای خدمات در فضا برای پشتیبانی از تلسکوپ فضایی هابل این آژانس صادر کرد.",
-   "link": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-10-30T14:51:21+00:00",
-   "ts": "2026-10-30T16:17:51.342704+00:00"
   }
  },
  "news_title_fp": {
@@ -138141,6 +138159,14 @@
    "en": "2026-11-25"
   },
   "bcdbe71c51973109": {
+   "fa": "2026-11-25",
+   "en": "2026-11-25"
+  },
+  "2e11058b0db2f7e8": {
+   "fa": "2026-11-25",
+   "en": "2026-11-25"
+  },
+  "fb71b3bf734cc81b": {
    "fa": "2026-11-25",
    "en": "2026-11-25"
   }
@@ -139025,6 +139051,14 @@
   [
    "bcdbe71c51973109",
    "childhood career come full circle for budget analyst at nasa goddard"
+  ],
+  [
+   "2e11058b0db2f7e8",
+   "nasa enhances supplier program announces mentor prot g agreement"
+  ],
+  [
+   "fb71b3bf734cc81b",
+   "eye of the sahara"
   ]
  ],
  "combo_seen": {
