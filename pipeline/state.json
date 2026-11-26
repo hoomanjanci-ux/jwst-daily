@@ -128442,7 +128442,81 @@
   },
   "jw10046006006_02101_00004_nrcblong_rate.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "ready",
+   "score": 56.8,
+   "analyzed_utc": "2026-11-26T12:53:23.655245+00:00",
+   "analysis": "analyses/2026/11/26/jw10046006006_02101_00004_nrcblong_rate.fits.json",
+   "cand": {
+    "filename": "jw10046006006_02101_00004_nrcblong_rate.fits",
+    "size_mb": 80.082,
+    "uri": "mast:JWST/product/jw10046006006_02101_00004_nrcblong_rate.fits",
+    "proposal": "10046",
+    "obs_id": "jw10046006006_02101_00004_nrcblong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10046006006_02101_00004_nrcblong_rate.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw10046006006_02101_00004_nrcblong_rate.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10046006006_02101_00004_nrcblong_rate.jpg"
+   },
+   "meta_TARGNAME": "NGC 7793",
+   "meta_FILTER": "F300M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "NGC 7793|NIRCAM|F300M",
+   "sha256": "a0941c4b182b93f6ce3609b300bae941993a7de0c624524a0e6db66758a1f1a4",
+   "bytes": 83972160,
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.7671,
+      "brightness": 0.7203,
+      "range": 1.0,
+      "roi": 0.568,
+      "score": 84.67
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 15583,
+      "brightest_quadrant_percent": 68.074,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 445076,
+      "finite_fraction": 0.954098,
+      "median": 0.3347000628709793,
+      "robust_scatter": 0.2415604883149266,
+      "above_5scatter_percent": 3.5012,
+      "p99_above_median_scatter": 10.773,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.7671,
+      "brightness": 0.7203,
+      "range": 1.0,
+      "roi": 0.568,
+      "score": 84.67
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 15583,
+      "brightest_quadrant_percent": 68.074,
+      "width": 2048,
+      "height": 2048,
+      "sample_stride": 3,
+      "sample_count": 445076,
+      "finite_fraction": 0.954098,
+      "median": 0.3347000628709793,
+      "robust_scatter": 0.2415604883149266,
+      "above_5scatter_percent": 3.5012,
+      "p99_above_median_scatter": 10.773,
+      "bunit": "DN/s"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-26T12:53:50.655637+00:00"
   },
   "jw10046006006_02101_00004_nrcb4_rate.fits": {
    "channels": {},
@@ -131308,11 +131382,33 @@
   },
   "jw10005101001_02101_00001_nrcblong_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "combo_cooldown",
+   "combo": "|NIRCAM|F300M",
+   "sha256": "dcac4131e6e17fac4809c80d908c6d4f9a767098f60cf009dfbb1a0cdfdbe793"
   },
   "jw10005101001_02101_00002_nrcb2_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "analyzed",
+   "score": 31.41,
+   "analyzed_utc": "2026-11-26T12:53:10.673712+00:00",
+   "analysis": "analyses/2026/11/26/jw10005101001_02101_00002_nrcb2_i2d.fits.json",
+   "cand": {
+    "filename": "jw10005101001_02101_00002_nrcb2_i2d.fits",
+    "size_mb": 113.206,
+    "uri": "mast:JWST/product/jw10005101001_02101_00002_nrcb2_i2d.fits",
+    "proposal": "10005",
+    "obs_id": "jw10005101001_02101_00002_nrcb2",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10005101001_02101_00002_nrcb2_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw10005101001_02101_00002_nrcb2_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10005101001_02101_00002_nrcb2_i2d.jpg"
+   },
+   "meta_TARGNAME": "",
+   "meta_FILTER": "F115W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "|NIRCAM|F115W",
+   "sha256": "65c6791d5f6a4e5de6f3e0acbeec947fd2b46bf8e7114ffbf90ae72019341687",
+   "bytes": 118704960,
+   "published_utc": null
   },
   "jw10005101001_02101_00002_nrcb3_i2d.fits": {
    "channels": {},
@@ -133551,93 +133647,150 @@
    "status": "legacy_v01"
   },
   "jw10790023001_03201_00004_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790033001_13201_00004_nrcalong_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca1_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca3_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca2_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca4_i2d.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790023001_03201_00004_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790033001_13201_00004_nrcalong_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca1_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca3_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca2_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790023001_03201_00004_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw10790033001_13201_00004_nrcalong_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02103_00001_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca1_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca3_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca2_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw12642002001_02102_00001_nrca4_rate.fits": {
+   "channels": {},
+   "status": "legacy_v01"
+  },
+  "jw10046006006_02101_00004_nrcblong_i2d.fits": {
+   "channels": {},
+   "status": "analyzed",
+   "score": 42.92,
+   "analyzed_utc": "2026-11-26T12:52:44.948942+00:00",
+   "analysis": "analyses/2026/11/26/jw10046006006_02101_00004_nrcblong_i2d.fits.json",
+   "cand": {
+    "filename": "jw10046006006_02101_00004_nrcblong_i2d.fits",
+    "size_mb": 114.744,
+    "uri": "mast:JWST/product/jw10046006006_02101_00004_nrcblong_i2d.fits",
+    "proposal": "10046",
+    "obs_id": "jw10046006006_02101_00004_nrcblong",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10046006006_02101_00004_nrcblong_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw10046006006_02101_00004_nrcblong_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw10046006006_02101_00004_nrcblong_i2d.jpg"
+   },
+   "meta_TARGNAME": "NGC 7793",
+   "meta_FILTER": "F300M",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "NGC 7793|NIRCAM|F300M",
+   "sha256": "c2e5b40addf4417996e3c89e88a7ebfe0fe884ed1537c4a25dc3b2042293148e",
+   "bytes": 120317760,
+   "published_utc": null
+  },
+  "jw10046006006_02101_00004_nrcblong_cal.fits": {
    "channels": {}
   }
  },
@@ -139246,7 +139399,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-26",
-  "bytes": 444864960
+  "bytes": 888177600
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -143722,7 +143875,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-26T11:50:57.431135+00:00",
+ "paired_prepare_attempt_utc": "2026-11-26T12:51:02.305402+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
