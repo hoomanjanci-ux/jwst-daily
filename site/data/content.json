@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-26T12:54:37.586Z",
+ "generated_utc": "2026-11-26T13:12:55.259Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2949,6 +2949,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-2v1xdq",
+   "title": "Progress Cargo Craft Docks to Station on Thanksgiving Day",
+   "title_fa": null,
+   "summary": "The Roscosmos Progress 97 spacecraft docked to the Earth-facing port of the International Space Station’s Rassvet module at 7:08 a.m. EST Thursday.",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-progress97-dock-112626.png?w=1906",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-docks-to-station-on-thanksgiving-day/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-26T12:19:44.000Z"
+  },
+  {
    "slug": "nasa-sa4fne",
    "title": "Progress Cargo Craft Approaching Station With Space Delivery",
    "title_fa": null,
@@ -3163,18 +3175,6 @@
    "source": "ESA/Webb",
    "source_fa": "اسا/وب (جیمز وب)",
    "date_utc": "2026-11-23T15:00:00.000Z"
-  },
-  {
-   "slug": "nasa-1e3zdwl",
-   "title": "Dragon Returns to Earth Packed With Science and Cargo",
-   "title_fa": "درگن فضایی با محمولهٔ علمی به زمین بازگشت",
-   "summary": "At 2:03 p.m. PST, the unpiloted SpaceX Dragon spacecraft splashed down in the Pacific Ocean near Los Angeles, completing NASA's 35th SpaceX commercial resupply services mission to the International Space Station.",
-   "summary_fa": "کپسول فضایی بدون سرنشین درگنِ اسپیس‌ایکس ساعت ۱۴:۰۳ وقت پاسیفیک در اقیانوس آرام نزدیک لس‌آنجلس فرود آمد. این مأموریت، سی و پنجمین پرواز تجاری تأمین بار ناسا به ایستگاه فضایی بین‌المللی بود.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0226573/iss075e0226573~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-21T22:10:07.000Z"
   },
   {
    "slug": "esawebb-zfoa7t",
