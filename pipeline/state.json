@@ -133794,15 +133794,25 @@
    "status": "legacy_v01"
   },
   "jw11079002001_04105_00009_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw11079002001_0410b_00009_nrca4_cal.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw11079002001_04105_00009_nrca4_rate.fits": {
-   "channels": {}
+   "channels": {},
+   "status": "legacy_v01"
   },
   "jw11079002001_0410b_00009_nrca4_rate.fits": {
+   "channels": {},
+   "status": "legacy_v01"
+  },
+  "jw11079002001_04109_00009_nrca4_cal.fits": {
+   "channels": {}
+  },
+  "jw11079002001_04109_00009_nrca4_rate.fits": {
    "channels": {}
   }
  },
@@ -143933,7 +143943,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-26T17:26:00.999192+00:00",
+ "paired_prepare_attempt_utc": "2026-11-26T17:46:00.053161+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
