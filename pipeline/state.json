@@ -133796,33 +133796,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-25T23:30:55.709383+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 2,
-    "next_window": "2026-11-26T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-25T23:35:02.534727+00:00"
-  },
-  {
    "started_utc": "2026-11-25T23:49:07.432481+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -135183,6 +135156,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-26T14:52:41.967815+00:00"
+  },
+  {
+   "started_utc": "2026-11-26T14:55:05.562629+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-26/18",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 2,
+    "next_window": "2026-11-27T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-docks-to-station-on-thanksgiving-day/",
+     "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-approaching-station-with-space-delivery/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-docks-to-station-on-thanksgiving-day/",
+     "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-approaching-station-with-space-delivery/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-26T14:56:37.898444+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -136143,9 +136153,35 @@
   "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/": {
    "fa": "2026-11-26T10:00:11.624720+00:00",
    "en": "2026-11-26T10:00:11.624720+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-docks-to-station-on-thanksgiving-day/": {
+   "fa": "2026-11-26T14:55:11.089998+00:00",
+   "en": "2026-11-26T14:55:11.089998+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-approaching-station-with-space-delivery/": {
+   "fa": "2026-11-26T14:55:11.089998+00:00",
+   "en": "2026-11-26T14:55:11.089998+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-docks-to-station-on-thanksgiving-day/": {
+   "title": "فضاپیمای باری «پروگرس» در روز شکرگزاری به ایستگاه متصل می‌شود",
+   "summary": "فضاپیمای Roscosmos Progress 97 در ساعت 7:08 صبح پنجشنبه به شرق شرق به بندر رو به زمین ماژول Rassvet ایستگاه فضایی بین‌المللی لنگر انداخت.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-docks-to-station-on-thanksgiving-day/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-26T12:19:44+00:00",
+   "ts": "2026-11-26T14:55:11.089998+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-approaching-station-with-space-delivery/": {
+   "title": "فضاپیمای باری پروگرس در حال نزدیک شدن به ایستگاه با محموله فضایی",
+   "summary": "در حالی که فضاپیمای باری Roscosmos Progress 97 به ایستگاه فضایی بین‌المللی راه پیدا می‌کند، ناسا در حال پخش برنامه‌های میعادگاه و لنگرگاه است. تماشای آنلاین در: https://www.nasa.gov/live فضاپیمای بدون خلبان همچنان در مسیر قرار دارد تا تقریباً ساعت 7:11 صبح به وقت شرق به طور مستقل به بندر رو به زمین ماژول Rassvet متصل شود. در ساعت 5:17 صبح به وقت شرقی (3:17 بعد از ظهر) پرتاب شد.",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-approaching-station-with-space-delivery/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-26T11:32:37+00:00",
+   "ts": "2026-11-26T14:55:11.089998+00:00"
+  },
   "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/": {
    "title": "APOD: 2026، 26 نوامبر - چشم در آسمان: راه شیری بر فراز لنچویس",
    "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. چشم در",
@@ -137477,24 +137513,6 @@
    "source_fa": "ناسا",
    "date": "2026-11-02T17:33:22+00:00",
    "ts": "2026-11-02T18:07:49.590892+00:00"
-  },
-  "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/": {
-   "title": "هابل ناسا موردی از اکسیژن از دست رفته در کهکشان های کوتوله نزدیک را کشف کرد",
-   "summary": "هابل ناسا 37 کهکشان کوتوله مجاور را مطالعه کرد و دریافت که بسیاری از اکسیژنی که انتظار داشتند ببینند از دست رفته است.",
-   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-11-02T15:00:39+00:00",
-   "ts": "2026-11-02T17:28:39.538000+00:00"
-  },
-  "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/": {
-   "title": "APOD: 2 نوامبر 2026 - ابری طولانی در مریخ",
-   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. طولانی",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-11-02T05:05:00+00:00",
-   "ts": "2026-11-02T06:55:49.853198+00:00"
   }
  },
  "news_title_fp": {
@@ -138396,6 +138414,14 @@
    "en": "2026-11-26"
   },
   "9e31be791250af58": {
+   "fa": "2026-11-26",
+   "en": "2026-11-26"
+  },
+  "fac8613e8ee412ae": {
+   "fa": "2026-11-26",
+   "en": "2026-11-26"
+  },
+  "fd4604506e1fb128": {
    "fa": "2026-11-26",
    "en": "2026-11-26"
   }
@@ -139304,6 +139330,14 @@
   [
    "9e31be791250af58",
    "apod 2026 november 26 eye in the sky the milky way over len is"
+  ],
+  [
+   "fac8613e8ee412ae",
+   "progress cargo craft docks to station on thanksgiving day"
+  ],
+  [
+   "fd4604506e1fb128",
+   "progress cargo craft approaching station with space delivery"
   ]
  ],
  "combo_seen": {
