@@ -133545,33 +133545,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-25T19:16:00.136755+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 2,
-    "next_window": "2026-11-26T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-25T19:20:06.628003+00:00"
-  },
-  {
    "started_utc": "2026-11-25T19:26:38.971858+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
    "analysis": {
@@ -134941,6 +134914,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-26T09:54:58.795399+00:00"
+  },
+  {
+   "started_utc": "2026-11-26T10:00:07.552147+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 1,
+    "next_window": "2026-11-26T18:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/"
+    ],
+    "en": [
+     "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-26T10:00:54.263160+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -135897,9 +135905,22 @@
   "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/": {
    "fa": "2026-11-26T04:52:04.660977+00:00",
    "en": "2026-11-26T04:52:04.660977+00:00"
+  },
+  "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/": {
+   "fa": "2026-11-26T10:00:11.624720+00:00",
+   "en": "2026-11-26T10:00:11.624720+00:00"
   }
  },
  "news_archive": {
+  "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/": {
+   "title": "APOD: 2026، 26 نوامبر - چشم در آسمان: راه شیری بر فراز لنچویس",
+   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. چشم در",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-26T05:05:00+00:00",
+   "ts": "2026-11-26T10:00:11.624720+00:00"
+  },
   "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/": {
    "title": "تلسکوپ هابل، اقیانوسی از ستاره‌ها را به عنوان پیش‌زمینه‌ای برای رومانی رصد می‌کند",
    "summary": "تصاویر جدید تلسکوپ هابل از منطقه‌ای پرتعداد در کهکشان راه شیری تهیه شده است. این رصد بخشی از یک پژوهش وسیع است تا به دانشمندان در تفسیر داده‌های آیندهٔ تلسکوپ فضایی «نانسی گریس رومن» کمک کند. هدف نهایی، مطالعهٔ دقیق‌تر ستاره‌ها و جست‌وجوی سیاره‌های فراخورشیدی در این ناحیهٔ پرجمعیت کهکشانی است.",
@@ -137240,15 +137261,6 @@
    "source_fa": "ناسا",
    "date": "2026-11-02T05:05:00+00:00",
    "ts": "2026-11-02T06:55:49.853198+00:00"
-  },
-  "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/": {
-   "title": "رنگ‌های ماه، ۱ نوامبر ۲۰۲۶ (تصویر نجومی روز ناسا):",
-   "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت‌انگیز ما، همراه با توضیحی مختصر که توسط یک ستاره‌شناس حرفه‌ای نوشته شده است، نمایش داده می‌شود. رنگ‌های",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-11-01T04:05:00+00:00",
-   "ts": "2026-11-01T06:45:08.192746+00:00"
   }
  },
  "news_title_fp": {
@@ -138146,6 +138158,10 @@
    "en": "2026-11-25"
   },
   "5d107e6144b13aae": {
+   "fa": "2026-11-26",
+   "en": "2026-11-26"
+  },
+  "9e31be791250af58": {
    "fa": "2026-11-26",
    "en": "2026-11-26"
   }
@@ -139050,6 +139066,10 @@
   [
    "5d107e6144b13aae",
    "nasa s hubble views ocean of stars in groundwork for roman"
+  ],
+  [
+   "9e31be791250af58",
+   "apod 2026 november 26 eye in the sky the milky way over len is"
   ]
  ],
  "combo_seen": {
