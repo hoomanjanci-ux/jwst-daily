@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-26T05:56:19.494Z",
+ "generated_utc": "2026-11-26T06:11:06.987Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2898,6 +2898,18 @@
  ],
  "news": [
   {
+   "slug": "science-1p947d1",
+   "title": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 November 26 – Eye… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Eye in […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Milky_Way_Lencois.jpg?w=2048&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-26T05:05:00.000Z"
+  },
+  {
    "slug": "nasa-hjdwew",
    "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
    "title_fa": "ناسا برنامه تأمین‌کنندگان را ارتقا داد و تفاهم‌نامه راهنمایی–آموزش اعلام کرد",
@@ -3004,30 +3016,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-24T21:14:36.000Z"
-  },
-  {
-   "slug": "nasa-oss2ww",
-   "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
-   "title_fa": "معماری مأموریت SR-1 آزادی ناسا نهایی شد",
-   "summary": "NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first time. Experts from across the agency, the U.S. Department of Energy (DOE), and industry met at NASA’s Glenn Research […]",
-   "summary_fa": "ناسا بازنگری بزرگ مأموریت «واکنشگر فضایی یکم» (SR-1) آزادی را به پایان رساند و عناصر کلیدی فضاپیما را نهایی کرد. این فضاپیما برای پرتاب در سال ۲۰۲۸ هدف‌گذاری شده و نخستین بار نیروی پیشران الکتریکی هسته‌ای را در فضای عمیق نمایش می‌دهد. کارشناسان ناسا، وزارت انرژی آمریکا و صنعت در مرکز تحقیقات گلن ناسا گردهم آمدند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/06/sr-1-freedom-11-6-2026.png?w=2048",
-   "link": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-24T21:04:32.000Z"
-  },
-  {
-   "slug": "science-sdflyn",
-   "title": "Amateur Astronomer? Be a Kilonova Catcher!",
-   "title_fa": "رصدگران آماتور، شکارچیان کیلونوا شوند",
-   "summary": "Neutron stars are the ultra-dense, city-sized leftovers of dead stars. When they collide, they can release a brief flash of light called a kilonova. These immensely powerful events forge much of the universe’s gold, platinum and other heavy elements. Since a kilonova fades within days, astronomers have to find it fast, and no single observatory […]",
-   "summary_fa": "ستاره‌های نوترونی بقایای فشرده و شهری‌اندازه ستاره‌های مرده‌اند که هنگام برخورد، نور کوتاهی به نام کیلونوا تولید می‌کنند. این رویدادهای پرقدرت بخش عمده‌ای از طلا، پلاتین و عناصر سنگین دیگر جهان را می‌سازند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/NGC_4993.jpg?w=700&h=748&fit=clip",
-   "link": "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-24T19:19:52.000Z"
   },
   {
    "slug": "nasa-cnila0",
