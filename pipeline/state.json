@@ -133547,41 +133547,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-25T12:29:49.478292+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 2,
-    "next_window": "2026-11-25T18:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/"
-    ],
-    "en": [
-     "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/"
-    ],
-    "mode": "fresh (1 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-25T12:30:42.079179+00:00"
-  },
-  {
    "started_utc": "2026-11-25T12:40:57.438238+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -134937,6 +134902,37 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-26T02:30:12.334236+00:00"
+  },
+  {
+   "started_utc": "2026-11-26T02:50:58.571467+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-26/06",
+    "published": [
+     "jw06882002001_06101_00002_nrca1_i2d.fits"
+    ],
+    "sender": "cloudflare",
+    "prepared": 0,
+    "enqueued": 0,
+    "slot_status": "sent",
+    "ready_pairs": 1,
+    "next_window": "2026-11-26T09:00:00+03:30"
+   },
+   "published": [
+    "jw06882002001_06101_00002_nrca1_i2d.fits"
+   ],
+   "news": {
+    "note": "not invoked by analysis-only worker"
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-26T02:55:09.180642+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
