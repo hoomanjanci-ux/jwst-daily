@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-27T14:27:46.859Z",
+ "generated_utc": "2026-11-27T14:50:29.172Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2983,6 +2983,18 @@
  ],
  "news": [
   {
+   "slug": "science-dssot7",
+   "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+   "title_fa": null,
+   "summary": "NASA experiments, including a first-of-its-kind space crop production system, will travel to the International Space Station aboard Northrop Grumman’s 25th Commercial Resupply Services mission for the agency. Investigations from NASA’s Biological and Physical Sciences Division will advance research that benefits life on Earth and future exploration, expanding knowledge of space crops and human health. Groundbreaking ",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/jsc2026e415098/jsc2026e415098~large.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-27T14:22:00.000Z"
+  },
+  {
    "slug": "science-qwc8au",
    "title": "APOD: 2026 November 27 – The Moon Watchers",
    "title_fa": "تصویر روز نجوم: تماشاکرانان ماه",
@@ -3113,18 +3125,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-25T14:56:54.000Z"
-  },
-  {
-   "slug": "science-1hto48x",
-   "title": "APOD: 2026 November 25 – SPHEREx Seeing Through Dust",
-   "title_fa": "اسپیرکس: نگاهی از پس غبار کیهانی",
-   "summary": "APOD Science APOD APOD: 2026 November 25 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. To view this […]",
-   "summary_fa": "تصویر روز نجوم (APOD) چهلمین مأموریت فضایی آمریکا، اسپیرکس را معرفی می‌کند که با ابزار طیف‌سنج خود از میان غبارات میان‌ستاره‌ای عبور کرده و ساختار عمیق‌تر کهکشان را آشکار می‌سازد.",
-   "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/spherex_1.2micron.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-25T05:05:00.000Z"
   },
   {
    "slug": "nasa-cnila0",
