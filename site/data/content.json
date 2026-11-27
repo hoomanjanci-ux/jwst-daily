@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-27T05:31:11.949Z",
+ "generated_utc": "2026-11-27T05:52:58.509Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2983,6 +2983,18 @@
  ],
  "news": [
   {
+   "slug": "science-qwc8au",
+   "title": "APOD: 2026 November 27 – The Moon Watchers",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Moon Watchers […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Plenilunio1_2048r.jpg?w=2022&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-27T05:05:00.000Z"
+  },
+  {
    "slug": "nasa-2v1xdq",
    "title": "Progress Cargo Craft Docks to Station on Thanksgiving Day",
    "title_fa": "پروگریس ۹۷ روز تشکر به ایستگاه فضایی پیوست",
@@ -3113,18 +3125,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-25T05:05:00.000Z"
-  },
-  {
-   "slug": "nasa-2ecx65",
-   "title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
-   "title_fa": "محتوای NASA+ وارد سینما شد",
-   "summary": "NASA announced Monday that NASA+ content has found its first theatrical home at The Greenbelt Cinema in Greenbelt, Maryland, expanding the agency’s reach across major viewing platforms and bringing space even closer to home. “The National Aeronautics and Space Act of 1958 calls us to share our story of space exploration with the broadest possible […]",
-   "summary_fa": "ناسا اعلام کرد که محتوای برنامهٔ NASA+ نخستین نمایش عمومی خود را در سینمای گرینبلتِ مریلند خواهد داشت. این گام، گسترش حضور ناسا بر بسترهای تماشایی بزرگ و نزدیک‌تر کردن فضا به تماشاگران است.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/nasa-promo-image-horizontal-1.jpg?w=2048",
-   "link": "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-24T21:14:36.000Z"
   },
   {
    "slug": "nasa-cnila0",
