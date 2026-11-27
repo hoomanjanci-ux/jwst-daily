@@ -133769,33 +133769,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-26T22:40:56.446892+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 3,
-    "next_window": "2026-11-27T06:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-26T22:42:40.510740+00:00"
-  },
-  {
    "started_utc": "2026-11-26T23:00:54.546927+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -135142,6 +135115,43 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-27T15:07:41.266594+00:00"
+  },
+  {
+   "started_utc": "2026-11-27T15:19:29.552216+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": "2026-11-27/18",
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "waiting",
+    "ready_pairs": 0,
+    "next_window": "2026-11-28T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+     "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+    ],
+    "en": [
+     "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+     "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+    ],
+    "mode": "fresh (2 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-27T15:20:33.122141+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -136114,9 +136124,35 @@
   "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/": {
    "fa": "2026-11-27T07:54:26.552685+00:00",
    "en": "2026-11-27T07:54:26.552685+00:00"
+  },
+  "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/": {
+   "fa": "2026-11-27T15:19:33.123799+00:00",
+   "en": "2026-11-27T15:19:33.123799+00:00"
+  },
+  "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/": {
+   "fa": "2026-11-27T15:19:33.123799+00:00",
+   "en": "2026-11-27T15:19:33.123799+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/": {
+   "title": "فضانورد آرتمیس III در داخل موتور آزمایشی RS-25 ایستاد",
+   "summary": "آندرئو داگلاس، فضانورد مأموریت آرتمیس III ناسا، دوشنبه ۱۷ نوامبر ۲۰۲۶ در ساختمان مونتاژ فضاپیما در مرکز فضایی کندی، فلوریدا، داخل مودل آزمایشی موتور RS-25 ایستاد. در مأموریت آرتمیس III، چهار موتور RS-25 مرحلهٔ هستهٔ موشک SLS را به حرکت می‌رسانند تا فضاپیما اورین را به فضا پرتاب کنند.",
+   "link": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-27T15:01:00+00:00",
+   "ts": "2026-11-27T15:19:33.123799+00:00"
+  },
+  "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/": {
+   "title": "ماموریت NG-25 ناسا برای پرتاب تحقیقات پیشگام در زمینه محصولات فضایی",
+   "summary": "آزمایش‌های ناسا، از جمله اولین سیستم تولید محصولات فضایی در نوع خود، به ایستگاه فضایی بین‌المللی در بیست و پنجمین مأموریت خدمات بازرگانی نورث روپ گرومن برای آژانس سفر خواهند کرد. تحقیقات بخش علوم زیستی و فیزیکی ناسا باعث پیشرفت تحقیقاتی می شود که برای زندگی روی زمین و اکتشافات آینده مفید است و دانش در مورد محصولات فضایی و سلامت انسان را گسترش می دهد. پیشگامانه",
+   "link": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date": "2026-11-27T14:22:00+00:00",
+   "ts": "2026-11-27T15:19:33.123799+00:00"
+  },
   "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/": {
    "title": "APOD: 2026 27 نوامبر - تماشاگران ماه",
    "summary": "کیهان را کشف کنید! هر روز یک تصویر یا عکس متفاوت از جهان شگفت انگیز ما همراه با توضیح مختصری که توسط یک ستاره شناس حرفه ای نوشته شده است، نمایش داده می شود. ناظران ماه",
@@ -137448,24 +137484,6 @@
    "source_fa": "ناسا",
    "date": "2026-11-02T21:35:59+00:00",
    "ts": "2026-11-02T21:53:56.335042+00:00"
-  },
-  "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/": {
-   "title": "خدمه CHAPEA ناسا \"بازگشت\" به زمین",
-   "summary": "خدمه چهار نفره آنالوگ کاوش سلامت و عملکرد خدمه (CHAPEA) برای اولین بار در بیش از یک سال پس از پایان سفر شبیه‌سازی شده خود به مریخ در 31 اکتبر 2026 در خارج از خانه ژست می‌گیرند. اعضای خدمه متیو مونتگومری (سمت چپ)، جیمز اسپایسر (وسط سمت چپ)، راس الدر (راست وسط) و الن النس (بیش از یک سال)",
-   "link": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-11-02T18:50:42+00:00",
-   "ts": "2026-11-02T21:53:56.335042+00:00"
-  },
-  "https://science.nasa.gov/blogs/tsis-2/2026/11/02/nasas-mission-to-study-sunlight-completes-vacuum-vibration-testing/": {
-   "title": "ماموریت ناسا برای مطالعه نور خورشید آزمایش خلاء و ارتعاش را تکمیل می کند",
-   "summary": "نورهای سفید روشن از سخت افزار فلزی ماهواره ای که برای بازرسی آماده شده است منعکس می شود. مهندسان با لباس های خرگوش از اتاق تمیز عبور می کنند، از ماشین آلات و اتاق های آزمایش عبور می کنند. در وسط اتاق تمیز، فضاپیمای مأموریت اندازه‌گیری نور خورشید آتی ناسا، TSIS-2 (سنسور تابش خورشیدی کل و طیفی-2) قرار دارد. پاییز امسال، ماهواره گرفت",
-   "link": "https://science.nasa.gov/blogs/tsis-2/2026/11/02/nasas-mission-to-study-sunlight-completes-vacuum-vibration-testing/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date": "2026-11-02T16:00:00+00:00",
-   "ts": "2026-11-02T18:33:16.423976+00:00"
   }
  },
  "news_title_fp": {
@@ -138379,6 +138397,14 @@
    "en": "2026-11-26"
   },
   "556b4c932f956efd": {
+   "fa": "2026-11-27",
+   "en": "2026-11-27"
+  },
+  "108dfaffca783b79": {
+   "fa": "2026-11-27",
+   "en": "2026-11-27"
+  },
+  "22fc1b8e2587bfab": {
    "fa": "2026-11-27",
    "en": "2026-11-27"
   }
@@ -139299,6 +139325,14 @@
   [
    "556b4c932f956efd",
    "apod 2026 november 27 the moon watchers"
+  ],
+  [
+   "108dfaffca783b79",
+   "artemis iii astronaut andre douglas visits vab"
+  ],
+  [
+   "22fc1b8e2587bfab",
+   "nasa s ng 25 mission to launch pioneering space crops research"
   ]
  ],
  "combo_seen": {
