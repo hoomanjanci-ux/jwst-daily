@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-27T09:10:58.670Z",
+ "generated_utc": "2026-11-27T09:33:21.293Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2995,30 +2995,6 @@
    "date_utc": "2026-11-27T05:05:00.000Z"
   },
   {
-   "slug": "nasa-2v1xdq",
-   "title": "Progress Cargo Craft Docks to Station on Thanksgiving Day",
-   "title_fa": "پروگریس ۹۷ روز تشکر به ایستگاه فضایی پیوست",
-   "summary": "The Roscosmos Progress 97 spacecraft docked to the Earth-facing port of the International Space Station’s Rassvet module at 7:08 a.m. EST Thursday.",
-   "summary_fa": "فضاپیمای محموله‌بر پروگریس ۹۷ متعلق به روسکاسموس، روز پنجشنبه به ایستگاه فضایی بین‌المللی پیوست. این پیوستن در ساعت ۷:۰۸ صبح به وقت شرقی آمریکا، در پورت رو به زمین ماژول رایسوت انجام شد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-progress97-dock-112626.png?w=1906",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-docks-to-station-on-thanksgiving-day/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-26T12:19:44.000Z"
-  },
-  {
-   "slug": "nasa-sa4fne",
-   "title": "Progress Cargo Craft Approaching Station With Space Delivery",
-   "title_fa": "پگرس ۹۷ در حال نزدیک شدن به ایستگاه فضایی",
-   "summary": "NASA is streaming live rendezvous and docking coverage as the Roscosmos Progress 97 cargo spacecraft makes its way to the International Space Station. Watch online at: https://www.nasa.gov/live The unpiloted spacecraft remains on track to dock autonomously to the Rassvet module’s Earth-facing port at approximately 7:11 a.m. EST. It launched at 5:17 a.m. EST (3:17 p.m. […]",
-   "summary_fa": "ناسا زنده از حضور فضاپیمای بارگیر پگرس ۹۷ شرکت روسکاس در مسیر ایستگاه فضایی بین‌المللی پخش می‌کند. این فضاپیمای بی‌سرنشین طبق برنامه، حدود ۷:۱۱ صبح به وقت شرقی، خودکار به پورت رو به زمین ماژول راسوِت متصل خواهد شد. پگرس ۹۷ ساعت ۵:۱۷ صبح به وقت شرقی از سطح زمین پرتاب شده است.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/03/progress-94-approaches-station.jpg?w=1402",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-approaching-station-with-space-delivery/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-26T11:32:37.000Z"
-  },
-  {
    "slug": "science-1p947d1",
    "title": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
    "title_fa": "چشم آسمان: راه شیری بر فراز لِنسُوئیس",
@@ -3079,30 +3055,6 @@
    "date_utc": "2026-11-25T16:21:04.000Z"
   },
   {
-   "slug": "nasa-1fopbfw",
-   "title": "Crew Works Biomedical Research Day Before Thanksgiving Space Delivery",
-   "title_fa": "فضانوردان پیش از محموله تشکرگان، پژوهش زیست‌پزشکی انجام دادند",
-   "summary": "Advanced biomedical research with ultrasound scans and blood pressure checks topped the research schedule aboard the International Space Station on Wednesday. Expedition 75 is also preparing for a cargo mission arriving on Thanksgiving Day and another scheduled for delivery early next week.",
-   "summary_fa": "تحقیقات پیشرفته زیست‌پزشکی از جمله اسکن اولتراسونوگرافی و اندازه‌گیری فشار خون، روز چهارشنبه مهم‌ترین بخش برنامه تحقیقاتی ایستگاه فضایی بین‌المللی را به خود اختصاص داد. فرماندهی سفر هفتاد و پنجم نیز برای دریافت مأموریت باردری در روز تشکرگان و تحویل دیگری اوایل هفته آینده آماده می‌شود.",
-   "image": "https://images-assets.nasa.gov/image/iss074e0395778/iss074e0395778~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/25/crew-works-biomedical-research-day-before-thanksgiving-space-delivery/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-25T16:17:32.000Z"
-  },
-  {
-   "slug": "science-vexozn",
-   "title": "NASA’s Europa Clipper Zooming by Earth on Way to Jupiter’s Icy Moon",
-   "title_fa": "پیمایشگر اروپای ناسا از کنار زمین می‌گذرد",
-   "summary": "Lee esta historia en español aquí. NASA’s Europa Clipper will soon swing past Earth before making a yearslong beeline for Jupiter, where the orbiter will probe whether the ocean beneath its moon Europa’s icy shell has the ingredients for life. The flyby will offer a propellant-saving boost and an opportunity to prepare for the science-gathering […]",
-   "summary_fa": "مأموریت اروپا کلیپر ناسا پیش از حرکت به سوی مشتری، مسیری کوتاه را از کنار زمین طی خواهد کرد. این عبور برای بهره‌برداری گرانشی و صرفه‌جویی در سوخت فضاپیما انجام می‌شود و فرصتی برای آماده‌سازی仪器های علمی پیش از رسیدن به قمر یخی مشتری فراهم می‌کند.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/europa-clipper/images/1-Clipper_EGA_still.jpg?w=2048&h=1636&fit=clip",
-   "link": "https://science.nasa.gov/blogs/europa-clipper/2026/11/25/nasas-europa-clipper-zooming-by-earth-on-way-to-jupiters-icy-moon/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-25T16:00:28.000Z"
-  },
-  {
    "slug": "science-stniwe",
    "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
    "title_fa": "رصد اقیانوس ستارگان توسط تلسکوپ هابل در پیشزمینة مأموریت رومان",
@@ -3125,78 +3077,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-25T05:05:00.000Z"
-  },
-  {
-   "slug": "nasa-cnila0",
-   "title": "Crew Awaits Thanksgiving Day Delivery as Another Cargo Craft Nears Launch",
-   "title_fa": "رسانهٔبار برسی روسیه به ایستگاه فضایی نزدیک شد",
-   "summary": "A Progress 97 cargo spacecraft from Roscosmos is orbiting Earth and on its way to resupply the Expedition 75 crew aboard the International Space Station after launching at 5:17 a.m. EST today from Kazakhstan. Filled with about three tons of food, fuel, and supplies, the Progress 97 is scheduled to automatically dock to the orbital outpost’s Rassvet module at 7:11 a.m. on Thanksgiving Day.",
-   "summary_fa": "مأموریت پیشگام۹۷ از آژانس فضایی روسیه، حامل حدود سه تن غذا، سوخت و ملزومات، پس از پرتاب امروز از قزاقستان به مدار زمین رسیده است. این شناور باربری قرار است صبح روز چهارشنبه، مصادف با ده روز تشکر، به طور خودکار به ماژول راسوِیت در ایستگاه فضایی بین‌المللی متصل شود.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0120834/iss075e0120834~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/24/crew-awaits-thanksgiving-day-delivery-as-another-cargo-craft-nears-launch/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-24T15:05:29.000Z"
-  },
-  {
-   "slug": "nasa-ck2db6",
-   "title": "Progress Cargo Craft Lifts Off to Resupply Expedition 75 Crew",
-   "title_fa": "پرواز محموله‌بر پروگرس به ایستگاه فضایی بین‌المللی",
-   "summary": "The unpiloted Roscosmos Progress 97 spacecraft is safely in orbit and on its way to the International Space Station after launching at 5:17 a.m. EST (3:17 p.m. Baikonur time) on a Soyuz rocket from the Baikonur Cosmodrome in Kazakhstan.",
-   "summary_fa": "موشک سوآز با پیشران Progress 97 ناوپilot رزکوزموس را با موفقیت در مدار زمین قرار داد. این محموله‌بر در راه ایستگاه فضایی بین‌المللی است تا خدمه مأموریت Expedition 75 را پشتیبانی کند.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/09/blog-96p-dock-091926.jpg?w=1200",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-lifts-off-to-resupply-expedition-75-crew/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-24T10:34:45.000Z"
-  },
-  {
-   "slug": "nasa-eah6p7",
-   "title": "Progress Cargo Craft Counts Down to Launch from Kazakhstan",
-   "title_fa": "تحریره باربری پیشگام برای پرتاب آماده می‌شود",
-   "summary": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station.",
-   "summary_fa": "ناسا پوشش زنده پرتاب و لنگراندازی یک شناور باریروسکاسموس را ارائه خواهد داد. این سفینه حاوی حدود سه تن غذا، سوخت و ملزومات است که برای خدمه ایستگاه فضایی بین‌المللی ارسال می‌شود. این مأموریت از پایگاه فضایی بایکونور در قزاقستان پرتاب خواهد شد.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/09/blog-p96-launch-091626.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/24/progress-cargo-craft-counts-down-to-launch-from-kazakhstan/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-24T09:41:47.000Z"
-  },
-  {
-   "slug": "nasa-1qr8jau",
-   "title": "NASA Officially Takes Ownership of X-59 Supersonic Aircraft",
-   "title_fa": "ناسا مالکیت هواپیمای سوپرسونیک ایکس-۵۹ را رسمی کرد",
-   "summary": "NASA’s X-59 reached a new milestone Nov. 18, when the agency officially took ownership of the quiet supersonic research aircraft from contractor Lockheed Martin Skunk Works. NASA selected Lockheed Martin to collaborate on the design of the X-59 and lead on vehicle building and testing for the agency’s Quesst mission. The aircraft is designed to […]",
-   "summary_fa": "ناسا روز ۱۸ نوامبر مالکیت هواپیمای پژوهشی بی‌صدای سوپرسونیک ایکس-۵۹ را از شرکت لاکهید مارتین اسکات وورکس رسماً بر عهده گرفت. ناسا لاکهید مارتین را برای همکاری در طراحی و رهبری ساخت و آزمایش این هواپیما برای مأموریت کوئست انتخاب کرده بود. این هواپیما برای [...]",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/afrc2026-0209-2-web2.jpg?w=2048",
-   "link": "https://www.nasa.gov/blogs/quesst/2026/11/23/nasa-officially-takes-ownership-of-x-59-supersonic-aircraft/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T21:05:34.000Z"
-  },
-  {
-   "slug": "nasa-19wem7t",
-   "title": "Advanced Biomedical Research Tops Crew Schedule Aboard Station",
-   "title_fa": "پژوهش‌های زیستی پیشرو در اولویت کاروانده ایستگاه فضایی",
-   "summary": "Sequencing microbe DNA, producing stem cells, and testing blood samples in microgravity were the main research priorities aboard the International Space Station on Monday. The Expedition 75 crew members also explored exercising in weightlessness, studied virtual reality, and photographed Earth landmarks at the beginning of the week.",
-   "summary_fa": "فعالیت‌های تحقیقاتی بیولوژیکی و پزشکی از جمله توالی‌یابی DNA میکروب‌ها، تولید سلول‌های بنیادی و آزمایش نمونه‌های خون در شرایط بی‌وزنی، روز دوشنبه در ایستگاه فضایی بین‌المللی در اولویت قرار داشت. خدمه مأموریت اکسپدیشن ۷۵ همچنین به تمرین ورزش در بی‌وزنی، مطالعه واقعیت مجازی و عکاسی از آثار تاریخی زمین پرداختند.",
-   "image": "https://images-assets.nasa.gov/image/iss075e0254172/iss075e0254172~large.jpg?w=1920&h=1440&fit=clip&crop=faces%2Cfocalpoint",
-   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/23/advanced-biomedical-research-tops-crew-schedule-aboard-station/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T18:18:17.000Z"
-  },
-  {
-   "slug": "science-1a8knrw",
-   "title": "NASA’s ESCAPADE Captures Parting Images of Earth on Its Way to Mars",
-   "title_fa": "سفینه ESCAPADE ناسا پیش از رسیدن به مریخ، تصاویری وداعی از زمین ثبت کرد",
-   "summary": "After completing a successful powered flyby of Earth, one of NASA’s twin ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft snapped farewell images of its home planet before heading off to Mars. The ESCAPADE spacecraft used its Visible and Infrared Observation System camera, provided by Northern Arizona University, to capture the images of Earth […]",
-   "summary_fa": "پس از انجام پرواز سیار نیرومند موفقیت‌آمیز در نزدیکی زمین، یکی از دو سفینه جفت ESCAPADE ناسا پیش از حرکت به سمت مریخ، تصاویر وداعی از سیاره خانگی خود ثبت کرد. این سفینه با استفاده از دوربین «سیستم رؤیت‌سازی مرئی و فروسرخ»ِ ارائه‌شده توسط دانشگاه شمال آریزونا، این تصاویر را ضبط نمود.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/ESCAPADE-Earth-vis-color.jpg?w=2000&h=1998&fit=clip",
-   "link": "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T16:53:07.000Z"
   },
   {
    "slug": "esawebb-zfoa2n",
