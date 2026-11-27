@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-27T14:50:29.172Z",
+ "generated_utc": "2026-11-27T15:07:46.197Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2983,6 +2983,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-awd11g",
+   "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+   "title_fa": null,
+   "summary": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov. 17, 2026. During Artemis III, four RS-25 engines will power the SLS (Space Launch System) rocket core stage to send the Orion […]",
+   "summary_fa": null,
+   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20261117-ph-kls02-0020orig.jpg?w=2048",
+   "link": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-27T15:01:00.000Z"
+  },
+  {
    "slug": "science-dssot7",
    "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
    "title_fa": null,
@@ -3113,18 +3125,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-25T16:00:28.000Z"
-  },
-  {
-   "slug": "science-stniwe",
-   "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
-   "title_fa": "رصد اقیانوس ستارگان توسط تلسکوپ هابل در پیشزمینة مأموریت رومان",
-   "summary": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
-   "summary_fa": "مشاهدات تلسکوپ فضایی هابل بخشی از یک پیمایش است که به پژوهشگران کمک می‌کند تا مشاهدات پیش‌روى تلسکوپ فضایی نانسی گریس رومان را بهتر تفسیر کنند. هدف این پژوهش، ویژگی‌یابی ستارگان و جست‌وجو براى سیاره‌های فراخورشیدى در این ناحیه‌ى شلوغ کهکشان ما است.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/milky-way/Hubble_GalacticBulge_HD70_1_FINAL.jpg?w=1536&h=1536&fit=clip",
-   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-25T14:56:54.000Z"
   },
   {
    "slug": "nasa-cnila0",
