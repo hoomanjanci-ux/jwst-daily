@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-27T18:01:53.867Z",
+ "generated_utc": "2026-11-27T18:40:08.221Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -2983,6 +2983,18 @@
  ],
  "news": [
   {
+   "slug": "nasa-s8u9vd",
+   "title": "NASA, Partners’ Preps on Track for Sunday Space Station Cargo Launch",
+   "title_fa": null,
+   "summary": "NASA, Northrop Grumman, and SpaceX continue to work toward the launch of Northrop Grumman’s next commercial resupply services mission to the International Space Station for the agency. The International Space Station Mission Management Team polled go Friday to continue launch preparations after reviewing the weather forecast and forward work. Carrying approximately 11,000 pounds of cargo, […]",
+   "summary_fa": null,
+   "image": "https://images-assets.nasa.gov/image/iss074e0459132/iss074e0459132~large.jpg?w=1920&h=1078&fit=clip&crop=faces%2Cfocalpoint",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date_utc": "2026-11-27T18:04:14.000Z"
+  },
+  {
    "slug": "nasa-awd11g",
    "title": "Artemis III Astronaut Andre Douglas Visits VAB",
    "title_fa": "اندوه داگلاس، فضانورد آرتمیس ۳، در ساختمان مونتاژ",
@@ -3185,18 +3197,6 @@
    "source": "NASA Blogs",
    "source_fa": "وبلاگ‌های ناسا",
    "date_utc": "2026-11-23T18:18:17.000Z"
-  },
-  {
-   "slug": "science-1a8knrw",
-   "title": "NASA’s ESCAPADE Captures Parting Images of Earth on Its Way to Mars",
-   "title_fa": "سفینه ESCAPADE ناسا پیش از رسیدن به مریخ، تصاویری وداعی از زمین ثبت کرد",
-   "summary": "After completing a successful powered flyby of Earth, one of NASA’s twin ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft snapped farewell images of its home planet before heading off to Mars. The ESCAPADE spacecraft used its Visible and Infrared Observation System camera, provided by Northern Arizona University, to capture the images of Earth […]",
-   "summary_fa": "پس از انجام پرواز سیار نیرومند موفقیت‌آمیز در نزدیکی زمین، یکی از دو سفینه جفت ESCAPADE ناسا پیش از حرکت به سمت مریخ، تصاویر وداعی از سیاره خانگی خود ثبت کرد. این سفینه با استفاده از دوربین «سیستم رؤیت‌سازی مرئی و فروسرخ»ِ ارائه‌شده توسط دانشگاه شمال آریزونا، این تصاویر را ضبط نمود.",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/ESCAPADE-Earth-vis-color.jpg?w=2000&h=1998&fit=clip",
-   "link": "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars/",
-   "source": "NASA Blogs",
-   "source_fa": "وبلاگ‌های ناسا",
-   "date_utc": "2026-11-23T16:53:07.000Z"
   },
   {
    "slug": "esawebb-zfoa2n",
