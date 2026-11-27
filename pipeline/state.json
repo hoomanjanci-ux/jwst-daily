@@ -133769,33 +133769,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-27T03:50:54.252984+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "prepared": 0,
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 2,
-    "next_window": "2026-11-27T09:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "note": "not invoked by analysis-only worker"
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-27T03:52:27.362659+00:00"
-  },
-  {
    "started_utc": "2026-11-27T04:10:52.938732+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -135149,6 +135122,41 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-27T19:07:31.454775+00:00"
+  },
+  {
+   "started_utc": "2026-11-27T19:12:53.854828+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-28T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "feeds_checked": 3,
+    "feed_errors": {},
+    "fa": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/"
+    ],
+    "en": [
+     "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/"
+    ],
+    "mode": "fresh (1 unseen)",
+    "errors": {}
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-27T19:13:08.561020+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
@@ -136129,9 +136137,22 @@
   "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/": {
    "fa": "2026-11-27T15:19:33.123799+00:00",
    "en": "2026-11-27T15:19:33.123799+00:00"
+  },
+  "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/": {
+   "fa": "2026-11-27T19:12:57.452319+00:00",
+   "en": "2026-11-27T19:12:57.452319+00:00"
   }
  },
  "news_archive": {
+  "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/": {
+   "title": "ناسا، آماده‌سازی شرکا برای پرتاب باری ایستگاه فضایی یکشنبه",
+   "summary": "ناسا، نورث روپ گرومن و اسپیس ایکس به کار خود برای راه اندازی ماموریت خدمات تامین تجاری بعدی نورتروپ گرومن به ایستگاه فضایی بین المللی برای آژانس ادامه می دهند. تیم مدیریت ماموریت ایستگاه فضایی بین‌المللی روز جمعه برای ادامه آماده‌سازی پرتاب پس از بررسی پیش‌بینی آب‌وهوا و کار رو به جلو، رفت. حمل تقریباً 11000 پوند محموله،",
+   "link": "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/",
+   "source": "NASA Blogs",
+   "source_fa": "وبلاگ‌های ناسا",
+   "date": "2026-11-27T18:04:14+00:00",
+   "ts": "2026-11-27T19:12:57.452319+00:00"
+  },
   "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/": {
    "title": "فضانورد آرتمیس III در داخل موتور آزمایشی RS-25 ایستاد",
    "summary": "آندرئو داگلاس، فضانورد مأموریت آرتمیس III ناسا، دوشنبه ۱۷ نوامبر ۲۰۲۶ در ساختمان مونتاژ فضاپیما در مرکز فضایی کندی، فلوریدا، داخل مودل آزمایشی موتور RS-25 ایستاد. در مأموریت آرتمیس III، چهار موتور RS-25 مرحلهٔ هستهٔ موشک SLS را به حرکت می‌رسانند تا فضاپیما اورین را به فضا پرتاب کنند.",
@@ -137472,15 +137493,6 @@
    "source_fa": "وبلاگ‌های ناسا",
    "date": "2026-11-02T19:11:28+00:00",
    "ts": "2026-11-03T00:05:08.593380+00:00"
-  },
-  "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/": {
-   "title": "65 سالگی مبارک: مرکز فضایی جانسون ناسا در آن زمان و اکنون",
-   "summary": "شصت و پنج سال پیش، یک چشم انداز جسورانه در هیوستون ریشه دوانید: یک مرکز ناسا که به پروازهای فضایی انسان اختصاص یافته بود. از زمان تأسیس، مرکز فضایی جانسون ناسا به رهبری برنامه پروازهای فضایی انسان در این کشور کمک کرده و از مأموریت‌های پروژه مرکوری از طریق آرتمیس پشتیبانی می‌کند. امروز، جانسون به عنوان مرکز تعالی ناسا برای پروازهای فضایی انسانی خدمت می کند و نیروی کار آن در حال کمک است.",
-   "link": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date": "2026-11-02T21:35:59+00:00",
-   "ts": "2026-11-02T21:53:56.335042+00:00"
   }
  },
  "news_title_fp": {
@@ -138402,6 +138414,10 @@
    "en": "2026-11-27"
   },
   "22fc1b8e2587bfab": {
+   "fa": "2026-11-27",
+   "en": "2026-11-27"
+  },
+  "9847371cec03c681": {
    "fa": "2026-11-27",
    "en": "2026-11-27"
   }
@@ -139330,6 +139346,10 @@
   [
    "22fc1b8e2587bfab",
    "nasa s ng 25 mission to launch pioneering space crops research"
+  ],
+  [
+   "9847371cec03c681",
+   "nasa partners preps on track for sunday space station cargo launch"
   ]
  ],
  "combo_seen": {
