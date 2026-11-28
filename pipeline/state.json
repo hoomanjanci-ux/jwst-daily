@@ -100963,7 +100963,81 @@
   },
   "jw12764004001_03105_00002_nrca4_i2d.fits": {
    "channels": {},
-   "status": "legacy_v01"
+   "status": "ready",
+   "score": 33.49,
+   "analyzed_utc": "2026-11-28T02:04:40.561157+00:00",
+   "analysis": "analyses/2026/11/28/jw12764004001_03105_00002_nrca4_i2d.fits.json",
+   "cand": {
+    "filename": "jw12764004001_03105_00002_nrca4_i2d.fits",
+    "size_mb": 113.206,
+    "uri": "mast:JWST/product/jw12764004001_03105_00002_nrca4_i2d.fits",
+    "proposal": "12764",
+    "obs_id": "jw12764004001_03105_00002_nrca4",
+    "url_mast": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12764004001_03105_00002_nrca4_i2d.fits",
+    "url_s3": "https://s3.us-east-1.amazonaws.com/stpubdata/mast/JWST/product/jw12764004001_03105_00002_nrca4_i2d.fits",
+    "url_preview": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw12764004001_03105_00002_nrca4_i2d.jpg"
+   },
+   "meta_TARGNAME": "",
+   "meta_FILTER": "F090W",
+   "meta_INSTRUME": "NIRCAM",
+   "combo": "|NIRCAM|F090W",
+   "sha256": "30d5db5690e632d038f8f862689b9bb5920b7c08fc5b04046981c602829aff5b",
+   "bytes": 118704960,
+   "published_utc": null,
+   "analysis_revision": 3,
+   "quality_log": {
+    "fa": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5147,
+      "brightness": 0.4814,
+      "range": 1.0,
+      "roi": 0.3349,
+      "score": 72.54
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 276,
+      "brightest_quadrant_percent": 73.551,
+      "width": 2058,
+      "height": 2058,
+      "sample_stride": 3,
+      "sample_count": 463084,
+      "finite_fraction": 0.984037,
+      "median": 0.2625390887260437,
+      "robust_scatter": 0.13262588514983653,
+      "above_5scatter_percent": 0.0596,
+      "p99_above_median_scatter": 2.528,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    },
+    "en": {
+     "heuristic": {
+      "sharp": 1.0,
+      "contrast": 0.5147,
+      "brightness": 0.4814,
+      "range": 1.0,
+      "roi": 0.3349,
+      "score": 72.54
+     },
+     "evidence": {
+      "bright_tail_pixel_count": 276,
+      "brightest_quadrant_percent": 73.551,
+      "width": 2058,
+      "height": 2058,
+      "sample_stride": 3,
+      "sample_count": 463084,
+      "finite_fraction": 0.984037,
+      "median": 0.2625390887260437,
+      "robust_scatter": 0.13262588514983653,
+      "above_5scatter_percent": 0.0596,
+      "p99_above_median_scatter": 2.528,
+      "bunit": "MJy/sr"
+     },
+     "method": "measured-data-analysis-v3"
+    }
+   },
+   "paired_ready_utc": "2026-11-28T02:04:55.499921+00:00"
   },
   "jw12764004001_03101_00002_nrcb2_i2d.fits": {
    "channels": {},
@@ -139601,7 +139675,7 @@
  "analysis_refill_attempt_utc": "2026-10-24T23:03:06.288680+00:00",
  "analysis_byte_budget": {
   "day": "2026-11-28",
-  "bytes": 721725120
+  "bytes": 840430080
  },
  "analysis_publish_attempt_utc": "2026-10-24T22:35:05.220797+00:00",
  "analysis_slots": {
@@ -144241,7 +144315,7 @@
    "sender": "cloudflare"
   }
  },
- "paired_prepare_attempt_utc": "2026-11-28T01:26:09.100402+00:00",
+ "paired_prepare_attempt_utc": "2026-11-28T02:01:00.793321+00:00",
  "evidence_revision": 3,
  "cloud_reserve_revision": 1
 }
