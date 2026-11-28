@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-28T05:30:12.877Z",
+ "generated_utc": "2026-11-28T05:55:28.289Z",
  "site": {
   "url": "https://nabzekeyhan.ir",
   "channels": [
@@ -23,6 +23,23 @@
  },
  "analyses": [
   {
+   "slug": "jw12764004001-03105-00002-nrca4-i2d",
+   "product": "jw12764004001_03105_00002_nrca4_i2d.fits",
+   "published_utc": "2026-11-28T05:30:37.132Z",
+   "target": null,
+   "instrument": "NIRCAM",
+   "detector": "NRCA4",
+   "filter": "F090W",
+   "obs_date": "2026-07-01",
+   "proposal": "12764",
+   "score": 33.49,
+   "quality_score": 72.54,
+   "image": "/img/jw12764004001-03105-00002-nrca4-i2d.jpg",
+   "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «JWST field»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 2058 × 2058 پیکسل دارد. در نمونهٔ منظم 463,084 پیکسل معتبر، حدود 0.0596 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F090W نزدیک طول موج 0.9 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 73.551 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F090W · تاریخ رصد: 2026-07-01\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/12764\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
+   "text_en": null,
+   "is_mock": false
+  },
+  {
    "slug": "jw06882001001-10101-00003-nrcalong-i2d",
    "product": "jw06882001001_10101_00003_nrcalong_i2d.fits",
    "published_utc": "2026-11-28T02:30:37.076Z",
@@ -38,23 +55,6 @@
    "text_fa": "🔬 <b>تحلیل محاسباتی داده — راز کیهان</b>\n\nاین بار به‌جای حدس‌زدن دربارهٔ ماهیت «RXCJ0018+1626»، خودِ دادهٔ جیمز وب را اندازه گرفتیم. صفحهٔ علمی این فایل 2075 × 2068 پیکسل دارد. در نمونهٔ منظم 464,619 پیکسل معتبر، حدود 4.3397 درصد پیکسل‌ها از میانهٔ تصویر به‌اندازهٔ پنج برابر پراکندگیِ مقاوم روشن‌ترند. این عدد نشان می‌دهد بخش‌های روشن چه سهمی از نمونه دارند؛ به‌تنهایی تعداد ستاره‌ها، کشف جرم یا میزان روشنایی فیزیکی را تعیین نمی‌کند. فیلتر F300M نزدیک طول موج 3 میکرومتر را نمونه‌برداری می‌کند؛ این طول موج در محدودهٔ فروسرخ نزدیک است. اگر آرایه را به چهار ربع تقسیم کنیم، پرجمعیت‌ترین ربع 32.609 درصد پیکسل‌های بالای آستانه را در خود دارد. این تمرکزِ مکانی در آرایه، به‌تنهایی ماهیت یک منبع یا علت فیزیکی آن را مشخص نمی‌کند.\n\nاین روشِ قابل‌تکرار، یک نقطهٔ شروع برای مقایسهٔ داده‌هاست؛ تشخیص ماهیت اجرام به کالیبراسیون و تحلیل علمی بیشتری نیاز دارد.\n\nابزار: NIRCAM · فیلتر: F300M · تاریخ رصد: 2026-07-03\n\n<i>این تحلیل از محاسبهٔ مستقیم فایل FITS ساخته شده است؛ متنِ تولیدشده با مدل هوش مصنوعی یا ادعای کشف تازه نیست.</i>\n\n📡 <b>منبع و روش</b>: <a href=\"https://archive.stsci.edu/proposal-id/6882\">MAST / STScI</a> · median + 5 × (1.4826 × MAD)\n\n———\n🔭 <b><a href=\"https://t.me/RazKeyhan\">راز کیهان</a></b> | رازهای هستی، یک به یک\n🛰 <a href=\"https://t.me/NabzeKeyhan1\">اخبار رسمی: نبض کیهان</a> ✨\n🌐 <a href=\"https://t.me/RazKeyhan\">t.me/RazKeyhan</a>",
    "text_en": null,
    "is_mock": false
-  },
-  {
-   "slug": "jw12764004001-03105-00002-nrca4-i2d",
-   "product": "jw12764004001_03105_00002_nrca4_i2d.fits",
-   "published_utc": "2026-11-28T02:04:40.397300+00:00",
-   "target": null,
-   "instrument": "NIRCAM",
-   "detector": "NRCA4",
-   "filter": "F090W",
-   "obs_date": "2026-07-01",
-   "proposal": "12764",
-   "score": 33.49,
-   "quality_score": 72.54,
-   "image": null,
-   "text_fa": null,
-   "text_en": null,
-   "is_mock": true
   },
   {
    "slug": "jw06882001001-10101-00001-nrcblong-i2d",
@@ -3102,6 +3102,18 @@
  ],
  "news": [
   {
+   "slug": "science-u3ppk9",
+   "title": "APOD: 2026 November 28 – Apollo 17 VIP Site Anaglyph",
+   "title_fa": null,
+   "summary": "APOD Science APOD APOD: 2026 November 28 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Apollo 17 VIP […]",
+   "summary_fa": null,
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/a17anaglyph_vanMeijgaarden_f.jpg?w=2014&h=2048&fit=clip",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-28-apollo-17-vip-site-anaglyph/",
+   "source": "NASA",
+   "source_fa": "ناسا",
+   "date_utc": "2026-11-28T05:05:00.000Z"
+  },
+  {
    "slug": "nasa-s8u9vd",
    "title": "NASA, Partners’ Preps on Track for Sunday Space Station Cargo Launch",
    "title_fa": "ناسا، آماده‌سازی شرکا برای پرتاب باری ایستگاه فضایی یکشنبه",
@@ -3220,18 +3232,6 @@
    "source": "NASA",
    "source_fa": "ناسا",
    "date_utc": "2026-11-25T16:47:29.000Z"
-  },
-  {
-   "slug": "nasa-13xxact",
-   "title": "Eye of the Sahara",
-   "title_fa": "ساختار ریچات؛ چشم صحرا از فضا",
-   "summary": "The Richat Structure, also known as the “Eye of the Sahara,” is seen from the International Space Station as it orbited above on Nov. 14, 2026. It is an eroded geological dome about 100 million years old created by igneous activity and uplift in the nation of Mauritania. In this type of geologic structure, rocks […]",
-   "summary_fa": "ساختار ریچات با نام «چشم صحرا» در مدار زمین دیده شد. این گنبدمانند ژئولوژیکی حدود ۱۰۰ میلیون سال قدمت دارد و بر اثر فعالیت آتشفشانی و بالاآمدگی پوسته در کشور موریتانی پدید آمده است.",
-   "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0274930orig.jpg?w=2048",
-   "link": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
-   "source": "NASA",
-   "source_fa": "ناسا",
-   "date_utc": "2026-11-25T16:21:04.000Z"
   },
   {
    "slug": "nasa-1fopbfw",
