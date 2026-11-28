@@ -133769,41 +133769,6 @@
  },
  "runs": [
   {
-   "started_utc": "2026-11-27T07:54:23.298695+00:00",
-   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=['fa_official', 'en_official']",
-   "analysis": {
-    "timezone": "Asia/Tehran",
-    "windows": [
-     "06–07",
-     "09–10",
-     "12–13",
-     "18–19"
-    ],
-    "active_slot": null,
-    "published": [],
-    "sender": "cloudflare",
-    "enqueued": 0,
-    "slot_status": "outside publication windows",
-    "ready_pairs": 1,
-    "next_window": "2026-11-27T12:00:00+03:30"
-   },
-   "published": [],
-   "news": {
-    "feeds_checked": 3,
-    "feed_errors": {},
-    "fa": [
-     "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/"
-    ],
-    "en": [
-     "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/"
-    ],
-    "mode": "fresh (1 unseen)",
-    "errors": {}
-   },
-   "cloudflare": "configured",
-   "finished_utc": "2026-11-27T07:55:09.478179+00:00"
-  },
-  {
    "started_utc": "2026-11-27T08:11:02.248236+00:00",
    "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
    "analysis": {
@@ -135157,6 +135122,33 @@
    },
    "cloudflare": "configured",
    "finished_utc": "2026-11-27T23:50:02.727441+00:00"
+  },
+  {
+   "started_utc": "2026-11-28T00:04:30.780675+00:00",
+   "mode": "mode=LIVE ai=['fa_ai', 'en_ai'] official=[]",
+   "analysis": {
+    "timezone": "Asia/Tehran",
+    "windows": [
+     "06–07",
+     "09–10",
+     "12–13",
+     "18–19"
+    ],
+    "active_slot": null,
+    "published": [],
+    "sender": "cloudflare",
+    "prepared": 0,
+    "enqueued": 0,
+    "slot_status": "outside publication windows",
+    "ready_pairs": 0,
+    "next_window": "2026-11-28T06:00:00+03:30"
+   },
+   "published": [],
+   "news": {
+    "note": "not invoked by analysis-only worker"
+   },
+   "cloudflare": "configured",
+   "finished_utc": "2026-11-28T00:08:36.450342+00:00"
   }
  ],
  "last_batch_utc": "2026-10-24T23:04:11.309163+00:00",
